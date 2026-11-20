@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>English Trainer</title>
+<style>
+:root{
+  --bg:#f6f5f1; --card:#ffffff; --ink:#1d2433; --muted:#667085; --line:#e3e0d8;
+  --accent:#1f5fd6; --accent-ink:#ffffff; --ok:#17794a; --ok-bg:#e3f4ea;
+  --warn:#9a6200; --warn-bg:#fff1d6; --bad:#b42318; --bad-bg:#fde7e5;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#14171f; --card:#1c202b; --ink:#e8eaf0; --muted:#98a2b3; --line:#2d3342;
+    --accent:#6d9bff; --accent-ink:#0c1530; --ok:#5fd39a; --ok-bg:#16301f;
+    --warn:#f5c16c; --warn-bg:#35280f; --bad:#ff8e84; --bad-bg:#3a1a18;
+  }
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{background:var(--card);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+.bar{max-width:920px;margin:0 auto;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.brand{font-weight:700;font-size:18px;margin-right:auto}
+nav{display:flex;gap:4px;flex-wrap:wrap}
+nav button{background:none;border:0;padding:8px 12px;border-radius:8px;font:inherit;color:var(--muted);cursor:pointer}
+nav button[aria-current="page"]{background:var(--accent);color:var(--accent-ink);font-weight:600}
+.pill{font-size:12px;padding:2px 8px;border-radius:999px;border:1px solid var(--line);color:var(--muted)}
+.pill.on{color:var(--ok);border-color:var(--ok)}
+main{max-width:920px;margin:0 auto;padding:20px 16px 60px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;margin-bottom:16px}
+h2{margin:0 0 4px;font-size:20px} h3{margin:0 0 8px;font-size:16px}
+.muted{color:var(--muted);font-size:14px}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.row.end{justify-content:flex-end}
+.grow{flex:1 1 180px;min-width:0}
+input[type=text],textarea,select{width:100%;font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+textarea{min-height:130px;resize:vertical}
+input:focus,textarea:focus,select:focus{outline:2px solid var(--accent);outline-offset:1px}
+button.btn{font:inherit;border-radius:10px;padding:9px 16px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
+button.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);font-weight:600}
+button.btn.danger{color:var(--bad)}
+button.btn:disabled{opacity:.5;cursor:default}
+.prompt{font-size:24px;line-height:1.35;margin:10px 0 16px;font-weight:600}
+.stage{font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+.box{border-radius:10px;padding:12px 14px;margin-top:12px;font-size:15px}
+.box.ok{background:var(--ok-bg);color:var(--ok)} .box.bad{background:var(--bad-bg);color:var(--bad)}
+.box.warn{background:var(--warn-bg);color:var(--warn)} .box.info{background:var(--bg);border:1px solid var(--line)}
+.marks{font-size:18px;line-height:2;margin-top:6px}
+.mk{padding:2px 7px;border-radius:6px;margin-right:2px}
+.mk.ok{background:var(--ok-bg);color:var(--ok)} .mk.close{background:var(--warn-bg);color:var(--warn)} .mk.wrong{background:var(--bad-bg);color:var(--bad)}
+.legend{font-size:12px;color:var(--muted);margin-top:4px}
+ul.fix{list-style:none;margin:8px 0 0;padding:0} ul.fix li{padding:10px 0;border-top:1px solid var(--line)}
+.tag{font-size:11px;font-weight:700;text-transform:uppercase;padding:1px 7px;border-radius:999px;background:var(--bg);border:1px solid var(--line);margin-right:6px;color:var(--muted)}
+.old{color:var(--bad);text-decoration:line-through} .new{color:var(--ok);font-weight:600}
+.list button.item{display:block;width:100%;text-align:left;background:none;border:0;border-top:1px solid var(--line);padding:12px 4px;font:inherit;color:inherit;cursor:pointer}
+.list button.item:first-child{border-top:0}
+.list button.item:hover{background:var(--bg)}
+.status-solved{color:var(--ok);font-weight:600} .status-pending{color:var(--warn);font-weight:600}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:10px;margin-bottom:16px}
+.stat{background:var(--bg);border-radius:10px;padding:10px 12px} .stat b{font-size:22px;display:block}
+table{width:100%;border-collapse:collapse;font-size:15px}
+th{text-align:left;color:var(--muted);font-weight:600;font-size:13px}
+td,th{padding:8px 6px;border-top:1px solid var(--line);vertical-align:top}
+td input[type=text]{padding:6px 8px;font-size:14px}
+.ex{color:var(--muted);font-size:13px}
+.big{font-size:34px;font-weight:700;text-align:center;margin:14px 0 4px}
+.center{text-align:center}
+details summary{cursor:pointer;font-weight:600}
+label.chk{display:flex;gap:8px;align-items:flex-start;padding:6px 0}
+@media (max-width:560px){ .prompt{font-size:20px} th.hide,td.hide{display:none} }
+</style>
+</head>
+<body>
+<header>
+  <div class="bar">
+    <div class="brand">English Trainer</div>
+    <nav id="nav">
+      <button data-tab="phrases">Frases</button>
+      <button data-tab="texts">Textos</button>
+      <button data-tab="vocab">Vocabulário</button>
+      <button data-tab="review">Revisão</button>
+      <button data-tab="settings">Ajustes</button>
+    </nav>
+    <span id="ai" class="pill" title="">IA</span>
+  </div>
+</header>
+<main id="view"></main>
+
+<script>
+"use strict";
+// ---------------------------------------------------------------- utilidades
+const view = document.getElementById("view");
+
+function h(tag, props = {}, ...kids) {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(props || {})) {
+    if (v == null || v === false) continue;
+    if (k === "class") e.className = v;
+    else if (k.startsWith("on")) e.addEventListener(k.slice(2), v);
+    else if (k === "value") e.value = v;
+    else if (v === true) e.setAttribute(k, "");
+    else e.setAttribute(k, v);
+  }
+  for (const kid of kids.flat(Infinity)) {
+    if (kid == null || kid === false) continue;
+    e.append(kid.nodeType ? kid : document.createTextNode(String(kid)));
+  }
+  return e;
+}
+
+// substitui o conteúdo de um elemento ignorando null/false (o replaceChildren nativo escreveria "null")
+function put(el, ...kids) {
+  el.replaceChildren(...kids.flat(Infinity).filter((k) => k != null && k !== false));
+}
+
+async function api(path, opts = {}) {
+  const res = await fetch(path, {
+    ...opts,
+    headers: { "Content-Type": "application/json" },
+    body: opts.body !== undefined ? JSON.stringify(opts.body) : undefined,
+  });
+  if (res.status === 204) return null;
+  let data = null;
+  try { data = await res.json(); } catch (_) { /* sem corpo */ }
+  if (!res.ok) {
+    const d = data && data.detail;
+    throw new Error(typeof d === "string" ? d : Array.isArray(d) ? "Confira os campos preenchidos." : "Erro " + res.status);
+  }
+  return data;
+}
+
+const STATUS_TIP = { ok: "certa", close: "quase: erro de digitação ou acento", wrong: "errada" };
+const KIND = {
+  portuguese: "Em português", grammar: "Gramática", spelling: "Ortografia", vocabulary: "Vocabulário",
+  missing: "Faltou", extra: "Sobrou", meaning: "Sentido", wrong: "Errado",
+};
+
+function marksEl(marks, missing = 0) {
+  const out = h("div", {},
+    h("div", { class: "marks" }, marks.map((m) => [h("span", { class: "mk " + m.status, title: STATUS_TIP[m.status] }, m.text), " "])),
+    h("div", { class: "legend" }, "verde = certa · amarelo = quase (digitação/acento) · vermelho = errada"));
+  if (missing > 0) out.append(h("div", { class: "box warn" }, `Faltam ${missing} palavra(s) na sua resposta.`));
+  return out;
+}
+
+function fixList(items) {
+  if (!items || !items.length) return null;
+  return h("ul", { class: "fix" }, items.map((c) =>
+    h("li", {},
+      h("span", { class: "tag" }, KIND[c.kind] || c.kind),
+      c.you_wrote ? h("span", { class: "old" }, c.you_wrote) : null,
+      c.you_wrote && c.should_be ? " → " : null,
+      c.should_be ? h("span", { class: "new" }, c.should_be) : null,
+      c.explanation ? h("div", { class: "muted" }, c.explanation) : null)));
+}
+
+function errBox(e) { return h("div", { class: "box bad" }, e.message || String(e)); }
+
+const state = { dialogId: null, textId: null, ai: false };
+
+// ---------------------------------------------------------------- navegação
+const tabs = { phrases: viewPhrases, texts: viewTexts, vocab: viewVocab, review: viewReview, settings: viewSettings };
+
+let currentTab = null;
+
+async function go(tab) {
+  currentTab = tab;
+  document.querySelectorAll("#nav button").forEach((b) => {
+    if (b.dataset.tab === tab) b.setAttribute("aria-current", "page"); else b.removeAttribute("aria-current");
+  });
+  put(view, h("p", { class: "muted" }, "Carregando…"));
+  try { await tabs[tab](); } catch (e) { put(view, errBox(e)); }
+  location.hash = tab;
+}
+document.getElementById("nav").addEventListener("click", (ev) => {
+  const b = ev.target.closest("button[data-tab]");
+  if (b) go(b.dataset.tab);
+});
+
+// ---------------------------------------------------------------- FRASES
+async function viewPhrases() {
+  const dialogs = await api("/api/dialogs");
+  if (state.dialogId !== null && !dialogs.some((d) => d.id === state.dialogId)) state.dialogId = null;
+
+  const st = { phrase: null, stage: 1, pt: "", finished: false, revealed: null, result: null, note: "" };
+  const card = h("div", { class: "card" });
+  const head = h("div", { class: "card" });
+
+  const select = h("select", { "aria-label": "Diálogo" },
+    h("option", { value: "" }, "Todos os diálogos (aleatório)"),
+    dialogs.map((d) => h("option", { value: d.id, selected: d.id === state.dialogId }, `${d.title}${d.level ? " · " + d.level : ""} — ${d.done}/${d.phrase_count}`)));
+  select.addEventListener("change", () => { state.dialogId = select.value ? Number(select.value) : null; viewPhrases(); });
+
+  const addBox = h("div", {});
+  const addBtn = h("button", { class: "btn", onclick: () => showAdd() }, "+ Adicionar");
+  const delBtn = state.dialogId === null ? null : h("button", { class: "btn danger", onclick: async () => {
+    if (!confirm("Apagar este diálogo e todas as suas frases?")) return;
+    await api(`/api/dialogs/${state.dialogId}`, { method: "DELETE" });
+    state.dialogId = null; viewPhrases();
+  } }, "Apagar diálogo");
+  head.append(h("h2", {}, "Frases e diálogos"),
+    h("p", { class: "muted" }, "Veja a frase em inglês e digite em português. Ao acertar, ela inverte e você digita em inglês."),
+    h("div", { class: "row" }, h("div", { class: "grow" }, select), addBtn, delBtn), addBox);
+
+  function showAdd() {
+    const en = h("input", { type: "text", placeholder: "Frase em inglês" });
+    const pt = h("input", { type: "text", placeholder: "Tradução em português" });
+    const title = h("input", { type: "text", placeholder: "Título do diálogo" });
+    const lines = h("textarea", { placeholder: "Uma frase por linha, no formato:\nHow are you? | Como você está?\nI'm fine. | Estou bem." });
+    const msg = h("div", {});
+    put(addBox, h("div", { class: "box info" },
+      h("h3", {}, "Frase avulsa"),
+      h("div", { class: "row" }, h("div", { class: "grow" }, en), h("div", { class: "grow" }, pt),
+        h("button", { class: "btn primary", onclick: async () => {
+          try { await api("/api/phrases", { method: "POST", body: { en: en.value, pt: pt.value } }); viewPhrases(); }
+          catch (e) { put(msg, errBox(e)); }
+        } }, "Salvar")),
+      h("h3", { style: "margin-top:16px" }, "Diálogo novo"),
+      title, h("div", { style: "height:8px" }), lines,
+      h("div", { class: "row end", style: "margin-top:8px" }, h("button", { class: "btn primary", onclick: async () => {
+        const parsed = lines.value.split("\n").map((l) => l.trim()).filter(Boolean).map((l) => {
+          const [a, ...b] = l.split("|"); return { en: (a || "").trim(), pt: b.join("|").trim() };
+        });
+        if (parsed.some((p) => !p.en || !p.pt)) { put(msg, errBox(new Error("Cada linha precisa ter: inglês | português"))); return; }
+        try { const r = await api("/api/dialogs", { method: "POST", body: { title: title.value, lines: parsed } }); state.dialogId = r.id; viewPhrases(); }
+        catch (e) { put(msg, errBox(e)); }
+      } }, "Criar diálogo")), msg));
+  }
+
+  async function loadNext() {
+    const q = new URLSearchParams();
+    if (state.dialogId !== null) q.set("dialog_id", state.dialogId);
+    if (st.phrase) q.set("exclude", st.phrase.id);
+    Object.assign(st, { stage: 1, pt: "", finished: false, revealed: null, result: null, note: "" });
+    try { st.phrase = await api("/api/practice/next?" + q); } catch (e) { st.phrase = null; put(card, errBox(e)); return; }
+    render();
+  }
+
+  function render() {
+    const p = st.phrase;
+    const direction = st.stage === 1 ? "en_to_pt" : "pt_to_en";
+    const input = h("input", { type: "text", autocomplete: "off", autocapitalize: "off", spellcheck: "false",
+      placeholder: st.stage === 1 ? "Digite em português…" : "Type it in English…", "aria-label": "Sua resposta" });
+    const feedback = h("div", {});
+
+    if (st.finished) {
+      put(card, 
+        h("div", { class: "stage" }, p.dialog_title),
+        h("div", { class: "box ok" }, "Frase concluída!"),
+        h("p", { class: "prompt" }, p.prompt),
+        h("p", { class: "prompt", style: "font-weight:400" }, st.pt),
+        h("div", { class: "row end" }, h("button", { class: "btn primary", id: "next", onclick: loadNext }, "Próxima frase →")));
+      document.getElementById("next").focus();
+      return;
+    }
+
+    async function submit() {
+      if (!input.value.trim()) return;
+      try {
+        const r = await api(`/api/phrases/${p.id}/check`, { method: "POST", body: { direction, answer: input.value } });
+        if (r.correct && r.stage_complete) { st.finished = true; st.pt = r.pt; p.prompt = r.en; render(); return; }
+        if (r.correct) { st.stage = 2; st.pt = r.canonical; st.revealed = null; st.note = "Certo! Agora o inverso: escreva a mesma frase em inglês."; render(); return; }
+        put(feedback, 
+          marksEl(r.marks, r.missing),
+          r.format_issue ? h("div", { class: "box warn" }, "As palavras estão certas, mas confira maiúsculas, pontuação e espaços.") : null);
+        input.focus();
+      } catch (e) { put(feedback, errBox(e)); }
+    }
+
+    async function reveal() {
+      try {
+        const r = await api(`/api/phrases/${p.id}/reveal`, { method: "POST", body: { direction } });
+        st.revealed = r.answer;
+        put(feedback, h("div", { class: "box info" }, "Resposta: ", h("b", {}, r.answer), h("div", { class: "muted" }, "Digite-a acima para continuar.")));
+        input.focus();
+      } catch (e) { put(feedback, errBox(e)); }
+    }
+
+    input.addEventListener("keydown", (ev) => { if (ev.key === "Enter") submit(); });
+    const shown = st.stage === 1 ? p.prompt : st.pt;
+    put(card, 
+      h("div", { class: "stage" }, `${p.dialog_title}${p.speaker ? " · " + p.speaker : ""} — passo ${st.stage} de 2: ${st.stage === 1 ? "inglês → português" : "português → inglês"}`),
+      st.note ? h("div", { class: "box ok" }, st.note) : null,
+      h("p", { class: "prompt", id: "prompt" }, shown),
+      h("div", { class: "row" }, h("div", { class: "grow" }, input),
+        h("button", { class: "btn primary", id: "check", onclick: submit }, "Verificar"),
+        h("button", { class: "btn", onclick: reveal }, "Mostrar resposta")),
+      feedback);
+    input.focus();
+  }
+
+  put(view, head, card);
+  await loadNext();
+}
+
+// ---------------------------------------------------------------- TEXTOS
+async function viewTexts() {
+  const texts = await api("/api/texts");
+  const left = h("div", { class: "card list" });
+  const right = h("div", {});
+
+  function renderList(items) {
+    put(left,
+      h("div", { class: "row", style: "margin-bottom:8px" },
+        h("h3", { class: "grow", style: "margin:0" }, "Seus textos"),
+        h("button", { class: "btn primary", onclick: () => { state.textId = null; showNew(); } }, "+ Novo")),
+      items.length ? null : h("p", { class: "muted" }, "Nenhum texto ainda."),
+      items.map((t) => h("button", { class: "item", onclick: () => { state.textId = t.id; showText(t.id); } },
+        h("b", {}, t.title),
+        h("div", { class: "muted" }, h("span", { class: "status-" + t.status }, t.status === "solved" ? "Resolvido" : "Pendente"), ` · ${t.attempts} tentativa(s)`))));
+  }
+  renderList(texts);
+
+  function showNew() {
+    const title = h("input", { type: "text", placeholder: "Título (opcional)" });
+    const pt = h("textarea", { placeholder: "Cole ou escreva aqui o texto em português…" });
+    const ref = h("textarea", { style: "min-height:90px", placeholder: state.ai ? "Opcional: sua versão correta em inglês. Se deixar vazio, a IA traduz." : "Obrigatório sem IA: a versão correta em inglês, para eu poder corrigir." });
+    const msg = h("div", {});
+    const btn = h("button", { class: "btn primary", onclick: async () => {
+      btn.disabled = true; put(msg, h("div", { class: "box info" }, "Criando…"));
+      try {
+        const t = await api("/api/texts", { method: "POST", body: { title: title.value || null, pt_text: pt.value, en_reference: ref.value || null } });
+        state.textId = t.id; viewTexts();
+      } catch (e) { put(msg, errBox(e)); btn.disabled = false; }
+    } }, "Começar");
+    put(right, h("div", { class: "card" }, h("h2", {}, "Novo texto"),
+      h("p", { class: "muted" }, "Coloque o texto em português. Depois você tenta escrevê-lo em inglês."),
+      title, h("div", { style: "height:8px" }), pt, h("div", { style: "height:8px" }),
+      h("label", { class: "muted" }, "Versão correta em inglês"), ref, h("div", { class: "row end", style: "margin-top:10px" }, btn), msg));
+  }
+
+  async function showText(id) {
+    const t = await api(`/api/texts/${id}`);
+    const attempt = h("textarea", { placeholder: "Escreva em inglês. O que você não souber, deixe em português.", spellcheck: "false" });
+    attempt.value = t.status === "solved" ? "" : (t.last_attempt || "");
+    const out = h("div", {});
+    const btn = h("button", { class: "btn primary", onclick: submit }, "Corrigir");
+
+    async function submit() {
+      if (!attempt.value.trim()) return;
+      btn.disabled = true; put(out, h("div", { class: "box info" }, "Corrigindo…"));
+      try {
+        const r = await api(`/api/texts/${id}/attempt`, { method: "POST", body: { attempt: attempt.value } });
+        const parts = [];
+        if (r.accepted) {
+          parts.push(h("div", { class: "box ok" }, h("b", {}, "Texto correto! "), r.summary || "", r.words ? ` ${r.words.total} palavras foram separadas para o vocabulário (${r.words.added} novas).` : ""));
+        } else {
+          parts.push(h("div", { class: "box bad" }, h("b", {}, "Ainda não está certo. "), r.summary || "Veja as correções abaixo e tente de novo."));
+          parts.push(marksEl(r.marks, r.missing));
+        }
+        if (r.note) parts.push(h("div", { class: "box info" }, r.note));
+        const fixes = fixList(r.corrections); if (fixes) parts.push(h("h3", { style: "margin-top:14px" }, "Correções"), fixes);
+        if (!r.accepted && r.corrections && r.corrections.length) parts.push(h("p", { class: "muted" }, "As palavras que você errou foram adicionadas à revisão."));
+        put(out, ...parts);
+        // atualiza só a lista (status/tentativas) e mantém a mensagem de correção na tela
+        api("/api/texts").then(renderList).catch(() => {});
+      } catch (e) { put(out, errBox(e)); }
+      btn.disabled = false;
+    }
+
+    attempt.addEventListener("keydown", (ev) => { if (ev.key === "Enter" && (ev.ctrlKey || ev.metaKey)) submit(); });
+    const solved = t.status === "solved";
+    put(right, h("div", { class: "card" },
+      h("div", { class: "row" }, h("h2", { class: "grow" }, t.title),
+        h("button", { class: "btn danger", onclick: async () => { if (confirm("Apagar este texto?")) { await api(`/api/texts/${id}`, { method: "DELETE" }); state.textId = null; viewTexts(); } } }, "Apagar")),
+      h("div", { class: "muted" }, solved ? "Resolvido — " : "Pendente — ", `${t.attempts} tentativa(s)`),
+      h("h3", { style: "margin-top:14px" }, "Texto em português"),
+      h("div", { class: "box info", style: "white-space:pre-wrap" }, t.pt_text),
+      solved ? h("div", {}, h("h3", { style: "margin-top:14px" }, "Sua versão aprovada"), h("div", { class: "box ok", style: "white-space:pre-wrap" }, t.solved_text),
+        h("p", { class: "muted" }, "Quer praticar de novo? Escreva outra vez abaixo.")) : null,
+      h("h3", { style: "margin-top:14px" }, "Sua tradução em inglês"), attempt,
+      h("div", { class: "row end", style: "margin-top:8px" }, h("span", { class: "muted" }, "Ctrl+Enter para corrigir"), btn), out));
+  }
+
+  put(view, h("div", { class: "row", style: "align-items:flex-start" },
+    h("div", { style: "flex:1 1 240px;min-width:0" }, left), h("div", { style: "flex:3 1 380px;min-width:0" }, right)));
+  if (state.textId && texts.some((t) => t.id === state.textId)) await showText(state.textId);
+  else if (!texts.length) showNew();
+  else put(right, h("div", { class: "card" }, h("h2", {}, "Textos"), h("p", { class: "muted" }, "Escolha um texto ao lado ou crie um novo.")));
+}
+
+// ---------------------------------------------------------------- VOCABULÁRIO
+async function viewVocab() {
+  const stats = await api("/api/vocab/stats");
+  const box = h("textarea", { placeholder: "Cole aqui qualquer texto em inglês. Todas as palavras serão separadas para revisão." });
+  const msg = h("div", {});
+  const body = h("tbody", {});
+  const q = h("input", { type: "text", placeholder: "Buscar palavra…" });
+  const filter = h("select", {},
+    [["all", "Todas"], ["review", "Na revisão"], ["due", "Para revisar agora"], ["hard", "Mais difíceis"], ["no_meaning", "Sem significado"], ["common", "Palavras comuns"]]
+      .map(([v, l]) => h("option", { value: v }, l)));
+  const count = h("div", { class: "muted" });
+
+  const importBtn = h("button", { class: "btn primary", onclick: async () => {
+    importBtn.disabled = true;
+    try {
+      const r = await api("/api/vocab/import", { method: "POST", body: { text: box.value } });
+      put(msg, h("div", { class: "box ok" }, `${r.total} palavras separadas (${r.added} novas).` + (r.without_meaning ? ` ${r.without_meaning} ainda sem significado.` : "")));
+      box.value = ""; setTimeout(() => { if (currentTab === "vocab") viewVocab(); }, 1200);
+    } catch (e) { put(msg, errBox(e)); }
+    importBtn.disabled = false;
+  } }, "Separar palavras");
+
+  async function load() {
+    const p = new URLSearchParams({ filter: filter.value, q: q.value, limit: "300" });
+    const r = await api("/api/vocab?" + p);
+    count.textContent = `${r.total} palavra(s)` + (r.total > r.items.length ? ` — mostrando ${r.items.length}` : "");
+    put(body, ...r.items.map((w) => {
+      const meaning = h("input", { type: "text", value: w.meaning_pt, placeholder: "significado…", "aria-label": "Significado de " + w.word });
+      meaning.addEventListener("change", () => api(`/api/vocab/${w.id}`, { method: "PATCH", body: { meaning_pt: meaning.value } }).catch((e) => alert(e.message)));
+      const chk = h("input", { type: "checkbox", checked: w.in_review, "aria-label": "Revisar " + w.word });
+      chk.addEventListener("change", () => api(`/api/vocab/${w.id}`, { method: "PATCH", body: { in_review: chk.checked } }).catch((e) => alert(e.message)));
+      return h("tr", {}, h("td", {}, h("b", {}, w.word), w.example ? h("div", { class: "ex" }, w.example) : null),
+        h("td", {}, meaning), h("td", { class: "hide" }, `${w.correct}✓ ${w.wrong}✗`), h("td", {}, chk));
+    }));
+  }
+  let timer; q.addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(load, 250); });
+  filter.addEventListener("change", load);
+
+  const fillBtn = state.ai && stats.no_meaning ? h("button", { class: "btn", onclick: async () => {
+    fillBtn.disabled = true; fillBtn.textContent = "Traduzindo…";
+    try { await api("/api/vocab/fill-meanings", { method: "POST" }); } catch (e) { alert(e.message); }
+    viewVocab();
+  } }, `Traduzir ${stats.no_meaning} palavra(s) com IA`) : null;
+
+  put(view, 
+    h("div", { class: "stats" },
+      [["Palavras", stats.total], ["Na revisão", stats.in_review], ["Para revisar", stats.due], ["Aprendidas", stats.learned], ["Sem significado", stats.no_meaning]]
+        .map(([l, v]) => h("div", { class: "stat" }, h("b", {}, v), h("span", { class: "muted" }, l)))),
+    h("div", { class: "card" }, h("h2", {}, "Separar palavras de um texto"),
+      h("p", { class: "muted" }, "Textos resolvidos e diálogos já entram aqui sozinhos. Use este campo para qualquer outro texto em inglês."),
+      box, h("div", { class: "row end", style: "margin-top:8px" }, importBtn), msg),
+    h("div", { class: "card" }, h("div", { class: "row" }, h("div", { class: "grow" }, q), h("div", {}, filter), fillBtn), count,
+      h("table", {}, h("thead", {}, h("tr", {}, h("th", {}, "Palavra"), h("th", {}, "Significado"), h("th", { class: "hide" }, "Placar"), h("th", {}, "Revisar"))), body)));
+  await load();
+}
+
+// ---------------------------------------------------------------- REVISÃO
+async function viewReview() {
+  const card = h("div", { class: "card" });
+  put(view, card);
+
+  async function next() {
+    const r = await api("/api/review/next");
+    if (r.done) {
+      put(card, h("h2", {}, "Revisão"), h("div", { class: "box ok" }, "Nada para revisar agora. Bom trabalho!"),
+        r.next_due ? h("p", { class: "muted" }, "Próxima palavra volta em " + new Date(r.next_due).toLocaleString("pt-BR") + ".") : h("p", { class: "muted" }, "Resolva textos ou importe um texto em inglês para encher a fila."));
+      return;
+    }
+    const w = r.word;
+    const input = h("input", { type: "text", autocomplete: "off", spellcheck: "false", placeholder: "Significado em português…", "aria-label": "Significado" });
+    const out = h("div", {});
+    async function submit() {
+      if (!input.value.trim()) return;
+      input.disabled = true; btn.disabled = true;
+      try {
+        const a = await api(`/api/review/${w.id}/answer`, { method: "POST", body: { answer: input.value } });
+        put(out, h("div", { class: "box " + (a.correct ? "ok" : "bad") }, a.correct ? "Certo! " : "Não foi dessa vez. ", h("b", {}, a.word), " = ", a.meaning_pt),
+          h("div", { class: "row end", style: "margin-top:10px" }, h("button", { class: "btn primary", id: "nx", onclick: next }, "Próxima →")));
+        document.getElementById("nx").focus();
+      } catch (e) { put(out, errBox(e)); input.disabled = false; btn.disabled = false; }
+    }
+    const btn = h("button", { class: "btn primary", onclick: submit }, "Verificar");
+    input.addEventListener("keydown", (ev) => { if (ev.key === "Enter") submit(); });
+    put(card, h("div", { class: "stage" }, `Revisão — ${r.remaining} restante(s)`),
+      h("div", { class: "big" }, w.word),
+      w.example ? h("p", { class: "center muted" }, "“" + w.example + "”") : null,
+      h("div", { class: "row" }, h("div", { class: "grow" }, input), btn), out);
+    input.focus();
+  }
+  await next();
+}
+
+// ---------------------------------------------------------------- AJUSTES
+async function viewSettings() {
+  const s = await api("/api/settings");
+  const acc = h("input", { type: "checkbox", checked: s.ignore_accents });
+  const strict = h("input", { type: "checkbox", checked: s.strict_exact });
+  const save = () => api("/api/settings", { method: "PUT", body: { ignore_accents: acc.checked, strict_exact: strict.checked } }).catch((e) => alert(e.message));
+  acc.addEventListener("change", save); strict.addEventListener("change", save);
+  put(view, h("div", { class: "card" }, h("h2", {}, "Ajustes"),
+    h("label", { class: "chk" }, acc, h("span", {}, h("b", {}, "Ignorar acentos"), h("div", { class: "muted" }, "Aceita “voce” no lugar de “você”. Por padrão, o acento precisa estar correto."))),
+    h("label", { class: "chk" }, strict, h("span", {}, h("b", {}, "Modo exato"), h("div", { class: "muted" }, "Maiúsculas, pontuação e espaços também precisam ser idênticos. Por padrão são ignorados."))),
+    h("p", { class: "muted" }, "Sempre valem: contrações em inglês (I'm = I am) e traduções alternativas cadastradas.")),
+    h("div", { class: "card" }, h("h3", {}, "Inteligência artificial"),
+      h("p", { class: "muted" }, state.ai
+        ? "Ativa. Ela traduz seus textos, aceita traduções equivalentes, explica os erros e traduz palavras."
+        : "Desligada. Para ativar, defina a variável de ambiente ANTHROPIC_API_KEY e reinicie o servidor. Sem ela, os textos são corrigidos contra a versão em inglês que você informa.")));
+}
+
+// ---------------------------------------------------------------- início
+(async function init() {
+  try {
+    const s = await api("/api/status");
+    state.ai = s.ai_enabled;
+    const pill = document.getElementById("ai");
+    pill.textContent = s.ai_enabled ? "IA ativa" : "IA desligada";
+    pill.classList.toggle("on", s.ai_enabled);
+    pill.title = s.ai_enabled ? "Modelo: " + s.model : "Defina ANTHROPIC_API_KEY para ativar";
+  } catch (_) { /* a página segue funcionando */ }
+  const start = location.hash.slice(1);
+  go(tabs[start] ? start : "phrases");
+})();
+</script>
+</body>
+</html>

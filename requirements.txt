@@ -1,0 +1,4 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+# Opcional: só é necessário para usar a IA (tradução, correção inteligente, significados de palavras)
+anthropic>=0.40
