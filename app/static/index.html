@@ -68,6 +68,26 @@ td input[type=text]{padding:6px 8px;font-size:14px}
 .center{text-align:center}
 details summary{cursor:pointer;font-weight:600}
 label.chk{display:flex;gap:8px;align-items:flex-start;padding:6px 0}
+.icon-btn{font:inherit;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:8px;padding:3px 9px;cursor:pointer;line-height:1.3;margin-left:4px;vertical-align:middle}
+.icon-btn:hover{background:var(--bg)}
+.icon-btn.rec{background:var(--bad-bg);border-color:var(--bad);animation:pulse 1s infinite}
+@keyframes pulse{50%{opacity:.55}}
+.subtabs{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
+.subtabs .tab{font:inherit;border:1px solid var(--line);background:var(--card);color:var(--muted);border-radius:999px;padding:6px 14px;cursor:pointer}
+.subtabs .tab[aria-current]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);font-weight:600}
+.chat{display:flex;flex-direction:column;gap:10px;margin:12px 0}
+.bubble{max-width:88%;padding:10px 14px;border-radius:14px;border:1px solid var(--line);background:var(--card)}
+.bubble.other{align-self:flex-start;background:var(--bg)}
+.bubble.me{align-self:flex-end;background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.bubble .who{font-size:12px;opacity:.75;margin-bottom:2px}
+.turn.me{align-self:flex-end;max-width:88%;display:flex;flex-direction:column;gap:6px}
+.turn.me .bubble{max-width:100%;align-self:flex-end}
+.fb{font-size:14px;border:1px solid var(--line);border-radius:10px;padding:8px 12px;background:var(--card)}
+.fb.ok{color:var(--ok);background:var(--ok-bg);border-color:transparent}
+.hide-pt .tr{display:none}
+.linkbtn{background:none;border:0;color:var(--accent);cursor:pointer;font:inherit;font-size:13px;padding:2px 0}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:10px;z-index:20;max-width:90vw;font-size:14px}
+code{background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:1px 6px;font-size:13px}
 @media (max-width:560px){ .prompt{font-size:20px} th.hide,td.hide{display:none} }
 </style>
 </head>
@@ -77,6 +97,7 @@ label.chk{display:flex;gap:8px;align-items:flex-start;padding:6px 0}
     <div class="brand">English Trainer</div>
     <nav id="nav">
       <button data-tab="phrases">Frases</button>
+      <button data-tab="conversation">Conversação</button>
       <button data-tab="texts">Textos</button>
       <button data-tab="vocab">Vocabulário</button>
       <button data-tab="review">Revisão</button>
@@ -157,15 +178,103 @@ function fixList(items) {
 
 function errBox(e) { return h("div", { class: "box bad" }, e.message || String(e)); }
 
-const state = { dialogId: null, textId: null, ai: false };
+// ---------------------------------------------------------------- áudio (voz do próprio navegador)
+function toast(msg) {
+  const t = h("div", { class: "toast", role: "status" }, msg);
+  document.body.append(t);
+  setTimeout(() => t.remove(), 4500);
+}
+
+const Voice = (() => {
+  const synth = window.speechSynthesis || null;
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition || null;
+  const prefs = { rate: 0.95, voice: "", auto: true };
+  try { Object.assign(prefs, JSON.parse(localStorage.getItem("voicePrefs") || "{}")); } catch (_) { /* sem armazenamento */ }
+  const save = () => { try { localStorage.setItem("voicePrefs", JSON.stringify(prefs)); } catch (_) { /* ignora */ } };
+
+  const englishVoices = () => (synth ? synth.getVoices().filter((v) => /^en/i.test(v.lang)) : []);
+  function pick() {
+    const list = englishVoices();
+    return list.find((v) => v.name === prefs.voice) || list.find((v) => /^en[-_]US/i.test(v.lang)) || list[0] || null;
+  }
+
+  // fala em inglês; queue=true entra na fila em vez de interromper o que já está tocando
+  function speak(text, { rate, queue } = {}) {
+    if (!synth || !text) return false;
+    if (!queue) synth.cancel();
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = "en-US";
+    u.rate = rate || prefs.rate;
+    const v = pick();
+    if (v) { u.voice = v; u.lang = v.lang; }
+    synth.speak(u);
+    return true;
+  }
+  const stop = () => { if (synth) synth.cancel(); };
+
+  const ERRORS = {
+    "not-allowed": "Permita o uso do microfone no navegador (ícone de cadeado ao lado do endereço).",
+    "service-not-allowed": "Permita o uso do microfone no navegador.",
+    "no-speech": "Não ouvi nada. Tente de novo.",
+    "audio-capture": "Nenhum microfone encontrado.",
+    network: "O reconhecimento de voz precisa de internet.",
+  };
+  let rec = null;
+  function listen(lang = "en-US") {
+    return new Promise((resolve, reject) => {
+      if (!SR) { reject(new Error("Este navegador não reconhece fala. Use o Chrome ou o Edge.")); return; }
+      if (rec) { try { rec.abort(); } catch (_) { /* já parou */ } }
+      const r = new SR();
+      rec = r;
+      r.lang = lang;
+      r.interimResults = false;
+      r.maxAlternatives = 1;
+      let got = false;
+      r.onresult = (ev) => { got = true; resolve(ev.results[0][0].transcript); };
+      r.onerror = (ev) => reject(new Error(ERRORS[ev.error] || "Erro no microfone: " + ev.error));
+      r.onend = () => { if (rec === r) rec = null; if (!got) reject(new Error("Não ouvi nada. Tente de novo.")); };
+      try { r.start(); } catch (e) { reject(e); }
+    });
+  }
+  const stopListening = () => { if (rec) { try { rec.stop(); } catch (_) { /* ignora */ } } };
+
+  return { synth, SR, prefs, save, englishVoices, speak, stop, listen, stopListening };
+})();
+
+// botão de ouvir (normal ou devagar); text pode ser uma função para ler o texto na hora do clique
+function speakBtn(text, { slow = false } = {}) {
+  const get = typeof text === "function" ? text : () => text;
+  const label = slow ? "Ouvir devagar" : "Ouvir";
+  return h("button", { class: "icon-btn", type: "button", title: label, "aria-label": label,
+    onclick: () => { if (!Voice.speak(get(), slow ? { rate: 0.6 } : {})) toast("Sem voz disponível neste navegador. Veja Ajustes → Áudio."); } },
+  slow ? "🐢" : "🔊");
+}
+
+// botão de falar no microfone; devolve null se o navegador não reconhece fala
+function micBtn(onText, lang = "en-US") {
+  if (!Voice.SR) return null;
+  const b = h("button", { class: "icon-btn", type: "button", title: "Falar no microfone", "aria-label": "Falar no microfone" }, "🎤");
+  b.addEventListener("click", async () => {
+    if (b.classList.contains("rec")) { Voice.stopListening(); return; }
+    b.classList.add("rec");
+    try { onText(await Voice.listen(lang)); } catch (e) { toast(e.message); } finally { b.classList.remove("rec"); }
+  });
+  return b;
+}
+
+const state = {
+  dialogId: null, textId: null, ai: false, phraseMode: "translate", convTab: "role", roleDialogId: null,
+  reviewMode: "meaning", reviewTI: false, vocabFilter: null,
+};
 
 // ---------------------------------------------------------------- navegação
-const tabs = { phrases: viewPhrases, texts: viewTexts, vocab: viewVocab, review: viewReview, settings: viewSettings };
+const tabs = { phrases: viewPhrases, conversation: viewConversation, texts: viewTexts, vocab: viewVocab, review: viewReview, settings: viewSettings };
 
 let currentTab = null;
 
 async function go(tab) {
   currentTab = tab;
+  Voice.stop();
   document.querySelectorAll("#nav button").forEach((b) => {
     if (b.dataset.tab === tab) b.setAttribute("aria-current", "page"); else b.removeAttribute("aria-current");
   });
@@ -179,18 +288,29 @@ document.getElementById("nav").addEventListener("click", (ev) => {
 });
 
 // ---------------------------------------------------------------- FRASES
+function dialogOptions(dialogs, selectedId) {
+  const opt = (d) => h("option", { value: d.id, selected: d.id === selectedId }, `${d.title.replace(/^TI — /, "")}${d.level ? " · " + d.level : ""} — ${d.done}/${d.phrase_count}`);
+  const it = dialogs.filter((d) => d.title.startsWith("TI — "));
+  const other = dialogs.filter((d) => !d.title.startsWith("TI — "));
+  return [h("optgroup", { label: "Desenvolvimento de software (TI)" }, it.map(opt)), h("optgroup", { label: "Dia a dia" }, other.map(opt))];
+}
+
 async function viewPhrases() {
   const dialogs = await api("/api/dialogs");
   if (state.dialogId !== null && !dialogs.some((d) => d.id === state.dialogId)) state.dialogId = null;
 
-  const st = { phrase: null, stage: 1, pt: "", finished: false, revealed: null, result: null, note: "" };
+  const st = { phrase: null, stage: 1, pt: "", finished: false, note: "" };
   const card = h("div", { class: "card" });
   const head = h("div", { class: "card" });
 
   const select = h("select", { "aria-label": "Diálogo" },
-    h("option", { value: "" }, "Todos os diálogos (aleatório)"),
-    dialogs.map((d) => h("option", { value: d.id, selected: d.id === state.dialogId }, `${d.title}${d.level ? " · " + d.level : ""} — ${d.done}/${d.phrase_count}`)));
+    h("option", { value: "" }, "Todos os diálogos (aleatório)"), dialogOptions(dialogs, state.dialogId));
   select.addEventListener("change", () => { state.dialogId = select.value ? Number(select.value) : null; viewPhrases(); });
+
+  const modeSel = h("select", { "aria-label": "Modo de prática" },
+    [["translate", "Traduzir: inglês → português → inglês"], ["dictation", "Ditado: ouvir e digitar em inglês"]]
+      .map(([v, l]) => h("option", { value: v, selected: state.phraseMode === v }, l)));
+  modeSel.addEventListener("change", () => { state.phraseMode = modeSel.value; viewPhrases(); });
 
   const addBox = h("div", {});
   const addBtn = h("button", { class: "btn", onclick: () => showAdd() }, "+ Adicionar");
@@ -200,8 +320,8 @@ async function viewPhrases() {
     state.dialogId = null; viewPhrases();
   } }, "Apagar diálogo");
   head.append(h("h2", {}, "Frases e diálogos"),
-    h("p", { class: "muted" }, "Veja a frase em inglês e digite em português. Ao acertar, ela inverte e você digita em inglês."),
-    h("div", { class: "row" }, h("div", { class: "grow" }, select), addBtn, delBtn), addBox);
+    h("p", { class: "muted" }, "Veja a frase em inglês e digite em português. Ao acertar, ela inverte e você digita em inglês. No modo Ditado você só ouve."),
+    h("div", { class: "row" }, h("div", { class: "grow" }, select), h("div", { class: "grow" }, modeSel), addBtn, delBtn), addBox);
 
   function showAdd() {
     const en = h("input", { type: "text", placeholder: "Frase em inglês" });
@@ -232,26 +352,29 @@ async function viewPhrases() {
     const q = new URLSearchParams();
     if (state.dialogId !== null) q.set("dialog_id", state.dialogId);
     if (st.phrase) q.set("exclude", st.phrase.id);
-    Object.assign(st, { stage: 1, pt: "", finished: false, revealed: null, result: null, note: "" });
+    Object.assign(st, { stage: 1, pt: "", finished: false, note: "" });
     try { st.phrase = await api("/api/practice/next?" + q); } catch (e) { st.phrase = null; put(card, errBox(e)); return; }
     render();
   }
 
   function render() {
     const p = st.phrase;
-    const direction = st.stage === 1 ? "en_to_pt" : "pt_to_en";
+    const dict = state.phraseMode === "dictation";
+    const direction = dict ? "pt_to_en" : st.stage === 1 ? "en_to_pt" : "pt_to_en";
     const input = h("input", { type: "text", autocomplete: "off", autocapitalize: "off", spellcheck: "false",
-      placeholder: st.stage === 1 ? "Digite em português…" : "Type it in English…", "aria-label": "Sua resposta" });
+      placeholder: direction === "en_to_pt" ? "Digite em português…" : "Type it in English…", "aria-label": "Sua resposta" });
     const feedback = h("div", {});
+    const mic = micBtn((t) => { input.value = t; input.focus(); }, direction === "en_to_pt" ? "pt-BR" : "en-US");
 
     if (st.finished) {
-      put(card, 
+      put(card,
         h("div", { class: "stage" }, p.dialog_title),
         h("div", { class: "box ok" }, "Frase concluída!"),
-        h("p", { class: "prompt" }, p.prompt),
+        h("p", { class: "prompt" }, p.prompt, " ", speakBtn(p.prompt), speakBtn(p.prompt, { slow: true })),
         h("p", { class: "prompt", style: "font-weight:400" }, st.pt),
         h("div", { class: "row end" }, h("button", { class: "btn primary", id: "next", onclick: loadNext }, "Próxima frase →")));
       document.getElementById("next").focus();
+      if (Voice.prefs.auto) Voice.speak(p.prompt);
       return;
     }
 
@@ -260,8 +383,8 @@ async function viewPhrases() {
       try {
         const r = await api(`/api/phrases/${p.id}/check`, { method: "POST", body: { direction, answer: input.value } });
         if (r.correct && r.stage_complete) { st.finished = true; st.pt = r.pt; p.prompt = r.en; render(); return; }
-        if (r.correct) { st.stage = 2; st.pt = r.canonical; st.revealed = null; st.note = "Certo! Agora o inverso: escreva a mesma frase em inglês."; render(); return; }
-        put(feedback, 
+        if (r.correct) { st.stage = 2; st.pt = r.canonical; st.note = "Certo! Agora o inverso: escreva a mesma frase em inglês."; render(); return; }
+        put(feedback,
           marksEl(r.marks, r.missing),
           r.format_issue ? h("div", { class: "box warn" }, "As palavras estão certas, mas confira maiúsculas, pontuação e espaços.") : null);
         input.focus();
@@ -271,27 +394,244 @@ async function viewPhrases() {
     async function reveal() {
       try {
         const r = await api(`/api/phrases/${p.id}/reveal`, { method: "POST", body: { direction } });
-        st.revealed = r.answer;
-        put(feedback, h("div", { class: "box info" }, "Resposta: ", h("b", {}, r.answer), h("div", { class: "muted" }, "Digite-a acima para continuar.")));
+        put(feedback, h("div", { class: "box info" }, "Resposta: ", h("b", {}, r.answer), " ", direction === "pt_to_en" ? speakBtn(r.answer) : null,
+          h("div", { class: "muted" }, "Digite-a acima para continuar.")));
         input.focus();
       } catch (e) { put(feedback, errBox(e)); }
     }
 
     input.addEventListener("keydown", (ev) => { if (ev.key === "Enter") submit(); });
-    const shown = st.stage === 1 ? p.prompt : st.pt;
-    put(card, 
-      h("div", { class: "stage" }, `${p.dialog_title}${p.speaker ? " · " + p.speaker : ""} — passo ${st.stage} de 2: ${st.stage === 1 ? "inglês → português" : "português → inglês"}`),
+    let promptEl;
+    if (dict) {
+      promptEl = h("div", {},
+        h("p", { class: "prompt", id: "prompt" }, "🎧 Ouça e digite em inglês o que você ouviu"),
+        h("div", { class: "row", style: "margin-bottom:12px" }, speakBtn(p.prompt), speakBtn(p.prompt, { slow: true }),
+          Voice.synth ? null : h("span", { class: "muted" }, "Sem voz neste navegador: veja Ajustes → Áudio.")));
+    } else {
+      const showEn = st.stage === 1;
+      promptEl = h("p", { class: "prompt", id: "prompt" }, showEn ? p.prompt : st.pt,
+        showEn ? [" ", speakBtn(p.prompt), speakBtn(p.prompt, { slow: true })] : null);
+    }
+    put(card,
+      h("div", { class: "stage" }, `${p.dialog_title}${p.speaker ? " · " + p.speaker : ""} — ${dict ? "ditado" : `passo ${st.stage} de 2: ${st.stage === 1 ? "inglês → português" : "português → inglês"}`}`),
       st.note ? h("div", { class: "box ok" }, st.note) : null,
-      h("p", { class: "prompt", id: "prompt" }, shown),
-      h("div", { class: "row" }, h("div", { class: "grow" }, input),
+      promptEl,
+      h("div", { class: "row" }, h("div", { class: "grow" }, input), mic,
         h("button", { class: "btn primary", id: "check", onclick: submit }, "Verificar"),
         h("button", { class: "btn", onclick: reveal }, "Mostrar resposta")),
       feedback);
     input.focus();
+    // fala a frase em inglês ao aparecer (ditado e passo 1); desligue em Ajustes → Áudio
+    if (Voice.prefs.auto && (dict || st.stage === 1)) Voice.speak(p.prompt);
   }
 
   put(view, head, card);
   await loadNext();
+}
+
+// ---------------------------------------------------------------- CONVERSAÇÃO
+async function viewConversation() {
+  const body = h("div", {});
+  const defs = [["role", "Interpretar um diálogo"], ["ai", "Conversar com a IA"]];
+  const buttons = defs.map(([id, label]) => h("button", { class: "tab", "data-sub": id, onclick: () => choose(id) }, label));
+  function choose(id) {
+    state.convTab = id;
+    buttons.forEach((b) => b.toggleAttribute("aria-current", b.dataset.sub === id));
+    (id === "role" ? roleplayView : chatView)(body).catch((e) => put(body, errBox(e)));
+  }
+  put(view, h("div", { class: "card" },
+    h("h2", {}, "Conversação"),
+    h("p", { class: "muted" }, "Pratique responder como numa conversa de verdade: ouvindo, falando ou digitando."),
+    h("div", { class: "subtabs" }, buttons)), body);
+  choose(state.convTab);
+}
+
+// ---- interpretar um diálogo: os outros personagens falam, você responde em inglês
+async function roleplayView(body) {
+  const dialogs = (await api("/api/dialogs")).filter((d) => d.speakers >= 2);
+  const sel = h("select", { "aria-label": "Diálogo" }, dialogOptions(dialogs, state.roleDialogId));
+  const roles = h("div", { class: "row" });
+  const start = h("button", { class: "btn primary" }, "Começar");
+
+  async function loadRoles() {
+    const r = await api(`/api/roleplay/${sel.value}`);
+    state.roleDialogId = Number(sel.value);
+    put(roles, h("span", { class: "muted" }, "Você é:"), r.speakers.map((sp, i) =>
+      h("label", { class: "chk" }, h("input", { type: "radio", name: "role", value: sp, checked: i === Math.min(1, r.speakers.length - 1) }), sp)));
+  }
+  sel.addEventListener("change", () => loadRoles().catch((e) => put(roles, errBox(e))));
+  start.addEventListener("click", () => {
+    const chosen = roles.querySelector("input[name=role]:checked");
+    if (chosen) run(Number(sel.value), chosen.value);
+  });
+
+  put(body, h("div", { class: "card" },
+    h("p", { class: "muted" }, "Escolha um diálogo e seu personagem. As falas dos outros são faladas em inglês; nas suas, você vê a dica em português e responde em inglês (digitando ou falando)."),
+    h("div", { class: "row" }, h("div", { class: "grow" }, sel)), roles,
+    h("div", { class: "row end", style: "margin-top:8px" }, start)));
+  await loadRoles();
+
+  async function run(dialogId, role) {
+    const data = await api(`/api/roleplay/${dialogId}?role=${encodeURIComponent(role)}`);
+    const chat = h("div", { class: "chat" });
+    const panel = h("div", { class: "card" });
+    const trChk = h("input", { type: "checkbox", checked: true });
+    trChk.addEventListener("change", () => chat.classList.toggle("hide-pt", !trChk.checked));
+    let i = 0, mistakes = 0;
+
+    const bubble = (line, text, mine) => h("div", { class: "bubble " + (mine ? "me" : "other") },
+      h("div", { class: "who" }, line.speaker || ""),
+      h("div", {}, text, " ", mine ? null : [speakBtn(text), speakBtn(text, { slow: true })]),
+      mine ? null : h("div", { class: "muted tr" }, line.pt));
+
+    function next() {
+      while (i < data.lines.length && !data.lines[i].mine) {
+        const l = data.lines[i++];
+        chat.append(bubble(l, l.en, false));
+        if (Voice.prefs.auto) Voice.speak(l.en, { queue: true });
+      }
+      if (i >= data.lines.length) { finish(); return; }
+      ask(data.lines[i]);
+      if (chat.lastChild) chat.lastChild.scrollIntoView({ block: "nearest" });
+    }
+
+    function ask(line) {
+      const input = h("input", { type: "text", autocomplete: "off", autocapitalize: "off", spellcheck: "false",
+        placeholder: "Responda em inglês…", "aria-label": "Sua resposta em inglês" });
+      const feedback = h("div", {});
+      const mic = micBtn((t) => { input.value = t; input.focus(); }, "en-US");
+      async function submit() {
+        if (!input.value.trim()) return;
+        try {
+          const r = await api(`/api/phrases/${line.id}/check`, { method: "POST", body: { direction: "pt_to_en", answer: input.value } });
+          if (r.correct) {
+            chat.append(bubble(line, r.canonical, true));
+            if (Voice.prefs.auto) Voice.speak(r.canonical, { queue: true });
+            i++; next(); return;
+          }
+          mistakes++;
+          put(feedback, marksEl(r.marks, r.missing));
+          input.focus();
+        } catch (e) { put(feedback, errBox(e)); }
+      }
+      async function reveal() {
+        try {
+          const r = await api(`/api/phrases/${line.id}/reveal`, { method: "POST", body: { direction: "pt_to_en" } });
+          mistakes++;
+          put(feedback, h("div", { class: "box info" }, "Resposta: ", h("b", {}, r.answer), " ", speakBtn(r.answer), h("div", { class: "muted" }, "Digite-a acima para continuar.")));
+        } catch (e) { put(feedback, errBox(e)); }
+      }
+      input.addEventListener("keydown", (ev) => { if (ev.key === "Enter") submit(); });
+      put(panel,
+        h("div", { class: "stage" }, `Sua vez (${role})`),
+        h("div", { class: "box info", id: "hint" }, "Diga em inglês: ", h("b", {}, "“" + line.pt + "”")),
+        h("div", { class: "row", style: "margin-top:10px" }, h("div", { class: "grow" }, input), mic,
+          h("button", { class: "btn primary", id: "check", onclick: submit }, "Verificar"),
+          h("button", { class: "btn", onclick: reveal }, "Mostrar resposta")),
+        feedback);
+      input.focus();
+    }
+
+    function finish() {
+      put(panel, h("div", { class: "box ok", id: "finished" }, h("b", {}, "Diálogo concluído! "),
+        mistakes ? `${mistakes} tentativa(s) errada(s) ou resposta(s) mostrada(s).` : "Sem nenhum erro. Excelente!"),
+        h("div", { class: "row end", style: "margin-top:10px" },
+          h("button", { class: "btn", onclick: () => roleplayView(body) }, "Escolher outro"),
+          h("button", { class: "btn primary", onclick: () => run(dialogId, role) }, "Repetir")));
+    }
+
+    put(body, h("div", { class: "card" },
+      h("div", { class: "row" }, h("h3", { class: "grow", style: "margin:0" }, data.title),
+        h("label", { class: "chk" }, trChk, "Mostrar tradução das falas"),
+        h("button", { class: "btn", onclick: () => { Voice.stop(); roleplayView(body); } }, "Sair")),
+      chat), panel);
+    next();
+  }
+}
+
+// ---- conversa livre com a IA
+async function chatView(body) {
+  const info = await api("/api/conversation/scenarios");
+  if (!info.ai_enabled) {
+    put(body, h("div", { class: "card" }, h("h3", {}, "Conversa livre com a IA"),
+      h("div", { class: "box warn" }, "A conversa livre precisa da IA. Defina a variável ANTHROPIC_API_KEY e reinicie o servidor (veja Ajustes)."),
+      h("p", { class: "muted" }, "Enquanto isso, use “Interpretar um diálogo”: funciona sem IA e inclui cenários de TI (daily, code review, incidente, entrevista).")));
+    return;
+  }
+  const scenario = h("select", { "aria-label": "Cenário" }, info.scenarios.map((s) => h("option", { value: s.id }, s.title)));
+  const level = h("select", { "aria-label": "Nível" }, [["A2", "Nível A2 (iniciante)"], ["B1", "Nível B1 (intermediário)"], ["B2", "Nível B2 (avançado)"]]
+    .map(([v, l]) => h("option", { value: v, selected: v === "B1" }, l)));
+  const about = h("p", { class: "muted" });
+  const showAbout = () => { about.textContent = info.scenarios.find((s) => s.id === scenario.value).description; };
+  scenario.addEventListener("change", showAbout);
+  showAbout();
+  put(body, h("div", { class: "card" },
+    h("p", { class: "muted" }, "A IA interpreta um colega de trabalho, responde em inglês e corrige cada mensagem sua. Pode misturar português onde não souber."),
+    h("div", { class: "row" }, h("div", { class: "grow" }, scenario), h("div", { class: "grow" }, level)), about,
+    h("div", { class: "row end" }, h("button", { class: "btn primary", id: "startchat", onclick: () => runChat(info.scenarios.find((s) => s.id === scenario.value), level.value) }, "Começar a conversa"))));
+
+  function runChat(sc, lvl) {
+    const history = [];
+    let learned = 0, busy = false;
+    const log = h("div", { class: "chat" });
+    const counter = h("div", { class: "muted" });
+    const input = h("input", { type: "text", autocomplete: "off", spellcheck: "false", placeholder: "Write your answer in English…", "aria-label": "Sua mensagem" });
+    const sendBtn = h("button", { class: "btn primary", id: "send" }, "Enviar");
+    const mic = micBtn((t) => { input.value = t; input.focus(); }, "en-US");
+
+    function partnerBubble(r) {
+      const tr = h("div", { class: "muted tr", style: "display:none" }, r.reply_pt);
+      return h("div", { class: "bubble other" }, h("div", { class: "who" }, sc.title),
+        h("div", {}, r.reply, " ", speakBtn(r.reply), speakBtn(r.reply, { slow: true })),
+        r.reply_pt ? [h("button", { class: "linkbtn", type: "button", onclick: (ev) => { tr.style.display = tr.style.display === "none" ? "block" : "none"; ev.target.textContent = tr.style.display === "none" ? "ver tradução" : "ocultar tradução"; } }, "ver tradução"), tr] : null);
+    }
+    function correctionBlock(c) {
+      if (!c.needs_fix) return h("div", { class: "fb ok" }, "✓ Sem erros. Muito bom!");
+      return h("div", { class: "fb" },
+        c.corrected ? h("div", {}, h("span", { class: "tag" }, "Melhor assim"), h("b", {}, c.corrected), " ", speakBtn(c.corrected)) : null,
+        c.summary ? h("div", { class: "muted" }, c.summary) : null, fixList(c.items));
+    }
+
+    async function turn(message) {
+      if (busy) return;
+      busy = true; sendBtn.disabled = true;
+      const mine = message ? h("div", { class: "turn me" }, h("div", { class: "bubble me" }, h("div", { class: "who" }, "Você"), h("div", {}, message))) : null;
+      if (mine) log.append(mine);
+      const thinking = h("div", { class: "bubble other muted" }, "…");
+      log.append(thinking);
+      try {
+        const r = await api("/api/conversation/turn", { method: "POST", body: { scenario_id: sc.id, level: lvl, history: history.slice(-30), message } });
+        thinking.remove();
+        if (message) { history.push({ role: "learner", text: message }); mine.append(correctionBlock(r.correction)); }
+        history.push({ role: "partner", text: r.reply });
+        log.append(partnerBubble(r));
+        if (Voice.prefs.auto) Voice.speak(r.reply);
+        learned += r.learned || 0;
+        counter.textContent = learned ? `${learned} palavra(s) desta conversa foram para a revisão.` : "";
+        if (log.lastChild) log.lastChild.scrollIntoView({ block: "nearest" });
+      } catch (e) {
+        thinking.remove(); if (mine) mine.remove();
+        input.value = message;
+        log.append(errBox(e));
+      }
+      busy = false; sendBtn.disabled = false; input.focus();
+    }
+    function send() {
+      const m = input.value.trim();
+      if (!m) return;
+      input.value = "";
+      turn(m);
+    }
+    sendBtn.addEventListener("click", send);
+    input.addEventListener("keydown", (ev) => { if (ev.key === "Enter") send(); });
+
+    put(body, h("div", { class: "card" },
+      h("div", { class: "row" }, h("h3", { class: "grow", style: "margin:0" }, `${sc.title} · ${lvl}`),
+        h("button", { class: "btn", onclick: () => { Voice.stop(); chatView(body); } }, "Nova conversa")),
+      log, counter,
+      h("div", { class: "row", style: "margin-top:10px" }, h("div", { class: "grow" }, input), mic, sendBtn)));
+    turn("");
+  }
 }
 
 // ---------------------------------------------------------------- TEXTOS
@@ -368,6 +708,7 @@ async function viewTexts() {
       h("h3", { style: "margin-top:14px" }, "Texto em português"),
       h("div", { class: "box info", style: "white-space:pre-wrap" }, t.pt_text),
       solved ? h("div", {}, h("h3", { style: "margin-top:14px" }, "Sua versão aprovada"), h("div", { class: "box ok", style: "white-space:pre-wrap" }, t.solved_text),
+        h("div", { class: "row" }, speakBtn(t.solved_text), speakBtn(t.solved_text, { slow: true })),
         h("p", { class: "muted" }, "Quer praticar de novo? Escreva outra vez abaixo.")) : null,
       h("h3", { style: "margin-top:14px" }, "Sua tradução em inglês"), attempt,
       h("div", { class: "row end", style: "margin-top:8px" }, h("span", { class: "muted" }, "Ctrl+Enter para corrigir"), btn), out));
@@ -387,9 +728,12 @@ async function viewVocab() {
   const msg = h("div", {});
   const body = h("tbody", {});
   const q = h("input", { type: "text", placeholder: "Buscar palavra…" });
-  const filter = h("select", {},
-    [["all", "Todas"], ["review", "Na revisão"], ["due", "Para revisar agora"], ["hard", "Mais difíceis"], ["no_meaning", "Sem significado"], ["common", "Palavras comuns"]]
-      .map(([v, l]) => h("option", { value: v }, l)));
+  const filters = [["all", "Todas"], ["review", "Na revisão"], ["due", "Para revisar agora"], ["learning", "Em aprendizado"],
+    ["learned", "Aprendidas"], ["hard", "Mais difíceis"], ["no_meaning", "Sem significado"], ["common", "Palavras comuns"]];
+  const startFilter = state.vocabFilter || "all";
+  state.vocabFilter = null;
+  const filter = h("select", { "aria-label": "Filtro" }, filters.map(([v, l]) => h("option", { value: v, selected: v === startFilter }, l)));
+  const tiChk = h("input", { type: "checkbox" });
   const count = h("div", { class: "muted" });
 
   const importBtn = h("button", { class: "btn primary", onclick: async () => {
@@ -404,19 +748,23 @@ async function viewVocab() {
 
   async function load() {
     const p = new URLSearchParams({ filter: filter.value, q: q.value, limit: "300" });
+    if (tiChk.checked) p.set("tag", "ti");
     const r = await api("/api/vocab?" + p);
     count.textContent = `${r.total} palavra(s)` + (r.total > r.items.length ? ` — mostrando ${r.items.length}` : "");
-    put(body, ...r.items.map((w) => {
+    put(body, r.items.map((w) => {
       const meaning = h("input", { type: "text", value: w.meaning_pt, placeholder: "significado…", "aria-label": "Significado de " + w.word });
       meaning.addEventListener("change", () => api(`/api/vocab/${w.id}`, { method: "PATCH", body: { meaning_pt: meaning.value } }).catch((e) => alert(e.message)));
       const chk = h("input", { type: "checkbox", checked: w.in_review, "aria-label": "Revisar " + w.word });
       chk.addEventListener("change", () => api(`/api/vocab/${w.id}`, { method: "PATCH", body: { in_review: chk.checked } }).catch((e) => alert(e.message)));
-      return h("tr", {}, h("td", {}, h("b", {}, w.word), w.example ? h("div", { class: "ex" }, w.example) : null),
+      return h("tr", {},
+        h("td", {}, h("b", {}, w.word), " ", w.tag === "ti" ? h("span", { class: "tag" }, "TI") : null, speakBtn(w.word),
+          w.example ? h("div", { class: "ex" }, w.example, " ", speakBtn(w.example)) : null),
         h("td", {}, meaning), h("td", { class: "hide" }, `${w.correct}✓ ${w.wrong}✗`), h("td", {}, chk));
     }));
   }
   let timer; q.addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(load, 250); });
   filter.addEventListener("change", load);
+  tiChk.addEventListener("change", load);
 
   const fillBtn = state.ai && stats.no_meaning ? h("button", { class: "btn", onclick: async () => {
     fillBtn.disabled = true; fillBtn.textContent = "Traduzindo…";
@@ -424,50 +772,80 @@ async function viewVocab() {
     viewVocab();
   } }, `Traduzir ${stats.no_meaning} palavra(s) com IA`) : null;
 
-  put(view, 
+  put(view,
     h("div", { class: "stats" },
-      [["Palavras", stats.total], ["Na revisão", stats.in_review], ["Para revisar", stats.due], ["Aprendidas", stats.learned], ["Sem significado", stats.no_meaning]]
+      [["Palavras", stats.total], ["Na revisão", stats.in_review], ["Para revisar", stats.due], ["Em aprendizado", stats.learning],
+        ["Aprendidas", stats.learned], ["Sem significado", stats.no_meaning], ["Vocabulário de TI", `${stats.ti_learned}/${stats.ti_total}`]]
         .map(([l, v]) => h("div", { class: "stat" }, h("b", {}, v), h("span", { class: "muted" }, l)))),
     h("div", { class: "card" }, h("h2", {}, "Separar palavras de um texto"),
-      h("p", { class: "muted" }, "Textos resolvidos e diálogos já entram aqui sozinhos. Use este campo para qualquer outro texto em inglês."),
+      h("p", { class: "muted" }, "Textos resolvidos, diálogos e conversas já mandam as palavras para cá sozinhos. Use este campo para qualquer outro texto em inglês."),
       box, h("div", { class: "row end", style: "margin-top:8px" }, importBtn), msg),
-    h("div", { class: "card" }, h("div", { class: "row" }, h("div", { class: "grow" }, q), h("div", {}, filter), fillBtn), count,
+    h("div", { class: "card" }, h("div", { class: "row" }, h("div", { class: "grow" }, q), h("div", {}, filter),
+      h("label", { class: "chk" }, tiChk, "Só TI"), fillBtn), count,
       h("table", {}, h("thead", {}, h("tr", {}, h("th", {}, "Palavra"), h("th", {}, "Significado"), h("th", { class: "hide" }, "Placar"), h("th", {}, "Revisar"))), body)));
   await load();
 }
 
 // ---------------------------------------------------------------- REVISÃO
 async function viewReview() {
+  const modes = [["meaning", "Ver a palavra → digitar o significado"], ["reverse", "Ver o significado → escrever a palavra"], ["listen", "Ouvir → digitar a palavra"]];
+  const modeSel = h("select", { "aria-label": "Modo da revisão" }, modes.map(([v, l]) => h("option", { value: v, selected: v === state.reviewMode }, l)));
+  const tiChk = h("input", { type: "checkbox", checked: state.reviewTI });
   const card = h("div", { class: "card" });
-  put(view, card);
+  modeSel.addEventListener("change", () => { state.reviewMode = modeSel.value; next(); });
+  tiChk.addEventListener("change", () => { state.reviewTI = tiChk.checked; next(); });
+  put(view, h("div", { class: "card" }, h("div", { class: "row" }, h("div", { class: "grow" }, modeSel),
+    h("label", { class: "chk" }, tiChk, "Só vocabulário de TI"))), card);
 
+  let seq = 0;  // mudar o modo/filtro rápido dispara várias buscas: só a última pode desenhar a tela
   async function next() {
-    const r = await api("/api/review/next");
+    const mode = state.reviewMode;
+    const mine = ++seq;
+    const r = await api(`/api/review/next?mode=${mode}${state.reviewTI ? "&tag=ti" : ""}`);
+    if (mine !== seq) return;
     if (r.done) {
-      put(card, h("h2", {}, "Revisão"), h("div", { class: "box ok" }, "Nada para revisar agora. Bom trabalho!"),
-        r.next_due ? h("p", { class: "muted" }, "Próxima palavra volta em " + new Date(r.next_due).toLocaleString("pt-BR") + ".") : h("p", { class: "muted" }, "Resolva textos ou importe um texto em inglês para encher a fila."));
+      put(card, h("h2", {}, "Revisão"), h("div", { class: "box ok" }, "Nada para revisar agora neste modo. Bom trabalho!"),
+        r.next_due ? h("p", { class: "muted" }, "Próxima palavra volta em " + new Date(r.next_due).toLocaleString("pt-BR") + ".") : null,
+        r.pending_meanings && mode !== "listen" ? h("div", { class: "box info" }, `${r.pending_meanings} palavra(s) ainda não têm significado e ficam fora deste modo. `,
+          h("button", { class: "btn", onclick: () => { state.vocabFilter = "no_meaning"; go("vocab"); } }, "Preencher agora")) : null,
+        r.pending_meanings && mode !== "listen" ? h("p", { class: "muted" }, "Dica: o modo “Ouvir → digitar” funciona mesmo sem significado.") : null);
       return;
     }
     const w = r.word;
-    const input = h("input", { type: "text", autocomplete: "off", spellcheck: "false", placeholder: "Significado em português…", "aria-label": "Significado" });
+    const input = h("input", { type: "text", autocomplete: "off", autocapitalize: "off", spellcheck: "false", "aria-label": "Sua resposta",
+      placeholder: mode === "meaning" ? "Significado em português…" : "Digite a palavra em inglês…" });
     const out = h("div", {});
+    const mic = micBtn((t) => { input.value = t; input.focus(); }, mode === "meaning" ? "pt-BR" : "en-US");
+
     async function submit() {
       if (!input.value.trim()) return;
       input.disabled = true; btn.disabled = true;
       try {
-        const a = await api(`/api/review/${w.id}/answer`, { method: "POST", body: { answer: input.value } });
-        put(out, h("div", { class: "box " + (a.correct ? "ok" : "bad") }, a.correct ? "Certo! " : "Não foi dessa vez. ", h("b", {}, a.word), " = ", a.meaning_pt),
+        const a = await api(`/api/review/${w.id}/answer`, { method: "POST", body: { answer: input.value, mode } });
+        put(out, h("div", { class: "box " + (a.correct ? "ok" : "bad") }, a.correct ? "Certo! " : "Não foi dessa vez. ", h("b", {}, a.word), " ", speakBtn(a.word),
+          a.meaning_pt ? [" = ", a.meaning_pt] : null,
+          a.example ? h("div", { class: "ex" }, a.example, " ", speakBtn(a.example)) : null),
           h("div", { class: "row end", style: "margin-top:10px" }, h("button", { class: "btn primary", id: "nx", onclick: next }, "Próxima →")));
         document.getElementById("nx").focus();
       } catch (e) { put(out, errBox(e)); input.disabled = false; btn.disabled = false; }
     }
-    const btn = h("button", { class: "btn primary", onclick: submit }, "Verificar");
+    const btn = h("button", { class: "btn primary", id: "check", onclick: submit }, "Verificar");
     input.addEventListener("keydown", (ev) => { if (ev.key === "Enter") submit(); });
-    put(card, h("div", { class: "stage" }, `Revisão — ${r.remaining} restante(s)`),
-      h("div", { class: "big" }, w.word),
-      w.example ? h("p", { class: "center muted" }, "“" + w.example + "”") : null,
-      h("div", { class: "row" }, h("div", { class: "grow" }, input), btn), out);
+
+    let front;
+    if (mode === "meaning") {
+      front = [h("div", { class: "big", id: "front" }, w.word), h("div", { class: "row", style: "justify-content:center" }, speakBtn(w.word), speakBtn(w.word, { slow: true })),
+        w.example ? h("p", { class: "center muted" }, "“" + w.example + "” ", speakBtn(w.example)) : null];
+    } else if (mode === "reverse") {
+      front = [h("div", { class: "center muted" }, "Como se diz em inglês?"), h("div", { class: "big", id: "front" }, w.meaning_pt)];
+    } else {
+      front = [h("div", { class: "center muted" }, "Ouça e digite a palavra em inglês"),
+        h("div", { class: "row", style: "justify-content:center;margin:12px 0" }, speakBtn(w.word), speakBtn(w.word, { slow: true }), h("span", { id: "front" }))];
+    }
+    put(card, h("div", { class: "stage" }, `Revisão — ${r.remaining} restante(s)${w.tag === "ti" ? " · TI" : ""}`), front,
+      h("div", { class: "row" }, h("div", { class: "grow" }, input), mic, btn), out);
     input.focus();
+    if (Voice.prefs.auto && mode !== "reverse") Voice.speak(w.word);
   }
   await next();
 }
@@ -479,14 +857,41 @@ async function viewSettings() {
   const strict = h("input", { type: "checkbox", checked: s.strict_exact });
   const save = () => api("/api/settings", { method: "PUT", body: { ignore_accents: acc.checked, strict_exact: strict.checked } }).catch((e) => alert(e.message));
   acc.addEventListener("change", save); strict.addEventListener("change", save);
+
+  const audio = h("div", { class: "card", id: "audio" });
+  function renderAudio() {
+    const voices = Voice.englishVoices();
+    const voiceSel = h("select", { "aria-label": "Voz" }, h("option", { value: "" }, "Automática"),
+      voices.map((v) => h("option", { value: v.name, selected: v.name === Voice.prefs.voice }, `${v.name} (${v.lang})`)));
+    voiceSel.addEventListener("change", () => { Voice.prefs.voice = voiceSel.value; Voice.save(); });
+    const rate = h("input", { type: "range", min: "0.5", max: "1.3", step: "0.05", value: String(Voice.prefs.rate), "aria-label": "Velocidade da voz" });
+    const rateLabel = h("span", { class: "muted" }, Voice.prefs.rate.toFixed(2) + "×");
+    rate.addEventListener("input", () => { Voice.prefs.rate = Number(rate.value); rateLabel.textContent = Voice.prefs.rate.toFixed(2) + "×"; Voice.save(); });
+    const auto = h("input", { type: "checkbox", checked: Voice.prefs.auto });
+    auto.addEventListener("change", () => { Voice.prefs.auto = auto.checked; Voice.save(); });
+    put(audio, h("h3", {}, "Áudio"),
+      h("p", { class: "muted" }, "Voz: ", Voice.synth ? (voices.length ? `${voices.length} voz(es) em inglês encontrada(s).` : "nenhuma voz em inglês encontrada.") : "este navegador não tem síntese de voz.",
+        " Microfone: ", Voice.SR ? "disponível (Chrome/Edge; usa a internet)." : "indisponível neste navegador (use Chrome ou Edge)."),
+      Voice.synth && !voices.length ? h("div", { class: "box warn" },
+        "Sem voz em inglês, o app fica mudo. No Linux, o navegador precisa de uma voz do sistema: instale com ",
+        h("code", {}, "sudo apt install speech-dispatcher espeak-ng"), " e reinicie o navegador. No Windows e no macOS as vozes já vêm instaladas.") : null,
+      h("div", { class: "row" }, h("div", { class: "grow" }, voiceSel)),
+      h("div", { class: "row", style: "margin-top:8px" }, h("span", {}, "Velocidade"), h("div", { class: "grow" }, rate), rateLabel),
+      h("label", { class: "chk" }, auto, h("span", {}, h("b", {}, "Falar automaticamente"), h("div", { class: "muted" }, "Fala a frase em inglês ao aparecer (frases, ditado, conversação e revisão)."))),
+      h("div", { class: "row" }, h("button", { class: "btn", id: "testvoice", onclick: () => { if (!Voice.speak("Hello! This is a test of the English voice.")) toast("Sem voz disponível neste navegador."); } }, "🔊 Testar voz")));
+  }
+  renderAudio();
+  if (Voice.synth) Voice.synth.onvoiceschanged = () => { if (currentTab === "settings") renderAudio(); };
+
   put(view, h("div", { class: "card" }, h("h2", {}, "Ajustes"),
     h("label", { class: "chk" }, acc, h("span", {}, h("b", {}, "Ignorar acentos"), h("div", { class: "muted" }, "Aceita “voce” no lugar de “você”. Por padrão, o acento precisa estar correto."))),
     h("label", { class: "chk" }, strict, h("span", {}, h("b", {}, "Modo exato"), h("div", { class: "muted" }, "Maiúsculas, pontuação e espaços também precisam ser idênticos. Por padrão são ignorados."))),
     h("p", { class: "muted" }, "Sempre valem: contrações em inglês (I'm = I am) e traduções alternativas cadastradas.")),
+    audio,
     h("div", { class: "card" }, h("h3", {}, "Inteligência artificial"),
       h("p", { class: "muted" }, state.ai
-        ? "Ativa. Ela traduz seus textos, aceita traduções equivalentes, explica os erros e traduz palavras."
-        : "Desligada. Para ativar, defina a variável de ambiente ANTHROPIC_API_KEY e reinicie o servidor. Sem ela, os textos são corrigidos contra a versão em inglês que você informa.")));
+        ? "Ativa. Ela traduz seus textos, aceita traduções equivalentes, explica os erros, traduz palavras e conversa com você."
+        : "Desligada. Para ativar, defina a variável de ambiente ANTHROPIC_API_KEY e reinicie o servidor. Sem ela, os textos são corrigidos contra a versão em inglês que você informa e a conversa livre fica indisponível (o role-play de diálogos funciona).")));
 }
 
 // ---------------------------------------------------------------- início

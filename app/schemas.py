@@ -66,6 +66,19 @@ class WordPatch(_In):
 
 class ReviewAnswerIn(_In):
     answer: str = Field(..., max_length=200)
+    mode: Literal["meaning", "reverse", "listen"] = "meaning"
+
+
+class ChatMessage(_In):
+    role: Literal["partner", "learner"]
+    text: str = Field(..., min_length=1, max_length=1500)
+
+
+class ChatTurnIn(_In):
+    scenario_id: str = Field(..., max_length=40)
+    level: Literal["A2", "B1", "B2"] = "B1"
+    history: list[ChatMessage] = Field(default_factory=list, max_length=40)
+    message: str = Field("", max_length=1500)
 
 
 class SettingsIn(_In):

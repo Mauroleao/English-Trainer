@@ -22,6 +22,13 @@ class FakeLLM:
         self.fail_evaluate = False
         self.meanings = {}
         self.evaluate_calls = 0
+        self.chat_result = {
+            "reply": "Hi! What did you do yesterday?",
+            "reply_pt": "Oi! O que você fez ontem?",
+            "correction": {"needs_fix": False, "corrected": "", "summary": "", "items": []},
+        }
+        self.fail_chat = False
+        self.chat_calls = []
 
     def translate(self, pt_text):
         return self.translation
@@ -31,6 +38,12 @@ class FakeLLM:
         if self.fail_evaluate:
             raise RuntimeError("fora do ar")
         return self.evaluation
+
+    def chat(self, role, level, history, message):
+        self.chat_calls.append({"role": role, "level": level, "history": history, "message": message})
+        if self.fail_chat:
+            raise RuntimeError("fora do ar")
+        return self.chat_result
 
     def word_meanings(self, items):
         return {w: self.meanings[w] for w, _ in items if w in self.meanings}

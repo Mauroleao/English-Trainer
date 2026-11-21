@@ -50,7 +50,7 @@ def _bump(db, phrase_id: int, *, completed: int = 0, mistakes: int = 0) -> None:
 @router.get("/dialogs")
 def list_dialogs(db=Depends(get_db)):
     rows = db.execute(
-        "SELECT d.id, d.title, d.level, d.description, d.builtin, COUNT(p.id) AS phrase_count, "
+        "SELECT d.id, d.title, d.level, d.description, d.builtin, COUNT(p.id) AS phrase_count, COUNT(DISTINCT p.speaker) AS speakers, "
         "COALESCE(SUM(CASE WHEN pp.completed > 0 THEN 1 ELSE 0 END), 0) AS done "
         "FROM dialogs d LEFT JOIN phrases p ON p.dialog_id = d.id "
         "LEFT JOIN phrase_progress pp ON pp.phrase_id = p.id GROUP BY d.id ORDER BY d.id"

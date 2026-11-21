@@ -8,12 +8,14 @@ def _dialog(client, title):
 # --------------------------------------------------------------------------- frases / diálogos
 def test_seed_dialogs_and_glossary(client):
     dialogs = client.get("/api/dialogs").json()
-    assert [d["title"] for d in dialogs] == ["No restaurante", "No aeroporto", "Conhecendo alguém"]
-    assert all(d["phrase_count"] == 6 and d["done"] == 0 for d in dialogs)
+    titles = [d["title"] for d in dialogs]
+    assert titles[:3] == ["No restaurante", "No aeroporto", "Conhecendo alguém"]
+    assert len(titles) == 12 and sum(t.startswith("TI — ") for t in titles) == 9
+    assert all(d["done"] == 0 and d["phrase_count"] >= 6 for d in dialogs)
     # todas as palavras dos diálogos iniciais já vêm separadas e com significado (funciona offline)
     stats = client.get("/api/vocab/stats").json()
-    assert stats["total"] > 80
-    assert stats["no_meaning"] == 0
+    assert stats["total"] > 350
+    assert stats["no_meaning"] == 0  # nenhuma palavra dos diálogos fica sem significado
 
 
 def test_phrase_flow_flips_and_requires_correct_typing(client):
@@ -199,13 +201,14 @@ def test_patch_reference_to_accept_another_translation(client):
 
 # --------------------------------------------------------------------------- vocabulário / revisão
 def test_import_english_text_separates_all_words(client):
-    r = client.post("/api/vocab/import", json={"text": "The quick brown fox jumps over the lazy dog. The dog sleeps."}).json()
-    assert r["added"] >= 8 and r["ai_will_translate"] is False
-    items = client.get("/api/vocab?q=qu").json()["items"]
-    assert [w["word"] for w in items] == ["quick"]
-    assert items[0]["example"] == "The quick brown fox jumps over the lazy dog."
+    text = "The zebra gallops over the sleepy hippo. The hippo yawns."
+    r = client.post("/api/vocab/import", json={"text": text}).json()
+    assert r["total"] == 7 and r["added"] >= 5 and r["ai_will_translate"] is False  # the, zebra, gallops, over, sleepy, hippo, yawns
+    items = client.get("/api/vocab?q=gall").json()["items"]
+    assert [w["word"] for w in items] == ["gallops"]
+    assert items[0]["example"] == "The zebra gallops over the sleepy hippo."
     assert items[0]["in_review"] is True
-    common = {w["word"] for w in client.get("/api/vocab?filter=common").json()["items"]}
+    common = {w["word"] for w in client.get("/api/vocab?filter=common&limit=2000").json()["items"]}
     assert "the" in common
     assert "the" not in {w["word"] for w in client.get("/api/vocab?filter=review&q=the").json()["items"]}
     assert client.post("/api/vocab/import", json={"text": "123 456"}).status_code == 422
