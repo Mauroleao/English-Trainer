@@ -130,6 +130,12 @@ def check_meaning(answer: str, meaning: str, settings: Settings) -> bool:
     return any(_key_without_article(v, settings) == target for v in meaning_variants(meaning))
 
 
+def check_word(answer: str, word: str) -> bool:
+    """Acerta se a palavra (ou expressão) em inglês foi digitada certa. Maiúsculas e pontuação não contam."""
+    typed = keyed(answer, "en").keys
+    return bool(typed) and typed == keyed(word, "en").keys
+
+
 def grade_word(db: sqlite3.Connection, word_id: int, correct: bool) -> sqlite3.Row:
     row = db.execute("SELECT box FROM words WHERE id = ?", (word_id,)).fetchone()
     if correct:

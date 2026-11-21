@@ -98,6 +98,10 @@ def init_db(path: str) -> None:
     Path(path).parent.mkdir(parents=True, exist_ok=True)
     with closing(connect(path)) as conn:
         conn.executescript(SCHEMA)
+        # migrações leves: bancos criados por versões anteriores ganham as colunas novas sem perder dados
+        cols = {r["name"] for r in conn.execute("PRAGMA table_info(words)")}
+        if "tag" not in cols:
+            conn.execute("ALTER TABLE words ADD COLUMN tag TEXT")  # 'ti' = vocabulário de desenvolvimento
         conn.commit()
 
 

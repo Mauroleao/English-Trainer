@@ -16,7 +16,7 @@ from fastapi.staticfiles import StaticFiles
 from .ai import get_llm_from_env
 from .db import Settings, connect, init_db, load_settings, save_settings
 from .deps import get_db, get_llm
-from .routes import phrases, texts, vocabulary
+from .routes import conversation, phrases, texts, vocabulary
 from .schemas import SettingsIn
 from .seed import seed
 
@@ -39,6 +39,7 @@ def create_app(db_path: Optional[str] = None, llm=_AUTO) -> FastAPI:
     app.state.llm = get_llm_from_env() if llm is _AUTO else llm
 
     app.include_router(phrases.router)
+    app.include_router(conversation.router)
     app.include_router(texts.router)
     app.include_router(vocabulary.router)
 
