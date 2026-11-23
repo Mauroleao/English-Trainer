@@ -1,5 +1,44 @@
-__pycache__/
-.pytest_cache/
+# Ambientes Virtuais
 .venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+*.env
+
+# Banco de dados e dados do usuário (CRÍTICO: nunca versionar dados locais, chaves e progresso)
 data/
-*.db*
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Cache de Áudio gerado localmente
+data/audio_cache/
+*.mp3
+*.wav
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Testes e Cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Configurações de IDE e Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Arquivos de Sistema Operacional
+.DS_Store
+Thumbs.db

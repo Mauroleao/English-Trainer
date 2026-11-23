@@ -81,8 +81,36 @@ async function viewProgress() {
       p.weak.length ? [h("p", { class: "muted" }, "Assuntos em que você mais erra. Reveja a lição e faça a revisão de gramática."),
         p.weak.map((w) => h("button", { class: "list-row", type: "button", onclick: () => openLesson(w.lesson_id) }, h("span", { class: "lvl" }, w.level), h("span", { style: "flex:1" }, h("b", {}, w.title), h("div", { class: "muted" }, w.unit)), h("span", { class: "muted" }, `${w.accuracy}% de acerto`)))]
         : h("p", { class: "muted" }, "Ainda sem dados suficientes. Conforme você praticar, os assuntos com mais erros aparecem aqui.")),
+    await achievementsCard(),
     h("div", { class: "card" }, h("h3", {}, "Previsão"),
       h("p", { class: "muted" }, `Nível atual: ${p.current_level}. Faltam cerca de ${p.estimate.hours_to_c1} h de estudo para o C1.`), scenariosTable(p.estimate), h("p", { class: "muted" }, p.estimate.note)));
+}
+
+// ---------------------------------------------------------------- CONQUISTAS (GAMIFICAÇÃO)
+async function achievementsCard() {
+  const card = h("div", { class: "card", id: "achievements-card" });
+  let data = null;
+  try { data = await api("/api/achievements"); } catch (_) { return null; }
+  if (!data || !data.badges) return null;
+
+  const grid = h("div", { class: "badges-grid" });
+  data.badges.forEach((b) => {
+    grid.append(h("div", { class: "badge-card " + (b.unlocked ? "unlocked" : "locked") },
+      h("div", { class: "badge-icon" }, b.emoji),
+      h("div", { class: "grow" },
+        h("div", { class: "badge-title" }, b.title + (b.unlocked ? " ✓" : "")),
+        h("div", { class: "badge-desc" }, b.desc),
+        h("div", { class: "badge-prog" }, b.progress))));
+  });
+
+  put(card,
+    h("div", { class: "row" },
+      h("h3", { style: "margin:0" }, "🏆 Quadro de Conquistas"),
+      h("div", { class: "grow" }),
+      h("span", { class: "pill on" }, `${data.total_unlocked} / ${data.total} desbloqueadas`)),
+    h("p", { class: "muted" }, "Mantenha o ritmo! Cada desafio concluído destrava uma medalha e acelera sua fluência."),
+    grid);
+  return card;
 }
 
 // ---------------------------------------------------------------- LEITURA E ESCUTA
@@ -154,15 +182,40 @@ async function readingPlayer(id) {
   show();
 }
 
-// ---------------------------------------------------------------- PRONÚNCIA
+// ---------------------------------------------------------------- PRONÚNCIA E SHADOWING
+function getConnectedSpeechTips(text) {
+  const tips = [];
+  const t = text.toLowerCase();
+  if (/\bgoing to\b/.test(t)) tips.push("“going to” costuma soar como “gonna” na fala rápida.");
+  if (/\bwant to\b/.test(t)) tips.push("“want to” conecta como “wanna”.");
+  if (/\bgot to\b/.test(t)) tips.push("“got to” junta como “gotta”.");
+  if (/\bhave to\b/.test(t)) tips.push("“have to” soa como “hafta”.");
+  if (/\b(could|should|would) have\b/.test(t)) tips.push("o “have” reduz para som de “of” (“could've”, “should've”).");
+  if (/\bdid you\b/.test(t)) tips.push("“did you” conecta como “did-ja”.");
+  if (/\bwhat are you\b/.test(t)) tips.push("“what are you” conecta como “whad-r-ya”.");
+  if (/\b[a-z]+[bcdfghjklmnpqrstvwxyz]\s+[aeiou][a-z]+/i.test(text)) {
+    tips.push("Ligação de sons (Linking): conecte a consoante final da palavra na vogal da palavra seguinte sem respirar entre elas.");
+  }
+  return tips;
+}
+
 async function viewPronounce() {
   const card = h("div", { class: "card" });
   put(view, card);
   const lvSel = h("select", { "aria-label": "Nível", style: "width:auto" }, ["A1", "A2", "B1", "B2", "C1"].map((l) => h("option", { value: l, selected: l === state.pronLevel }, l)));
   const session = [];
   let sentence = null;
+  let shadowTimer = null;
+  let shadowRunning = false;
+
+  function stopShadow() {
+    shadowRunning = false;
+    if (shadowTimer) { clearTimeout(shadowTimer); shadowTimer = null; }
+    Voice.stop();
+  }
 
   async function load() {
+    stopShadow();
     const s = await api(`/api/pronunciation/next?level=${state.pronLevel || ""}${sentence ? "&exclude=" + encodeURIComponent(sentence.en) : ""}`);
     sentence = s; state.pronLevel = s.level; lvSel.value = s.level;
     draw();
@@ -172,19 +225,48 @@ async function viewPronounce() {
   const out = h("div", {});
 
   async function evaluate(spoken) {
+    stopShadow();
     try {
       const r = await api("/api/pronunciation/compare", { method: "POST", body: { target: sentence.en, spoken } });
       session.push(r.score);
       put(out, h("div", { class: "score " + (r.score >= 75 ? "ok" : "bad") }, r.score + "%"), h("p", { class: "center" }, r.verdict[0].toUpperCase() + r.verdict.slice(1) + (r.perfect ? " — perfeito!" : ".")),
-        h("div", { class: "box info" }, h("div", { class: "muted" }, "O que o navegador entendeu:"), marksEl(r.marks, r.missing)),
-        h("p", { class: "muted" }, "A nota compara o que o reconhecimento de voz entendeu com a frase. Palavras em vermelho foram entendidas errado ou não foram ouvidas: ouça de novo e repita mais devagar."),
+        h("div", { class: "box info" }, h("div", { class: "muted" }, "O que o reconhecimento entendeu:"), marksEl(r.marks, r.missing)),
+        h("p", { class: "muted" }, "A nota compara o que o microfone entendeu com a frase. Palavras em vermelho foram entendidas errado ou não foram ouvidas: ouça de novo e repita no seu ritmo."),
         h("div", { class: "row end" }, h("button", { class: "btn primary", onclick: load }, "Próxima frase →")));
     } catch (e) { put(out, errBox(e)); }
   }
 
+  function startShadowLoop(btn) {
+    if (shadowRunning) {
+      stopShadow();
+      btn.textContent = "🔄 Treinar Shadowing (Loop)";
+      btn.classList.remove("primary");
+      return;
+    }
+    shadowRunning = true;
+    btn.textContent = "⏹️ Parar Shadowing";
+    btn.classList.add("primary");
+
+    function cycle() {
+      if (!shadowRunning) return;
+      Voice.speak(sentence.en, {
+        onEnd: () => {
+          if (!shadowRunning) return;
+          shadowTimer = setTimeout(cycle, 2200);
+        }
+      });
+    }
+    cycle();
+  }
+
   function draw() {
+    const tips = getConnectedSpeechTips(sentence.en);
+    const shadowBtn = h("button", { class: "btn", type: "button", title: "O áudio repete a frase em loop para você falar por cima imitando o ritmo nativo" }, "🔄 Treinar Shadowing (Loop)");
+    shadowBtn.addEventListener("click", () => startShadowLoop(shadowBtn));
+
     const mic = h("button", { class: "mic-big", type: "button", "aria-label": "Falar", title: "Clique, fale a frase e aguarde" }, "🎤");
     mic.addEventListener("click", async () => {
+      stopShadow();
       if (mic.classList.contains("rec")) { Voice.stopListening(); return; }
       mic.classList.add("rec"); put(out, h("p", { class: "muted center" }, "Estou ouvindo… fale a frase."));
       try { await evaluate(await Voice.listen("en-US")); } catch (e) { put(out, h("div", { class: "box warn" }, e.message)); } finally { mic.classList.remove("rec"); }
@@ -193,11 +275,88 @@ async function viewPronounce() {
     typed.addEventListener("keydown", (e) => { if (e.key === "Enter" && typed.value.trim()) evaluate(typed.value); });
     put(card, h("div", { class: "row" }, h("h2", { style: "margin:0" }, "Pronúncia com nota"), h("div", { class: "grow" }), lvSel),
       h("p", { class: "muted" }, "Ouça, depois fale a frase no microfone. Você recebe uma nota de 0 a 100. Funciona melhor no Chrome ou no Edge."),
-      h("div", { class: "big", style: "font-size:26px" }, sentence.en), h("div", { class: "row", style: "justify-content:center" }, speakBtn(sentence.en), speakBtn(sentence.en, { slow: true })),
+      h("div", { class: "big", style: "font-size:26px" }, sentence.en),
+      h("div", { class: "row", style: "justify-content:center;gap:8px" }, speakBtn(sentence.en), speakBtn(sentence.en, { slow: true }), shadowBtn),
+      tips.length ? h("div", { class: "shadow-panel" }, h("b", {}, "⚡ Dica de ritmo nativo (Connected Speech): "), tips.join(" ")) : null,
       h("p", { class: "center muted" }, sentence.pt + " · " + sentence.lesson),
       h("div", { class: "row", style: "justify-content:center;margin:12px 0" }, Voice.SR ? mic : h("div", { class: "box warn" }, "Este navegador não reconhece fala. Use o Chrome/Edge ou digite abaixo.")),
       Voice.SR ? null : h("div", { class: "row" }, h("div", { class: "grow" }, typed)),
       out, session.length ? h("p", { class: "muted center" }, `Nesta sessão: ${session.length} frase(s), média ${Math.round(session.reduce((a, b) => a + b, 0) / session.length)}%`) : null);
+  }
+  await load();
+}
+
+// ---------------------------------------------------------------- EAR GYM (TREINO AUDITIVO DE PALAVRA OCULTA)
+async function viewEarGym() {
+  const card = h("div", { class: "card" });
+  put(view, card);
+  const lvSel = h("select", { "aria-label": "Nível", style: "width:auto" }, ["A1", "A2", "B1", "B2", "C1"].map((l) => h("option", { value: l, selected: l === (state.earLevel || "A1") }, l)));
+  let current = null;
+  const out = h("div", {});
+
+  async function load() {
+    out.replaceChildren();
+    try {
+      current = await api(`/api/eargym/next?level=${lvSel.value}`);
+      state.earLevel = lvSel.value;
+      draw();
+      Voice.speak(current.en_full);
+    } catch (e) {
+      put(card, errBox(e));
+    }
+  }
+  lvSel.addEventListener("change", load);
+
+  function draw() {
+    const maskedHtml = current.masked.replace("______", `<span class="eargym-blank">______</span>`);
+    const maskedEl = h("div", { class: "eargym-masked" });
+    maskedEl.innerHTML = maskedHtml;
+
+    const input = h("input", { type: "text", placeholder: "Qual palavra você ouviu na lacuna?", autocomplete: "off", autocorrect: "off", spellcheck: "false", "aria-label": "Palavra que falta" });
+    const checkBtn = h("button", { class: "btn primary", type: "button" }, "Verificar");
+    const mic = micBtn((t) => {
+      const words = t.trim().split(/\s+/);
+      input.value = words[words.length - 1];
+      submit();
+    }, "en-US");
+
+    async function submit() {
+      const ans = input.value.trim();
+      if (!ans) return;
+      input.disabled = true; checkBtn.disabled = true;
+      try {
+        const res = await api("/api/eargym/check", { method: "POST", body: { target: current.target, answer: ans } });
+        put(out,
+          h("div", { class: "box " + (res.correct ? "ok" : "bad") },
+            h("b", {}, res.verdict),
+            h("div", { style: "margin-top:6px;font-size:16px" }, "Frase completa: ", h("b", {}, current.en_full), " ", speakBtn(current.en_full)),
+            h("div", { class: "muted" }, "Significado: " + current.pt)),
+          h("div", { class: "row end", style: "margin-top:12px" }, h("button", { class: "btn primary", id: "nxear", onclick: load }, "Próxima frase →")));
+        document.getElementById("nxear").focus();
+      } catch (e) {
+        put(out, errBox(e));
+        input.disabled = false; checkBtn.disabled = false;
+      }
+    }
+
+    checkBtn.addEventListener("click", submit);
+    input.addEventListener("keydown", (e) => { if (e.key === "Enter") submit(); });
+
+    put(card,
+      h("div", { class: "row" },
+        h("h2", { style: "margin:0" }, "🎧 Ear Gym — Treino de Escuta"),
+        h("div", { class: "grow" }), lvSel),
+      h("p", { class: "muted" }, "Treine o seu ouvido para a fala rápida em inglês. Ouça com atenção e preencha a palavra que falta na frase."),
+      maskedEl,
+      h("div", { class: "row", style: "justify-content:center;gap:8px;margin:12px 0" },
+        speakBtn(current.en_full),
+        speakBtn(current.en_full, { slow: true })),
+      h("div", { class: "ludic-box" },
+        h("b", {}, "💡 Dica mastigada:"),
+        h("span", {}, `${current.hint} · Tradução aproximada: “${current.pt}”`)),
+      h("div", { class: "row", style: "margin-top:12px" }, h("div", { class: "grow" }, input), mic, checkBtn),
+      out);
+    input.focus();
   }
   await load();
 }

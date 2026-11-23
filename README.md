@@ -18,15 +18,41 @@ uvicorn app.main:app --reload
 Abra http://localhost:8000. O banco é criado sozinho em `data/english_trainer.db`.
 A documentação automática da API fica em http://localhost:8000/docs.
 
-### Ligando a IA (opcional)
+### Inteligência Artificial (Gemini, Ollama, LM Studio, Claude ou OpenAI)
 
-```bash
-export ANTHROPIC_API_KEY="sua-chave"      # Windows (PowerShell): $env:ANTHROPIC_API_KEY="sua-chave"
-export ANTHROPIC_MODEL="claude-sonnet-5-5"  # opcional; este já é o padrão
-uvicorn app.main:app --reload
-```
+Você pode configurar a IA de duas formas:
 
-Sem a chave tudo funciona, com as diferenças da tabela:
+1. **Diretamente na tela (Recomendado):**
+   Abra o app, vá na aba **Ajustes** $\rightarrow$ **Inteligência Artificial**, escolha seu provedor e salve. A IA ativa na mesma hora sem reiniciar o servidor!
+
+2. **Via variáveis de ambiente (Terminal):**
+   - **Google Gemini (Gratuito e rápido):**
+     ```bash
+     export GEMINI_API_KEY="sua-chave-do-google-ai-studio"
+     ```
+   - **Ollama (Local / 100% offline e gratuito):**
+     ```bash
+     # Inicie o ollama: ollama serve
+     export AI_PROVIDER="ollama"
+     export OLLAMA_MODEL="llama3.2"   # ou llama3, mistral, qwen2.5
+     ```
+   - **LM Studio (Local / 100% offline com interface gráfica):**
+     ```bash
+     # Abra o LM Studio e clique em "Start Server" (localhost:1234)
+     export AI_PROVIDER="lmstudio"
+     ```
+   - **Anthropic Claude:**
+     ```bash
+     export ANTHROPIC_API_KEY="sua-chave"
+     export ANTHROPIC_MODEL="claude-sonnet-5-5"
+     ```
+   - **OpenAI:**
+     ```bash
+     export OPENAI_API_KEY="sua-chave"
+     ```
+
+Sem nenhuma chave ou provedor configurado, tudo continua funcionando no modo offline:
+frases, diálogos, curso A1-C1, repetição espaçada e correção de textos por referência.
 
 | | Sem IA | Com IA |
 |---|---|---|

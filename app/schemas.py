@@ -79,8 +79,33 @@ class ChatTurnIn(_In):
     level: Literal["A2", "B1", "B2"] = "B1"
     history: list[ChatMessage] = Field(default_factory=list, max_length=40)
     message: str = Field("", max_length=1500)
+    response_time_seconds: Optional[float] = None
 
 
 class SettingsIn(_In):
     ignore_accents: bool = False
     strict_exact: bool = False
+
+
+class AIConfigIn(_In):
+    provider: Literal["gemini", "ollama", "lmstudio", "anthropic", "openai", "none"]
+    api_key: Optional[str] = Field("", max_length=500)
+    model: Optional[str] = Field("", max_length=100)
+    endpoint: Optional[str] = Field("", max_length=500)
+
+
+class CoachReportIn(_In):
+    scenario_id: str = Field(..., max_length=40)
+    history: list[ChatMessage] = Field(..., min_length=1, max_length=50)
+
+
+class GenerateDialogIn(_In):
+    topic: str = Field(..., min_length=2, max_length=200)
+    level: Literal["A1", "A2", "B1", "B2", "C1"] = "B1"
+
+
+class EarGymCheckIn(_In):
+    target: str = Field(..., min_length=1, max_length=100)
+    answer: str = Field(..., max_length=100)
+
+

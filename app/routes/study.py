@@ -11,6 +11,7 @@ from ..course import loader, progress
 from ..course.validate import LEVELS
 from ..db import get_int, get_setting, now_iso, set_setting
 from ..deps import get_db
+from ..schemas import EarGymCheckIn
 from ..textutil import check_answer
 
 router = APIRouter(prefix="/api", tags=["rotina"])
@@ -142,3 +143,77 @@ def pronunciation_compare(body: PronIn, db=Depends(get_db)):
     verdict = "excelente" if score >= 90 else "bom" if score >= 75 else "quase" if score >= 50 else "tente de novo"
     return {"score": score, "verdict": verdict, "marks": [{"text": m.text, "status": m.status} for m in chk.marks],
             "missing": chk.missing, "perfect": chk.correct}
+
+
+# --------------------------------------------------------------------------- Ear Gym
+@router.get("/eargym/next")
+def eargym_next(level: Optional[str] = None):
+    """Retorna uma frase com uma palavra oculta para treino auditivo focado."""
+    lv = level.upper() if level and level.upper() in LEVELS else "A1"
+    pool = []
+    for les in loader.content()["lessons"]:
+        if les["level"] == lv:
+            for s in les["steps"]:
+                for e in s.get("examples", []):
+                    words = [w for w in e["en"].split() if len(w.strip(".,?!\"'")) >= 3]
+                    if len(words) >= 3:
+                        pool.append((e["en"], e["pt"], les["title"]))
+    if not pool:
+        raise HTTPException(404, "Sem frases para este nível.")
+
+    en, pt, lesson = random.choice(pool)
+    tokens = en.split()
+    valid_indices = [i for i, t in enumerate(tokens) if len(t.strip(".,?!\"'")) >= 3]
+    chosen_idx = random.choice(valid_indices)
+    raw_token = tokens[chosen_idx]
+    clean_target = raw_token.strip(".,?!\"'")
+    masked_token = raw_token.replace(clean_target, "______")
+    masked_sentence = " ".join(tokens[:chosen_idx] + [masked_token] + tokens[chosen_idx + 1:])
+
+    return {
+        "level": lv,
+        "en_full": en,
+        "masked": masked_sentence,
+        "target": clean_target,
+        "pt": pt,
+        "lesson": lesson,
+        "hint": f"Palavra com {len(clean_target)} letras",
+    }
+
+
+@router.post("/eargym/check")
+def eargym_check(body: EarGymCheckIn, db=Depends(get_db)):
+    """Verifica a palavra digitada/falada no treino Ear Gym."""
+    chk = check_answer(body.answer, [body.target], lang="en")
+    progress.add_study(db, items=1)
+    return {
+        "correct": chk.correct,
+        "target": body.target,
+        "answer": body.answer,
+        "verdict": "Certo! Ouvido de ouro! 🎯" if chk.correct else f"Não foi dessa vez. A palavra certa era '{body.target}'.",
+    }
+
+
+# --------------------------------------------------------------------------- Conquistas (Gamificação)
+@router.get("/achievements")
+def get_achievements(db=Depends(get_db)):
+    """Retorna o quadro de conquistas desbloqueadas do aluno."""
+    lessons_done = db.execute("SELECT COUNT(*) as c FROM lesson_progress WHERE status = 'done'").fetchone()["c"]
+    pron_done = db.execute("SELECT COUNT(*) as c FROM pronunciation_log").fetchone()["c"]
+    words_learned = db.execute("SELECT COUNT(*) as c FROM words WHERE correct > 0").fetchone()["c"]
+    streak_data = progress.streak(db)
+    streak_days = streak_data.get("current", 0) if isinstance(streak_data, dict) else int(streak_data or 0)
+    dialogs_done = db.execute("SELECT COUNT(DISTINCT dialog_id) as c FROM phrases p JOIN phrase_progress pp ON p.id = pp.phrase_id WHERE pp.completed = 1").fetchone()["c"]
+
+
+
+    badges = [
+        {"id": "first_step", "title": "Primeiro Passo", "emoji": "🌱", "desc": "Completou sua primeira lição do curso.", "unlocked": lessons_done >= 1, "progress": f"{min(lessons_done, 1)}/1"},
+        {"id": "ear_master", "title": "Ouvido Atento", "emoji": "🎧", "desc": "Treinou 5 frases no microfone ou no Ear Gym.", "unlocked": pron_done >= 5, "progress": f"{min(pron_done, 5)}/5"},
+        {"id": "vocab_builder", "title": "Construtor de Vocabulário", "emoji": "📚", "desc": "Aprendeu 20 palavras na repetição espaçada.", "unlocked": words_learned >= 20, "progress": f"{min(words_learned, 20)}/20"},
+        {"id": "dialog_pro", "title": "Dev Comunicativo", "emoji": "💬", "desc": "Concluiu todas as falas de pelo menos 1 diálogo.", "unlocked": dialogs_done >= 1, "progress": f"{min(dialogs_done, 1)}/1"},
+        {"id": "streak_ninja", "title": "Constância Ninja", "emoji": "🔥", "desc": "Estudou por 3 dias seguidos.", "unlocked": streak_days >= 3, "progress": f"{min(streak_days, 3)}/3 dias"},
+        {"id": "course_hero", "title": "Mestre da Gramática", "emoji": "🏆", "desc": "Concluiu 10 lições de gramática.", "unlocked": lessons_done >= 10, "progress": f"{min(lessons_done, 10)}/10"},
+    ]
+    return {"badges": badges, "total_unlocked": sum(1 for b in badges if b["unlocked"]), "total": len(badges)}
+

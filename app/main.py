@@ -13,10 +13,10 @@ from fastapi import Depends, FastAPI
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
-from .ai import get_llm_from_env
+from .ai import get_llm_from_env, get_llm_from_env_or_db
 from .db import Settings, connect, init_db, load_settings, save_settings
 from .deps import get_db, get_llm
-from .routes import conversation, course, phrases, study, texts, vocabulary
+from .routes import ai_config, audio, conversation, course, phrases, study, texts, vocabulary
 from .schemas import SettingsIn
 from .seed import seed
 
@@ -33,10 +33,11 @@ def create_app(db_path: Optional[str] = None, llm=_AUTO) -> FastAPI:
     init_db(path)
     with closing(connect(path)) as db:
         seed(db)
+        db_llm = get_llm_from_env_or_db(db)
 
-    app = FastAPI(title="English Trainer", version="2.0.0")
+    app = FastAPI(title="English Trainer", version="2.1.0")
     app.state.db_path = path
-    app.state.llm = get_llm_from_env() if llm is _AUTO else llm
+    app.state.llm = db_llm if llm is _AUTO else llm
 
     app.include_router(phrases.router)
     app.include_router(conversation.router)
@@ -44,10 +45,16 @@ def create_app(db_path: Optional[str] = None, llm=_AUTO) -> FastAPI:
     app.include_router(vocabulary.router)
     app.include_router(course.router)
     app.include_router(study.router)
+    app.include_router(ai_config.router)
+    app.include_router(audio.router)
 
     @app.get("/api/status", tags=["geral"])
     def status(llm=Depends(get_llm)):
-        return {"ai_enabled": llm is not None, "model": getattr(llm, "model", None)}
+        return {
+            "ai_enabled": llm is not None,
+            "provider": getattr(llm, "provider", None),
+            "model": getattr(llm, "model", None),
+        }
 
     @app.get("/api/settings", tags=["geral"])
     def read_settings(db=Depends(get_db)):
