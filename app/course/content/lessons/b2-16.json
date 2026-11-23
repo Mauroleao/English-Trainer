@@ -1,0 +1,213 @@
+{
+  "id": "b2-16",
+  "level": "B2",
+  "unit": "Registro e estilo",
+  "title": "Registro formal e informal: e-mails e relatórios",
+  "goal": "Escolher o tom certo e escrever e-mails e relatórios curtos com abertura, pedidos polidos, linguagem impessoal e verbos mais formais.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "Registro: o tom certo para cada leitor",
+      "text": "**Registro** é o grau de formalidade de um texto. Em geral há três níveis: **informal** (chat com um colega próximo), **neutro** (a maioria das mensagens de trabalho) e **formal** (cliente novo, diretoria, documento oficial). Não existe um registro “melhor”: o certo depende de **quem lê** e do que está em jogo.\n\nUma mensagem informal demais pode parecer desrespeitosa; uma formal demais com um colega pode soar fria. Veja o mesmo pedido em três tons.",
+      "examples": [
+        {"en": "Can you send me the file?", "pt": "Você pode me mandar o arquivo?"},
+        {"en": "Could you send me the file, please?", "pt": "Você poderia me enviar o arquivo, por favor?"},
+        {"en": "I would be grateful if you could send me the file.", "pt": "Eu agradeceria se você pudesse me enviar o arquivo."}
+      ],
+      "tip": "Antes de escrever, pergunte: quem vai ler, qual é a minha relação com essa pessoa e o que eu quero que ela faça?"
+    },
+    {
+      "title": "A estrutura de um e-mail",
+      "text": "Um e-mail de trabalho tem partes previsíveis: **assunto** curto e específico, **saudação**, **abertura** que diz o motivo, **corpo** com os detalhes, **fechamento** com a ação esperada e **despedida** com seu nome. Em e-mails formais, cada parte tem fórmulas fixas.\n\nQuando você não sabe o nome da pessoa, use **Dear Sir or Madam**. Quando sabe, use **Dear** + título + sobrenome (*Dear Ms Taylor*). Em e-mails informais, basta **Hi** + primeiro nome.",
+      "table": {
+        "headers": ["Parte", "Informal", "Formal"],
+        "rows": [
+          ["Saudação", "Hi Tom,", "Dear Ms Taylor,"],
+          ["Abertura", "Just a quick note about the report.", "I am writing to inform you about the report."],
+          ["Pedido", "Can you check it?", "Could you possibly check it?"],
+          ["Fechamento", "Let me know!", "I look forward to hearing from you."],
+          ["Despedida", "Thanks,", "Kind regards,"]
+        ]
+      },
+      "examples": [
+        {"en": "Dear Ms Taylor, I am writing to confirm our meeting on Tuesday.", "pt": "Prezada Sra. Taylor, escrevo para confirmar nossa reunião de terça."},
+        {"en": "I look forward to hearing from you.", "pt": "Aguardo o seu retorno."},
+        {"en": "Hi Tom, just checking if you got my message.", "pt": "Oi, Tom, só conferindo se você recebeu minha mensagem."}
+      ],
+      "trap": "Em português, “Querido” é íntimo, e por isso muita gente estranha o *Dear*. Em inglês, *Dear Mr Silva* é a abertura formal padrão, sem ideia de carinho."
+    },
+    {
+      "title": "Pedidos polidos",
+      "text": "O inglês educado evita o imperativo seco (*Send me the report*) e usa **modais** e estruturas mais longas. Quanto mais formal, mais longa a frase. **Could you** (+ verbo base) já é educado, e **Could you possibly** é mais delicado ainda. **Would you mind** vem seguido de **-ing**. **I would be grateful if you could** (+ verbo base) é uma forma formal.\n\nPara falar de si, prefira **I would like to** em vez de *I want*, que soa seco.",
+      "table": {
+        "headers": ["Direto", "Educado", "Formal"],
+        "rows": [
+          ["Send me the report.", "Could you send me the report?", "I would be grateful if you could send me the report."],
+          ["Call me tomorrow.", "Would you mind calling me tomorrow?", "Could you possibly call me tomorrow?"],
+          ["I want a meeting.", "I would like a meeting.", "I would like to request a meeting."]
+        ]
+      },
+      "examples": [
+        {"en": "Would you mind checking the figures again?", "pt": "Você se importaria de conferir os números de novo?"},
+        {"en": "Could you possibly review the document by Friday?", "pt": "Você poderia, por gentileza, revisar o documento até sexta?"},
+        {"en": "I would be grateful if you could confirm the date.", "pt": "Eu agradeceria se você pudesse confirmar a data."}
+      ],
+      "trap": "Depois de *Would you mind* o verbo vai no -ing: *Would you mind sending…?* Dizer *Would you mind to send* está errado. O mesmo vale para *look forward to*: diga *I look forward to hearing*, e não *to hear*."
+    },
+    {
+      "title": "Passiva e linguagem impessoal",
+      "text": "Em relatórios e e-mails formais, a **voz passiva** (be + particípio) foca a **ação** ou o resultado, e não quem a fez: *The bug has been fixed* em vez de *We fixed the bug*. Isso cria um tom neutro e objetivo, comum em textos técnicos.\n\nEstruturas impessoais também ajudam: **It was decided that…**, **It is believed that…**, **Please note that…**. Mas não exagere: em mensagens a clientes, usar sempre a passiva pode soar frio ou evasivo. Quando for importante dizer quem fez algo, use a voz ativa.",
+      "table": {
+        "headers": ["Mais direto (ativa)", "Mais formal (passiva ou impessoal)"],
+        "rows": [
+          ["We fixed the bug.", "The bug has been fixed."],
+          ["You must submit the form by Friday.", "The form must be submitted by Friday."],
+          ["We decided to postpone the release.", "It was decided to postpone the release."],
+          ["Remember that the office is closed.", "Please note that the office is closed."]
+        ]
+      },
+      "examples": [
+        {"en": "The report was submitted to the manager.", "pt": "O relatório foi enviado ao gerente."},
+        {"en": "It was decided to postpone the release.", "pt": "Decidiu-se adiar o lançamento."},
+        {"en": "Please note that the office will be closed on Monday.", "pt": "Observe que o escritório estará fechado na segunda."}
+      ],
+      "tip": "Use a passiva para um tom objetivo em relatórios. Em um pedido de desculpas, prefira a ativa: I am sorry for the delay."
+    },
+    {
+      "title": "Hedging: afirmar com cuidado",
+      "text": "Em textos formais, evite afirmar com certeza absoluta o que você só sabe em parte. Chamamos isso de **hedging** (cautela). Os recursos mais úteis são os verbos **seem** e **appear**, os modais **may** e **might**, e verbos como **suggest** e **indicate**.\n\nAs estruturas mais comuns são *It seems that…*, *It appears that…*, *X appears to be…* e *The results suggest that…*. Elas protegem você: se o dado mudar depois, sua frase continua correta.",
+      "examples": [
+        {"en": "It seems that the update caused the delay.", "pt": "Parece que a atualização causou o atraso."},
+        {"en": "The issue appears to be related to the network.", "pt": "O problema parece estar relacionado à rede."},
+        {"en": "The results suggest that the new server is faster.", "pt": "Os resultados sugerem que o novo servidor é mais rápido."},
+        {"en": "This may be due to a configuration error.", "pt": "Isso pode ser devido a um erro de configuração."}
+      ],
+      "trap": "Em português dizemos “Parece que o servidor caiu”, sem sujeito. Em inglês o sujeito é obrigatório: *Seems that the server is down* está errado; diga *It seems that the server is down*."
+    },
+    {
+      "title": "Phrasal verbs × verbos formais",
+      "text": "Muitos phrasal verbs têm um verbo equivalente de origem latina, mais comum em textos formais. Em chats e conversas, o phrasal verb soa natural; em relatórios e cartas, o verbo formal é mais adequado. Em textos formais, também evite **contrações**: escreva *I am* e *do not*, e não *I'm* e *don't*.\n\nNão é preciso trocar todos os verbos: uma mistura equilibrada soa mais natural do que um texto cheio de palavras longas.",
+      "table": {
+        "headers": ["Informal", "Formal"],
+        "rows": [
+          ["find out", "discover; determine"],
+          ["look into", "investigate"],
+          ["set up", "establish"],
+          ["carry out", "conduct"],
+          ["ask for", "request"],
+          ["put off", "postpone"],
+          ["call off", "cancel"],
+          ["need", "require"]
+        ]
+      },
+      "examples": [
+        {"en": "We will investigate the issue and inform you of the outcome.", "pt": "Investigaremos o problema e informaremos você do resultado."},
+        {"en": "The team conducted a series of tests.", "pt": "A equipe conduziu uma série de testes."},
+        {"en": "Please request access through the portal.", "pt": "Solicite o acesso pelo portal."}
+      ],
+      "trap": "Cuidado com falsos cognatos ao formalizar. *Assist* é “ajudar”, e não “assistir” (ver um filme). *We will assist you* significa “Vamos ajudar você”."
+    },
+    {
+      "title": "Reescrevendo: de informal para formal",
+      "text": "Veja a mesma ideia em dois registros. Para formalizar uma frase, troque o phrasal verb por um verbo formal, remova as contrações, acrescente uma fórmula de cortesia e, se fizer sentido, use a passiva.\n\nEste exercício de reescrita é um dos melhores treinos: pegue uma mensagem que você escreveu no chat e transforme em um e-mail para um cliente. Depois faça o inverso, para treinar os dois lados.",
+      "examples": [
+        {"en": "Sorry, I can't make the meeting.", "pt": "Desculpe, não posso ir à reunião."},
+        {"en": "I regret that I am unable to attend the meeting.", "pt": "Lamento não poder comparecer à reunião."},
+        {"en": "We found out that the server ran out of memory.", "pt": "Descobrimos que o servidor ficou sem memória."},
+        {"en": "It was determined that the server had run out of memory.", "pt": "Determinou-se que o servidor havia ficado sem memória."}
+      ],
+      "tip": "Regra prática: informal = frases curtas, contrações e phrasal verbs; formal = frases completas, sem contrações e com fórmulas de cortesia."
+    },
+    {
+      "title": "Um relatório curto",
+      "text": "Um relatório técnico curto costuma ter **três partes**: o **objetivo** (por que o texto existe), os **achados** (o que foi observado) e as **recomendações** (o que fazer). Cada parte tem fórmulas típicas, e a linguagem é impessoal e cuidadosa.\n\nUse títulos curtos, frases claras e verbos como *outline*, *indicate* e *recommend*. Para sugerir ações, *It is recommended that the team + verbo base* é uma estrutura formal comum.",
+      "table": {
+        "headers": ["Seção", "Função", "Frase típica"],
+        "rows": [
+          ["Purpose", "explicar o objetivo", "The purpose of this report is to review last month's outage."],
+          ["Findings", "apresentar o que foi observado", "The findings indicate that the failure was caused by an expired certificate."],
+          ["Recommendations", "propor ações", "It is recommended that the team renew certificates automatically."],
+          ["Conclusion", "fechar o texto", "In conclusion, the system is stable, but further monitoring is required."]
+        ]
+      },
+      "examples": [
+        {"en": "The purpose of this report is to review last month's outage.", "pt": "O objetivo deste relatório é analisar a queda do mês passado."},
+        {"en": "The findings indicate that the failure was caused by an expired certificate.", "pt": "Os achados indicam que a falha foi causada por um certificado vencido."},
+        {"en": "It is recommended that the team renew certificates automatically.", "pt": "Recomenda-se que a equipe renove os certificados automaticamente."}
+      ]
+    }
+  ],
+  "summary": [
+    "Registro é o grau de formalidade; escolha-o conforme o leitor: informal, neutro ou formal.",
+    "E-mail formal: Dear + título + sobrenome (ou Dear Sir or Madam), motivo na abertura, I look forward to hearing from you e Kind regards.",
+    "Pedidos polidos: Could you (possibly)…?, Would you mind + -ing? e I would be grateful if you could…",
+    "Relatórios usam a passiva e frases impessoais (It was decided that…) e hedging (It seems that…, The results suggest that…).",
+    "Em textos formais, troque phrasal verbs por verbos formais (look into → investigate) e evite contrações."
+  ],
+  "practice": [
+    {"id": "b2-16-p1", "type": "choice", "prompt": "Qual pedido é o mais formal?", "options": ["Send me the report.", "Can you send me the report?", "I would be grateful if you could send me the report."], "answer": 2,
+     "explain": "A terceira opção usa a estrutura mais longa e cortês, adequada a um leitor desconhecido ou a um contexto oficial.",
+     "why_not": {"0": "O imperativo seco soa como uma ordem.", "1": "Can you é educado, mas informal."}},
+    {"id": "b2-16-p2", "type": "choice", "prompt": "Você não sabe o nome da pessoa que vai receber o e-mail. Qual abertura é a correta?", "options": ["Dear Sir or Madam,", "Hi guys,", "Dear friend,"], "answer": 0,
+     "explain": "Dear Sir or Madam é a saudação formal padrão quando o nome do destinatário é desconhecido.",
+     "why_not": {"1": "Hi guys é informal demais para um destinatário desconhecido.", "2": "Dear friend soa estranho em um e-mail de trabalho."}},
+    {"id": "b2-16-p3", "type": "fill", "prompt": "I look forward to ___ from you.", "answers": ["hearing"],
+     "explain": "Em look forward to, a palavra to é uma preposição, então o verbo seguinte vai no -ing: hearing."},
+    {"id": "b2-16-p4", "type": "fix", "prompt": "Would you mind to send me the file?", "answers": ["Would you mind sending me the file?"],
+     "explain": "Depois de Would you mind, o verbo vai no -ing: sending. O infinitivo com to não é usado nessa estrutura."},
+    {"id": "b2-16-p5", "type": "translate", "prompt": "Gostaria de solicitar uma reunião.", "answers": ["I would like to request a meeting.", "I would like to ask for a meeting."],
+     "explain": "I would like to é a forma educada de expressar um desejo, e request é o verbo formal para solicitar."},
+    {"id": "b2-16-p6", "type": "choice", "prompt": "Qual verbo é o mais formal? “The team will ___ the cause of the failure.”", "options": ["look into", "investigate", "check out"], "answer": 1,
+     "explain": "Investigate é o verbo de origem latina equivalente a look into, e é mais apropriado em relatórios.",
+     "why_not": {"0": "Look into é um phrasal verb neutro e comum na fala.", "2": "Check out é informal e tem outros sentidos."}},
+    {"id": "b2-16-p7", "type": "fill", "prompt": "At the moment, the cause ___ to be a power cut.", "answers": ["appears", "seems"],
+     "explain": "Appears to be e seems to be são formas de hedging. O sujeito the cause é singular, então o verbo leva -s."},
+    {"id": "b2-16-p8", "type": "choice", "prompt": "Qual frase é a mais adequada em um relatório formal?", "options": ["We fixed the bug yesterday.", "The bug was fixed yesterday.", "Yesterday we squashed the bug."], "answer": 1,
+     "explain": "A passiva foca no resultado e dá um tom objetivo, típico de relatórios.",
+     "why_not": {"0": "A voz ativa com we é mais direta e pessoal.", "2": "Squash the bug é uma gíria técnica, informal."}},
+    {"id": "b2-16-p9", "type": "order", "words": ["The", "report", "was", "submitted", "to", "the", "manager"], "prompt": "O relatório foi enviado ao gerente.",
+     "explain": "A passiva usa be + particípio (was submitted), e o destinatário vem com to: to the manager."},
+    {"id": "b2-16-p10", "type": "fix", "prompt": "Seems that the server is down.", "answers": ["It seems that the server is down.", "It appears that the server is down."],
+     "explain": "Em inglês o sujeito é obrigatório. Com seem e appear, usamos o it impessoal: it seems that."},
+    {"id": "b2-16-p11", "type": "listen", "en": "I would be grateful if you could confirm the date.",
+     "explain": "I would be grateful if you could + verbo base é uma forma formal de fazer um pedido."},
+    {"id": "b2-16-p12", "type": "choice", "prompt": "Qual frase de fechamento é adequada em um e-mail formal?", "options": ["I look forward to hearing from you.", "Write back soon!", "Talk later."], "answer": 0,
+     "explain": "I look forward to hearing from you é a fórmula formal para pedir uma resposta.",
+     "why_not": {"1": "Write back soon! é informal e soa como uma ordem.", "2": "Talk later é informal e próprio de conversas entre amigos."}}
+  ],
+  "quiz": [
+    {"id": "b2-16-q1", "type": "choice", "prompt": "Qual pedido é o mais educado para um cliente?", "options": ["Give me access to the repository.", "Can I have access to the repository?", "Could you possibly give me access to the repository?"], "answer": 2,
+     "explain": "Could you possibly é uma forma delicada e formal de pedir algo.",
+     "why_not": {"0": "O imperativo seco soa como ordem.", "1": "Can I have é comum, mas informal para um cliente."}},
+    {"id": "b2-16-q2", "type": "fill", "prompt": "I would be grateful if you ___ send me the invoice.", "answers": ["could", "would"],
+     "explain": "Depois de I would be grateful if you, usamos could ou would + verbo base para pedir algo de modo formal."},
+    {"id": "b2-16-q3", "type": "translate", "prompt": "Gostaria de adiar a reunião.", "answers": ["I would like to postpone the meeting.", "I would like to put off the meeting."],
+     "explain": "I would like to é a forma educada, e postpone é o verbo formal de adiar. Put off também é possível, mas mais informal."},
+    {"id": "b2-16-q4", "type": "order", "words": ["I", "am", "writing", "to", "confirm", "the", "meeting", "time"], "prompt": "Escrevo para confirmar o horário da reunião.",
+     "explain": "I am writing to + verbo base é a abertura clássica de um e-mail formal e diz o motivo da mensagem."},
+    {"id": "b2-16-q5", "type": "fix", "prompt": "I am writing for inform you about the delay.", "answers": ["I am writing to inform you about the delay."],
+     "explain": "Para indicar finalidade usamos to + verbo base. Em inglês, for não é seguido de verbo no infinitivo."},
+    {"id": "b2-16-q6", "type": "choice", "prompt": "Qual frase usa hedging de forma adequada em um relatório?", "options": ["The results prove that the new design is better.", "The results suggest that the new design may be better.", "The results are totally clear: the new design is better."], "answer": 1,
+     "explain": "Suggest e may deixam a afirmação cuidadosa, adequada quando a evidência é parcial.",
+     "why_not": {"0": "Prove é forte demais para dados parciais.", "2": "Totally clear afirma uma certeza absoluta, e o tom fica pouco cuidadoso."}},
+    {"id": "b2-16-q7", "type": "choice", "prompt": "Qual é o equivalente formal de “find out”?", "options": ["discover", "give up", "set up"], "answer": 0,
+     "explain": "Discover é um verbo formal que equivale a find out, descobrir.",
+     "why_not": {"1": "Give up significa desistir.", "2": "Set up significa configurar ou montar."}},
+    {"id": "b2-16-q8", "type": "listen", "en": "The findings indicate that the delay was caused by a configuration error.",
+     "explain": "The findings indicate that é uma fórmula de relatório, e was caused by é a voz passiva, que foca no resultado."}
+  ],
+  "words": [
+    {"word": "regards", "pt": "cumprimentos; atenciosamente (em kind regards)"},
+    {"word": "grateful", "pt": "grato; agradecido"},
+    {"word": "regret", "pt": "lamentar; arrepender-se"},
+    {"word": "inform", "pt": "informar"},
+    {"word": "request", "pt": "solicitar; pedido"},
+    {"word": "investigate", "pt": "investigar"},
+    {"word": "conduct", "pt": "conduzir; realizar"},
+    {"word": "postpone", "pt": "adiar"},
+    {"word": "appear", "pt": "parecer; aparecer"},
+    {"word": "suggest", "pt": "sugerir; indicar"},
+    {"word": "findings", "pt": "achados; resultados"},
+    {"word": "recommend", "pt": "recomendar"}
+  ]
+}

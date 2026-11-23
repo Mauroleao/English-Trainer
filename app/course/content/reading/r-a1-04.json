@@ -1,0 +1,26 @@
+{
+  "id": "r-a1-04",
+  "level": "A1",
+  "title": "How to join an online meeting",
+  "topic": "Instruções para reunião online",
+  "text": "How to join an online meeting\n\nOpen the email and click the link. Turn on your camera and your microphone. Please don't talk when other people talk. Use the chat for your questions.\n\nYou can share your screen, but don't share your password. Close the app at the end.",
+  "pt": "Como entrar em uma reunião online\n\nAbra o e-mail e clique no link. Ligue sua câmera e seu microfone. Por favor, não fale quando outras pessoas falam. Use o chat para suas perguntas.\n\nVocê pode compartilhar sua tela, mas não compartilhe sua senha. Feche o aplicativo no final.",
+  "vocab": [
+    {"word": "link", "pt": "link; endereço"},
+    {"word": "click", "pt": "clicar"},
+    {"word": "camera", "pt": "câmera"},
+    {"word": "microphone", "pt": "microfone"},
+    {"word": "chat", "pt": "chat; bate-papo"},
+    {"word": "screen", "pt": "tela"},
+    {"word": "password", "pt": "senha"},
+    {"word": "meeting", "pt": "reunião"}
+  ],
+  "questions": [
+    {"id": "r-a1-04-q1", "type": "choice", "prompt": "What do you click?", "options": ["The link in the email", "The password", "The camera"], "answer": 0,
+     "explain": "A primeira instrução é “Open the email and click the link”: você clica no link do e-mail."},
+    {"id": "r-a1-04-q2", "type": "choice", "prompt": "Where do you ask questions?", "options": ["In the email", "In the chat", "On the screen"], "answer": 1,
+     "explain": "O texto diz “Use the chat for your questions”: as perguntas vão no chat."},
+    {"id": "r-a1-04-q3", "type": "choice", "prompt": "What can you NOT share?", "options": ["Your screen", "Your link", "Your password"], "answer": 2,
+     "explain": "O texto diz “don't share your password”: a senha não deve ser compartilhada. A tela pode."}
+  ]
+}

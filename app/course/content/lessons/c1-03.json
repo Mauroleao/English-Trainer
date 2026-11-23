@@ -1,0 +1,279 @@
+{
+  "id": "c1-03",
+  "level": "C1",
+  "unit": "Modalidade e hipótese",
+  "title": "Modais avançados: would, will, shall, be to, need, dare",
+  "goal": "Usar modais para expressar hábitos passados, comportamentos típicos, ordens e planos formais, ausência de necessidade e críticas sobre o passado.",
+  "minutes": 30,
+  "steps": [
+    {
+      "title": "Modais além do básico",
+      "text": "Você já conhece modais como *can*, *must* e *should*. No C1, o desafio é usar modais para **nuances**: hábitos do passado, comportamentos típicos de pessoas e coisas, planos oficiais, ordens formais e críticas. Um **modal** é um verbo auxiliar que acrescenta uma atitude ao verbo principal, que vem logo depois na **forma base** (*We might deploy tonight*).\n\nNesta lição você vê **would** e **will** para comportamento típico, **shall** e **ought to**, **be to**, **need** e **dare**, **might as well**, **can't help** e as críticas com **modal + have + particípio**.",
+      "examples": [
+        {"en": "Every Friday, our lead would bring cakes to the daily meeting.", "pt": "Toda sexta, nosso líder levava bolo para a reunião diária."},
+        {"en": "You ought to back up the database first.", "pt": "Você deveria fazer o backup do banco de dados primeiro."}
+      ],
+      "tip": "Depois de um modal, o verbo principal fica na forma base, sem to. As exceções são *ought to* e *be to*, que já trazem o to no próprio molde."
+    },
+    {
+      "title": "Would: hábitos e comportamento típico no passado",
+      "text": "Para falar de **hábitos repetidos no passado**, o inglês usa **would** + verbo base. Ele aparece em relatos de lembranças, quando o passado já foi estabelecido (*When I was a junior…*). Com **verbos de ação** (stay, meet, bring), *would* e *used to* podem ser trocados. Com **verbos de estado** (be, have, live, know, own), só **used to** (ou o passado simples) funciona.\n\nCuidado: sem um contexto passado claro, *We would meet on Mondays* pode ser entendida como uma hipótese (“nós nos encontraríamos às segundas”).",
+      "table": {
+        "headers": ["Estrutura", "Exemplo", "Quando usar"],
+        "rows": [
+          ["would + verbo de ação", "We would meet every Monday at nine.", "hábito repetido no passado"],
+          ["used to + verbo de ação", "We used to meet every Monday at nine.", "o mesmo hábito, sem precisar de contexto"],
+          ["used to + verbo de estado", "We used to have a small office in Recife.", "situação que não existe mais"]
+        ]
+      },
+      "examples": [
+        {"en": "When I was a junior, I would stay late to learn from the seniors.", "pt": "Quando eu era júnior, eu ficava até tarde para aprender com os mais experientes."},
+        {"en": "We used to have a small office in Recife.", "pt": "Nós tínhamos um pequeno escritório em Recife."},
+        {"en": "He would always forget the password and call the help desk.", "pt": "Ele sempre esquecia a senha e ligava para o suporte."}
+      ],
+      "trap": "Não use *would* para estados do passado: *I would live in Recife* não significa “eu morava em Recife”. Diga *I used to live in Recife* ou *I lived in Recife*."
+    },
+    {
+      "title": "Will: características e comportamento típico",
+      "text": "**Will** não serve só para o futuro. No presente, ele descreve o que algo ou alguém **costuma fazer**: uma característica ou uma verdade geral. Em textos técnicos, é muito comum: *A good test suite will catch most regressions* (“uma boa suíte de testes costuma pegar a maioria das regressões”).\n\nQuando *will* recebe **ênfase na fala**, ele pode mostrar **irritação** com um hábito: *He will interrupt everyone in meetings*. No passado, *would* faz o mesmo papel: *He would always forget the password*. Nesse uso, escrevemos *will* por extenso, sem a contração 'll.",
+      "examples": [
+        {"en": "A good test suite will catch most regressions.", "pt": "Uma boa suíte de testes costuma pegar a maioria das regressões."},
+        {"en": "Accidents will happen, even in production.", "pt": "Acidentes acontecem, até em produção."},
+        {"en": "Junior developers will often copy code without reading it.", "pt": "Desenvolvedores júnior costumam copiar código sem lê-lo."},
+        {"en": "He will interrupt everyone in meetings, and it annoys the whole team.", "pt": "Ele não para de interromper todo mundo nas reuniões, e isso irrita o time inteiro."}
+      ],
+      "tip": "Para reconhecer esse uso, tente trocar *will* por “costuma” em português. Se a frase continuar fazendo sentido, não é futuro."
+    },
+    {
+      "title": "Shall e ought to",
+      "text": "**Shall** aparece em perguntas com *I* e *we* para **oferecer ajuda** ou **fazer uma sugestão**: *Shall I restart the server?* (“Quer que eu reinicie o servidor?”). Em contratos e regulamentos, *shall* expressa **obrigação formal**. No dia a dia, com outros sujeitos, quase não é usado.\n\n**Ought to** é parecido com *should* (“deveria”), mas um pouco mais formal, e **sempre leva to**. A negativa é *ought not to*.",
+      "table": {
+        "headers": ["Molde", "Exemplo", "Uso"],
+        "rows": [
+          ["Shall I / Shall we + verbo base?", "Shall I send you the invoice?", "oferta ou sugestão"],
+          ["ought to + verbo base", "You ought to test it on a staging server.", "conselho, dever moral"],
+          ["ought not to + verbo base", "You ought not to share your password.", "desaconselhar"],
+          ["shall em textos formais", "The supplier shall deliver the code within thirty days.", "obrigação em contratos"]
+        ]
+      },
+      "examples": [
+        {"en": "Shall I restart the server?", "pt": "Quer que eu reinicie o servidor?"},
+        {"en": "Shall we start with the demo?", "pt": "Começamos pela demonstração?"},
+        {"en": "The supplier shall deliver the code within thirty days.", "pt": "O fornecedor deverá entregar o código em até trinta dias."}
+      ],
+      "trap": "Para oferecer ajuda, não diga *Will I help you?*; use *Shall I help you?* ou *Can I help you?*. E não omita o to de ought: *You ought check it* não é inglês padrão; diga *You ought to check it*."
+    },
+    {
+      "title": "Be to: planos oficiais e ordens",
+      "text": "**Be to + verbo base** expressa algo **combinado, planejado ou ordenado** por uma autoridade. É típico de notícias, avisos e regras: *The new policy is to take effect on 1 March* (“a nova política entrará em vigor em 1º de março”). Para ordens formais: *All staff are to complete the training by Friday*.\n\nNo passado, *was/were to* fala de um plano que existia, e muitas vezes **não se realizou**: *The server was to be retired in June, but it is still running.* Em frases com *if*, *be to* indica um objetivo: *If we are to meet the deadline, we need two more developers.*",
+      "table": {
+        "headers": ["Uso", "Exemplo"],
+        "rows": [
+          ["plano oficial", "The new policy is to take effect on 1 March."],
+          ["ordem formal", "All staff are to complete the training by Friday."],
+          ["plano passado, muitas vezes não realizado", "The server was to be retired in June."],
+          ["objetivo, com if", "If we are to meet the deadline, we need more people."]
+        ]
+      },
+      "examples": [
+        {"en": "The new policy is to take effect on 1 March.", "pt": "A nova política entrará em vigor em 1º de março."},
+        {"en": "All staff are to complete the training by Friday.", "pt": "Todos os funcionários devem concluir o treinamento até sexta."},
+        {"en": "The server was to be retired in June, but it is still running.", "pt": "O servidor seria desativado em junho, mas continua funcionando."},
+        {"en": "If we are to meet the deadline, we need two more developers.", "pt": "Para cumprirmos o prazo, precisamos de mais dois desenvolvedores."}
+      ],
+      "tip": "*Be to* é formal. No dia a dia, prefira *is going to* ou *is scheduled to* para planos, e *have to* para obrigações."
+    },
+    {
+      "title": "Need e dare como modais",
+      "text": "**Need** e **dare** podem funcionar como modais: sem -s na terceira pessoa, sem *do* e sem *to*. Isso acontece principalmente em **negativas e perguntas**, em estilo formal ou britânico. **Needn't** significa “não é necessário”: *You needn't update the ticket*. Pergunta: *Need we inform the client?* Na afirmativa, use *need to*: *We need to inform the client.*\n\n**Dare** como modal aparece em *I daren't ask* e na expressão *I dare say* (“eu diria que”). Em outros casos, *dare* é um verbo comum: *Nobody dared to question the decision.*",
+      "table": {
+        "headers": ["Forma modal", "Forma com verbo comum"],
+        "rows": [
+          ["You needn't wait.", "You don't need to wait."],
+          ["Need we inform the client?", "Do we need to inform the client?"],
+          ["I daren't ask.", "I don't dare to ask."]
+        ]
+      },
+      "examples": [
+        {"en": "You needn't wait for me; I will lock the door.", "pt": "Você não precisa me esperar; eu tranco a porta."},
+        {"en": "Need we inform the client today?", "pt": "Precisamos informar o cliente hoje?"},
+        {"en": "I dare say the fix will work.", "pt": "Eu diria que a correção vai funcionar."},
+        {"en": "Nobody dared to question the decision.", "pt": "Ninguém ousou questionar a decisão."}
+      ],
+      "trap": "*Needn't* e *mustn't* são diferentes. *You needn't come* quer dizer “você não precisa vir”; *You mustn't come* quer dizer “você está proibido de vir”. E não diga *needn't to*: depois de needn't, o verbo fica na forma base."
+    },
+    {
+      "title": "Might as well e can't help",
+      "text": "**Might as well** (ou *may as well*) + verbo base sugere que fazer algo **não custa nada**, porque não há alternativa melhor: *The build takes an hour, so we might as well have lunch.* O tom é informal e um pouco resignado.\n\n**Can't help** ou **couldn't help** + **-ing** expressa algo que você **não consegue evitar**: *I can't help thinking that the deadline is unrealistic.* Depois de *help*, use o gerúndio (a forma -ing). Também existe *can't help but + verbo base*, um pouco mais formal: *I can't help but wonder.*",
+      "examples": [
+        {"en": "The build takes an hour, so we might as well have lunch.", "pt": "O build leva uma hora, então podemos muito bem almoçar."},
+        {"en": "There is nothing else to fix, so we may as well go home.", "pt": "Não há mais nada para corrigir, então podemos ir para casa."},
+        {"en": "I can't help thinking that the deadline is unrealistic.", "pt": "Não consigo deixar de pensar que o prazo é irreal."},
+        {"en": "She couldn't help laughing when the demo crashed.", "pt": "Ela não conseguiu deixar de rir quando a demonstração travou."}
+      ],
+      "trap": "Depois de *can't help*, não use infinitivo com to: *I couldn't help to laugh* está errado. Diga *I couldn't help laughing* ou *I couldn't help but laugh*."
+    },
+    {
+      "title": "Críticas sobre o passado: modal + have + particípio",
+      "text": "Para **criticar** ou **lamentar** algo que já aconteceu, usamos **modal + have + particípio**. O **particípio** é a forma do verbo usada com *have* (told, asked, warned, checked, deleted). *You should have told us* significa “você deveria ter nos avisado”.\n\n*You could have asked* e *You might have warned us* indicam que havia uma alternativa fácil; o **might** costuma soar mais irritado. *You ought to have checked* é a versão formal de *should have*. Na negativa: *You shouldn't have deleted the branch* (“você não deveria ter apagado”).",
+      "examples": [
+        {"en": "You should have told us about the outage.", "pt": "Você deveria ter nos avisado sobre a queda."},
+        {"en": "You could have asked for help earlier.", "pt": "Você poderia ter pedido ajuda antes."},
+        {"en": "You might have warned us before changing the schedule.", "pt": "Você bem que podia ter nos avisado antes de mudar o cronograma."},
+        {"en": "You shouldn't have deleted that branch.", "pt": "Você não deveria ter apagado aquele branch."}
+      ],
+      "trap": "Depois de *have*, use o particípio, e não o infinitivo: *You should have told*, nunca *You should have tell*. Na escrita, evite *should of*: ele nasce da pronúncia de *should've* e é erro."
+    }
+  ],
+  "summary": [
+    "Would + verbo de ação descreve hábitos passados; para estados do passado, use used to ou o passado simples.",
+    "Will pode expressar características e comportamento típico no presente: A good test suite will catch most regressions.",
+    "Shall I / Shall we faz ofertas e sugestões; ought to equivale a should, mas sempre leva to.",
+    "Be to expressa planos oficiais e ordens formais; was to costuma indicar um plano que não se realizou.",
+    "Needn't significa não é preciso (diferente de mustn't); depois de can't help, use -ing.",
+    "Críticas sobre o passado usam should/could/might have + particípio."
+  ],
+  "practice": [
+    {
+      "id": "c1-03-p1", "type": "choice",
+      "prompt": "When I was a junior developer, I ___ stay late every Friday to learn from the seniors.",
+      "options": ["would", "will", "shall"], "answer": 0,
+      "explain": "Para um hábito repetido no passado, com verbo de ação (stay), usamos would + verbo base.",
+      "why_not": {"1": "Will descreve o presente ou o futuro, e a frase está no passado (When I was…).", "2": "Shall serve para ofertas e sugestões, não para hábitos."}
+    },
+    {
+      "id": "c1-03-p2", "type": "choice",
+      "prompt": "When I was a child, I ___ in a small town near Recife.",
+      "options": ["would live", "used to live", "use to live"], "answer": 1,
+      "explain": "Live é um verbo de estado, então não aceita would para o passado. Com estados, use used to (ou o passado simples, lived).",
+      "why_not": {"0": "Would com verbo de estado não expressa uma situação passada.", "2": "Na afirmativa, a forma é used to, com d."}
+    },
+    {
+      "id": "c1-03-p3", "type": "choice",
+      "prompt": "A good test suite ___ catch most regressions before the release.",
+      "options": ["will", "shall", "is to"], "answer": 0,
+      "explain": "Will descreve uma característica típica: uma boa suíte de testes costuma pegar a maioria das regressões.",
+      "why_not": {"1": "Shall não é usado para descrever características.", "2": "Is to expressa plano ou ordem e exigiria outra estrutura (is to catch não cabe aqui)."}
+    },
+    {
+      "id": "c1-03-p4", "type": "choice",
+      "prompt": "___ I send you the invoice now?",
+      "options": ["Shall", "Ought", "Dare"], "answer": 0,
+      "explain": "Para oferecer algo com I ou we, usamos Shall I…? (“Quer que eu envie?”).",
+      "why_not": {"1": "Ought pede to e não forma ofertas.", "2": "Dare não serve para oferecer ajuda."}
+    },
+    {
+      "id": "c1-03-p5", "type": "fill",
+      "prompt": "There is nothing else to do, so we ___ as well go home.",
+      "answers": ["might", "may"],
+      "explain": "A expressão é might as well (ou may as well) + verbo base: não custa nada ir para casa."
+    },
+    {
+      "id": "c1-03-p6", "type": "fill",
+      "prompt": "The new policy is ___ take effect on 1 March.",
+      "answers": ["to"],
+      "explain": "Be to + verbo base expressa um plano oficial: is to take effect."
+    },
+    {
+      "id": "c1-03-p7", "type": "translate",
+      "prompt": "Você não precisa enviar o relatório hoje.",
+      "answers": ["You needn't send the report today.", "You need not send the report today.", "You don't need to send the report today.", "You do not have to send the report today.", "You don't have to send the report today."],
+      "explain": "Para dizer que algo não é necessário, use needn't + verbo base ou don't need to. Não use mustn't, que indica proibição."
+    },
+    {
+      "id": "c1-03-p8", "type": "order",
+      "words": ["You", "should", "have", "told", "us", "about", "the", "outage"],
+      "prompt": "Você deveria ter nos avisado sobre a queda.",
+      "explain": "A crítica ao passado segue o molde should + have + particípio (told)."
+    },
+    {
+      "id": "c1-03-p9", "type": "fix",
+      "prompt": "You ought finish the report before Friday.",
+      "answers": ["You ought to finish the report before Friday.", "You should finish the report before Friday."],
+      "explain": "Ought sempre leva to antes do verbo: ought to finish. Também poderíamos usar should, que dispensa o to."
+    },
+    {
+      "id": "c1-03-p10", "type": "fix",
+      "prompt": "He can't help to check his e-mail every five minutes.",
+      "answers": ["He can't help checking his e-mail every five minutes.", "He can't help but check his e-mail every five minutes."],
+      "explain": "Depois de can't help, usamos o gerúndio (checking). A alternativa formal é can't help but + verbo base."
+    },
+    {
+      "id": "c1-03-p11", "type": "listen",
+      "en": "If we are to meet the deadline, we need more help.",
+      "explain": "Be to em frase com if expressa um objetivo: If we are to meet the deadline, ela mostra o que é preciso para chegar lá."
+    },
+    {
+      "id": "c1-03-p12", "type": "choice",
+      "prompt": "You ___ phone the client; I already did it this morning.",
+      "options": ["needn't", "mustn't", "oughtn't"], "answer": 0,
+      "explain": "Como eu já liguei, não é necessário ligar de novo: needn't + verbo base.",
+      "why_not": {"1": "Mustn't indica proibição, e não há motivo para proibir a ligação.", "2": "Oughtn't pede to (oughtn't to phone) e significa que não seria correto ligar."}
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c1-03-q1", "type": "choice",
+      "prompt": "___ we order some pizza while the tests run?",
+      "options": ["Shall", "Ought", "Dare"], "answer": 0,
+      "explain": "Shall we…? é a forma clássica de fazer uma sugestão ao grupo.",
+      "why_not": {"1": "Ought não inicia perguntas de sugestão e exigiria to.", "2": "Dare não serve para sugerir algo."}
+    },
+    {
+      "id": "c1-03-q2", "type": "choice",
+      "prompt": "Qual frase usa would corretamente para um hábito no passado?",
+      "options": ["Every summer, we would travel to the conference.", "We would own a laptop with 4 GB of RAM.", "I would be a junior developer in 2015."], "answer": 0,
+      "explain": "Travel é verbo de ação, e a expressão every summer mostra a repetição. Com own e be (estados), usa-se used to ou o passado simples.",
+      "why_not": {"1": "Own é verbo de estado.", "2": "Be é verbo de estado."}
+    },
+    {
+      "id": "c1-03-q3", "type": "fill",
+      "prompt": "All visitors ___ to sign in at the front desk. (use uma forma do verbo be)",
+      "answers": ["are"],
+      "explain": "Be to + verbo base expressa uma ordem formal: All visitors are to sign in."
+    },
+    {
+      "id": "c1-03-q4", "type": "translate",
+      "prompt": "Você não deveria ter apagado esse backup.",
+      "answers": ["You should not have deleted that backup.", "You should not have deleted this backup.", "You should not have deleted the backup.", "You ought not to have deleted that backup.", "You ought not to have deleted this backup.", "You ought not to have deleted the backup."],
+      "explain": "A crítica ao passado usa should not + have + particípio (deleted). Ought not to have deleted também é possível, em registro mais formal."
+    },
+    {
+      "id": "c1-03-q5", "type": "order",
+      "words": ["We", "might", "as", "well", "start", "the", "migration", "now"],
+      "prompt": "Podemos muito bem começar a migração agora.",
+      "answers": ["We may as well start the migration now."],
+      "explain": "Might as well + verbo base sugere que não há motivo para esperar."
+    },
+    {
+      "id": "c1-03-q6", "type": "fix",
+      "prompt": "You needn't to wait for me.",
+      "answers": ["You needn't wait for me.", "You don't need to wait for me."],
+      "explain": "Needn't é modal e é seguido do verbo base, sem to. Com need comum, usamos don't need to."
+    },
+    {
+      "id": "c1-03-q7", "type": "listen",
+      "en": "Nobody dared to question the decision, so the plan went ahead.",
+      "explain": "Dared é o passado do verbo dare usado como verbo comum, aqui seguido de to + verbo base."
+    },
+    {
+      "id": "c1-03-q8", "type": "choice",
+      "prompt": "Qual frase critica uma ação passada e está correta?",
+      "options": ["You should have told us about the delay.", "You should have tell us about the delay.", "You should of told us about the delay."], "answer": 0,
+      "explain": "A estrutura é should + have + particípio (told).",
+      "why_not": {"1": "Depois de have, o verbo precisa estar no particípio, e não no infinitivo.", "2": "Should of é erro de escrita da pronúncia de should've; o certo é should have."}
+    }
+  ],
+  "words": [
+    {"word": "regression", "pt": "regressão (defeito em algo que antes funcionava)"},
+    {"word": "policy", "pt": "política; regra oficial"},
+    {"word": "take effect", "pt": "entrar em vigor"},
+    {"word": "staff", "pt": "funcionários; equipe"},
+    {"word": "invoice", "pt": "fatura; nota fiscal"},
+    {"word": "back up", "pt": "fazer backup de"},
+    {"word": "warn", "pt": "avisar; alertar"},
+    {"word": "deadline", "pt": "prazo"},
+    {"word": "retire", "pt": "aposentar; desativar"},
+    {"word": "supplier", "pt": "fornecedor"}
+  ]
+}

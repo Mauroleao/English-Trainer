@@ -1,0 +1,31 @@
+{
+  "id": "r-b2-02",
+  "level": "B2",
+  "title": "Feedback on your pull request",
+  "topic": "Feedback de code review",
+  "text": "Hi Daniel,\n\nThanks for the pull request. Overall, I think the approach is solid, and I really like that you wrote tests for the new discount logic. Here are my comments, from most to least important.\n\nFirst, a blocking issue: the function calculateTotal modifies the cart object directly. This could cause unexpected behaviour elsewhere, because other parts of the code assume the cart never changes. Could you return a new object instead?\n\nSecond, I noticed that the discount is applied before the tax is calculated. According to the finance team's document, it should be the other way round. It would be worth checking that with Sofia before we merge, otherwise we might charge customers the wrong amount.\n\nThird, a small suggestion: the variable names x and tmp don't tell me much. If you rename them to something like subtotal and discountedPrice, the code will be much easier to follow for whoever reads it in six months.\n\nFinally, a couple of nitpicks, which you can ignore if you disagree: there is an unused import in line 12, and the comment above the loop is no longer accurate.\n\nNone of this is a big problem, and I'm happy to pair on it tomorrow if you'd like. Great work overall!\n\nCheers,\nMeera",
+  "pt": "Oi Daniel,\n\nObrigada pelo pull request. No geral, acho a abordagem sólida, e gostei muito de você ter escrito testes para a nova lógica de desconto. Seguem meus comentários, do mais ao menos importante.\n\nPrimeiro, um problema que bloqueia a aprovação: a função calculateTotal modifica o objeto do carrinho diretamente. Isso pode causar comportamentos inesperados em outros lugares, porque outras partes do código assumem que o carrinho nunca muda. Você poderia retornar um novo objeto?\n\nSegundo, percebi que o desconto é aplicado antes do cálculo do imposto. De acordo com o documento do time financeiro, deveria ser o contrário. Vale a pena confirmar isso com a Sofia antes do merge, senão podemos cobrar dos clientes o valor errado.\n\nTerceiro, uma pequena sugestão: os nomes de variáveis x e tmp não dizem muito. Se você os renomear para algo como subtotal e discountedPrice, o código ficará bem mais fácil de acompanhar para quem o ler daqui a seis meses.\n\nPor fim, algumas questões menores, que você pode ignorar se discordar: há um import não utilizado na linha 12, e o comentário acima do loop já não está correto.\n\nNada disso é um grande problema, e posso fazer pair com você amanhã, se quiser. Ótimo trabalho no geral!\n\nAbraço,\nMeera",
+  "vocab": [
+    {"word": "approach", "pt": "abordagem"},
+    {"word": "solid", "pt": "sólido"},
+    {"word": "blocking", "pt": "que bloqueia"},
+    {"word": "modifies", "pt": "modifica"},
+    {"word": "behaviour", "pt": "comportamento"},
+    {"word": "merge", "pt": "mesclar (merge)"},
+    {"word": "rename", "pt": "renomear"},
+    {"word": "nitpicks", "pt": "detalhes menores, miudezas"},
+    {"word": "unused", "pt": "não utilizado"}
+  ],
+  "questions": [
+    {"id": "r-b2-02-q1", "type": "choice", "prompt": "What does Meera like about the pull request?", "options": ["The short variable names", "The tests for the discount logic", "The use of tax rules"], "answer": 1,
+     "explain": "Ela diz “I really like that you wrote tests for the new discount logic”."},
+    {"id": "r-b2-02-q2", "type": "choice", "prompt": "Why is calculateTotal a blocking issue?", "options": ["It changes the cart object directly", "It is too slow", "It has no tests"], "answer": 0,
+     "explain": "A função “modifies the cart object directly”, e outras partes do código assumem que o carrinho não muda."},
+    {"id": "r-b2-02-q3", "type": "choice", "prompt": "What should Daniel check with Sofia?", "options": ["Which variable names to use", "Whether the order of discount and tax is correct", "When to merge the code"], "answer": 1,
+     "explain": "O desconto está sendo aplicado antes do imposto, e o documento financeiro diz o contrário; ela sugere confirmar com Sofia."},
+    {"id": "r-b2-02-q4", "type": "choice", "prompt": "What can be inferred about the “nitpicks”?", "options": ["They must be fixed before merging", "They are minor and optional", "They are Sofia's responsibility"], "answer": 1,
+     "explain": "Meera diz que podem ser ignorados “if you disagree” e que “None of this is a big problem”."},
+    {"id": "r-b2-02-q5", "type": "choice", "prompt": "What does Meera offer at the end?", "options": ["To rewrite the code", "To pair with Daniel tomorrow", "To ask Sofia herself"], "answer": 1,
+     "explain": "“I'm happy to pair on it tomorrow if you'd like”."}
+  ]
+}

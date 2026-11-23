@@ -1,0 +1,194 @@
+{
+  "id": "a1-12",
+  "level": "A1",
+  "unit": "Habilidades, tempo e agora",
+  "title": "Present continuous: o que está acontecendo agora",
+  "goal": "Dizer o que você e as outras pessoas estão fazendo agora, com am/is/are + verbo com -ing.",
+  "minutes": 22,
+  "steps": [
+    {
+      "title": "Para que serve o present continuous",
+      "text": "O **present continuous** (presente contínuo) mostra uma ação que **está acontecendo agora**, no momento em que você fala. É o “estou fazendo” do português: estou escrevendo, ela está testando, eles estão esperando.\n\nImagine que um colega liga e pergunta: “O que você está fazendo?”. Você responde com este tempo: *I am fixing a bug*. A ação está em andamento, ainda não terminou.",
+      "examples": [
+        {"en": "I am fixing a bug.", "pt": "Eu estou corrigindo um bug."},
+        {"en": "She is talking to the client.", "pt": "Ela está falando com o cliente."},
+        {"en": "They are waiting for the file.", "pt": "Eles estão esperando o arquivo."}
+      ],
+      "tip": "Pense em um vídeo pausado: o que as pessoas estão fazendo naquele instante? É isso que o present continuous descreve."
+    },
+    {
+      "title": "A forma: am / is / are + verbo com -ing",
+      "text": "A estrutura tem duas partes: o verbo **to be** (que você já conhece: am, is, are) e o **verbo principal com -ing**. O verbo to be muda conforme o sujeito; o verbo principal com -ing **não muda nunca**.\n\nAs contrações valem: *I'm working*, *she's working*, *they're working*.",
+      "table": {
+        "headers": ["Sujeito", "To be", "Verbo + -ing", "Exemplo"],
+        "rows": [
+          ["I", "am", "working", "I am working."],
+          ["he / she / it", "is", "working", "She is working."],
+          ["you / we / they", "are", "working", "We are working."]
+        ]
+      },
+      "examples": [
+        {"en": "I'm writing an e-mail.", "pt": "Eu estou escrevendo um e-mail."},
+        {"en": "The server is running.", "pt": "O servidor está rodando."},
+        {"en": "We are testing the login page.", "pt": "Nós estamos testando a página de login."}
+      ],
+      "trap": "Não esqueça o verbo to be. Em português dizemos “ela está trabalhando”, com o verbo estar. Em inglês também é preciso o verbo: *She is working*, e não *She working*. Do mesmo modo, *I am work* está errado; use **-ing** depois de am/is/are."
+    },
+    {
+      "title": "Como escrever o -ing",
+      "text": "Na maioria dos verbos, basta acrescentar **-ing** ao verbo base: *work → working*, *test → testing*. Mas alguns verbos mudam um pouco na escrita.\n\nSe o verbo termina em **-e** mudo, tire o e: *write → writing*. Se o verbo tem **uma sílaba** e termina em consoante + vogal + consoante, dobre a última consoante: *run → running*. Letras **w, x e y** não se dobram: *fix → fixing*, *play → playing*.",
+      "table": {
+        "headers": ["Regra", "Verbo", "Com -ing"],
+        "rows": [
+          ["Regra geral: acrescente -ing", "work / test / check", "working / testing / checking"],
+          ["Termina em -e: tire o e", "write / make / use", "writing / making / using"],
+          ["Uma sílaba, consoante-vogal-consoante: dobre a última", "run / stop / sit", "running / stopping / sitting"],
+          ["Termina em w, x ou y: não dobre", "fix / play / show", "fixing / playing / showing"]
+        ]
+      },
+      "examples": [
+        {"en": "He is writing the documentation.", "pt": "Ele está escrevendo a documentação."},
+        {"en": "I am running a test now.", "pt": "Eu estou rodando um teste agora."},
+        {"en": "She is using a new laptop.", "pt": "Ela está usando um laptop novo."},
+        {"en": "We are fixing the problem.", "pt": "Nós estamos resolvendo o problema."}
+      ],
+      "trap": "Erros comuns de grafia: *writeing* (o certo é **writing**) e *runing* (o certo é **running**). Para *have*, a forma é **having**: o e some."
+    },
+    {
+      "title": "Negativa e perguntas",
+      "text": "Para a **negativa**, coloque **not** depois de am/is/are: *I am not working*, *she is not working*. Também vale a contração: *she isn't working*, *they aren't working*. Com I, use *I'm not*.\n\nPara a **pergunta**, inverta: coloque am/is/are **antes** do sujeito. *Is she working?* Nas respostas curtas, repita o verbo to be: *Yes, she is.* / *No, she isn't.* Não use o -ing na resposta curta.",
+      "table": {
+        "headers": ["Tipo", "Exemplo"],
+        "rows": [
+          ["Afirmativa", "He is testing the app."],
+          ["Negativa", "He is not testing the app."],
+          ["Pergunta", "Is he testing the app?"],
+          ["Resposta curta", "Yes, he is. / No, he isn't."],
+          ["Pergunta com palavra interrogativa", "What are you doing?"]
+        ]
+      },
+      "examples": [
+        {"en": "I am not using the old server.", "pt": "Eu não estou usando o servidor antigo."},
+        {"en": "Are you working today?", "pt": "Você está trabalhando hoje?"},
+        {"en": "What is she doing?", "pt": "O que ela está fazendo?"},
+        {"en": "They aren't waiting for us.", "pt": "Eles não estão esperando por nós."}
+      ],
+      "trap": "Não use *do* nem *does* neste tempo. *Do you working now?* está errado. O auxiliar aqui é o próprio verbo to be: **Are you working now?**"
+    },
+    {
+      "title": "Palavras que marcam o agora",
+      "text": "Algumas expressões ajudam a mostrar que a ação acontece no momento da fala. As mais comuns são **now** (agora), **right now** (agora mesmo) e **at the moment** (neste momento). Também usamos **today** (hoje) para uma ação em andamento no dia de hoje.\n\nEssas expressões ficam normalmente **no fim** da frase, mas **now** e **right now** também podem abrir a frase: *Right now we are testing.*",
+      "table": {
+        "headers": ["Expressão", "Exemplo"],
+        "rows": [
+          ["now", "I am updating the app now."],
+          ["right now", "She is writing code right now."],
+          ["at the moment", "They are in a meeting at the moment."],
+          ["today", "We are working from home today."]
+        ]
+      },
+      "examples": [
+        {"en": "Right now we are deploying the update.", "pt": "Agora mesmo estamos publicando a atualização."},
+        {"en": "He is having lunch at the moment.", "pt": "Ele está almoçando neste momento."},
+        {"en": "I am working from home today.", "pt": "Eu estou trabalhando de casa hoje."}
+      ],
+      "tip": "Ouviu *Look!* ou *Listen!* no começo da frase? Quase sempre vem um present continuous: *Look! The server is restarting.*"
+    },
+    {
+      "title": "Present simple × present continuous",
+      "text": "Os dois tempos usam “presente” no português, mas em inglês eles têm funções diferentes. O **present simple** fala de **rotina e fatos**: o que acontece sempre. O **present continuous** fala do que **está acontecendo agora**.\n\nObserve a diferença: *I write code every day* (rotina) e *I am writing code now* (neste momento). Palavras como *every day*, *on Mondays* e *usually* chamam o present simple; *now* e *at the moment* chamam o continuous.",
+      "table": {
+        "headers": ["Present simple (rotina)", "Present continuous (agora)"],
+        "rows": [
+          ["I write code every day.", "I am writing code now."],
+          ["She works in São Paulo.", "She is working from home today."],
+          ["They test on Fridays.", "They are testing right now."]
+        ]
+      },
+      "examples": [
+        {"en": "I check my e-mail every morning.", "pt": "Eu verifico meu e-mail toda manhã."},
+        {"en": "I am checking my e-mail now.", "pt": "Eu estou verificando meu e-mail agora."}
+      ],
+      "trap": "Alguns verbos de estado, como **have** (no sentido de posse), **know**, **want** e **like**, normalmente não aparecem no present continuous. Diga *I have a laptop*, e não *I am having a laptop*. Você verá mais sobre isso no A2."
+    },
+    {
+      "title": "Na prática: uma conversa no chat da equipe",
+      "text": "Num chat de trabalho, as pessoas costumam perguntar *What are you doing?* e responder com o present continuous. Veja como Bia e Paulo conversam e repare que cada frase tem **am/is/are + verbo com -ing**.\n\nUse o que aprendeu: leia cada exemplo em voz alta e identifique o to be e o verbo com -ing. Se a ação é rotina, volte ao present simple; se é agora, use o continuous.",
+      "examples": [
+        {"en": "Bia, what are you doing?", "pt": "Bia, o que você está fazendo?"},
+        {"en": "I'm reading the new ticket.", "pt": "Estou lendo o chamado novo."},
+        {"en": "Paulo is stopping the old server.", "pt": "O Paulo está parando o servidor antigo."},
+        {"en": "We aren't using it anymore.", "pt": "Nós não estamos mais usando esse servidor."}
+      ]
+    }
+  ],
+  "summary": [
+    "O present continuous mostra uma ação em andamento agora: am/is/are + verbo com -ing.",
+    "O verbo to be muda (I am, she is, we are); o verbo com -ing não muda.",
+    "Grafia do -ing: write → writing (tira o e), run → running (dobra a consoante), fix → fixing (x não dobra).",
+    "Negativa: am/is/are + not. Pergunta: am/is/are antes do sujeito (Are you working?). Não use do/does.",
+    "Now, right now e at the moment marcam o agora; every day e usually marcam rotina (present simple)."
+  ],
+  "practice": [
+    {"id": "a1-12-p1", "type": "choice", "prompt": "She ___ the code right now.", "options": ["is checking", "checks", "are checking"], "answer": 0,
+     "explain": "Right now mostra que a ação acontece agora, então usamos is + verbo com -ing. Com she, o verbo to be é is.",
+     "why_not": {"1": "Checks é o present simple, usado para rotina, e não para o que acontece agora.", "2": "Are não combina com she."}},
+    {"id": "a1-12-p2", "type": "choice", "prompt": "They ___ for the client at the moment.", "options": ["is waiting", "are waiting", "waiting"], "answer": 1,
+     "explain": "They usa are, e depois vem o verbo com -ing: are waiting.",
+     "why_not": {"0": "Is é usado com he, she e it.", "2": "Falta o verbo to be antes de waiting."}},
+    {"id": "a1-12-p3", "type": "choice", "prompt": "He is ___ a new feature.", "options": ["writeing", "writting", "writing"], "answer": 2,
+     "explain": "Write termina em e mudo, então o e some antes do -ing: writing.",
+     "why_not": {"0": "É preciso tirar o e antes de acrescentar -ing.", "1": "Write não dobra a consoante, porque termina em e."}},
+    {"id": "a1-12-p4", "type": "fill", "prompt": "She ___ (use) the new laptop today.", "answers": ["is using"],
+     "explain": "She pede is. Use termina em e, então vira using: is using."},
+    {"id": "a1-12-p5", "type": "fill", "prompt": "They ___ (stop) the server now.", "answers": ["are stopping"],
+     "explain": "They pede are. Stop tem uma sílaba e termina em consoante + vogal + consoante, então dobramos o p: stopping."},
+    {"id": "a1-12-p6", "type": "fill", "prompt": "Ana ___ (write) an e-mail at the moment.", "answers": ["is writing"],
+     "explain": "Ana equivale a she, então usamos is. Write perde o e: writing."},
+    {"id": "a1-12-p7", "type": "translate", "prompt": "Eu estou testando o código agora.", "answers": ["I am testing the code now.", "I am testing the code right now.", "Now I am testing the code.", "Right now I am testing the code.", "I am testing the code at the moment."],
+     "explain": "Use I am + testing. Agora pode ser now, right now ou at the moment."},
+    {"id": "a1-12-p8", "type": "order", "words": ["He", "is", "talking", "to", "the", "client", "now"], "prompt": "Ele está falando com o cliente agora.", "answers": ["Now he is talking to the client."],
+     "explain": "A ordem é sujeito + is + verbo com -ing + complemento. A palavra now pode ir no fim ou no começo."},
+    {"id": "a1-12-p9", "type": "fix", "prompt": "She working on the bug now.", "answers": ["She is working on the bug now."],
+     "explain": "Falta o verbo to be. No present continuous é preciso am/is/are antes do verbo com -ing: she is working."},
+    {"id": "a1-12-p10", "type": "fix", "prompt": "I am work at the office now.", "answers": ["I am working at the office now."],
+     "explain": "Depois de am/is/are, o verbo principal precisa do -ing: working."},
+    {"id": "a1-12-p11", "type": "listen", "en": "The team is deploying the new version now.",
+     "explain": "Is deploying é o present continuous: o to be is mais o verbo com -ing. Now mostra que a ação está acontecendo."},
+    {"id": "a1-12-p12", "type": "choice", "prompt": "Qual frase fala de algo que acontece AGORA?", "options": ["She writes code every day.", "She is writing code right now.", "She write code now."], "answer": 1,
+     "explain": "Right now e is writing mostram uma ação em andamento. A primeira frase fala de rotina.",
+     "why_not": {"0": "Every day indica rotina, então o present simple está correto, mas não fala do agora.", "2": "Falta is e o -ing: she is writing."}}
+  ],
+  "quiz": [
+    {"id": "a1-12-q1", "type": "choice", "prompt": "Marco ___ to the client right now.", "options": ["talks", "is talking", "talk"], "answer": 1,
+     "explain": "Right now pede o present continuous: is talking.",
+     "why_not": {"0": "Talks é o present simple, para rotina.", "2": "Talk não leva -s com he, e também não mostra o agora."}},
+    {"id": "a1-12-q2", "type": "fill", "prompt": "We ___ (make) a backup now.", "answers": ["are making"],
+     "explain": "We usa are. Make termina em e, então vira making."},
+    {"id": "a1-12-q3", "type": "fill", "prompt": "Diego ___ (get) a coffee at the moment.", "answers": ["is getting"],
+     "explain": "Diego equivale a he, então usamos is. Get tem uma sílaba e termina em consoante + vogal + consoante, então dobramos o t: getting."},
+    {"id": "a1-12-q4", "type": "translate", "prompt": "Elas estão escrevendo o relatório agora.", "answers": ["They are writing the report now.", "They are writing the report right now.", "Now they are writing the report.", "Right now they are writing the report.", "They are writing the report at the moment."],
+     "explain": "Elas equivale a they, que usa are. Escrevendo vira writing, sem o e."},
+    {"id": "a1-12-q5", "type": "order", "words": ["I", "am", "not", "using", "the", "old", "laptop"], "prompt": "Eu não estou usando o laptop velho.",
+     "explain": "Na negativa, not vem depois de am/is/are: I am not using."},
+    {"id": "a1-12-q6", "type": "fix", "prompt": "Are you use the new tool now?", "answers": ["Are you using the new tool now?"],
+     "explain": "Depois de are you, o verbo principal leva -ing: using. Use perde o e."},
+    {"id": "a1-12-q7", "type": "choice", "prompt": "We are ___ the old files.", "options": ["deleteing", "deleting", "delleting"], "answer": 1,
+     "explain": "Delete termina em e mudo, então o e some: deleting.",
+     "why_not": {"0": "É preciso tirar o e antes do -ing.", "2": "Não há motivo para dobrar o l nesta palavra."}},
+    {"id": "a1-12-q8", "type": "listen", "en": "I am not running the tests at the moment.",
+     "explain": "Am not running é a negativa do present continuous. Run dobra o n: running."}
+  ],
+  "words": [
+    {"word": "now", "pt": "agora"},
+    {"word": "right now", "pt": "agora mesmo"},
+    {"word": "at the moment", "pt": "neste momento; no momento"},
+    {"word": "today", "pt": "hoje"},
+    {"word": "wait", "pt": "esperar; aguardar"},
+    {"word": "write", "pt": "escrever"},
+    {"word": "run", "pt": "rodar; executar; correr"},
+    {"word": "use", "pt": "usar"},
+    {"word": "fix", "pt": "corrigir; consertar"},
+    {"word": "backup", "pt": "cópia de segurança"}
+  ]
+}

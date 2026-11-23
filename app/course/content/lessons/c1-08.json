@@ -1,0 +1,445 @@
+{
+  "id": "c1-08",
+  "level": "C1",
+  "unit": "Postura e coesão",
+  "title": "Marcadores de discurso e coesão",
+  "goal": "Ligar frases e parágrafos com referência, substituição, elipse e conectores avançados, organizando um argumento claro.",
+  "minutes": 30,
+  "steps": [
+    {
+      "title": "Coesão: o que faz um texto “andar”",
+      "text": "Um texto coeso é aquele em que o leitor sempre sabe **de que estamos falando** e **como cada ideia se liga à anterior**. No C1 não basta escrever frases corretas: é preciso costurá-las. Existem quatro ferramentas principais: **referência** (this, such, the former), **substituição** (one, do so, so, not), **elipse** (omitir o que o leitor já sabe) e **marcadores de discurso** (moreover, nevertheless, hence).\n\nEm inglês profissional, a repetição de palavras soa pesada, e a falta de ligação soa abrupta. O equilíbrio entre os dois é o que você vai treinar aqui.",
+      "examples": [
+        {
+          "en": "The migration was delayed twice. Consequently, the launch was postponed.",
+          "pt": "A migração foi adiada duas vezes. Consequentemente, o lançamento foi adiado."
+        },
+        {
+          "en": "We tested two approaches; the former was faster, but the latter was more reliable.",
+          "pt": "Testamos duas abordagens; a primeira foi mais rápida, mas a segunda foi mais confiável."
+        }
+      ],
+      "tip": "Ao revisar um texto seu, pergunte a cada frase: “o que liga esta ideia à anterior?”. Se a resposta for “nada”, falta coesão."
+    },
+    {
+      "title": "Referência: this, such, the former, the latter",
+      "text": "Para retomar uma ideia sem repeti-la, use palavras de referência. **This** e **these** costumam vir com um substantivo que resume o que foi dito: *This approach…*, *These findings…*. **Such** também resume: *such a change*, *such delays*. Para dois itens citados, use **the former** (o primeiro) e **the latter** (o segundo). Em textos formais há ainda **the above** e **the following**.\n\nO ponto de atenção é a clareza: *this* sozinho, sem substantivo, pode deixar o leitor sem saber a que você se refere. Quando houver dúvida, acrescente o substantivo: *This delay*, *This decision*.",
+      "examples": [
+        {
+          "en": "The team rewrote the module. This decision cut build times by half.",
+          "pt": "A equipe reescreveu o módulo. Essa decisão reduziu pela metade o tempo de build."
+        },
+        {
+          "en": "Such delays are rarely caused by a single factor.",
+          "pt": "Atrasos desse tipo raramente são causados por um único fator."
+        }
+      ],
+      "trap": "Brasileiros costumam usar *this* ou *it* soltos para resumir uma frase inteira (“Isso causou…”). Em textos escritos, prefira *This + substantivo* (*This failure caused…*) para evitar ambiguidade."
+    },
+    {
+      "title": "Substituição: one(s), do so, so e not",
+      "text": "Substituir evita repetir. **One/ones** substituem um substantivo contável já mencionado: *I prefer the old dashboards; the new ones are confusing*. **Do so** substitui um verbo e seu complemento, em tom mais formal: *She was asked to review the PR and agreed to do so*. Depois de verbos como **hope, think, believe, suppose, expect e be afraid**, use **so** (resposta positiva) ou **not** (negativa): *Will the patch work? — I hope so. / I hope not.*\n\nNote que *one* não substitui incontáveis, e que em *I think so* o verbo não pode ser seguido de *it* nem *that*.",
+      "table": {
+        "headers": [
+          "Recurso",
+          "Substitui",
+          "Exemplo"
+        ],
+        "rows": [
+          [
+            "one / ones",
+            "substantivo contável",
+            "The red one looks better."
+          ],
+          [
+            "do so",
+            "verbo + complemento",
+            "He was told to update it and did so."
+          ],
+          [
+            "so / not",
+            "oração inteira",
+            "Is it ready? — I'm afraid not."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "I prefer the old dashboards; the new ones are confusing.",
+          "pt": "Prefiro os dashboards antigos; os novos são confusos."
+        },
+        {
+          "en": "Will the client renew? — I hope so.",
+          "pt": "O cliente vai renovar? — Espero que sim."
+        },
+        {
+          "en": "Is the build going to fail again? — I hope not.",
+          "pt": "O build vai falhar de novo? — Espero que não."
+        }
+      ]
+    },
+    {
+      "title": "Elipse: omitir o que já está claro",
+      "text": "A elipse elimina palavras que o leitor consegue recuperar. Depois de **and, but e or**, costuma-se omitir sujeito e auxiliar repetidos: *The tests ran and passed*. Depois de um auxiliar ou do **to** de um infinitivo, omite-se o verbo principal: *I'd like to help, but I can't*; *Do you want to join? — I'd love to*.\n\nA elipse deixa o inglês natural e ágil, mas só funciona quando o contexto torna o sentido inequívoco. Se o leitor puder entender de duas maneiras, repita a informação.",
+      "examples": [
+        {
+          "en": "The pipeline built the image and pushed it to the registry.",
+          "pt": "O pipeline construiu a imagem e a enviou ao registro."
+        },
+        {
+          "en": "I'd love to help, but I can't this week.",
+          "pt": "Adoraria ajudar, mas não posso esta semana."
+        },
+        {
+          "en": "Some tests passed and others failed.",
+          "pt": "Alguns testes passaram e outros falharam."
+        }
+      ],
+      "tip": "Ao responder, use o infinitivo “solto”: *I'd like to.* / *I'm planning to.* Repetir o verbo inteiro soa artificial."
+    },
+    {
+      "title": "Linking avançado: adição, contraste, resultado, concessão",
+      "text": "Os conectores avançados organizam a lógica do texto. Para **adicionar**: *moreover, furthermore, in addition*. Para **contrastar**: *nevertheless, nonetheless, that said, whereas*. Para indicar **resultado**: *consequently, hence, thus, as a result*. Para **conceder**: *admittedly, granted, albeit* (= embora, antes de adjetivo ou expressão: *a useful, albeit limited, tool*).\n\nA maioria deles é advérbio, e não conjunção. Por isso eles **não unem duas orações apenas com vírgula**. Use ponto final ou ponto e vírgula antes, e vírgula depois: *The tests failed; therefore, we rolled back.* Se quiser unir com vírgula, use a conjunção **so** ou **and therefore**.",
+      "table": {
+        "headers": [
+          "Função",
+          "Conectores"
+        ],
+        "rows": [
+          [
+            "Adição",
+            "moreover, furthermore, in addition"
+          ],
+          [
+            "Contraste",
+            "nevertheless, nonetheless, that said, whereas"
+          ],
+          [
+            "Resultado",
+            "consequently, hence, thus, as a result"
+          ],
+          [
+            "Concessão",
+            "admittedly, granted, albeit"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "The design is elegant; nevertheless, it is hard to maintain.",
+          "pt": "O design é elegante; mesmo assim, é difícil de manter."
+        },
+        {
+          "en": "Admittedly, the fix is a workaround; that said, it buys us time.",
+          "pt": "É verdade que a correção é uma gambiarra; ainda assim, ela nos dá tempo."
+        }
+      ],
+      "trap": "*The tests failed, therefore we rolled back* é uma vírgula emendando duas orações (comma splice). Escreva *The tests failed; therefore, we rolled back* ou *The tests failed, so we rolled back*."
+    },
+    {
+      "title": "Organizar um argumento: sinalização",
+      "text": "Em apresentações, relatórios e e-mails longos, o leitor precisa de **sinais de rota**. Para abrir: *To begin with, First of all, Firstly*. Para continuar: *In addition, Another point is…, Turning to…*. Para equilibrar ideias: *On the one hand… On the other hand…*. Para fechar: *To sum up, In conclusion, Overall*.\n\nCuidado com as expressões fixas: o inglês diz **on the other hand** (e não *in the other hand*), **on the contrary** e **in contrast**. Elas não são intercambiáveis: *on the contrary* nega o que foi dito, enquanto *on the other hand* apresenta outro lado de uma mesma questão.",
+      "examples": [
+        {
+          "en": "To begin with, we need a clear scope.",
+          "pt": "Para começar, precisamos de um escopo claro."
+        },
+        {
+          "en": "On the one hand, the tool is cheap; on the other hand, support is limited.",
+          "pt": "Por um lado, a ferramenta é barata; por outro, o suporte é limitado."
+        },
+        {
+          "en": "To sum up, the migration is feasible but risky.",
+          "pt": "Resumindo, a migração é viável, mas arriscada."
+        }
+      ],
+      "trap": "Erro frequente: *In the other hand* ou *In contrary*. As formas corretas são *On the other hand*, *On the contrary* e *In contrast*."
+    },
+    {
+      "title": "Em contexto: uma atualização de projeto",
+      "text": "Veja como os recursos trabalham juntos num trecho de relatório. Repare que cada frase aponta para a anterior, sem repetir palavras, e que os conectores estão em posições e com pontuação corretas.\n\nQuando for escrever, não encha o texto de conectores: um bom conector expressa uma relação lógica real. Se a relação for óbvia, a frase seguinte pode simplesmente vir sem marcador.",
+      "examples": [
+        {
+          "en": "We evaluated two vendors. The former offered lower prices; the latter, better support. Admittedly, neither was perfect; that said, the second proved more reliable.",
+          "pt": "Avaliamos dois fornecedores. O primeiro oferecia preços menores; o segundo, melhor suporte. É verdade que nenhum era perfeito; ainda assim, o segundo se mostrou mais confiável."
+        },
+        {
+          "en": "The service crashed after the update, which caused a three-hour outage.",
+          "pt": "O serviço caiu após a atualização, o que causou uma indisponibilidade de três horas."
+        }
+      ],
+      "tip": "Para retomar uma oração inteira, use **, which** depois da vírgula: *…, which caused an outage*. Não use *this* ou *it* ali."
+    }
+  ],
+  "summary": [
+    "Coesão é ligar ideias por referência (this + substantivo, the former/the latter), substituição (one, do so, so/not) e elipse.",
+    "Prefira This + substantivo a this solto, para não deixar dúvida sobre o que você retoma.",
+    "Conectores como however, therefore e moreover são advérbios: não unem duas orações só com vírgula.",
+    "Use as expressões fixas corretas: on the other hand, on the contrary, in contrast.",
+    "Sinalize o argumento (to begin with, to sum up) para o leitor não se perder."
+  ],
+  "practice": [
+    {
+      "id": "c1-08-p1",
+      "type": "choice",
+      "prompt": "The migration was delayed twice. ___ the team decided to postpone the launch.",
+      "options": [
+        "Consequently,",
+        "Whereas",
+        "Albeit"
+      ],
+      "answer": 0,
+      "explain": "A decisão de adiar é o resultado dos atrasos, e consequently marca resultado.",
+      "why_not": {
+        "1": "Whereas marca contraste e não começa uma frase assim.",
+        "2": "Albeit significa “embora” e se liga a adjetivos ou expressões, não a uma oração nova."
+      }
+    },
+    {
+      "id": "c1-08-p2",
+      "type": "choice",
+      "prompt": "I prefer the old dashboards; the new ___ are confusing.",
+      "options": [
+        "one",
+        "ones",
+        "them"
+      ],
+      "answer": 1,
+      "explain": "Dashboards é plural, então o substituto é ones. One só substitui um contável singular.",
+      "why_not": {
+        "0": "One é singular e não concorda com are.",
+        "2": "Them é pronome objeto e não pode ser sujeito nem acompanhar o adjetivo new."
+      }
+    },
+    {
+      "id": "c1-08-p3",
+      "type": "choice",
+      "prompt": "Is the build going to fail again? — I hope ___.",
+      "options": [
+        "not",
+        "no",
+        "so"
+      ],
+      "answer": 0,
+      "explain": "Depois de hope, a resposta negativa curta é not: I hope not.",
+      "why_not": {
+        "1": "Não se diz I hope no; a negação substitutiva é not.",
+        "2": "So confirmaria que o build vai falhar, o contrário do que se espera."
+      }
+    },
+    {
+      "id": "c1-08-p4",
+      "type": "choice",
+      "prompt": "The service crashed after the update, ___ caused a three-hour outage.",
+      "options": [
+        "which",
+        "this",
+        "it"
+      ],
+      "answer": 0,
+      "explain": "Depois da vírgula, which retoma toda a oração anterior e a liga à nova. This e it deixariam duas orações emendadas só por vírgula.",
+      "why_not": {
+        "1": "This após vírgula cria um comma splice.",
+        "2": "It também geraria duas orações unidas só por vírgula."
+      }
+    },
+    {
+      "id": "c1-08-p5",
+      "type": "fill",
+      "prompt": "We tested two libraries. The ___ was faster, but the latter was more stable.",
+      "answers": [
+        "former"
+      ],
+      "explain": "The former retoma o primeiro de dois itens citados e se opõe a the latter, que retoma o segundo."
+    },
+    {
+      "id": "c1-08-p6",
+      "type": "fill",
+      "prompt": "She was asked to review the PR and agreed to ___.",
+      "answers": [
+        "do so",
+        "do it"
+      ],
+      "explain": "Do so substitui o verbo e o complemento já mencionados (review the PR), evitando repetição; do it também é natural, mas menos formal."
+    },
+    {
+      "id": "c1-08-p7",
+      "type": "order",
+      "words": [
+        "On",
+        "the",
+        "other",
+        "hand",
+        "the",
+        "cost",
+        "is",
+        "high"
+      ],
+      "prompt": "Por outro lado, o custo é alto.",
+      "explain": "A expressão fixa é on the other hand, seguida da oração com sujeito, verbo e complemento."
+    },
+    {
+      "id": "c1-08-p8",
+      "type": "fix",
+      "prompt": "The tests failed, therefore we rolled back the release.",
+      "answers": [
+        "The tests failed, so we rolled back the release.",
+        "The tests failed, and therefore we rolled back the release."
+      ],
+      "explain": "Therefore é advérbio e não pode unir duas orações só com vírgula (isso vira um comma splice). Troque por uma conjunção: so, ou and therefore."
+    },
+    {
+      "id": "c1-08-p9",
+      "type": "fix",
+      "prompt": "In the other hand, the subscription is cheaper.",
+      "answers": [
+        "On the other hand, the subscription is cheaper."
+      ],
+      "explain": "A expressão fixa é on the other hand. A preposição in não é usada nela, mesmo que em português digamos “por outro lado”."
+    },
+    {
+      "id": "c1-08-p10",
+      "type": "listen",
+      "en": "Admittedly, the fix is a workaround; that said, it buys us time.",
+      "explain": "Admittedly concede um ponto negativo, e that said introduz o contraponto. Ambos são marcadores típicos de argumentação."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c1-08-q1",
+      "type": "choice",
+      "prompt": "The report is thorough. ___, it omits the security audit.",
+      "options": [
+        "Nevertheless",
+        "Hence",
+        "Moreover"
+      ],
+      "answer": 0,
+      "explain": "A segunda frase contradiz a expectativa criada pela primeira (relatório completo, mas com omissão), e nevertheless marca esse contraste.",
+      "why_not": {
+        "1": "Hence indica consequência, o que não é o caso.",
+        "2": "Moreover acrescentaria mais um ponto na mesma direção, mas aqui há oposição."
+      }
+    },
+    {
+      "id": "c1-08-q2",
+      "type": "choice",
+      "prompt": "Which option do you prefer? — I'd go for the cheaper ___.",
+      "options": [
+        "one",
+        "it",
+        "ones"
+      ],
+      "answer": 0,
+      "explain": "Um contável singular já mencionado é substituído por one: the cheaper one.",
+      "why_not": {
+        "1": "It não aceita ser precedido por the cheaper.",
+        "2": "Ones é plural, mas a pergunta trata de uma única opção."
+      }
+    },
+    {
+      "id": "c1-08-q3",
+      "type": "choice",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "The API is stable; however, it lacks documentation.",
+        "The API is stable, however it lacks documentation.",
+        "The API is stable however, it lacks documentation."
+      ],
+      "answer": 0,
+      "explain": "However é advérbio: precisa de ponto e vírgula (ou ponto) antes e de vírgula depois.",
+      "why_not": {
+        "1": "Vírgula antes de however emenda duas orações.",
+        "2": "Sem a pontuação correta, however fica solto e a frase quebra."
+      }
+    },
+    {
+      "id": "c1-08-q4",
+      "type": "fill",
+      "prompt": "He said he would fix the bug, and he did ___.",
+      "answers": [
+        "so",
+        "it"
+      ],
+      "explain": "Did so (mais formal) ou did it substituem o verbo e o complemento já citados, evitando repetir fix the bug."
+    },
+    {
+      "id": "c1-08-q5",
+      "type": "fix",
+      "prompt": "In contrary, the second approach scales poorly.",
+      "answers": [
+        "On the contrary, the second approach scales poorly.",
+        "In contrast, the second approach scales poorly."
+      ],
+      "explain": "In contrary não existe. As formas corretas são on the contrary (nega o que foi dito) ou in contrast (apresenta um contraste)."
+    },
+    {
+      "id": "c1-08-q6",
+      "type": "order",
+      "words": [
+        "To",
+        "begin",
+        "with",
+        "we",
+        "need",
+        "a",
+        "clear",
+        "scope"
+      ],
+      "prompt": "Para começar, precisamos de um escopo claro.",
+      "explain": "To begin with abre a sequência de um argumento, seguido da oração com sujeito e verbo."
+    },
+    {
+      "id": "c1-08-q7",
+      "type": "listen",
+      "en": "Granted, the migration is risky, but the alternative is worse.",
+      "explain": "Granted concede um ponto antes do contraste com but. É um marcador comum para argumentar com equilíbrio."
+    }
+  ],
+  "words": [
+    {
+      "word": "moreover",
+      "pt": "além disso; ademais"
+    },
+    {
+      "word": "nevertheless",
+      "pt": "mesmo assim; no entanto"
+    },
+    {
+      "word": "consequently",
+      "pt": "consequentemente"
+    },
+    {
+      "word": "hence",
+      "pt": "daí; por isso"
+    },
+    {
+      "word": "admittedly",
+      "pt": "é verdade que; reconhecidamente"
+    },
+    {
+      "word": "albeit",
+      "pt": "embora; ainda que"
+    },
+    {
+      "word": "whereas",
+      "pt": "enquanto (contraste)"
+    },
+    {
+      "word": "former",
+      "pt": "o primeiro (de dois); anterior"
+    },
+    {
+      "word": "latter",
+      "pt": "o segundo (de dois); último"
+    },
+    {
+      "word": "workaround",
+      "pt": "solução alternativa; gambiarra"
+    },
+    {
+      "word": "thorough",
+      "pt": "minucioso; completo"
+    }
+  ]
+}

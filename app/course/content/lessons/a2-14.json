@@ -1,0 +1,211 @@
+{
+  "id": "a2-14",
+  "level": "A2",
+  "unit": "Ligar ideias e preparar o B1",
+  "title": "Present perfect: primeiro contato",
+  "goal": "Usar have/has + particípio para falar de experiências e resultados, com ever, never, already, yet, just, for e since.",
+  "minutes": 24,
+  "steps": [
+    {
+      "title": "A ideia central: passado que importa agora",
+      "text": "O **present perfect** liga o passado ao presente. Usamos quando uma ação já aconteceu, mas o que importa é a experiência ou o resultado **agora**, e não o momento exato em que ela aconteceu. Por exemplo, *I have finished the report* quer dizer que o relatório está pronto agora.\n\nEm português, muitas vezes usamos o pretérito perfeito para isso: “Eu terminei o relatório” ou “Eu já terminei”. Em inglês, quando você não diz *quando* a ação aconteceu, o natural é o present perfect.",
+      "examples": [
+        {"en": "I have finished the report.", "pt": "Eu terminei o relatório (e ele está pronto)."},
+        {"en": "We have fixed the bug.", "pt": "Nós corrigimos o bug (e ele não existe mais)."},
+        {"en": "She has opened a ticket.", "pt": "Ela abriu um chamado (e ele está aberto)."}
+      ],
+      "tip": "Pergunte-se: “Importa o resultado agora ou a experiência?” Se sim, e você não diz quando aconteceu, use o present perfect."
+    },
+    {
+      "title": "A forma: have/has + particípio",
+      "text": "A forma é **have/has** + **particípio passado**. O particípio passado (*past participle*) é a forma do verbo que vem depois de have. Nos verbos regulares ele é igual ao past simple: *worked*, *tested*. **Have** vai com I, you, we e they; **has** vai com he, she e it.\n\nA negativa usa **haven't/hasn't**. Na pergunta, have/has vem antes do sujeito: *Has she finished?* O verbo principal não leva -s: o -s já está no has.",
+      "table": {
+        "headers": ["Forma", "Estrutura", "Exemplo"],
+        "rows": [
+          ["Afirmativa (I, you, we, they)", "have + particípio", "I have tested it."],
+          ["Afirmativa (he, she, it)", "has + particípio", "She has tested it."],
+          ["Negativa", "haven't / hasn't + particípio", "They haven't tested it."],
+          ["Pergunta", "Have / Has + sujeito + particípio", "Has he tested it?"],
+          ["Resposta curta", "Yes, I have. / No, he hasn't.", "Have you tested it? Yes, I have."]
+        ]
+      },
+      "examples": [
+        {"en": "I have tested the login page.", "pt": "Eu testei a página de login."},
+        {"en": "She has tested the login page.", "pt": "Ela testou a página de login."},
+        {"en": "They haven't tested it.", "pt": "Eles não o testaram."},
+        {"en": "Has he tested it?", "pt": "Ele já o testou?"}
+      ],
+      "tip": "As contrações são I've, you've, we've, they've e he's, she's, it's. Cuidado: *She's finished* é *She has finished* (o 's aqui é has)."
+    },
+    {
+      "title": "Particípios regulares e irregulares",
+      "text": "Nos verbos **regulares**, o particípio termina em **-ed**, igual ao past simple: *work → worked*, *test → tested*. Nos **irregulares**, você precisa memorizar a forma. Alguns têm particípio igual ao past simple (*made*, *built*), outros têm uma forma própria (*wrote → written*, *saw → seen*), e alguns são iguais ao infinitivo (*run*).",
+      "table": {
+        "headers": ["Verbo", "Past simple", "Particípio"],
+        "rows": [
+          ["be", "was / were", "been"],
+          ["do", "did", "done"],
+          ["go", "went", "gone"],
+          ["see", "saw", "seen"],
+          ["write", "wrote", "written"],
+          ["make", "made", "made"],
+          ["take", "took", "taken"],
+          ["build", "built", "built"],
+          ["break", "broke", "broken"],
+          ["run", "ran", "run"],
+          ["have", "had", "had"]
+        ]
+      },
+      "examples": [
+        {"en": "I have written three tests.", "pt": "Eu escrevi três testes."},
+        {"en": "We have built a new tool.", "pt": "Nós construímos uma nova ferramenta."},
+        {"en": "She has seen this error before.", "pt": "Ela já viu esse erro antes."}
+      ],
+      "trap": "Não use o past simple no lugar do particípio. Errado: *I have wrote the code*. Certo: *I have written the code*."
+    },
+    {
+      "title": "Ever e never: experiências de vida",
+      "text": "Para falar de experiências, sem dizer quando elas aconteceram, use o present perfect. **Ever** (alguma vez) aparece em perguntas: *Have you ever used Linux?* **Never** (nunca) aparece em frases afirmativas, mas com sentido negativo: *I have never used Linux*.\n\nOs dois ficam entre **have/has** e o particípio. Para responder, use respostas curtas: *Yes, I have.* ou *No, I haven't.*",
+      "examples": [
+        {"en": "Have you ever worked at night?", "pt": "Você já trabalhou à noite alguma vez?"},
+        {"en": "I have never seen this error.", "pt": "Eu nunca vi esse erro."},
+        {"en": "She has never missed a deadline.", "pt": "Ela nunca perdeu um prazo."}
+      ],
+      "trap": "**Never** já é negativo, então não use *not* junto. Errado: *I haven't never seen it*. Certo: *I have never seen it* ou *I haven't seen it*."
+    },
+    {
+      "title": "Already, yet e just",
+      "text": "Estas três palavras ajudam a falar de resultados recentes. **Already** (já) vai em frases afirmativas: *I have already sent it*. **Yet** (ainda) vai no **fim** de negativas e perguntas: *I haven't sent it yet*. **Just** (acabou de) fica entre have/has e o particípio: *I have just sent it*.",
+      "table": {
+        "headers": ["Palavra", "Sentido", "Onde fica", "Exemplo"],
+        "rows": [
+          ["already", "já", "afirmativas, entre have e particípio (ou no fim)", "I have already sent it."],
+          ["yet", "ainda (não); já (em perguntas)", "negativas e perguntas, no fim", "Have you sent it yet?"],
+          ["just", "acabou de", "entre have/has e o particípio", "I have just sent it."]
+        ]
+      },
+      "examples": [
+        {"en": "I have already answered the email.", "pt": "Eu já respondi ao e-mail."},
+        {"en": "We haven't deployed the update yet.", "pt": "Nós ainda não fizemos o deploy da atualização."},
+        {"en": "Maria has just left the office.", "pt": "A Maria acabou de sair do escritório."}
+      ],
+      "trap": "Em português usamos “já” em afirmativas e em perguntas. Em inglês, “já” afirmativo é **already**, e “já” em pergunta é, na maioria dos casos, **yet**: *Have you finished yet?*"
+    },
+    {
+      "title": "For e since: há quanto tempo",
+      "text": "Para dizer há quanto tempo algo dura até agora, use **for** + duração (*for two years*) ou **since** + ponto de partida (*since 2022*, *since Monday*). Em português dizemos “Trabalho aqui há três anos”, com o verbo no presente. Em inglês, usamos o present perfect.\n\nPara perguntar, use **How long** + have/has: *How long have you worked here?*",
+      "table": {
+        "headers": ["for + duração", "since + ponto de partida"],
+        "rows": [
+          ["for three years", "since 2021"],
+          ["for two weeks", "since Monday"],
+          ["for ten minutes", "since nine o'clock"],
+          ["for a long time", "since last month"]
+        ]
+      },
+      "examples": [
+        {"en": "I have worked here for three years.", "pt": "Eu trabalho aqui há três anos."},
+        {"en": "She has used Python since 2020.", "pt": "Ela usa Python desde 2020."},
+        {"en": "How long have you lived here?", "pt": "Há quanto tempo você mora aqui?"}
+      ],
+      "trap": "Não use o present simple com for/since. Errado: *I work here for three years*. Certo: *I have worked here for three years*."
+    },
+    {
+      "title": "Present perfect ou past simple?",
+      "text": "Se você diz **quando** a ação aconteceu (*yesterday, last week, in 2020, two days ago*), use o **past simple**. Se o momento não é dito, ou se a ação continua ligada ao presente, use o **present perfect**. A pergunta *When…?* também pede o past simple.\n\nO B1 vai aprofundar esse contraste. Por enquanto, lembre: tempo terminado e específico = past simple.",
+      "table": {
+        "headers": ["Past simple (quando)", "Present perfect (sem quando)"],
+        "rows": [
+          ["I finished the report yesterday.", "I have finished the report."],
+          ["She joined the team in 2022.", "She has worked here since 2022."],
+          ["Did you see it last week?", "Have you ever seen it?"]
+        ]
+      },
+      "examples": [
+        {"en": "I finished the report yesterday.", "pt": "Eu terminei o relatório ontem."},
+        {"en": "I have finished the report.", "pt": "Eu terminei o relatório (já está pronto)."},
+        {"en": "She joined the team in 2022.", "pt": "Ela entrou na equipe em 2022."}
+      ],
+      "trap": "Não misture present perfect com um momento terminado. Errado: *I have seen him yesterday*. Certo: *I saw him yesterday*."
+    },
+    {
+      "title": "Em contexto: uma atualização de projeto",
+      "text": "O present perfect é muito comum em atualizações de status, daily e e-mails de projeto. Você diz o que **já** foi feito, o que **ainda não** foi feito e há quanto tempo algo acontece.\n\nObserve como cada frase mostra um resultado que importa para o time agora, sem precisar dizer o dia exato em que a tarefa aconteceu.",
+      "examples": [
+        {"en": "Hi Tom, I have already tested the login page.", "pt": "Oi, Tom, eu já testei a página de login."},
+        {"en": "We haven't deployed the new version yet.", "pt": "Ainda não fizemos o deploy da nova versão."},
+        {"en": "Maria has just sent the invoice to the client.", "pt": "A Maria acabou de enviar a fatura ao cliente."},
+        {"en": "I have worked on this project since March.", "pt": "Eu trabalho neste projeto desde março."},
+        {"en": "Have you ever worked with this client?", "pt": "Você já trabalhou com este cliente alguma vez?"}
+      ]
+    }
+  ],
+  "summary": [
+    "O present perfect é have/has + particípio passado e liga o passado ao presente: I have finished the report.",
+    "Have vai com I, you, we e they; has vai com he, she e it. A negativa é haven't/hasn't e a pergunta é Have/Has + sujeito + particípio.",
+    "Ever (em perguntas) e never (em afirmativas) falam de experiências; already, yet e just falam de resultados recentes.",
+    "For + duração e since + início respondem a há quanto tempo, sempre com o present perfect: I have worked here for three years.",
+    "Com um momento terminado e dito (yesterday, last week, in 2020, ago), use o past simple, e não o present perfect."
+  ],
+  "practice": [
+    {"id": "a2-14-p1", "type": "choice", "prompt": "I ___ finished the report.", "options": ["has", "have", "am"], "answer": 1,
+     "explain": "Com I usamos have no present perfect: I have finished.",
+     "why_not": {"0": "Has é usado com he, she e it.", "2": "Am + finished não forma o present perfect."}},
+    {"id": "a2-14-p2", "type": "choice", "prompt": "She ___ sent the email.", "options": ["has", "have", "did"], "answer": 0,
+     "explain": "She é terceira pessoa do singular, e o present perfect usa has: she has sent.",
+     "why_not": {"1": "Have é usado com I, you, we e they.", "2": "Did pede o verbo na forma base (did send), e não o particípio sent."}},
+    {"id": "a2-14-p3", "type": "fill", "prompt": "I have ___ three emails today. (write)", "answers": ["written"],
+     "explain": "Write é irregular: write, wrote, written. Depois de have usamos o particípio written."},
+    {"id": "a2-14-p4", "type": "fill", "prompt": "We have ___ a new app. (build)", "answers": ["built"],
+     "explain": "Build é irregular, e o particípio é built, igual ao past simple."},
+    {"id": "a2-14-p5", "type": "choice", "prompt": "___ you ever used Linux?", "options": ["Have", "Did", "Are"], "answer": 0,
+     "explain": "A pergunta no present perfect começa com Have e leva o particípio used: Have you ever used…?",
+     "why_not": {"1": "Did pediria o verbo na forma base (use), e aqui o verbo está em used.", "2": "Are + used não forma uma pergunta de experiência."}},
+    {"id": "a2-14-p6", "type": "choice", "prompt": "I haven't answered the email ___.", "options": ["yet", "already", "ever"], "answer": 0,
+     "explain": "Yet vai no fim de frases negativas e significa ainda.",
+     "why_not": {"1": "Already é usado em afirmativas, e não nesta negativa.", "2": "Ever é usado em perguntas sobre experiências, e não no fim desta negativa."}},
+    {"id": "a2-14-p7", "type": "fill", "prompt": "She has ___ joined the team. (acabou de)", "answers": ["just"],
+     "explain": "Just significa acabou de e fica entre has e o particípio: she has just joined."},
+    {"id": "a2-14-p8", "type": "choice", "prompt": "I have worked here ___ 2021.", "options": ["for", "since", "ago"], "answer": 1,
+     "explain": "Since é usado com um ponto de partida no tempo, como 2021.",
+     "why_not": {"0": "For é usado com uma duração (for three years), e não com uma data.", "2": "Ago é usado com o past simple (three years ago) e vem depois do período."}},
+    {"id": "a2-14-p9", "type": "translate", "prompt": "Nós já terminamos o teste.", "answers": ["We have already finished the test.", "We have finished the test already."],
+     "explain": "Já em afirmativa é already. Ele fica entre have e o particípio, ou no fim da frase."},
+    {"id": "a2-14-p10", "type": "fix", "prompt": "I have seen him yesterday.", "answers": ["I saw him yesterday."],
+     "explain": "Yesterday é um momento terminado e dito, então usamos o past simple: saw."},
+    {"id": "a2-14-p11", "type": "order", "words": ["He", "has", "never", "used", "Docker"], "prompt": "Ele nunca usou o Docker.",
+     "explain": "Never fica entre has e o particípio: he has never used."},
+    {"id": "a2-14-p12", "type": "listen", "en": "I have lived here for three years.",
+     "explain": "Have lived + for three years: o present perfect com for mostra há quanto tempo a situação dura."}
+  ],
+  "quiz": [
+    {"id": "a2-14-q1", "type": "choice", "prompt": "He ___ already sent the invoice.", "options": ["have", "has", "is"], "answer": 1,
+     "explain": "Com he usamos has: he has already sent.",
+     "why_not": {"0": "Have é usado com I, you, we e they.", "2": "Is + sent formaria uma passiva, e a frase quer dizer que ele enviou."}},
+    {"id": "a2-14-q2", "type": "fill", "prompt": "I haven't ___ the new version yet. (test)", "answers": ["tested"],
+     "explain": "Test é regular, então o particípio é tested. Depois de haven't usamos o particípio."},
+    {"id": "a2-14-q3", "type": "translate", "prompt": "Eu nunca vi esse erro.", "answers": ["I have never seen this error.", "I have never seen that error."],
+     "explain": "Experiência sem tempo dito: present perfect. Never fica entre have e o particípio seen."},
+    {"id": "a2-14-q4", "type": "order", "words": ["Have", "you", "ever", "been", "to", "London"], "prompt": "Você já esteve em Londres?",
+     "explain": "Pergunta de experiência: Have + sujeito + ever + particípio (been)."},
+    {"id": "a2-14-q5", "type": "fix", "prompt": "She has worked here since three years.", "answers": ["She has worked here for three years."],
+     "explain": "Three years é uma duração, e com duração usamos for. Since pede um ponto de partida, como 2021."},
+    {"id": "a2-14-q6", "type": "choice", "prompt": "Qual frase está correta?", "options": ["I have met her last week.", "I met her last week.", "I have meet her last week."], "answer": 1,
+     "explain": "Last week é um momento terminado e dito, então usamos o past simple: met.",
+     "why_not": {"0": "Present perfect não combina com last week.", "2": "Além disso, o particípio de meet é met, e não meet."}},
+    {"id": "a2-14-q7", "type": "listen", "en": "Tom has already left the office.",
+     "explain": "Has already left: o present perfect com already mostra um resultado agora, ou seja, Tom já não está aqui."}
+  ],
+  "words": [
+    {"word": "ever", "pt": "alguma vez; já (em perguntas)"},
+    {"word": "never", "pt": "nunca"},
+    {"word": "already", "pt": "já"},
+    {"word": "yet", "pt": "ainda; já (em perguntas)"},
+    {"word": "just", "pt": "acabou de; apenas"},
+    {"word": "since", "pt": "desde"},
+    {"word": "finish", "pt": "terminar; concluir"},
+    {"word": "invoice", "pt": "fatura; nota fiscal"},
+    {"word": "meet", "pt": "encontrar; conhecer"},
+    {"word": "deadline", "pt": "prazo final"}
+  ]
+}

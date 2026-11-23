@@ -1,0 +1,269 @@
+{
+  "id": "c1-10",
+  "level": "C1",
+  "unit": "Impessoal e ênfase",
+  "title": "Ênfase e ordem das palavras (fronting)",
+  "goal": "Reorganizar a frase em inglês para dar ênfase, usando adverbiais antecipados, so/such…that, do enfático, Not until/Only when e a extraposição com it.",
+  "minutes": 30,
+  "steps": [
+    {
+      "title": "Ordem normal e por que quebrá-la",
+      "text": "Em inglês, a ordem básica é **sujeito + verbo + complemento**, e na maior parte do tempo ela é tudo de que você precisa. Mas, quando queremos dar **ênfase**, criar contraste ou deixar um texto mais elegante, podemos colocar no início da frase a informação que queremos destacar. Essa técnica se chama **fronting** (anteposição).\n\nEm português mudamos a ordem com muita liberdade (“Tamanha foi a demanda que…”). Em inglês as mudanças seguem moldes fixos, e o ponto mais importante é saber **quando o auxiliar vem antes do sujeito**, o que chamamos de **inversão**. Esta lição mostra os moldes mais úteis para relatórios, apresentações e e-mails sérios.",
+      "examples": [
+        {"en": "The demand was so high that the servers crashed.", "pt": "A demanda foi tão alta que os servidores caíram."},
+        {"en": "Such was the demand that the servers crashed.", "pt": "Tamanha foi a demanda que os servidores caíram."},
+        {"en": "We understood the risk only after the audit.", "pt": "Entendemos o risco só depois da auditoria."},
+        {"en": "Only after the audit did we understand the risk.", "pt": "Só depois da auditoria é que entendemos o risco."}
+      ],
+      "tip": "Os pares acima dizem a mesma coisa. A segunda versão de cada par é a enfática: ela põe o destaque no início e soa mais formal."
+    },
+    {
+      "title": "Adverbiais e objetos antecipados",
+      "text": "Um **adverbial de lugar** (*in the corner*, *on the whiteboard*) pode ir para o início, e então o verbo vem **antes do sujeito**. Isso funciona bem com verbos como *be, sit, stand, lie, come, go* e é comum em descrições. O mesmo vale para *Here* e *There*: *Here comes the manager*.\n\nTambém é possível antecipar o **objeto**, para criar contraste: *This approach we rejected*. Aqui **não há inversão**: a ordem é objeto + sujeito + verbo. Esse molde é marcado, ou seja, chama atenção, e funciona melhor em contraste com outra ideia.",
+      "table": {
+        "headers": ["Molde", "Exemplo", "Efeito"],
+        "rows": [
+          ["adverbial de lugar + verbo + sujeito", "In the corner sat a very old server.", "cena, descrição"],
+          ["Here / There + verbo + sujeito", "There goes our weekend.", "atenção imediata"],
+          ["objeto + sujeito + verbo", "That mistake we will not repeat.", "contraste, firmeza"]
+        ]
+      },
+      "examples": [
+        {"en": "On the whiteboard was a diagram of the old architecture.", "pt": "No quadro branco havia um diagrama da arquitetura antiga."},
+        {"en": "Here comes the new manager.", "pt": "Lá vem a nova gerente."},
+        {"en": "This approach we rejected months ago.", "pt": "Essa abordagem nós rejeitamos meses atrás."}
+      ],
+      "trap": "A inversão com *Here* e *There* só acontece com substantivos. Com pronome, o sujeito vem primeiro: *Here he comes*, e não *Here comes he*."
+    },
+    {
+      "title": "Such e so antecipados: …that",
+      "text": "Para dizer que algo foi tão intenso que produziu uma consequência, podemos antecipar **such** ou **so**. Com **such**, a ordem é **Such + be + substantivo + that**: *Such was the demand that…*. Com **so**, vem um adjetivo ou advérbio: **So + adjetivo + be + sujeito + that**.\n\nQuando o destaque é um **advérbio** e o verbo não é *be*, entra um auxiliar: **So + advérbio + auxiliar + sujeito + verbo**. Em todos os casos, a consequência vem em uma oração com **that**.",
+      "table": {
+        "headers": ["Molde", "Exemplo"],
+        "rows": [
+          ["Such + be + substantivo + that", "Such was the demand that the servers crashed."],
+          ["So + adjetivo + be + sujeito + that", "So severe was the damage that we restored everything from backup."],
+          ["So + advérbio + auxiliar + sujeito + verbo + that", "So quickly did the error spread that we had no time to react."]
+        ]
+      },
+      "examples": [
+        {"en": "Such is the complexity of the system that nobody understands all of it.", "pt": "Tamanha é a complexidade do sistema que ninguém o entende por inteiro."},
+        {"en": "So severe was the damage that we restored everything from backup.", "pt": "Tão grave foi o dano que restauramos tudo a partir do backup."},
+        {"en": "So quickly did the error spread that we had no time to react.", "pt": "O erro se espalhou tão rápido que não tivemos tempo de reagir."}
+      ],
+      "trap": "Com um advérbio antecipado, não esqueça o auxiliar: *So quickly the error spread that…* está errado. O certo é *So quickly did the error spread that…*."
+    },
+    {
+      "title": "O do enfático",
+      "text": "Em frases afirmativas, podemos acrescentar **do, does ou did** antes do verbo para **reforçar** o que dizemos: para insistir, corrigir uma dúvida ou contrastar. O verbo principal volta para a **forma base**, e quem carrega a marca de tempo e de pessoa é o auxiliar. Na fala, o auxiliar recebe a ênfase.\n\nO mesmo auxiliar aparece em convites e pedidos enfáticos no imperativo: *Do be careful*. Com o verbo **be** e com os modais não usamos *do*: a ênfase vem da entonação ou de um advérbio.",
+      "table": {
+        "headers": ["Frase normal", "Frase enfática"],
+        "rows": [
+          ["We work late on Fridays.", "We do work late on Fridays."],
+          ["She knows the answer.", "She does know the answer."],
+          ["I sent the report.", "I did send the report."]
+        ]
+      },
+      "examples": [
+        {"en": "I did send the report on Friday; please check your spam folder.", "pt": "Eu realmente enviei o relatório na sexta; confira sua caixa de spam."},
+        {"en": "She does know the system better than anyone else.", "pt": "Ela de fato conhece o sistema melhor que qualquer outra pessoa."},
+        {"en": "Do be careful with the production database.", "pt": "Tome muito cuidado com o banco de dados de produção."}
+      ],
+      "trap": "O verbo principal não leva marca de passado nem de terceira pessoa: *I did sent* e *She does knows* estão errados. Diga *I did send* e *She does know*."
+    },
+    {
+      "title": "Not until e Only: inversão depois de restrição",
+      "text": "Expressões que **limitam** o momento ou a condição, como **Not until…** e **Only when / after / if / then / by…**, pedem inversão na **oração principal**. A primeira parte (a oração com *Not until* ou *Only when*) fica como está; é depois dela que o auxiliar vai antes do sujeito.\n\nEm português dizemos “Só quando os testes passaram é que fizemos o deploy”. Em inglês, esse “é que” desaparece e a inversão faz o trabalho dele.",
+      "table": {
+        "headers": ["Expressão", "Exemplo"],
+        "rows": [
+          ["Not until + momento", "Not until the audit was complete did we find the cause."],
+          ["Only when / after / if + oração", "Only when the tests passed did we deploy."],
+          ["Only then", "Only then did we understand the real risk."],
+          ["Only by / in / with + substantivo ou -ing", "Only by testing early can we avoid these failures."]
+        ]
+      },
+      "examples": [
+        {"en": "Not until Monday did we receive the logs.", "pt": "Só na segunda-feira recebemos os logs."},
+        {"en": "Only if you approve will we start the migration.", "pt": "Só se você aprovar é que começaremos a migração."},
+        {"en": "Only after the rollback did the error rate drop.", "pt": "Só depois do rollback a taxa de erros caiu."}
+      ],
+      "trap": "A inversão não acontece na oração de *Not until* nem na de *Only when*. Diga *Not until the tests passed did we deploy*, e não *Not until did the tests pass we deployed*."
+    },
+    {
+      "title": "Extraposição: It is… that…",
+      "text": "Frases com um sujeito longo ficam pesadas: *That the migration failed twice surprised nobody*. Em inglês, preferimos deslocar a parte longa para o **final** e colocar **it** no início, como sujeito vazio. Isso se chama **extraposição**. O molde mais comum é **It + be + adjetivo ou substantivo + that / to…**.\n\nEm português omitimos o sujeito (“É óbvio que o plano falhou”). Em inglês o **it** é obrigatório: *It is obvious that the plan failed*. Expressões muito úteis: *it is clear that*, *it is likely that*, *it is worth noting that*, *it is no surprise that*.",
+      "examples": [
+        {"en": "It is obvious that the plan failed.", "pt": "É óbvio que o plano falhou."},
+        {"en": "It surprised nobody that the migration failed twice.", "pt": "Ninguém se surpreendeu com o fato de a migração ter falhado duas vezes."},
+        {"en": "It is worth noting that no customer data was lost.", "pt": "Vale observar que nenhum dado de cliente foi perdido."},
+        {"en": "It is no surprise that the release was delayed.", "pt": "Não é surpresa que o lançamento tenha atrasado."}
+      ],
+      "trap": "Não omita o it como fazemos em português: *Is obvious that the plan failed* está errado. O correto é *It is obvious that the plan failed*."
+    },
+    {
+      "title": "Os moldes em contexto: um post-mortem",
+      "text": "Veja como essas estruturas aparecem juntas em um relatório de incidente. Cada uma tem uma função: **Not until / Only after** organiza a ordem dos fatos, **So…that / Such…that** mostra a gravidade, o **do enfático** corrige uma suposição e **It is worth noting that** introduz um detalhe importante.\n\nLeia as frases em voz alta, com a ênfase no início da estrutura. Isso ajuda a fixar o ritmo, que é diferente da ordem comum.",
+      "examples": [
+        {"en": "Not until we checked the certificates did we find the cause.", "pt": "Só quando verificamos os certificados encontramos a causa."},
+        {"en": "Only after the rollback did the error rate drop.", "pt": "Só depois do rollback a taxa de erros caiu."},
+        {"en": "So serious was the incident that the CEO joined the call.", "pt": "O incidente foi tão sério que o CEO entrou na chamada."},
+        {"en": "We did warn the vendor, but nobody replied.", "pt": "Nós avisamos o fornecedor, sim, mas ninguém respondeu."},
+        {"en": "It is worth noting that the backups were not affected.", "pt": "Vale observar que os backups não foram afetados."}
+      ],
+      "tip": "Escolha uma estrutura de ênfase por parágrafo. Se tudo estiver enfatizado, nada se destaca."
+    },
+    {
+      "title": "Mapa de revisão e uso com moderação",
+      "text": "Resumo prático: com **adverbial de lugar**, **such/so…that**, **Not until** e **Only…** o verbo ou o auxiliar vai **antes do sujeito**. Com **objeto antecipado** não há inversão. O **do enfático** vale só para afirmativas e usa o verbo na forma base. A **extraposição** troca um sujeito longo por **it**.\n\nEsses moldes são formais e marcados. Em e-mails do dia a dia, a ordem normal é a escolha certa; reserve o fronting para relatórios, apresentações e momentos em que você realmente quer destacar algo.",
+      "examples": [
+        {"en": "Only by testing early can we avoid these failures.", "pt": "Só testando cedo podemos evitar essas falhas."},
+        {"en": "I do think we should wait for the results.", "pt": "Eu realmente acho que devemos esperar os resultados."}
+      ],
+      "tip": "Para decidir: pergunte-se se o leitor precisa mesmo de ênfase ali. Se não, use a ordem normal."
+    }
+  ],
+  "summary": [
+    "Fronting coloca no início o que você quer destacar; com adverbial de lugar, such, so, Not until e Only, o auxiliar vai antes do sujeito.",
+    "Such + be + substantivo + that e So + adjetivo + be + sujeito + that mostram intensidade com consequência; com advérbio, use auxiliar (So quickly did…).",
+    "O do enfático (do, does, did + verbo base) reforça afirmativas; o verbo principal não leva -s nem -ed.",
+    "Not until e Only when pedem inversão na oração principal, não na oração que eles introduzem.",
+    "Na extraposição, o it é obrigatório: It is obvious that…, It is worth noting that…"
+  ],
+  "practice": [
+    {
+      "id": "c1-10-p1", "type": "choice",
+      "prompt": "Such ___ the demand that the servers crashed.",
+      "options": ["was", "it was", "did"], "answer": 0,
+      "explain": "No molde Such + be + substantivo + that, o verbo be vem logo depois de such: Such was the demand that…",
+      "why_not": {"1": "Aqui it não entra no molde: Such was the demand é a ordem correta.", "2": "Did só entraria com um verbo principal, como em So quickly did the error spread."}
+    },
+    {
+      "id": "c1-10-p2", "type": "choice",
+      "prompt": "Not until the audit was complete ___ the real cause.",
+      "options": ["did we find", "we found", "we did find"], "answer": 0,
+      "explain": "Depois de Not until + oração, a oração principal tem inversão: auxiliar + sujeito + verbo base (did we find).",
+      "why_not": {"1": "Sem inversão a frase não segue o molde de Not until.", "2": "O do enfático não combina com a inversão; o certo é did we find."}
+    },
+    {
+      "id": "c1-10-p3", "type": "choice",
+      "prompt": "Only after the backup had finished ___ the migration.",
+      "options": ["could we start", "we could start", "we can start"], "answer": 0,
+      "explain": "Only after + oração exige inversão na oração principal: could + sujeito + verbo base.",
+      "why_not": {"1": "Falta a inversão exigida por Only after.", "2": "Além de faltar a inversão, can não combina com o passado had finished."}
+    },
+    {
+      "id": "c1-10-p4", "type": "fill",
+      "prompt": "So severe ___ the bug that the whole team stayed overnight.",
+      "answers": ["was"],
+      "explain": "Em So + adjetivo + be + sujeito + that, o verbo be vem logo depois do adjetivo. O contexto está no passado (stayed), então was."
+    },
+    {
+      "id": "c1-10-p5", "type": "fill",
+      "prompt": "I ___ send the report on Friday, I promise.",
+      "answers": ["did"],
+      "explain": "O do enfático no passado é did + verbo base. O fato é passado (on Friday), então did send."
+    },
+    {
+      "id": "c1-10-p6", "type": "fix",
+      "prompt": "Not until the tests passed we deployed the patch.",
+      "answers": ["Not until the tests passed did we deploy the patch."],
+      "explain": "Depois de Not until + oração, a principal tem inversão: did we deploy. O verbo principal volta à forma base."
+    },
+    {
+      "id": "c1-10-p7", "type": "order",
+      "words": ["Only", "then", "did", "we", "understand", "the", "problem"],
+      "prompt": "Só então entendemos o problema.",
+      "explain": "Only then pede inversão: auxiliar did antes do sujeito we, e o verbo principal fica na forma base (understand)."
+    },
+    {
+      "id": "c1-10-p8", "type": "translate",
+      "prompt": "Só quando os testes passaram fizemos o deploy.",
+      "answers": ["Only when the tests passed did we deploy.", "Only when the tests had passed did we deploy.", "Only when the tests passed did we deploy it.", "Only when the tests had passed did we deploy it."],
+      "explain": "Only when + oração fica como está; na principal vem a inversão did we deploy. Não se usa did na primeira parte."
+    },
+    {
+      "id": "c1-10-p9", "type": "choice",
+      "prompt": "Which sentence with Only when is correct?",
+      "options": ["Only when the build was green did we merge.", "Only when did the build was green we merged.", "Only when the build was green we merged."], "answer": 0,
+      "explain": "Em Only when + oração, a oração com when fica normal (the build was green), e a inversão acontece na principal (did we merge).",
+      "why_not": {"1": "A inversão foi colocada na oração errada, logo depois de when.", "2": "Falta a inversão na oração principal."}
+    },
+    {
+      "id": "c1-10-p10", "type": "order",
+      "words": ["It", "is", "clear", "that", "the", "plan", "failed"],
+      "prompt": "É claro que o plano falhou.",
+      "explain": "Na extraposição, o it é obrigatório como sujeito: It is clear that + oração."
+    },
+    {
+      "id": "c1-10-p11", "type": "listen",
+      "en": "Only after the audit did we understand the real risk.",
+      "explain": "Only after + substantivo pede inversão na principal: did we understand, com o verbo na forma base."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c1-10-q1", "type": "choice",
+      "prompt": "Only by testing early ___ avoid these failures.",
+      "options": ["can we", "we can", "can"], "answer": 0,
+      "explain": "Only by + -ing é uma restrição e pede inversão: can antes do sujeito we.",
+      "why_not": {"1": "Sem inversão, a frase não segue o molde de Only by.", "2": "Falta o sujeito depois do auxiliar."}
+    },
+    {
+      "id": "c1-10-q2", "type": "choice",
+      "prompt": "___ was the pressure that two engineers left the project.",
+      "options": ["Such", "So", "Very"], "answer": 0,
+      "explain": "Antes de be + substantivo (the pressure), o molde é Such + be + substantivo + that.",
+      "why_not": {"1": "So pede um adjetivo ou advérbio logo depois, como em So great was the pressure.", "2": "Very não forma esse molde."}
+    },
+    {
+      "id": "c1-10-q3", "type": "fill",
+      "prompt": "Not until Monday ___ we receive the logs, so the delay was long.",
+      "answers": ["did"],
+      "explain": "O contexto está no passado (the delay was long). Depois de Not until Monday, a principal usa inversão: did we receive."
+    },
+    {
+      "id": "c1-10-q4", "type": "fix",
+      "prompt": "She did went to the meeting after all.",
+      "answers": ["She did go to the meeting after all."],
+      "explain": "Depois de did, o verbo fica na forma base: did go. Marcar o passado duas vezes (did went) é erro."
+    },
+    {
+      "id": "c1-10-q5", "type": "translate",
+      "prompt": "Eu realmente li a mensagem, mas não vi o anexo.",
+      "answers": ["I did read the message, but I did not see the attachment.", "I did read the message, but I did not notice the attachment."],
+      "explain": "O do enfático no passado é did + verbo base: I did read. O verbo no passado, read, não é usado depois de did."
+    },
+    {
+      "id": "c1-10-q6", "type": "order",
+      "words": ["Only", "after", "the", "release", "did", "the", "errors", "appear"],
+      "prompt": "Só depois do lançamento os erros apareceram.",
+      "explain": "Only after + substantivo pede inversão: did antes do sujeito the errors, e o verbo appear na forma base."
+    },
+    {
+      "id": "c1-10-q7", "type": "choice",
+      "prompt": "Which sentence with an impersonal it is correct?",
+      "options": ["It is a pity that the demo crashed.", "Is a pity that the demo crashed.", "It a pity is that the demo crashed."], "answer": 0,
+      "explain": "Em inglês o sujeito é obrigatório. A extraposição usa It is a pity that + oração.",
+      "why_not": {"1": "Falta o it, uma interferência do português (“É uma pena que…”).", "2": "A ordem das palavras está errada: o verbo is vem logo depois de it."}
+    },
+    {
+      "id": "c1-10-q8", "type": "listen",
+      "en": "So complex was the code that nobody wanted to touch it.",
+      "explain": "So + adjetivo + was + sujeito + that: o verbo be vem antes do sujeito the code, e that introduz a consequência."
+    }
+  ],
+  "words": [
+    {"word": "demand", "pt": "demanda; procura"},
+    {"word": "severe", "pt": "grave; severo"},
+    {"word": "audit", "pt": "auditoria; auditar"},
+    {"word": "surprise", "pt": "surpresa; surpreender"},
+    {"word": "overnight", "pt": "da noite para o dia; durante a noite"},
+    {"word": "attachment", "pt": "anexo"},
+    {"word": "pressure", "pt": "pressão"},
+    {"word": "obvious", "pt": "óbvio; evidente"},
+    {"word": "rollback", "pt": "reversão (voltar para a versão anterior)"},
+    {"word": "certificate", "pt": "certificado"},
+    {"word": "spread", "pt": "espalhar-se; propagar"}
+  ]
+}

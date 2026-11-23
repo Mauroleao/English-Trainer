@@ -1,0 +1,309 @@
+{
+  "id": "b2-10",
+  "level": "B2",
+  "unit": "Determinantes e comparações",
+  "title": "Comparações avançadas",
+  "goal": "Comparar com precisão usando the more…the more, modificadores, twice as…as, not as…as e by far.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "The more…, the more…: duas coisas que mudam juntas",
+      "text": "Até agora você comparou duas coisas com *faster than* ou *more expensive than*. No B2, você aprende a mostrar que duas coisas **mudam juntas**: quando uma aumenta, a outra também. Em português dizemos “quanto mais…, mais…”.\n\nEm inglês a estrutura é **the + comparativo, the + comparativo**: *The more we test, the fewer bugs we ship*. Cada metade começa com **the**, e o comparativo vem logo depois. O inglês não tem uma palavra para “quanto”: o próprio **the** faz esse papel.",
+      "examples": [
+        {"en": "The more we test, the fewer bugs we ship.", "pt": "Quanto mais testamos, menos bugs entregamos."},
+        {"en": "The sooner you report the issue, the faster we can fix it.", "pt": "Quanto mais cedo você relatar o problema, mais rápido poderemos corrigi-lo."},
+        {"en": "The bigger the team, the harder it is to coordinate.", "pt": "Quanto maior a equipe, mais difícil é coordenar."}
+      ],
+      "trap": "Em português não aparece nenhuma palavra equivalente ao the, e por isso muita gente o esquece. *More we practice, more we learn* está errado. Diga *The more we practice, the more we learn*."
+    },
+    {
+      "title": "Variações: frases curtas e mudança gradual",
+      "text": "A estrutura aceita formas curtas, sem verbo, quando o sentido já está claro: *The sooner, the better*. Para falar de **mudança gradual** de uma só coisa, repita o comparativo com **and**: *slower and slower*.\n\nCom adjetivos longos, use **more and more** (e **less and less**): *more and more popular*. Essa forma descreve algo que cresce ou diminui com o tempo, sem uma segunda coisa envolvida.",
+      "table": {
+        "headers": ["Padrão", "Exemplo"],
+        "rows": [
+          ["the + comparativo + sujeito + verbo, the + comparativo + sujeito + verbo", "The more we test, the fewer bugs we ship."],
+          ["frase curta, sem verbo", "The sooner, the better."],
+          ["comparativo curto + and + comparativo curto", "The app is getting slower and slower."],
+          ["more and more + adjetivo longo", "Cloud tools are becoming more and more popular."]
+        ]
+      },
+      "examples": [
+        {"en": "The sooner, the better.", "pt": "Quanto antes, melhor."},
+        {"en": "The app is getting slower and slower.", "pt": "O aplicativo está ficando cada vez mais lento."},
+        {"en": "Cloud tools are becoming more and more popular.", "pt": "As ferramentas de nuvem estão ficando cada vez mais populares."}
+      ],
+      "tip": "“Cada vez mais” em português costuma virar *more and more* ou o comparativo repetido (*faster and faster*)."
+    },
+    {
+      "title": "Modificadores: o tamanho da diferença",
+      "text": "Antes de um comparativo, você pode mostrar **quanto** uma coisa é diferente da outra. Para uma diferença **grande**, use **much**, **far**, **a lot** ou **considerably**. Para uma diferença **pequena**, use **slightly**, **a bit** ou **a little**. Para reforçar, use **even** ou **still**.\n\nEsses modificadores ficam **entre o verbo e o comparativo**: *is far more reliable*, *is slightly faster*.",
+      "table": {
+        "headers": ["Diferença", "Modificadores", "Exemplo"],
+        "rows": [
+          ["grande", "much, far, a lot, considerably", "far more reliable"],
+          ["pequena", "slightly, a bit, a little", "slightly faster"],
+          ["reforço", "even, still", "even cheaper"]
+        ]
+      },
+      "examples": [
+        {"en": "The new server is considerably faster than the old one.", "pt": "O servidor novo é consideravelmente mais rápido que o antigo."},
+        {"en": "This laptop is slightly cheaper than that one.", "pt": "Este notebook é ligeiramente mais barato que aquele."},
+        {"en": "The second option is far more reliable.", "pt": "A segunda opção é muito mais confiável."},
+        {"en": "Our app is even faster after the update.", "pt": "Nosso aplicativo ficou ainda mais rápido depois da atualização."}
+      ],
+      "trap": "Em português, “muito mais rápido” usa o mesmo “muito” de “muito rápido”. Em inglês, **very** não vai antes de comparativo: *very faster* está errado. Diga *much faster*, *far faster* ou *a lot faster*."
+    },
+    {
+      "title": "As…as: igualdade e suas variações",
+      "text": "A estrutura **as + adjetivo + as** diz que duas coisas são iguais: *as fast as*. Você pode ajustar o grau com **just** (exatamente), **nearly** ou **almost** (quase), **not quite** (um pouco menos) e **nowhere near** (muito menos).\n\nPara **múltiplos**, coloque o número antes: **twice as…as**, **three times as…as**, **half as…as**. Com contáveis e incontáveis, use **as many…as** e **as much…as**.",
+      "table": {
+        "headers": ["Estrutura", "Exemplo", "Sentido"],
+        "rows": [
+          ["just as…as", "just as important as", "exatamente igual"],
+          ["nearly as…as", "nearly as fast as", "quase igual"],
+          ["not quite as…as", "not quite as stable as", "um pouco menos"],
+          ["nowhere near as…as", "nowhere near as slow as", "muito menos"],
+          ["twice / half as…as", "twice as fast as", "o dobro / a metade"]
+        ]
+      },
+      "examples": [
+        {"en": "The test environment is just as important as production.", "pt": "O ambiente de teste é tão importante quanto a produção."},
+        {"en": "Version 2 is twice as fast as version 1.", "pt": "A versão 2 é duas vezes mais rápida que a versão 1."},
+        {"en": "The cloud option costs half as much as the server.", "pt": "A opção de nuvem custa metade do que custa o servidor."},
+        {"en": "We now have three times as many users as last year.", "pt": "Agora temos três vezes mais usuários do que no ano passado."}
+      ],
+      "trap": "Depois do segundo termo de igualdade vem **as**, nunca **than**. Diga *as fast as*, e não *as fast than*. E o par fica sempre completo: *as…as*."
+    },
+    {
+      "title": "Not as…as e less…than: dizer que é inferior",
+      "text": "Para dizer que algo é **inferior**, use **not as…as** ou **less…than**. As duas formas têm sentido parecido: *not as expensive as* e *less expensive than*. Em textos formais, você também verá **not so…as**, que só existe na negativa.\n\nCom nomes, o inglês distingue os **contáveis** (**fewer**, **as many**) dos **incontáveis** (**less**, **as much**). Em linguagem cuidada, escreva *fewer bugs*, mas *less memory*.",
+      "table": {
+        "headers": ["Tipo", "Igual", "Inferior"],
+        "rows": [
+          ["adjetivo", "as expensive as", "not as expensive as / less expensive than"],
+          ["contável plural", "as many bugs as", "not as many bugs as / fewer bugs than"],
+          ["incontável", "as much time as", "not as much time as / less time than"]
+        ]
+      },
+      "examples": [
+        {"en": "The cloud plan is not as expensive as I thought.", "pt": "O plano de nuvem não é tão caro quanto eu pensava."},
+        {"en": "We have fewer bugs than last month.", "pt": "Temos menos bugs do que no mês passado."},
+        {"en": "This approach needs less memory than the old one.", "pt": "Esta abordagem precisa de menos memória que a antiga."},
+        {"en": "There aren't as many users online as usual.", "pt": "Não há tantos usuários online quanto de costume."}
+      ],
+      "trap": "Em português usamos “menos” para tudo. Em inglês, com substantivos contáveis no plural, a forma cuidada é **fewer**: *fewer bugs*. A forma *less bugs* é muito ouvida na fala, mas evite-a em testes e em textos formais."
+    },
+    {
+      "title": "Superlativos reforçados: by far, easily, one of the",
+      "text": "O superlativo (**the most**, **the best**) pode receber reforço. **By far** significa “de longe” e funciona antes ou depois: *by far the best* ou *the best by far*. **Easily** tem o mesmo efeito: *easily the most popular*.\n\nTambém dá para numerar: **the second-largest**, **the third most common**. E para falar de um grupo de destaque, use **one of the + superlativo + plural**: *one of the best testers*. Com um comparativo (e não superlativo), use **far** ou **much**, e não by far.",
+      "examples": [
+        {"en": "This is by far the most stable release we have had.", "pt": "Esta é, de longe, a versão mais estável que já tivemos."},
+        {"en": "Python is easily the most popular language in our team.", "pt": "Python é, sem dúvida, a linguagem mais popular da nossa equipe."},
+        {"en": "It is the second-largest database in the company.", "pt": "É o segundo maior banco de dados da empresa."},
+        {"en": "She is one of the best testers we have.", "pt": "Ela é uma das melhores testadoras que temos."}
+      ],
+      "trap": "Não duplique a marca de comparação. *More easier*, *most fastest* e *more better* estão errados. Use só uma: *easier*, *fastest*, *better*."
+    },
+    {
+      "title": "Comparações em relatórios e e-mails",
+      "text": "Em relatórios, as comparações mostram resultados antes e depois de uma mudança. Combine o que você aprendeu: um modificador para o tamanho da diferença, um comparativo e **than** ou **as…as** para o ponto de comparação.\n\nDepois de **than**, uma oração completa expressa o que se esperava ou como era antes: *than we expected*, *than it was before*. Para não repetir o substantivo, use **one** (*the old one*) ou **ones** no plural (*the old ones*).",
+      "examples": [
+        {"en": "After the migration, the app is far more stable than it was before.", "pt": "Depois da migração, o aplicativo está bem mais estável do que era antes."},
+        {"en": "The migration took slightly longer than we expected.", "pt": "A migração levou um pouco mais de tempo do que esperávamos."},
+        {"en": "Our response time is half as long as it was last year.", "pt": "Nosso tempo de resposta é metade do que era no ano passado."},
+        {"en": "Fixing this bug was much easier than I thought.", "pt": "Corrigir este bug foi muito mais fácil do que eu pensava."}
+      ]
+    }
+  ],
+  "summary": [
+    "The + comparativo, the + comparativo mostra duas coisas que mudam juntas: The more we test, the fewer bugs we ship.",
+    "Antes de um comparativo use much, far, a lot ou considerably (diferença grande) e slightly ou a bit (diferença pequena); nunca very.",
+    "As…as expressa igualdade; just, nearly, not quite e nowhere near ajustam o grau, e twice, half e three times indicam múltiplos.",
+    "Not as…as e less…than expressam inferioridade; com contáveis plurais, a forma cuidada é fewer.",
+    "By far e easily reforçam o superlativo; não duplique a marca de comparação (more easier está errado)."
+  ],
+  "practice": [
+    {
+      "id": "b2-10-p1",
+      "type": "choice",
+      "prompt": "___ more tests we write, the fewer bugs reach production.",
+      "options": ["The", "A", "Much"],
+      "answer": 0,
+      "explain": "A estrutura the + comparativo, the + comparativo exige o the no começo de cada metade. É ele que dá o sentido de quanto mais…, mais….",
+      "why_not": {"1": "A é artigo indefinido e não forma essa estrutura.", "2": "Much pode modificar um comparativo, mas não abre essa estrutura."}
+    },
+    {
+      "id": "b2-10-p2",
+      "type": "fill",
+      "prompt": "The more we test, the ___ bugs we find in production.",
+      "answers": ["fewer"],
+      "explain": "Bugs é contável no plural, então o comparativo de few é fewer. Na linguagem cuidada, evitamos less com contáveis."
+    },
+    {
+      "id": "b2-10-p3",
+      "type": "choice",
+      "prompt": "This laptop is ___ faster than the old one.",
+      "options": ["very", "much", "more"],
+      "answer": 1,
+      "explain": "Para uma diferença grande antes de um comparativo, use much (ou far, a lot). Faster já é comparativo.",
+      "why_not": {"0": "Very não se usa antes de comparativos: very fast, mas much faster.", "2": "More faster dobra a marca de comparação, o que é um erro."}
+    },
+    {
+      "id": "b2-10-p4",
+      "type": "fill",
+      "prompt": "The new API is ___ as fast as the old one: it answers in half the time.",
+      "answers": ["twice", "two times"],
+      "explain": "Se o tempo cai pela metade, a velocidade dobra. O múltiplo vem antes de as…as: twice as fast as."
+    },
+    {
+      "id": "b2-10-p5",
+      "type": "choice",
+      "prompt": "Our app is ___ the best option on the market.",
+      "options": ["by far", "by more", "far by"],
+      "answer": 0,
+      "explain": "By far reforça o superlativo e significa de longe: by far the best.",
+      "why_not": {"1": "By more não existe com esse sentido.", "2": "Far by não é uma expressão do inglês."}
+    },
+    {
+      "id": "b2-10-p6",
+      "type": "translate",
+      "prompt": "Este servidor é ligeiramente mais rápido do que aquele.",
+      "answers": [
+        "This server is slightly faster than that one.",
+        "This server is slightly faster than that.",
+        "This server is a little faster than that one.",
+        "This server is a little faster than that.",
+        "This server is a bit faster than that one.",
+        "This server is a bit faster than that."
+      ],
+      "explain": "Slightly, a little e a bit marcam uma diferença pequena e vêm antes do comparativo faster. Depois de than, use that one ou that para evitar repetir server."
+    },
+    {
+      "id": "b2-10-p7",
+      "type": "order",
+      "words": ["The", "more", "we", "practice", "the", "easier", "it", "gets"],
+      "prompt": "Quanto mais praticamos, mais fácil fica.",
+      "answers": ["The more we practice, the easier it becomes."],
+      "explain": "Cada metade começa com the + comparativo: the more we practice, the easier it gets."
+    },
+    {
+      "id": "b2-10-p8",
+      "type": "fix",
+      "prompt": "This version is very faster than the old one.",
+      "answers": [
+        "This version is much faster than the old one.",
+        "This version is far faster than the old one.",
+        "This version is a lot faster than the old one.",
+        "This version is considerably faster than the old one."
+      ],
+      "explain": "Very não acompanha comparativos. Para uma diferença grande, use much, far, a lot ou considerably."
+    },
+    {
+      "id": "b2-10-p9",
+      "type": "choice",
+      "prompt": "Qual frase diz que o notebook A custa metade do preço do notebook B?",
+      "options": ["Laptop A is half as expensive as laptop B.", "Laptop A is half more expensive than laptop B.", "Laptop A is as half expensive as laptop B."],
+      "answer": 0,
+      "explain": "Para frações e múltiplos, o número vem antes de as…as: half as expensive as.",
+      "why_not": {"1": "Half more expensive than diria que A custa mais, e não metade.", "2": "A ordem as half expensive as está errada: o número vem antes do primeiro as."}
+    },
+    {
+      "id": "b2-10-p10",
+      "type": "fix",
+      "prompt": "Our new office is not so big than the old one.",
+      "answers": [
+        "Our new office is not as big as the old one.",
+        "Our new office is not so big as the old one."
+      ],
+      "explain": "A estrutura de igualdade é as…as (ou so…as, na negativa), e não so…than. Than só aparece depois de comparativos."
+    },
+    {
+      "id": "b2-10-p11",
+      "type": "choice",
+      "prompt": "This bug is ___ serious than we thought.",
+      "options": ["less", "fewer", "lesser"],
+      "answer": 0,
+      "explain": "Less + adjetivo + than expressa inferioridade: less serious than we thought.",
+      "why_not": {"1": "Fewer é usado com substantivos contáveis no plural, e não com adjetivos.", "2": "Lesser não se usa com than para comparar assim."}
+    },
+    {
+      "id": "b2-10-p12",
+      "type": "listen",
+      "en": "The more data we collect, the better our model becomes.",
+      "explain": "A estrutura the more…, the better… mostra que as duas coisas crescem juntas."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "b2-10-q1",
+      "type": "choice",
+      "prompt": "The cloud plan is ___ cheaper than the local one.",
+      "options": ["very", "far", "most"],
+      "answer": 1,
+      "explain": "Far antes de um comparativo indica uma diferença grande: far cheaper.",
+      "why_not": {"0": "Very não vai antes de um comparativo.", "2": "Most é marca de superlativo e não combina com cheaper."}
+    },
+    {
+      "id": "b2-10-q2",
+      "type": "fill",
+      "prompt": "The more users we have, the ___ servers we need.",
+      "answers": ["more"],
+      "explain": "Servers é contável e aumenta junto com users, então o comparativo é more."
+    },
+    {
+      "id": "b2-10-q3",
+      "type": "translate",
+      "prompt": "O novo notebook é três vezes mais rápido que o antigo.",
+      "answers": [
+        "The new laptop is three times as fast as the old one.",
+        "The new laptop is three times faster than the old one.",
+        "The new laptop is three times as fast as the old laptop.",
+        "The new laptop is three times faster than the old laptop."
+      ],
+      "explain": "O múltiplo three times vem antes de as fast as. A forma three times faster than também é natural."
+    },
+    {
+      "id": "b2-10-q4",
+      "type": "order",
+      "words": ["Python", "is", "not", "as", "fast", "as", "C"],
+      "prompt": "Python não é tão rápido quanto C.",
+      "answers": ["Python is not so fast as C."],
+      "explain": "A estrutura de inferioridade é not as…as: not as fast as."
+    },
+    {
+      "id": "b2-10-q5",
+      "type": "fix",
+      "prompt": "Fixing this bug is more easier than we expected.",
+      "answers": ["Fixing this bug is easier than we expected."],
+      "explain": "Easy já está na forma comparativa (easier). Colocar more na frente duplica a marca de comparação."
+    },
+    {
+      "id": "b2-10-q6",
+      "type": "choice",
+      "prompt": "Qual frase está correta?",
+      "options": ["It is by far the most useful tool we have.", "It is by far most useful tool we have.", "It is far by the most useful tool we have."],
+      "answer": 0,
+      "explain": "By far vem antes de the + superlativo: by far the most useful.",
+      "why_not": {"1": "Falta o the antes do superlativo.", "2": "A ordem far by não existe; a expressão é by far."}
+    },
+    {
+      "id": "b2-10-q7",
+      "type": "listen",
+      "en": "The report is much shorter than I expected.",
+      "explain": "Much antes do comparativo shorter indica uma diferença grande, e than I expected completa a comparação."
+    }
+  ],
+  "words": [
+    {"word": "slightly", "pt": "ligeiramente; um pouco"},
+    {"word": "considerably", "pt": "consideravelmente; bem mais"},
+    {"word": "by far", "pt": "de longe; com grande diferença"},
+    {"word": "twice", "pt": "duas vezes; o dobro"},
+    {"word": "half", "pt": "metade"},
+    {"word": "reliable", "pt": "confiável"},
+    {"word": "expensive", "pt": "caro; cara"},
+    {"word": "stable", "pt": "estável"},
+    {"word": "coordinate", "pt": "coordenar"},
+    {"word": "migration", "pt": "migração"}
+  ]
+}

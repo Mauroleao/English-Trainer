@@ -1,0 +1,193 @@
+{
+  "id": "a1-07",
+  "level": "A1",
+  "unit": "Rotina de trabalho",
+  "title": "Present simple com he/she/it e advérbios de frequência",
+  "goal": "Falar da rotina de outras pessoas e dizer com que frequência as coisas acontecem.",
+  "minutes": 24,
+  "steps": [
+    {
+      "title": "He, she e it ganham um -s",
+      "text": "Na lição anterior, o verbo ficou na forma base com I, you, we e they. Com **he**, **she** e **it** (terceira pessoa do singular) existe uma mudança: o verbo ganha um **-s** no final.\n\nIsso vale para qualquer sujeito que você poderia trocar por he, she ou it: *Ana*, *my manager*, *the server*. Se você pode dizer “ele” ou “ela” no lugar, é terceira pessoa do singular.",
+      "examples": [
+        {"en": "I work in IT. She works in IT too.", "pt": "Eu trabalho com TI. Ela também trabalha com TI."},
+        {"en": "He writes code every day.", "pt": "Ele escreve código todos os dias."},
+        {"en": "The server restarts every night.", "pt": "O servidor reinicia toda noite."}
+      ],
+      "tip": "Esse -s é pequeno, mas muito importante. Ele mostra que o sujeito é uma pessoa ou coisa só, na terceira pessoa."
+    },
+    {
+      "title": "Regra geral: acrescente -s",
+      "text": "Na maioria dos verbos, basta acrescentar **-s** ao verbo base. Não há outra mudança na grafia.\n\nVeja que o sujeito muda, mas o resto da frase continua igual. Compare *I check the logs* com *He checks the logs*. Repare que *check* termina em **-ck**, por isso recebe só o -s.",
+      "table": {
+        "headers": ["Verbo base", "He / she / it", "Exemplo"],
+        "rows": [
+          ["work", "works", "She works at home."],
+          ["write", "writes", "He writes tests."],
+          ["check", "checks", "Ana checks the logs."],
+          ["start", "starts", "The meeting starts early."],
+          ["send", "sends", "Tom sends a report."]
+        ]
+      },
+      "examples": [
+        {"en": "She works at home on Fridays.", "pt": "Ela trabalha em casa às sextas."},
+        {"en": "He writes tests every day.", "pt": "Ele escreve testes todos os dias."},
+        {"en": "Ana checks the logs in the morning.", "pt": "Ana verifica os logs de manhã."}
+      ],
+      "trap": "Em inglês, o verbo sem -s com he/she/it está errado. Diga *She works*, e não *She work*."
+    },
+    {
+      "title": "Verbos que ganham -es",
+      "text": "Quando o verbo termina em **-s**, **-sh**, **-ch**, **-x**, **-z** ou **-o**, acrescentamos **-es**, e não só -s. Isso facilita a pronúncia.\n\nTrês exemplos que aparecem muito: **go → goes**, **do → does** e **fix → fixes**. Atenção: *check* termina em -ck, e não em -ch, então vira *checks*.",
+      "table": {
+        "headers": ["Terminação", "Verbo base", "He / she / it"],
+        "rows": [
+          ["-s", "pass", "passes"],
+          ["-sh", "push", "pushes"],
+          ["-ch", "watch", "watches"],
+          ["-x", "fix", "fixes"],
+          ["-o", "go", "goes"],
+          ["-o", "do", "does"]
+        ]
+      },
+      "examples": [
+        {"en": "He fixes bugs every day.", "pt": "Ele corrige bugs todos os dias."},
+        {"en": "She pushes the code on Fridays.", "pt": "Ela envia o código ao repositório às sextas."},
+        {"en": "My manager goes to the office on Mondays.", "pt": "Meu gerente vai ao escritório às segundas."},
+        {"en": "He does the tests in the afternoon.", "pt": "Ele faz os testes à tarde."}
+      ]
+    },
+    {
+      "title": "Consoante + y vira -ies; have vira has",
+      "text": "Se o verbo termina em **consoante + y**, troque o **y** por **-ies**: **study → studies**, **try → tries**. Se termina em **vogal + y** (a, e, o, u + y), basta o -s: **play → plays**, **deploy → deploys**, **say → says**.\n\nO verbo **have** é irregular: com he, she e it ele vira **has**, e não *haves*.",
+      "table": {
+        "headers": ["Verbo base", "He / she / it", "Regra"],
+        "rows": [
+          ["study", "studies", "consoante + y → -ies"],
+          ["try", "tries", "consoante + y → -ies"],
+          ["deploy", "deploys", "vogal + y → só -s"],
+          ["play", "plays", "vogal + y → só -s"],
+          ["have", "has", "irregular"]
+        ]
+      },
+      "examples": [
+        {"en": "She studies English at night.", "pt": "Ela estuda inglês à noite."},
+        {"en": "He tries a new tool every week.", "pt": "Ele testa uma ferramenta nova toda semana."},
+        {"en": "The team deploys on Thursdays.", "pt": "O time publica às quintas."},
+        {"en": "My manager has a meeting every Monday.", "pt": "Meu gerente tem reunião toda segunda."}
+      ],
+      "trap": "Não escreva *He studys* nem *She haves*. Troque o y por -ies em *studies* e use a forma irregular *has*."
+    },
+    {
+      "title": "Advérbios de frequência",
+      "text": "Os **advérbios de frequência** são palavras que dizem **com que frequência** algo acontece. Um advérbio é uma palavra que dá mais informação sobre um verbo, como *always* em *She always tests*.\n\nDe mais frequente a menos frequente: **always** (sempre), **usually** (normalmente), **often** (muitas vezes), **sometimes** (às vezes) e **never** (nunca).",
+      "table": {
+        "headers": ["Advérbio", "Significado", "Exemplo"],
+        "rows": [
+          ["always", "sempre", "She always tests the code."],
+          ["usually", "normalmente", "He usually works from home."],
+          ["often", "muitas vezes", "We often have meetings."],
+          ["sometimes", "às vezes", "I sometimes work late."],
+          ["never", "nunca", "He never works on Sundays."]
+        ]
+      },
+      "examples": [
+        {"en": "She always tests the code.", "pt": "Ela sempre testa o código."},
+        {"en": "He usually works from home.", "pt": "Ele normalmente trabalha em casa."},
+        {"en": "I sometimes work late.", "pt": "Às vezes eu trabalho até tarde."},
+        {"en": "He never works on Sundays.", "pt": "Ele nunca trabalha aos domingos."}
+      ],
+      "tip": "Os advérbios de frequência também funcionam com I, you, we e they: *We often have meetings*."
+    },
+    {
+      "title": "Onde colocar o advérbio",
+      "text": "O advérbio de frequência fica **antes do verbo principal**: *She always tests*. Mas, com o verbo **to be**, ele vai **depois** de *am*, *is* ou *are*: *She is always late*.\n\n**Sometimes**, **usually** e **often** também podem aparecer no começo da frase: *Sometimes she works late*. Já **always** e **never** ficam junto do verbo. Como **never** já é negativo, não se usa outra negação com ele.",
+      "examples": [
+        {"en": "She always checks the logs.", "pt": "Ela sempre verifica os logs."},
+        {"en": "He is always late for the daily.", "pt": "Ele sempre se atrasa para a daily."},
+        {"en": "Sometimes she works late.", "pt": "Às vezes ela trabalha até tarde."},
+        {"en": "The build never fails.", "pt": "O build nunca falha."}
+      ],
+      "trap": "Em português dizemos “Ela é sempre feliz”, com o advérbio depois do verbo. Em inglês, o advérbio vem depois de is e antes do adjetivo: *She is always happy*, e não *She always is happy*."
+    },
+    {
+      "title": "A regra em contexto: a rotina de um colega",
+      "text": "Imagine que você descreve a rotina do Marco, um colega de time, para uma pessoa nova. Você usa o verbo com **-s** e os advérbios no lugar certo.\n\nLeia as frases e reconheça cada regra: *has*, *goes*, *fixes*, *studies* e o advérbio antes do verbo. Depois, escreva três frases sobre a rotina de alguém que você conhece.",
+      "examples": [
+        {"en": "Marco usually starts work in the morning.", "pt": "Marco normalmente começa o trabalho de manhã."},
+        {"en": "He often fixes bugs after lunch.", "pt": "Ele muitas vezes corrige bugs depois do almoço."},
+        {"en": "He sometimes goes to the office.", "pt": "Às vezes ele vai ao escritório."},
+        {"en": "He never forgets the daily meeting.", "pt": "Ele nunca esquece a reunião daily."}
+      ]
+    }
+  ],
+  "summary": [
+    "Com he, she e it (e com sujeitos como Ana, my manager, the server), o verbo ganha -s: she works.",
+    "Verbos em -s, -sh, -ch, -x, -z e -o ganham -es: fixes, watches, goes, does.",
+    "Consoante + y vira -ies (studies); vogal + y recebe só -s (deploys); have vira has.",
+    "Advérbios de frequência: always, usually, often, sometimes, never.",
+    "O advérbio vai antes do verbo principal e depois do verbo to be: She always tests, She is always late."
+  ],
+  "practice": [
+    {"id": "a1-07-p1", "type": "choice", "prompt": "She ___ code every day.", "options": ["write", "writes", "is writes"], "answer": 1,
+     "explain": "She é terceira pessoa do singular, então o verbo ganha -s: she writes.",
+     "why_not": {"0": "Faltou o -s, que é obrigatório com he, she e it.", "2": "Não se usa is antes de um verbo de ação."}},
+    {"id": "a1-07-p2", "type": "choice", "prompt": "He ___ the server in the morning.", "options": ["check", "checks", "checkes"], "answer": 1,
+     "explain": "Check termina em -ck, então recebe só -s: he checks.",
+     "why_not": {"0": "Faltou o -s da terceira pessoa.", "2": "Check não termina em -ch, por isso não leva -es."}},
+    {"id": "a1-07-p3", "type": "fill", "prompt": "Tom ___ (fix) bugs every day.", "answers": ["fixes"],
+     "explain": "Fix termina em -x, então ganha -es: Tom fixes."},
+    {"id": "a1-07-p4", "type": "fill", "prompt": "Maria ___ (have) a new laptop.", "answers": ["has"],
+     "explain": "Have é irregular: com he, she e it vira has."},
+    {"id": "a1-07-p5", "type": "fill", "prompt": "The developer ___ (study) English at night.", "answers": ["studies"],
+     "explain": "Study termina em consoante + y, então o y vira -ies: studies."},
+    {"id": "a1-07-p6", "type": "translate", "prompt": "Ela trabalha em casa às sextas-feiras.", "answers": ["She works at home on Fridays.", "She works from home on Fridays.", "On Fridays she works at home.", "On Fridays she works from home."],
+     "explain": "She pede works, com -s. Dias da semana no plural usam on: on Fridays."},
+    {"id": "a1-07-p7", "type": "order", "words": ["He", "always", "tests", "the", "code"], "prompt": "Ele sempre testa o código.",
+     "explain": "O advérbio always fica antes do verbo principal: he always tests."},
+    {"id": "a1-07-p8", "type": "fix", "prompt": "She work in a big team.", "answers": ["She works in a big team."],
+     "explain": "Com she, o verbo precisa do -s: she works."},
+    {"id": "a1-07-p9", "type": "fix", "prompt": "She always is happy on Fridays.", "answers": ["She is always happy on Fridays."],
+     "explain": "Com o verbo to be, o advérbio de frequência vem depois de is: she is always happy."},
+    {"id": "a1-07-p10", "type": "choice", "prompt": "Como se diz “Ele nunca chega atrasado”?", "options": ["He never arrives late.", "He arrives never late.", "He doesn't never arrive late."], "answer": 0,
+     "explain": "Never fica antes do verbo e já é negativo. O verbo ganha -s: he never arrives late.",
+     "why_not": {"1": "Never deve ficar antes do verbo, e não depois dele.", "2": "Never já é negativo; não se usa outra negação junto."}},
+    {"id": "a1-07-p11", "type": "listen", "en": "She usually deploys on Thursdays.",
+     "explain": "She usually deploys: o advérbio vem antes do verbo e deploy ganha só -s por terminar em vogal + y."},
+    {"id": "a1-07-p12", "type": "translate", "prompt": "Ele tem uma reunião toda segunda-feira.", "answers": ["He has a meeting every Monday.", "Every Monday he has a meeting."],
+     "explain": "Com he, have vira has. Every Monday não leva preposição."}
+  ],
+  "quiz": [
+    {"id": "a1-07-q1", "type": "choice", "prompt": "The tester ___ the app every Friday.", "options": ["deploy", "deploys", "deployes"], "answer": 1,
+     "explain": "Deploy termina em vogal + y, então recebe só -s: deploys.",
+     "why_not": {"0": "Faltou o -s da terceira pessoa.", "2": "Vogal + y não pede -es; basta o -s."}},
+    {"id": "a1-07-q2", "type": "fill", "prompt": "The server ___ (go) down on Sundays.", "answers": ["goes"],
+     "explain": "Go termina em -o, então ganha -es: goes."},
+    {"id": "a1-07-q3", "type": "fill", "prompt": "She ___ (try) a new tool every week.", "answers": ["tries"],
+     "explain": "Try termina em consoante + y, então vira tries."},
+    {"id": "a1-07-q4", "type": "translate", "prompt": "Ele escreve testes todos os dias.", "answers": ["He writes tests every day.", "Every day he writes tests."],
+     "explain": "He pede writes, com -s. Every day fica no fim ou no começo."},
+    {"id": "a1-07-q5", "type": "order", "words": ["She", "is", "sometimes", "late", "for", "work"], "prompt": "Ela às vezes se atrasa para o trabalho.",
+     "answers": ["Sometimes she is late for work.", "She is late for work sometimes."],
+     "explain": "Com to be, o advérbio vai depois de is. Sometimes também pode abrir ou fechar a frase."},
+    {"id": "a1-07-q6", "type": "fix", "prompt": "He have a new job.", "answers": ["He has a new job."],
+     "explain": "Com he, o verbo have vira has."},
+    {"id": "a1-07-q7", "type": "choice", "prompt": "Qual frase está correta?", "options": ["He is often late.", "He does often late.", "He often is late."], "answer": 0,
+     "explain": "Com to be, o advérbio de frequência vai depois de is: he is often late.",
+     "why_not": {"1": "Does não faz parte dessa frase afirmativa.", "2": "Com to be, o advérbio não vem antes de is."}},
+    {"id": "a1-07-q8", "type": "listen", "en": "My colleague sometimes works late on Thursdays.",
+     "explain": "My colleague é he/she, então works leva -s. Sometimes vem antes do verbo."}
+  ],
+  "words": [
+    {"word": "always", "pt": "sempre"},
+    {"word": "usually", "pt": "normalmente; geralmente"},
+    {"word": "often", "pt": "muitas vezes; frequentemente"},
+    {"word": "sometimes", "pt": "às vezes"},
+    {"word": "never", "pt": "nunca"},
+    {"word": "colleague", "pt": "colega de trabalho"},
+    {"word": "late", "pt": "atrasado; tarde"},
+    {"word": "study", "pt": "estudar"},
+    {"word": "fix", "pt": "corrigir; consertar"},
+    {"word": "watch", "pt": "assistir; observar"}
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "id": "b1-16",
+  "level": "B1",
+  "unit": "Fluência no texto",
+  "title": "Phrasal verbs de trabalho e conectores",
+  "goal": "Usar phrasal verbs comuns do trabalho e de TI e ligar ideias com however, therefore, as a result, although e even though.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "O que é um phrasal verb",
+      "text": "Um **phrasal verb** é um verbo + uma pequena palavra (**up, out, off, in, on, into**...), chamada de partícula. Juntos, eles formam um significado novo, que muitas vezes não dá para adivinhar: *give up* não é “dar para cima”, é “desistir”.\n\nOs phrasal verbs são muito comuns no dia a dia de trabalho, em reuniões, chats e e-mails. Por isso vale aprender cada um **inteiro**, como um bloco, junto com uma frase de exemplo.",
+      "examples": [
+        {"en": "Let's set up a meeting for Monday.", "pt": "Vamos marcar uma reunião para segunda."},
+        {"en": "Please log in again.", "pt": "Por favor, entre no sistema de novo."},
+        {"en": "We found out the cause of the error.", "pt": "Descobrimos a causa do erro."}
+      ],
+      "tip": "Não traduza o verbo e a partícula separadamente. Aprenda o bloco inteiro: set up, find out, log in."
+    },
+    {
+      "title": "Phrasal verbs de TI",
+      "text": "Estes phrasal verbs aparecem o tempo todo no trabalho com tecnologia: configurar, entrar e sair de sistemas, fazer backup, lançar versões e ligar ou desligar máquinas. Observe que alguns não levam objeto (*log in*, *sign up*) e outros levam (*set up the server*).\n\nCom **log in**, a conexão com o sistema usa **to**: *log in to the portal*. Com **sign up**, a coisa em que você se cadastra usa **for**: *sign up for a course*.",
+      "table": {
+        "headers": ["Phrasal verb", "Significado", "Exemplo"],
+        "rows": [
+          ["set up", "configurar; montar", "We set up the new server."],
+          ["log in / log out", "entrar / sair do sistema", "Please log in again."],
+          ["back up", "fazer backup de", "Back up your files every day."],
+          ["roll out", "lançar aos poucos", "We will roll out the update next week."],
+          ["turn on / turn off", "ligar / desligar", "Turn off the server."],
+          ["sign up", "cadastrar-se", "Sign up for the newsletter."],
+          ["shut down", "desligar; encerrar", "The system shuts down at midnight."]
+        ]
+      },
+      "examples": [
+        {"en": "I can't log in to the portal.", "pt": "Não consigo entrar no portal."},
+        {"en": "Did you back up the database?", "pt": "Você fez backup do banco de dados?"},
+        {"en": "She set up a test environment.", "pt": "Ela configurou um ambiente de testes."}
+      ],
+      "trap": "Substantivo e verbo se escrevem diferente. O substantivo é uma palavra só (*a backup*, *a login*, *a setup*); o verbo são duas palavras (*back up*, *log in*, *set up*). Diga *Make a backup*, mas *Back up the files*."
+    },
+    {
+      "title": "Phrasal verbs de trabalho",
+      "text": "Outro grupo reúne verbos para resolver problemas e organizar o trabalho: investigar, realizar tarefas, descobrir, propor ideias e adiar ou cancelar planos. Eles aparecem em e-mails e reuniões, e muitos têm um verbo mais formal equivalente (*look into* = *investigate*).\n\nObserve que *come up with* e *deal with* têm **três** palavras, mas continuam sendo um bloco só.",
+      "table": {
+        "headers": ["Phrasal verb", "Significado", "Exemplo"],
+        "rows": [
+          ["look into", "investigar", "We are looking into the error."],
+          ["carry out", "realizar; executar", "The team carried out a security test."],
+          ["find out", "descobrir", "I need to find out who changed the file."],
+          ["point out", "apontar; destacar", "She pointed out a problem in the design."],
+          ["come up with", "ter uma ideia; propor", "Can you come up with a solution?"],
+          ["deal with", "lidar com", "We deal with many tickets every day."],
+          ["put off", "adiar", "They put off the release until Monday."],
+          ["call off", "cancelar", "We called off the meeting."]
+        ]
+      },
+      "examples": [
+        {"en": "We are looking into the error.", "pt": "Estamos investigando o erro."},
+        {"en": "The team carried out a security test.", "pt": "A equipe realizou um teste de segurança."},
+        {"en": "They put off the release until Monday.", "pt": "Eles adiaram o lançamento para segunda."}
+      ],
+      "tip": "Muitos phrasal verbs têm um sinônimo mais formal: look into = investigate, put off = postpone, call off = cancel."
+    },
+    {
+      "title": "Onde vai o objeto?",
+      "text": "Alguns phrasal verbs são **separáveis**: o objeto pode ficar no meio ou depois. Dizemos *turn off the server* ou *turn the server off*. Se o objeto for um **pronome** (*it, them, him, her*), ele deve ir **no meio**: *turn it off*.\n\nOutros são **inseparáveis**: o objeto sempre vem **depois**, como em *look into the bug* e *look into it*. Os inseparáveis desta lição são *look into*, *deal with* e *come up with*. Você aprofunda isso nas próximas lições; por ora, guarde a regra do pronome.",
+      "table": {
+        "headers": ["Tipo", "Regra", "Exemplo"],
+        "rows": [
+          ["separável + substantivo", "objeto no meio ou depois", "turn off the server / turn the server off"],
+          ["separável + pronome", "objeto no meio", "turn it off"],
+          ["inseparável", "objeto depois", "look into the bug / look into it"]
+        ]
+      },
+      "examples": [
+        {"en": "Please set it up before the meeting.", "pt": "Por favor, configure isso antes da reunião."},
+        {"en": "I backed them up yesterday.", "pt": "Eu fiz backup deles ontem."},
+        {"en": "We are looking into it.", "pt": "Estamos investigando isso."}
+      ],
+      "trap": "Com pronome, não coloque o objeto no fim nos separáveis. *Set up it* e *back up them* estão errados; diga *set it up* e *back them up*."
+    },
+    {
+      "title": "Contraste: however, although, even though",
+      "text": "Para mostrar **contraste**, o inglês tem três conectores muito usados. **However** (no entanto) começa uma **nova frase** e vem seguido de vírgula: *The test passed. However, the build failed.* **Although** e **even though** (embora) começam uma oração que tem sujeito e verbo: *Although the test passed, the build failed.*\n\n**Even though** é mais forte que *although* e destaca um fato surpreendente: *Even though it was cheap, we did not buy it.*",
+      "table": {
+        "headers": ["Conector", "Como usar", "Exemplo"],
+        "rows": [
+          ["however", "começa outra frase; vírgula depois", "The test passed. However, the build failed."],
+          ["although", "+ sujeito + verbo", "Although it was late, we finished."],
+          ["even though", "+ sujeito + verbo; mais enfático", "Even though it was cheap, we did not buy it."]
+        ]
+      },
+      "examples": [
+        {"en": "The new server is expensive. However, it is much faster.", "pt": "O novo servidor é caro. No entanto, é muito mais rápido."},
+        {"en": "Although the update was small, it fixed the login problem.", "pt": "Embora a atualização fosse pequena, ela corrigiu o problema de login."},
+        {"en": "Even though she was tired, she finished the report.", "pt": "Mesmo cansada, ela terminou o relatório."}
+      ],
+      "trap": "Não use *but* junto de *although*: *Although it was late, but we finished* está errado. Basta um dos dois: *Although it was late, we finished.* Além disso, não ligue duas orações só com *however* e vírgula; coloque um ponto antes."
+    },
+    {
+      "title": "Resultado: so, therefore, as a result",
+      "text": "Para mostrar **consequência**, usamos **so** (informal), **therefore** (mais formal) e **as a result** (como resultado). *So* liga duas orações na mesma frase: *The server crashed, so we restarted it.* *Therefore* e *as a result* costumam começar uma nova frase, seguidos de vírgula.\n\nPara ligar o resultado a um **substantivo**, use **as a result of**: *As a result of the crash, users could not log in.* Lembre-se: **because** indica a **causa**; therefore e as a result indicam o **resultado**.",
+      "table": {
+        "headers": ["Conector", "Registro", "Exemplo"],
+        "rows": [
+          ["so", "informal", "The server crashed, so we restarted it."],
+          ["therefore", "formal", "The server crashed. Therefore, we restarted it."],
+          ["as a result", "neutro", "The server crashed. As a result, users could not log in."],
+          ["as a result of + substantivo", "neutro", "As a result of the crash, users could not log in."]
+        ]
+      },
+      "examples": [
+        {"en": "The data was lost. Therefore, we restored the backup.", "pt": "Os dados foram perdidos. Portanto, restauramos o backup."},
+        {"en": "The team rolled out the fix. As a result, users can log in again.", "pt": "A equipe lançou a correção. Como resultado, os usuários podem entrar de novo."}
+      ],
+      "trap": "Não confunda causa e resultado. *The server crashed because users could not log in* inverte a história. A causa vem com *because*; a consequência vem com *so, therefore* ou *as a result*."
+    },
+    {
+      "title": "Em contexto: um e-mail de incidente",
+      "text": "Veja os phrasal verbs e os conectores juntos em um e-mail curto depois de um incidente. Primeiro a equipe investiga, depois executa uma ação, e cada conector mostra a relação entre as ideias: contraste ou resultado.\n\nTente reescrever as frases com outros assuntos do seu trabalho. Se a segunda ideia contraria a primeira, use *however* ou *although*; se ela é consequência, use *therefore* ou *as a result*.",
+      "examples": [
+        {"en": "We looked into the problem and found out that the database was full.", "pt": "Investigamos o problema e descobrimos que o banco de dados estava cheio."},
+        {"en": "Although we backed up the data, the restore took two hours.", "pt": "Embora tenhamos feito backup dos dados, a restauração levou duas horas."},
+        {"en": "The first fix failed. However, we fixed the problem with a second patch.", "pt": "A primeira correção falhou. No entanto, corrigimos o problema com um segundo patch."}
+      ],
+      "tip": "Em e-mails, however e therefore ficam no começo da frase, com vírgula depois: However, we..., Therefore, we..."
+    }
+  ],
+  "summary": [
+    "Um phrasal verb é verbo + partícula com significado próprio; aprenda cada um como um bloco: set up, log in, back up, roll out, look into.",
+    "O substantivo é uma palavra (a backup, a login); o verbo são duas (back up, log in).",
+    "Nos separáveis, o pronome vai no meio: turn it off, set it up, back them up.",
+    "However começa uma nova frase e leva vírgula; although e even though introduzem uma oração com sujeito e verbo, sem but.",
+    "Therefore, as a result e so indicam resultado; as a result of vem com substantivo; because indica a causa."
+  ],
+  "practice": [
+    {"id": "b1-16-p1", "type": "choice", "prompt": "Please ___ your files before the update.", "options": ["back up", "backup", "back off"], "answer": 0,
+     "explain": "Como verbo, usamos duas palavras: back up. A forma backup (junta) é o substantivo.",
+     "why_not": {"1": "Backup, escrito junto, é um substantivo e não pode ser o verbo da frase.", "2": "Back off significa recuar ou se afastar, e não fazer backup."}},
+    {"id": "b1-16-p2", "type": "fill", "prompt": "I can't ___ in to my account. The password is wrong.", "answers": ["log", "sign"],
+     "explain": "Log in (ou sign in) significa entrar em um sistema com usuário e senha."},
+    {"id": "b1-16-p3", "type": "fill", "prompt": "We will ___ out the new version to all users next week. (lançar aos poucos)", "answers": ["roll"],
+     "explain": "Roll out significa lançar ou implantar algo gradualmente, como uma nova versão."},
+    {"id": "b1-16-p4", "type": "choice", "prompt": "Qual frase com pronome está correta?", "options": ["Turn off it, please.", "Turn it off, please.", "Turn it please off."], "answer": 1,
+     "explain": "Em um phrasal verb separável, o pronome vai no meio: turn it off.",
+     "why_not": {"0": "Com pronome, o objeto não pode vir depois da partícula.", "2": "A partícula off deve ficar logo depois do pronome, antes de please."}},
+    {"id": "b1-16-p5", "type": "translate", "prompt": "Estamos investigando o problema.", "answers": ["We are looking into the problem.", "We are looking into the issue.", "We are investigating the problem.", "We are investigating the issue."],
+     "explain": "Look into é o phrasal verb para investigar. Uma alternativa mais formal é investigate."},
+    {"id": "b1-16-p6", "type": "order", "words": ["The", "team", "carried", "out", "a", "security", "test"], "prompt": "A equipe realizou um teste de segurança.",
+     "explain": "Carry out significa realizar ou executar. O passado é carried out, e o objeto (a security test) vem depois."},
+    {"id": "b1-16-p7", "type": "fix", "prompt": "Please set up it before the meeting.", "answers": ["Please set it up before the meeting."],
+     "explain": "Set up é separável. Com um pronome, o objeto vai no meio: set it up."},
+    {"id": "b1-16-p8", "type": "choice", "prompt": "The new server is expensive. ___, it is much faster.", "options": ["However", "Therefore", "Because"], "answer": 0,
+     "explain": "A segunda frase traz uma ideia de contraste com a primeira (caro, mas rápido). However marca esse contraste.",
+     "why_not": {"1": "Therefore indica consequência, e ser rápido não é consequência de ser caro.", "2": "Because indica causa e não começa uma frase nova com esse sentido."}},
+    {"id": "b1-16-p9", "type": "fill", "prompt": "___ the test was difficult, everyone passed.", "answers": ["Although", "Even though"],
+     "explain": "Although e even though introduzem uma oração de contraste com sujeito e verbo: the test was difficult."},
+    {"id": "b1-16-p10", "type": "choice", "prompt": "The server crashed. ___, users could not log in.", "options": ["Although", "As a result", "Because"], "answer": 1,
+     "explain": "A segunda frase é uma consequência da queda do servidor, e as a result introduz resultados.",
+     "why_not": {"0": "Although marca contraste, e aqui não há contraste.", "2": "Because indica causa e não começa uma frase nova depois de um ponto."}},
+    {"id": "b1-16-p11", "type": "fix", "prompt": "Although it was late, but we finished the deploy.", "answers": ["Although it was late, we finished the deploy."],
+     "explain": "Although já expressa o contraste. Não se usa but na mesma frase."},
+    {"id": "b1-16-p12", "type": "listen", "en": "We found out that the backup had failed.",
+     "explain": "Find out significa descobrir. Depois dele vem uma oração com that, e had failed está no past perfect."}
+  ],
+  "quiz": [
+    {"id": "b1-16-q1", "type": "choice", "prompt": "Como se diz “cancelar a reunião”?", "options": ["call off the meeting", "call on the meeting", "call in the meeting"], "answer": 0,
+     "explain": "Call off significa cancelar um evento ou um plano.",
+     "why_not": {"1": "Call on significa visitar ou pedir a alguém que fale.", "2": "Call in significa chamar alguém ou ligar para um lugar, e não cancelar."}},
+    {"id": "b1-16-q2", "type": "fill", "prompt": "Can you ___ out who changed the file? (descobrir)", "answers": ["find"],
+     "explain": "Find out significa descobrir uma informação."},
+    {"id": "b1-16-q3", "type": "translate", "prompt": "Nós adiamos o lançamento.", "answers": ["We put off the release.", "We put the release off.", "We postponed the release.", "We delayed the release."],
+     "explain": "Put off significa adiar. É separável: put off the release ou put the release off. Postpone é a opção mais formal."},
+    {"id": "b1-16-q4", "type": "order", "words": ["He", "pointed", "out", "a", "mistake", "in", "the", "report"], "prompt": "Ele apontou um erro no relatório.",
+     "explain": "Point out significa apontar ou destacar. O passado é pointed out, e o objeto vem depois."},
+    {"id": "b1-16-q5", "type": "fix", "prompt": "Please back up them today.", "answers": ["Please back them up today."],
+     "explain": "Back up é separável. Com o pronome them, o objeto vai no meio: back them up."},
+    {"id": "b1-16-q6", "type": "choice", "prompt": "Qual frase está correta?", "options": ["The data was lost. Therefore, we restored the backup.", "The data was lost. Although, we restored the backup.", "The data was lost, although therefore we restored the backup."], "answer": 0,
+     "explain": "Therefore introduz a consequência em uma nova frase, seguido de vírgula: perderam os dados e, por isso, restauraram o backup.",
+     "why_not": {"1": "Although introduz uma oração com sujeito e verbo, e não funciona sozinho no começo de uma frase.", "2": "Although e therefore juntos não fazem sentido: um marca contraste e o outro marca resultado."}},
+    {"id": "b1-16-q7", "type": "fill", "prompt": "We have to ___ with a lot of tickets today.", "answers": ["deal", "cope"],
+     "explain": "Deal with significa lidar com algo. Cope with também é possível, com o sentido de dar conta de."},
+    {"id": "b1-16-q8", "type": "listen", "en": "Although the update was small, it fixed the login problem.",
+     "explain": "Although introduz o contraste (update pequeno), e a oração principal mostra o efeito. Não há but na frase."}
+  ],
+  "words": [
+    {"word": "set up", "pt": "configurar; montar; marcar"},
+    {"word": "log in", "pt": "entrar no sistema; fazer login"},
+    {"word": "back up", "pt": "fazer backup de"},
+    {"word": "roll out", "pt": "lançar aos poucos; implantar"},
+    {"word": "look into", "pt": "investigar"},
+    {"word": "carry out", "pt": "realizar; executar"},
+    {"word": "find out", "pt": "descobrir"},
+    {"word": "put off", "pt": "adiar"},
+    {"word": "however", "pt": "no entanto; porém"},
+    {"word": "therefore", "pt": "portanto; por isso"},
+    {"word": "although", "pt": "embora; apesar de que"},
+    {"word": "as a result", "pt": "como resultado"}
+  ]
+}

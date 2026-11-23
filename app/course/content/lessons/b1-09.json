@@ -1,0 +1,163 @@
+{
+  "id": "b1-09",
+  "level": "B1",
+  "unit": "Voz passiva",
+  "title": "Passive com present perfect, will e modais",
+  "goal": "Usar a voz passiva em tempos compostos, no futuro e com modais para falar de resultados, planos e regras no trabalho.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "A ideia por trás: be + particípio, em qualquer tempo",
+      "text": "Na lição anterior você viu a passiva no presente e no passado simples: *The bug is fixed*, *The bug was fixed*. A fórmula é sempre **be + particípio passado**. O truque desta lição é simples: o que muda de um tempo para outro é **só a forma do verbo be**. O particípio (fixed, deployed, sent) fica igual.\n\nPor isso, para montar uma passiva em qualquer tempo, primeiro pense na frase ativa, depois ponha o verbo **be** no mesmo tempo e adicione o particípio. Ativa: *The team has fixed the bug.* Passiva: *The bug has been fixed.*",
+      "examples": [
+        {"en": "The team has fixed the bug.", "pt": "A equipe corrigiu o bug."},
+        {"en": "The bug has been fixed.", "pt": "O bug foi corrigido."},
+        {"en": "The bug will be fixed tomorrow.", "pt": "O bug será corrigido amanhã."}
+      ],
+      "tip": "Receita: tempo da frase ativa + be no mesmo tempo (have been, will be, can be) + particípio."
+    },
+    {
+      "title": "Present perfect passive: has been / have been + particípio",
+      "text": "O present perfect é **have/has + particípio**. Na passiva, o particípio de **be** (que é **been**) entra no meio: **have/has been + particípio**. Usamos para falar de um resultado que importa agora, sem dizer quando aconteceu.\n\nÉ a forma ideal para status de projeto: o que já foi feito, o que ainda não foi. Use **has** com sujeito singular (the ticket, the server) e **have** com plural (the tests, the files).",
+      "table": {
+        "headers": ["Ativa", "Passiva"],
+        "rows": [
+          ["They have deployed the update.", "The update has been deployed."],
+          ["We have sent the invoices.", "The invoices have been sent."],
+          ["Nobody has answered the email.", "The email hasn't been answered."]
+        ]
+      },
+      "examples": [
+        {"en": "The new version has been deployed to production.", "pt": "A nova versão foi implantada em produção."},
+        {"en": "All the tickets have been assigned.", "pt": "Todos os tickets foram atribuídos."},
+        {"en": "The password has already been changed.", "pt": "A senha já foi alterada."}
+      ],
+      "trap": "Não esqueça do **been**. *The bug has fixed* está errado (parece que o bug corrigiu algo); o certo é *The bug has been fixed*."
+    },
+    {
+      "title": "Futuro passivo: will be + particípio",
+      "text": "Para ações futuras, a passiva usa **will be + particípio**. A forma de **be** depois de um verbo auxiliar é sempre **be** (nunca *is* ou *are*). Você também pode usar **going to be + particípio** para planos já decididos, com a mesma lógica da lição de futuro.\n\nNo trabalho, a passiva do futuro é comum em avisos e e-mails: o foco fica no que vai acontecer com o sistema, e não em quem vai fazer.",
+      "examples": [
+        {"en": "The database will be migrated on Saturday.", "pt": "O banco de dados será migrado no sábado."},
+        {"en": "Your request will be reviewed within two days.", "pt": "Sua solicitação será analisada em até dois dias."},
+        {"en": "The meeting is going to be recorded.", "pt": "A reunião vai ser gravada."},
+        {"en": "The servers won't be restarted tonight.", "pt": "Os servidores não serão reiniciados hoje à noite."}
+      ],
+      "tip": "Em português usamos “será” ou “vai ser”. Em inglês, will be e going to be fazem o mesmo papel."
+    },
+    {
+      "title": "Modais na passiva: can be, must be, should be",
+      "text": "Com modais (**can, could, must, should, might, may, will**), a regra é a mais simples de todas: **modal + be + particípio**. O modal nunca muda e o verbo seguinte é sempre **be**.\n\nEssa estrutura serve para regras, possibilidades e recomendações: o que pode ser feito, o que precisa ser feito, o que deveria ser feito. Para negar, coloque **not** depois do modal: *can't be*, *mustn't be*, *shouldn't be*.",
+      "table": {
+        "headers": ["Modal", "Exemplo", "Ideia"],
+        "rows": [
+          ["can be", "The file can be exported as PDF.", "possibilidade"],
+          ["must be", "The form must be signed.", "obrigação"],
+          ["should be", "The code should be reviewed.", "conselho"],
+          ["might be", "The release might be delayed.", "possibilidade incerta"],
+          ["can't be", "The data can't be recovered.", "impossibilidade"]
+        ]
+      },
+      "examples": [
+        {"en": "The report must be sent before noon.", "pt": "O relatório precisa ser enviado antes do meio-dia."},
+        {"en": "This password mustn't be shared with anyone.", "pt": "Esta senha não pode ser compartilhada com ninguém."},
+        {"en": "The issue could be solved with a simple update.", "pt": "O problema poderia ser resolvido com uma simples atualização."}
+      ],
+      "trap": "Depois de um modal, nunca use o particípio sozinho. *The file must saved* está errado; o certo é *The file must be saved*. Também não use *to*: *must to be* não existe."
+    },
+    {
+      "title": "Negativa e perguntas na passiva",
+      "text": "A regra é a mesma da lição de auxiliares: **o primeiro auxiliar** faz o trabalho. Na negativa, o **not** vem depois dele. Na pergunta, esse primeiro auxiliar vai para **antes do sujeito**, e o resto (**been**, **be** e o particípio) fica depois.\n\nAssim: *The ticket has been closed* → *Has the ticket been closed?*. E *The tests will be run* → *Will the tests be run?*. Não é preciso usar do/does/did, porque já existe um auxiliar na frase.",
+      "examples": [
+        {"en": "The ticket hasn't been closed yet.", "pt": "O ticket ainda não foi fechado."},
+        {"en": "Has the ticket been closed?", "pt": "O ticket já foi fechado?"},
+        {"en": "Will the tests be run tonight?", "pt": "Os testes serão executados hoje à noite?"},
+        {"en": "Can this feature be disabled?", "pt": "Esta funcionalidade pode ser desativada?"}
+      ],
+      "tip": "Resposta curta com o mesmo auxiliar: Yes, it has. / No, it hasn't. / Yes, it can."
+    },
+    {
+      "title": "Quando preferir a passiva (e o by)",
+      "text": "Use a passiva quando o **resultado** importa mais do que **quem** fez, quando quem fez é óbvio, desconhecido ou irrelevante. Em relatórios, release notes e e-mails técnicos isso é muito comum: *The issue has been resolved.*\n\nUse **by + agente** só quando essa informação é nova ou importante: *The module has been rewritten by the security team.* Em português a passiva com “ser” soa formal; em inglês ela é normal no dia a dia profissional. Se o agente for importante e você quiser uma frase mais direta, a voz ativa continua sendo uma boa escolha.",
+      "examples": [
+        {"en": "The issue has been resolved.", "pt": "O problema foi resolvido."},
+        {"en": "The module has been rewritten by the security team.", "pt": "O módulo foi reescrito pela equipe de segurança."},
+        {"en": "All user data should be encrypted.", "pt": "Todos os dados dos usuários devem ser criptografados."}
+      ]
+    },
+    {
+      "title": "Passiva em contexto: status e avisos",
+      "text": "Veja como esses três padrões aparecem juntos numa atualização de projeto. O **present perfect** conta o que já foi feito, o **will** conta o que vai acontecer e o **modal** dá regras e recomendações.\n\nNa prática, pergunte-se: “O que já foi feito? O que será feito? O que precisa ou pode ser feito?”. Cada pergunta leva a uma destas estruturas.",
+      "examples": [
+        {"en": "The backup has been completed, and the data has been checked.", "pt": "O backup foi concluído e os dados foram verificados."},
+        {"en": "The new login page will be released next week.", "pt": "A nova página de login será lançada na semana que vem."},
+        {"en": "Before the release, every change must be approved by a senior developer.", "pt": "Antes do lançamento, toda mudança precisa ser aprovada por um desenvolvedor sênior."}
+      ]
+    }
+  ],
+  "summary": [
+    "A passiva é sempre be + particípio; só o verbo be muda de tempo.",
+    "Present perfect passive: has/have been + particípio (The bug has been fixed).",
+    "Futuro passivo: will be / going to be + particípio.",
+    "Com modais: modal + be + particípio (can be, must be, should be).",
+    "Na pergunta, o primeiro auxiliar vem antes do sujeito: Has the ticket been closed?",
+    "Use by + agente só quando quem fez é uma informação importante."
+  ],
+  "practice": [
+    {"id": "b1-09-p1", "type": "choice", "prompt": "The new feature ___ released next week.", "options": ["will be", "will", "have been"], "answer": 0,
+     "explain": "Para uma passiva no futuro usamos will be + particípio. Will sozinho não aceita o particípio, e have been indica algo já feito.",
+     "why_not": {"1": "Depois de will precisa vir be: will be released.", "2": "Have been não combina com next week e com o sujeito singular feature."}},
+    {"id": "b1-09-p2", "type": "choice", "prompt": "The database ___ backed up since Monday.", "options": ["has been", "is", "have been"], "answer": 0,
+     "explain": "Since Monday pede o present perfect, e na passiva ele é has/have been + particípio. Database é singular, então has been.",
+     "why_not": {"1": "Is não combina com since, que pede present perfect.", "2": "Have been é plural; database é singular."}},
+    {"id": "b1-09-p3", "type": "choice", "prompt": "This password ___ shared with anyone.", "options": ["must not be", "must not", "must be not"], "answer": 0,
+     "explain": "Modal na passiva: modal + be + particípio. Na negativa, o not vem logo depois do modal: must not be shared.",
+     "why_not": {"1": "Falta o be antes do particípio shared.", "2": "O not vai depois do modal, e não depois do be."}},
+    {"id": "b1-09-p4", "type": "fill", "prompt": "The report has ___ sent to the client.", "answers": ["been"],
+     "explain": "O present perfect passive é has/have + been + particípio: has been sent."},
+    {"id": "b1-09-p5", "type": "fill", "prompt": "All the data can ___ exported as a CSV file.", "answers": ["be"],
+     "explain": "Depois de um modal como can, a passiva usa be + particípio: can be exported."},
+    {"id": "b1-09-p6", "type": "order", "words": ["Has", "the", "ticket", "been", "closed"], "prompt": "O ticket já foi fechado?",
+     "explain": "Na pergunta, o auxiliar has vem antes do sujeito, e been closed fica no final: Has the ticket been closed?"},
+    {"id": "b1-09-p7", "type": "translate", "prompt": "O código será revisado amanhã.", "answers": ["The code will be reviewed tomorrow.", "The code is going to be reviewed tomorrow."],
+     "explain": "Futuro passivo: will be (ou going to be) + particípio reviewed. O sujeito da frase é the code, que recebe a ação."},
+    {"id": "b1-09-p8", "type": "fix", "prompt": "The problem has fixed by the team.", "answers": ["The problem has been fixed by the team."],
+     "explain": "Na passiva do present perfect falta o been: has been fixed. Sem ele, a frase não é passiva."},
+    {"id": "b1-09-p9", "type": "fix", "prompt": "The bug can fixed quickly.", "answers": ["The bug can be fixed quickly."],
+     "explain": "Modal na passiva precisa de be antes do particípio: can be fixed."},
+    {"id": "b1-09-p10", "type": "listen", "en": "The new version has been deployed to production.",
+     "explain": "Has been deployed é o present perfect passive: o resultado importa agora e quem fez não foi mencionado."},
+    {"id": "b1-09-p11", "type": "choice", "prompt": "Como se diz “O arquivo precisa ser salvo antes de fechar”?", "options": ["The file must be saved before closing.", "The file must saved before closing.", "The file must be save before closing."], "answer": 0,
+     "explain": "Obrigação na passiva: must + be + particípio (saved). O verbo depois de be é o particípio, não a forma base.",
+     "why_not": {"1": "Falta o be depois de must.", "2": "Depois de be vem o particípio saved, e não save."}}
+  ],
+  "quiz": [
+    {"id": "b1-09-q1", "type": "choice", "prompt": "Our application ___ updated three times since January.", "options": ["has been", "will be", "can be"], "answer": 0,
+     "explain": "Since January pede present perfect, e na passiva ele é has been + particípio.",
+     "why_not": {"1": "Will be fala do futuro; since January fala do passado até agora.", "2": "Can be expressa possibilidade e não combina com since."}},
+    {"id": "b1-09-q2", "type": "fill", "prompt": "The migration will ___ completed by Friday.", "answers": ["be"],
+     "explain": "Futuro passivo: will + be + particípio. Depois de will o verbo fica na forma base be."},
+    {"id": "b1-09-q3", "type": "translate", "prompt": "A senha não pode ser compartilhada.", "answers": ["The password can't be shared.", "The password cannot be shared."],
+     "explain": "Modal na passiva: can't (ou cannot) + be + particípio shared."},
+    {"id": "b1-09-q4", "type": "order", "words": ["The", "issue", "should", "be", "solved", "today"], "prompt": "O problema deveria ser resolvido hoje.",
+     "explain": "A estrutura é sujeito + modal + be + particípio: The issue should be solved today."},
+    {"id": "b1-09-q5", "type": "fix", "prompt": "The update has been install on all servers.", "answers": ["The update has been installed on all servers."],
+     "explain": "Depois de has been vem o particípio passado (installed), e não a forma base."},
+    {"id": "b1-09-q6", "type": "choice", "prompt": "Qual frase está correta?", "options": ["The tickets have been assigned to the new team.", "The tickets have assigned to the new team.", "The tickets are been assigned to the new team."], "answer": 0,
+     "explain": "Present perfect passive com sujeito plural: have been + particípio.",
+     "why_not": {"1": "Falta o been.", "2": "Are been não existe; been combina com have/has."}},
+    {"id": "b1-09-q7", "type": "listen", "en": "Your request will be reviewed within two days.",
+     "explain": "Will be reviewed é o futuro passivo: o foco está na solicitação, e não em quem vai analisá-la."}
+  ],
+  "words": [
+    {"word": "assign", "pt": "atribuir; designar"},
+    {"word": "approve", "pt": "aprovar"},
+    {"word": "release", "pt": "lançar; lançamento"},
+    {"word": "migrate", "pt": "migrar"},
+    {"word": "export", "pt": "exportar"},
+    {"word": "encrypt", "pt": "criptografar"},
+    {"word": "review", "pt": "revisar; revisão"},
+    {"word": "invoice", "pt": "fatura; nota fiscal"},
+    {"word": "recover", "pt": "recuperar"}
+  ]
+}

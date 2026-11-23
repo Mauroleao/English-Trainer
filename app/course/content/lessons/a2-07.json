@@ -1,0 +1,193 @@
+{
+  "id": "a2-07",
+  "level": "A2",
+  "unit": "Quantidades e comparações",
+  "title": "Comparativos e superlativos",
+  "goal": "Comparar pessoas, ferramentas e soluções e dizer qual é a melhor, a mais rápida ou a mais barata.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "Comparar duas coisas, escolher a melhor",
+      "text": "No trabalho, comparamos o tempo todo: qual servidor é **mais rápido**, qual plano é **mais barato**, qual solução é **a melhor**. Em português usamos “mais… (do) que” para comparar duas coisas e “o mais…” para destacar uma entre várias.\n\nEm inglês, cada ideia tem uma forma. O **comparativo** compara duas coisas (*faster than*). O **superlativo** destaca uma entre três ou mais (*the fastest*). Os dois se formam de jeitos diferentes, conforme o tamanho do adjetivo.",
+      "examples": [
+        {"en": "This laptop is cheaper than that laptop.", "pt": "Este laptop é mais barato que aquele laptop."},
+        {"en": "This laptop is the cheapest in the shop.", "pt": "Este laptop é o mais barato da loja."},
+        {"en": "My new phone is faster than my old phone.", "pt": "Meu celular novo é mais rápido que meu celular velho."}
+      ],
+      "tip": "Comparativo = duas coisas, com than. Superlativo = o destaque do grupo, com the."
+    },
+    {
+      "title": "Adjetivos curtos: -er e the -est",
+      "text": "Com adjetivos **curtos** (de uma sílaba, como *fast*, *old*, *cheap*), acrescentamos **-er** para o comparativo e **-est** para o superlativo. O superlativo leva **the** na frente.\n\nHá pequenas mudanças de grafia: se o adjetivo já termina em **-e**, só acrescentamos **-r / -st** (*large → larger → the largest*). Se termina em consoante + vogal + consoante, dobramos a última letra (*big → bigger → the biggest*). Se termina em consoante + **-y**, o **y** vira **i** (*easy → easier → the easiest*).",
+      "table": {
+        "headers": ["Regra", "Adjetivo", "Comparativo", "Superlativo"],
+        "rows": [
+          ["+ er / + est", "fast", "faster", "the fastest"],
+          ["termina em -e: + r / + st", "large", "larger", "the largest"],
+          ["dobra a consoante", "big", "bigger", "the biggest"],
+          ["consoante + y: y vira i", "easy", "easier", "the easiest"],
+          ["consoante + y: y vira i", "busy", "busier", "the busiest"]
+        ]
+      },
+      "examples": [
+        {"en": "Fixing this bug is easier than writing a feature.", "pt": "Corrigir este bug é mais fácil do que escrever uma funcionalidade."},
+        {"en": "Monday is the busiest day for the support team.", "pt": "A segunda-feira é o dia mais movimentado para o time de suporte."},
+        {"en": "Our old server is slower than the new one.", "pt": "Nosso servidor antigo é mais lento que o novo."}
+      ],
+      "trap": "Em inglês não se usa more com adjetivo curto. Diga *faster*, e não *more fast*. E nunca junte as duas formas: *the most fastest* e *more faster* estão errados."
+    },
+    {
+      "title": "Adjetivos longos: more e the most",
+      "text": "Com adjetivos **longos** (duas ou mais sílabas, como *expensive*, *reliable*, *difficult*), não mudamos o adjetivo. Colocamos **more** antes dele no comparativo e **the most** no superlativo.\n\nA exceção mais comum são os adjetivos de duas sílabas terminados em **-y**, que se comportam como os curtos (*busy → busier*, *easy → easier*). Para não errar, memorize os adjetivos longos mais usados: *expensive, reliable, useful, difficult, important, secure*.",
+      "table": {
+        "headers": ["Adjetivo", "Comparativo", "Superlativo"],
+        "rows": [
+          ["expensive", "more expensive", "the most expensive"],
+          ["reliable", "more reliable", "the most reliable"],
+          ["useful", "more useful", "the most useful"],
+          ["difficult", "more difficult", "the most difficult"]
+        ]
+      },
+      "examples": [
+        {"en": "This tool is more useful than the old one.", "pt": "Esta ferramenta é mais útil que a antiga."},
+        {"en": "Cloud storage is more secure than a USB drive.", "pt": "O armazenamento em nuvem é mais seguro que um pen drive."},
+        {"en": "This is the most difficult task of the project.", "pt": "Esta é a tarefa mais difícil do projeto."}
+      ],
+      "trap": "Em português dizemos “mais bom” só de brincadeira, mas em inglês o erro *more good* aparece muito. Para good e bad existem formas especiais, que você vê na próxima etapa."
+    },
+    {
+      "title": "Formas irregulares: good e bad",
+      "text": "Dois adjetivos muito comuns têm formas **irregulares**, que você precisa decorar: **good** (bom) vira **better** e **the best**; **bad** (ruim) vira **worse** e **the worst**.\n\nElas valem para tudo: pessoas, ferramentas, resultados. Não acrescente *more* nem *-er* a elas: *better* já é o comparativo completo.",
+      "table": {
+        "headers": ["Adjetivo", "Comparativo", "Superlativo"],
+        "rows": [
+          ["good", "better", "the best"],
+          ["bad", "worse", "the worst"]
+        ]
+      },
+      "examples": [
+        {"en": "Her code is better than my code.", "pt": "O código dela é melhor que o meu."},
+        {"en": "Mia writes the best documentation in our team.", "pt": "A Mia escreve a melhor documentação da nossa equipe."},
+        {"en": "Yesterday's test results were worse than today's.", "pt": "Os resultados dos testes de ontem foram piores que os de hoje."},
+        {"en": "This is the worst idea we have heard.", "pt": "Esta é a pior ideia que já ouvimos."}
+      ],
+      "trap": "Não existe *more better* nem *more worse*. Diga apenas *better* e *worse*."
+    },
+    {
+      "title": "Than e the…in: as palavras de ligação",
+      "text": "No comparativo, a palavra que liga as duas coisas é **than** (que, do que). Cuidado com a grafia: **than** é comparação; **then** é “depois, então”.\n\nNo superlativo, usamos **the** + superlativo e depois **in** + um grupo ou lugar (*in the team, in the company, in the world*). Para falar de “todos”, usamos **of** (*of all*). Em português dizemos “o mais rápido da equipe”, mas em inglês é *the fastest in the team*.",
+      "examples": [
+        {"en": "Sam is taller than Ana.", "pt": "O Sam é mais alto que a Ana."},
+        {"en": "She is the fastest developer in the team.", "pt": "Ela é a desenvolvedora mais rápida da equipe."},
+        {"en": "This is the best tool of all.", "pt": "Esta é a melhor ferramenta de todas."},
+        {"en": "The office is bigger than I expected.", "pt": "O escritório é maior do que eu esperava."}
+      ],
+      "trap": "Escreva *than* e não *that* nem *then*: *He is taller than me*. E use **in the team**, e não *of the team*, depois de um superlativo com grupo ou lugar."
+    },
+    {
+      "title": "As…as: igual e não tão…quanto",
+      "text": "Para dizer que duas coisas são **iguais**, usamos **as + adjetivo + as**: *This laptop is as fast as that one*. Aqui o adjetivo **não muda**: não existe *as faster as*.\n\nPara dizer que uma coisa **não chega ao nível** da outra, usamos **not as + adjetivo + as**: *My laptop is not as fast as yours*. Isso quer dizer que o seu laptop é mais rápido.",
+      "table": {
+        "headers": ["Estrutura", "Exemplo", "Ideia"],
+        "rows": [
+          ["as + adj + as", "The new tool is as reliable as the old one.", "igual"],
+          ["not as + adj + as", "The new tool is not as expensive as the old one.", "menos do que"]
+        ]
+      },
+      "examples": [
+        {"en": "The test is as important as the build.", "pt": "O teste é tão importante quanto o build."},
+        {"en": "This phone is not as heavy as my old phone.", "pt": "Este celular não é tão pesado quanto meu celular antigo."},
+        {"en": "Working from home is as easy as working in the office.", "pt": "Trabalhar de casa é tão fácil quanto trabalhar no escritório."}
+      ],
+      "tip": "No as…as, o adjetivo fica na forma básica: as fast as, as cheap as."
+    },
+    {
+      "title": "Dar mais força: much, a lot, a bit",
+      "text": "Para dizer **quanto** uma coisa é mais rápida ou mais barata, colocamos uma palavra antes do comparativo: **much** ou **a lot** (bem mais) e **a bit** ou **a little** (um pouco mais).\n\nNão use **very** com comparativo. Em vez de *very faster*, diga *much faster*. Essa ideia é muito útil em relatórios e em code reviews, quando você quer mostrar o tamanho da diferença.",
+      "examples": [
+        {"en": "The new server is much faster than the old one.", "pt": "O servidor novo é bem mais rápido que o antigo."},
+        {"en": "This plan is a lot more expensive than that one.", "pt": "Este plano é muito mais caro que aquele."},
+        {"en": "Today is a bit busier than yesterday.", "pt": "Hoje está um pouco mais movimentado que ontem."}
+      ],
+      "trap": "Em português dizemos “muito mais rápido”. Em inglês, não use *very* antes do comparativo: *very faster* está errado; use *much faster*."
+    },
+    {
+      "title": "Tudo junto: escolhendo uma ferramenta",
+      "text": "Imagine que você e sua equipe escolhem uma ferramenta de monitoramento. A opção A é **cheaper** que a B, mas a B é **more reliable**. A opção C é **the most expensive**, mas também **the best** de todas.\n\nPerceba como as formas aparecem juntas: **-er / more** para duas opções, **the -est / the most** para escolher entre três, e **as…as** para dizer que duas coisas se parecem.",
+      "examples": [
+        {"en": "Option A is cheaper than option B.", "pt": "A opção A é mais barata que a opção B."},
+        {"en": "Option B is more reliable than option A.", "pt": "A opção B é mais confiável que a opção A."},
+        {"en": "Option C is the most expensive, but it is the best.", "pt": "A opção C é a mais cara, mas é a melhor."},
+        {"en": "Option A is not as secure as option C.", "pt": "A opção A não é tão segura quanto a opção C."}
+      ],
+      "trap": "Ao traduzir “a opção mais cara”, lembre-se do the: *the most expensive option*. Sem o the, o superlativo fica incompleto."
+    }
+  ],
+  "summary": [
+    "Adjetivos curtos formam o comparativo com -er e o superlativo com the -est (fast, faster, the fastest); com final -e só entra -r / -st, e com -y o y vira i.",
+    "Adjetivos longos usam more e the most (more reliable, the most useful); nunca junte more com -er.",
+    "As formas irregulares são good, better, the best e bad, worse, the worst.",
+    "No comparativo usamos than; no superlativo usamos the e in the team ou of all.",
+    "As + adjetivo + as mostra igualdade e not as + adjetivo + as mostra que algo é menos; para reforçar, use much, a lot ou a bit antes do comparativo."
+  ],
+  "practice": [
+    {"id": "a2-07-p1", "type": "choice", "prompt": "This laptop is ___ than my old laptop.", "options": ["faster", "more fast", "fastest"], "answer": 0,
+     "explain": "Fast é um adjetivo curto, e o comparativo se forma com -er: faster. Como há duas coisas e a palavra than, usamos o comparativo.",
+     "why_not": {"1": "Adjetivo curto não usa more: o certo é faster.", "2": "Fastest é superlativo e exige the, sem than."}},
+    {"id": "a2-07-p2", "type": "choice", "prompt": "This is the ___ office in the building.", "options": ["bigger", "biggest", "most big"], "answer": 1,
+     "explain": "Com the + grupo (in the building) usamos o superlativo. Big dobra o g: the biggest.",
+     "why_not": {"0": "Bigger é comparativo e pede than, e não o the + in the building.", "2": "Big é curto, então não usa most: the biggest."}},
+    {"id": "a2-07-p3", "type": "choice", "prompt": "Our new tool is ___ than the old one.", "options": ["more useful", "usefuler", "most useful"], "answer": 0,
+     "explain": "Useful é um adjetivo longo (duas sílabas e não termina em -y), então usamos more useful.",
+     "why_not": {"1": "Não se acrescenta -er a adjetivos longos.", "2": "Most useful é superlativo e pediria the."}},
+    {"id": "a2-07-p4", "type": "fill", "prompt": "The new server is ___ than the old one. (fast)", "answers": ["faster"],
+     "explain": "Fast é curto, e o comparativo é faster. A palavra than mostra que é uma comparação entre duas coisas."},
+    {"id": "a2-07-p5", "type": "fill", "prompt": "Monday is the ___ day of the week for me. (busy)", "answers": ["busiest"],
+     "explain": "Com consoante + y, o y vira i: busy, busier, the busiest. O the antes do espaço mostra que é um superlativo."},
+    {"id": "a2-07-p6", "type": "fill", "prompt": "Mia writes the ___ code in our team. (good)", "answers": ["best"],
+     "explain": "O superlativo irregular de good é the best. Depois dele, in our team indica o grupo."},
+    {"id": "a2-07-p7", "type": "translate", "prompt": "Este laptop é mais barato que aquele laptop.", "answers": ["This laptop is cheaper than that laptop.", "This laptop is cheaper than that one."],
+     "explain": "Cheap é curto: cheaper. A comparação usa than: cheaper than that laptop. Também vale that one."},
+    {"id": "a2-07-p8", "type": "order", "words": ["She", "is", "the", "best", "developer", "in", "our", "team"], "prompt": "Ela é a melhor desenvolvedora da nossa equipe.",
+     "explain": "A estrutura é sujeito + is + the + superlativo + substantivo + in + grupo. Em inglês, usamos in our team, e não of our team."},
+    {"id": "a2-07-p9", "type": "fix", "prompt": "This tool is more fast than the old one.", "answers": ["This tool is faster than the old one."],
+     "explain": "Fast é adjetivo curto e forma o comparativo com -er: faster. Não se usa more com adjetivos curtos."},
+    {"id": "a2-07-p10", "type": "fix", "prompt": "The meeting today was more better than the meeting yesterday.", "answers": ["The meeting today was better than the meeting yesterday."],
+     "explain": "Better já é o comparativo de good. Não se acrescenta more: o certo é better than."},
+    {"id": "a2-07-p11", "type": "choice", "prompt": "Qual frase está correta?", "options": ["He is taller that me.", "He is taller than me.", "He is more tall than me."], "answer": 1,
+     "explain": "Tall é curto, então o comparativo é taller, e a palavra de ligação da comparação é than.",
+     "why_not": {"0": "A palavra certa é than, e não that.", "2": "Tall é um adjetivo curto e não usa more."}},
+    {"id": "a2-07-p12", "type": "listen", "en": "This laptop is not as fast as my old one.",
+     "explain": "A estrutura not as fast as quer dizer que este laptop é menos rápido que o antigo. O adjetivo fast fica na forma básica."}
+  ],
+  "quiz": [
+    {"id": "a2-07-q1", "type": "choice", "prompt": "Of all the servers, this one is the ___.", "options": ["most reliable", "more reliable", "reliablest"], "answer": 0,
+     "explain": "Reliable é longo, e o superlativo é the most reliable. A expressão Of all indica uma escolha entre vários.",
+     "why_not": {"1": "More reliable é comparativo e serve para comparar só duas coisas, com than.", "2": "Adjetivos longos não aceitam -est."}},
+    {"id": "a2-07-q2", "type": "fill", "prompt": "My new phone is ___ than my old phone. (small)", "answers": ["smaller"],
+     "explain": "Small é um adjetivo curto, então forma o comparativo com -er: smaller."},
+    {"id": "a2-07-q3", "type": "translate", "prompt": "Esta é a pior ideia.", "answers": ["This is the worst idea."],
+     "explain": "O superlativo irregular de bad é the worst: this is the worst idea."},
+    {"id": "a2-07-q4", "type": "order", "words": ["My", "laptop", "is", "not", "as", "fast", "as", "yours"], "prompt": "Meu laptop não é tão rápido quanto o seu.",
+     "explain": "A estrutura é not as + adjetivo + as. O adjetivo fast fica na forma básica."},
+    {"id": "a2-07-q5", "type": "fix", "prompt": "Ana is the most fastest developer in the team.", "answers": ["Ana is the fastest developer in the team."],
+     "explain": "Fast é curto, e o superlativo é the fastest. Não se junta most com -est."},
+    {"id": "a2-07-q6", "type": "choice", "prompt": "Remote work is ___ than work in the office for some people.", "options": ["more comfortable", "most comfortable", "comfortabler"], "answer": 0,
+     "explain": "Comfortable é longo, e a palavra than indica um comparativo entre duas coisas: more comfortable.",
+     "why_not": {"1": "Most comfortable é superlativo e pede the.", "2": "Adjetivos longos não aceitam -er."}},
+    {"id": "a2-07-q7", "type": "listen", "en": "Fixing this bug is easier than writing a new feature.",
+     "explain": "Easy termina em consoante + y, então vira easier. Ouça o than, que liga as duas partes da comparação."}
+  ],
+  "words": [
+    {"word": "cheap", "pt": "barato"},
+    {"word": "expensive", "pt": "caro"},
+    {"word": "reliable", "pt": "confiável"},
+    {"word": "useful", "pt": "útil"},
+    {"word": "busy", "pt": "ocupado; movimentado"},
+    {"word": "easy", "pt": "fácil"},
+    {"word": "difficult", "pt": "difícil"},
+    {"word": "secure", "pt": "seguro (protegido)"},
+    {"word": "better", "pt": "melhor (comparativo de good)"},
+    {"word": "worse", "pt": "pior (comparativo de bad)"}
+  ]
+}

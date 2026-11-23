@@ -1,0 +1,183 @@
+{
+  "id": "b2-03",
+  "level": "B2",
+  "unit": "Hipóteses e arrependimentos",
+  "title": "Third conditional e condicionais mistas",
+  "goal": "Imaginar como o passado poderia ter sido diferente e relacionar essa hipótese ao resultado no passado ou no presente.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "Para que serve o third conditional",
+      "text": "Muitas vezes olhamos para o passado e imaginamos como as coisas teriam sido se algo tivesse acontecido de outro jeito. Essa é a função do **third conditional** (terceira condicional): falar de situações **irreais no passado**, que já não podem mudar. Ele serve para explicar causas, lamentar um erro ou reconhecer um mérito.\n\nEm português usamos o mais-que-perfeito do subjuntivo e o futuro do pretérito composto: “**Se eu tivesse testado**, **teria percebido** o erro”. Em inglês a estrutura é parecida: *If I had tested it, I would have noticed the error.*",
+      "examples": [
+        {"en": "If I had tested the patch, I would have noticed the error.", "pt": "Se eu tivesse testado o patch, teria percebido o erro."},
+        {"en": "If the client had approved the budget, we would have hired two more developers.", "pt": "Se o cliente tivesse aprovado o orçamento, teríamos contratado mais dois desenvolvedores."},
+        {"en": "We would have missed the deadline if Priya hadn't worked all weekend.", "pt": "Teríamos perdido o prazo se a Priya não tivesse trabalhado o fim de semana inteiro."}
+      ],
+      "tip": "O que você descreve aqui é falso: na realidade você não testou, o cliente não aprovou. Por isso o verbo \"recua\" um passo no tempo, até o past perfect."
+    },
+    {
+      "title": "A forma: if + had + particípio, would have + particípio",
+      "text": "A estrutura tem duas partes. Na **oração com if** (a condição irreal) usamos o **past perfect**: *had + particípio*. Na **oração principal** (o resultado imaginado) usamos **would have + particípio**.\n\nNa negativa, a negação pode ficar em qualquer uma das partes, ou nas duas: *hadn't + particípio* e *wouldn't have + particípio*. O **had** e o **would** não mudam com o pronome.",
+      "table": {
+        "headers": ["Parte", "Estrutura", "Exemplo"],
+        "rows": [
+          ["Condição (if)", "had + particípio", "If we had backed up the files,"],
+          ["Resultado", "would have + particípio", "we would have recovered the data."],
+          ["Condição negativa", "hadn't + particípio", "If she hadn't ignored the alert,"],
+          ["Resultado negativo", "wouldn't have + particípio", "the server wouldn't have crashed."]
+        ]
+      },
+      "examples": [
+        {"en": "If we had backed up the files, we would have recovered the data.", "pt": "Se tivéssemos feito backup dos arquivos, teríamos recuperado os dados."},
+        {"en": "If she hadn't ignored the alert, the server wouldn't have crashed.", "pt": "Se ela não tivesse ignorado o alerta, o servidor não teria caído."}
+      ],
+      "trap": "Não coloque would na oração com if. A forma *If I would have known* é muito comum na fala informal, mas é considerada errada na escrita e nos exames. Use *If I had known*."
+    },
+    {
+      "title": "Ordem das orações e pontuação",
+      "text": "As duas partes podem trocar de lugar sem mudar o sentido. Quando a oração com **if** vem **primeiro**, separe-a com **vírgula**. Quando vem **depois**, normalmente não se usa vírgula.\n\nNão confunda com o **second conditional** (*If I had more time, I would finish it*), que imagina uma situação **presente ou futura**. O third conditional fala do **passado**: *If I had had more time, I would have finished it.* Repare em **had had**: o primeiro *had* é o auxiliar e o segundo é o particípio de *have*.",
+      "examples": [
+        {"en": "If I had had more time, I would have finished the tests.", "pt": "Se eu tivesse tido mais tempo, teria terminado os testes."},
+        {"en": "I would have finished the tests if I had had more time.", "pt": "Eu teria terminado os testes se tivesse tido mais tempo."},
+        {"en": "The release wouldn't have failed if we had read the logs.", "pt": "A release não teria falhado se tivéssemos lido os logs."}
+      ],
+      "tip": "Se você tem dúvida entre second e third, pergunte: o assunto já aconteceu (third) ou ainda pode acontecer ou ser imaginado agora (second)?"
+    },
+    {
+      "title": "Could have e might have no resultado",
+      "text": "No lugar de **would have**, o resultado pode usar **could have** ou **might have**. Cada um muda um pouco a ideia.\n\n**Would have** mostra o resultado como certo ou muito provável. **Could have** mostra que algo era **possível** ou que a pessoa tinha capacidade ou chance de fazer. **Might have** é mais fraco: talvez tivesse acontecido, mas não temos certeza.",
+      "table": {
+        "headers": ["Modal", "Ideia", "Exemplo"],
+        "rows": [
+          ["would have", "resultado certo", "We would have won the contract."],
+          ["could have", "era possível", "We could have won the contract."],
+          ["might have", "talvez", "We might have won the contract."]
+        ]
+      },
+      "examples": [
+        {"en": "If we had started earlier, we could have finished before the holiday.", "pt": "Se tivéssemos começado mais cedo, poderíamos ter terminado antes do feriado."},
+        {"en": "If he had asked for help, someone might have found the bug sooner.", "pt": "Se ele tivesse pedido ajuda, talvez alguém tivesse encontrado o bug mais cedo."},
+        {"en": "If you had called me, I would have joined the meeting.", "pt": "Se você tivesse me ligado, eu teria entrado na reunião."}
+      ]
+    },
+    {
+      "title": "Condicional mista 1: passado que afeta o presente",
+      "text": "Às vezes a causa está no passado, mas o resultado se vê **agora**. Nesse caso misturamos as duas estruturas: **if + past perfect** (causa no passado) e **would + verbo base** (resultado no presente).\n\nA ideia é: *se algo tivesse sido diferente antes, a situação atual seria outra.* Palavras como **now**, **today** e **at the moment** costumam aparecer no resultado.",
+      "table": {
+        "headers": ["Causa (passado)", "Resultado (presente)"],
+        "rows": [
+          ["If I had learned SQL at university,", "I would be a data engineer now."],
+          ["If we had chosen a better framework,", "the app wouldn't be so slow today."]
+        ]
+      },
+      "examples": [
+        {"en": "If I had accepted that offer, I would be living in Berlin now.", "pt": "Se eu tivesse aceitado aquela oferta, estaria morando em Berlim agora."},
+        {"en": "If the team had documented the code, we wouldn't be struggling today.", "pt": "Se a equipe tivesse documentado o código, não estaríamos com dificuldade hoje."}
+      ],
+      "trap": "Em português usamos o mesmo tempo (“estaria”) para presente e futuro do pretérito, então é fácil escrever *would have been* também no resultado. Se o resultado é de **agora**, use *would be* ou *would + verbo base*."
+    },
+    {
+      "title": "Condicional mista 2: situação presente que muda o passado",
+      "text": "O caminho inverso também existe. Uma **característica ou situação do presente** (ou permanente) explica um fato do passado. Aqui usamos **if + past simple** (estado atual) e **would have + particípio** (resultado no passado).\n\nA ideia é: *se ele fosse assim (em geral), teria feito isso naquela vez.* Com o verbo *be*, o formal é **were** para todas as pessoas: *If I were more careful, I wouldn't have deleted the file.*",
+      "table": {
+        "headers": ["Situação presente (if)", "Resultado no passado"],
+        "rows": [
+          ["If she were more experienced,", "she would have noticed the bug."],
+          ["If I weren't so shy,", "I would have asked a question in the meeting."]
+        ]
+      },
+      "examples": [
+        {"en": "If he were a better tester, he would have caught that bug last week.", "pt": "Se ele fosse um testador melhor, teria pego aquele bug na semana passada."},
+        {"en": "If I didn't trust Mia, I wouldn't have given her the password.", "pt": "Se eu não confiasse na Mia, não teria dado a senha a ela."}
+      ],
+      "tip": "Em ambas as mistas, olhe a **marca de tempo** de cada parte: *yesterday* e *last week* pedem *have + particípio*; *now* e *today* pedem *be* ou verbo base."
+    },
+    {
+      "title": "Português × inglês e erros comuns",
+      "text": "A semelhança com o português ajuda, mas gera três erros frequentes. O primeiro é **would na oração if** (*If I would have known*). O segundo é esquecer o **have** depois de would (*I would done*). O terceiro é trocar o particípio, como em *If I had went*, em vez de *had gone*.\n\nNa fala, **had** e **would** viram **'d**: *If I'd known, I'd have called.* O primeiro *'d* é **had** (vem antes do particípio) e o segundo é **would** (vem antes de *have*). Em *would have* a pronúncia é **would've** (/ˈwʊdəv/), e por isso muita gente escreve *would of*, o que é errado.",
+      "examples": [
+        {"en": "If I'd known about the outage, I'd have warned the client.", "pt": "Se eu soubesse da queda, teria avisado o cliente."},
+        {"en": "She wouldn't have made that mistake if she had read the guide.", "pt": "Ela não teria cometido esse erro se tivesse lido o guia."}
+      ],
+      "trap": "Escreva *would have*, *could have*, *should have*, nunca *would of*. O som de *'ve* é igual ao de *of*, mas a gramática é *have*."
+    },
+    {
+      "title": "A regra em contexto: post-mortem de um incidente",
+      "text": "O third conditional aparece muito em **post-mortems**, reuniões depois de um incidente em que a equipe analisa o que deu errado e o que evitaria o problema. O tom é de aprendizado, e não de acusação: usamos *if we had...* (nós) mais do que *if you had...*.\n\nExemplo de relato: *The site went down for two hours. If we had set up an alert, we would have seen the problem immediately. If the database were not so old, the migration might have gone smoothly.* Na primeira frase temos o third conditional puro e na segunda, uma condicional mista.",
+      "examples": [
+        {"en": "If we had set up an alert, we would have seen the problem immediately.", "pt": "Se tivéssemos configurado um alerta, teríamos visto o problema imediatamente."},
+        {"en": "If the database were newer, the migration might have gone smoothly.", "pt": "Se o banco de dados fosse mais novo, a migração talvez tivesse corrido bem."},
+        {"en": "What would you have done if the backup had failed too?", "pt": "O que você teria feito se o backup também tivesse falhado?"}
+      ]
+    }
+  ],
+  "summary": [
+    "O third conditional imagina o passado diferente: if + had + particípio, would have + particípio.",
+    "Nunca use would na oração com if: diga If I had known, e não If I would have known.",
+    "Could have e might have no resultado indicam possibilidade ou incerteza; would have indica resultado certo.",
+    "Condicional mista 1: if + past perfect, would + verbo base (causa no passado, resultado agora).",
+    "Condicional mista 2: if + past simple (ou were), would have + particípio (situação atual que explica o passado).",
+    "Na fala, 'd pode ser had ou would; escreva sempre would have, nunca would of."
+  ],
+  "practice": [
+    {"id": "b2-03-p1", "type": "choice", "prompt": "If we ___ the backup, we would have recovered the data.", "options": ["had tested", "tested", "would have tested"], "answer": 0,
+     "explain": "A condição é irreal e está no passado, então a oração com if usa o past perfect: had tested.",
+     "why_not": {"1": "O past simple pertence ao second conditional, que fala de presente ou futuro imaginário.", "2": "Would não entra na oração com if no inglês padrão."}},
+    {"id": "b2-03-p2", "type": "choice", "prompt": "If she hadn't ignored the warning, the server ___ down yesterday.", "options": ["wouldn't have gone", "wouldn't go", "hadn't gone"], "answer": 0,
+     "explain": "O resultado imaginado também é do passado (yesterday), então usamos would not have + particípio: wouldn't have gone.",
+     "why_not": {"1": "Wouldn't go se refere ao presente ou futuro, mas a frase fala de ontem.", "2": "Hadn't gone é past perfect e não pode ser o resultado de uma condição."}},
+    {"id": "b2-03-p3", "type": "choice", "prompt": "If I had studied computer science, I ___ a better job now.", "options": ["would have", "would have had", "had"], "answer": 0,
+     "explain": "Esta é uma condicional mista: a causa está no passado, mas o resultado é de agora (now). Por isso o resultado usa would + verbo base: would have (um emprego melhor).",
+     "why_not": {"1": "Would have had colocaria o resultado no passado, mas now indica o presente.", "2": "Had sozinho não expressa o resultado hipotético; falta would."}},
+    {"id": "b2-03-p4", "type": "fill", "prompt": "If they ___ listened to the client, they would have built the right feature.", "answers": ["had"],
+     "explain": "A condição no passado irreal pede o past perfect: had listened."},
+    {"id": "b2-03-p5", "type": "fill", "prompt": "If we had left earlier, we would not ___ missed the meeting.", "answers": ["have"],
+     "explain": "O resultado do third conditional é would (not) have + particípio: would not have missed."},
+    {"id": "b2-03-p6", "type": "fill", "prompt": "She would not have made that mistake if she ___ read the instructions.", "answers": ["had"],
+     "explain": "A oração com if continua exigindo had + particípio, mesmo quando vem depois da oração principal: if she had read."},
+    {"id": "b2-03-p7", "type": "translate", "prompt": "Se eu tivesse lido a mensagem, teria respondido.", "answers": ["If I had read the message, I would have replied.", "If I had read the message, I would have answered.", "If I had read the message, I would have responded.", "If I had read the message, I would have replied to it.", "If I had read the message, I would have answered it.", "If I had read the message, I would have responded to it."],
+     "explain": "Se eu tivesse lido = if I had read (past perfect); teria respondido = I would have replied (would have + particípio)."},
+    {"id": "b2-03-p8", "type": "order", "words": ["If", "we", "had", "used", "a", "staging", "server", "we", "would", "have", "found", "the", "bug"], "prompt": "Se tivéssemos usado um servidor de homologação, teríamos encontrado o bug.", "answers": ["We would have found the bug if we had used a staging server."],
+     "explain": "A oração com if (had used) vem primeiro e a principal (would have found) depois. A ordem inversa também é correta, sem vírgula."},
+    {"id": "b2-03-p9", "type": "fix", "prompt": "If I would have known about the deadline, I would have started earlier.", "answers": ["If I had known about the deadline, I would have started earlier."],
+     "explain": "Would não entra na oração com if. A forma correta é had known, no past perfect."},
+    {"id": "b2-03-p10", "type": "fix", "prompt": "If she had been more careful, she wouldn't had deleted the database.", "answers": ["If she had been more careful, she wouldn't have deleted the database."],
+     "explain": "O resultado do third conditional é would not have + particípio. Depois de would vem have, e não had."},
+    {"id": "b2-03-p11", "type": "choice", "prompt": "If he were more experienced, he ___ the problem last week.", "options": ["would have noticed", "would notice", "had noticed"], "answer": 0,
+     "explain": "A condição descreve como ele é em geral (were, presente), e o resultado aconteceu no passado (last week): would have noticed.",
+     "why_not": {"1": "Would notice fala do presente ou futuro, mas last week é passado.", "2": "Had noticed é past perfect e não expressa um resultado hipotético."}},
+    {"id": "b2-03-p12", "type": "listen", "en": "If we had backed up the files, we wouldn't have lost everything.",
+     "explain": "Condicional do passado: had backed up na oração com if e wouldn't have lost no resultado."}
+  ],
+  "quiz": [
+    {"id": "b2-03-q1", "type": "choice", "prompt": "If the tests ___ passed, we would have deployed on Friday.", "options": ["had", "have", "would have"], "answer": 0,
+     "explain": "Na oração com if do third conditional usamos had + particípio: if the tests had passed.",
+     "why_not": {"1": "Have passed é present perfect e não cria uma hipótese sobre o passado.", "2": "Would have não entra na oração com if."}},
+    {"id": "b2-03-q2", "type": "fill", "prompt": "She might ___ solved it if she had asked Tom.", "answers": ["have"],
+     "explain": "No resultado, might também é seguido de have + particípio: might have solved."},
+    {"id": "b2-03-q3", "type": "translate", "prompt": "Se ele tivesse perguntado, nós teríamos ajudado.", "answers": ["If he had asked, we would have helped.", "If he had asked, we would have helped him."],
+     "explain": "Se ele tivesse perguntado = if he had asked; teríamos ajudado = we would have helped."},
+    {"id": "b2-03-q4", "type": "order", "words": ["If", "I", "had", "known", "about", "the", "bug", "I", "would", "have", "warned", "you"], "prompt": "Se eu soubesse do bug, teria avisado você.", "answers": ["I would have warned you if I had known about the bug."],
+     "explain": "If I had known (condição) + I would have warned you (resultado). A ordem das orações pode ser invertida."},
+    {"id": "b2-03-q5", "type": "fix", "prompt": "If we had more time yesterday, we would have finished the tests.", "answers": ["If we had had more time yesterday, we would have finished the tests."],
+     "explain": "Yesterday pede o past perfect na oração com if. Com o verbo have, isso resulta em had had: o primeiro é o auxiliar e o segundo é o particípio."},
+    {"id": "b2-03-q6", "type": "choice", "prompt": "If I hadn't joined this company, I ___ here today.", "options": ["wouldn't be", "wouldn't have been", "hadn't been"], "answer": 0,
+     "explain": "A causa está no passado (hadn't joined), mas o resultado é de hoje (today): would not be.",
+     "why_not": {"1": "Wouldn't have been coloca o resultado no passado, mas today fala do presente.", "2": "Hadn't been é past perfect e não é uma forma de resultado."}},
+    {"id": "b2-03-q7", "type": "listen", "en": "If he had read the logs, he might have found the cause.",
+     "explain": "Third conditional com might have found no resultado: a possibilidade era incerta."}
+  ],
+  "words": [
+    {"word": "regret", "pt": "arrepender-se de; arrependimento"},
+    {"word": "deadline", "pt": "prazo"},
+    {"word": "backup", "pt": "cópia de segurança"},
+    {"word": "warning", "pt": "aviso; alerta"},
+    {"word": "notice", "pt": "perceber; notar"},
+    {"word": "ignore", "pt": "ignorar"},
+    {"word": "hire", "pt": "contratar"},
+    {"word": "experienced", "pt": "experiente"},
+    {"word": "struggle", "pt": "ter dificuldade; lutar"},
+    {"word": "smoothly", "pt": "sem problemas; de forma tranquila"}
+  ]
+}

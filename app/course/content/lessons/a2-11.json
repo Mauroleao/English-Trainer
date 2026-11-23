@@ -1,0 +1,182 @@
+{
+  "id": "a2-11",
+  "level": "A2",
+  "unit": "Ligar ideias e preparar o B1",
+  "title": "Advérbios de modo, too, enough e very",
+  "goal": "Dizer COMO algo é feito e se algo é demais, suficiente ou muito bom, com adjetivos e advérbios corretos.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "Adjetivo descreve coisa, advérbio descreve ação",
+      "text": "Um **adjetivo** descreve um substantivo: *a quick fix* (uma correção rápida). Um **advérbio de modo** descreve **como** uma ação é feita: *She fixed it quickly* (Ela corrigiu isso rapidamente). Ele acompanha um verbo e responde à pergunta “como?”.\n\nEm português, o advérbio costuma terminar em **-mente** (rapidamente, claramente). Em inglês, a terminação mais comum é **-ly**.",
+      "examples": [
+        {"en": "He is a careful developer.", "pt": "Ele é um desenvolvedor cuidadoso."},
+        {"en": "He works carefully.", "pt": "Ele trabalha com cuidado."},
+        {"en": "We need a quick solution.", "pt": "Precisamos de uma solução rápida."},
+        {"en": "The page loads quickly.", "pt": "A página carrega rapidamente."}
+      ],
+      "tip": "Pergunte: a palavra descreve uma coisa ou uma ação? Coisa pede adjetivo; ação pede advérbio."
+    },
+    {
+      "title": "Formando o advérbio: adjetivo + -ly",
+      "text": "Na maioria das vezes, basta acrescentar **-ly** ao adjetivo: *quick → quickly*, *slow → slowly*, *clear → clearly*, *careful → carefully*. Se o adjetivo termina em consoante + **y**, o **y** vira **i**: *easy → easily*.\n\nEssa regra funciona para a maior parte dos adjetivos que você usa no trabalho. Algumas palavras, porém, não seguem o padrão, e você as vê na próxima etapa.",
+      "table": {
+        "headers": ["Adjetivo", "Advérbio", "Exemplo"],
+        "rows": [
+          ["quick", "quickly", "The test runs quickly."],
+          ["slow", "slowly", "Please speak slowly."],
+          ["clear", "clearly", "She explains things clearly."],
+          ["careful", "carefully", "Read the message carefully."],
+          ["easy", "easily", "I found the bug easily."]
+        ]
+      },
+      "examples": [
+        {"en": "The team solved the problem easily.", "pt": "A equipe resolveu o problema com facilidade."},
+        {"en": "Please read the instructions carefully.", "pt": "Por favor, leia as instruções com atenção."},
+        {"en": "The server responds slowly.", "pt": "O servidor responde devagar."}
+      ],
+      "trap": "O adjetivo *friendly* termina em -ly, mas é adjetivo, e não advérbio: *a friendly team*. Também não existe *carefuly*: com careful, mantenha o l duplo (carefully)."
+    },
+    {
+      "title": "Irregulares: good → well, fast, hard, late",
+      "text": "O advérbio de **good** é **well**, e é uma forma totalmente diferente: *She writes good code* (código bom, **good** descreve o substantivo *code*), mas *She writes well* (ela escreve bem, **well** descreve o verbo).\n\nAlgumas palavras têm a **mesma forma** como adjetivo e advérbio: **fast** (rápido; rapidamente), **hard** (difícil; muito, com esforço), **late** (atrasado; tarde) e **early** (cedo). Cuidado: **hardly** significa “quase não”, e **lately** significa “ultimamente”.",
+      "table": {
+        "headers": ["Adjetivo", "Advérbio", "Exemplo"],
+        "rows": [
+          ["good", "well", "He speaks English well."],
+          ["fast", "fast", "The app runs fast."],
+          ["hard", "hard", "She works hard."],
+          ["late", "late", "We arrived late."]
+        ]
+      },
+      "examples": [
+        {"en": "Ben speaks English very well.", "pt": "O Ben fala inglês muito bem."},
+        {"en": "The new laptop runs fast.", "pt": "O laptop novo roda rápido."},
+        {"en": "They work hard before a release.", "pt": "Eles trabalham muito antes de um release."}
+      ],
+      "trap": "Não diga *She works good*. Para o verbo, use **well**: *She works well*. E *hardly* não é “duramente”: *I hardly know him* quer dizer “eu quase não o conheço”."
+    },
+    {
+      "title": "Depois de be, look, sound: adjetivo",
+      "text": "Depois de verbos que ligam o sujeito a uma qualidade, como **be**, **look** (parecer), **sound** (soar), **feel** (sentir-se) e **seem** (parecer), usamos **adjetivo**, e não advérbio. Aqui a palavra descreve o sujeito, e não a ação.\n\nCompare: *The solution sounds good* (a solução soa bem, descreve *solution*) e *She speaks well* (ela fala bem, descreve a ação de falar).",
+      "examples": [
+        {"en": "The new design looks good.", "pt": "O novo design parece bom."},
+        {"en": "Your idea sounds great.", "pt": "Sua ideia parece ótima."},
+        {"en": "The results seem clear.", "pt": "Os resultados parecem claros."},
+        {"en": "I feel tired today.", "pt": "Eu me sinto cansado hoje."}
+      ],
+      "trap": "Depois de look e sound, não use advérbio: diga *It looks good*, e não *It looks goodly*. E *looks well* quase sempre quer dizer “parece saudável”, outro sentido."
+    },
+    {
+      "title": "Onde colocar o advérbio",
+      "text": "O advérbio de modo normalmente vem **depois do verbo** ou **depois do objeto**: *She explains the idea clearly*. Não o coloque entre o verbo e o objeto: *I speak English well*, e não *I speak well English*.\n\nAdvérbios curtos como **well**, **fast** e **hard** ficam logo depois do verbo ou do objeto. Em frases longas, o advérbio também pode aparecer no início, para dar ênfase, mas essa é uma escolha de estilo.",
+      "examples": [
+        {"en": "She explains the idea clearly.", "pt": "Ela explica a ideia com clareza."},
+        {"en": "I speak English well.", "pt": "Eu falo inglês bem."},
+        {"en": "He types very fast.", "pt": "Ele digita muito rápido."},
+        {"en": "Please check the logs carefully.", "pt": "Por favor, verifique os logs com cuidado."}
+      ],
+      "trap": "Em português podemos dizer “Eu falo bem inglês”. Em inglês, o advérbio vai depois do objeto: *I speak English well*."
+    },
+    {
+      "title": "Too e enough: demais e suficiente",
+      "text": "**Too** significa “demais” e indica um **problema**: *The file is too big* (o arquivo é grande demais). Ele vem **antes** do adjetivo ou do advérbio. Podemos acrescentar **to + verbo** para dizer o que não é possível: *too big to send*.\n\n**Enough** significa “o bastante” e vem **depois** do adjetivo: *fast enough*. Antes de um substantivo, vem antes: *enough memory*. A negativa *not fast enough* quer dizer “não é rápido o bastante”.",
+      "table": {
+        "headers": ["Estrutura", "Exemplo"],
+        "rows": [
+          ["too + adjetivo (+ to + verbo)", "The file is too big to send by email."],
+          ["adjetivo + enough (+ to + verbo)", "She is experienced enough to lead the team."],
+          ["not + adjetivo + enough", "The laptop is not fast enough."],
+          ["enough + substantivo", "We have enough memory."]
+        ]
+      },
+      "examples": [
+        {"en": "The room is too small for ten people.", "pt": "A sala é pequena demais para dez pessoas."},
+        {"en": "The text is too small to read.", "pt": "O texto é pequeno demais para ler."},
+        {"en": "Is this laptop fast enough?", "pt": "Este laptop é rápido o bastante?"}
+      ],
+      "trap": "Enough vem depois do adjetivo: *fast enough*, e não *enough fast*. Em português dizemos “suficientemente rápido”, e a ordem é diferente."
+    },
+    {
+      "title": "Very, really e too: não é a mesma coisa",
+      "text": "**Very** e **really** reforçam o adjetivo ou o advérbio de forma **positiva ou neutra**: *very good*, *really fast*. **Too** reforça com a ideia de **excesso e problema**: *too fast* (rápido demais).\n\nEm português, “muito” serve para os dois. Em inglês, escolha com cuidado: *The training was very useful* é um elogio. *The training was too long* é uma queixa. No final da frase, **too** também pode significar “também”: *I like it too*.",
+      "examples": [
+        {"en": "The training was very useful.", "pt": "O treinamento foi muito útil."},
+        {"en": "The app is really fast.", "pt": "O aplicativo é muito rápido."},
+        {"en": "The meeting was too long.", "pt": "A reunião foi longa demais."},
+        {"en": "I like this editor, and Sam likes it too.", "pt": "Eu gosto deste editor, e o Sam também gosta."}
+      ],
+      "trap": "Para elogiar, não diga *too*: *The result is too good* soa estranho. Use **very** ou **really**: *The result is very good*."
+    }
+  ],
+  "summary": [
+    "Adjetivos descrevem substantivos (a quick fix); advérbios de modo descrevem como uma ação é feita (fix it quickly).",
+    "A maioria dos advérbios se forma com adjetivo + -ly; easy vira easily, e good vira well.",
+    "Fast, hard e late têm a mesma forma como adjetivo e advérbio; hardly e lately têm outro sentido.",
+    "Depois de be, look, sound, feel e seem usamos adjetivo, e o advérbio vem depois do verbo ou do objeto.",
+    "Too + adjetivo indica excesso; adjetivo + enough indica suficiência; very e really apenas reforçam."
+  ],
+  "practice": [
+    {"id": "a2-11-p1", "type": "choice", "prompt": "She explains the problem ___.", "options": ["clearly", "clear", "clearness"], "answer": 0,
+     "explain": "A palavra descreve como ela explica, ou seja, o verbo. Por isso usamos o advérbio clearly.",
+     "why_not": {"1": "Clear é adjetivo e descreve substantivos, como em a clear answer.", "2": "Clearness é um substantivo e não descreve a ação."}},
+    {"id": "a2-11-p2", "type": "choice", "prompt": "The new design looks ___.", "options": ["good", "well", "goodly"], "answer": 0,
+     "explain": "Depois de look (parecer) usamos adjetivo: looks good. A palavra descreve o design.",
+     "why_not": {"1": "Looks well costuma significar aparentar saúde, e não ter boa aparência.", "2": "Goodly não é a forma usada nessa frase."}},
+    {"id": "a2-11-p3", "type": "choice", "prompt": "This laptop has 16 GB of memory. It is ___ to run the software.", "options": ["powerful enough", "enough powerful", "too powerful"], "answer": 0,
+     "explain": "Enough vem depois do adjetivo: powerful enough. O contexto mostra que o laptop é suficiente.",
+     "why_not": {"1": "Enough vem depois do adjetivo, e não antes.", "2": "Too powerful indicaria um problema, mas o laptop consegue rodar o software."}},
+    {"id": "a2-11-p4", "type": "choice", "prompt": "The file is ___ big to send by email.", "options": ["too", "very", "enough"], "answer": 0,
+     "explain": "A estrutura too + adjetivo + to + verbo indica que algo é grande demais para uma ação.",
+     "why_not": {"1": "Very big não combina com to send: ele não indica o limite da ação.", "2": "Enough vem depois do adjetivo e daria o sentido contrário."}},
+    {"id": "a2-11-p5", "type": "fill", "prompt": "He drives very ___. (careful)", "answers": ["carefully"],
+     "explain": "A palavra descreve como ele dirige, o verbo. O advérbio de careful é carefully, com dois l."},
+    {"id": "a2-11-p6", "type": "fill", "prompt": "The test ran ___. It finished in two seconds. (quick)", "answers": ["quickly", "fast"],
+     "explain": "Para descrever o verbo ran usamos o advérbio quickly. A palavra fast também vale, porque tem a mesma forma como advérbio."},
+    {"id": "a2-11-p7", "type": "fill", "prompt": "My teammate speaks English very ___. (good)", "answers": ["well"],
+     "explain": "O advérbio de good é well, e a palavra descreve o verbo speaks."},
+    {"id": "a2-11-p8", "type": "translate", "prompt": "Ele fala inglês muito bem.", "answers": ["He speaks English very well.", "He speaks English really well."],
+     "explain": "O advérbio vem depois do objeto: speaks English very well. Em inglês, não colocamos o advérbio entre o verbo e o objeto."},
+    {"id": "a2-11-p9", "type": "order", "words": ["The", "room", "is", "too", "small", "for", "ten", "people"], "prompt": "A sala é pequena demais para dez pessoas.",
+     "explain": "Too vem antes do adjetivo (too small), e depois usamos for + as pessoas."},
+    {"id": "a2-11-p10", "type": "fix", "prompt": "She works good with the team.", "answers": ["She works well with the team.", "She works very well with the team."],
+     "explain": "Works é um verbo, e para descrevê-lo usamos o advérbio well, e não o adjetivo good."},
+    {"id": "a2-11-p11", "type": "fix", "prompt": "The laptop is not enough fast.", "answers": ["The laptop is not fast enough."],
+     "explain": "Enough vem depois do adjetivo: not fast enough."},
+    {"id": "a2-11-p12", "type": "listen", "en": "The server responds slowly when many users log in.",
+     "explain": "Slowly é o advérbio de slow e descreve o verbo responds. Ouça o -ly no final da palavra."}
+  ],
+  "quiz": [
+    {"id": "a2-11-q1", "type": "choice", "prompt": "He is a ___ driver.", "options": ["careful", "carefully"], "answer": 0,
+     "explain": "A palavra descreve o substantivo driver, então usamos o adjetivo careful.",
+     "why_not": {"1": "Carefully é advérbio e descreve verbos, como em he drives carefully."}},
+    {"id": "a2-11-q2", "type": "fill", "prompt": "The team solved the problem ___. (easy)", "answers": ["easily"],
+     "explain": "O advérbio descreve o verbo solved. Com consoante + y, o y vira i: easily."},
+    {"id": "a2-11-q3", "type": "translate", "prompt": "Por favor, fale devagar.", "answers": ["Please speak slowly.", "Speak slowly, please.", "Please talk slowly."],
+     "explain": "O advérbio de slow é slowly e vem depois do verbo: speak slowly."},
+    {"id": "a2-11-q4", "type": "order", "words": ["The", "laptop", "is", "not", "fast", "enough"], "prompt": "O laptop não é rápido o bastante.",
+     "explain": "A estrutura é not + adjetivo + enough, com enough depois do adjetivo."},
+    {"id": "a2-11-q5", "type": "fix", "prompt": "He is enough experienced to lead the team.", "answers": ["He is experienced enough to lead the team."],
+     "explain": "Enough vem depois do adjetivo: experienced enough, seguido de to + verbo."},
+    {"id": "a2-11-q6", "type": "choice", "prompt": "Qual frase está correta?", "options": ["He runs the tests quick.", "He runs the tests quickly.", "He runs quickly the tests."], "answer": 1,
+     "explain": "O advérbio quickly descreve o verbo runs e vem depois do objeto.",
+     "why_not": {"0": "Quick é adjetivo, e aqui precisamos do advérbio.", "2": "O advérbio não fica entre o verbo e o objeto."}},
+    {"id": "a2-11-q7", "type": "listen", "en": "The report is too long to read before the meeting.",
+     "explain": "Too long to read indica que o relatório é longo demais para ser lido. Ouça too antes do adjetivo."},
+    {"id": "a2-11-q8", "type": "choice", "prompt": "Thank you! The training was ___ useful.", "options": ["too", "very", "enough"], "answer": 1,
+     "explain": "É um elogio, e para reforçar de forma positiva usamos very.",
+     "why_not": {"0": "Too indica excesso ou problema, e não um elogio.", "2": "Enough vem depois do adjetivo e não reforça nesse sentido."}}
+  ],
+  "words": [
+    {"word": "quickly", "pt": "rapidamente; depressa"},
+    {"word": "carefully", "pt": "com cuidado; cuidadosamente"},
+    {"word": "slowly", "pt": "devagar; lentamente"},
+    {"word": "clearly", "pt": "claramente; com clareza"},
+    {"word": "easily", "pt": "facilmente; com facilidade"},
+    {"word": "well", "pt": "bem"},
+    {"word": "hard", "pt": "muito, com esforço; difícil; duro"},
+    {"word": "enough", "pt": "suficiente; o bastante"},
+    {"word": "too", "pt": "demais; também"},
+    {"word": "really", "pt": "realmente; muito"}
+  ]
+}

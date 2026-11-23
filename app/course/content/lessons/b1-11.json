@@ -1,0 +1,177 @@
+{
+  "id": "b1-11",
+  "level": "B1",
+  "unit": "Discurso indireto",
+  "title": "Perguntas, ordens e pedidos indiretos",
+  "goal": "Contar o que alguém perguntou, mandou ou pediu, usando if/whether, ordem de afirmação e told/asked + pessoa + to.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "Relatando perguntas, ordens e pedidos",
+      "text": "Na lição anterior você relatou afirmações. Agora vamos relatar **perguntas**, **ordens** e **pedidos**. No trabalho isso é comum: “O cliente perguntou se o sistema já estava no ar”, “A gerente pediu para eu enviar o relatório”.\n\nPara perguntas, o verbo mais usado é **ask** (perguntar). Para ordens usamos **tell** + pessoa + **to**, e para pedidos usamos **ask** + pessoa + **to**. As regras de recuo de tempos, pronomes e expressões de tempo da lição anterior continuam valendo.",
+      "examples": [
+        {"en": "She asked if the server was down.", "pt": "Ela perguntou se o servidor estava fora do ar."},
+        {"en": "He asked where I worked.", "pt": "Ele perguntou onde eu trabalhava."},
+        {"en": "The manager told me to send the report.", "pt": "O gerente me disse para enviar o relatório."}
+      ],
+      "tip": "Pergunta: ask. Ordem: tell + pessoa + to. Pedido: ask + pessoa + to."
+    },
+    {
+      "title": "Perguntas de sim ou não: if e whether",
+      "text": "Perguntas que se respondem com sim ou não (*Is it ready?*, *Do you work here?*) viram frases com **if** ou **whether**, que significam “se”. As duas valem; **whether** é um pouco mais formal.\n\nHá duas mudanças importantes. Primeiro, a frase volta à **ordem de afirmação** (sujeito + verbo), sem inversão. Segundo, **do, does e did desaparecem**. O verbo recua como na lição anterior, e no fim não usamos ponto de interrogação.",
+      "table": {
+        "headers": ["Pergunta original", "Discurso indireto"],
+        "rows": [
+          ["Is the server down?", "She asked if the server was down."],
+          ["Do you work here?", "He asked if I worked there."],
+          ["Did you test it?", "She asked if I had tested it."],
+          ["Can you join the call?", "He asked whether I could join the call."],
+          ["Will you be late?", "She asked if I would be late."],
+          ["Have you finished?", "He asked if I had finished."]
+        ]
+      },
+      "examples": [
+        {"en": "The client asked whether we could finish by Friday.", "pt": "O cliente perguntou se podíamos terminar até sexta."},
+        {"en": "Lara asked if I had tested the login page.", "pt": "A Lara perguntou se eu tinha testado a página de login."},
+        {"en": "Tom asked me if I was free at three.", "pt": "O Tom me perguntou se eu estava livre às três."}
+      ],
+      "tip": "Se o verbo de relato está no presente (asks), não há recuo: She asks if the server is down."
+    },
+    {
+      "title": "Perguntas com what, where, when, why, how",
+      "text": "Nas perguntas com **what, where, when, who, why** e **how**, mantemos a palavra interrogativa e **não usamos if**. Depois dela, a frase volta à ordem de afirmação, sem do, does ou did.\n\nCompare: a pergunta direta é *Where do you work?*, com **do** e inversão. A indireta é *He asked where I worked*. Quando a palavra interrogativa já é o sujeito (*Who wrote this code?*), não há o que inverter, mas o tempo ainda recua.",
+      "table": {
+        "headers": ["Pergunta original", "Discurso indireto"],
+        "rows": [
+          ["What do you need?", "She asked what I needed."],
+          ["Where is the meeting?", "He asked where the meeting was."],
+          ["When did the build fail?", "They asked when the build had failed."],
+          ["Why are you late?", "She asked why I was late."],
+          ["How long will it take?", "He asked how long it would take."],
+          ["Who wrote this code?", "She asked who had written that code."]
+        ]
+      },
+      "examples": [
+        {"en": "Sam asked what time the meeting started.", "pt": "O Sam perguntou a que horas a reunião começava."},
+        {"en": "She asked how long the update would take.", "pt": "Ela perguntou quanto tempo a atualização levaria."},
+        {"en": "They asked why we had changed the plan.", "pt": "Eles perguntaram por que tínhamos mudado o plano."}
+      ],
+      "trap": "Em inglês, a pergunta direta inverte a ordem, mas a indireta não. Diga *He asked where the server was*, e não *He asked where was the server*. E não use did: *She asked why I left*, e não *why did I leave*."
+    },
+    {
+      "title": "Ordens e pedidos: told/asked + pessoa + to",
+      "text": "Para repetir uma **ordem** ou um **pedido**, usamos **told** ou **asked** + pessoa + **to** + verbo na forma base. Aqui o tempo não recua, porque o verbo fica no infinitivo (*to send*, *to open*).\n\nNa forma negativa, o **not** vem antes do **to**: *told me not to delete the file*. A diferença de tom é a mesma do português: **tell** soa como ordem ou instrução, e **ask** soa como pedido, em geral mais educado.",
+      "table": {
+        "headers": ["Fala original", "Discurso indireto"],
+        "rows": [
+          ["Send the report.", "She told me to send the report."],
+          ["Please open the ticket.", "He asked me to open the ticket."],
+          ["Don't delete the logs.", "They told us not to delete the logs."],
+          ["Could you review my code?", "She asked me to review her code."]
+        ]
+      },
+      "examples": [
+        {"en": "The lead told the team to stop the deploy.", "pt": "O líder mandou a equipe parar o deploy."},
+        {"en": "Eva asked me to join the call.", "pt": "A Eva me pediu para entrar na chamada."},
+        {"en": "He told us not to share the password.", "pt": "Ele nos disse para não compartilhar a senha."}
+      ],
+      "tip": "A estrutura é sempre: told/asked + pessoa + (not) to + verbo base."
+    },
+    {
+      "title": "Ask, tell e if: não misture",
+      "text": "Cada estrutura tem o seu verbo. Para **repetir uma pergunta**, use **ask** (ou *wanted to know*, que você verá em seguida) com **if**, **whether** ou uma palavra interrogativa. Para **ordens**, use **tell** + pessoa + **to**. Para **pedir algo**, use **ask for** + substantivo: *She asked for more time*.\n\nPortanto, **ask me if** (pergunta) é diferente de **ask me to** (pedido). *He asked me if I could help* é uma pergunta; *He asked me to help* é um pedido.",
+      "examples": [
+        {"en": "She asked me if I needed help.", "pt": "Ela me perguntou se eu precisava de ajuda."},
+        {"en": "She asked me to help her.", "pt": "Ela me pediu para ajudá-la."},
+        {"en": "They asked for more time.", "pt": "Eles pediram mais tempo."},
+        {"en": "I asked about the deadline.", "pt": "Eu perguntei sobre o prazo."}
+      ],
+      "trap": "Não use **tell** para repetir uma pergunta. *She told me if I was ready* está errado: o certo é *She asked me if I was ready*. E depois de *asked me* não use that + verbo: o natural é *asked me to send*."
+    },
+    {
+      "title": "Outras formas de relatar uma pergunta",
+      "text": "Além de **ask**, há expressões úteis. **Want to know** (querer saber) e **wonder** (ficar se perguntando) também são seguidos de **if**, **whether** ou uma palavra interrogativa, com a mesma ordem de afirmação.\n\nO **wonder** é usado quando a pergunta ficou na cabeça de alguém. Você também pode usar **ask about** + substantivo para perguntar sobre um assunto. Lembre-se: o recuo de tempos continua, e a frase termina com ponto final.",
+      "examples": [
+        {"en": "She wanted to know if the tests had passed.", "pt": "Ela queria saber se os testes tinham passado."},
+        {"en": "He wondered whether the client was happy.", "pt": "Ele ficou se perguntando se o cliente estava satisfeito."},
+        {"en": "They wanted to know when the system would be back.", "pt": "Eles queriam saber quando o sistema voltaria."},
+        {"en": "I asked about the new password rules.", "pt": "Eu perguntei sobre as novas regras de senha."}
+      ]
+    },
+    {
+      "title": "Em contexto: relatando uma chamada de suporte",
+      "text": "Veja como isso aparece quando você conta a um colega o que um cliente disse numa chamada de suporte. Você vai usar tudo: perguntas com if, perguntas com palavra interrogativa, ordens e pedidos.\n\nObserve o recuo dos tempos, a troca de pronomes e as expressões de tempo, como *today*, que vira *that day*. Para o aluno de TI, essa é uma das situações mais frequentes do dia a dia.",
+      "examples": [
+        {"en": "The customer asked if we could fix the error that day.", "pt": "O cliente perguntou se poderíamos corrigir o erro naquele dia."},
+        {"en": "She asked me what my username was.", "pt": "Ela me perguntou qual era o meu nome de usuário."},
+        {"en": "I told her to restart the app.", "pt": "Eu disse a ela para reiniciar o app."},
+        {"en": "She asked me not to close the window.", "pt": "Ela me pediu para não fechar a janela."}
+      ]
+    }
+  ],
+  "summary": [
+    "Perguntas de sim ou não viram if ou whether: She asked if the server was down.",
+    "Depois de if/whether ou de uma palavra interrogativa, use a ordem de afirmação e não use do/does/did: He asked where the server was.",
+    "O tempo recua como no reported speech de afirmações, e a frase termina com ponto final.",
+    "Ordens e pedidos usam told/asked + pessoa + to + verbo base; a negativa é not to.",
+    "Para repetir uma pergunta, use ask (ou wanted to know, wondered), nunca tell.",
+    "Ask me if é pergunta; ask me to é pedido; ask for + substantivo é pedir algo."
+  ],
+  "practice": [
+    {"id": "b1-11-p1", "type": "choice", "prompt": "“Is the server down?” → She asked ___ the server was down.", "options": ["if", "that", "what"], "answer": 0,
+     "explain": "Uma pergunta de sim ou não vira uma frase com if ou whether, que significam “se”.",
+     "why_not": {"1": "That introduz uma afirmação, e não uma pergunta de sim ou não.", "2": "What significa “o que” e não cabe numa pergunta de sim ou não."}},
+    {"id": "b1-11-p2", "type": "choice", "prompt": "“Where do you work?” → He asked me where ___.", "options": ["I worked", "did I work", "do I work"], "answer": 0,
+     "explain": "No discurso indireto voltamos à ordem de afirmação (I worked), sem do/did, e o present simple recua para o past simple.",
+     "why_not": {"1": "Did I work mantém a inversão e o auxiliar da pergunta direta.", "2": "Do I work também mantém a inversão e o auxiliar, e não recua o tempo."}},
+    {"id": "b1-11-p3", "type": "fill", "prompt": "“Will you join the call?” → She asked if I ___ join the call.", "answers": ["would"],
+     "explain": "Will recua para would no discurso indireto, e o verbo seguinte fica na forma base."},
+    {"id": "b1-11-p4", "type": "fill", "prompt": "“Did you test it?” → He asked if I ___ tested it.", "answers": ["had"],
+     "explain": "O past simple recua para o past perfect: had tested. Do/did desaparecem."},
+    {"id": "b1-11-p5", "type": "order", "words": ["She", "asked", "if", "the", "build", "had", "failed"], "answers": ["She asked whether the build had failed."], "prompt": "Ela perguntou se o build tinha falhado.",
+     "explain": "Asked + if + sujeito + verbo, na ordem de afirmação. O past simple (failed) recuou para o past perfect (had failed)."},
+    {"id": "b1-11-p6", "type": "translate", "prompt": "Ele perguntou onde era a reunião.", "answers": ["He asked where the meeting was.", "He asked me where the meeting was.", "He wanted to know where the meeting was."],
+     "explain": "Depois de where voltamos à ordem de afirmação: the meeting was. O verbo is recua para was."},
+    {"id": "b1-11-p7", "type": "fix", "prompt": "She asked where was the meeting.", "answers": ["She asked where the meeting was."],
+     "explain": "No discurso indireto não se inverte: sujeito (the meeting) antes do verbo (was)."},
+    {"id": "b1-11-p8", "type": "choice", "prompt": "“Don't delete the logs.” → She told us ___ the logs.", "options": ["not to delete", "don't delete", "that not delete"], "answer": 0,
+     "explain": "A ordem negativa usa told + pessoa + not to + verbo base: not to delete.",
+     "why_not": {"1": "Don't delete é a forma da fala direta; no discurso indireto usamos not to.", "2": "Depois de told + pessoa, a ordem vem com to, e não com that."}},
+    {"id": "b1-11-p9", "type": "translate", "prompt": "Ela me pediu para abrir o ticket.", "answers": ["She asked me to open the ticket."],
+     "explain": "Pedido: asked + pessoa + to + verbo base. Me é a pessoa, e o verbo open fica na forma base."},
+    {"id": "b1-11-p10", "type": "listen", "en": "He asked me if I could join the call.",
+     "explain": "Asked me if + sujeito + could: é uma pergunta de sim ou não relatada, e can recuou para could."},
+    {"id": "b1-11-p11", "type": "fix", "prompt": "She told me if I was ready.", "answers": ["She asked me if I was ready.", "She asked if I was ready.", "She asked me whether I was ready."],
+     "explain": "Tell não serve para relatar uma pergunta. Use ask com if ou whether."}
+  ],
+  "quiz": [
+    {"id": "b1-11-q1", "type": "choice", "prompt": "“What do you need?” → She asked me what I ___.", "options": ["needed", "do need", "needing"], "answer": 0,
+     "explain": "Depois de what voltamos à ordem de afirmação, e o present simple recua para o past simple: needed.",
+     "why_not": {"1": "Do need mantém o auxiliar da pergunta direta e não recua o tempo.", "2": "Needing é uma forma em -ing e não pode ser o verbo principal sozinha."}},
+    {"id": "b1-11-q2", "type": "fill", "prompt": "“Why are you late?” → He asked why I ___ late.", "answers": ["was"],
+     "explain": "Ordem de afirmação (I was), e o verbo am recua para was."},
+    {"id": "b1-11-q3", "type": "translate", "prompt": "Ela perguntou se eu tinha terminado o teste.", "answers": ["She asked if I had finished the test.", "She asked whether I had finished the test.", "She asked me if I had finished the test.", "She asked me whether I had finished the test."],
+     "explain": "Pergunta de sim ou não vira asked + if/whether. O past simple (terminei) recua para o past perfect: had finished."},
+    {"id": "b1-11-q4", "type": "order", "words": ["He", "told", "me", "not", "to", "touch", "the", "server"], "prompt": "Ele me disse para não mexer no servidor.",
+     "explain": "Ordem negativa: told + pessoa + not to + verbo base."},
+    {"id": "b1-11-q5", "type": "fix", "prompt": "He asked me what did I want.", "answers": ["He asked me what I wanted."],
+     "explain": "Sem did e sem inversão: what + sujeito + verbo. O verbo want recua para wanted."},
+    {"id": "b1-11-q6", "type": "choice", "prompt": "Qual frase está correta?", "options": ["She asked me to restart the app.", "She asked me restart the app.", "She asked me for restart the app."], "answer": 0,
+     "explain": "O pedido usa asked + pessoa + to + verbo base: asked me to restart.",
+     "why_not": {"1": "Falta o to antes do verbo.", "2": "A estrutura ask for pede um substantivo (asked for help), e não um verbo."}},
+    {"id": "b1-11-q7", "type": "listen", "en": "They asked us not to share the password.",
+     "explain": "Asked us not to share: pedido negativo, com o not antes do to."}
+  ],
+  "words": [
+    {"word": "ask", "pt": "perguntar; pedir"},
+    {"word": "wonder", "pt": "ficar se perguntando; imaginar"},
+    {"word": "whether", "pt": "se (em perguntas indiretas)"},
+    {"word": "report", "pt": "relatório; relatar"},
+    {"word": "ticket", "pt": "chamado; tíquete"},
+    {"word": "password", "pt": "senha"},
+    {"word": "restart", "pt": "reiniciar"},
+    {"word": "logs", "pt": "registros; logs"},
+    {"word": "join", "pt": "entrar em; participar de"},
+    {"word": "share", "pt": "compartilhar"}
+  ]
+}

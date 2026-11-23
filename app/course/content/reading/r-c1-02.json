@@ -1,0 +1,32 @@
+{
+  "id": "r-c1-02",
+  "level": "C1",
+  "title": "Memo: guidelines on AI coding assistants",
+  "topic": "Memorando interno",
+  "text": "To: All engineering staff\nFrom: Office of the CTO\nSubject: Guidelines for the use of AI coding assistants\n\nOver the past year, a growing number of colleagues have begun to use AI coding assistants in their daily work. Their enthusiasm is understandable: used well, these tools can speed up routine tasks considerably. Nevertheless, they also introduce risks that we cannot afford to overlook, and we therefore wish to set out some clear expectations.\n\nFirst and foremost, you remain fully accountable for any code you submit, regardless of who or what wrote the first draft. A suggestion that looks plausible is not the same as a suggestion that is correct. Reviewers will not lower their standards, and \"the assistant wrote it\" will not be accepted as an explanation for a defect.\n\nSecond, confidential material must never be pasted into an external tool unless the tool has been approved by the security team. This includes customer data, access credentials, and proprietary algorithms. A list of approved tools is maintained on the intranet, and it will be updated whenever a new one passes our assessment.\n\nThird, we ask that you disclose significant use of generated code in your pull requests. This is not meant as a penalty. Rather, it helps reviewers decide where to concentrate their attention, and it allows us to gather evidence about how these tools actually affect quality.\n\nFinally, a word of caution for those at the start of their careers. Tools that produce answers instantly can make it tempting to skip the struggle that builds understanding. We encourage you to read and fully understand what you accept, and to ask senior colleagues when you are unsure.\n\nThese guidelines will be reviewed every six months. Please direct any questions to the engineering enablement team.",
+  "pt": "Para: Todos os engenheiros\nDe: Gabinete do CTO\nAssunto: Diretrizes para o uso de assistentes de programação com IA\n\nNo último ano, um número crescente de colegas começou a usar assistentes de programação com IA no trabalho diário. O entusiasmo é compreensível: bem usadas, essas ferramentas podem acelerar consideravelmente tarefas rotineiras. Ainda assim, elas também trazem riscos que não podemos nos dar ao luxo de ignorar, e por isso desejamos estabelecer algumas expectativas claras.\n\nEm primeiro lugar, vocês continuam totalmente responsáveis por qualquer código que enviarem, independentemente de quem ou o quê escreveu o primeiro rascunho. Uma sugestão que parece plausível não é o mesmo que uma sugestão correta. Os revisores não reduzirão seus padrões, e \"o assistente escreveu\" não será aceito como explicação para um defeito.\n\nEm segundo lugar, material confidencial jamais deve ser colado em uma ferramenta externa, a menos que ela tenha sido aprovada pela equipe de segurança. Isso inclui dados de clientes, credenciais de acesso e algoritmos proprietários. Uma lista de ferramentas aprovadas é mantida na intranet e será atualizada sempre que uma nova passar pela nossa avaliação.\n\nEm terceiro lugar, pedimos que vocês informem o uso significativo de código gerado em seus pull requests. Isso não pretende ser uma penalidade. Antes, ajuda os revisores a decidir onde concentrar a atenção e nos permite reunir evidências sobre como essas ferramentas realmente afetam a qualidade.\n\nPor fim, uma palavra de cautela para quem está começando a carreira. Ferramentas que produzem respostas instantaneamente podem tornar tentador pular o esforço que constrói a compreensão. Incentivamos vocês a ler e entender por completo o que aceitam, e a perguntar a colegas mais experientes quando tiverem dúvidas.\n\nEstas diretrizes serão revisadas a cada seis meses. Por favor, encaminhem quaisquer dúvidas à equipe de capacitação de engenharia.",
+  "vocab": [
+    {"word": "enthusiasm", "pt": "entusiasmo"},
+    {"word": "overlook", "pt": "ignorar, deixar passar"},
+    {"word": "accountable", "pt": "responsável, que presta contas"},
+    {"word": "plausible", "pt": "plausível"},
+    {"word": "defect", "pt": "defeito"},
+    {"word": "confidential", "pt": "confidencial"},
+    {"word": "credentials", "pt": "credenciais"},
+    {"word": "proprietary", "pt": "proprietário, de propriedade da empresa"},
+    {"word": "disclose", "pt": "divulgar, informar"},
+    {"word": "assessment", "pt": "avaliação"}
+  ],
+  "questions": [
+    {"id": "r-c1-02-q1", "type": "choice", "prompt": "What is the main purpose of the memo?", "options": ["To ban AI coding assistants", "To set expectations for using them responsibly", "To announce a new tool"], "answer": 1,
+     "explain": "O memorando reconhece os benefícios, mas diz “we therefore wish to set out some clear expectations”."},
+    {"id": "r-c1-02-q2", "type": "choice", "prompt": "Who is responsible for a defect in AI-written code?", "options": ["The assistant's vendor", "The reviewer", "The engineer who submitted it"], "answer": 2,
+     "explain": "“You remain fully accountable for any code you submit”, e “the assistant wrote it” não será aceito como explicação."},
+    {"id": "r-c1-02-q3", "type": "choice", "prompt": "Why does the memo ask people to disclose generated code?", "options": ["To punish careless engineers", "To help reviewers focus and to collect evidence", "To reduce the number of pull requests"], "answer": 1,
+     "explain": "O texto afirma “This is not meant as a penalty”: ajuda revisores a concentrar a atenção e permite reunir evidências."},
+    {"id": "r-c1-02-q4", "type": "choice", "prompt": "What concern is raised about early-career engineers?", "options": ["They may skip the struggle that builds understanding", "They cannot use approved tools", "They write too many tests"], "answer": 0,
+     "explain": "A “word of caution” diz que respostas instantâneas tornam tentador “skip the struggle that builds understanding”."},
+    {"id": "r-c1-02-q5", "type": "choice", "prompt": "In the text, “we cannot afford to overlook” means:", "options": ["we must not ignore", "we cannot pay for", "we should look over"], "answer": 0,
+     "explain": "A expressão indica que ignorar esses riscos teria custo alto demais; portanto, não devem ser ignorados."}
+  ]
+}

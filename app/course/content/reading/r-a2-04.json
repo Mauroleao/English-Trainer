@@ -1,0 +1,29 @@
+{
+  "id": "r-a2-04",
+  "level": "A2",
+  "title": "Help with the installer",
+  "topic": "Suporte a um cliente",
+  "text": "Customer: Hello, I bought your software yesterday, but I can't install it. I have Windows 11. The installer stops at 80%. I tried two times, and the same thing happened. It is important because I have a presentation tomorrow. Can you help me?\n\nSupport: Hi Mr. Silva, sorry about that. Don't worry, we can solve it. First, please close all other programs. Then download the new installer from our website, because the old one has a problem. If it still doesn't work, send me a screenshot. I'm going to stay online until 6 p.m.",
+  "pt": "Cliente: Olá, comprei o software de vocês ontem, mas não consigo instalá-lo. Eu uso o Windows 11. O instalador para em 80%. Tentei duas vezes e aconteceu a mesma coisa. É importante porque tenho uma apresentação amanhã. Vocês podem me ajudar?\n\nSuporte: Olá, Sr. Silva, sinto muito por isso. Não se preocupe, vamos resolver. Primeiro, por favor, feche todos os outros programas. Depois, baixe o novo instalador do nosso site, porque o antigo tem um problema. Se ainda não funcionar, me envie uma captura de tela. Vou ficar online até as 18h.",
+  "vocab": [
+    {"word": "software", "pt": "software; programa"},
+    {"word": "install", "pt": "instalar"},
+    {"word": "installer", "pt": "instalador"},
+    {"word": "presentation", "pt": "apresentação"},
+    {"word": "solve", "pt": "resolver"},
+    {"word": "programs", "pt": "programas"},
+    {"word": "download", "pt": "baixar; fazer download"},
+    {"word": "website", "pt": "site"},
+    {"word": "screenshot", "pt": "captura de tela"}
+  ],
+  "questions": [
+    {"id": "r-a2-04-q1", "type": "choice", "prompt": "When did the customer buy the software?", "options": ["Yesterday", "Two days ago", "Tomorrow"], "answer": 0,
+     "explain": "O cliente escreve “I bought your software yesterday”: comprou ontem."},
+    {"id": "r-a2-04-q2", "type": "choice", "prompt": "What is the problem?", "options": ["The software is too expensive.", "The installer stops at 80%.", "The customer has no Windows."], "answer": 1,
+     "explain": "O cliente diz “The installer stops at 80%”: o instalador para em 80%."},
+    {"id": "r-a2-04-q3", "type": "choice", "prompt": "What must the customer do first?", "options": ["Send a screenshot", "Download a new installer", "Close all other programs"], "answer": 2,
+     "explain": "O suporte diz “First, please close all other programs”. O download vem depois (“Then”)."},
+    {"id": "r-a2-04-q4", "type": "choice", "prompt": "When should the customer send a screenshot?", "options": ["If it still doesn't work", "After the presentation", "Before the download"], "answer": 0,
+     "explain": "A frase “If it still doesn't work, send me a screenshot” mostra que o pedido vale se o problema continuar."}
+  ]
+}

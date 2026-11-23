@@ -1,0 +1,168 @@
+{
+  "id": "b1-05",
+  "level": "B1",
+  "unit": "Futuro e condições",
+  "title": "Futuro: will, going to, presente contínuo e orações de tempo",
+  "goal": "Escolher a forma certa de falar do futuro (will, going to ou present continuous) e usar when, as soon as, before, after e until com o verbo no presente.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "Três jeitos de falar do futuro",
+      "text": "Em português dizemos “vou fazer”, “farei” ou até “faço amanhã”. Em inglês não existe uma única forma de futuro: você escolhe entre **will**, **be going to** e o **present continuous** (am/is/are + -ing), conforme a **intenção** de quem fala.\n\nNesta lição você revisa a diferença entre os três e aprende uma regra nova e muito importante: depois de palavras como *when*, *before* e *until*, o inglês usa o **presente**, mesmo quando o sentido é de futuro.",
+      "examples": [
+        {"en": "I will help you with the deploy.", "pt": "Eu ajudo você com o deploy."},
+        {"en": "We are going to migrate the database next month.", "pt": "Vamos migrar o banco de dados no mês que vem."},
+        {"en": "I am meeting the client at three tomorrow.", "pt": "Vou me encontrar com o cliente amanhã às três."}
+      ],
+      "tip": "Pergunte-se: eu decidi agora (will), eu já tenho um plano (going to) ou já está combinado com hora e pessoa (present continuous)?"
+    },
+    {
+      "title": "Will: decisão na hora, promessa e previsão",
+      "text": "Use **will + verbo base** quando você **decide no momento da fala**, faz uma **oferta** ou uma **promessa**, ou dá uma **opinião sobre o futuro** (muitas vezes com *I think*, *probably*, *I'm sure*). A forma é a mesma para todas as pessoas: *I will*, *she will*, *they will*.\n\nNa fala, quase sempre usamos a contração **'ll**: *I'll check it*. Na negativa, **will not** vira **won't**.",
+      "examples": [
+        {"en": "The server is down? I will restart it now.", "pt": "O servidor caiu? Eu reinicio agora."},
+        {"en": "I promise I will fix the bug today.", "pt": "Prometo que vou corrigir o bug hoje."},
+        {"en": "I think the new version will be faster.", "pt": "Acho que a nova versão será mais rápida."},
+        {"en": "Don't worry, we won't forget the meeting.", "pt": "Não se preocupe, não vamos esquecer a reunião."}
+      ],
+      "trap": "Não diga *I will to restart it*. Depois de **will** vem o verbo base, sem *to* e sem -s: *he will restart*, e não *he will restarts*."
+    },
+    {
+      "title": "Be going to: planos e previsões com evidência",
+      "text": "Use **am/is/are going to + verbo base** para um **plano ou intenção** que você já tinha antes de falar, e também para uma **previsão baseada no que você vê agora**.\n\nSe a decisão já existe, *going to* é a escolha natural: *I am going to learn Go this year* (eu já decidi). Se há sinal claro no presente, também: *Look at the error rate! The system is going to crash* (você vê o problema crescendo).",
+      "table": {
+        "headers": ["Situação", "Forma", "Exemplo"],
+        "rows": [
+          ["Decisão no momento", "will", "Oh, the printer is empty. I'll add paper."],
+          ["Plano já decidido", "be going to", "We are going to hire two testers."],
+          ["Previsão com evidência", "be going to", "Look at those clouds. It is going to rain."],
+          ["Compromisso marcado", "present continuous", "I am seeing the doctor at five."]
+        ]
+      },
+      "examples": [
+        {"en": "We are going to hire two testers in January.", "pt": "Vamos contratar dois testadores em janeiro."},
+        {"en": "Be careful! You are going to drop the laptop!", "pt": "Cuidado! Você vai derrubar o laptop!"},
+        {"en": "She is going to learn Go this year.", "pt": "Ela vai aprender Go este ano."}
+      ],
+      "trap": "Em português usamos “vou + verbo” para tudo. Em inglês, *going to* indica plano ou evidência; para uma decisão tomada na hora, prefira **will**."
+    },
+    {
+      "title": "Present continuous: compromisso marcado",
+      "text": "Use **am/is/are + -ing** com uma **expressão de tempo futuro** quando o plano já está **combinado ou agendado**: há data, hora ou pessoas envolvidas. Muitas vezes você poderia usar *going to* também; o present continuous só deixa claro que o arranjo já está organizado.\n\nPara horários e calendários oficiais (trens, aulas, reuniões fixas), o inglês também usa o **present simple**: *The meeting starts at ten.*",
+      "examples": [
+        {"en": "I am meeting the client at four p.m. tomorrow.", "pt": "Vou me reunir com o cliente amanhã às quatro da tarde."},
+        {"en": "We are deploying on Thursday night.", "pt": "Vamos fazer o deploy na quinta à noite."},
+        {"en": "She is flying to Berlin next week.", "pt": "Ela viaja para Berlim na semana que vem."},
+        {"en": "The meeting starts at ten.", "pt": "A reunião começa às dez."}
+      ],
+      "tip": "Sem expressão de tempo futuro, *I am meeting the client* parece estar acontecendo agora. Por isso inclua tomorrow, next week, on Friday..."
+    },
+    {
+      "title": "Orações de tempo: when, as soon as, before, after, until",
+      "text": "Uma **oração de tempo** diz *quando* algo acontece: *when* (quando), *as soon as* (assim que), *before* (antes de), *after* (depois que) e *until* (até que). Quando a ação é futura, o verbo dessa oração fica no **presente**, e o **will** vai só na outra parte da frase.\n\nEm português usamos o subjuntivo (“quando eu chegar”, “assim que ele terminar”). O inglês não tem essa forma: usa o present simple.",
+      "table": {
+        "headers": ["Conector", "Oração de tempo (presente)", "Outra parte (futuro)"],
+        "rows": [
+          ["when", "When the build finishes,", "I will call you."],
+          ["as soon as", "As soon as I get the answer,", "I will tell you."],
+          ["before", "Before we deploy,", "we will run all the tests."],
+          ["after", "After the meeting ends,", "we will write the notes."],
+          ["until", "I will wait here until you finish.", ""]
+        ]
+      },
+      "examples": [
+        {"en": "When the build finishes, I will call you.", "pt": "Quando o build terminar, eu ligo para você."},
+        {"en": "As soon as I get the answer, I will tell you.", "pt": "Assim que eu receber a resposta, aviso você."},
+        {"en": "I will wait here until you finish the review.", "pt": "Vou esperar aqui até você terminar a revisão."}
+      ],
+      "trap": "Não escreva *when I will arrive*. Diga **when I arrive**: *I will call you when I arrive*. O mesmo vale para *as soon as*, *before*, *after* e *until*."
+    },
+    {
+      "title": "Present perfect depois de when, after e until",
+      "text": "Depois de *when*, *after*, *as soon as* e *until*, você também pode usar o **present perfect** (have/has + particípio) para deixar claro que a primeira ação **estará concluída** antes da segunda. Em muitos casos o present simple e o present perfect soam quase iguais.\n\nExceção importante: em **perguntas indiretas** com *when*, o *will* é normal, porque *when* não introduz uma oração de tempo, e sim uma pergunta: *Do you know when the meeting will start?*",
+      "examples": [
+        {"en": "I will deploy after the tests have passed.", "pt": "Vou fazer o deploy depois que os testes tiverem passado."},
+        {"en": "Call me when you have finished.", "pt": "Me ligue quando você tiver terminado."},
+        {"en": "Do you know when the meeting will start?", "pt": "Você sabe quando a reunião vai começar?"}
+      ],
+      "tip": "Diferença-chave: *I'll call you when I arrive* (when = momento da chegada) × *I don't know when I will arrive* (when = pergunta sobre a hora)."
+    },
+    {
+      "title": "A regra em contexto: planejando um release",
+      "text": "Em reuniões de planejamento, as três formas aparecem juntas. Você anuncia um plano (*going to*), confirma um compromisso (*present continuous*), faz uma oferta na hora (*will*) e define a sequência de ações com orações de tempo.\n\nObserve como o presente aparece depois de *before*, *as soon as* e *until*, e como o *will* fica na outra parte da frase.",
+      "examples": [
+        {"en": "We are going to release version 2.0 on Friday.", "pt": "Vamos lançar a versão 2.0 na sexta."},
+        {"en": "Before we release, we will test everything again.", "pt": "Antes de lançar, vamos testar tudo de novo."},
+        {"en": "I'm presenting the plan to the client on Wednesday.", "pt": "Vou apresentar o plano ao cliente na quarta."},
+        {"en": "As soon as the release is ready, I'll send you an e-mail.", "pt": "Assim que o release estiver pronto, mando um e-mail para você."}
+      ]
+    }
+  ],
+  "summary": [
+    "Will serve para decisões na hora, ofertas, promessas e opiniões sobre o futuro; depois dele vem o verbo base.",
+    "Be going to serve para planos já decididos e para previsões baseadas em algo que você vê agora.",
+    "O present continuous com tempo futuro (tomorrow, on Friday) fala de compromissos já marcados.",
+    "Depois de when, as soon as, before, after e until, use o presente (ou present perfect), nunca will.",
+    "Em perguntas indiretas como Do you know when it will start?, o will é normal."
+  ],
+  "practice": [
+    {"id": "b1-05-p1", "type": "choice", "prompt": "Call me as soon as you ___ the results.", "options": ["get", "will get", "are getting"], "answer": 0,
+     "explain": "Depois de as soon as, o verbo fica no presente, mesmo com sentido de futuro: as soon as you get.",
+     "why_not": {"1": "Will não é usado depois de as soon as; ele fica na outra parte da frase.", "2": "O present continuous aqui descreveria algo em andamento, e não o momento em que você recebe os resultados."}},
+    {"id": "b1-05-p2", "type": "choice", "prompt": "Look at the error rate! The system ___ crash.", "options": ["is going to", "goes to", "will to"], "answer": 0,
+     "explain": "Há evidência clara no presente (você está vendo a taxa de erro), então usamos be going to + verbo base.",
+     "why_not": {"1": "Goes to não forma o futuro; a estrutura é am/is/are going to.", "2": "Will é seguido diretamente do verbo base, sem to."}},
+    {"id": "b1-05-p3", "type": "choice", "prompt": "I will wait here until the build ___.", "options": ["finishes", "will finish", "is finishing"], "answer": 0,
+     "explain": "Depois de until, usamos o present simple: until the build finishes.",
+     "why_not": {"1": "Depois de until não usamos will.", "2": "Is finishing descreve algo em andamento agora, e não o momento futuro em que o build termina."}},
+    {"id": "b1-05-p4", "type": "fill", "prompt": "When the meeting ___ (finish), I will send the notes.", "answers": ["finishes", "ends", "is over", "has finished", "has ended"],
+     "explain": "Depois de when, o verbo fica no presente: when the meeting finishes. O present perfect (has finished) também é possível."},
+    {"id": "b1-05-p5", "type": "fill", "prompt": "I will call you before I ___ (leave) the office.", "answers": ["leave"],
+     "explain": "Depois de before, usamos o present simple, e I pede o verbo sem -s: before I leave."},
+    {"id": "b1-05-p6", "type": "translate", "prompt": "Eu ligo para você assim que eu chegar. (call, as soon as, arrive)", "answers": ["I will call you as soon as I arrive.", "I am going to call you as soon as I arrive.", "I will call you as soon as I have arrived."],
+     "explain": "A parte do futuro leva will (ou going to), e a oração de tempo fica no presente: as soon as I arrive."},
+    {"id": "b1-05-p7", "type": "order", "words": ["We", "are", "going", "to", "migrate", "the", "database", "next", "month"], "prompt": "Vamos migrar o banco de dados no mês que vem.",
+     "answers": ["Next month we are going to migrate the database."],
+     "explain": "A estrutura é sujeito + am/is/are going to + verbo base + complemento. A expressão de tempo pode ir no fim ou no começo."},
+    {"id": "b1-05-p8", "type": "fix", "prompt": "I will send the report when I will finish it.", "answers": ["I will send the report when I finish it.", "I will send the report when I have finished it."],
+     "explain": "Depois de when não usamos will. A oração de tempo fica no presente: when I finish it."},
+    {"id": "b1-05-p9", "type": "choice", "prompt": "Qual frase está correta?", "options": ["I will call you after I arrive.", "I will call you after I will arrive.", "I call will you after I arrive."], "answer": 0,
+     "explain": "O will fica na parte principal da frase, e depois de after o verbo fica no presente: after I arrive.",
+     "why_not": {"1": "Depois de after não usamos will.", "2": "A ordem está errada: will vem logo depois do sujeito, antes do verbo (I will call)."}},
+    {"id": "b1-05-p10", "type": "fix", "prompt": "As soon as the tests will pass, we will deploy.", "answers": ["As soon as the tests pass, we will deploy.", "As soon as the tests have passed, we will deploy."],
+     "explain": "Depois de as soon as, usamos o presente (ou present perfect), e não will: as soon as the tests pass."},
+    {"id": "b1-05-p11", "type": "listen", "en": "I will tell you as soon as I know the date.",
+     "explain": "O will fica em I will tell you, e depois de as soon as o verbo fica no presente: I know."}
+  ],
+  "quiz": [
+    {"id": "b1-05-q1", "type": "choice", "prompt": "Don't deploy until the tests ___.", "options": ["pass", "will pass", "passing"], "answer": 0,
+     "explain": "Depois de until, o verbo fica no present simple: until the tests pass.",
+     "why_not": {"1": "Depois de until não usamos will.", "2": "Passing é só o gerúndio; falta um verbo conjugado."}},
+    {"id": "b1-05-q2", "type": "fill", "prompt": "I will have lunch after the meeting ___ (end).", "answers": ["ends", "has ended"],
+     "explain": "Depois de after, usamos o presente: after the meeting ends. O sujeito the meeting é singular, então o verbo leva -s."},
+    {"id": "b1-05-q3", "type": "translate", "prompt": "Vou começar a revisão assim que você enviar o código. (start, review, as soon as)", "answers": ["I will start the review as soon as you send the code.", "I am going to start the review as soon as you send the code.", "I will start the review as soon as you have sent the code."],
+     "explain": "A parte principal usa will (ou going to), e depois de as soon as o verbo fica no presente: as soon as you send."},
+    {"id": "b1-05-q4", "type": "order", "words": ["Before", "we", "deploy", "we", "will", "run", "the", "tests"], "prompt": "Antes de fazer o deploy, vamos rodar os testes.",
+     "answers": ["We will run the tests before we deploy."],
+     "explain": "Before we deploy usa o presente, e a parte principal leva will. A oração de tempo pode vir antes ou depois."},
+    {"id": "b1-05-q5", "type": "fix", "prompt": "I will go home when the meeting will end.", "answers": ["I will go home when the meeting ends.", "I will go home when the meeting is over.", "I will go home when the meeting has ended."],
+     "explain": "Depois de when, não usamos will: when the meeting ends. O sujeito the meeting pede o verbo com -s."},
+    {"id": "b1-05-q6", "type": "choice", "prompt": "We have a plan: next year we ___ a mobile app.", "options": ["are going to build", "are going build", "will to build"], "answer": 0,
+     "explain": "Um plano já decidido usa be going to + verbo base: are going to build.",
+     "why_not": {"1": "Falta o to: a estrutura é going to + verbo base.", "2": "Depois de will vem o verbo base, sem to."}},
+    {"id": "b1-05-q7", "type": "listen", "en": "We are meeting the new client at ten tomorrow.",
+     "explain": "O present continuous com tomorrow indica um compromisso marcado: are meeting."}
+  ],
+  "words": [
+    {"word": "as soon as", "pt": "assim que"},
+    {"word": "until", "pt": "até que; até"},
+    {"word": "before", "pt": "antes de; antes que"},
+    {"word": "after", "pt": "depois de; depois que"},
+    {"word": "promise", "pt": "prometer; promessa"},
+    {"word": "plan", "pt": "plano; planejar"},
+    {"word": "migrate", "pt": "migrar"},
+    {"word": "database", "pt": "banco de dados"},
+    {"word": "release", "pt": "lançamento; lançar"},
+    {"word": "crash", "pt": "travar; falhar de repente"}
+  ]
+}

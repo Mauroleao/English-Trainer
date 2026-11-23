@@ -1,0 +1,180 @@
+{
+  "id": "a1-03",
+  "level": "A1",
+  "unit": "Pessoas, coisas e lugares",
+  "title": "Artigos a/an/the e plural dos substantivos",
+  "goal": "Usar a, an e the corretamente e formar o plural das palavras mais comuns do escritório e da TI.",
+  "minutes": 22,
+  "steps": [
+    {
+      "title": "Para que servem os artigos",
+      "text": "O **artigo** é uma palavra pequena que vem antes do substantivo (a palavra que nomeia pessoa, coisa ou lugar, como *laptop* ou *manager*). Em português temos o, a, os, as, um, uma. Em inglês quase tudo se resume a três palavras: **a**, **an** e **the**.\n\nOs artigos **a** e **an** equivalem a “um” e “uma”. O artigo **the** equivale a “o”, “a”, “os” e “as”. Eles não mudam para masculino, feminino ou plural.",
+      "examples": [
+        {"en": "I have a laptop.", "pt": "Eu tenho um laptop."},
+        {"en": "She is a manager.", "pt": "Ela é uma gerente."},
+        {"en": "The laptop is new.", "pt": "O laptop é novo."}
+      ],
+      "tip": "Em inglês o artigo não tem gênero: *the* serve para “o”, “a”, “os” e “as”."
+    },
+    {
+      "title": "A ou an? Depende do SOM",
+      "text": "Use **a** e **an** só com substantivos no **singular** que você pode contar (um laptop, dois laptops). A escolha entre os dois depende do **som** da primeira letra, e não da letra escrita.\n\nUse **an** quando a palavra começa com **som de vogal** (a, e, i, o, u): *an engineer*, *an email*. Use **a** quando começa com **som de consoante**: *a developer*, *a server*.",
+      "table": {
+        "headers": ["Artigo", "Quando usar", "Exemplo"],
+        "rows": [
+          ["a", "som de consoante", "a bug, a report, a user"],
+          ["an", "som de vogal", "an error, an office, an idea"],
+          ["an", "h mudo (não se pronuncia)", "an hour"],
+          ["a", "u com som de “iu”", "a user, a university"]
+        ]
+      },
+      "examples": [
+        {"en": "He is an engineer.", "pt": "Ele é engenheiro."},
+        {"en": "This is an email from the client.", "pt": "Este é um e-mail do cliente."},
+        {"en": "The meeting is in an hour.", "pt": "A reunião é daqui a uma hora."},
+        {"en": "She is a user of our app.", "pt": "Ela é usuária do nosso app."}
+      ],
+      "trap": "Preste atenção ao som, não à letra. *Hour* começa com h, mas o h é mudo, então dizemos **an hour**. *User* começa com a vogal u, mas soa “iuzer”, então dizemos **a user**."
+    },
+    {
+      "title": "The: algo conhecido ou único",
+      "text": "Use **the** quando quem fala e quem ouve já sabem de qual coisa se trata. Isso acontece, por exemplo, quando a coisa já foi mencionada, quando só existe uma ou quando o contexto deixa claro.\n\nÉ muito comum apresentar algo com **a** e, depois, falar dele com **the**: *I have a bug. The bug is in the login page.* O **the** funciona com singular e plural.",
+      "examples": [
+        {"en": "I have a laptop. The laptop is new.", "pt": "Eu tenho um laptop. O laptop é novo."},
+        {"en": "The server is down.", "pt": "O servidor está fora do ar."},
+        {"en": "Open the file, please.", "pt": "Abra o arquivo, por favor."},
+        {"en": "The developers are in the meeting.", "pt": "Os desenvolvedores estão na reunião."}
+      ],
+      "tip": "Pergunte a si mesmo: “a pessoa que me ouve já sabe qual é?”. Se sim, use **the**. Se é uma coisa nova na conversa, use **a** ou **an**."
+    },
+    {
+      "title": "Sem artigo: generalidades no plural",
+      "text": "Quando falamos de **coisas ou pessoas em geral**, no plural, não usamos artigo nenhum. Dizemos *Developers write code* para falar de desenvolvedores em geral.\n\nCompare: *Testers find bugs* (testadores em geral) e *The testers find bugs in my app* (alguns testadores específicos, que o ouvinte conhece). Lembre também que **a** e **an** nunca aparecem antes de um plural: não existe *a bugs*.",
+      "examples": [
+        {"en": "Developers write code.", "pt": "Desenvolvedores escrevem código."},
+        {"en": "Managers need reports.", "pt": "Gerentes precisam de relatórios."},
+        {"en": "Users like simple apps.", "pt": "Usuários gostam de apps simples."},
+        {"en": "The users are angry today.", "pt": "Os usuários estão irritados hoje."}
+      ],
+      "trap": "Em português é comum usar o artigo em generalidades: “Os usuários gostam de apps simples”. Em inglês, para falar em geral no plural, **tire o artigo**: *Users like simple apps*."
+    },
+    {
+      "title": "Plural regular: -s, -es e -ies",
+      "text": "Para fazer o plural da maioria dos substantivos, acrescente **-s**: *bug* vira *bugs*. Quando a palavra termina em **s, x, ch, sh** ou **z**, acrescente **-es**, porque fica mais fácil de pronunciar: *box* vira *boxes*.\n\nSe a palavra termina em **consoante + y**, troque o y por **-ies**: *city* vira *cities*. Se termina em **vogal + y**, apenas acrescente -s: *key* vira *keys*.",
+      "table": {
+        "headers": ["Regra", "Singular", "Plural"],
+        "rows": [
+          ["+ s (maioria)", "bug, laptop, report", "bugs, laptops, reports"],
+          ["+ es (s, x, ch, sh, z)", "box, class, watch", "boxes, classes, watches"],
+          ["consoante + y → ies", "city, company, library", "cities, companies, libraries"],
+          ["vogal + y → ys", "key, day, monkey", "keys, days"]
+        ]
+      },
+      "examples": [
+        {"en": "We have two laptops.", "pt": "Nós temos dois laptops."},
+        {"en": "The boxes are in the office.", "pt": "As caixas estão no escritório."},
+        {"en": "Three companies use our software.", "pt": "Três empresas usam nosso software."},
+        {"en": "I have five keys.", "pt": "Eu tenho cinco chaves."}
+      ],
+      "tip": "Em inglês o número já indica plural: depois de *two*, *three*, *many*, o substantivo vai no plural (*two bugs*)."
+    },
+    {
+      "title": "Plurais irregulares mais comuns",
+      "text": "Algumas palavras muito usadas não seguem a regra do -s. Você precisa decorá-las, mas são poucas, e todas aparecem o tempo todo no trabalho e no dia a dia.\n\nNa palavra **person**, o plural comum é **people** (e não *persons*). Em **man** e **woman**, o plural muda a vogal: **men** e **women**.",
+      "table": {
+        "headers": ["Singular", "Plural"],
+        "rows": [
+          ["man", "men"],
+          ["woman", "women"],
+          ["child", "children"],
+          ["person", "people"]
+        ]
+      },
+      "examples": [
+        {"en": "Two women are in the meeting.", "pt": "Duas mulheres estão na reunião."},
+        {"en": "Ben has two children.", "pt": "Ben tem dois filhos."},
+        {"en": "Ten people work in my team.", "pt": "Dez pessoas trabalham no meu time."},
+        {"en": "The men are in the office.", "pt": "Os homens estão no escritório."}
+      ],
+      "trap": "*People* já é plural: dizemos *people are* e não *people is*. E não existe *childs* nem *womans*: o certo é **children** e **women**."
+    },
+    {
+      "title": "Tudo junto no trabalho",
+      "text": "Agora vamos juntar tudo: artigo certo, plural certo. Imagine que você descreve a sua mesa para um colega que vai trabalhar com você.\n\nPrimeiro você apresenta as coisas com **a/an**, e depois fala delas com **the**. Para coisas em quantidade, use o plural: *two monitors*. Para generalidades, o plural sem artigo: *I like quiet offices*.",
+      "examples": [
+        {"en": "I have a laptop and two monitors.", "pt": "Eu tenho um laptop e dois monitores."},
+        {"en": "The laptop is old, but the monitors are new.", "pt": "O laptop é velho, mas os monitores são novos."},
+        {"en": "I have an idea for the project.", "pt": "Eu tenho uma ideia para o projeto."}
+      ]
+    }
+  ],
+  "summary": [
+    "Os artigos a e an significam “um/uma” e só aparecem antes de substantivos no singular; the significa “o, a, os, as”.",
+    "Use an antes de som de vogal (an hour, an email) e a antes de som de consoante (a user, a bug).",
+    "Use the quando a coisa já é conhecida ou única; para generalidades no plural, não use artigo.",
+    "O plural regular acrescenta -s; depois de s, x, ch, sh e z acrescenta -es; consoante + y vira -ies.",
+    "Irregulares para decorar: man/men, woman/women, child/children, person/people."
+  ],
+  "practice": [
+    {"id": "a1-03-p1", "type": "choice", "prompt": "She is ___ engineer.", "options": ["a", "an"], "answer": 1,
+     "explain": "Engineer começa com som de vogal, então usamos an: an engineer.",
+     "why_not": {"0": "Usamos a só antes de som de consoante, como em a developer."}},
+    {"id": "a1-03-p2", "type": "choice", "prompt": "The meeting is in ___ hour.", "options": ["a", "an"], "answer": 1,
+     "explain": "Em hour o h é mudo, e o som inicial é de vogal. Por isso dizemos an hour.",
+     "why_not": {"0": "Mesmo que hour comece com a letra h, o som é de vogal, então não usamos a."}},
+    {"id": "a1-03-p3", "type": "fill", "prompt": "I have a laptop. ___ laptop is new.", "answers": ["the"],
+     "explain": "O laptop já foi mencionado, então quem ouve sabe de qual se trata. Para algo conhecido, usamos the."},
+    {"id": "a1-03-p4", "type": "choice", "prompt": "Um box, dois ___.", "options": ["boxs", "boxes", "boxies"], "answer": 1,
+     "explain": "Palavras terminadas em x recebem -es no plural: boxes.",
+     "why_not": {"0": "Depois de x acrescentamos -es, e não só -s.", "2": "A terminação -ies só se usa quando a palavra termina em consoante + y, como city."}},
+    {"id": "a1-03-p5", "type": "fill", "prompt": "Maria has one child. Ben has two ___.", "answers": ["children"],
+     "explain": "O plural irregular de child é children."},
+    {"id": "a1-03-p6", "type": "choice", "prompt": "Falando de testadores em geral: ___ find bugs.", "options": ["Testers", "The testers", "A testers"], "answer": 0,
+     "explain": "Para falar de um grupo em geral, no plural, não usamos artigo: Testers find bugs.",
+     "why_not": {"1": "The testers fala de testadores específicos, e aqui a ideia é geral.", "2": "A nunca vem antes de plural."}},
+    {"id": "a1-03-p7", "type": "translate", "prompt": "Ela é uma gerente.", "answers": ["She is a manager."],
+     "explain": "Antes de profissão no singular usamos a ou an. Manager começa com som de consoante, então: a manager."},
+    {"id": "a1-03-p8", "type": "order", "words": ["I", "have", "a", "new", "laptop"], "prompt": "Eu tenho um laptop novo.",
+     "explain": "A ordem é sujeito + verbo + artigo + adjetivo + substantivo: a new laptop."},
+    {"id": "a1-03-p9", "type": "fix", "prompt": "He is engineer.", "answers": ["He is an engineer."],
+     "explain": "Antes de profissão no singular o inglês pede um artigo. Como engineer começa com som de vogal: an engineer."},
+    {"id": "a1-03-p10", "type": "fix", "prompt": "Two womans are in the meeting.", "answers": ["Two women are in the meeting."],
+     "explain": "Woman tem plural irregular: women. A forma womans não existe."},
+    {"id": "a1-03-p11", "type": "listen", "en": "The users have a new password.",
+     "explain": "The users é um grupo conhecido (plural, com the), e a new password usa a antes de som de consoante."},
+    {"id": "a1-03-p12", "type": "translate", "prompt": "Nós temos três empresas.", "answers": ["We have three companies."],
+     "explain": "Company termina em consoante + y, então troca o y por -ies: companies."}
+  ],
+  "quiz": [
+    {"id": "a1-03-q1", "type": "choice", "prompt": "She works at ___ office in Recife.", "options": ["a", "an"], "answer": 1,
+     "explain": "Office começa com som de vogal, então usamos an: an office.",
+     "why_not": {"0": "Usamos a só antes de som de consoante."}},
+    {"id": "a1-03-q2", "type": "fill", "prompt": "He is ___ new user.", "answers": ["a"],
+     "explain": "Depois do artigo vem new, que começa com som de consoante. Por isso dizemos a new user."},
+    {"id": "a1-03-q3", "type": "translate", "prompt": "Eu sou uma engenheira.", "answers": ["I am an engineer."],
+     "explain": "Antes de profissão no singular usamos a/an, e engineer pede an."},
+    {"id": "a1-03-q4", "type": "order", "words": ["The", "new", "developers", "are", "here"], "prompt": "Os novos desenvolvedores estão aqui.",
+     "explain": "The vem primeiro, depois o adjetivo new e o substantivo no plural: the new developers."},
+    {"id": "a1-03-q5", "type": "fix", "prompt": "I have two computer.", "answers": ["I have two computers."],
+     "explain": "Depois de two o substantivo vai no plural: two computers."},
+    {"id": "a1-03-q6", "type": "choice", "prompt": "O plural de city é:", "options": ["citys", "cities", "cityes"], "answer": 1,
+     "explain": "City termina em consoante + y, então troca o y por -ies: cities.",
+     "why_not": {"0": "Não basta acrescentar -s depois de consoante + y.", "2": "Não existe esta forma; troca-se y por -ies."}},
+    {"id": "a1-03-q7", "type": "fill", "prompt": "One person, two ___.", "answers": ["people"],
+     "explain": "O plural comum de person é people."},
+    {"id": "a1-03-q8", "type": "listen", "en": "I need a new keyboard and two monitors.",
+     "explain": "A new keyboard usa a (som de consoante) e two monitors está no plural com -s."}
+  ],
+  "words": [
+    {"word": "laptop", "pt": "laptop; notebook"},
+    {"word": "email", "pt": "e-mail"},
+    {"word": "user", "pt": "usuário; usuária"},
+    {"word": "report", "pt": "relatório"},
+    {"word": "hour", "pt": "hora"},
+    {"word": "child", "pt": "criança; filho; filha"},
+    {"word": "person", "pt": "pessoa"},
+    {"word": "woman", "pt": "mulher"},
+    {"word": "box", "pt": "caixa"},
+    {"word": "city", "pt": "cidade"}
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "r-b2-01",
+  "level": "B2",
+  "title": "Release notes: version 3.2",
+  "topic": "Release notes",
+  "text": "Release notes - Version 3.2 (stable)\n\nThis release focuses on performance and on fixing some long-standing issues reported by our users. We recommend that everyone updates as soon as possible.\n\nNew features\n- Offline mode: the app now stores your latest data on the device, so you can keep working even when the connection drops. Changes are synchronised automatically once you are back online.\n- Dark theme: you can switch themes in Settings. If your phone is set to dark mode, the app will follow it by default.\n\nImprovements\n- The start-up time has been reduced by roughly 40 percent on older devices.\n- Search results are now sorted by relevance rather than by date, which should make it easier to find what you need.\n\nBug fixes\n- Fixed a crash that occurred when users uploaded photos larger than 10 MB.\n- Fixed an issue where notifications were delivered twice.\n- Resolved a problem that prevented some people from resetting their password.\n\nKnown issues\nThe export to PDF may take longer than expected for documents with more than 200 pages. We are working on a solution and expect to release a patch next month.\n\nDeprecated\nThe old API endpoint /v1/users will stop working on 1 June. Developers who rely on it should migrate to /v2/users before that date.\n\nThank you to everyone who sent feedback. It makes a real difference.",
+  "pt": "Notas de versão - Versão 3.2 (estável)\n\nEsta versão se concentra em desempenho e na correção de alguns problemas antigos relatados por nossos usuários. Recomendamos que todos atualizem o quanto antes.\n\nNovos recursos\n- Modo offline: o aplicativo agora guarda seus dados mais recentes no dispositivo, de modo que você pode continuar trabalhando mesmo quando a conexão cai. As alterações são sincronizadas automaticamente quando você voltar a ficar online.\n- Tema escuro: você pode trocar de tema em Configurações. Se o seu celular estiver no modo escuro, o aplicativo o seguirá por padrão.\n\nMelhorias\n- O tempo de inicialização foi reduzido em cerca de 40 por cento em dispositivos mais antigos.\n- Os resultados de busca agora são ordenados por relevância, e não por data, o que deve facilitar encontrar o que você precisa.\n\nCorreções de bugs\n- Corrigido um travamento que ocorria quando usuários enviavam fotos maiores que 10 MB.\n- Corrigido um problema em que as notificações eram entregues duas vezes.\n- Resolvido um problema que impedia algumas pessoas de redefinir a senha.\n\nProblemas conhecidos\nA exportação para PDF pode demorar mais que o esperado em documentos com mais de 200 páginas. Estamos trabalhando em uma solução e esperamos lançar um patch no próximo mês.\n\nDescontinuado\nO antigo endpoint da API /v1/users deixará de funcionar em 1º de junho. Desenvolvedores que dependem dele devem migrar para /v2/users antes dessa data.\n\nObrigado a todos que enviaram feedback. Ele faz uma diferença real.",
+  "vocab": [
+    {"word": "long-standing", "pt": "antigo, de longa data"},
+    {"word": "synchronised", "pt": "sincronizadas"},
+    {"word": "relevance", "pt": "relevância"},
+    {"word": "crash", "pt": "travamento"},
+    {"word": "uploaded", "pt": "enviaram (upload)"},
+    {"word": "patch", "pt": "correção (patch)"},
+    {"word": "deprecated", "pt": "descontinuado"},
+    {"word": "migrate", "pt": "migrar"},
+    {"word": "rely", "pt": "depender"}
+  ],
+  "questions": [
+    {"id": "r-b2-01-q1", "type": "choice", "prompt": "What does the offline mode allow users to do?", "options": ["Use the app without any data stored", "Keep working when the connection drops", "Download the app without internet"], "answer": 1,
+     "explain": "O texto diz que o app guarda dados no dispositivo para “keep working even when the connection drops”."},
+    {"id": "r-b2-01-q2", "type": "choice", "prompt": "How are search results sorted now?", "options": ["By date", "Alphabetically", "By relevance"], "answer": 2,
+     "explain": "“Search results are now sorted by relevance rather than by date”."},
+    {"id": "r-b2-01-q3", "type": "choice", "prompt": "What is a known issue in this version?", "options": ["Exporting very long documents to PDF is slow", "Photos cannot be uploaded", "Passwords cannot be reset"], "answer": 0,
+     "explain": "Em “Known issues”, a exportação para PDF “may take longer than expected” em documentos com mais de 200 páginas; os outros itens foram corrigidos."},
+    {"id": "r-b2-01-q4", "type": "choice", "prompt": "What should developers using /v1/users do?", "options": ["Wait for a patch", "Move to /v2/users before 1 June", "Contact the users"], "answer": 1,
+     "explain": "O endpoint antigo vai parar de funcionar, então devem “migrate to /v2/users before that date”."},
+    {"id": "r-b2-01-q5", "type": "choice", "prompt": "In the text, “rely on” is closest to:", "options": ["depend on", "complain about", "ignore"], "answer": 0,
+     "explain": "“Developers who rely on it” são os que dependem do endpoint antigo."}
+  ]
+}

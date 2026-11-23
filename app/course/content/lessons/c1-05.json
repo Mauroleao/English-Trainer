@@ -1,0 +1,266 @@
+{
+  "id": "c1-05",
+  "level": "C1",
+  "unit": "Frases densas e reduzidas",
+  "title": "Orações participiais e reduzidas",
+  "goal": "Encurtar frases com particípios (-ing, -ed, having + particípio), construções absolutas e orações reduzidas, sem cair no erro do particípio solto.",
+  "minutes": 30,
+  "steps": [
+    {
+      "title": "Ideia central: dizer o mesmo com menos palavras",
+      "text": "Em textos mais maduros, o inglês evita repetir sujeito e verbo auxiliar. Em vez de duas orações completas, usamos uma oração principal e uma **oração participial**: uma oração curta que começa com um **particípio** (a forma do verbo terminada em **-ing** ou em **-ed**, ou a forma irregular, como *written*), sem sujeito próprio.\n\nCompare: *While she was working on the migration, Ana found a bug* e *While working on the migration, Ana found a bug*. A segunda é mais curta e mais fluida. A condição é que quem faz a ação da oração curta seja o **mesmo sujeito** da oração principal.",
+      "examples": [
+        {"en": "While working on the migration, Ana found a bug in the script.", "pt": "Enquanto trabalhava na migração, Ana encontrou um bug no script."},
+        {"en": "Checking the logs, Tom noticed a strange pattern.", "pt": "Ao verificar os logs, Tom notou um padrão estranho."},
+        {"en": "Opening the file, she saw the error at once.", "pt": "Ao abrir o arquivo, ela viu o erro de imediato."}
+      ],
+      "tip": "Antes de encurtar uma frase, pergunte: quem faz a ação da parte curta? Se for a mesma pessoa ou coisa do sujeito principal, pode encurtar."
+    },
+    {
+      "title": "Particípio presente (-ing): simultâneo, causa e sequência",
+      "text": "A oração com **-ing** pode indicar uma ação ao mesmo tempo (*Working late, I missed the call*), uma causa (*Not knowing the cause, the team checked every server*) ou uma ação logo antes da principal (*Opening the file, she saw the error*). O contexto mostra qual é o sentido.\n\nAs conjunções **while**, **before**, **after**, **when** e **by** podem ficar na frente do -ing para deixar a relação clara: *Before deploying, run the tests*. Para negar, coloque **not** antes do -ing: *Not wanting to delay the release, he worked overtime*.",
+      "table": {
+        "headers": ["Estrutura", "Sentido", "Exemplo"],
+        "rows": [
+          ["-ing sozinho", "ao mesmo tempo / causa", "Working late, I missed the call."],
+          ["While + -ing", "enquanto", "While waiting for the build, Eva read the docs."],
+          ["Before / After + -ing", "antes de / depois de", "After testing the patch, we released it."],
+          ["Not + -ing", "negativa", "Not knowing the cause, the team checked every server."]
+        ]
+      },
+      "examples": [
+        {"en": "Working late, I missed the call from the client.", "pt": "Trabalhando até tarde, perdi a ligação do cliente."},
+        {"en": "Not knowing the cause, the team checked every server.", "pt": "Sem saber a causa, a equipe verificou todos os servidores."},
+        {"en": "Before deploying, run the full test suite.", "pt": "Antes de fazer o deploy, rode a suíte de testes completa."}
+      ],
+      "trap": "Em português usamos o gerúndio de forma parecida (“Sabendo isso, ...”), mas em inglês o sujeito precisa ser o mesmo da oração principal. *Walking into the office, the server was down* diz, sem querer, que o servidor entrou andando no escritório."
+    },
+    {
+      "title": "Having + particípio: a ação já estava concluída",
+      "text": "Para mostrar que a ação da oração curta **terminou antes** da ação principal, use **having + particípio passado** (o **particípio perfeito**). *Having reviewed the code, Maya approved the pull request* diz que primeiro ela revisou e depois aprovou.\n\nA forma negativa é **not having + particípio**: *Not having backed up the data, we lost the file*. Com a forma passiva, usamos **having been + particípio**: *Having been warned about the risk, the client delayed the launch*. Essa estrutura é comum em relatórios e em e-mails formais.",
+      "table": {
+        "headers": ["Forma", "Quando usar", "Exemplo"],
+        "rows": [
+          ["Having + particípio", "ação anterior concluída", "Having fixed the bug, he deployed the patch."],
+          ["Not having + particípio", "negativa", "Not having backed up the data, we lost the file."],
+          ["Having been + particípio", "passiva, ação anterior", "Having been warned, the client delayed the launch."]
+        ]
+      },
+      "examples": [
+        {"en": "Having reviewed the code, Maya approved the pull request.", "pt": "Tendo revisado o código, Maya aprovou o pull request."},
+        {"en": "Having finished the migration, the team went home.", "pt": "Tendo terminado a migração, a equipe foi para casa."},
+        {"en": "Not having backed up the data, we lost the file.", "pt": "Por não termos feito o backup, perdemos o arquivo."},
+        {"en": "Having been warned about the risk, the client delayed the launch.", "pt": "Tendo sido avisado do risco, o cliente adiou o lançamento."}
+      ],
+      "tip": "Se o -ing simples já deixa clara a ordem dos fatos, ele basta. Use having + particípio quando quiser enfatizar que uma ação acabou antes da outra."
+    },
+    {
+      "title": "Particípio passado: sentido passivo",
+      "text": "O particípio passado (**-ed** ou irregular) no começo da frase tem sentido **passivo**: aquilo que o sujeito principal *sofreu* ou *recebeu*. *Written in Python, the script is easy to maintain* quer dizer “O script foi escrito em Python e por isso é fácil de manter”.\n\nPodemos acrescentar **if**, **once**, **although** ou **when** para tornar a relação mais clara: *Once installed, the plugin starts automatically*. Aqui também o sujeito principal (*the script*, *the plugin*) é o que recebe a ação do particípio.",
+      "examples": [
+        {"en": "Written in Python, the script is easy to maintain.", "pt": "Escrito em Python, o script é fácil de manter."},
+        {"en": "Once installed, the plugin starts automatically.", "pt": "Depois de instalado, o plugin inicia automaticamente."},
+        {"en": "Tested on three browsers, the page works well.", "pt": "Testada em três navegadores, a página funciona bem."},
+        {"en": "If left alone, the cache will grow indefinitely.", "pt": "Se for deixado sozinho, o cache vai crescer indefinidamente."}
+      ],
+      "trap": "Não misture -ing e -ed: dizemos *Written in Python, the script...* (o script é escrito) e não *Writing in Python, the script...* (o script não escreve). Quem recebe a ação usa o particípio passado."
+    },
+    {
+      "title": "Construções absolutas: sujeito próprio",
+      "text": "Quando a oração curta tem **sujeito próprio**, diferente do sujeito principal, ela é chamada de **construção absoluta**. Ela vem separada por vírgula e é típica de texto formal: *The tests having finished, we started the deployment*. A forma com **being** costuma ficar de fora: *The meeting over, everyone went back to work*.\n\nUm uso frequente é com **with**: *With the server down, we could not release*. Existem também fórmulas fixas, como **weather permitting** (se o tempo permitir) e **all things considered** (considerando tudo).",
+      "examples": [
+        {"en": "The tests having finished, we started the deployment.", "pt": "Terminados os testes, iniciamos o deploy."},
+        {"en": "The meeting over, everyone went back to work.", "pt": "Terminada a reunião, todos voltaram ao trabalho."},
+        {"en": "With the server down, we could not release the update.", "pt": "Com o servidor fora do ar, não pudemos lançar a atualização."},
+        {"en": "Weather permitting, we will hold the workshop outside.", "pt": "Se o tempo permitir, faremos o workshop ao ar livre."}
+      ],
+      "tip": "Construções absolutas soam formais. Em e-mails do dia a dia, a forma com with (With the deadline approaching, ...) é a mais natural."
+    },
+    {
+      "title": "Orações relativas reduzidas",
+      "text": "Uma **oração relativa** (introduzida por *who*, *which* ou *that*) pode ser reduzida. Se o verbo for **ativo**, ficamos com o **-ing**: *The engineer who is leading the project* vira *The engineer leading the project*. Se o verbo for **passivo**, ficamos com o **particípio passado**: *Bugs that are reported by customers* vira *Bugs reported by customers*.\n\nPara isso, retiramos o pronome relativo e o verbo **be**. A redução funciona para uma descrição que acompanha o substantivo, e deixa o texto mais enxuto, como em documentação técnica e em relatórios.",
+      "table": {
+        "headers": ["Oração completa", "Reduzida"],
+        "rows": [
+          ["The engineer who is leading the project", "The engineer leading the project"],
+          ["Bugs that are reported by customers", "Bugs reported by customers"],
+          ["The files which are stored in the cloud", "The files stored in the cloud"],
+          ["People who work in IT", "People working in IT"]
+        ]
+      },
+      "examples": [
+        {"en": "The engineer leading the project is on leave this week.", "pt": "A engenheira que lidera o projeto está de licença esta semana."},
+        {"en": "Bugs reported by customers get priority.", "pt": "Bugs relatados por clientes têm prioridade."},
+        {"en": "The data stored in the old system must be migrated.", "pt": "Os dados armazenados no sistema antigo precisam ser migrados."}
+      ],
+      "trap": "Não use -ing no lugar de um particípio passado: *The bugs reporting by customers* está errado. Se o substantivo recebe a ação (os bugs são relatados), use **reported**."
+    },
+    {
+      "title": "O particípio solto (dangling participle)",
+      "text": "O erro mais comum com essas estruturas é o **dangling participle** (particípio solto): a oração curta não combina com o sujeito da oração principal, e a frase fica ilógica ou engraçada. *Reading the error message, the bug became clear* diz que o bug leu a mensagem. A correção é trocar o sujeito: *Reading the error message, I understood the bug*.\n\nHá fórmulas aceitas, em que o sujeito é o falante ou o assunto da frase: *Generally speaking*, *judging by the logs*, *considering the cost*, *given the deadline*. Fora dessas, confira sempre o sujeito.",
+      "examples": [
+        {"en": "Walking into the office, I saw that the server was down.", "pt": "Ao entrar no escritório, vi que o servidor estava fora do ar."},
+        {"en": "Reading the error message, I understood the bug.", "pt": "Lendo a mensagem de erro, entendi o bug."},
+        {"en": "Judging by the logs, the server ran out of memory.", "pt": "A julgar pelos logs, o servidor ficou sem memória."}
+      ],
+      "trap": "Em português, “Ao entrar no escritório, o servidor estava fora do ar” passa sem problema na fala. Em inglês, a mesma construção com o mesmo sujeito errado é vista como erro em textos cuidados."
+    },
+    {
+      "title": "Em contexto: relatório de incidente",
+      "text": "Veja como as estruturas trabalham juntas em um relato curto de incidente. Cada frase usa um tipo diferente e todas respeitam a regra do sujeito.\n\nRepare na variedade: o -ing simples, o perfeito, o passivo e a relativa reduzida. Em texto técnico, é melhor alternar essas formas do que repetir sempre a mesma, e ler em voz alta ajuda a ouvir se o sujeito combina.",
+      "examples": [
+        {"en": "Checking the dashboard, Lia saw that the error rate had doubled.", "pt": "Ao verificar o painel, Lia viu que a taxa de erros tinha dobrado."},
+        {"en": "Having traced the fault to the database, she restarted the service.", "pt": "Tendo rastreado a falha até o banco de dados, ela reiniciou o serviço."},
+        {"en": "Not wanting to risk more downtime, the team froze all releases.", "pt": "Sem querer arriscar mais tempo fora do ar, a equipe congelou todos os lançamentos."},
+        {"en": "The patch applied, the system returned to normal.", "pt": "Aplicado o patch, o sistema voltou ao normal."},
+        {"en": "Users affected by the outage received a refund.", "pt": "Os usuários afetados pela queda receberam um reembolso."}
+      ],
+      "tip": "Ao revisar um texto seu, sublinhe cada oração curta que começa com particípio e pergunte: quem faz isso? A resposta deve ser o sujeito da oração principal."
+    }
+  ],
+  "summary": [
+    "Uma oração participial (-ing, -ed ou having + particípio) encurta a frase, e o sujeito dela deve ser o mesmo da oração principal.",
+    "-ing indica ação simultânea, causa ou sequência; having + particípio mostra que a ação já tinha terminado antes da principal; a negativa usa not antes (Not knowing..., Not having backed up...).",
+    "O particípio passado no início da frase tem sentido passivo: Written in Python, the script is easy to maintain.",
+    "Na construção absoluta, a oração curta tem sujeito próprio: The tests having finished, we started the deployment; With the server down, we could not release.",
+    "Orações relativas se reduzem retirando o pronome e o verbo be: The engineer leading the project; Bugs reported by customers.",
+    "Cuidado com o dangling participle: se a oração curta não combina com o sujeito principal, reescreva (Reading the error, I understood the bug)."
+  ],
+  "practice": [
+    {
+      "id": "c1-05-p1", "type": "choice",
+      "prompt": "___ the logs, Ana found the error.",
+      "options": ["Checking", "Checked", "Check"], "answer": 0,
+      "explain": "Ana é quem verifica os logs, então a ação é ativa e usamos o -ing. A oração curta tem o mesmo sujeito da principal.",
+      "why_not": {"1": "O particípio passado teria sentido passivo, como se Ana fosse verificada.", "2": "A forma base do verbo não forma uma oração participial."}
+    },
+    {
+      "id": "c1-05-p2", "type": "fill",
+      "prompt": "___ finished the migration, the team went home.",
+      "answers": ["Having"],
+      "explain": "A migração terminou antes de a equipe ir para casa. Para mostrar que a ação anterior estava concluída, usamos having + particípio passado."
+    },
+    {
+      "id": "c1-05-p3", "type": "choice",
+      "prompt": "The engineer ___ the migration is my mentor.",
+      "options": ["leading", "led", "who leading"], "answer": 0,
+      "explain": "A relativa reduzida com verbo ativo usa o -ing: the engineer who is leading vira the engineer leading.",
+      "why_not": {"1": "Led teria sentido passivo e exigiria um complemento, como led by.", "2": "Ao reduzir a oração, o pronome who sai junto com o verbo be."}
+    },
+    {
+      "id": "c1-05-p4", "type": "fill",
+      "prompt": "Not ___ the answer, she asked a colleague.",
+      "answers": ["knowing", "having"],
+      "explain": "A negativa da oração participial coloca not antes do -ing. Not knowing (sem saber) e not having (sem ter) formam frases corretas aqui."
+    },
+    {
+      "id": "c1-05-p5", "type": "fix",
+      "prompt": "The bugs reporting by customers are urgent.",
+      "answers": ["The bugs reported by customers are urgent."],
+      "explain": "Os bugs recebem a ação (são relatados por clientes), então a relativa reduzida usa o particípio passado reported e não o -ing."
+    },
+    {
+      "id": "c1-05-p6", "type": "translate",
+      "prompt": "Tendo lido o e-mail, ela respondeu.",
+      "answers": ["Having read the email, she replied.", "Having read the e-mail, she replied.", "Having read the email, she answered.", "Having read the e-mail, she answered.", "Having read the email, she responded.", "Having read the e-mail, she responded."],
+      "explain": "Tendo lido corresponde a having read, e o sujeito she vale para as duas ações. Note que read tem a mesma grafia no passado e no particípio."
+    },
+    {
+      "id": "c1-05-p7", "type": "order",
+      "words": ["Having", "read", "the", "logs", "Sam", "found", "the", "cause"],
+      "prompt": "Tendo lido os logs, Sam encontrou a causa.",
+      "answers": ["Sam found the cause having read the logs"],
+      "explain": "A oração com having + particípio vem primeiro, seguida do sujeito Sam. A oração participial concorda com o sujeito da principal."
+    },
+    {
+      "id": "c1-05-p8", "type": "choice",
+      "prompt": "Qual frase NÃO tem um particípio solto (dangling participle)?",
+      "options": ["Reading the error message, the bug became clear.", "Reading the error message, I understood the bug.", "Reading the error message, the problem was obvious."], "answer": 1,
+      "explain": "Quem lê a mensagem é I, que é também o sujeito da oração principal. As outras duas fazem o bug e o problema parecerem leitores.",
+      "why_not": {"0": "O sujeito the bug não pode ler a mensagem de erro.", "2": "O sujeito the problem não pode ler a mensagem de erro."}
+    },
+    {
+      "id": "c1-05-p9", "type": "fix",
+      "prompt": "Finished the report, Lia went home.",
+      "answers": ["Having finished the report, Lia went home."],
+      "explain": "Lia é quem terminou o relatório, então a ação é ativa. Para uma ação concluída antes da principal, usamos having finished e não só o particípio passado."
+    },
+    {
+      "id": "c1-05-p10", "type": "listen",
+      "en": "Having reviewed the code, Maya approved the pull request.",
+      "explain": "Having reviewed mostra que a revisão terminou antes da aprovação. Maya é o sujeito das duas ações."
+    },
+    {
+      "id": "c1-05-p11", "type": "choice",
+      "prompt": "Qual é a diferença principal entre Having tested the patch e Testing the patch?",
+      "options": ["Having tested deixa claro que o teste já tinha terminado antes da outra ação", "Having tested é usado só no passado e Testing só no presente", "Having tested exige um sujeito diferente do da oração principal"], "answer": 0,
+      "explain": "Having + particípio destaca que a ação da oração curta estava concluída antes da principal. O -ing simples pode indicar ação simultânea.",
+      "why_not": {"1": "Os dois podem aparecer em frases no passado; o que muda é a ordem dos fatos.", "2": "Nos dois casos o sujeito deve ser o mesmo da oração principal."}
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c1-05-q1", "type": "choice",
+      "prompt": "___ already sent the invoice, she did not send another one.",
+      "options": ["Having", "Had", "Has"], "answer": 0,
+      "explain": "Having already sent forma a oração participial perfeita, indicando uma ação anterior à principal.",
+      "why_not": {"1": "Had ... sent no início, sem inversão, não forma uma oração participial.", "2": "Has é forma conjugada e não pode abrir uma oração participial."}
+    },
+    {
+      "id": "c1-05-q2", "type": "fill",
+      "prompt": "The files ___ in the cloud are encrypted. (store)",
+      "answers": ["stored"],
+      "explain": "Os arquivos recebem a ação de armazenar, então a relativa reduzida usa o particípio passado: the files stored in the cloud."
+    },
+    {
+      "id": "c1-05-q3", "type": "translate",
+      "prompt": "Sem saber a senha, ele pediu ajuda.",
+      "answers": ["Not knowing the password, he asked for help.", "Without knowing the password, he asked for help."],
+      "explain": "Sem saber pode ser Not knowing ou Without knowing. O sujeito he serve para as duas ações."
+    },
+    {
+      "id": "c1-05-q4", "type": "order",
+      "words": ["While", "waiting", "for", "the", "build", "Eva", "read", "the", "docs"],
+      "prompt": "Enquanto esperava o build, Eva leu a documentação.",
+      "answers": ["Eva read the docs while waiting for the build"],
+      "explain": "While + -ing indica duas ações ao mesmo tempo, feitas pela mesma pessoa. A oração curta pode vir antes ou depois da principal."
+    },
+    {
+      "id": "c1-05-q5", "type": "fix",
+      "prompt": "Having finish the tests, we went home.",
+      "answers": ["Having finished the tests, we went home."],
+      "explain": "Depois de having, o verbo vai para o particípio passado: finished. A forma base finish está errada nessa estrutura."
+    },
+    {
+      "id": "c1-05-q6", "type": "choice",
+      "prompt": "Which sentence contains a dangling participle?",
+      "options": ["Opening the file, she saw the error.", "Judging by the logs, the server ran out of memory.", "Walking to the meeting room, the laptop fell on the floor."], "answer": 2,
+      "explain": "O laptop não está andando até a sala de reuniões. O sujeito da oração principal não combina com o -ing, então temos um particípio solto.",
+      "why_not": {"0": "She é quem abre o arquivo e quem vê o erro: está correta.", "1": "Judging by é uma fórmula aceita, em que o sujeito implícito é quem fala."}
+    },
+    {
+      "id": "c1-05-q7", "type": "choice",
+      "prompt": "What does “With the deadline approaching, the team worked overtime” mean?",
+      "options": ["Because the deadline was getting close, the team worked extra hours", "The team worked overtime after the deadline had passed", "The deadline approached the team to ask for overtime"], "answer": 0,
+      "explain": "With + substantivo + -ing é uma construção absoluta: the deadline tem sujeito próprio (approaching) e indica a causa de a equipe trabalhar mais.",
+      "why_not": {"1": "Approaching indica que o prazo ainda se aproximava, e não que já tinha passado.", "2": "O sujeito de approaching é the deadline, que não pede nada à equipe."}
+    },
+    {
+      "id": "c1-05-q8", "type": "listen",
+      "en": "Not knowing the cause, the team checked every server.",
+      "explain": "Not knowing indica a causa da ação principal: eles não sabiam a causa. The team é o sujeito de knowing e de checked."
+    }
+  ],
+  "words": [
+    {"word": "review", "pt": "revisar; revisão"},
+    {"word": "approve", "pt": "aprovar"},
+    {"word": "cause", "pt": "causa"},
+    {"word": "deadline", "pt": "prazo final"},
+    {"word": "approaching", "pt": "se aproximando"},
+    {"word": "permitting", "pt": "permitindo (permitting: se permitir)"},
+    {"word": "backup", "pt": "cópia de segurança"},
+    {"word": "dangling", "pt": "solto; pendurado"},
+    {"word": "reported", "pt": "relatado; informado"},
+    {"word": "stored", "pt": "armazenado; guardado"}
+  ]
+}

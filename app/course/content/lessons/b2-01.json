@@ -1,0 +1,149 @@
+{
+  "id": "b2-01",
+  "level": "B2",
+  "unit": "Tempos narrativos",
+  "title": "Past perfect e narrativa",
+  "goal": "Contar uma sequência de eventos no passado deixando claro o que aconteceu primeiro, inclusive com o past perfect continuous.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "Para que serve o past perfect",
+      "text": "Quando contamos uma história no passado, às vezes precisamos falar de algo que aconteceu **antes** de outro momento do passado. O **past perfect** é o “passado do passado”: ele marca o evento mais antigo.\n\nImagine que você chegou ao escritório às nove e a reunião começou às oito e meia. Você escolhe um ponto no passado (a sua chegada) e olha para trás: *When I arrived, the meeting had already started.* O português tem uma ideia parecida no “mais-que-perfeito” (“a reunião já tinha começado”), por isso esse tempo costuma ser intuitivo para você.",
+      "examples": [
+        {"en": "When I arrived, the meeting had already started.", "pt": "Quando cheguei, a reunião já tinha começado."},
+        {"en": "I couldn't log in because I had forgotten my password.", "pt": "Não consegui entrar porque tinha esquecido a minha senha."},
+        {"en": "She had never seen that error before yesterday.", "pt": "Ela nunca tinha visto aquele erro antes de ontem."}
+      ],
+      "tip": "Pense em duas datas: um momento de referência no passado e um evento ainda mais antigo. O past perfect é sempre o mais antigo."
+    },
+    {
+      "title": "A forma: had + particípio",
+      "text": "A estrutura é **had + particípio passado**, e o **had** não muda para nenhum pronome: *I had, you had, he had, we had, they had*. Para a negativa, use **had not** ou **hadn't**. Para perguntas, o **had** vai para antes do sujeito. A contração de afirmativa é **'d** (*I'd finished*), mas atenção: **'d** também pode ser *would*, e o contexto resolve (depois de *had* vem particípio; depois de *would* vem verbo base).\n\nLembre dos particípios irregulares que você já conhece: *gone, seen, done, written, made, known, forgotten, begun*.",
+      "table": {
+        "headers": ["Forma", "Estrutura", "Exemplo"],
+        "rows": [
+          ["Afirmativa", "had + particípio", "We had finished the release."],
+          ["Negativa", "had not / hadn't + particípio", "She hadn't read the documentation."],
+          ["Pergunta", "Had + sujeito + particípio?", "Had they tested the patch?"],
+          ["Resposta curta", "Yes, I had. / No, they hadn't.", "Had you met him? Yes, I had."]
+        ]
+      },
+      "examples": [
+        {"en": "We had finished the release before the client called.", "pt": "Tínhamos terminado a release antes de o cliente ligar."},
+        {"en": "Had they tested the patch before the deploy?", "pt": "Eles tinham testado o patch antes do deploy?"}
+      ],
+      "trap": "Nunca misture had com o passado simples: *He had went home* está errado. Depois de had vem o **particípio**: *He had gone home*."
+    },
+    {
+      "title": "Sequência de eventos: when, after, before, by the time",
+      "text": "Palavras como **after**, **before**, **when**, **by the time** e **as soon as** ligam dois eventos. A regra: o evento **mais antigo** vai para o past perfect, e o mais recente fica no past simple.\n\nCom **by the time** (“na hora em que”) o past perfect é quase obrigatório, porque a ideia é de algo já concluído. Com **after** e **before**, a ordem já está clara pela própria palavra, então o past simple também é aceito: *After I finished, I left* e *After I had finished, I left* são ambos corretos. Já com **when** a diferença é grande: muda o significado da frase.",
+      "examples": [
+        {"en": "When I got to the office, she left.", "pt": "Quando cheguei ao escritório, ela saiu. (primeiro eu cheguei, depois ela saiu)"},
+        {"en": "When I got to the office, she had left.", "pt": "Quando cheguei ao escritório, ela já tinha saído. (ela saiu antes)"},
+        {"en": "By the time we found the bug, the users had already complained.", "pt": "Quando achamos o bug, os usuários já tinham reclamado."}
+      ],
+      "tip": "Se os eventos aconteceram em ordem e você quer só narrar, use o past simple. Use o past perfect quando a ordem precisa ficar explícita ou quando o evento mais antigo é o que importa."
+    },
+    {
+      "title": "Já, nunca, só: already, just, never, by then",
+      "text": "O past perfect é o **present perfect empurrado para trás**. Se hoje você diz *I have never used Docker*, ao contar o passado diz *I had never used Docker before that project*. Todas as palavras que você já aprendeu seguem junto: **already**, **just**, **never**, **ever**, **yet**, **for** e **since**.\n\nNa narrativa, use o past perfect para dar o **pano de fundo**: uma ou duas frases para voltar no tempo e depois continue no past simple. Não coloque *had* em todas as frases do relato, senão o texto fica pesado e confuso.",
+      "examples": [
+        {"en": "I had just closed the laptop when the alarm went off.", "pt": "Eu tinha acabado de fechar o notebook quando o alarme disparou."},
+        {"en": "By then, the team had already rolled back the change.", "pt": "Até então, a equipe já tinha feito o rollback da mudança."},
+        {"en": "He hadn't slept for two days, so he made a lot of mistakes.", "pt": "Ele não dormia havia dois dias, então cometeu muitos erros."}
+      ],
+      "trap": "Em português é comum dizer “Quando cheguei, ele já saiu”, com o passado simples. Em inglês, para mostrar que ele saiu **antes**, o past perfect é o natural: *When I arrived, he had already left*."
+    },
+    {
+      "title": "Past perfect continuous: had been + -ing",
+      "text": "O **past perfect continuous** (**had been + verbo-ing**) mostra uma ação que **vinha acontecendo por um tempo** até um momento do passado. Ele é muito usado para explicar a **causa** de uma situação: *I was tired because I had been working all night*.\n\nA diferença para o simples: o contínuo foca a **atividade e a duração**; o simples foca o **resultado concluído**. Compare *She had been writing the report* (ela vinha escrevendo, talvez ainda sem terminar) com *She had written the report* (o relatório estava pronto). Verbos de estado, como *know*, *want* e *like*, não usam o contínuo.",
+      "table": {
+        "headers": ["Forma", "Exemplo"],
+        "rows": [
+          ["Afirmativa", "We had been waiting for an hour."],
+          ["Negativa", "I hadn't been sleeping well."],
+          ["Pergunta", "How long had you been working there?"],
+          ["Com since / for", "He had been debugging since six o'clock."]
+        ]
+      },
+      "examples": [
+        {"en": "My eyes hurt because I had been staring at the screen for hours.", "pt": "Meus olhos doíam porque eu estava havia horas olhando para a tela."},
+        {"en": "They had been testing the app for weeks when the client changed the requirements.", "pt": "Eles vinham testando o app havia semanas quando o cliente mudou os requisitos."}
+      ]
+    },
+    {
+      "title": "Past perfect em relatos de trabalho",
+      "text": "No trabalho de TI, esse tempo aparece em **post-mortems**, relatórios de incidente, entrevistas e e-mails que explicam o que deu errado. O padrão é: primeiro o fato principal no past simple, depois a causa ou o contexto no past perfect.\n\nExemplo de relato: *The site went down at noon. Someone had changed the configuration an hour earlier, and nobody had noticed.* O leitor entende a linha do tempo sem precisar de datas. Observe também que **had** se repete só quando necessário: na segunda parte da frase, com *and*, basta o mesmo auxiliar.",
+      "examples": [
+        {"en": "The site went down at noon because someone had changed the configuration.", "pt": "O site caiu ao meio-dia porque alguém tinha alterado a configuração."},
+        {"en": "Before the incident, the team had never tested the backup.", "pt": "Antes do incidente, a equipe nunca tinha testado o backup."},
+        {"en": "We had been monitoring the server for days, but the alert never appeared.", "pt": "Vínhamos monitorando o servidor havia dias, mas o alerta nunca apareceu."}
+      ],
+      "trap": "Cuidado para não usar o present perfect em histórias passadas: *When I arrived, he has left* está errado. Se o ponto de referência está no passado, o tempo é **had left**."
+    }
+  ],
+  "summary": [
+    "O past perfect (had + particípio) mostra o evento mais antigo entre dois momentos do passado.",
+    "Com by the time o past perfect é quase obrigatório; com after e before o past simple também funciona.",
+    "O past perfect é o present perfect deslocado para o passado: already, just, never, for e since continuam valendo.",
+    "O past perfect continuous (had been + -ing) explica a causa e a duração de algo que vinha acontecendo.",
+    "Use had só para voltar no tempo; depois continue a história no past simple."
+  ],
+  "practice": [
+    {"id": "b2-01-p1", "type": "choice", "prompt": "When I arrived at the office, the meeting ___ already started.", "options": ["had", "has", "was"], "answer": 0,
+     "explain": "A reunião começou antes da minha chegada, então precisamos do past perfect: had already started.",
+     "why_not": {"1": "Has já é o present perfect e não combina com um ponto de referência no passado.", "2": "Was already started não é uma forma de past perfect; falta o particípio com had."}},
+    {"id": "b2-01-p2", "type": "choice", "prompt": "By the time the client called, we ___ the bug.", "options": ["had fixed", "have fixed", "were fixing"], "answer": 0,
+     "explain": "By the time pede o evento já concluído antes do momento passado da ligação: had fixed.",
+     "why_not": {"1": "Have fixed é present perfect e não se liga a um momento no passado.", "2": "Were fixing indica uma ação em andamento, não concluída antes da ligação."}},
+    {"id": "b2-01-p3", "type": "choice", "prompt": "I was tired because I ___ all night.", "options": ["had been working", "was worked", "had been worked"], "answer": 0,
+     "explain": "A causa do cansaço foi uma atividade que vinha acontecendo por muito tempo: had been working (past perfect continuous).",
+     "why_not": {"1": "Was worked seria uma passiva, e a frase pede uma ação do próprio sujeito.", "2": "Had been worked também é passiva e não faz sentido aqui."}},
+    {"id": "b2-01-p4", "type": "choice", "prompt": "Qual frase mostra que o e-mail foi enviado ANTES de eu chegar?", "options": ["When I arrived, she sent the email.", "When I arrived, she had sent the email.", "When I arrived, she was sending the email."], "answer": 1,
+     "explain": "Com had sent, o envio fica no passado do passado: aconteceu antes da chegada.",
+     "why_not": {"0": "Com o past simple, ela enviou depois que cheguei.", "2": "Was sending mostra que ela estava no meio do envio quando cheguei."}},
+    {"id": "b2-01-p5", "type": "fill", "prompt": "The server crashed because nobody ___ installed the update.", "answers": ["had"],
+     "explain": "A instalação deveria ter acontecido antes da queda, então usamos o past perfect: nobody had installed."},
+    {"id": "b2-01-p6", "type": "fill", "prompt": "She was exhausted because she ___ been debugging since six o'clock.", "answers": ["had"],
+     "explain": "Had been debugging é o past perfect continuous: a atividade vinha acontecendo até o momento passado (since six)."},
+    {"id": "b2-01-p7", "type": "translate", "prompt": "Ele disse que nunca tinha visto aquele erro.", "answers": ["He said he had never seen that error.", "He said that he had never seen that error.", "He said he had never seen this error.", "He said that he had never seen this error."],
+     "explain": "Na fala indireta, o present perfect (I have never seen) vira past perfect: he had never seen."},
+    {"id": "b2-01-p8", "type": "order", "words": ["After", "we", "had", "tested", "the", "patch", "we", "released", "it"], "prompt": "Depois que testamos o patch, nós o liberamos.",
+     "explain": "O evento mais antigo (testar) vai para o past perfect: after we had tested; o mais recente fica no past simple: we released."},
+    {"id": "b2-01-p9", "type": "fix", "prompt": "When I got to the office, my colleague already went home.", "answers": ["When I got to the office, my colleague had already gone home.", "When I got to the office, my colleague had gone home already."],
+     "explain": "A saída do colega aconteceu antes da minha chegada, então precisamos de had + particípio: had already gone."},
+    {"id": "b2-01-p10", "type": "fix", "prompt": "He had went home before I arrived.", "answers": ["He had gone home before I arrived."],
+     "explain": "Depois de had usamos o particípio passado. O particípio de go é gone, e went é só o passado simples."},
+    {"id": "b2-01-p11", "type": "listen", "en": "I had never used that tool before the project.",
+     "explain": "Had never used é o past perfect com never: o uso da ferramenta nunca tinha acontecido antes do projeto."}
+  ],
+  "quiz": [
+    {"id": "b2-01-q1", "type": "choice", "prompt": "I couldn't log in because I ___ my password.", "options": ["had forgotten", "have forgotten", "was forgetting"], "answer": 0,
+     "explain": "O esquecimento veio antes do momento em que tentei entrar, por isso had forgotten.",
+     "why_not": {"1": "Have forgotten é present perfect e não combina com couldn't, que está no passado.", "2": "Was forgetting indicaria uma ação em andamento, não um fato anterior."}},
+    {"id": "b2-01-q2", "type": "choice", "prompt": "My eyes hurt because I ___ at the screen since early morning.", "options": ["had been looking", "has been looking", "was look"], "answer": 0,
+     "explain": "Since early morning mostra duração até um momento no passado; o tempo certo é had been looking.",
+     "why_not": {"1": "Has been looking é present perfect continuous e não vale para o passado nem com I.", "2": "Was look não é uma forma verbal válida; falta -ing."}},
+    {"id": "b2-01-q3", "type": "fill", "prompt": "We ___ never used Kubernetes before we joined that team.", "answers": ["had"],
+     "explain": "Never used antes de entrar na equipe é um fato mais antigo, então usamos had never used."},
+    {"id": "b2-01-q4", "type": "translate", "prompt": "Eu não tinha salvado o arquivo, então perdi tudo.", "answers": ["I hadn't saved the file, so I lost everything.", "I hadn't saved the file, so I lost it all.", "I hadn't saved the file, so I lost all of it."],
+     "explain": "Não salvar veio antes de perder, então o past perfect negativo (hadn't saved) explica a causa, e lost fica no past simple."},
+    {"id": "b2-01-q5", "type": "order", "words": ["She", "had", "been", "waiting", "for", "an", "hour", "when", "he", "called"], "prompt": "Ela estava esperando havia uma hora quando ele ligou.",
+     "explain": "Had been waiting for an hour descreve a duração até o momento em que ele ligou (past simple)."},
+    {"id": "b2-01-q6", "type": "fix", "prompt": "I was tired because I worked since six o'clock.", "answers": ["I was tired because I had been working since six o'clock."],
+     "explain": "Since indica duração até um ponto no passado, e o tempo adequado é o past perfect continuous: had been working."},
+    {"id": "b2-01-q7", "type": "listen", "en": "By the time we arrived, the demo had already finished.",
+     "explain": "By the time pede o past perfect para o evento concluído antes da chegada: the demo had already finished."}
+  ],
+  "words": [
+    {"word": "outage", "pt": "queda; interrupção de serviço"},
+    {"word": "rollback", "pt": "reversão; voltar para a versão anterior"},
+    {"word": "release", "pt": "lançamento; liberar uma versão"},
+    {"word": "previously", "pt": "anteriormente"},
+    {"word": "eventually", "pt": "por fim; no final das contas (não é “eventualmente”)"},
+    {"word": "afterwards", "pt": "depois; em seguida"},
+    {"word": "crash", "pt": "travar; cair; falha"},
+    {"word": "patch", "pt": "correção; atualização de correção"},
+    {"word": "notice", "pt": "perceber; notar"}
+  ]
+}

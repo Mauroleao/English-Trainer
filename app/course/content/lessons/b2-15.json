@@ -1,0 +1,299 @@
+{
+  "id": "b2-15",
+  "level": "B2",
+  "unit": "Registro e estilo",
+  "title": "Subjuntivo mandativo e sugestões",
+  "goal": "Fazer recomendações, exigências e sugestões com estruturas como suggest that he go, it is essential that, had better e why don't we.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "Recomendar e exigir: a ideia central",
+      "text": "Quando você **recomenda**, **sugere**, **exige** ou **insiste**, o inglês formal usa uma estrutura especial chamada **subjuntivo mandativo**: *that* + sujeito + **verbo na forma base** (sem -s, sem tempo verbal). Veja: *I suggest that he go*, e não *he goes*.\n\nO português tem algo parecido: “Sugiro que ele **vá**”, “Exijo que ele **venha**”. Em inglês, a forma base do verbo faz esse papel, e ela aparece em e-mails, regras e documentos de trabalho.",
+      "examples": [
+        {"en": "I suggest that she check the logs first.", "pt": "Sugiro que ela confira os logs primeiro."},
+        {"en": "The manager insisted that he attend the meeting.", "pt": "O gerente insistiu que ele participasse da reunião."},
+        {"en": "We recommend that Paulo install the update tonight.", "pt": "Recomendamos que Paulo instale a atualização hoje à noite."}
+      ],
+      "tip": "A forma é sempre a base do verbo, mesmo com he, she e it: he go, she check, it be."
+    },
+    {
+      "title": "Verbos que pedem that + forma base",
+      "text": "Alguns verbos de **sugestão, recomendação, exigência e pedido** levam esse padrão: *suggest*, *recommend*, *propose*, *insist*, *demand*, *require*, *request*, *urge* e *ask* (no sentido de pedir que algo seja feito).\n\nNo inglês britânico também se usa **should** + base: *I suggest that she should check*. Os dois jeitos estão corretos. O *that* pode ser omitido em frases informais: *I suggest she check the logs*.",
+      "table": {
+        "headers": ["Verbo", "Exemplo"],
+        "rows": [
+          ["suggest / propose", "I propose that we move the meeting."],
+          ["recommend", "I recommend that he take a break."],
+          ["insist", "She insists that he apologize."],
+          ["demand / require", "The policy requires that each user choose a new password."],
+          ["request / urge", "They urge that everyone back up their files."]
+        ]
+      },
+      "examples": [
+        {"en": "The client demanded that the report be ready by Monday.", "pt": "O cliente exigiu que o relatório estivesse pronto até segunda."},
+        {"en": "The policy requires that each user choose a new password.", "pt": "A política exige que cada usuário escolha uma nova senha."},
+        {"en": "I propose that we move the meeting to Friday.", "pt": "Proponho que mudemos a reunião para sexta."},
+        {"en": "I suggest that she should ask for help.", "pt": "Sugiro que ela peça ajuda."}
+      ]
+    },
+    {
+      "title": "Negativa e passiva",
+      "text": "Para a **negativa**, coloque **not** antes do verbo na forma base, **sem** *do/does*: *We recommend that he not deploy on Fridays*. Para a **passiva**, use **be + particípio passado**: *It is vital that the data be encrypted*.\n\nO verbo **be** é o caso mais visível do subjuntivo, porque ele aparece como *be* mesmo com sujeito singular, em vez de *is*. Essa forma é mais comum no inglês americano e no estilo formal em geral.",
+      "examples": [
+        {"en": "I suggest that he not send the file today.", "pt": "Sugiro que ele não envie o arquivo hoje."},
+        {"en": "We recommend that the team not deploy on Fridays.", "pt": "Recomendamos que a equipe não faça deploy às sextas."},
+        {"en": "The security team insists that all laptops be encrypted.", "pt": "A equipe de segurança insiste que todos os notebooks sejam criptografados."},
+        {"en": "It is important that every password be changed.", "pt": "É importante que toda senha seja trocada."}
+      ],
+      "trap": "Na negativa, não use *doesn't*: o certo é *that he not send*, e não *that he doesn't send* nesse estilo formal."
+    },
+    {
+      "title": "It is essential that…",
+      "text": "O mesmo padrão aparece depois de **adjetivos de importância ou necessidade**: *essential*, *vital*, *crucial*, *important*, *necessary*, *imperative*, *advisable*. Estrutura: **it is + adjetivo + that + sujeito + base**.\n\nTambém aparece depois de **substantivos** como *recommendation*, *requirement*, *demand* e *suggestion*: *the requirement that each user have a unique password*.",
+      "examples": [
+        {"en": "It is essential that he arrive on time.", "pt": "É essencial que ele chegue no horário."},
+        {"en": "It is vital that the data be backed up every night.", "pt": "É vital que os dados tenham backup toda noite."},
+        {"en": "It is crucial that every developer know the rules.", "pt": "É crucial que todo desenvolvedor conheça as regras."},
+        {"en": "Their suggestion that we wait was reasonable.", "pt": "A sugestão deles de que esperássemos era razoável."}
+      ],
+      "trap": "Não use infinitivo com sujeito depois de *that*: *It is essential that he to arrive* está errado. Diga *that he arrive*."
+    },
+    {
+      "title": "Sugestões: suggest, let's, how about, why don't we",
+      "text": "Para sugestões do dia a dia, o inglês tem várias estruturas. **Suggest** é seguido de **-ing** (*I suggest going now*) ou de **that + oração** (*I suggest that we go now*). **Let's** e **why don't we** pedem o verbo na forma base. **How about** e **what about** pedem **-ing**. **Shall we** também funciona para convidar.\n\nObserve que *suggest* **nunca** é seguido de *to + verbo*, e o destinatário da sugestão não vem logo depois dele.",
+      "table": {
+        "headers": ["Estrutura", "Exemplo", "Tom"],
+        "rows": [
+          ["I suggest + -ing", "I suggest updating the drivers.", "neutro"],
+          ["I suggest (that) + sujeito + base", "I suggest we update the drivers.", "neutro a formal"],
+          ["Let's + base", "Let's update the drivers.", "informal"],
+          ["Why don't we + base", "Why don't we update the drivers?", "informal"],
+          ["How about + -ing", "How about updating the drivers?", "informal"]
+        ]
+      },
+      "examples": [
+        {"en": "I suggest going to the meeting room.", "pt": "Sugiro irmos para a sala de reunião."},
+        {"en": "Why don't we check the logs together?", "pt": "Por que não conferimos os logs juntos?"},
+        {"en": "How about going for a coffee after the stand-up?", "pt": "Que tal tomarmos um café depois da daily?"},
+        {"en": "Let's not change the plan now.", "pt": "Vamos não mudar o plano agora."}
+      ],
+      "trap": "Em português dizemos “sugiro ele ir” ou “sugiro a você instalar”. Em inglês, *I suggest you to restart* está errado. Use *I suggest you restart* ou *I suggest restarting*."
+    },
+    {
+      "title": "Had better: conselho com consequência",
+      "text": "**Had better** + verbo na forma base dá um conselho forte, com a ideia de que, se a pessoa não seguir, haverá um problema. A forma é sempre **had better** (contraída: *'d better*), mesmo para o presente ou o futuro, e o verbo seguinte **não leva to**. A negativa é **had better not**.\n\nEle é mais forte que *should*. *You should back up the files* é um conselho amigável; *You had better back up the files* soa como um alerta. Para uma sugestão leve, prefira *should* ou *why don't you*.",
+      "examples": [
+        {"en": "You had better back up the files before the update.", "pt": "É melhor você fazer o backup dos arquivos antes da atualização."},
+        {"en": "We had better leave before the office closes.", "pt": "É melhor sairmos antes que o escritório feche."},
+        {"en": "You had better not share your password.", "pt": "É melhor você não compartilhar sua senha."}
+      ],
+      "trap": "Não escreva *had better to back up* nem *had better backing up*. Depois de *had better* vem o verbo na forma base: *had better back up*."
+    },
+    {
+      "title": "Em contexto: e-mail de equipe",
+      "text": "Veja como essas estruturas aparecem em uma mensagem de trabalho. Em e-mails formais da gerência, o subjuntivo mandativo e **it is essential that** são comuns. Entre colegas, **let's**, **how about** e **why don't we** deixam o tom mais leve.\n\nEscolha a estrutura pelo **grau de formalidade** e pela **força** da recomendação: *suggest* e *how about* são suaves, *recommend* e *had better* são fortes, *demand* e *require* são mais fortes ainda.",
+      "examples": [
+        {"en": "I recommend that every developer update the library today.", "pt": "Recomendo que todo desenvolvedor atualize a biblioteca hoje."},
+        {"en": "It is essential that nobody deploy before the review.", "pt": "É essencial que ninguém faça deploy antes da revisão."},
+        {"en": "Why don't we move the release to Monday?", "pt": "Por que não mudamos a release para segunda?"}
+      ],
+      "tip": "Se você não tem certeza se precisa de should, pode omitir: that she check está correto e é natural."
+    }
+  ],
+  "summary": [
+    "Com suggest, recommend, insist, demand, require e outros, use that + sujeito + verbo na forma base: I suggest that he go.",
+    "Na negativa, use not antes da forma base (that he not deploy); na passiva, use be + particípio (that the data be encrypted).",
+    "O mesmo padrão aparece depois de it is essential/vital/important/necessary that e de substantivos como requirement e recommendation.",
+    "Suggest nunca leva to + verbo: use -ing ou that + oração. How about leva -ing; let's e why don't we levam a forma base.",
+    "Had better + forma base dá um conselho forte com ideia de consequência; a negativa é had better not."
+  ],
+  "practice": [
+    {
+      "id": "b2-15-p1",
+      "type": "choice",
+      "prompt": "I suggest that she ___ the logs first.",
+      "options": ["check", "checking", "to check"],
+      "answer": 0,
+      "explain": "Depois de suggest that + sujeito, usamos a forma base do verbo: she check.",
+      "why_not": {"1": "Checking não pode vir depois de um sujeito explícito nesse padrão.", "2": "Depois de suggest that + sujeito não usamos to + verbo."}
+    },
+    {
+      "id": "b2-15-p2",
+      "type": "choice",
+      "prompt": "The client demanded that the report ___ ready by Monday.",
+      "options": ["be", "being", "to be"],
+      "answer": 0,
+      "explain": "O subjuntivo mandativo usa a forma base, e a forma base de to be é be: the report be ready.",
+      "why_not": {"1": "Being é gerúndio e não forma o subjuntivo.", "2": "Depois de that + sujeito não usamos to + verbo."}
+    },
+    {
+      "id": "b2-15-p3",
+      "type": "fill",
+      "prompt": "The company requires that every employee ___ the security course (complete).",
+      "answers": ["complete", "should complete"],
+      "explain": "Depois de require that, o verbo fica na forma base: every employee complete. Com should, também é correto: should complete."
+    },
+    {
+      "id": "b2-15-p4",
+      "type": "fill",
+      "prompt": "We recommend that Paulo ___ the update tonight (install).",
+      "answers": ["install", "should install"],
+      "explain": "Recomendação formal: that + sujeito + forma base. Por isso, Paulo install, mesmo sendo terceira pessoa."
+    },
+    {
+      "id": "b2-15-p5",
+      "type": "order",
+      "words": ["I", "suggest", "that", "he", "take", "a", "break"],
+      "prompt": "Sugiro que ele faça uma pausa.",
+      "answers": ["I suggest that he should take a break."],
+      "explain": "Suggest that + sujeito + forma base. Observe que take não leva -s, mesmo com he."
+    },
+    {
+      "id": "b2-15-p6",
+      "type": "fix",
+      "prompt": "I suggest you to restart the server.",
+      "answers": [
+        "I suggest you restart the server.",
+        "I suggest that you restart the server.",
+        "I suggest you should restart the server.",
+        "I suggest that you should restart the server.",
+        "I suggest restarting the server."
+      ],
+      "explain": "Suggest não aceita you to + verbo. Use that + sujeito + forma base (com ou sem that), ou -ing."
+    },
+    {
+      "id": "b2-15-p7",
+      "type": "fix",
+      "prompt": "He suggested to go to the meeting room.",
+      "answers": [
+        "He suggested going to the meeting room.",
+        "He suggested we go to the meeting room.",
+        "He suggested that we go to the meeting room."
+      ],
+      "explain": "Suggest não é seguido de to + verbo. Use -ing (suggested going) ou that + sujeito + forma base."
+    },
+    {
+      "id": "b2-15-p8",
+      "type": "choice",
+      "prompt": "You ___ finish the backup now, or the data will be lost.",
+      "options": ["had better", "would better", "have better"],
+      "answer": 0,
+      "explain": "Had better + forma base dá um conselho forte, com consequência se a pessoa não seguir.",
+      "why_not": {"1": "Would better não existe como expressão de conselho.", "2": "A expressão correta usa had, e não have: had better."}
+    },
+    {
+      "id": "b2-15-p9",
+      "type": "fill",
+      "prompt": "How ___ checking the logs together?",
+      "answers": ["about"],
+      "explain": "How about + -ing é uma sugestão informal: How about checking the logs together?"
+    },
+    {
+      "id": "b2-15-p10",
+      "type": "translate",
+      "prompt": "É essencial que ele chegue a tempo.",
+      "answers": [
+        "It is essential that he arrive on time.",
+        "It is essential that he should arrive on time."
+      ],
+      "explain": "Depois de it is essential that, usamos o subjuntivo mandativo: he arrive, sem -s. Com should também é correto."
+    },
+    {
+      "id": "b2-15-p11",
+      "type": "choice",
+      "prompt": "The manager recommended that the team ___ deploy on Fridays.",
+      "options": ["not", "no", "non"],
+      "answer": 0,
+      "explain": "Na negativa do subjuntivo mandativo, colocamos not antes da forma base: the team not deploy.",
+      "why_not": {"1": "No não nega o verbo; ele acompanha substantivos (no deploy).", "2": "Non é prefixo, e não uma palavra de negação usada assim."}
+    },
+    {
+      "id": "b2-15-p12",
+      "type": "listen",
+      "en": "It is essential that every password be changed every month.",
+      "explain": "Depois de it is essential that, o verbo fica na forma base. Na passiva, usamos be + particípio: be changed."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "b2-15-q1",
+      "type": "choice",
+      "prompt": "The policy requires that each user ___ a new password.",
+      "options": ["choose", "choosing", "to choose"],
+      "answer": 0,
+      "explain": "Depois de require that + sujeito, o verbo fica na forma base: each user choose.",
+      "why_not": {"1": "Choosing não pode vir depois de um sujeito explícito nesse padrão.", "2": "Depois de that + sujeito não usamos to + verbo."}
+    },
+    {
+      "id": "b2-15-q2",
+      "type": "fill",
+      "prompt": "I recommend that Elena ___ the client before the demo (call).",
+      "answers": ["call", "should call"],
+      "explain": "Recomendação com that + sujeito + forma base: Elena call. Com should, também é correto."
+    },
+    {
+      "id": "b2-15-q3",
+      "type": "translate",
+      "prompt": "Eu sugiro que ela peça ajuda.",
+      "answers": [
+        "I suggest that she ask for help.",
+        "I suggest she ask for help.",
+        "I suggest that she should ask for help.",
+        "I suggest she should ask for help."
+      ],
+      "explain": "Suggest that + sujeito + forma base: she ask, sem -s. O that pode ser omitido."
+    },
+    {
+      "id": "b2-15-q4",
+      "type": "order",
+      "words": ["We", "had", "better", "leave", "before", "the", "office", "closes"],
+      "prompt": "É melhor sairmos antes que o escritório feche.",
+      "explain": "Had better + forma base (leave), sem to. Depois de before, o presente simples (closes) fala do futuro."
+    },
+    {
+      "id": "b2-15-q5",
+      "type": "fix",
+      "prompt": "I suggest to update the drivers.",
+      "answers": [
+        "I suggest updating the drivers.",
+        "I suggest that we update the drivers.",
+        "I suggest we update the drivers."
+      ],
+      "explain": "Suggest não é seguido de to + verbo. Use -ing ou that + sujeito + forma base."
+    },
+    {
+      "id": "b2-15-q6",
+      "type": "choice",
+      "prompt": "___ going for a coffee after the stand-up?",
+      "options": ["How about", "Why don't", "Let's"],
+      "answer": 0,
+      "explain": "How about é seguido de -ing: How about going for a coffee?",
+      "why_not": {"1": "Why don't pede o verbo na forma base: Why don't we go.", "2": "Let's pede a forma base: Let's go, e não Let's going."}
+    },
+    {
+      "id": "b2-15-q7",
+      "type": "fix",
+      "prompt": "You had better to back up the files.",
+      "answers": ["You had better back up the files."],
+      "explain": "Depois de had better, o verbo fica na forma base e não leva to: had better back up."
+    },
+    {
+      "id": "b2-15-q8",
+      "type": "listen",
+      "en": "I suggest that he not send the file today.",
+      "explain": "Na negativa do subjuntivo mandativo, usamos not + forma base: he not send, sem doesn't."
+    }
+  ],
+  "words": [
+    {"word": "suggest", "pt": "sugerir"},
+    {"word": "recommend", "pt": "recomendar"},
+    {"word": "insist", "pt": "insistir"},
+    {"word": "demand", "pt": "exigir; exigência"},
+    {"word": "require", "pt": "exigir; requerer"},
+    {"word": "propose", "pt": "propor"},
+    {"word": "essential", "pt": "essencial"},
+    {"word": "vital", "pt": "vital; fundamental"},
+    {"word": "had better", "pt": "é melhor (conselho forte)"},
+    {"word": "encrypted", "pt": "criptografado"}
+  ]
+}

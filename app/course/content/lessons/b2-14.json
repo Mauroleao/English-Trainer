@@ -1,0 +1,325 @@
+{
+  "id": "b2-14",
+  "level": "B2",
+  "unit": "Vocabulário em uso",
+  "title": "Collocations e formação de palavras",
+  "goal": "Combinar verbos e substantivos de forma natural (make a decision, meet a deadline) e criar palavras novas com prefixos, sufixos e famílias de palavras.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "O que são collocations",
+      "text": "**Collocations** são combinações de palavras que os falantes nativos usam juntas. Em inglês dizemos *make a decision*, e não *do a decision*. Cada substantivo “escolhe” o seu verbo, e nem sempre essa escolha coincide com o português.\n\nPor exemplo, em português “fazemos” uma decisão, um erro e um teste. Em inglês, são *make a decision*, *make a mistake* e *run a test*. Por isso, aprenda sempre a combinação inteira, e não só a palavra solta.",
+      "examples": [
+        {"en": "We need to make a decision before Friday.", "pt": "Precisamos tomar uma decisão antes de sexta."},
+        {"en": "She made a mistake in the config file.", "pt": "Ela cometeu um erro no arquivo de configuração."},
+        {"en": "Please run the tests again after the fix.", "pt": "Por favor, rode os testes de novo depois da correção."}
+      ],
+      "tip": "Ao aprender uma palavra nova, anote com ela um verbo que combina: decision → make; research → do; deadline → meet."
+    },
+    {
+      "title": "Make × do",
+      "text": "De forma geral, **make** é usado para **criar ou produzir** algo (um resultado): *make a decision*, *make a mistake*, *make progress*, *make an effort*, *make a suggestion*, *make a difference*, *make sense*. **Do** é usado para **atividades, tarefas e trabalho**: *do homework*, *do research*, *do a good job*, *do some testing*, *do your best*, *do business*.\n\nEssa é uma tendência, não uma regra absoluta, e muitas combinações precisam ser decoradas. Na dúvida, consulte um dicionário de collocations.",
+      "table": {
+        "headers": ["make", "do"],
+        "rows": [
+          ["make a decision", "do research"],
+          ["make a mistake", "do your best"],
+          ["make progress", "do a good job"],
+          ["make an effort", "do some testing"],
+          ["make sense", "do business"]
+        ]
+      },
+      "examples": [
+        {"en": "The team made good progress this week.", "pt": "A equipe fez bom progresso esta semana."},
+        {"en": "Her explanation made sense to everyone.", "pt": "A explicação dela fez sentido para todos."},
+        {"en": "Please do your best to finish the review today.", "pt": "Por favor, faça o seu melhor para terminar a revisão hoje."},
+        {"en": "She does research on user behavior.", "pt": "Ela faz pesquisa sobre o comportamento dos usuários."}
+      ],
+      "trap": "Em português “fazer” cobre tudo. Em inglês, *do a mistake* e *make research* estão errados. Diga *make a mistake* e *do research*."
+    },
+    {
+      "title": "Take, have e give",
+      "text": "Outros três verbos comuns formam muitas collocations. **Take** aparece em *take a break*, *take notes*, *take responsibility*, *take a risk*, *take advantage of*. **Have** aparece em *have a meeting*, *have a problem*, *have a chat*, *have a look*, *have an idea*. **Give** aparece em *give a presentation*, *give feedback*, *give a demo*, *give advice*, *give an answer*.\n\nCom essas combinações, o verbo tem pouco sentido por si só: quem dá a informação é o substantivo.",
+      "examples": [
+        {"en": "Let's take a short break after the meeting.", "pt": "Vamos fazer um breve intervalo depois da reunião."},
+        {"en": "We have a problem with the login page.", "pt": "Temos um problema com a página de login."},
+        {"en": "Marta will give a demo to the client.", "pt": "Marta vai fazer uma demonstração para o cliente."},
+        {"en": "Please give me some feedback on my pull request.", "pt": "Por favor, dê-me um retorno sobre o meu pull request."}
+      ],
+      "trap": "Em inglês, *advice* é incontável: *give advice* ou *a piece of advice*, e não *give an advice*. O mesmo vale para *feedback*."
+    },
+    {
+      "title": "Collocations de TI e trabalho",
+      "text": "Na área de tecnologia, algumas combinações aparecem o tempo todo. Você *runs* um teste (ou um script), *raises* uma questão (*raise an issue*), *meets* um prazo e *fixes* um bug. Quando o prazo é perdido, você *misses* o deadline.\n\nOutras combinações úteis: *reproduce a bug*, *resolve an issue*, *handle an error*, *launch a product*, *set a deadline*, *meet the requirements*. Usar o verbo certo faz o seu inglês soar muito mais profissional.",
+      "table": {
+        "headers": ["Collocation", "Significado"],
+        "rows": [
+          ["run a test", "rodar um teste"],
+          ["raise an issue", "levantar um problema ou abrir uma issue"],
+          ["meet a deadline", "cumprir um prazo"],
+          ["miss a deadline", "perder um prazo"],
+          ["fix a bug", "corrigir um bug"],
+          ["reproduce a bug", "reproduzir um bug"]
+        ]
+      },
+      "examples": [
+        {"en": "She raised an issue about the new design in the meeting.", "pt": "Ela levantou um problema sobre o novo design na reunião."},
+        {"en": "We worked all weekend to meet the deadline.", "pt": "Trabalhamos o fim de semana inteiro para cumprir o prazo."},
+        {"en": "Can you reproduce the bug on your machine?", "pt": "Você consegue reproduzir o bug na sua máquina?"}
+      ]
+    },
+    {
+      "title": "Prefixos: re-, un-, mis-, over-, dis-",
+      "text": "Um **prefixo** é uma partícula colocada no início de uma palavra para mudar seu sentido. **Re-** indica repetição (*rebuild* = construir de novo). **Un-** e **dis-** indicam o oposto (*unclear*, *disconnect*). **Mis-** indica erro (*misread* = ler errado). **Over-** indica excesso (*overload*).\n\nO prefixo não muda a grafia da palavra original: *re* + *start* = *restart*. Mas atenção: nem toda palavra aceita todos os prefixos, então confirme no dicionário.",
+      "table": {
+        "headers": ["Prefixo", "Sentido", "Exemplos"],
+        "rows": [
+          ["re-", "de novo", "restart, rebuild, rewrite"],
+          ["un-", "oposto, desfazer", "unclear, unable, unlock"],
+          ["dis-", "oposto, separar", "disconnect, disagree"],
+          ["mis-", "errado, mal", "misread, misunderstand, misconfigured"],
+          ["over-", "demais", "overload, overheat, overestimate"]
+        ]
+      },
+      "examples": [
+        {"en": "Please restart the server.", "pt": "Por favor, reinicie o servidor."},
+        {"en": "I misread the error message.", "pt": "Li a mensagem de erro errado."},
+        {"en": "The old laptop overheats after an hour.", "pt": "O notebook antigo superaquece depois de uma hora."},
+        {"en": "The instructions were unclear.", "pt": "As instruções estavam pouco claras."}
+      ],
+      "trap": "Não invente o oposto com un-: o contrário de *possible* é *impossible*, e não *unpossible*. Para muitos adjetivos o prefixo é in-, im-, il- ou ir- (incorrect, impossible, illegal, irregular)."
+    },
+    {
+      "title": "Sufixos: -tion, -ment, -able, -er/-or",
+      "text": "Um **sufixo** vem no final da palavra e muda a **classe gramatical**. **-tion** e **-ment** formam **substantivos** a partir de verbos: *integrate* → *integration*, *deploy* → *deployment*. **-able** e **-ible** formam **adjetivos** com o sentido “que pode ser…”: *read* → *readable*. **-er** e **-or** indicam **pessoa ou ferramenta**: *develop* → *developer*, *edit* → *editor*.\n\nCuidado com mudanças de grafia: *decide* → *decision* e *scale* → *scalable* (o e final cai antes de -able).",
+      "table": {
+        "headers": ["Sufixo", "Cria", "Exemplos"],
+        "rows": [
+          ["-tion / -ation", "substantivo", "integrate → integration; implement → implementation"],
+          ["-ment", "substantivo", "deploy → deployment; improve → improvement"],
+          ["-able / -ible", "adjetivo (que pode ser…)", "read → readable; scale → scalable; access → accessible"],
+          ["-er / -or", "pessoa ou ferramenta", "develop → developer; edit → editor"]
+        ]
+      },
+      "examples": [
+        {"en": "The integration of the two systems took a month.", "pt": "A integração dos dois sistemas levou um mês."},
+        {"en": "We saw a clear improvement in response time.", "pt": "Vimos uma melhoria clara no tempo de resposta."},
+        {"en": "A tool that you can easily scale is scalable.", "pt": "Uma ferramenta que você consegue escalar com facilidade é escalável."},
+        {"en": "The code is clean and easy to read, so it is very readable.", "pt": "O código é limpo e fácil de ler, então é muito legível."}
+      ]
+    },
+    {
+      "title": "Famílias de palavras",
+      "text": "Uma **família de palavras** reúne as formas de uma mesma raiz: verbo, substantivo, adjetivo e advérbio. Conhecer a família multiplica seu vocabulário e ajuda a escolher a classe certa para cada posição da frase: o substantivo vem depois de *a/the*, o adjetivo antes do substantivo ou depois de *be*, o advérbio descreve um verbo.\n\nA tabela mostra algumas famílias muito usadas em relatórios.",
+      "table": {
+        "headers": ["Verbo", "Substantivo", "Adjetivo", "Advérbio"],
+        "rows": [
+          ["decide", "decision", "decisive", "decisively"],
+          ["succeed", "success", "successful", "successfully"],
+          ["create", "creation", "creative", "creatively"],
+          ["differ", "difference", "different", "differently"],
+          ["analyze", "analysis", "analytical", "analytically"]
+        ]
+      },
+      "examples": [
+        {"en": "The decision was fast, and the team decided quickly.", "pt": "A decisão foi rápida, e a equipe decidiu depressa."},
+        {"en": "The project was a success.", "pt": "O projeto foi um sucesso."},
+        {"en": "The project was successful.", "pt": "O projeto foi bem-sucedido."},
+        {"en": "The update was successfully installed.", "pt": "A atualização foi instalada com sucesso."}
+      ],
+      "trap": "Não troque a classe: *The project was success* está errado. Use o substantivo com artigo (*a success*) ou o adjetivo (*successful*)."
+    }
+  ],
+  "summary": [
+    "Collocations são combinações naturais; aprenda o verbo junto com o substantivo (make a decision, meet a deadline, run a test).",
+    "Make costuma indicar criar ou produzir um resultado (make a mistake); do costuma indicar atividade ou tarefa (do research, do your best).",
+    "Take, have e give formam muitas combinações com pouco sentido próprio: take a break, have a meeting, give feedback.",
+    "Prefixos mudam o sentido: re- (de novo), un-/dis- (oposto), mis- (errado), over- (demais).",
+    "Sufixos mudam a classe: -tion/-ment formam substantivos, -able forma adjetivos, -er/-or indicam pessoa ou ferramenta.",
+    "Em uma família de palavras, escolha a forma pela posição na frase: substantivo, adjetivo ou advérbio."
+  ],
+  "practice": [
+    {
+      "id": "b2-14-p1",
+      "type": "choice",
+      "prompt": "We need to ___ a decision before Friday.",
+      "options": ["make", "do", "put"],
+      "answer": 0,
+      "explain": "A collocation correta é make a decision, e o verbo make costuma indicar criar um resultado.",
+      "why_not": {"1": "Do a decision não é uma combinação usada em inglês.", "2": "Put a decision não existe como collocation."}
+    },
+    {
+      "id": "b2-14-p2",
+      "type": "choice",
+      "prompt": "We worked all weekend to ___ the deadline.",
+      "options": ["meet", "do", "win"],
+      "answer": 0,
+      "explain": "Para cumprir um prazo, a collocation é meet a deadline.",
+      "why_not": {"1": "Do a deadline não existe.", "2": "Win a deadline não faz sentido; ganhamos disputas, e não prazos."}
+    },
+    {
+      "id": "b2-14-p3",
+      "type": "choice",
+      "prompt": "Please ___ the tests again after the fix.",
+      "options": ["run", "make", "catch"],
+      "answer": 0,
+      "explain": "Run a test (ou run the tests) é a collocation padrão para rodar um teste.",
+      "why_not": {"1": "Make the tests significaria criar os testes, e não executá-los.", "2": "Catch a test não é usado com esse sentido."}
+    },
+    {
+      "id": "b2-14-p4",
+      "type": "fill",
+      "prompt": "Let's ___ a short break after the long meeting.",
+      "answers": ["take", "have"],
+      "explain": "Take a break e have a break são collocations corretas e significam fazer um intervalo."
+    },
+    {
+      "id": "b2-14-p5",
+      "type": "fix",
+      "prompt": "I did a mistake in the config file.",
+      "answers": ["I made a mistake in the config file."],
+      "explain": "A collocation é make a mistake, e não do a mistake. Em inglês o erro é algo produzido (made)."
+    },
+    {
+      "id": "b2-14-p6",
+      "type": "fix",
+      "prompt": "She makes research on user behavior.",
+      "answers": [
+        "She does research on user behavior.",
+        "She carries out research on user behavior.",
+        "She conducts research on user behavior."
+      ],
+      "explain": "Pesquisa combina com do research (ou carry out/conduct research), e não com make research."
+    },
+    {
+      "id": "b2-14-p7",
+      "type": "choice",
+      "prompt": "Qual é o oposto de possible?",
+      "options": ["impossible", "unpossible", "dispossible"],
+      "answer": 0,
+      "explain": "O oposto de possible é impossible. Para muitos adjetivos o prefixo é in-, im-, il- ou ir-, e não un-.",
+      "why_not": {"1": "Unpossible não existe como palavra em inglês padrão.", "2": "Dispossible não existe."}
+    },
+    {
+      "id": "b2-14-p8",
+      "type": "choice",
+      "prompt": "Which prefix means “again”, as in *rebuild* and *restart*?",
+      "options": ["re-", "un-", "mis-"],
+      "answer": 0,
+      "explain": "O prefixo re- indica repetição: rebuild é construir de novo, restart é começar de novo.",
+      "why_not": {"1": "Un- indica o oposto ou desfazer uma ação.", "2": "Mis- indica erro, como em misread."}
+    },
+    {
+      "id": "b2-14-p9",
+      "type": "fill",
+      "prompt": "(succeed) The release was very ___, so the client was happy.",
+      "answers": ["successful"],
+      "explain": "Depois de was very vem um adjetivo, e o adjetivo da família de succeed é successful."
+    },
+    {
+      "id": "b2-14-p10",
+      "type": "translate",
+      "prompt": "Ela cumpriu o prazo.",
+      "answers": [
+        "She met the deadline.",
+        "She met her deadline.",
+        "She made the deadline.",
+        "She hit the deadline."
+      ],
+      "explain": "Cumprir um prazo é meet a deadline. O verbo meet está no passado simples: met."
+    },
+    {
+      "id": "b2-14-p11",
+      "type": "order",
+      "words": ["I", "misread", "the", "error", "message"],
+      "prompt": "Eu li errado a mensagem de erro.",
+      "explain": "Mis- indica erro, então misread significa ler errado. O passado de misread tem a mesma escrita do presente."
+    },
+    {
+      "id": "b2-14-p12",
+      "type": "listen",
+      "en": "The team raised an issue about the unstable build.",
+      "explain": "Raise an issue é uma collocation comum de TI. Unstable usa o prefixo un- para indicar o oposto de stable."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "b2-14-q1",
+      "type": "choice",
+      "prompt": "Please ___ your best to finish the review today.",
+      "options": ["do", "make", "take"],
+      "answer": 0,
+      "explain": "A collocation é do your best, e o verbo do indica a atividade de se esforçar.",
+      "why_not": {"1": "Make your best não existe; a forma com make é make an effort.", "2": "Take your best não é usado com esse sentido."}
+    },
+    {
+      "id": "b2-14-q2",
+      "type": "fill",
+      "prompt": "The manager asked us to ___ notes during the workshop.",
+      "answers": ["take", "make"],
+      "explain": "Take notes é a forma mais comum, e make notes também é usada, sobretudo no inglês britânico."
+    },
+    {
+      "id": "b2-14-q3",
+      "type": "translate",
+      "prompt": "Ele levantou um problema na reunião.",
+      "answers": [
+        "He raised an issue in the meeting.",
+        "He raised an issue at the meeting.",
+        "He raised an issue during the meeting.",
+        "He raised a problem in the meeting.",
+        "He raised a problem at the meeting.",
+        "He raised a problem during the meeting."
+      ],
+      "explain": "Levantar um problema é raise an issue (ou raise a problem). O verbo raise combina com issue."
+    },
+    {
+      "id": "b2-14-q4",
+      "type": "order",
+      "words": ["Please", "give", "me", "a", "quick", "demo"],
+      "prompt": "Por favor, me dê uma demonstração rápida.",
+      "explain": "A collocation é give a demo. O objeto indireto me vem logo depois de give."
+    },
+    {
+      "id": "b2-14-q5",
+      "type": "fix",
+      "prompt": "We need to make a better decide.",
+      "answers": ["We need to make a better decision."],
+      "explain": "Depois de a better vem um substantivo. O substantivo da família de decide é decision."
+    },
+    {
+      "id": "b2-14-q6",
+      "type": "choice",
+      "prompt": "A tool that you can easily scale is ___.",
+      "options": ["scalable", "scaleful", "scaling"],
+      "answer": 0,
+      "explain": "O sufixo -able forma adjetivos com o sentido “que pode ser…”. Como scale termina em e, o e cai: scalable.",
+      "why_not": {"1": "Scaleful não existe em inglês.", "2": "Scaling é o gerúndio e não significa “que pode ser escalado”."}
+    },
+    {
+      "id": "b2-14-q7",
+      "type": "listen",
+      "en": "She made a mistake, but she fixed it quickly.",
+      "explain": "Make a mistake é a collocation correta, e fix it quickly usa o advérbio quickly para descrever o verbo."
+    },
+    {
+      "id": "b2-14-q8",
+      "type": "fill",
+      "prompt": "(improve) We saw a clear ___ in response time after the update.",
+      "answers": ["improvement"],
+      "explain": "Depois de a clear vem um substantivo. O sufixo -ment forma o substantivo improvement a partir de improve."
+    }
+  ],
+  "words": [
+    {"word": "collocation", "pt": "combinação natural de palavras"},
+    {"word": "deadline", "pt": "prazo"},
+    {"word": "issue", "pt": "problema; questão; issue (em repositórios)"},
+    {"word": "prefix", "pt": "prefixo"},
+    {"word": "suffix", "pt": "sufixo"},
+    {"word": "feedback", "pt": "retorno; opinião"},
+    {"word": "decision", "pt": "decisão"},
+    {"word": "improvement", "pt": "melhoria"},
+    {"word": "misread", "pt": "ler errado; interpretar mal"},
+    {"word": "scalable", "pt": "escalável"}
+  ]
+}

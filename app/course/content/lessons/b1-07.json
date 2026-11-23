@@ -1,0 +1,166 @@
+{
+  "id": "b1-07",
+  "level": "B1",
+  "unit": "Futuro e condições",
+  "title": "Second conditional e wish (introdução)",
+  "goal": "Falar de situações imaginárias ou improváveis com if + past simple e would, dar conselhos com If I were you e expressar desejos sobre o presente com wish.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "Situações imaginárias ou improváveis",
+      "text": "O **second conditional** (segunda condicional) fala de situações **imaginárias, improváveis ou contrárias à realidade** no presente ou no futuro. Você não diz “se isso acontecer”, e sim “imagine que isso acontecesse”.\n\nEm português usamos o imperfeito do subjuntivo: “Se eu **tivesse** mais tempo, eu **aprenderia** Rust.” Em inglês: *If I had more time, I would learn Rust.* Na prática, você não tem mais tempo, e por isso a situação é imaginária.",
+      "examples": [
+        {"en": "If I had more time, I would learn Rust.", "pt": "Se eu tivesse mais tempo, eu aprenderia Rust."},
+        {"en": "If we had a bigger budget, we would hire more testers.", "pt": "Se tivéssemos um orçamento maior, contrataríamos mais testadores."},
+        {"en": "If she knew the answer, she would tell us.", "pt": "Se ela soubesse a resposta, ela nos diria."}
+      ],
+      "tip": "Compare: *If I have time, I will help you* (possível, first conditional) e *If I had time, I would help you* (na verdade não tenho tempo)."
+    },
+    {
+      "title": "A forma: if + past simple, would + verbo base",
+      "text": "A estrutura é **if + past simple** na condição e **would + verbo base** no resultado. O past simple aqui **não fala do passado**: é só uma forma que marca a situação como imaginária. O tempo da frase é o presente ou o futuro.\n\nNa negativa, usamos **didn't** na condição e **wouldn't** (would not) no resultado. A contração de would é **'d**, mas na escrita deste curso usamos a forma completa.",
+      "table": {
+        "headers": ["Tipo", "if + past simple", "would + verbo base"],
+        "rows": [
+          ["Afirmativa", "If I had more time,", "I would learn Rust."],
+          ["Negativa (if)", "If we didn't have a deadline,", "we would relax."],
+          ["Negativa (principal)", "If it were easier,", "I wouldn't complain."],
+          ["Pergunta", "What would you do", "if you lost your job?"]
+        ]
+      },
+      "examples": [
+        {"en": "If we didn't have a deadline, we would relax.", "pt": "Se não tivéssemos um prazo, relaxaríamos."},
+        {"en": "What would you do if you lost your job?", "pt": "O que você faria se perdesse o emprego?"},
+        {"en": "I would buy a better laptop if I had the money.", "pt": "Eu compraria um laptop melhor se tivesse o dinheiro."}
+      ],
+      "trap": "Não use would nas duas partes: *If I would have time, I would learn* está errado. A condição usa o past simple: *If I had time, I would learn*."
+    },
+    {
+      "title": "Were para todas as pessoas",
+      "text": "Com o verbo **to be** na oração com if, a forma padrão é **were** para **todas** as pessoas, inclusive **I**, **he**, **she** e **it**: *If I were rich*, *If she were here*, *If it were easier*.\n\nNa conversa informal, muitos falantes dizem *If I was rich*, e você vai ouvir isso. Mas **were** é a forma recomendada, a que aparece na escrita cuidadosa e em provas. Por isso, neste curso, use **were**.",
+      "examples": [
+        {"en": "If I were rich, I would not work.", "pt": "Se eu fosse rico, eu não trabalharia."},
+        {"en": "If the app were faster, users would be happier.", "pt": "Se o app fosse mais rápido, os usuários ficariam mais felizes."},
+        {"en": "If she were here, she would help us.", "pt": "Se ela estivesse aqui, ela nos ajudaria."}
+      ],
+      "tip": "Pense em were como o equivalente do “fosse” do português: se você diria “fosse”, escreva were."
+    },
+    {
+      "title": "Would, could e might no resultado",
+      "text": "Na oração principal, **would** é o mais comum e indica um resultado que você imagina como **certo**, dentro da situação hipotética. Use **could** para dizer **“poderia”** (possibilidade ou capacidade) e **might** para um resultado **só possível**, menos certo.\n\nA diferença é de certeza: *I would finish* (eu terminaria), *I could finish* (eu teria condições de terminar) e *I might finish* (talvez eu terminasse).",
+      "table": {
+        "headers": ["Modal", "Sentido", "Exemplo"],
+        "rows": [
+          ["would", "resultado imaginado", "If I had a car, I would drive to work."],
+          ["could", "poderia (possibilidade)", "If I had a car, I could drive to work."],
+          ["might", "talvez", "If I had a car, I might drive to work."]
+        ]
+      },
+      "examples": [
+        {"en": "If I had a car, I would drive to work.", "pt": "Se eu tivesse um carro, eu iria de carro para o trabalho."},
+        {"en": "If we had more servers, we could handle more users.", "pt": "Se tivéssemos mais servidores, poderíamos atender mais usuários."},
+        {"en": "If he practiced more, he might pass the interview.", "pt": "Se ele praticasse mais, talvez passasse na entrevista."}
+      ]
+    },
+    {
+      "title": "If I were you: dando conselhos",
+      "text": "A expressão **If I were you, I would...** é a maneira mais comum de dar **conselho** em inglês. Você se coloca no lugar da outra pessoa: “se eu fosse você, eu...”.\n\nÉ educada e suave, mais do que dizer *You must...*. Você também pode pedir conselho assim: *What would you do?* (O que você faria?). Aqui usamos sempre **were** depois de *If I*.",
+      "examples": [
+        {"en": "If I were you, I would back up the files first.", "pt": "Se eu fosse você, faria backup dos arquivos primeiro."},
+        {"en": "If I were you, I wouldn't click that link.", "pt": "Se eu fosse você, não clicaria nesse link."},
+        {"en": "What would you do if you were me?", "pt": "O que você faria se fosse eu?"}
+      ],
+      "trap": "Não traduza “se eu fosse você” palavra por palavra com *am* ou *would*. Em inglês, não use *If I am you* nem *If I would be you*: diga *If I were you*."
+    },
+    {
+      "title": "Wish + past simple: desejos sobre o presente",
+      "text": "Para falar de algo que você **gostaria que fosse diferente** no presente, use **wish + past simple**. Como no second conditional, o past simple aqui indica que a situação **não é real** agora.\n\nVocê pode usar *wish* com **could** para uma habilidade que não tem (*I wish I could swim*) e com **were** para um estado: *I wish I were taller*. Em português dizemos “Queria ter mais tempo” ou “Quem dera eu soubesse”.",
+      "examples": [
+        {"en": "I wish I had more free time.", "pt": "Queria ter mais tempo livre."},
+        {"en": "I wish I knew the answer.", "pt": "Queria saber a resposta."},
+        {"en": "I wish I could speak English better.", "pt": "Queria poder falar inglês melhor."},
+        {"en": "I wish it were Friday.", "pt": "Queria que fosse sexta-feira."}
+      ],
+      "trap": "Não escreva *I wish I have more time*. Depois de **wish** (sobre o presente) use o passado: *I wish I had more time*. O passado aqui não é tempo passado, é irrealidade."
+    },
+    {
+      "title": "First ou second conditional? A escolha é sua intenção",
+      "text": "A escolha entre first e second conditional não depende de a situação ser mais fácil ou mais difícil, e sim de **como você a vê**. Se a possibilidade é real, use o **first** (*if + presente, will*). Se é imaginária ou improvável, use o **second** (*if + passado, would*).\n\nNo trabalho, o second conditional é comum para sugerir melhorias com educação, sem soar como ordem: *It would be easier if we used a template.*",
+      "examples": [
+        {"en": "If we use a template, it will be easier.", "pt": "Se usarmos um template, vai ficar mais fácil."},
+        {"en": "It would be easier if we used a template.", "pt": "Seria mais fácil se usássemos um template."},
+        {"en": "If I were the manager, I would reduce the meetings.", "pt": "Se eu fosse o gerente, reduziria as reuniões."},
+        {"en": "I wish we had more time for testing.", "pt": "Queria que tivéssemos mais tempo para testes."}
+      ]
+    }
+  ],
+  "summary": [
+    "Second conditional: if + past simple na condição e would + verbo base no resultado, para situações imaginárias ou improváveis.",
+    "O past simple do second conditional não fala do passado: marca a irrealidade no presente ou no futuro.",
+    "Com to be na oração com if, use were para todas as pessoas: If I were you.",
+    "Could e might no resultado mostram possibilidade ou menos certeza.",
+    "Wish + past simple expressa o desejo de que o presente fosse diferente: I wish I had more time."
+  ],
+  "practice": [
+    {"id": "b1-07-p1", "type": "choice", "prompt": "If I ___ more time, I would learn Rust.", "options": ["had", "have", "would have"], "answer": 0,
+     "explain": "A condição do second conditional usa o past simple: if I had more time.",
+     "why_not": {"1": "If + have formaria o first conditional, que fala de situação possível, e não imaginária.", "2": "Would fica no resultado, e não na oração com if."}},
+    {"id": "b1-07-p2", "type": "choice", "prompt": "If we had a bigger budget, we ___ more testers.", "options": ["would hire", "will hire", "hired"], "answer": 0,
+     "explain": "O resultado do second conditional usa would + verbo base: would hire.",
+     "why_not": {"1": "Will pertence ao first conditional, que fala de situações possíveis.", "2": "O past simple fica na condição, e não no resultado."}},
+    {"id": "b1-07-p3", "type": "choice", "prompt": "If I ___ you, I would talk to the manager.", "options": ["were", "am", "would be"], "answer": 0,
+     "explain": "A expressão If I were you é a forma padrão de conselho, com were para todas as pessoas.",
+     "why_not": {"1": "Am não é usado na condição imaginária; a forma é were.", "2": "Would não vem na oração com if."}},
+    {"id": "b1-07-p4", "type": "fill", "prompt": "If she ___ (know) the answer, she would tell us.", "answers": ["knew"],
+     "explain": "A condição imaginária usa o past simple de know: knew."},
+    {"id": "b1-07-p5", "type": "fill", "prompt": "If the app ___ (be) faster, users would be happier.", "answers": ["were", "was"],
+     "explain": "Na oração com if imaginária, a forma recomendada de be é were, para todas as pessoas. Was aparece na fala informal."},
+    {"id": "b1-07-p6", "type": "translate", "prompt": "Se eu tivesse mais tempo, eu aprenderia inglês. (have, learn)", "answers": ["If I had more time, I would learn English.", "I would learn English if I had more time."],
+     "explain": "A condição usa o past simple (if I had) e o resultado usa would + verbo base (I would learn)."},
+    {"id": "b1-07-p7", "type": "order", "words": ["If", "I", "were", "you", "I", "would", "ask", "for", "help"], "prompt": "Se eu fosse você, eu pediria ajuda.",
+     "answers": ["I would ask for help if I were you.", "If I was you I would ask for help."],
+     "explain": "A estrutura é If I were you + vírgula + I would + verbo base. A ordem inversa também funciona."},
+    {"id": "b1-07-p8", "type": "fix", "prompt": "If I would have more money, I would buy a new laptop.", "answers": ["If I had more money, I would buy a new laptop."],
+     "explain": "A oração com if usa o past simple, e não would: if I had more money."},
+    {"id": "b1-07-p9", "type": "choice", "prompt": "I wish I ___ more free time.", "options": ["had", "have", "would have"], "answer": 0,
+     "explain": "Wish + past simple expressa o desejo de que o presente fosse diferente: I wish I had.",
+     "why_not": {"1": "Depois de wish, o presente simples não expressa esse desejo.", "2": "Wish + would tem outro uso (falar do comportamento de alguém), e não serve aqui."}},
+    {"id": "b1-07-p10", "type": "fix", "prompt": "If he knew the answer, he will tell us.", "answers": ["If he knew the answer, he would tell us."],
+     "explain": "Se a condição está no past simple, o resultado usa would, e não will: he would tell us."},
+    {"id": "b1-07-p11", "type": "choice", "prompt": "Qual frase fala de uma situação imaginária?", "options": ["If I won the lottery, I would buy a house.", "If I win the lottery, I will buy a house.", "If I would win the lottery, I would buy a house."], "answer": 0,
+     "explain": "A situação imaginária usa if + past simple e would + verbo base.",
+     "why_not": {"1": "If + presente e will formam o first conditional, para algo visto como possível.", "2": "Would não vem na oração com if."}},
+    {"id": "b1-07-p12", "type": "listen", "en": "If I were you, I would back up the files first.",
+     "explain": "Were é a forma de be em If I were you, e would back up é o resultado."}
+  ],
+  "quiz": [
+    {"id": "b1-07-q1", "type": "choice", "prompt": "If we ___ a bigger team, we could finish faster.", "options": ["had", "have", "would have"], "answer": 0,
+     "explain": "O second conditional usa o past simple na condição: if we had.",
+     "why_not": {"1": "If + have formaria o first conditional.", "2": "Would não vem na oração com if."}},
+    {"id": "b1-07-q2", "type": "fill", "prompt": "If I ___ (be) you, I would not click that link.", "answers": ["were", "was"],
+     "explain": "Em If I were you, a forma padrão é were."},
+    {"id": "b1-07-q3", "type": "translate", "prompt": "Se ela soubesse a senha, ela entraria no sistema. (know, password, log in)", "answers": ["If she knew the password, she would log in.", "She would log in if she knew the password."],
+     "explain": "A condição usa o past simple (if she knew) e o resultado usa would + verbo base (she would log in)."},
+    {"id": "b1-07-q4", "type": "order", "words": ["I", "wish", "I", "could", "speak", "English", "better"], "prompt": "Queria poder falar inglês melhor.",
+     "explain": "Wish + could expressa uma habilidade que você gostaria de ter: I wish I could speak."},
+    {"id": "b1-07-q5", "type": "fix", "prompt": "I wish I have more time.", "answers": ["I wish I had more time."],
+     "explain": "Depois de wish, o verbo vai para o passado: I wish I had. Ele expressa irrealidade no presente."},
+    {"id": "b1-07-q6", "type": "choice", "prompt": "If I ___ rich, I would not work.", "options": ["were", "would be", "am"], "answer": 0,
+     "explain": "Com to be na condição imaginária, a forma padrão é were.",
+     "why_not": {"1": "Would não vem na oração com if.", "2": "Am forma uma condição real, e a frase é imaginária."}},
+    {"id": "b1-07-q7", "type": "listen", "en": "If we had more time, we would test everything twice.",
+     "explain": "A condição usa o past simple (had), e o resultado usa would test."}
+  ],
+  "words": [
+    {"word": "wish", "pt": "desejar; queria que"},
+    {"word": "budget", "pt": "orçamento"},
+    {"word": "hire", "pt": "contratar"},
+    {"word": "afford", "pt": "ter condições de pagar"},
+    {"word": "unlikely", "pt": "improvável"},
+    {"word": "advice", "pt": "conselho"},
+    {"word": "quit", "pt": "largar; pedir demissão"},
+    {"word": "template", "pt": "modelo; template"},
+    {"word": "password", "pt": "senha"},
+    {"word": "reduce", "pt": "reduzir"}
+  ]
+}

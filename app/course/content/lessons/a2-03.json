@@ -1,0 +1,188 @@
+{
+  "id": "a2-03",
+  "level": "A2",
+  "unit": "Presente e passado",
+  "title": "Past simple: verbos regulares (-ed)",
+  "goal": "Contar o que você fez no passado com verbos regulares, escrevendo o -ed corretamente e pronunciando-o do jeito certo.",
+  "minutes": 22,
+  "steps": [
+    {
+      "title": "Para que serve o past simple",
+      "text": "O **past simple** (passado simples) conta ações que **começaram e terminaram** no passado: o que você fez ontem, na semana passada ou em 2021. É o tempo da narrativa: relatar uma tarefa, contar uma história, explicar o que aconteceu num incidente.\n\nNa lição anterior você viu o passado do verbo to be (was/were). Agora vamos ao passado dos **verbos regulares**, que são a maioria. A regra principal é simples: **verbo + -ed**.",
+      "examples": [
+        {"en": "I worked on the bug yesterday.", "pt": "Eu trabalhei no bug ontem."},
+        {"en": "We deployed the new version last night.", "pt": "Nós publicamos a nova versão ontem à noite."},
+        {"en": "She called the client two hours ago.", "pt": "Ela ligou para o cliente há duas horas."}
+      ],
+      "tip": "Um verbo é **regular** quando o passado é só o verbo + -ed. Os que não seguem essa regra são os **irregulares**, e eles ficam para a próxima lição."
+    },
+    {
+      "title": "A regra básica: verbo + -ed",
+      "text": "Para formar o passado de um verbo regular, acrescente **-ed** ao verbo base (o verbo sem to, como *work*, *test*, *open*). E há uma ótima notícia: a forma é **a mesma para todas as pessoas**. Não existe -s especial para he, she e it, como no presente.\n\nEm português o verbo muda a cada pessoa (trabalhei, trabalhou, trabalhamos). Em inglês, basta decorar uma forma só: **worked**.",
+      "table": {
+        "headers": ["Pessoa", "Presente", "Passado"],
+        "rows": [
+          ["I", "work", "worked"],
+          ["you", "work", "worked"],
+          ["he / she / it", "works", "worked"],
+          ["we / you / they", "work", "worked"]
+        ]
+      },
+      "examples": [
+        {"en": "They tested the login page.", "pt": "Eles testaram a página de login."},
+        {"en": "Carlos opened the ticket.", "pt": "Carlos abriu o chamado."},
+        {"en": "The team started the project in 2021.", "pt": "A equipe começou o projeto em 2021."}
+      ],
+      "tip": "Com he, she e it o passado não leva -s: *He worked*, e não *He workeds*."
+    },
+    {
+      "title": "Grafia: quando o -ed muda a palavra",
+      "text": "Na maioria dos verbos basta colocar **-ed**, mas alguns pedem um pequeno ajuste na escrita. Veja a tabela com as regras mais usadas.\n\nA regra da consoante dupla vale para verbos de **uma sílaba** com o padrão consoante + vogal + consoante (*stop*, *plan*). Nos verbos maiores depende da sílaba forte: *open* vira *opened*, mas *commit* vira *committed*.",
+      "table": {
+        "headers": ["Regra", "Verbo", "Passado"],
+        "rows": [
+          ["Termina em -e: só acrescente -d", "save / create", "saved / created"],
+          ["Consoante + y: o y vira -ied", "study / try", "studied / tried"],
+          ["Vogal + y: só acrescente -ed", "play / stay", "played / stayed"],
+          ["Uma sílaba, consoante-vogal-consoante: dobra a última", "stop / plan", "stopped / planned"],
+          ["Não se dobra w, x nem y", "fix / show", "fixed / showed"],
+          ["Todos os outros: -ed", "work / install", "worked / installed"]
+        ]
+      },
+      "examples": [
+        {"en": "I saved the file before lunch.", "pt": "Eu salvei o arquivo antes do almoço."},
+        {"en": "She studied English last year.", "pt": "Ela estudou inglês no ano passado."},
+        {"en": "We stopped the server at midnight.", "pt": "Nós paramos o servidor à meia-noite."},
+        {"en": "He planned the release last week.", "pt": "Ele planejou o lançamento na semana passada."}
+      ],
+      "trap": "Erros comuns de grafia: *studyed* (o certo é **studied**) e *stoped* (o certo é **stopped**). Pense na regra antes de escrever."
+    },
+    {
+      "title": "Pronúncia do -ed: três sons",
+      "text": "O -ed final tem **três pronúncias**, e quase nunca soa como “édi”. Tudo depende do último som do verbo.\n\nDepois de sons **surdos** (aqueles em que a garganta não vibra, como p, k, f, s, sh e ch), o -ed soa como **/t/**. Depois de sons **sonoros** (vogais e consoantes como l, n, v), soa como **/d/**. Só depois de **t** e **d** ele forma uma sílaba extra, **/ɪd/**.",
+      "table": {
+        "headers": ["Som do -ed", "Quando", "Exemplos"],
+        "rows": [
+          ["/t/", "depois de som surdo (p, k, f, s, sh, ch)", "worked, helped, fixed, washed"],
+          ["/d/", "depois de vogal ou som sonoro (l, n, v...)", "played, called, saved, cleaned"],
+          ["/ɪd/", "depois de t ou d (sílaba extra)", "started, needed, tested, added"]
+        ]
+      },
+      "examples": [
+        {"en": "She worked late.", "pt": "Ela trabalhou até tarde."},
+        {"en": "He called me.", "pt": "Ele me ligou."},
+        {"en": "We tested everything.", "pt": "Nós testamos tudo."}
+      ],
+      "trap": "Não pronuncie todo -ed como uma sílaba extra. *Worked* tem uma sílaba só (/wɜːrkt/); a sílaba extra aparece apenas em verbos que terminam em t ou d, como *started* e *needed*."
+    },
+    {
+      "title": "Expressões de tempo com o past simple",
+      "text": "O past simple vem junto de expressões que marcam um tempo **já terminado**. As mais comuns são **yesterday**, **last** + período, **ago** (depois do período), **in** + ano, **on** + dia da semana e **this morning** quando a manhã já acabou.\n\nTodas elas mostram que o momento passou, e esse é o sinal para usar o -ed.",
+      "table": {
+        "headers": ["Expressão", "Exemplo"],
+        "rows": [
+          ["yesterday", "I installed the update yesterday."],
+          ["last night / week / year", "We moved the server last week."],
+          ["three days ago", "She joined the company three years ago."],
+          ["in 2019 / on Monday", "They finished the migration on Monday."]
+        ]
+      },
+      "examples": [
+        {"en": "We finished the migration on Monday.", "pt": "Nós terminamos a migração na segunda-feira."},
+        {"en": "I installed the update this morning.", "pt": "Eu instalei a atualização hoje de manhã."},
+        {"en": "They moved to Berlin in 2019.", "pt": "Eles se mudaram para Berlim em 2019."},
+        {"en": "She joined the company three years ago.", "pt": "Ela entrou na empresa há três anos."}
+      ],
+      "tip": "Se a frase tem um momento do passado já fechado (ontem, ano passado, em 2019), o verbo vai para o passado."
+    },
+    {
+      "title": "Comparação com o português e erros comuns",
+      "text": "Em português o passado muda de forma a cada pessoa: **trabalhei**, **trabalhou**, **trabalharam**. Em inglês é sempre **worked**, o que torna tudo mais simples. O perigo está em outro lugar: esquecer de marcar o passado.\n\nComo o verbo no presente é a forma que você já sabe, é fácil deixá-lo sem **-ed**. Quando houver *yesterday*, *last week* ou *ago*, pergunte-se: o verbo já está no passado?",
+      "examples": [
+        {"en": "I worked, you worked, she worked.", "pt": "Eu trabalhei, você trabalhou, ela trabalhou."},
+        {"en": "We asked for help.", "pt": "Nós pedimos ajuda."},
+        {"en": "They waited for an hour.", "pt": "Eles esperaram por uma hora."}
+      ],
+      "trap": "Não deixe o verbo no presente quando a ação já passou. *I work on the report yesterday* está errado; o certo é **I worked** on the report yesterday."
+    },
+    {
+      "title": "Na prática: o relato do dia",
+      "text": "Num daily ou num e-mail para a equipe, você conta o que fez usando uma sequência de verbos no passado. Repare que todos os verbos regulares têm **-ed**, e que as expressões de tempo (*yesterday*, *then*, *at five*) organizam a história.\n\nLeia o relato e observe também a pronúncia: *fixed* termina em /t/, *asked* em /t/, *approved* em /d/ e *tested* tem sílaba extra.",
+      "examples": [
+        {"en": "Yesterday I fixed two bugs and tested the login page.", "pt": "Ontem eu corrigi dois bugs e testei a página de login."},
+        {"en": "Then I asked Ana for a review.", "pt": "Depois eu pedi uma revisão para a Ana."},
+        {"en": "She checked the code and approved it.", "pt": "Ela verificou o código e o aprovou."},
+        {"en": "We merged the changes at five.", "pt": "Nós integramos as mudanças às cinco."}
+      ]
+    }
+  ],
+  "summary": [
+    "O past simple conta ações terminadas no passado, e nos verbos regulares é verbo + -ed.",
+    "A forma é a mesma para todas as pessoas: I worked, she worked, they worked.",
+    "Grafia: -e + d (saved); consoante + y vira -ied (studied); uma sílaba CVC dobra a consoante (stopped); fix e play não dobram.",
+    "O -ed soa /t/ (worked), /d/ (played) ou /ɪd/ depois de t e d (started).",
+    "Yesterday, last week, ago, in 2019 e on Monday são sinais de passado terminado."
+  ],
+  "practice": [
+    {"id": "a2-03-p1", "type": "choice", "prompt": "We ___ the new version last night.", "options": ["deployed", "deploy", "deploying"], "answer": 0,
+     "explain": "Last night indica passado terminado, e o verbo regular deploy recebe -ed: deployed. Como termina em vogal + y, o y não muda.",
+     "why_not": {"1": "Deploy é a forma do presente.", "2": "Deploying é a forma com -ing, que não é o passado simples."}},
+    {"id": "a2-03-p2", "type": "choice", "prompt": "She ___ English at university last year.", "options": ["studyed", "studied", "studys"], "answer": 1,
+     "explain": "Study termina em consoante + y, então o y vira i e recebe -ed: studied.",
+     "why_not": {"0": "Quando o y vem depois de consoante, ele vira -ied.", "2": "Studys não existe; com she no presente seria studies."}},
+    {"id": "a2-03-p3", "type": "choice", "prompt": "He ___ the old server on Friday.", "options": ["stoped", "stopped", "stoping"], "answer": 1,
+     "explain": "Stop tem uma sílaba e termina em consoante + vogal + consoante, então a última consoante dobra: stopped.",
+     "why_not": {"0": "Falta dobrar o p: stop vira stopped.", "2": "Stoping não existe; e -ing não forma o passado simples."}},
+    {"id": "a2-03-p4", "type": "fill", "prompt": "I ___ (fix) the bug on Friday.", "answers": ["fixed"],
+     "explain": "Fix recebe -ed normalmente. A letra x nunca é dobrada: fixed."},
+    {"id": "a2-03-p5", "type": "fill", "prompt": "They ___ (plan) the release two weeks ago.", "answers": ["planned"],
+     "explain": "Plan tem uma sílaba e termina em consoante + vogal + consoante, então dobramos o n: planned."},
+    {"id": "a2-03-p6", "type": "fill", "prompt": "Ana ___ (save) the file before the meeting.", "answers": ["saved"],
+     "explain": "Save já termina em e, então só acrescentamos d: saved."},
+    {"id": "a2-03-p7", "type": "translate", "prompt": "Nós terminamos o projeto ontem.", "answers": ["We finished the project yesterday.", "Yesterday we finished the project.", "We completed the project yesterday.", "Yesterday we completed the project."],
+     "explain": "Terminamos vira finished (finish + -ed), e ontem é yesterday. O sujeito we é obrigatório."},
+    {"id": "a2-03-p8", "type": "order", "words": ["He", "called", "the", "client", "yesterday"], "prompt": "Ele ligou para o cliente ontem.", "answers": ["Yesterday he called the client."],
+     "explain": "A ordem é sujeito + verbo no passado + complemento + tempo. A expressão yesterday também pode ir no começo da frase."},
+    {"id": "a2-03-p9", "type": "fix", "prompt": "I work on the report yesterday.", "answers": ["I worked on the report yesterday."],
+     "explain": "Yesterday pede o passado, então work precisa de -ed: worked."},
+    {"id": "a2-03-p10", "type": "fix", "prompt": "She studyed for the exam.", "answers": ["She studied for the exam."],
+     "explain": "Em verbos terminados em consoante + y, o y vira -ied: studied."},
+    {"id": "a2-03-p11", "type": "listen", "en": "We installed the update two days ago.",
+     "explain": "Installed termina em /d/ e two days ago indica passado terminado. Ouça o final do verbo."},
+    {"id": "a2-03-p12", "type": "choice", "prompt": "Em qual verbo o -ed forma uma sílaba extra (/ɪd/)?", "options": ["worked", "started", "played"], "answer": 1,
+     "explain": "Started termina em t, e depois de t ou d o -ed ganha uma sílaba: star-ted.",
+     "why_not": {"0": "Worked termina em /t/, sem sílaba extra.", "2": "Played termina em /d/, sem sílaba extra."}}
+  ],
+  "quiz": [
+    {"id": "a2-03-q1", "type": "choice", "prompt": "I ___ to open the file, but it failed.", "options": ["tried", "tryed", "trying"], "answer": 0,
+     "explain": "Try termina em consoante + y, então o y vira -ied: tried.",
+     "why_not": {"1": "Depois de consoante, o y vira i antes do -ed.", "2": "Trying é a forma com -ing."}},
+    {"id": "a2-03-q2", "type": "fill", "prompt": "Tom ___ (drop) his phone yesterday.", "answers": ["dropped"],
+     "explain": "Drop tem uma sílaba e termina em consoante + vogal + consoante, então dobramos o p: dropped."},
+    {"id": "a2-03-q3", "type": "fill", "prompt": "The meeting ___ (start) at ten yesterday.", "answers": ["started"],
+     "explain": "Start é regular: start + -ed = started. Neste caso o -ed é pronunciado com sílaba extra."},
+    {"id": "a2-03-q4", "type": "translate", "prompt": "Ela trabalhou em Londres em 2021.", "answers": ["She worked in London in 2021.", "In 2021 she worked in London."],
+     "explain": "Trabalhou vira worked, e usamos in antes do ano: in 2021."},
+    {"id": "a2-03-q5", "type": "order", "words": ["I", "opened", "the", "ticket", "this", "morning"], "prompt": "Eu abri o chamado esta manhã.", "answers": ["This morning I opened the ticket."],
+     "explain": "Opened é o passado de open. A expressão this morning pode ficar no fim ou no início da frase."},
+    {"id": "a2-03-q6", "type": "fix", "prompt": "The client call us yesterday.", "answers": ["The client called us yesterday."],
+     "explain": "Yesterday indica passado, então o verbo precisa de -ed: called."},
+    {"id": "a2-03-q7", "type": "choice", "prompt": "Em needed, como se pronuncia o -ed?", "options": ["/t/", "/d/", "/ɪd/, com sílaba extra"], "answer": 2,
+     "explain": "Need termina em d, e depois de t ou d o -ed forma uma sílaba extra: nee-ded.",
+     "why_not": {"0": "O som /t/ vem depois de sons surdos, como em worked.", "1": "O som /d/ vem depois de vogais e sons sonoros, como em played."}},
+    {"id": "a2-03-q8", "type": "listen", "en": "She worked late and finished the report.",
+     "explain": "Worked termina em /t/ e finished também. As duas formas são regulares, com -ed."}
+  ],
+  "words": [
+    {"word": "deploy", "pt": "publicar; colocar em produção"},
+    {"word": "install", "pt": "instalar"},
+    {"word": "update", "pt": "atualização; atualizar"},
+    {"word": "finish", "pt": "terminar; concluir"},
+    {"word": "plan", "pt": "planejar; plano"},
+    {"word": "study", "pt": "estudar; estudo"},
+    {"word": "ask", "pt": "pedir; perguntar"},
+    {"word": "call", "pt": "ligar; chamar; chamada"},
+    {"word": "open", "pt": "abrir; aberto"},
+    {"word": "save", "pt": "salvar; guardar; economizar"}
+  ]
+}

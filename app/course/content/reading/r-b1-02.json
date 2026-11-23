@@ -1,0 +1,28 @@
+{
+  "id": "r-b1-02",
+  "level": "B1",
+  "title": "Incident report: failed backup",
+  "topic": "Relatório de incidente",
+  "text": "Incident report - Failed database backup\n\nSummary: On Monday night, the automatic backup of our customer database did not run. Nobody noticed the problem until Wednesday morning.\n\nImpact: No data was lost, and customers were not affected. However, for about thirty-six hours we had no recent backup, which was a serious risk for the company.\n\nCause: The backup server ran out of disk space. The old backups were not being deleted, so the disk became full. The system tried to save the new file, failed, and sent an error message to an email address that nobody uses anymore.\n\nWhat we did: On Wednesday, Ana deleted the old files and started a manual backup. It finished in forty minutes and we checked that the file was complete.\n\nNext steps: We will send all alerts to the team chat, not to a personal email. We will also delete old backups automatically after thirty days, and test a restore every month.",
+  "pt": "Relatório de incidente - Falha no backup do banco de dados\n\nResumo: Na noite de segunda-feira, o backup automático do nosso banco de dados de clientes não foi executado. Ninguém percebeu o problema até a manhã de quarta-feira.\n\nImpacto: Nenhum dado foi perdido, e os clientes não foram afetados. No entanto, por cerca de trinta e seis horas ficamos sem um backup recente, o que foi um risco sério para a empresa.\n\nCausa: O servidor de backup ficou sem espaço em disco. Os backups antigos não estavam sendo apagados, então o disco encheu. O sistema tentou salvar o novo arquivo, falhou e enviou uma mensagem de erro para um e-mail que ninguém usa mais.\n\nO que fizemos: Na quarta-feira, a Ana apagou os arquivos antigos e iniciou um backup manual. Ele terminou em quarenta minutos e verificamos que o arquivo estava completo.\n\nPróximos passos: Vamos enviar todos os alertas para o chat da equipe, e não para um e-mail pessoal. Também vamos apagar backups antigos automaticamente depois de trinta dias e testar uma restauração todo mês.",
+  "vocab": [
+    {"word": "backup", "pt": "cópia de segurança"},
+    {"word": "noticed", "pt": "percebeu"},
+    {"word": "impact", "pt": "impacto"},
+    {"word": "affected", "pt": "afetados"},
+    {"word": "risk", "pt": "risco"},
+    {"word": "disk", "pt": "disco"},
+    {"word": "alerts", "pt": "alertas"},
+    {"word": "restore", "pt": "restauração"}
+  ],
+  "questions": [
+    {"id": "r-b1-02-q1", "type": "choice", "prompt": "What was the main cause of the problem?", "options": ["A hacker attack", "The backup server had no disk space", "Ana deleted the wrong file"], "answer": 1,
+     "explain": "O texto diz “The backup server ran out of disk space”."},
+    {"id": "r-b1-02-q2", "type": "choice", "prompt": "Was any customer data lost?", "options": ["Yes, a little", "Yes, from two days", "No, none"], "answer": 2,
+     "explain": "O relatório afirma “No data was lost, and customers were not affected”."},
+    {"id": "r-b1-02-q3", "type": "choice", "prompt": "Why did nobody see the error message?", "options": ["It went to an email nobody uses", "It was deleted by the system", "It was written in the wrong language"], "answer": 0,
+     "explain": "O erro foi enviado “to an email address that nobody uses anymore”."},
+    {"id": "r-b1-02-q4", "type": "choice", "prompt": "What will the team do every month?", "options": ["Buy a new server", "Test a restore", "Delete all backups"], "answer": 1,
+     "explain": "Nos próximos passos: “test a restore every month”."}
+  ]
+}

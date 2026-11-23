@@ -1,0 +1,194 @@
+{
+  "id": "b1-04",
+  "level": "B1",
+  "unit": "Passado em detalhe",
+  "title": "Used to, would e be/get used to",
+  "goal": "Falar de hábitos e situações que mudaram com used to e would, e dizer que você está (ou está ficando) acostumado a algo com be/get used to + -ing.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "Hábitos e estados que ficaram no passado",
+      "text": "Use **used to** para falar de algo que era **verdade ou acontecia com regularidade no passado** e que **não é mais assim hoje**. A ideia é sempre um contraste com o presente: antes era de um jeito, agora é de outro.\n\nEm português costumamos usar o imperfeito: “Eu **morava** em Recife”, “A gente **fazia** deploy só na sexta”. Em inglês, para destacar que a situação mudou, dizemos *I used to live in Recife* e *We used to deploy only on Fridays*.",
+      "examples": [
+        {"en": "I used to live in Recife.", "pt": "Eu morava em Recife (mas não moro mais)."},
+        {"en": "We used to deploy only on Fridays.", "pt": "A gente fazia deploy só na sexta (agora não mais)."},
+        {"en": "She used to be a tester before she became a developer.", "pt": "Ela era testadora antes de virar desenvolvedora."}
+      ],
+      "tip": "Used to sugere “mas agora não”. Se a situação continua igual hoje, use o present simple."
+    },
+    {
+      "title": "A forma: used to + verbo base",
+      "text": "A forma é **used to + verbo na forma base**: *I used to work nights*. Ela existe só para o passado; para hábitos de hoje usamos o present simple (*I usually work nights*).\n\nNa **negativa** e na **pergunta** entra o auxiliar **did**, e então o verbo perde o **-d**: **didn't use to** e **Did you use to...?** É a mesma regra de todo past simple: o *did* já carrega o passado.",
+      "table": {
+        "headers": ["Tipo", "Forma", "Exemplo"],
+        "rows": [
+          ["Afirmativa", "used to + base", "I used to work nights."],
+          ["Negativa", "didn't use to + base", "We didn't use to have automated tests."],
+          ["Pergunta", "Did + sujeito + use to + base?", "Did you use to code in Java?"],
+          ["Resposta curta", "Yes, I did. / No, I didn't.", "Yes, I did."]
+        ]
+      },
+      "examples": [
+        {"en": "We didn't use to have automated tests.", "pt": "Nós não tínhamos testes automatizados."},
+        {"en": "Did you use to code in Java?", "pt": "Você programava em Java?"},
+        {"en": "He used to work nights.", "pt": "Ele trabalhava à noite."}
+      ],
+      "trap": "Depois de *did* ou *didn't*, escreva **use to** (sem d): *Did you use to...?*, e não *Did you used to...?* É a mesma lógica de *Did you work?*, e não *Did you worked?*"
+    },
+    {
+      "title": "Would: só para hábitos repetidos",
+      "text": "Para **hábitos repetidos** no passado também podemos usar **would + verbo base**, muito comum em lembranças e histórias: *Every morning, we would check the logs first*. Aqui would significa “costumava” e não é o would de hipótese.\n\nMas **would não serve para estados** (ser, ter, morar, saber, gostar). Diga *I used to be shy*; *I would be shy* não funciona com esse sentido. Used to serve para os dois: hábitos e estados.",
+      "table": {
+        "headers": ["Ideia", "used to", "would"],
+        "rows": [
+          ["Hábito repetido", "sim", "sim"],
+          ["Estado (be, have, live, know)", "sim", "não"]
+        ]
+      },
+      "examples": [
+        {"en": "Every Friday we would order pizza and stay late.", "pt": "Toda sexta a gente pedia pizza e ficava até tarde."},
+        {"en": "I used to be very shy.", "pt": "Eu era muito tímido."},
+        {"en": "He used to have a beard.", "pt": "Ele tinha barba."}
+      ],
+      "tip": "Em dúvida, escolha used to: ele funciona para hábito e para estado."
+    },
+    {
+      "title": "Used to ou past simple?",
+      "text": "Used to descreve uma situação que **mudou**, sem marcar um período exato. Quando você diz **quanto tempo durou**, **quantas vezes aconteceu** ou **em que momento definido** aconteceu, o past simple é a escolha natural.\n\nCompare: *I used to work at a small startup* (era a minha rotina) e *I worked at that bank for five years* (período definido). Além disso, used to não descreve um fato único: para isso usamos o past simple.",
+      "examples": [
+        {"en": "I used to work at a small startup.", "pt": "Eu trabalhava em uma startup pequena."},
+        {"en": "I worked at that bank for five years.", "pt": "Eu trabalhei naquele banco por cinco anos."},
+        {"en": "We had three outages last month.", "pt": "Tivemos três quedas no mês passado."}
+      ],
+      "trap": "Não use used to para um fato único e datado: *I used to go to Berlin last year* está errado. Diga *I went to Berlin last year*."
+    },
+    {
+      "title": "Be used to + -ing: estar acostumado",
+      "text": "**Be used to** é outra estrutura, com outro sentido: “estar acostumado a”. Ela mostra que algo **já não é estranho nem difícil** para você. Forma: **am/is/are used to + -ing** (ou um substantivo).\n\nO **to** aqui é uma **preposição**, e não parte do infinitivo. Por isso, depois dele vem o verbo com **-ing**: *I am used to working remotely*. Para o passado, use *was/were used to*.",
+      "table": {
+        "headers": ["Tipo", "Forma", "Exemplo"],
+        "rows": [
+          ["Afirmativa", "be used to + -ing", "She is used to waking up early."],
+          ["Negativa", "be not used to + -ing", "I am not used to speaking English on calls."],
+          ["Pergunta", "Be + sujeito + used to + -ing?", "Are you used to working at night?"],
+          ["Passado", "was/were used to", "We were used to long meetings."]
+        ]
+      },
+      "examples": [
+        {"en": "I am used to working remotely.", "pt": "Estou acostumado a trabalhar remotamente."},
+        {"en": "She is used to waking up early.", "pt": "Ela está acostumada a acordar cedo."},
+        {"en": "Are you used to working at night?", "pt": "Você está acostumado a trabalhar à noite?"}
+      ],
+      "trap": "*I am used to work* está errado. Depois de *be used to* (e de *get used to*), use o verbo com -ing: *I am used to working*."
+    },
+    {
+      "title": "Get used to: o processo de se acostumar",
+      "text": "**Get used to** fala do **processo**: o que antes era estranho vai ficando normal. O verbo **get** muda conforme o tempo (*get, got, is getting, will get*), e depois vem **used to + -ing** ou um substantivo.\n\nCompare: **be used to** = já estou acostumado (estado); **get used to** = estou me acostumando, vou me acostumar ou me acostumei (mudança). *It takes time to get used to a new job.*",
+      "examples": [
+        {"en": "I am getting used to the new keyboard.", "pt": "Estou me acostumando com o teclado novo."},
+        {"en": "You will get used to the noise soon.", "pt": "Você vai se acostumar com o barulho logo."},
+        {"en": "We got used to working from home.", "pt": "Nós nos acostumamos a trabalhar de casa."}
+      ],
+      "tip": "Pense assim: be = estado, get = mudança. É a mesma diferença entre *be tired* (estar cansado) e *get tired* (ficar cansado)."
+    },
+    {
+      "title": "Três estruturas parecidas, três sentidos",
+      "text": "**Used to + base** = costumava (passado que acabou). **Be used to + -ing** = estar acostumado. **Get used to + -ing** = acostumar-se. A pista está no verbo antes de *used to* e na forma depois do *to*.\n\nNa pronúncia, o *used to* de hábito soa /juːst tə/, com som de **s**; já o verbo *use* (usar) tem som de **z**. Na pergunta e na negativa (*Did you use to...?*), o *use to* continua com som de **s**.",
+      "table": {
+        "headers": ["Estrutura", "Depois de to", "Sentido"],
+        "rows": [
+          ["used to", "verbo base", "costumava (hoje não mais)"],
+          ["be used to", "-ing ou substantivo", "estar acostumado"],
+          ["get used to", "-ing ou substantivo", "acostumar-se"]
+        ]
+      },
+      "examples": [
+        {"en": "I used to start work at eight.", "pt": "Eu começava o trabalho às oito."},
+        {"en": "I am used to starting work at eight.", "pt": "Estou acostumado a começar o trabalho às oito."},
+        {"en": "I am getting used to starting work at eight.", "pt": "Estou me acostumando a começar o trabalho às oito."}
+      ],
+      "trap": "Não misture as estruturas: *I used to working* e *I am used to work* estão errados. Verbo base depois de *used to*; -ing depois de *be/get used to*."
+    },
+    {
+      "title": "No trabalho: contar como as coisas mudaram",
+      "text": "Em entrevistas e conversas de integração (*onboarding*), as três estruturas aparecem juntas. Primeiro você descreve como era (**used to** ou **would**), depois como foi se adaptando (**get used to**) e por fim como está agora (**be used to**).\n\nEssa sequência é útil para falar de mudança de emprego, de país ou de ferramenta: o ouvinte entende o antes, o processo e o agora.",
+      "examples": [
+        {"en": "When I joined the team, we would meet every morning at nine.", "pt": "Quando entrei no time, nos reuníamos todo dia às nove."},
+        {"en": "At first, I wasn't used to the daily stand-ups.", "pt": "No começo, eu não estava acostumado com as dailies."},
+        {"en": "Now I am used to giving updates in English.", "pt": "Agora estou acostumado a dar atualizações em inglês."},
+        {"en": "We used to deploy manually, but now it is automatic.", "pt": "A gente fazia o deploy manualmente, mas agora é automático."}
+      ]
+    }
+  ],
+  "summary": [
+    "Used to + verbo base fala de hábitos e estados do passado que não são mais verdade hoje.",
+    "Na negativa e na pergunta, o verbo perde o d: didn't use to, Did you use to...?",
+    "Would só serve para hábitos repetidos no passado, não para estados como be, have e live.",
+    "Be used to + -ing significa estar acostumado; get used to + -ing significa acostumar-se.",
+    "Em be/get used to, o to é preposição, então o verbo seguinte leva -ing: I am used to working."
+  ],
+  "practice": [
+    {"id": "b1-04-p1", "type": "choice", "prompt": "When I was a child, I ___ play football every weekend.", "options": ["used to", "am used to", "was use to"], "answer": 0,
+     "explain": "O hábito do passado que não existe mais usa used to + verbo base: used to play.",
+     "why_not": {"1": "Am used to significa estar acostumado e pede -ing, não o verbo base.", "2": "Was use to não existe; a forma é used to."}},
+    {"id": "b1-04-p2", "type": "choice", "prompt": "Ana ___ getting up at 5 a.m.; for her it is normal now.", "options": ["is used to", "used to", "would"], "answer": 0,
+     "explain": "Estar acostumada é be used to + -ing: is used to getting up.",
+     "why_not": {"1": "Used to + -ing não existe; used to pede o verbo base e fala de hábito passado.", "2": "Would é seguido do verbo base, não de -ing."}},
+    {"id": "b1-04-p3", "type": "choice", "prompt": "It was hard at first, but I ___ working from home after a few weeks.", "options": ["got used to", "used to", "got use to"], "answer": 0,
+     "explain": "O processo de se acostumar usa get used to + -ing; no passado, got used to.",
+     "why_not": {"1": "Used to + -ing não existe; used to fala de hábito do passado e pede o verbo base.", "2": "A forma correta é used to, com d."}},
+    {"id": "b1-04-p4", "type": "fill", "prompt": "We ___ to deploy only on Fridays, but now we deploy every day.", "answers": ["used"],
+     "explain": "O hábito que acabou é used to + verbo base. A frase afirmativa pede used, com d."},
+    {"id": "b1-04-p5", "type": "fill", "prompt": "She didn't ___ to like long meetings.", "answers": ["use"],
+     "explain": "Depois de didn't, o verbo perde o d: didn't use to."},
+    {"id": "b1-04-p6", "type": "fill", "prompt": "He is used to ___ (work) in a noisy open office.", "answers": ["working"],
+     "explain": "Em be used to, o to é preposição e o verbo seguinte leva -ing: used to working."},
+    {"id": "b1-04-p7", "type": "order", "words": ["We", "used", "to", "write", "code", "in", "Java"], "prompt": "Nós escrevíamos código em Java.",
+     "explain": "A estrutura é sujeito + used to + verbo base + complemento."},
+    {"id": "b1-04-p8", "type": "translate", "prompt": "Eu não estou acostumado a acordar cedo.", "answers": ["I am not used to getting up early.", "I am not used to waking up early."],
+     "explain": "Estar acostumado é be used to + -ing. Na negativa, am not used to, e o verbo seguinte leva -ing: getting up ou waking up."},
+    {"id": "b1-04-p9", "type": "fix", "prompt": "I am used to work at night, so it is easy for me.", "answers": ["I am used to working at night, so it is easy for me."],
+     "explain": "O to de be used to é preposição, então o verbo leva -ing: used to working."},
+    {"id": "b1-04-p10", "type": "choice", "prompt": "Qual pergunta está correta?", "options": ["Did you use to work here?", "Did you used to work here?", "Do you used to work here?"], "answer": 0,
+     "explain": "Com did na pergunta, o verbo perde o d: Did you use to work here?",
+     "why_not": {"1": "Depois de did, use use to (sem d), como em Did you work?", "2": "Em perguntas de used to o auxiliar é did, e não do."}},
+    {"id": "b1-04-p11", "type": "choice", "prompt": "I ___ very shy when I was a child.", "options": ["used to be", "would be", "am used to be"], "answer": 0,
+     "explain": "Ser tímido é um estado, e estados do passado usam used to, não would.",
+     "why_not": {"1": "Would não descreve estados do passado, só hábitos repetidos.", "2": "Am used to pede -ing e fala do presente."}},
+    {"id": "b1-04-p12", "type": "listen", "en": "We used to deploy manually, but now it is automatic.",
+     "explain": "Used to deploy descreve o hábito do passado; but now marca o contraste com o presente."}
+  ],
+  "quiz": [
+    {"id": "b1-04-q1", "type": "choice", "prompt": "My brother ___ play the guitar, but he stopped last year.", "options": ["used to", "is used to", "gets used to"], "answer": 0,
+     "explain": "Um hábito que parou usa used to + verbo base.",
+     "why_not": {"1": "Is used to pede -ing e fala de estar acostumado.", "2": "Gets used to pede -ing e fala do processo de se acostumar."}},
+    {"id": "b1-04-q2", "type": "fill", "prompt": "I am not used ___ using this tool yet.", "answers": ["to"],
+     "explain": "A estrutura é be used to + -ing; o to é uma preposição obrigatória."},
+    {"id": "b1-04-q3", "type": "translate", "prompt": "Nós nos acostumamos a trabalhar remotamente.", "answers": ["We got used to working remotely."],
+     "explain": "O processo já concluído usa got used to + -ing: got used to working."},
+    {"id": "b1-04-q4", "type": "order", "words": ["I", "am", "used", "to", "working", "with", "remote", "teams"], "prompt": "Estou acostumado a trabalhar com times remotos.",
+     "explain": "Be used to + -ing: am used to working, seguido do complemento."},
+    {"id": "b1-04-q5", "type": "fix", "prompt": "We didn't used to have automated tests.", "answers": ["We didn't use to have automated tests.", "We never used to have automated tests."],
+     "explain": "Depois de didn't, o verbo perde o d: didn't use to. Com never, a forma afirmativa used to também está correta."},
+    {"id": "b1-04-q6", "type": "choice", "prompt": "Qual frase significa “estou acostumado ao calor da sala de servidores”?", "options": ["I am used to the heat in the server room.", "I used to the heat in the server room.", "I use to the heat in the server room."], "answer": 0,
+     "explain": "Estar acostumado é be used to, e depois do to pode vir um substantivo (the heat).",
+     "why_not": {"1": "Falta o verbo be: sem ele, used to não forma a ideia de estar acostumado.", "2": "Use é o verbo usar; não expressa o hábito nem o costume."}},
+    {"id": "b1-04-q7", "type": "listen", "en": "She is not used to speaking English on the phone.",
+     "explain": "Is not used to + -ing: ela ainda não está acostumada a falar inglês ao telefone."},
+    {"id": "b1-04-q8", "type": "choice", "prompt": "Are you used to ___ in a team?", "options": ["working", "work", "worked"], "answer": 0,
+     "explain": "O to de be used to é preposição, e depois dele vem -ing: used to working.",
+     "why_not": {"1": "O verbo base não vem depois de be used to.", "2": "O past simple também não vem depois de to nessa estrutura."}}
+  ],
+  "words": [
+    {"word": "used to", "pt": "costumava (hábito ou estado do passado)"},
+    {"word": "get used to", "pt": "acostumar-se a"},
+    {"word": "habit", "pt": "hábito"},
+    {"word": "manually", "pt": "manualmente"},
+    {"word": "automatic", "pt": "automático"},
+    {"word": "remote", "pt": "remoto; à distância"},
+    {"word": "noise", "pt": "barulho; ruído"},
+    {"word": "shy", "pt": "tímido; tímida"},
+    {"word": "outage", "pt": "queda de sistema; indisponibilidade"},
+    {"word": "stand-up", "pt": "reunião diária em pé (daily)"}
+  ]
+}

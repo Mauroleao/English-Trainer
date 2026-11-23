@@ -1,0 +1,209 @@
+{
+  "id": "a1-05",
+  "level": "A1",
+  "unit": "Pessoas, coisas e lugares",
+  "title": "There is / There are e preposições de lugar",
+  "goal": "Dizer o que existe em um lugar e onde as coisas estão, como no escritório ou na sua mesa.",
+  "minutes": 22,
+  "steps": [
+    {
+      "title": "Para que serve there is / there are",
+      "text": "Em português usamos “tem” ou “há” para dizer que algo existe em algum lugar: “Tem um bug no código”, “Há duas cadeiras na sala”. Em inglês, usamos **there is** e **there are** para isso.\n\nA ideia é apresentar algo novo: primeiro dizemos que existe, depois dizemos onde. Repare que **there** aqui não significa “lá”. Ele só abre a frase, como o “há” do português.",
+      "examples": [
+        {"en": "There is a bug in the code.", "pt": "Tem um bug no código."},
+        {"en": "There are two chairs in the room.", "pt": "Há duas cadeiras na sala."},
+        {"en": "There is a meeting today.", "pt": "Tem uma reunião hoje."}
+      ],
+      "tip": "Pense em there is / there are como o “tem” e o “há” do português: servem para dizer que alguma coisa existe."
+    },
+    {
+      "title": "Afirmativa: singular e plural",
+      "text": "Use **there is** quando existe uma coisa só. Use **there are** quando existem duas ou mais. O verbo concorda com o que vem **depois** dele, e não com a palavra *there*.\n\nNa fala e em mensagens, *there is* costuma virar **there's**. Já *there are* normalmente não é contraído na escrita.",
+      "table": {
+        "headers": ["Forma", "Quando usar", "Exemplo"],
+        "rows": [
+          ["There is / There's", "uma coisa (singular)", "There is a printer here."],
+          ["There are", "duas ou mais coisas (plural)", "There are three printers here."]
+        ]
+      },
+      "examples": [
+        {"en": "There is a printer on this floor.", "pt": "Há uma impressora neste andar."},
+        {"en": "There are three printers on this floor.", "pt": "Há três impressoras neste andar."},
+        {"en": "There's a new tester in our team.", "pt": "Tem uma nova testadora no nosso time."}
+      ],
+      "trap": "Cuidado com a concordância: o verbo segue o substantivo que vem depois. *There is two chairs* está errado; o certo é *There are two chairs*."
+    },
+    {
+      "title": "Negativa: there isn't e there aren't",
+      "text": "Para dizer que algo **não existe**, coloque **not** depois do verbo: **there is not** (there isn't) e **there are not** (there aren't). Com plural e com palavras que não se contam, costumamos usar **any** (nenhum, nenhuma).\n\nOutra forma comum é usar **no**, que já significa “nenhum”: *There are no chairs*. Aqui o verbo fica afirmativo, porque o **no** já faz a negação.",
+      "table": {
+        "headers": ["Afirmativa", "Negativa"],
+        "rows": [
+          ["There is a meeting.", "There isn't a meeting."],
+          ["There are some bugs.", "There aren't any bugs."],
+          ["There are some chairs.", "There are no chairs."]
+        ]
+      },
+      "examples": [
+        {"en": "There isn't a meeting today.", "pt": "Não tem reunião hoje."},
+        {"en": "There aren't any bugs in the report.", "pt": "Não há nenhum bug no relatório."},
+        {"en": "There are no chairs in the room.", "pt": "Não há cadeiras na sala."}
+      ],
+      "tip": "There aren't any chairs e There are no chairs têm o mesmo sentido. Escolha a que achar mais fácil."
+    },
+    {
+      "title": "Perguntas e respostas curtas",
+      "text": "Para perguntar se algo existe, troque a ordem: o verbo vai **antes** de *there*. Fica **Is there…?** para uma coisa e **Are there…?** para várias.\n\nNa resposta curta, repetimos *there* e o verbo. Na resposta afirmativa, **não** usamos a contração: *Yes, there is*. Na negativa, *No, there isn't* e *No, there aren't* são as formas normais.",
+      "table": {
+        "headers": ["Pergunta", "Resposta curta"],
+        "rows": [
+          ["Is there a printer here?", "Yes, there is. / No, there isn't."],
+          ["Are there any chairs?", "Yes, there are. / No, there aren't."]
+        ]
+      },
+      "examples": [
+        {"en": "Is there a meeting today?", "pt": "Tem reunião hoje?"},
+        {"en": "Yes, there is.", "pt": "Sim, tem."},
+        {"en": "Are there any bugs in the report?", "pt": "Há algum bug no relatório?"},
+        {"en": "No, there aren't.", "pt": "Não, não há."}
+      ],
+      "trap": "Na resposta curta afirmativa não diga *Yes, there's*. O correto é *Yes, there is*."
+    },
+    {
+      "title": "Some e any",
+      "text": "**Some** quer dizer “alguns”, “algumas” ou “um pouco de” e aparece nas frases **afirmativas**: *There are some new tickets*. **Any** aparece nas **perguntas** e nas **negativas**: *Are there any new tickets?* e *There aren't any new tickets*.\n\nOs dois podem ser usados com plurais e com palavras que não se contam, como *coffee* e *water*. Com uma coisa só e que se conta, usamos **a** ou **an**.",
+      "table": {
+        "headers": ["Tipo de frase", "Palavra", "Exemplo"],
+        "rows": [
+          ["Afirmativa", "some", "There are some new tickets."],
+          ["Pergunta", "any", "Are there any new tickets?"],
+          ["Negativa", "any", "There aren't any new tickets."]
+        ]
+      },
+      "examples": [
+        {"en": "There are some new tickets today.", "pt": "Há alguns tickets novos hoje."},
+        {"en": "Are there any questions?", "pt": "Há alguma pergunta?"},
+        {"en": "There isn't any coffee in the kitchen.", "pt": "Não tem café na cozinha."}
+      ]
+    },
+    {
+      "title": "Preposições de lugar",
+      "text": "Depois de *there is* e *there are*, quase sempre dizemos **onde** a coisa está. Para isso usamos preposições de lugar. Elas são pequenas, mas mudam o sentido da frase.\n\nAs mais importantes: **in** (dentro de), **on** (em cima de, sobre uma superfície), **at** (em um ponto ou lugar específico), **under** (embaixo de), **next to** (ao lado de), **between** (entre dois), **in front of** (na frente de) e **behind** (atrás de).",
+      "table": {
+        "headers": ["Preposição", "Significado", "Exemplo"],
+        "rows": [
+          ["in", "dentro de", "The keys are in the bag."],
+          ["on", "em cima de", "The laptop is on the desk."],
+          ["at", "em um ponto/lugar", "She is at the door."],
+          ["under", "embaixo de", "The cable is under the desk."],
+          ["next to", "ao lado de", "The printer is next to the door."],
+          ["between", "entre dois", "The desk is between two windows."],
+          ["in front of", "na frente de", "The chair is in front of the desk."],
+          ["behind", "atrás de", "The server is behind the wall."]
+        ]
+      },
+      "examples": [
+        {"en": "The laptop is on the desk.", "pt": "O notebook está em cima da mesa."},
+        {"en": "The bag is under the chair.", "pt": "A bolsa está embaixo da cadeira."},
+        {"en": "The kitchen is between the two offices.", "pt": "A cozinha fica entre os dois escritórios."},
+        {"en": "I am in front of the monitor.", "pt": "Estou na frente do monitor."}
+      ],
+      "tip": "Between é para duas coisas ou lugares. Imagine uma coisa de cada lado."
+    },
+    {
+      "title": "There is × the … is, e o erro do “tem”",
+      "text": "Use **there is / there are** para coisas **novas**, que você apresenta pela primeira vez, com **a**, **an** ou **some**. Quando as duas pessoas já sabem de qual coisa se fala, usamos **the** e o verbo **to be** normal.\n\nPor isso dizemos *There is a printer on this floor. The printer is next to the kitchen.* Na primeira frase o ouvinte ainda não conhecia a impressora; na segunda, já conhece.",
+      "examples": [
+        {"en": "There is a printer on this floor.", "pt": "Tem uma impressora neste andar."},
+        {"en": "The printer is next to the kitchen.", "pt": "A impressora fica ao lado da cozinha."},
+        {"en": "There is a laptop on my desk.", "pt": "Tem um notebook na minha mesa."}
+      ],
+      "trap": "Em português dizemos “Tem um erro aqui”, e muitos alunos traduzem com *have*: *Has an error here*. Em inglês, para existência, use sempre *there is / there are*: *There is an error here*."
+    },
+    {
+      "title": "A regra em contexto: descrevendo o escritório",
+      "text": "Imagine que a Carla recebe um colega novo e mostra a sala do time. Ela usa tudo o que você aprendeu: *there is* e *there are* para dizer o que existe, e as preposições para dizer onde está cada coisa.\n\nTente ler as frases em voz alta e imaginar a sala. Depois, descreva a sua própria mesa de trabalho em inglês com duas ou três frases.",
+      "examples": [
+        {"en": "There are six desks in our office.", "pt": "Há seis mesas no nosso escritório."},
+        {"en": "There is a big monitor on my desk.", "pt": "Há um monitor grande na minha mesa."},
+        {"en": "The coffee machine is between the kitchen and the meeting room.", "pt": "A máquina de café fica entre a cozinha e a sala de reunião."},
+        {"en": "There isn't a window behind my desk.", "pt": "Não tem janela atrás da minha mesa."}
+      ]
+    }
+  ],
+  "summary": [
+    "There is serve para uma coisa e there are para duas ou mais; o verbo concorda com o substantivo que vem depois.",
+    "Na negativa usamos there isn't / there aren't (any) ou there are no; na pergunta, Is there…? e Are there…?",
+    "Some aparece em frases afirmativas; any aparece em perguntas e negativas.",
+    "As preposições de lugar são in, on, at, under, next to, between, in front of e behind.",
+    "Para coisas novas use there is / there are com a, an ou some; para coisas conhecidas use the … is."
+  ],
+  "practice": [
+    {"id": "a1-05-p1", "type": "choice", "prompt": "There ___ a printer on this floor.", "options": ["is", "are", "am"], "answer": 0,
+     "explain": "A printer é uma coisa só (singular), então usamos there is.",
+     "why_not": {"1": "There are é para plural, como three printers.", "2": "Am só existe com I; não se usa com there."}},
+    {"id": "a1-05-p2", "type": "choice", "prompt": "There ___ three bugs in the report.", "options": ["is", "are", "be"], "answer": 1,
+     "explain": "Three bugs é plural, então usamos there are. O verbo concorda com o que vem depois.",
+     "why_not": {"0": "There is é só para uma coisa."}},
+    {"id": "a1-05-p3", "type": "fill", "prompt": "There ___ two chairs in the meeting room.", "answers": ["are"],
+     "explain": "Two chairs é plural, então o verbo é are: there are two chairs."},
+    {"id": "a1-05-p4", "type": "choice", "prompt": "There are ___ new emails today.", "options": ["some", "any", "a"], "answer": 0,
+     "explain": "Em frases afirmativas com plural usamos some: there are some new emails.",
+     "why_not": {"1": "Any é usado em negativas e perguntas, não em afirmativas.", "2": "A só combina com uma coisa no singular; emails é plural."}},
+    {"id": "a1-05-p5", "type": "choice", "prompt": "There aren't ___ chairs in the room.", "options": ["some", "any", "a"], "answer": 1,
+     "explain": "Na negativa com plural usamos any: there aren't any chairs.",
+     "why_not": {"0": "Some é para frases afirmativas.", "2": "A não combina com plural (chairs)."}},
+    {"id": "a1-05-p6", "type": "translate", "prompt": "Há um bug no código.", "answers": ["There is a bug in the code."],
+     "explain": "Para dizer que algo existe, usamos there is + a bug. O lugar vem depois, com in the code."},
+    {"id": "a1-05-p7", "type": "order", "words": ["There", "is", "a", "printer", "next", "to", "the", "door"], "prompt": "Há uma impressora ao lado da porta.",
+     "answers": ["Next to the door there is a printer."],
+     "explain": "A estrutura é there is + a printer + lugar. Next to the door diz onde ela está."},
+    {"id": "a1-05-p8", "type": "fix", "prompt": "There is two printers on this floor.", "answers": ["There are two printers on this floor."],
+     "explain": "Two printers é plural, então o verbo deve ser are: there are two printers."},
+    {"id": "a1-05-p9", "type": "choice", "prompt": "Como se diz “Tem um erro aqui”?", "options": ["There is an error here.", "Has an error here.", "It is have an error here."], "answer": 0,
+     "explain": "Para existência usamos there is. An vem antes de som de vogal: an error.",
+     "why_not": {"1": "Em inglês não usamos have/has para dizer que algo existe em um lugar.", "2": "Is have junta dois verbos de forma errada."}},
+    {"id": "a1-05-p10", "type": "choice", "prompt": "The keyboard is ___ the desk.", "options": ["on", "under", "between"], "answer": 0,
+     "explain": "O teclado fica em cima da mesa, então usamos on: the keyboard is on the desk.",
+     "why_not": {"1": "Under significa embaixo de.", "2": "Between exige dois pontos de referência, um de cada lado."}},
+    {"id": "a1-05-p11", "type": "translate", "prompt": "Tem uma impressora neste andar?", "answers": ["Is there a printer on this floor?"],
+     "explain": "Na pergunta, o verbo vem antes de there: is there a printer? Andar usa on: on this floor."},
+    {"id": "a1-05-p12", "type": "listen", "en": "There are three chairs in the meeting room.",
+     "explain": "Three chairs é plural, por isso there are. A sala de reunião é meeting room."}
+  ],
+  "quiz": [
+    {"id": "a1-05-q1", "type": "choice", "prompt": "There ___ three monitors on the desk.", "options": ["is", "are", "isn't"], "answer": 1,
+     "explain": "Three monitors é plural, então usamos there are.",
+     "why_not": {"0": "There is é para uma coisa só.", "2": "Isn't é negativa e muda o sentido da frase."}},
+    {"id": "a1-05-q2", "type": "fill", "prompt": "___ there a meeting today?", "answers": ["Is"],
+     "explain": "Perguntas com uma coisa começam com Is there: is there a meeting today?"},
+    {"id": "a1-05-q3", "type": "translate", "prompt": "Há café na cozinha.", "answers": ["There is coffee in the kitchen.", "There is some coffee in the kitchen."],
+     "explain": "Coffee não se conta, então não usamos a. Podemos dizer there is coffee ou there is some coffee."},
+    {"id": "a1-05-q4", "type": "order", "words": ["The", "laptop", "is", "under", "the", "desk"], "prompt": "O notebook está embaixo da mesa.",
+     "explain": "O notebook é conhecido, então usamos the … is. Under significa embaixo de."},
+    {"id": "a1-05-q5", "type": "fix", "prompt": "There are a new developer in our team.", "answers": ["There is a new developer in our team."],
+     "explain": "A new developer é uma pessoa só (singular), então o verbo é is."},
+    {"id": "a1-05-q6", "type": "choice", "prompt": "The printer is ___ the two desks.", "options": ["between", "in", "on"], "answer": 0,
+     "explain": "A impressora fica entre duas mesas, então usamos between.",
+     "why_not": {"1": "In significa dentro de.", "2": "On significa em cima de uma superfície."}},
+    {"id": "a1-05-q7", "type": "listen", "en": "There aren't any windows in this room.",
+     "explain": "Na negativa com plural usamos there aren't any: não há janelas nesta sala."},
+    {"id": "a1-05-q8", "type": "choice", "prompt": "Are there ___ questions?", "options": ["some", "any", "a"], "answer": 1,
+     "explain": "Em perguntas usamos any: are there any questions?",
+     "why_not": {"0": "Some é usado em frases afirmativas.", "2": "A não combina com plural (questions)."}}
+  ],
+  "words": [
+    {"word": "printer", "pt": "impressora"},
+    {"word": "desk", "pt": "mesa de trabalho; escrivaninha"},
+    {"word": "chair", "pt": "cadeira"},
+    {"word": "floor", "pt": "andar; chão"},
+    {"word": "room", "pt": "sala; quarto"},
+    {"word": "kitchen", "pt": "cozinha"},
+    {"word": "next to", "pt": "ao lado de"},
+    {"word": "between", "pt": "entre (dois)"},
+    {"word": "behind", "pt": "atrás de"},
+    {"word": "under", "pt": "embaixo de"},
+    {"word": "in front of", "pt": "na frente de"},
+    {"word": "window", "pt": "janela"}
+  ]
+}

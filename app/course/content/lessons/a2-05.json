@@ -1,0 +1,215 @@
+{
+  "id": "a2-05",
+  "level": "A2",
+  "unit": "Presente e passado",
+  "title": "Past simple: negativa, perguntas e tempo",
+  "goal": "Negar e perguntar no passado com didn't e did, responder com respostas curtas e situar a ação no tempo com ago, last, in 2020 e yesterday.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "O auxiliar did",
+      "text": "Para dizer o que **não** aconteceu e para **perguntar** sobre o passado, o inglês usa um auxiliar: **did**. É o passado de *do*, e o mais importante é que **ele sozinho carrega a marca do passado**.\n\nPor isso, depois de *did* o verbo principal **volta para a forma base** (sem -ed e sem forma irregular): *I didn't call*, *Did you call?*. Essa regra vale tanto para verbos regulares quanto para irregulares.",
+      "examples": [
+        {"en": "I called the client yesterday.", "pt": "Eu liguei para o cliente ontem."},
+        {"en": "I didn't call the client yesterday.", "pt": "Eu não liguei para o cliente ontem."},
+        {"en": "Did you call the client yesterday?", "pt": "Você ligou para o cliente ontem?"}
+      ],
+      "tip": "Lembre: **um só** verbo carrega o passado. Se o auxiliar did já está na frase, o verbo principal fica no infinitivo sem to (a forma base)."
+    },
+    {
+      "title": "Negativa: didn't + verbo base",
+      "text": "A estrutura da negativa é **sujeito + did not (didn't) + verbo base**. A forma é a mesma para todas as pessoas: *I didn't*, *she didn't*, *they didn't*.\n\nA contração **didn't** é a mais comum na fala e nas mensagens, e **did not** aparece mais em textos formais. Funciona para qualquer verbo, inclusive os irregulares: *went* vira *didn't go*.",
+      "table": {
+        "headers": ["Afirmativa", "Negativa"],
+        "rows": [
+          ["I finished the report.", "I didn't finish the report."],
+          ["She went to the meeting.", "She didn't go to the meeting."],
+          ["They found the bug.", "They didn't find the bug."],
+          ["We used the old server.", "We didn't use the old server."]
+        ]
+      },
+      "examples": [
+        {"en": "I didn't see the error message.", "pt": "Eu não vi a mensagem de erro."},
+        {"en": "He did not answer my e-mail.", "pt": "Ele não respondeu ao meu e-mail."},
+        {"en": "We didn't deploy on Friday.", "pt": "Nós não publicamos na sexta-feira."},
+        {"en": "She didn't know about the problem.", "pt": "Ela não sabia do problema."}
+      ],
+      "trap": "Não diga *I didn't finished* nem *She didn't went*. Depois de **didn't**, o verbo fica na forma base: *I didn't finish*, *she didn't go*."
+    },
+    {
+      "title": "Perguntas: Did + sujeito + verbo base",
+      "text": "Para perguntar sobre o passado, coloque **Did** no começo, depois o **sujeito** e o **verbo base**: *Did you test the app?* A pergunta não precisa de nenhuma outra marca de passado.\n\nEm português perguntamos só mudando a entonação (“Você testou o app?”). Em inglês, a pergunta padrão muda a ordem das palavras e usa o *did*. Na fala informal alguém pode até perguntar *You tested the app?* só com a entonação, mas a forma que você deve aprender e usar por escrito é **Did you test the app?**",
+      "table": {
+        "headers": ["Did", "Sujeito", "Verbo base", "Resto"],
+        "rows": [
+          ["Did", "you", "test", "the app?"],
+          ["Did", "she", "send", "the file?"],
+          ["Did", "they", "fix", "the bug?"],
+          ["Did", "he", "go", "to the meeting?"]
+        ]
+      },
+      "examples": [
+        {"en": "Did you send the file?", "pt": "Você enviou o arquivo?"},
+        {"en": "Did she join the call?", "pt": "Ela entrou na chamada?"},
+        {"en": "Did they finish the migration?", "pt": "Eles terminaram a migração?"}
+      ],
+      "trap": "Não diga *Did you sent the file?* nem *Did she joined?*. O verbo depois do sujeito fica na forma base: **Did you send...?**, **Did she join...?**"
+    },
+    {
+      "title": "Respostas curtas",
+      "text": "Em inglês, é comum responder a uma pergunta com did com uma **resposta curta**: **Yes + sujeito + did** ou **No + sujeito + didn't**. A resposta repete o auxiliar e **não repete o verbo principal**.\n\nO pronome da resposta combina com o sujeito da pergunta: *Did Ana call? — Yes, she did.* A resposta curta é mais natural do que só *Yes* ou *No*, principalmente em conversas de trabalho.",
+      "table": {
+        "headers": ["Pergunta", "Resposta curta"],
+        "rows": [
+          ["Did you finish the task?", "Yes, I did. / No, I didn't."],
+          ["Did Ana call you?", "Yes, she did. / No, she didn't."],
+          ["Did they test the update?", "Yes, they did. / No, they didn't."]
+        ]
+      },
+      "examples": [
+        {"en": "Did you read the log? — Yes, I did.", "pt": "Você leu o log? — Sim, li."},
+        {"en": "Did Marco fix it? — No, he didn't.", "pt": "O Marco consertou? — Não, não consertou."},
+        {"en": "Did they answer? — Yes, they did.", "pt": "Eles responderam? — Sim, responderam."}
+      ],
+      "tip": "A resposta curta funciona com o mesmo auxiliar da pergunta: Did → did / didn't. Com was/were, a resposta usa was/were: *Was it ready? — Yes, it was.*"
+    },
+    {
+      "title": "Perguntas com palavra interrogativa",
+      "text": "Para pedir informações, coloque a palavra interrogativa (**what, where, when, why, how, who**) **antes do did**: *What did you do?*, *Where did she go?*, *Why did they stop?*. Depois, mantenha sujeito + verbo base.\n\nHá uma exceção: quando a palavra interrogativa é o **sujeito** da frase (alguém fez a ação), não usamos did. Diga *Who broke the build?*, e não *Who did break the build?*. O verbo fica no passado normal.",
+      "table": {
+        "headers": ["Pergunta", "Resposta possível"],
+        "rows": [
+          ["What did you do yesterday?", "I fixed two bugs."],
+          ["Where did she go?", "She went to the client."],
+          ["When did they leave?", "They left at six."],
+          ["Who broke the build?", "Paulo did."]
+        ]
+      },
+      "examples": [
+        {"en": "What did you do yesterday?", "pt": "O que você fez ontem?"},
+        {"en": "Why did they stop the test?", "pt": "Por que eles pararam o teste?"},
+        {"en": "How did you find the bug?", "pt": "Como você encontrou o bug?"},
+        {"en": "Who wrote this script?", "pt": "Quem escreveu este script?"}
+      ],
+      "trap": "Em *Who wrote this script?* não use did: *Who did write...?* não é a forma normal da pergunta. Se o **who** é o sujeito, o verbo vai direto para o passado."
+    },
+    {
+      "title": "Expressões de tempo no passado",
+      "text": "As expressões de tempo mostram **quando** a ação aconteceu. As principais são **yesterday** (ontem), **last** + período (*last week*, *last year*), **ago** (há; vem **depois** do período: *two days ago*), **in** + ano ou mês (*in 2020*, *in May*) e **on** + dia (*on Monday*).\n\nPara perguntar há quanto tempo algo aconteceu, use **How long ago**: *How long ago did you join the team?* Todas essas expressões podem ficar no fim da frase ou no início.",
+      "table": {
+        "headers": ["Expressão", "Exemplo"],
+        "rows": [
+          ["yesterday", "She didn't join the call yesterday."],
+          ["last week / month / year", "Did you see him last week?"],
+          ["two days ago", "We released the app two days ago."],
+          ["in 2020 / in May", "He started the job in 2020."],
+          ["on Monday", "They didn't meet on Monday."]
+        ]
+      },
+      "examples": [
+        {"en": "I joined the team two years ago.", "pt": "Eu entrei na equipe há dois anos."},
+        {"en": "Did you go to the office last week?", "pt": "Você foi ao escritório na semana passada?"},
+        {"en": "He didn't work here in 2020.", "pt": "Ele não trabalhava aqui em 2020."}
+      ],
+      "trap": "Em português, “há dois anos” vem antes do tempo; em inglês, **ago** vem depois: *two years ago*, e não *ago two years*."
+    },
+    {
+      "title": "Was e were: negativa e pergunta sem did",
+      "text": "O verbo **to be** no passado (**was** e **were**) **não usa did**. A negativa é **wasn't** ou **weren't**, e a pergunta inverte o sujeito com o verbo: *Was he late?* *Were you at the meeting?*\n\nEsta é uma das poucas exceções importantes. Se o verbo da frase é *be*, esqueça o did.",
+      "table": {
+        "headers": ["Tipo", "Exemplo"],
+        "rows": [
+          ["Negativa", "The server wasn't ready."],
+          ["Pergunta", "Was the server ready?"],
+          ["Negativa (plural)", "They weren't in the office."],
+          ["Pergunta (plural)", "Were they in the office?"]
+        ]
+      },
+      "examples": [
+        {"en": "I wasn't at the meeting yesterday.", "pt": "Eu não estava na reunião ontem."},
+        {"en": "Were you late this morning?", "pt": "Você estava atrasado hoje de manhã?"},
+        {"en": "The tests weren't ready.", "pt": "Os testes não estavam prontos."}
+      ],
+      "trap": "Não diga *Did you were late?* nem *I didn't was there*. Com **was/were** não existe did: *Were you late?*, *I wasn't there*."
+    },
+    {
+      "title": "Na prática: perguntas depois de um deploy",
+      "text": "Depois de uma publicação, é comum a equipe fazer perguntas sobre o que aconteceu. Observe como as perguntas e as respostas usam **did/didn't** e o verbo base, e como o tempo vem marcado por *last night*, *ago* e *yesterday*.\n\nUse este diálogo como modelo para suas próprias perguntas: primeiro *Did...?* para confirmar, depois uma palavra interrogativa para pedir detalhes.",
+      "examples": [
+        {"en": "Did you deploy the update last night?", "pt": "Você publicou a atualização ontem à noite?"},
+        {"en": "Yes, I did. But I didn't restart the server.", "pt": "Sim, publiquei. Mas não reiniciei o servidor."},
+        {"en": "When did the error start?", "pt": "Quando o erro começou?"},
+        {"en": "It started about an hour ago.", "pt": "Começou há cerca de uma hora."}
+      ]
+    }
+  ],
+  "summary": [
+    "Negativa do passado: sujeito + didn't + verbo base (I didn't finish; she didn't go).",
+    "Pergunta: Did + sujeito + verbo base (Did you send the file?). Nunca use o passado do verbo depois de did.",
+    "Resposta curta: Yes, I did. / No, I didn't. Repita o did, e não o verbo principal.",
+    "Com palavra interrogativa, ela vem antes do did (What did you do?). Se who é o sujeito, não há did (Who broke the build?).",
+    "Com was/were não existe did (Was he late?). Ago vem depois do período: two days ago."
+  ],
+  "practice": [
+    {"id": "a2-05-p1", "type": "choice", "prompt": "She ___ finish the report yesterday.", "options": ["didn't", "doesn't", "don't"], "answer": 0,
+     "explain": "Yesterday indica passado, e a negativa do passado usa didn't + verbo base.",
+     "why_not": {"1": "Doesn't é o auxiliar do presente com he, she e it.", "2": "Don't também é do presente."}},
+    {"id": "a2-05-p2", "type": "choice", "prompt": "Did you ___ the client last week?", "options": ["call", "called", "calling"], "answer": 0,
+     "explain": "Depois de did, o verbo fica na forma base: call. O did já carrega o passado.",
+     "why_not": {"1": "Depois de did não usamos o verbo no passado.", "2": "O -ing não combina com did."}},
+    {"id": "a2-05-p3", "type": "choice", "prompt": "He didn't ___ the server.", "options": ["restart", "restarted", "restarts"], "answer": 0,
+     "explain": "Depois de didn't, o verbo principal fica na forma base: restart.",
+     "why_not": {"1": "O passado já está no didn't; o verbo não leva -ed.", "2": "Restarts leva -s do presente, e não se usa depois de didn't."}},
+    {"id": "a2-05-p4", "type": "fill", "prompt": "We ___ not deploy on Friday.", "answers": ["did"],
+     "explain": "A negativa do passado é did + not + verbo base: we did not deploy."},
+    {"id": "a2-05-p5", "type": "fill", "prompt": "___ you see the error in the log?", "answers": ["did"],
+     "explain": "A pergunta no passado começa com did: Did you see...? O verbo see fica na forma base."},
+    {"id": "a2-05-p6", "type": "fill", "prompt": "Where did she ___ (go) last night?", "answers": ["go"],
+     "explain": "Depois de did, o verbo fica na forma base, mesmo sendo irregular: go, e não went."},
+    {"id": "a2-05-p7", "type": "translate", "prompt": "Eu não encontrei o bug.", "answers": ["I did not find the bug.", "I didn't find the bug."],
+     "explain": "A negativa é I didn't + verbo base. Depois de didn't, use find, e não found."},
+    {"id": "a2-05-p8", "type": "order", "words": ["Did", "you", "test", "the", "new", "version"], "prompt": "Você testou a nova versão?",
+     "explain": "A pergunta no passado tem a ordem Did + sujeito + verbo base + complemento."},
+    {"id": "a2-05-p9", "type": "fix", "prompt": "Did you went to the meeting?", "answers": ["Did you go to the meeting?"],
+     "explain": "Depois de did, o verbo volta para a forma base: go. O passado já está em did."},
+    {"id": "a2-05-p10", "type": "fix", "prompt": "She didn't called the client.", "answers": ["She didn't call the client."],
+     "explain": "Depois de didn't o verbo fica na forma base: call. Não repita o -ed."},
+    {"id": "a2-05-p11", "type": "listen", "en": "What did you do yesterday afternoon?",
+     "explain": "Em What did you do?, o primeiro do é o auxiliar did e o último é o verbo principal do, na forma base."},
+    {"id": "a2-05-p12", "type": "choice", "prompt": "Did they finish the test? — No, ___.", "options": ["they didn't", "they don't", "they weren't"], "answer": 0,
+     "explain": "A resposta curta repete o auxiliar da pergunta: Did → No, they didn't.",
+     "why_not": {"1": "Don't é do presente.", "2": "Weren't é do verbo to be, que não aparece na pergunta."}}
+  ],
+  "quiz": [
+    {"id": "a2-05-q1", "type": "choice", "prompt": "They ___ answer my e-mail last week.", "options": ["didn't", "not", "weren't"], "answer": 0,
+     "explain": "A negativa do passado usa didn't + verbo base: they didn't answer.",
+     "why_not": {"1": "Not precisa de um auxiliar: did not.", "2": "Weren't é do verbo to be, e answer não é be."}},
+    {"id": "a2-05-q2", "type": "fill", "prompt": "Did she ___ (write) the documentation?", "answers": ["write"],
+     "explain": "Depois de did, o verbo fica na forma base: write, e não wrote."},
+    {"id": "a2-05-q3", "type": "fill", "prompt": "I didn't ___ (know) about the meeting.", "answers": ["know"],
+     "explain": "Depois de didn't, use a forma base: know, e não knew."},
+    {"id": "a2-05-q4", "type": "translate", "prompt": "Você usou o servidor novo ontem?", "answers": ["Did you use the new server yesterday?"],
+     "explain": "Pergunta no passado: Did + you + use. Ontem é yesterday, e o verbo não leva -d."},
+    {"id": "a2-05-q5", "type": "order", "words": ["We", "didn't", "go", "to", "the", "office", "on", "Friday"], "prompt": "Nós não fomos ao escritório na sexta-feira.", "answers": ["We did not go to the office on Friday.", "On Friday we didn't go to the office."],
+     "explain": "A negativa é didn't + verbo base: didn't go. A expressão on Friday pode vir no fim ou no começo."},
+    {"id": "a2-05-q6", "type": "fix", "prompt": "When did she started the project?", "answers": ["When did she start the project?"],
+     "explain": "Depois de did, o verbo fica na forma base: start. O passado já está no did."},
+    {"id": "a2-05-q7", "type": "choice", "prompt": "Qual pergunta está correta?", "options": ["Did he fixed the bug?", "Did he fix the bug?", "Does he fixed the bug?"], "answer": 1,
+     "explain": "A pergunta no passado é Did + sujeito + verbo base: Did he fix...?",
+     "why_not": {"0": "Depois de did, o verbo não leva -ed.", "2": "Does é do presente e também não combina com fixed."}},
+    {"id": "a2-05-q8", "type": "listen", "en": "Who broke the build last night?",
+     "explain": "Who é o sujeito, então não há did e o verbo broke fica no passado. Compare com Who did you call?"}
+  ],
+  "words": [
+    {"word": "ago", "pt": "atrás; há (tempo)"},
+    {"word": "yesterday", "pt": "ontem"},
+    {"word": "answer", "pt": "responder; resposta"},
+    {"word": "restart", "pt": "reiniciar"},
+    {"word": "finish", "pt": "terminar; concluir"},
+    {"word": "break", "pt": "quebrar; romper"},
+    {"word": "know", "pt": "saber; conhecer"},
+    {"word": "use", "pt": "usar"},
+    {"word": "call", "pt": "ligar; chamar; chamada"},
+    {"word": "report", "pt": "relatório; relatar"}
+  ]
+}

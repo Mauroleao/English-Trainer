@@ -1,0 +1,29 @@
+{
+  "id": "r-a2-02",
+  "level": "A2",
+  "title": "Junior Web Developer wanted",
+  "topic": "Vaga de emprego",
+  "text": "Junior Web Developer - Remote\n\nWe are a small company in Recife. We make apps for schools. Now we need a new developer for our team.\n\nWhat you will do: write code for websites, fix bugs and work with designers.\n\nWhat we want: you know HTML, CSS and JavaScript. You speak English a little. Experience is not necessary, but you must be ready to learn.\n\nWhat we offer: a salary, flexible hours and a laptop. You can work from home three days a week.\n\nSend your CV and a short message about yourself.",
+  "pt": "Desenvolvedor(a) Web Júnior - Remoto\n\nSomos uma pequena empresa em Recife. Nós fazemos aplicativos para escolas. Agora precisamos de um novo desenvolvedor para o nosso time.\n\nO que você vai fazer: escrever código para sites, corrigir bugs e trabalhar com designers.\n\nO que queremos: você conhece HTML, CSS e JavaScript. Você fala um pouco de inglês. Experiência não é necessária, mas você precisa estar pronto para aprender.\n\nO que oferecemos: salário, horário flexível e um laptop. Você pode trabalhar de casa três dias por semana.\n\nEnvie seu currículo e uma mensagem curta sobre você.",
+  "vocab": [
+    {"word": "remote", "pt": "remoto"},
+    {"word": "company", "pt": "empresa"},
+    {"word": "designers", "pt": "designers"},
+    {"word": "experience", "pt": "experiência"},
+    {"word": "necessary", "pt": "necessário"},
+    {"word": "salary", "pt": "salário"},
+    {"word": "flexible", "pt": "flexível"},
+    {"word": "offer", "pt": "oferecer"},
+    {"word": "hours", "pt": "horas; horário"}
+  ],
+  "questions": [
+    {"id": "r-a2-02-q1", "type": "choice", "prompt": "What does the company make?", "options": ["Websites for banks", "Apps for schools", "Laptops for designers"], "answer": 1,
+     "explain": "O texto diz “We make apps for schools”: a empresa faz aplicativos para escolas."},
+    {"id": "r-a2-02-q2", "type": "choice", "prompt": "Is experience necessary?", "options": ["Yes, two years.", "Yes, for JavaScript only.", "No, it is not."], "answer": 2,
+     "explain": "O texto diz “Experience is not necessary”, mas o candidato precisa estar pronto para aprender."},
+    {"id": "r-a2-02-q3", "type": "choice", "prompt": "How many days a week can you work from home?", "options": ["Three", "Five", "Two"], "answer": 0,
+     "explain": "A frase “You can work from home three days a week” informa três dias por semana."},
+    {"id": "r-a2-02-q4", "type": "choice", "prompt": "What do you send to the company?", "options": ["A laptop and a CV", "A CV and a short message", "A salary and a message"], "answer": 1,
+     "explain": "A última frase diz “Send your CV and a short message about yourself”."}
+  ]
+}

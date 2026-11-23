@@ -1,0 +1,28 @@
+{
+  "id": "r-b1-03",
+  "level": "B1",
+  "title": "How I learned to read documentation",
+  "topic": "Artigo de blog sobre carreira",
+  "text": "When I started programming, I hated documentation. It was long, boring, and written in a kind of English I didn't understand. I preferred watching videos or asking friends. The problem was that videos get old quickly, and my friends were not always available.\n\nA senior developer gave me a simple piece of advice: \"Don't read the documentation like a book. Use it like a map.\" That changed everything.\n\nNow I follow three steps. First, I read the introduction to understand what the tool does and what it doesn't do. Second, I look for a small example and run it on my computer. Third, I search for the exact word I need, such as an error message or a function name.\n\nI also learned to look at the version number. Many times, my code didn't work because I was reading the documentation for an older version.\n\nReading in English is still hard sometimes, but it gets easier every month. If you are a beginner, my advice is to start with short pages and to keep a list of new words. After some weeks, you will notice that the same words appear again and again.",
+  "pt": "Quando comecei a programar, eu odiava documentação. Era longa, chata e escrita num tipo de inglês que eu não entendia. Eu preferia assistir a vídeos ou perguntar a amigos. O problema era que os vídeos ficam velhos rápido, e meus amigos nem sempre estavam disponíveis.\n\nUm desenvolvedor sênior me deu um conselho simples: \"Não leia a documentação como um livro. Use-a como um mapa.\" Isso mudou tudo.\n\nAgora eu sigo três passos. Primeiro, leio a introdução para entender o que a ferramenta faz e o que ela não faz. Segundo, procuro um exemplo pequeno e o executo no meu computador. Terceiro, busco a palavra exata de que preciso, como uma mensagem de erro ou o nome de uma função.\n\nTambém aprendi a olhar o número da versão. Muitas vezes, meu código não funcionava porque eu estava lendo a documentação de uma versão mais antiga.\n\nLer em inglês ainda é difícil às vezes, mas fica mais fácil a cada mês. Se você é iniciante, meu conselho é começar com páginas curtas e manter uma lista de palavras novas. Depois de algumas semanas, você vai perceber que as mesmas palavras aparecem várias vezes.",
+  "vocab": [
+    {"word": "documentation", "pt": "documentação"},
+    {"word": "advice", "pt": "conselho"},
+    {"word": "senior", "pt": "sênior"},
+    {"word": "tool", "pt": "ferramenta"},
+    {"word": "example", "pt": "exemplo"},
+    {"word": "function", "pt": "função"},
+    {"word": "version", "pt": "versão"},
+    {"word": "beginner", "pt": "iniciante"}
+  ],
+  "questions": [
+    {"id": "r-b1-03-q1", "type": "choice", "prompt": "Why did the writer avoid documentation at first?", "options": ["It was too expensive", "It was long, boring and hard to understand", "His boss said it was wrong"], "answer": 1,
+     "explain": "O autor diz que era “long, boring, and written in a kind of English I didn't understand”."},
+    {"id": "r-b1-03-q2", "type": "choice", "prompt": "What does “use it like a map” suggest?", "options": ["Print every page", "Read it only once", "Look for what you need, do not read everything in order"], "answer": 2,
+     "explain": "O conselho é não ler como um livro; usar como um mapa, buscando o que se precisa, como nos três passos descritos."},
+    {"id": "r-b1-03-q3", "type": "choice", "prompt": "Why did his code sometimes not work?", "options": ["He read the docs of an older version", "He used the wrong computer", "He did not read the introduction"], "answer": 0,
+     "explain": "O texto diz que ele estava “reading the documentation for an older version”."},
+    {"id": "r-b1-03-q4", "type": "choice", "prompt": "What does he advise beginners to do?", "options": ["Only watch videos", "Start with short pages and keep a word list", "Wait until their English is perfect"], "answer": 1,
+     "explain": "Ele sugere “start with short pages and ... keep a list of new words”."}
+  ]
+}

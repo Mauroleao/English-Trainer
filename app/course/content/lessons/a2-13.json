@@ -1,0 +1,177 @@
+{
+  "id": "a2-13",
+  "level": "A2",
+  "unit": "Ligar ideias e preparar o B1",
+  "title": "Conectores: and, but, so, because, although, when, while…",
+  "goal": "Ligar duas ideias com and, but, so, because, although, when, while, before e after, e escrever pequenos parágrafos com a pontuação certa.",
+  "minutes": 22,
+  "steps": [
+    {
+      "title": "Para que servem os conectores",
+      "text": "Conectores são palavras que ligam duas ideias e mostram a relação entre elas: soma, contraste, causa, resultado ou tempo. Sem conectores, o texto fica com frases curtas e soltas: *I like my job. It is difficult.* Com conectores, ele flui: *I like my job, but it is difficult.*\n\nNesta lição você vai usar nove conectores: **and**, **but**, **so**, **because**, **although**, **when**, **while**, **before** e **after**. Cada um liga duas orações. Uma **oração** é um grupo de palavras com sujeito e verbo, como *I work* ou *the server is down*.",
+      "table": {
+        "headers": ["Conector", "Ideia", "Exemplo"],
+        "rows": [
+          ["and", "soma", "I write code and I test it."],
+          ["but", "contraste", "The app is fast, but the design is old."],
+          ["so", "resultado", "I was tired, so I went home."],
+          ["because", "causa", "I am late because the train is slow."],
+          ["although", "contraste (embora)", "Although it is late, we work."],
+          ["when", "momento (quando)", "When I open the file, I see an error."],
+          ["while", "ao mesmo tempo (enquanto)", "I drink coffee while I read my email."],
+          ["before", "antes", "I check my email before I start work."],
+          ["after", "depois", "After the meeting, we write the notes."]
+        ]
+      },
+      "examples": [
+        {"en": "I write code and I test it.", "pt": "Eu escrevo código e eu o testo."},
+        {"en": "The app is fast, but the design is old.", "pt": "O app é rápido, mas o design é antigo."},
+        {"en": "I was tired, so I went home.", "pt": "Eu estava cansado, então fui para casa."}
+      ]
+    },
+    {
+      "title": "And e but: somar e contrastar",
+      "text": "**And** soma ideias parecidas: *I check my email and I answer the clients*. **But** mostra contraste, uma ideia que vai contra a outra: *The code works, but it is slow*.\n\nQuando as duas orações têm sujeito próprio, costumamos pôr uma vírgula antes de **but**. Com **and**, a vírgula é opcional. Se o sujeito é o mesmo nas duas partes, você pode omiti-lo na segunda: *She opens the file and reads it*.",
+      "examples": [
+        {"en": "I check my email and I answer the clients.", "pt": "Eu leio meus e-mails e respondo aos clientes."},
+        {"en": "The code works, but it is slow.", "pt": "O código funciona, mas é lento."},
+        {"en": "She opens the file and reads it.", "pt": "Ela abre o arquivo e o lê."}
+      ],
+      "trap": "Para contraste, use **but**, e não *and*. Em *The job is good, but the salary is low* a segunda ideia contraria a primeira. Com *and*, a frase soaria como uma simples lista."
+    },
+    {
+      "title": "Because e so: causa e resultado",
+      "text": "**Because** (porque) apresenta a **causa**: *I am late because the train is slow*. **So** (então, por isso) apresenta o **resultado**: *The train is slow, so I am late*. As duas frases dizem a mesma coisa, mas em ordens diferentes.\n\nUm truque: depois de **because** vem o motivo; depois de **so** vem a consequência. Antes de **so**, use vírgula. Para responder a *Why?*, você pode começar direto com **Because**: *Why are you late? Because the server is down.*",
+      "examples": [
+        {"en": "We cannot deploy because the tests fail.", "pt": "Não podemos fazer o deploy porque os testes falham."},
+        {"en": "The tests fail, so we cannot deploy.", "pt": "Os testes falham, então não podemos fazer o deploy."},
+        {"en": "Why are you happy? Because it is Friday.", "pt": "Por que você está feliz? Porque é sexta-feira."}
+      ],
+      "trap": "Depois de **because** vem sujeito + verbo (*because the server is down*). Se vier só um substantivo, o certo é **because of**: *because of the rain*. Não confunda a ordem: *I was late, because the train was slow* mostra a causa, e *so* mostra a consequência."
+    },
+    {
+      "title": "Although: contraste com uma oração completa",
+      "text": "**Although** (embora) também mostra contraste, mas a construção é diferente de **but**. Depois de although vem uma oração completa (sujeito + verbo), e ela traz a ideia que contraria a expectativa: *Although it is late, we are still working*.\n\nVocê pode pôr although no começo da frase (com vírgula depois da primeira oração) ou no meio (em geral sem vírgula): *We are still working although it is late*. O sentido é o mesmo.",
+      "examples": [
+        {"en": "Although the bug is small, it is important.", "pt": "Embora o bug seja pequeno, ele é importante."},
+        {"en": "I like the project although it is difficult.", "pt": "Eu gosto do projeto, embora ele seja difícil."}
+      ],
+      "trap": "Não use **although** e **but** juntos na mesma frase. Errado: *Although it is late, but we work*. Certo: *Although it is late, we work* ou *It is late, but we work*. Em português também dizemos “embora… mas”? Evite essa mistura em inglês."
+    },
+    {
+      "title": "When e while: tempo",
+      "text": "**When** (quando) liga dois momentos: *When I open the file, I see an error*. **While** (enquanto) mostra duas ações que acontecem ao mesmo tempo: *I listen to music while I work*.\n\nNo passado, a lógica é a mesma, com verbos no past simple: *When I opened the file, I saw an error*. Quando as duas partes têm sujeitos diferentes, a vírgula aparece se a oração com o conector vem primeiro: *While Ana tests the app, Bruno writes the report*.",
+      "examples": [
+        {"en": "When I open the file, I see an error.", "pt": "Quando abro o arquivo, vejo um erro."},
+        {"en": "I drink coffee while I read my email.", "pt": "Eu tomo café enquanto leio meus e-mails."},
+        {"en": "While Ana tests the app, Bruno writes the report.", "pt": "Enquanto a Ana testa o app, o Bruno escreve o relatório."},
+        {"en": "When I opened the file, I saw an error.", "pt": "Quando abri o arquivo, vi um erro."}
+      ],
+      "trap": "Em português usamos “quando” para vários casos. Em inglês, para “enquanto” (duas ações ao mesmo tempo) prefira **while**. *I study when I travel* é uma frase correta, mas muda o sentido: significa “estudo sempre que viajo”."
+    },
+    {
+      "title": "Before e after: ordem das ações",
+      "text": "**Before** (antes de, antes que) e **after** (depois de, depois que) mostram a ordem das ações. Depois deles vem uma oração completa: *Before I leave, I close my laptop*. *After we deploy, we check the logs*.\n\nVocê pode trocar a ordem das duas partes sem mudar o sentido: *I close my laptop before I leave*. Os dois conectores também aceitam um substantivo logo depois: *before lunch*, *after the meeting*.",
+      "examples": [
+        {"en": "I check my email before I start work.", "pt": "Eu leio meus e-mails antes de começar a trabalhar."},
+        {"en": "After the meeting, we write the notes.", "pt": "Depois da reunião, escrevemos a ata."},
+        {"en": "We test the code before the release.", "pt": "Testamos o código antes do lançamento."}
+      ],
+      "trap": "Cuidado com a ordem real das ações. Em *Before I leave, I close my laptop*, primeiro eu fecho o laptop e depois saio. A ação que vem depois de **before** acontece por último; a que vem depois de **after** acontece primeiro."
+    },
+    {
+      "title": "Posição e pontuação",
+      "text": "A pontuação segue um padrão simples. Com **and**, **but** e **so** entre duas orações completas, usamos vírgula antes (com *and*, ela é opcional). Com **because**, **although**, **when**, **while**, **before** e **after**, a vírgula só aparece quando a oração com o conector vem **primeiro**.\n\nEm textos escritos, não deixe uma oração com **because** ou **although** sozinha, como se fosse uma frase completa: ela precisa de uma oração principal ao lado.",
+      "table": {
+        "headers": ["Posição", "Vírgula?", "Exemplo"],
+        "rows": [
+          ["but / so entre duas orações", "sim, antes do conector", "It works, but it is slow."],
+          ["conector no começo da frase", "sim, depois da 1ª oração", "Because the server is down, we cannot deploy."],
+          ["conector no meio da frase", "em geral, não", "We cannot deploy because the server is down."]
+        ]
+      },
+      "examples": [
+        {"en": "Although it is late, we are still working.", "pt": "Embora seja tarde, ainda estamos trabalhando."},
+        {"en": "We are still working although it is late.", "pt": "Ainda estamos trabalhando, embora seja tarde."},
+        {"en": "Because the server is down, we cannot deploy.", "pt": "Como o servidor está fora do ar, não podemos fazer o deploy."}
+      ],
+      "tip": "Se a oração com o conector abre a frase, pense: “primeira ideia, vírgula, segunda ideia”."
+    },
+    {
+      "title": "Juntando tudo em um parágrafo",
+      "text": "Veja como os conectores transformam frases soltas em um pequeno parágrafo de trabalho. Cada conector responde a uma pergunta: *e daí?* (so), *por quê?* (because), *mas?* (but, although), *quando?* (when, before, after, while).\n\nTente escrever três ou quatro frases sobre o seu dia usando pelo menos quatro conectores diferentes.",
+      "examples": [
+        {"en": "I start work at nine, and I read my email first.", "pt": "Eu começo a trabalhar às nove, e leio meus e-mails primeiro."},
+        {"en": "Yesterday the app crashed because the server was full.", "pt": "Ontem o app travou porque o servidor estava cheio."},
+        {"en": "We fixed the bug, but the client was still unhappy.", "pt": "Corrigimos o bug, mas o cliente ainda estava insatisfeito."},
+        {"en": "After we fixed the bug, we tested it while the client waited.", "pt": "Depois que corrigimos o bug, nós o testamos enquanto o cliente esperava."}
+      ]
+    }
+  ],
+  "summary": [
+    "And soma ideias e but mostra contraste; antes de but, entre duas orações completas, usamos vírgula.",
+    "Because apresenta a causa e so apresenta o resultado: The server is down, so we cannot deploy.",
+    "Although (embora) é seguido de sujeito + verbo e nunca aparece junto de but na mesma frase.",
+    "When liga momentos e while liga ações ao mesmo tempo; before e after mostram a ordem das ações.",
+    "Se a oração com o conector abre a frase, há vírgula depois dela; se ela vem no meio, em geral não há vírgula."
+  ],
+  "practice": [
+    {"id": "a2-13-p1", "type": "choice", "prompt": "The code works, ___ it is slow.", "options": ["and", "but", "because"], "answer": 1,
+     "explain": "A segunda ideia contraria a primeira: funciona, mas é lento. Para contraste usamos but.",
+     "why_not": {"0": "And apenas soma ideias parecidas e não mostra contraste.", "2": "Because daria uma causa, e ser lento não é a causa de funcionar."}},
+    {"id": "a2-13-p2", "type": "choice", "prompt": "We cannot deploy ___ the tests fail.", "options": ["so", "because", "but"], "answer": 1,
+     "explain": "Os testes falharem é a causa de não podermos fazer o deploy, então usamos because.",
+     "why_not": {"0": "So introduziria o resultado, e não a causa.", "2": "But traria um contraste, e aqui não há contraste."}},
+    {"id": "a2-13-p3", "type": "choice", "prompt": "I was tired, ___ I went home early.", "options": ["because", "although", "so"], "answer": 2,
+     "explain": "Estar cansado levou a ir para casa: é um resultado, e o conector do resultado é so.",
+     "why_not": {"0": "Because inverteria a lógica: ir para casa não é a causa de estar cansado.", "2": "Although mostraria contraste, e aqui há consequência."}},
+    {"id": "a2-13-p4", "type": "fill", "prompt": "The server is down, ___ we cannot deploy. (por isso)", "answers": ["so"],
+     "explain": "O servidor fora do ar é a causa, e o resultado vem depois de so, com vírgula antes."},
+    {"id": "a2-13-p5", "type": "choice", "prompt": "___ the app is very good, the client is not happy.", "options": ["Although", "Because", "Before"], "answer": 0,
+     "explain": "Há um contraste inesperado: o app é bom, mas o cliente não está feliz. Although introduz esse contraste.",
+     "why_not": {"1": "Because daria a causa, e o app ser bom não explica a insatisfação.", "2": "Before indica ordem no tempo, e não contraste."}},
+    {"id": "a2-13-p6", "type": "choice", "prompt": "Como dizer “Ouço música enquanto trabalho”? I listen to music ___ I work.", "options": ["while", "before", "because"], "answer": 0,
+     "explain": "While significa enquanto: as duas ações acontecem ao mesmo tempo.",
+     "why_not": {"1": "Before significa antes de, e a ordem das ações seria outra.", "2": "Because daria um motivo, e a frase em português fala de duas ações simultâneas."}},
+    {"id": "a2-13-p7", "type": "order", "words": ["Before", "I", "leave", "I", "close", "my", "laptop"], "answers": ["I close my laptop before I leave."], "prompt": "Antes de sair, eu fecho meu laptop.",
+     "explain": "Before + sujeito + verbo abre a frase, e depois vem a ação principal. Também é possível dizer I close my laptop before I leave."},
+    {"id": "a2-13-p8", "type": "translate", "prompt": "Eu estava cansado, mas terminei o relatório.", "answers": ["I was tired, but I finished the report.", "I was tired but I finished the report.", "I was tired, but I finished my report."],
+     "explain": "But liga as duas ideias contrárias, e os verbos estão no past simple: was e finished."},
+    {"id": "a2-13-p9", "type": "fix", "prompt": "Although it is late, but we are still working.", "answers": ["Although it is late, we are still working.", "It is late, but we are still working."],
+     "explain": "Although e but não aparecem juntos na mesma frase. Use apenas um deles para o contraste."},
+    {"id": "a2-13-p10", "type": "listen", "en": "We fixed the bug before the client called.",
+     "explain": "Before + sujeito + verbo: o bug foi corrigido primeiro, e o cliente ligou depois."},
+    {"id": "a2-13-p11", "type": "translate", "prompt": "Depois que o build terminou, eu testei o app.", "answers": ["After the build finished, I tested the app.", "After the build finished, I tested the application."],
+     "explain": "After + sujeito + verbo no past simple abre a frase, e há vírgula depois da primeira oração."}
+  ],
+  "quiz": [
+    {"id": "a2-13-q1", "type": "choice", "prompt": "I open my laptop ___ I read my emails.", "options": ["and", "but", "although"], "answer": 0,
+     "explain": "As duas ações se somam, sem contraste: abro o laptop e leio os e-mails.",
+     "why_not": {"1": "But exigiria uma ideia contrária à primeira.", "2": "Although também mostra contraste e não cabe aqui."}},
+    {"id": "a2-13-q2", "type": "fill", "prompt": "I like this team, ___ the work is hard. (mas)", "answers": ["but", "although", "though"],
+     "explain": "A segunda ideia contrasta com a primeira. O mais comum é but, mas although ou though também são corretos aqui."},
+    {"id": "a2-13-q3", "type": "translate", "prompt": "Não podemos abrir o arquivo porque a senha está errada.", "answers": ["We cannot open the file because the password is wrong.", "We can't open the file because the password is wrong.", "We cannot open the file because the password is incorrect."],
+     "explain": "Because introduz a causa: a senha está errada. Depois de because vem sujeito + verbo."},
+    {"id": "a2-13-q4", "type": "order", "words": ["Ana", "tests", "the", "app", "while", "Bruno", "writes", "the", "report"], "prompt": "A Ana testa o app enquanto o Bruno escreve o relatório.",
+     "explain": "While liga duas ações simultâneas, cada uma com seu sujeito: Ana tests… while Bruno writes…"},
+    {"id": "a2-13-q5", "type": "fix", "prompt": "Because I was tired, so I went home.", "answers": ["Because I was tired, I went home.", "I was tired, so I went home."],
+     "explain": "Because e so juntos repetem a mesma ideia. Use apenas um: because com a causa primeiro, ou so com o resultado depois."},
+    {"id": "a2-13-q6", "type": "choice", "prompt": "Qual frase está correta?", "options": ["I check my email before I start work.", "I check my email before start work.", "I check my email before I starting work."], "answer": 0,
+     "explain": "Depois de before vem uma oração completa: before + I + start.",
+     "why_not": {"1": "Falta o sujeito depois de before: é before I start.", "2": "Depois de I, o verbo fica no present simple (start), e não em -ing."}},
+    {"id": "a2-13-q7", "type": "listen", "en": "Although the test was long, it was useful.",
+     "explain": "Although abre a frase, e há vírgula antes da oração principal: it was useful."}
+  ],
+  "words": [
+    {"word": "although", "pt": "embora; apesar de que"},
+    {"word": "because", "pt": "porque"},
+    {"word": "while", "pt": "enquanto"},
+    {"word": "before", "pt": "antes de; antes que"},
+    {"word": "after", "pt": "depois de; depois que"},
+    {"word": "but", "pt": "mas"},
+    {"word": "so", "pt": "então; por isso"},
+    {"word": "tired", "pt": "cansado; cansada"},
+    {"word": "laptop", "pt": "notebook; laptop"},
+    {"word": "report", "pt": "relatório"}
+  ]
+}

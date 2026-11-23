@@ -1,0 +1,28 @@
+{
+  "id": "r-b1-01",
+  "level": "B1",
+  "title": "Moving our sprint planning",
+  "topic": "E-mail de trabalho",
+  "text": "Subject: Sprint planning moved to Thursday\n\nHi everyone,\n\nI'm sorry for the late notice, but we have to move tomorrow's sprint planning to Thursday at 10:00. Marta, our product owner, has an urgent meeting with a client and she can't join us until then.\n\nBefore the meeting, please do two things. First, check the backlog and add your estimates to the tasks you know best. Second, if you think a task is too big, split it into smaller ones. This will save us a lot of time on Thursday.\n\nI know some of you were planning to finish the login page tomorrow. Don't worry, you can keep working on it. We will only decide about the new tasks after the planning.\n\nIf Thursday is a problem for you, let me know today and I will try to find another solution.\n\nThanks for your patience,\nLucas",
+  "pt": "Assunto: Planejamento da sprint passou para quinta-feira\n\nOi pessoal,\n\nDesculpem o aviso em cima da hora, mas precisamos mudar o planejamento da sprint de amanhã para quinta-feira às 10h. A Marta, nossa product owner, tem uma reunião urgente com um cliente e não pode participar antes disso.\n\nAntes da reunião, por favor façam duas coisas. Primeiro, confiram o backlog e coloquem suas estimativas nas tarefas que vocês conhecem melhor. Segundo, se acharem que uma tarefa é grande demais, dividam-na em tarefas menores. Isso vai nos poupar bastante tempo na quinta.\n\nSei que alguns de vocês pretendiam terminar a página de login amanhã. Não se preocupem, vocês podem continuar trabalhando nela. Só vamos decidir sobre as novas tarefas depois do planejamento.\n\nSe quinta-feira for um problema para você, me avise hoje e eu vou tentar encontrar outra solução.\n\nObrigado pela paciência,\nLucas",
+  "vocab": [
+    {"word": "notice", "pt": "aviso"},
+    {"word": "urgent", "pt": "urgente"},
+    {"word": "client", "pt": "cliente"},
+    {"word": "backlog", "pt": "lista de tarefas pendentes"},
+    {"word": "estimates", "pt": "estimativas"},
+    {"word": "split", "pt": "dividir"},
+    {"word": "patience", "pt": "paciência"},
+    {"word": "solution", "pt": "solução"}
+  ],
+  "questions": [
+    {"id": "r-b1-01-q1", "type": "choice", "prompt": "Why is the sprint planning moved?", "options": ["Lucas is on holiday.", "Marta has an urgent meeting with a client.", "The login page is not ready."], "answer": 1,
+     "explain": "O texto diz que Marta “has an urgent meeting with a client and she can't join us until then”."},
+    {"id": "r-b1-01-q2", "type": "choice", "prompt": "What should the team do if a task is too big?", "options": ["Delete it from the backlog", "Ask Marta to decide", "Split it into smaller tasks"], "answer": 2,
+     "explain": "O e-mail pede: “if you think a task is too big, split it into smaller ones”."},
+    {"id": "r-b1-01-q3", "type": "choice", "prompt": "What can people do about the login page?", "options": ["Keep working on it", "Stop until Thursday", "Give it to Marta"], "answer": 0,
+     "explain": "Lucas diz “Don't worry, you can keep working on it”."},
+    {"id": "r-b1-01-q4", "type": "choice", "prompt": "In the text, “notice” means:", "options": ["a warning given in advance", "a small mistake", "a new task"], "answer": 0,
+     "explain": "“Late notice” é um aviso dado tarde, em cima da hora, sobre a mudança de data."}
+  ]
+}

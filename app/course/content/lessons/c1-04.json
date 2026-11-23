@@ -1,0 +1,284 @@
+{
+  "id": "c1-04",
+  "level": "C1",
+  "unit": "Modalidade e hipótese",
+  "title": "Subjuntivo e hipóteses avançadas",
+  "goal": "Formular hipóteses formais e compactas, como Had it not been for… e Should you need…, e comparações irreais com as if e as though.",
+  "minutes": 30,
+  "steps": [
+    {
+      "title": "Hipóteses além do if simples",
+      "text": "Nos níveis anteriores você viu o second conditional (*If I had more time, I would…*) e o third conditional (*If I had known, I would have…*). No C1, o inglês oferece **formas mais compactas e formais** para a mesma ideia: *If it weren't for…*, *Had it not been for…*, *Were I to…* e *Should you…*.\n\nVocê também vai ver *as if*, *as though*, *suppose* e *but for*. Elas aparecem em e-mails formais, contratos, post-mortems de incidentes e reuniões com clientes. Nem todas servem para a conversa do dia a dia, mas você precisa **reconhecê-las** e usar as principais com segurança.",
+      "examples": [
+        {"en": "Had I known about the outage, I would have called you.", "pt": "Se eu tivesse sabido da queda, teria ligado para você."},
+        {"en": "Should you need anything, let me know.", "pt": "Caso você precise de algo, me avise."}
+      ],
+      "tip": "Todas essas formas dizem o mesmo que um if comum; a diferença é o tom, que fica mais formal e mais elegante."
+    },
+    {
+      "title": "If it weren't for, Had it not been for e but for",
+      "text": "**If it weren't for + substantivo** significa “se não fosse por…” e fala de uma situação do presente ou geral. Para o passado, usamos **If it hadn't been for + substantivo**. O resultado usa **would** (presente) ou **would have + particípio** (passado).\n\nNo estilo formal, podemos tirar o *if* e inverter: **Were it not for…** e **Had it not been for…**. Já **but for + substantivo** funciona para presente e passado e é bem formal.",
+      "table": {
+        "headers": ["Forma", "Tempo", "Exemplo"],
+        "rows": [
+          ["If it weren't for + substantivo", "presente / geral", "If it weren't for the cache, the site would be very slow."],
+          ["Were it not for + substantivo", "presente (formal)", "Were it not for the cache, the site would be very slow."],
+          ["If it hadn't been for + substantivo", "passado", "If it hadn't been for your backup, we would have lost the data."],
+          ["Had it not been for + substantivo", "passado (formal)", "Had it not been for your backup, we would have lost the data."],
+          ["But for + substantivo", "presente ou passado", "But for your backup, we would have lost the data."]
+        ]
+      },
+      "examples": [
+        {"en": "If it weren't for the cache, the site would be very slow.", "pt": "Se não fosse pelo cache, o site estaria muito lento."},
+        {"en": "Had it not been for your backup, we would have lost the data.", "pt": "Se não fosse pelo seu backup, teríamos perdido os dados."},
+        {"en": "But for the quick response of the night team, the downtime would have been much longer.", "pt": "Não fosse pela resposta rápida da equipe da noite, a indisponibilidade teria sido muito mais longa."}
+      ],
+      "trap": "Não diga *If it wouldn't be for*: depois de *if*, o molde é *weren't for* (ou *hadn't been for*). E na inversão o *not* vem depois do sujeito: *Had it not been for*, e não *Had not it been for*."
+    },
+    {
+      "title": "Inversão sem if: Were I to, Should you, Had I",
+      "text": "Em estilo formal, podemos omitir o *if* e colocar o verbo auxiliar **antes** do sujeito. Existem três moldes. **Were + sujeito + to + verbo base** descreve uma hipótese imaginária ou pouco provável. **Should + sujeito + verbo base** fala de algo possível, mas improvável, e o resultado costuma ser uma instrução ou um pedido. **Had + sujeito + particípio** é o passado irreal.\n\nNa negativa, o *not* vem depois do sujeito: *Had I not known…*",
+      "table": {
+        "headers": ["Molde", "Equivale a", "Exemplo"],
+        "rows": [
+          ["Were I to + verbo base", "If I were to + verbo base", "Were I to resign, the team would suffer."],
+          ["Should you + verbo base", "If you should + verbo base", "Should you need help, let me know."],
+          ["Had I + particípio", "If I had + particípio", "Had I known, I would have called."]
+        ]
+      },
+      "examples": [
+        {"en": "Were I to resign, the team would suffer.", "pt": "Se eu pedisse demissão, o time sofreria."},
+        {"en": "Should you have any questions, please contact us.", "pt": "Caso você tenha qualquer dúvida, entre em contato conosco."},
+        {"en": "Had I not known the password, I could not have fixed it.", "pt": "Se eu não tivesse sabido a senha, não teria conseguido corrigir."},
+        {"en": "Were we to move the release, the client would be unhappy.", "pt": "Se adiássemos o lançamento, o cliente ficaria descontente."}
+      ],
+      "trap": "Não junte *if* com a inversão: *If were I to…* é erro. E depois de *should*, o verbo fica na forma base: *Should you need*, e não *Should you needs* nem *Should you will need*."
+    },
+    {
+      "title": "As if e as though",
+      "text": "**As if** e **as though** significam “como se” e são praticamente intercambiáveis. Quando a comparação é **irreal ou improvável**, o verbo recua um tempo: usamos o **passado simples** para falar do presente (*He talks as if he owned the company*) e o **past perfect** para falar do passado (*He acted as if nothing had happened*). Com o verbo **be**, a forma formal é **were** para todas as pessoas.\n\nQuando a situação é **real ou provável**, o verbo fica no presente: *It looks as if the build is failing*.",
+      "table": {
+        "headers": ["Situação", "Forma", "Exemplo"],
+        "rows": [
+          ["irreal, presente", "as if + passado simples (were)", "He talks as if he owned the company."],
+          ["irreal, passado", "as if + past perfect", "He acted as if nothing had happened."],
+          ["real ou provável", "as if + presente", "It looks as if the build is failing."]
+        ]
+      },
+      "examples": [
+        {"en": "She speaks as if she were the manager, but she is a trainee.", "pt": "Ela fala como se fosse a gerente, mas é estagiária."},
+        {"en": "He acted as though nothing had happened.", "pt": "Ele agiu como se nada tivesse acontecido."},
+        {"en": "It sounds as if the server is down again.", "pt": "Parece que o servidor caiu de novo."}
+      ],
+      "tip": "Pergunte-se: a comparação é verdadeira ou imaginária? Se é imaginária, o verbo recua um tempo."
+    },
+    {
+      "title": "Suppose, supposing e what if",
+      "text": "**Suppose** e **supposing** abrem uma hipótese e significam “e se…?” ou “imagine que…”. Eles seguem a lógica do *if*: usamos o **passado simples** para uma hipótese imaginária e o **presente** para algo plausível no futuro. **What if** funciona do mesmo jeito, num tom mais informal.\n\nA pergunta que vem depois mostra o que aconteceria: *Suppose the server crashed during the demo. What would we do?* Em reuniões de planejamento, é a forma mais natural de testar cenários de risco.",
+      "examples": [
+        {"en": "Suppose the server crashed during the demo, what would we do?", "pt": "E se o servidor caísse durante a demonstração, o que faríamos?"},
+        {"en": "Suppose the client says no, what will we do?", "pt": "E se o cliente disser não, o que faremos?"},
+        {"en": "Supposing we had more time, would you add more tests?", "pt": "Supondo que tivéssemos mais tempo, você acrescentaria mais testes?"},
+        {"en": "What if the update fails on the production servers?", "pt": "E se a atualização falhar nos servidores de produção?"}
+      ],
+      "trap": "Não use *would* logo depois de *suppose*: diga *Suppose the server crashed*, e não *Suppose the server would crash*."
+    },
+    {
+      "title": "Condições formais: provided that, on condition that, otherwise, in case",
+      "text": "Além do *if*, o inglês tem conectores que impõem uma **condição**. **Provided (that)**, **providing (that)**, **as long as** e **on condition that** significam “desde que” e levam o verbo no **presente**, mesmo falando do futuro. **Otherwise** significa “caso contrário”. **In case** não é “se”: significa “por precaução”.",
+      "table": {
+        "headers": ["Conector", "Sentido", "Exemplo"],
+        "rows": [
+          ["provided (that) / providing (that)", "desde que", "We will approve the release provided that all tests pass."],
+          ["on condition that", "com a condição de que", "You may access the data on condition that you sign the agreement."],
+          ["otherwise", "caso contrário", "Submit the form today; otherwise, we cannot process it."],
+          ["in case", "por precaução", "Take a backup in case the update fails."]
+        ]
+      },
+      "examples": [
+        {"en": "We will approve the release provided that all tests pass.", "pt": "Aprovaremos o lançamento desde que todos os testes passem."},
+        {"en": "Submit the form today; otherwise, we cannot process it.", "pt": "Envie o formulário hoje; caso contrário, não poderemos processá-lo."},
+        {"en": "Take a backup in case the update fails.", "pt": "Faça um backup, para o caso de a atualização falhar."}
+      ],
+      "trap": "Depois de *provided that*, não use *will*: *provided that all tests pass*, e não *provided that all tests will pass*. E *in case* não equivale a *if*: *Take a backup if the update fails* seria fazer o backup só depois da falha."
+    },
+    {
+      "title": "As hipóteses num relatório de incidente",
+      "text": "Num post-mortem (a análise feita depois de uma falha), essas formas dão um tom profissional e deixam claro o que **poderia ter sido evitado** ou **o que fazer se o problema voltar**. O passado irreal explica a causa; o *should* dá a instrução para o futuro.\n\nObserve como a inversão torna as frases compactas e formais, sem repetir *if* o tempo todo.",
+      "examples": [
+        {"en": "Had we monitored the disk space, the outage would not have happened.", "pt": "Se tivéssemos monitorado o espaço em disco, a queda não teria acontecido."},
+        {"en": "Were the database to fail again, the system would switch to the backup server automatically.", "pt": "Se o banco de dados falhasse de novo, o sistema passaria automaticamente para o servidor de backup."},
+        {"en": "Should the problem recur, please contact the on-call engineer.", "pt": "Caso o problema volte a ocorrer, entre em contato com o engenheiro de plantão."}
+      ],
+      "tip": "Em e-mails para clientes, *Should you have any questions, please contact us* é o fecho formal mais comum."
+    },
+    {
+      "title": "Mapa de revisão",
+      "text": "Use este mapa para escolher a forma certa. Primeiro decida **de que tempo** é a hipótese (presente irreal, passado irreal ou futuro improvável). Depois escolha o **grau de formalidade**: o *if* comum serve para tudo, e a inversão deixa o texto mais formal.",
+      "table": {
+        "headers": ["Ideia", "Forma comum", "Forma formal"],
+        "rows": [
+          ["presente irreal", "If I were you, I would wait.", "Were I you, I would wait."],
+          ["passado irreal", "If I had known, I would have called.", "Had I known, I would have called."],
+          ["futuro improvável", "If you need help, let me know.", "Should you need help, let me know."],
+          ["não fosse por + substantivo", "If it weren't for the backup…", "But for the backup…"],
+          ["comparação irreal", "He talks as if he were the boss.", "He talks as though he were the boss."]
+        ]
+      },
+      "examples": [
+        {"en": "Were it not for the backup, we would be in serious trouble.", "pt": "Não fosse pelo backup, estaríamos em sérios apuros."},
+        {"en": "He talks as if he were the boss.", "pt": "Ele fala como se fosse o chefe."}
+      ]
+    }
+  ],
+  "summary": [
+    "If it weren't for + substantivo (presente) e If it hadn't been for + substantivo (passado) significam se não fosse por; as versões formais são Were it not for e Had it not been for.",
+    "A inversão formal tira o if: Were I to + verbo base, Should you + verbo base, Had I + particípio.",
+    "Depois de as if e as though, o verbo recua um tempo quando a comparação é irreal (as if he owned; as if nothing had happened).",
+    "Suppose, supposing e what if seguem a lógica do if: passado simples para o imaginário, presente para o plausível.",
+    "Provided that, as long as e on condition that levam o presente; otherwise significa caso contrário e in case significa por precaução."
+  ],
+  "practice": [
+    {
+      "id": "c1-04-p1", "type": "choice",
+      "prompt": "___ for your quick fix, the outage would have lasted all night.",
+      "options": ["But", "Unless", "Although"], "answer": 0,
+      "explain": "But for + substantivo significa não fosse por…, e é bem formal. Aqui, não fosse pela correção rápida, a queda teria durado a noite toda.",
+      "why_not": {"1": "Unless significa a menos que e vem seguido de uma oração, não de for + substantivo.", "2": "Although introduz um contraste e não cria uma hipótese."}
+    },
+    {
+      "id": "c1-04-p2", "type": "choice",
+      "prompt": "If it ___ for the cache, the site would be very slow.",
+      "options": ["weren't", "wouldn't be", "isn't"], "answer": 0,
+      "explain": "O molde é If it weren't for + substantivo, para uma situação do presente, com would no resultado.",
+      "why_not": {"1": "Would não aparece depois de if neste molde.", "2": "O presente simples não forma a hipótese irreal; a expressão fixa usa weren't."}
+    },
+    {
+      "id": "c1-04-p3", "type": "fill",
+      "prompt": "___ it not been for the backup, we would have lost the data.",
+      "answers": ["Had"],
+      "explain": "A versão formal de If it hadn't been for é Had it not been for, com inversão e sem if."
+    },
+    {
+      "id": "c1-04-p4", "type": "fill",
+      "prompt": "___ you need more information, please contact the support team. (inversão, sem if)",
+      "answers": ["Should"],
+      "explain": "Should + sujeito + verbo base substitui If you should need e fala de algo possível, mas improvável."
+    },
+    {
+      "id": "c1-04-p5", "type": "choice",
+      "prompt": "___ I to leave the project, who would lead the team?",
+      "options": ["Were", "Did", "Had"], "answer": 0,
+      "explain": "Were + sujeito + to + verbo base é a inversão formal de If I were to leave, para uma hipótese imaginária.",
+      "why_not": {"1": "Did não forma essa inversão com to + verbo base.", "2": "Had pede particípio e fala do passado irreal."}
+    },
+    {
+      "id": "c1-04-p6", "type": "choice",
+      "prompt": "He talks as if he ___ the owner of the company, but he is only an intern.",
+      "options": ["were", "would be", "being"], "answer": 0,
+      "explain": "A comparação é irreal, então o verbo recua um tempo: as if he were. Com be, were vale para todas as pessoas.",
+      "why_not": {"1": "Would não é usado depois de as if neste sentido.", "2": "Being não é um verbo conjugado e deixaria a frase incompleta."}
+    },
+    {
+      "id": "c1-04-p7", "type": "translate",
+      "prompt": "Se não fosse pelo backup, teríamos perdido tudo.",
+      "answers": ["If it hadn't been for the backup, we would have lost everything.", "Had it not been for the backup, we would have lost everything.", "But for the backup, we would have lost everything.", "If not for the backup, we would have lost everything.", "If it hadn't been for the backup, we would have lost it all.", "Had it not been for the backup, we would have lost it all.", "But for the backup, we would have lost it all."],
+      "explain": "Para o passado irreal, use If it hadn't been for, Had it not been for ou But for, seguidos de would have + particípio."
+    },
+    {
+      "id": "c1-04-p8", "type": "order",
+      "words": ["Had", "I", "known", "about", "the", "bug", "I", "would", "have", "called", "you"],
+      "prompt": "Se eu soubesse do bug, teria ligado para você.",
+      "explain": "A inversão formal começa com Had + sujeito + particípio (known); depois vem would have + particípio."
+    },
+    {
+      "id": "c1-04-p9", "type": "fix",
+      "prompt": "If it wouldn't be for the cache, the site would be slow.",
+      "answers": ["If it weren't for the cache, the site would be slow.", "If it were not for the cache, the site would be slow.", "Were it not for the cache, the site would be slow.", "But for the cache, the site would be slow."],
+      "explain": "Depois de if, o molde é weren't for. Would só aparece na oração do resultado (the site would be slow)."
+    },
+    {
+      "id": "c1-04-p10", "type": "fix",
+      "prompt": "Should you will need help, call me.",
+      "answers": ["Should you need help, call me."],
+      "explain": "Depois de should, o verbo fica na forma base, sem will: Should you need help."
+    },
+    {
+      "id": "c1-04-p11", "type": "listen",
+      "en": "Were I to change the schedule, the client would complain.",
+      "explain": "Were I to + verbo base é uma hipótese imaginária formal; a oração seguinte usa would."
+    },
+    {
+      "id": "c1-04-p12", "type": "choice",
+      "prompt": "Suppose the server ___ tonight, what would we do?",
+      "options": ["crashed", "would crash", "crashing"], "answer": 0,
+      "explain": "Para uma hipótese imaginária, suppose é seguido do passado simples, como um if: Suppose the server crashed.",
+      "why_not": {"1": "Would não aparece logo depois de suppose.", "2": "Crashing não é um verbo conjugado e deixaria a oração sem verbo."}
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c1-04-q1", "type": "choice",
+      "prompt": "He spoke to me ___ I were his assistant.",
+      "options": ["as if", "even if", "so that"], "answer": 0,
+      "explain": "As if significa como se e pede um verbo recuado quando a comparação é irreal (as if I were).",
+      "why_not": {"1": "Even if significa mesmo que e não compara.", "2": "So that expressa finalidade, não comparação."}
+    },
+    {
+      "id": "c1-04-q2", "type": "fill",
+      "prompt": "___ we to move the release to Monday, the client would be happy.",
+      "answers": ["Were"],
+      "explain": "Were + sujeito + to + verbo base é a forma formal de If we were to move the release."
+    },
+    {
+      "id": "c1-04-q3", "type": "translate",
+      "prompt": "Caso você precise de ajuda, avise-nos. (use inversão)",
+      "answers": ["Should you need help, let us know.", "Should you need any help, let us know.", "Should you need help, please let us know.", "Should you need any help, please let us know.", "Should you need help, tell us.", "Should you need any help, tell us.", "Should you need help, please tell us.", "Should you need any help, please tell us."],
+      "explain": "A inversão com should (Should you need help…) substitui If you should need help; a oração principal pode ser um imperativo."
+    },
+    {
+      "id": "c1-04-q4", "type": "order",
+      "words": ["The", "site", "would", "be", "very", "slow", "if", "it", "weren't", "for", "the", "cache"],
+      "prompt": "O site estaria muito lento se não fosse pelo cache.",
+      "answers": ["The site would be very slow if it were not for the cache."],
+      "explain": "If it weren't for + substantivo pode vir depois da oração principal; o resultado usa would."
+    },
+    {
+      "id": "c1-04-q5", "type": "fix",
+      "prompt": "He acted as if nothing has happened.",
+      "answers": ["He acted as if nothing had happened.", "He acted as if nothing happened.", "He acted as though nothing had happened.", "He acted as though nothing happened."],
+      "explain": "Como o verbo principal está no passado e a comparação é irreal, usamos o past perfect depois de as if: had happened."
+    },
+    {
+      "id": "c1-04-q6", "type": "fix",
+      "prompt": "Had not it been for her help, we would have failed.",
+      "answers": ["Had it not been for her help, we would have failed."],
+      "explain": "Na inversão, o not vem depois do sujeito: Had it not been for…"
+    },
+    {
+      "id": "c1-04-q7", "type": "listen",
+      "en": "Supposing the client refused, what would we do next?",
+      "explain": "Supposing abre uma hipótese imaginária e é seguido do passado simples (refused), como um if."
+    },
+    {
+      "id": "c1-04-q8", "type": "choice",
+      "prompt": "Qual frase está correta?",
+      "options": ["Were it not for your help, we would be late.", "If it wouldn't be for your help, we would be late.", "Was it not for your help, we would be late."], "answer": 0,
+      "explain": "A forma formal é Were it not for + substantivo, equivalente a If it weren't for.",
+      "why_not": {"1": "Depois de if, o molde é weren't for; would não entra aí.", "2": "A inversão formal usa Were, e não Was."}
+    }
+  ],
+  "words": [
+    {"word": "outage", "pt": "queda; indisponibilidade de um serviço"},
+    {"word": "backup", "pt": "backup; cópia de segurança"},
+    {"word": "cache", "pt": "cache"},
+    {"word": "supposing", "pt": "supondo que; e se"},
+    {"word": "provided that", "pt": "desde que"},
+    {"word": "otherwise", "pt": "caso contrário"},
+    {"word": "as if", "pt": "como se"},
+    {"word": "as though", "pt": "como se"},
+    {"word": "resign", "pt": "pedir demissão"},
+    {"word": "recur", "pt": "voltar a ocorrer"},
+    {"word": "release", "pt": "lançamento; versão liberada"}
+  ]
+}

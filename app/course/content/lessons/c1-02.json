@@ -1,0 +1,181 @@
+{
+  "id": "c1-02",
+  "level": "C1",
+  "unit": "Estruturas de ênfase",
+  "title": "Orações clivadas: It was… that…, What I need is…",
+  "goal": "Colocar o foco em uma informação específica usando as orações clivadas (It-cleft, What-cleft, All-cleft e The reason why… is that…).",
+  "minutes": 30,
+  "steps": [
+    {
+      "title": "Para que serve a oração clivada",
+      "text": "Uma **oração clivada** (*cleft sentence*) “divide” uma frase simples em duas partes para colocar o foco em uma informação. Em vez de *The cache caused the outage*, dizemos *It was the cache that caused the outage*. A informação importante (o cache) fica no meio da frase, bem destacada.\n\nO português faz algo parecido: “Foi o cache que causou a queda” ou “O que eu preciso é de mais tempo”. Em inglês existem quatro moldes principais, e você aprende todos nesta lição: o **It-cleft**, o **What-cleft**, o **All-cleft** e o **The reason why… is that…**.",
+      "examples": [
+        {"en": "The cache caused the outage.", "pt": "O cache causou a queda."},
+        {"en": "It was the cache that caused the outage.", "pt": "Foi o cache que causou a queda."}
+      ],
+      "tip": "As duas frases têm o mesmo sentido lógico. A clivada só muda o ponto onde a ênfase cai."
+    },
+    {
+      "title": "It-cleft: It + be + foco + that/who",
+      "text": "A forma é **It + be (is/was) + parte destacada + that/who + resto da frase**. O **it** é um sujeito vazio, que não significa nada. O verbo **be** fica no tempo da história (*is* para o presente, *was* para o passado), e a parte destacada vem logo depois dele.\n\nPara **pessoas**, use **who** ou **that**. Para **coisas**, use **that**. Você pode destacar o sujeito, o objeto ou uma expressão de tempo, lugar ou causa.",
+      "table": {
+        "headers": ["Frase simples", "Frase clivada"],
+        "rows": [
+          ["Priya found the root cause.", "It was Priya who found the root cause."],
+          ["We migrated the database in March.", "It was in March that we migrated the database."],
+          ["The new release broke the login.", "It was the new release that broke the login."]
+        ]
+      },
+      "examples": [
+        {"en": "It was Priya who found the root cause.", "pt": "Foi a Priya que encontrou a causa raiz."},
+        {"en": "It was in March that we migrated the database.", "pt": "Foi em março que migramos o banco de dados."},
+        {"en": "It was the new release that broke the login.", "pt": "Foi a nova versão que quebrou o login."}
+      ],
+      "trap": "O **it** é obrigatório. Não diga *Was Priya who found the bug*; o certo é *It was Priya who found the bug*. Em português o sujeito “foi” pode ficar oculto, mas em inglês ele precisa aparecer."
+    },
+    {
+      "title": "Destacando objeto, tempo, lugar e causa",
+      "text": "Você pode destacar quase qualquer parte da frase, não só o sujeito. Com o **objeto**, o foco vai para o que sofre a ação: *It was the API that we rewrote*. Com **tempo, lugar ou causa**, destaque a expressão inteira: *It was in the second sprint that we found the bug* ou *It was because of a typo that the build failed*.\n\nDepois de *that*, a frase continua completa, mas **sem** o elemento destacado. O verbo dessa segunda parte concorda com o foco quando ele é o sujeito: *It is the servers that need updating*. Já o **it is/was** fica sempre no singular.",
+      "examples": [
+        {"en": "It was the API that we rewrote.", "pt": "Foi a API que reescrevemos."},
+        {"en": "It was in the second sprint that we found the bug.", "pt": "Foi na segunda sprint que encontramos o bug."},
+        {"en": "It was because of a typo that the build failed.", "pt": "Foi por causa de um erro de digitação que o build falhou."},
+        {"en": "It is the servers that need updating.", "pt": "São os servidores que precisam de atualização."}
+      ],
+      "trap": "Mesmo com foco plural, o verbo depois de *it* fica no singular: *It was the servers that failed*, e não *It were the servers that failed*. E não repita o objeto no fim: *It was the API that we rewrote it* está errado."
+    },
+    {
+      "title": "What-cleft: What I need is…",
+      "text": "A clivada com **what** deixa a informação de fundo no começo e guarda a informação importante para o **final**, depois do verbo be. O molde é **What + sujeito + verbo + be + foco**. Em português: “O que eu preciso é de mais tempo”.\n\nO foco pode ser um **substantivo** (*What I need is more time*), um **infinitivo** (*What I want is to understand the error*) ou até uma oração. Quando o foco é singular, o verbo é **is** (presente) ou **was** (passado). Esse molde cria expectativa: o ouvinte espera a resposta.",
+      "table": {
+        "headers": ["Frase simples", "What-cleft"],
+        "rows": [
+          ["I need more time.", "What I need is more time."],
+          ["The speed surprised me.", "What surprised me was the speed."],
+          ["We want a stable release.", "What we want is a stable release."]
+        ]
+      },
+      "examples": [
+        {"en": "What I need is more time to test.", "pt": "O que eu preciso é de mais tempo para testar."},
+        {"en": "What surprised me was the speed of the new server.", "pt": "O que me surpreendeu foi a velocidade do novo servidor."},
+        {"en": "What I want is to understand the error.", "pt": "O que eu quero é entender o erro."}
+      ],
+      "tip": "Na fala, faz-se uma pequena pausa antes do foco: *What I need is… more time.*"
+    },
+    {
+      "title": "All-cleft e What … do",
+      "text": "Para **minimizar** uma ação (“tudo o que fiz foi…”), use **All + sujeito + verbo + be**: *All I did was ask a question*. Depois de *was*, o verbo vem na **forma base**, com ou sem *to*: *All I did was ask* ou *All I did was to ask*.\n\nO mesmo vale para **What + do**: *What we did was restart the server*. Esse molde serve para explicar o que alguém fez, e o foco é a ação. Quando o verbo clivado é *do*, o verbo depois do *be* repete a ideia em forma base, nunca com -ing.",
+      "examples": [
+        {"en": "All I did was ask a simple question.", "pt": "Tudo o que fiz foi uma pergunta simples."},
+        {"en": "What we did was restart the server.", "pt": "O que fizemos foi reiniciar o servidor."},
+        {"en": "All she does is complain about the schedule.", "pt": "Tudo o que ela faz é reclamar do cronograma."},
+        {"en": "All we need is a clear plan.", "pt": "Tudo de que precisamos é um plano claro."}
+      ],
+      "trap": "Depois de *All I did was* não use -ing: *All I did was asking* está errado. Use *All I did was ask* (ou *to ask*)."
+    },
+    {
+      "title": "The reason why… is that…",
+      "text": "Para destacar a **causa**, use **The reason (why) + oração + is that + oração**: *The reason why the build failed is that the disk was full*. A palavra **why** é opcional: *The reason the build failed is that…*. O mesmo molde existe com *place* e *way*: *The place where we store the keys is a private vault*.\n\nDepois de *the reason… is*, a escrita cuidadosa usa **that**. A forma *is because* aparece na fala, mas muita gente a evita em textos formais. Não repita a causa duas vezes com *why* e *because* na mesma frase.",
+      "examples": [
+        {"en": "The reason why the build failed is that the disk was full.", "pt": "O motivo pelo qual o build falhou é que o disco estava cheio."},
+        {"en": "The reason we chose Python is that it has great libraries.", "pt": "O motivo de termos escolhido Python é que ele tem ótimas bibliotecas."},
+        {"en": "The place where we store the keys is a private vault.", "pt": "O lugar onde guardamos as chaves é um cofre privado."}
+      ],
+      "trap": "Em português é comum dizer “o motivo é porque…”. Em inglês cuidadoso, o equivalente é *The reason is that…*. Evite também juntar *why* e *because*: *The reason why… is because…* costuma soar descuidado."
+    },
+    {
+      "title": "Português x inglês: erros comuns",
+      "text": "Em português, “foi… que” e “o que… é” são muito frequentes, e o brasileiro às vezes traduz tudo ao pé da letra. Três erros aparecem o tempo todo: esquecer o **it** (*Was the cache that failed*), usar o verbo no plural depois de *it* (*It were the servers*) e misturar moldes (*What I need it is…*).\n\nLembre-se também de que, depois de *that* ou *who*, a oração é completa, mas o elemento destacado **não volta**. Cada molde tem sua própria forma: **It + be**, **What … be**, **All … be**, **The reason … is that**.",
+      "examples": [
+        {"en": "It is the code review that takes the most time.", "pt": "É a revisão de código que toma mais tempo."},
+        {"en": "What worries me is the deadline.", "pt": "O que me preocupa é o prazo."},
+        {"en": "It was Marta who suggested the change.", "pt": "Foi a Marta que sugeriu a mudança."}
+      ],
+      "trap": "Não misture os moldes. *What I need it is more time* está errado: o certo é *What I need is more time*. O **it** só existe no It-cleft."
+    },
+    {
+      "title": "Na prática: e-mails e retrospectivas",
+      "text": "As clivadas funcionam muito bem em relatos de incidente, retrospectivas e reuniões, quando você quer dirigir a atenção do leitor. Use o **It-cleft** para corrigir um mal-entendido, o **What-cleft** para apresentar uma necessidade ou decisão, o **All-cleft** para minimizar um pedido e o **The reason… is that** para explicar uma causa.\n\nUse com moderação: uma ou duas por texto bastam. Se toda frase for clivada, nenhuma terá ênfase de verdade.",
+      "examples": [
+        {"en": "It was the proxy, not the database, that failed.", "pt": "Foi o proxy, e não o banco de dados, que falhou."},
+        {"en": "What we need from you is a final decision by Friday.", "pt": "O que precisamos de você é uma decisão final até sexta."},
+        {"en": "The reason we rolled back is that the error rate doubled.", "pt": "O motivo de termos revertido a versão é que a taxa de erros dobrou."},
+        {"en": "All we are asking for is a short extension.", "pt": "Tudo o que pedimos é uma pequena prorrogação."}
+      ],
+      "tip": "Antes de usar uma clivada, pergunte-se: qual é a informação que o leitor mais precisa guardar? Ela vai para o foco."
+    }
+  ],
+  "summary": [
+    "O It-cleft segue o molde It + be + foco + that/who: It was Priya who found the bug.",
+    "O it é obrigatório e fica no singular (It was the servers that failed).",
+    "O What-cleft deixa a informação importante para o fim: What I need is more time.",
+    "Com All e What + do, o verbo depois de be fica na forma base: All I did was ask.",
+    "Para explicar causas, use The reason (why)… is that…, e não é preciso repetir porque.",
+    "Use clivadas com moderação: uma ou duas por texto bastam."
+  ],
+  "practice": [
+    {"id": "c1-02-p1", "type": "choice", "prompt": "___ was the cache that caused the outage.", "options": ["It", "What", "There"], "answer": 0,
+     "explain": "O It-cleft começa com it + be: It was the cache that… O it é só o sujeito vazio da estrutura.",
+     "why_not": {"1": "What abre outro tipo de clivada (What I need is…), que não leva that depois do foco.", "2": "There was introduz existência, e não destaca uma informação."}},
+    {"id": "c1-02-p2", "type": "choice", "prompt": "It was Priya ___ found the root cause.", "options": ["who", "which", "what"], "answer": 0,
+     "explain": "O foco é uma pessoa (Priya), então a segunda parte começa com who (ou that).",
+     "why_not": {"1": "Which não é usado para pessoas.", "2": "What não introduz a segunda parte de um It-cleft."}},
+    {"id": "c1-02-p3", "type": "choice", "prompt": "What I need ___ more time to test.", "options": ["is", "it is", "does"], "answer": 0,
+     "explain": "No What-cleft, o verbo be liga a parte com what ao foco: What I need is more time.",
+     "why_not": {"1": "O it pertence ao It-cleft; no What-cleft não aparece.", "2": "Does não liga as duas partes da frase."}},
+    {"id": "c1-02-p4", "type": "choice", "prompt": "All I did ___ restart the service.", "options": ["was", "were", "had"], "answer": 0,
+     "explain": "All I did é singular, e o verbo be no passado é was: All I did was restart the service.",
+     "why_not": {"1": "Were é plural, e All I did é uma ideia singular.", "2": "Had não faz a ligação com o foco (restart)."}},
+    {"id": "c1-02-p5", "type": "choice", "prompt": "The reason why we chose Python is ___ it has great libraries.", "options": ["that", "what", "which"], "answer": 0,
+     "explain": "Depois de The reason… is, a oração que explica a causa começa com that.",
+     "why_not": {"1": "What não introduz uma oração de causa.", "2": "Which pediria um antecedente claro e não funciona como conjunção de causa."}},
+    {"id": "c1-02-p6", "type": "fill", "prompt": "It was the cache ___ caused the outage.", "answers": ["that", "which"],
+     "explain": "Para coisas, a segunda parte do It-cleft usa that (ou, menos comum, which)."},
+    {"id": "c1-02-p7", "type": "fill", "prompt": "What we need ___ a better monitoring tool.", "answers": ["is"],
+     "explain": "O foco (a better monitoring tool) é singular, então o verbo be é is."},
+    {"id": "c1-02-p8", "type": "translate", "prompt": "Foi a Maria que encontrou o bug.", "answers": ["It was Maria who found the bug.", "It was Maria that found the bug.", "It was Maria who discovered the bug.", "It was Maria that discovered the bug."],
+     "explain": "It-cleft: it + was + foco (Maria) + who/that + resto da frase. O it é obrigatório."},
+    {"id": "c1-02-p9", "type": "order", "words": ["What", "I", "need", "is", "more", "time"], "prompt": "O que eu preciso é de mais tempo.",
+     "explain": "O What-cleft tem a ordem What + sujeito + verbo + be + foco."},
+    {"id": "c1-02-p10", "type": "fix", "prompt": "Was the cache that caused the outage.", "answers": ["It was the cache that caused the outage."],
+     "explain": "Falta o sujeito vazio it. Em inglês, o It-cleft sempre começa com it + be."},
+    {"id": "c1-02-p11", "type": "fix", "prompt": "It were the servers that failed.", "answers": ["It was the servers that failed."],
+     "explain": "Depois de it, o verbo be fica no singular (was), mesmo quando o foco (the servers) é plural."},
+    {"id": "c1-02-p12", "type": "listen", "en": "It was the last deployment that broke the login page.",
+     "explain": "Frase clivada: it was + foco (the last deployment) + that + resto da frase."}
+  ],
+  "quiz": [
+    {"id": "c1-02-q1", "type": "choice", "prompt": "It was in the second sprint ___ we found the memory leak.", "options": ["that", "what", "how"], "answer": 0,
+     "explain": "Depois do foco de tempo (in the second sprint), o It-cleft continua com that.",
+     "why_not": {"1": "What não pode introduzir a segunda parte de um It-cleft.", "2": "How não se encaixa nesse molde."}},
+    {"id": "c1-02-q2", "type": "choice", "prompt": "What worries me ___ the lack of tests.", "options": ["is", "are", "it"], "answer": 0,
+     "explain": "O foco (the lack of tests) é singular, então o verbo be é is.",
+     "why_not": {"1": "Are concordaria com plural, mas o núcleo do foco, lack, é singular.", "2": "It não é verbo e não pertence ao What-cleft."}},
+    {"id": "c1-02-q3", "type": "fill", "prompt": "All she did ___ send a short e-mail.", "answers": ["was"],
+     "explain": "All she did é singular e a frase está no passado, então o verbo é was."},
+    {"id": "c1-02-q4", "type": "translate", "prompt": "O que eu quero é uma solução simples.", "answers": ["What I want is a simple solution.", "What I want is a simple fix."],
+     "explain": "What-cleft: What + I + want + is + foco (a simple solution)."},
+    {"id": "c1-02-q5", "type": "order", "words": ["It", "was", "the", "client", "who", "reported", "the", "bug"], "prompt": "Foi o cliente que relatou o bug.",
+     "answers": ["It was the client that reported the bug."],
+     "explain": "It-cleft com foco em uma pessoa: it + was + the client + who (ou that) + reported the bug."},
+    {"id": "c1-02-q6", "type": "fix", "prompt": "What we did it was restart the database.", "answers": ["What we did was restart the database.", "What we did was to restart the database."],
+     "explain": "O it não pertence ao What-cleft. A estrutura é What + sujeito + did + was + verbo base."},
+    {"id": "c1-02-q7", "type": "listen", "en": "What the customer really wants is a faster login process.",
+     "explain": "What-cleft: o foco (a faster login process) vem depois do verbo be."},
+    {"id": "c1-02-q8", "type": "choice", "prompt": "Qual frase está correta?", "options": ["It were the servers that failed.", "It was the servers that failed.", "Was the servers that failed."], "answer": 1,
+     "explain": "O it é obrigatório e o be fica no singular: It was the servers that failed.",
+     "why_not": {"0": "Depois de it, o verbo be fica no singular, mesmo com foco plural.", "2": "Falta o it no início da frase."}}
+  ],
+  "words": [
+    {"word": "outage", "pt": "queda; interrupção do serviço"},
+    {"word": "cache", "pt": "cache; memória temporária"},
+    {"word": "root cause", "pt": "causa raiz"},
+    {"word": "memory leak", "pt": "vazamento de memória"},
+    {"word": "proxy", "pt": "proxy; servidor intermediário"},
+    {"word": "disk", "pt": "disco"},
+    {"word": "sprint", "pt": "sprint; ciclo curto de trabalho"},
+    {"word": "extension", "pt": "prorrogação; extensão"},
+    {"word": "library", "pt": "biblioteca (de código)"},
+    {"word": "vault", "pt": "cofre"}
+  ]
+}

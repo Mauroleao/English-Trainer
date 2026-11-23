@@ -1,0 +1,173 @@
+{
+  "id": "a1-04",
+  "level": "A1",
+  "unit": "Pessoas, coisas e lugares",
+  "title": "Possessivos e this/that/these/those",
+  "goal": "Dizer de quem é uma coisa (my laptop, her team) e apontar para objetos perto e longe (this, that, these, those).",
+  "minutes": 22,
+  "steps": [
+    {
+      "title": "Para que servem os possessivos",
+      "text": "Os **possessivos** mostram a quem uma coisa pertence ou com quem ela se relaciona. Em português: meu, seu, dela, nosso. Em inglês eles vêm **antes do substantivo** (a palavra que nomeia a coisa) e substituem o artigo: dizemos *my laptop*, e não *the my laptop*.\n\nNo trabalho você usa isso o tempo todo: *my code*, *your team*, *our client*.",
+      "examples": [
+        {"en": "This is my laptop.", "pt": "Este é o meu laptop."},
+        {"en": "Your team is in the meeting.", "pt": "O seu time está na reunião."},
+        {"en": "Our client is happy.", "pt": "Nosso cliente está feliz."}
+      ],
+      "tip": "Possessivo e artigo não andam juntos: *my laptop*, nunca *the my laptop* nem *a my laptop*."
+    },
+    {
+      "title": "A tabela dos possessivos",
+      "text": "Cada pronome de sujeito tem o seu possessivo. Veja a tabela e compare com a lição de to be: o pronome que você já conhece vira a base para o possessivo.\n\nGuarde as duas formas que mais confundem: **his** (dele) e **her** (dela). Para coisas, animais e sistemas, use **its**.",
+      "table": {
+        "headers": ["Pronome", "Possessivo", "Exemplo"],
+        "rows": [
+          ["I", "my", "my laptop"],
+          ["you", "your", "your password"],
+          ["he", "his", "his manager"],
+          ["she", "her", "her project"],
+          ["it", "its", "its name"],
+          ["we", "our", "our office"],
+          ["they", "their", "their team"]
+        ]
+      },
+      "examples": [
+        {"en": "My name is Bruno.", "pt": "Meu nome é Bruno."},
+        {"en": "Is this your password?", "pt": "Esta é a sua senha?"},
+        {"en": "We love our job.", "pt": "Nós amamos o nosso trabalho."},
+        {"en": "They are in their office.", "pt": "Eles estão no escritório deles."}
+      ]
+    },
+    {
+      "title": "O possessivo concorda com o DONO",
+      "text": "Aqui está a maior diferença em relação ao português. Em português, “seu/sua” muda conforme a **coisa** (seu livro, sua mesa). Em inglês, o possessivo muda conforme o **dono**, e nunca conforme a coisa.\n\nSe o dono é Tom, usamos **his**, mesmo que a coisa seja feminina em português. Se o dono é Ana, usamos **her**. E o possessivo **não vai para o plural** quando a coisa é plural: *her laptops*, e não *hers laptops*.",
+      "examples": [
+        {"en": "Tom loves his job.", "pt": "Tom ama o trabalho dele."},
+        {"en": "Ana loves her job.", "pt": "Ana ama o trabalho dela."},
+        {"en": "Ana has her laptops here.", "pt": "Ana tem os laptops dela aqui."},
+        {"en": "Tom and Ana love their jobs.", "pt": "Tom e Ana amam os trabalhos deles."}
+      ],
+      "trap": "O português usa “seu/sua” para quase todos: ele, ela, você, eles. Em inglês você precisa escolher: **his** (dono homem), **her** (dona mulher), **your** (você), **their** (eles/elas). Dizer *Maria loves his job* mudaria o sentido: o trabalho seria de um homem."
+    },
+    {
+      "title": "Its e it's: não confunda",
+      "text": "A palavra **its** (sem apóstrofo) é o possessivo de **it**: *The server has its own IP* (o servidor tem o seu próprio IP). Já **it's** (com apóstrofo) é a contração de **it is**: *It's slow* (Está lento).\n\nSe você consegue trocar por *it is*, escreva **it's**. Se a ideia é “dele/dela” para uma coisa, escreva **its**.",
+      "examples": [
+        {"en": "The server is old. Its memory is small.", "pt": "O servidor é velho. A memória dele é pequena."},
+        {"en": "It's a good idea.", "pt": "É uma boa ideia."},
+        {"en": "The app has its own database.", "pt": "O app tem o seu próprio banco de dados."}
+      ],
+      "trap": "Erro comum, até entre nativos: escrever *it's name* para “o nome dele”. O certo é **its name**. O apóstrofo só aparece em it's = it is."
+    },
+    {
+      "title": "This e that: um objeto, perto e longe",
+      "text": "Os **demonstrativos** servem para apontar. Para uma coisa só (singular), usamos **this** quando a coisa está **perto** de quem fala, e **that** quando está **longe**.\n\nA distância pode ser física ou também sentida: *this* é “este/esta/isto”, e *that* é “aquele/aquela/aquilo” (ou “esse/essa”). Com o verbo to be, ficam *This is* e *That is* (ou *That's*).",
+      "examples": [
+        {"en": "This is my laptop.", "pt": "Este é o meu laptop."},
+        {"en": "That is our server room.", "pt": "Aquela é a nossa sala de servidores."},
+        {"en": "Is that your car?", "pt": "Aquele é o seu carro?"},
+        {"en": "This is Paula, our new manager.", "pt": "Esta é a Paula, nossa nova gerente."}
+      ],
+      "tip": "Para apresentar pessoas, o inglês usa **this**: *This is Paula*. Ao telefone, também: *Hello, this is Rui*."
+    },
+    {
+      "title": "These e those: o plural",
+      "text": "Para mais de uma coisa, o plural de **this** é **these** e o plural de **that** é **those**. Depois deles, o substantivo também vai para o plural, e o verbo to be fica **are**.\n\nResumindo: perto e um só, **this**; perto e vários, **these**; longe e um só, **that**; longe e vários, **those**.",
+      "table": {
+        "headers": ["", "Perto", "Longe"],
+        "rows": [
+          ["Singular", "this (este, esta)", "that (aquele, aquela)"],
+          ["Plural", "these (estes, estas)", "those (aqueles, aquelas)"]
+        ]
+      },
+      "examples": [
+        {"en": "These are my keys.", "pt": "Estas são as minhas chaves."},
+        {"en": "Those are their monitors.", "pt": "Aqueles são os monitores deles."},
+        {"en": "These bugs are important.", "pt": "Estes bugs são importantes."},
+        {"en": "Those computers are very old.", "pt": "Aqueles computadores são muito velhos."}
+      ],
+      "trap": "Não misture singular e plural: *This are my colleagues* está errado. Com colegas (plural) o certo é **These are** my colleagues. A pronúncia também muda: *this* soa curto (ðis) e *these* soa longo (ðiiz)."
+    },
+    {
+      "title": "Possessivos e demonstrativos juntos",
+      "text": "Você pode combinar as duas ideias numa frase só. Primeiro aponte com **this/that/these/those**, depois diga de quem é com o possessivo.\n\nAtenção à ordem: *This is my laptop* (apontando e dizendo de quem é). Já *this my laptop* não funciona sem o verbo. Se quiser usar o demonstrativo antes do substantivo, o possessivo não aparece: *this laptop*.",
+      "examples": [
+        {"en": "These are our new monitors.", "pt": "Estes são os nossos monitores novos."},
+        {"en": "That is her desk, and this is my desk.", "pt": "Aquela é a mesa dela, e esta é a minha mesa."},
+        {"en": "Those are their laptops.", "pt": "Aqueles são os laptops deles."}
+      ]
+    }
+  ],
+  "summary": [
+    "Os possessivos são my, your, his, her, its, our e their, e vêm antes do substantivo, sem artigo.",
+    "O possessivo concorda com o dono, e não com a coisa: Ana → her, Tom → his, eles → their.",
+    "Its (de it) não tem apóstrofo; it's significa it is.",
+    "This (perto, singular) e that (longe, singular) viram these e those no plural.",
+    "Depois de these e those o substantivo vai para o plural e o verbo to be é are."
+  ],
+  "practice": [
+    {"id": "a1-04-p1", "type": "choice", "prompt": "Ana is a developer. ___ laptop is new.", "options": ["His", "Her", "Its"], "answer": 1,
+     "explain": "O dono do laptop é Ana, uma mulher, então usamos her.",
+     "why_not": {"0": "His é usado quando o dono é um homem.", "2": "Its é para coisas e animais, não para pessoas."}},
+    {"id": "a1-04-p2", "type": "choice", "prompt": "Carlos and I are a team. ___ manager is Paula.", "options": ["Our", "Their", "My"], "answer": 0,
+     "explain": "Os donos são Carlos e eu, ou seja, nós, então usamos our.",
+     "why_not": {"1": "Their seria usado para outras pessoas, e não para quem fala.", "2": "My é só para uma pessoa, e aqui falamos de nós dois."}},
+    {"id": "a1-04-p3", "type": "fill", "prompt": "Hi! ___ name is Bruno.", "answers": ["my"],
+     "explain": "Bruno fala de si mesmo, então o possessivo de I é my."},
+    {"id": "a1-04-p4", "type": "choice", "prompt": "(perto de mim) ___ is my laptop.", "options": ["This", "That", "These"], "answer": 0,
+     "explain": "A coisa está perto e é uma só, então usamos this.",
+     "why_not": {"1": "That serve para uma coisa longe.", "2": "These é plural, e o verbo is pede singular."}},
+    {"id": "a1-04-p5", "type": "choice", "prompt": "(longe de nós) ___ are our servers.", "options": ["That", "Those", "This"], "answer": 1,
+     "explain": "Os servidores estão longe e são vários, então usamos those, e o verbo é are.",
+     "why_not": {"0": "That é singular e não combina com are.", "2": "This é singular e para coisas perto."}},
+    {"id": "a1-04-p6", "type": "choice", "prompt": "The server is old. ___ memory is small.", "options": ["Its", "It's", "His"], "answer": 0,
+     "explain": "A memória pertence ao servidor, uma coisa. O possessivo de it é its, sem apóstrofo.",
+     "why_not": {"1": "It's significa it is e não indica posse.", "2": "His é para um dono homem."}},
+    {"id": "a1-04-p7", "type": "translate", "prompt": "O laptop dela é novo.", "answers": ["Her laptop is new."],
+     "explain": "A dona é uma mulher, então usamos her, e o possessivo vem antes do substantivo sem artigo."},
+    {"id": "a1-04-p8", "type": "order", "words": ["Their", "manager", "is", "in", "the", "office"], "prompt": "O gerente deles está no escritório.",
+     "explain": "O possessivo their vem primeiro, depois o substantivo e o verbo: Their manager is in the office."},
+    {"id": "a1-04-p9", "type": "fix", "prompt": "Maria loves his job.", "answers": ["Maria loves her job."],
+     "explain": "Maria é uma mulher, então o possessivo correto é her. His seria o trabalho de um homem."},
+    {"id": "a1-04-p10", "type": "fix", "prompt": "This are my colleagues.", "answers": ["These are my colleagues."],
+     "explain": "Colegas é plural. O plural de this é these, e combina com are."},
+    {"id": "a1-04-p11", "type": "listen", "en": "Those are their new monitors.",
+     "explain": "Those aponta para coisas longe e são várias, e their indica que os monitores são deles."},
+    {"id": "a1-04-p12", "type": "translate", "prompt": "Estes são os nossos laptops.", "answers": ["These are our laptops."],
+     "explain": "Perto e plural é these, e o possessivo de we é our, sem artigo."}
+  ],
+  "quiz": [
+    {"id": "a1-04-q1", "type": "choice", "prompt": "John is a manager. ___ team is big.", "options": ["His", "Her", "Their"], "answer": 0,
+     "explain": "John é homem, então o possessivo é his.",
+     "why_not": {"1": "Her é para dona mulher.", "2": "Their seria usado se houvesse mais de um dono."}},
+    {"id": "a1-04-q2", "type": "fill", "prompt": "Pleased to meet you. ___ name is Dana.", "answers": ["my"],
+     "explain": "Dana fala de si mesma, então usamos my."},
+    {"id": "a1-04-q3", "type": "translate", "prompt": "Aquele é o meu computador.", "answers": ["That is my computer."],
+     "explain": "Uma coisa longe é that, e o possessivo de I é my, sem artigo."},
+    {"id": "a1-04-q4", "type": "order", "words": ["These", "are", "your", "new", "keys"], "prompt": "Estas são as suas chaves novas.",
+     "explain": "Depois de these vem are, e no complemento o possessivo vem antes do adjetivo e do substantivo: your new keys."},
+    {"id": "a1-04-q5", "type": "fix", "prompt": "Tom and Eva love his project.", "answers": ["Tom and Eva love their project."],
+     "explain": "Tom e Eva são os donos, são duas pessoas, e o possessivo é their."},
+    {"id": "a1-04-q6", "type": "choice", "prompt": "Qual frase está correta?", "options": ["Those is our office.", "This are my keys.", "That is our office."], "answer": 2,
+     "explain": "That é singular e combina com is, e our indica o dono nós.",
+     "why_not": {"0": "Those é plural e não combina com is.", "1": "This é singular e não combina com are."}},
+    {"id": "a1-04-q7", "type": "fill", "prompt": "Look at ___ monitors over there! (aqueles)", "answers": ["those"],
+     "explain": "Monitores são plural e estão longe, então usamos those."},
+    {"id": "a1-04-q8", "type": "listen", "en": "This is our new project manager.",
+     "explain": "This is serve para apresentar uma pessoa, e our indica que o gerente é de nós."}
+  ],
+  "words": [
+    {"word": "colleague", "pt": "colega de trabalho"},
+    {"word": "team", "pt": "time; equipe"},
+    {"word": "project", "pt": "projeto"},
+    {"word": "name", "pt": "nome"},
+    {"word": "key", "pt": "chave; tecla"},
+    {"word": "monitor", "pt": "monitor"},
+    {"word": "server", "pt": "servidor"},
+    {"word": "password", "pt": "senha"},
+    {"word": "this", "pt": "este; esta; isto"},
+    {"word": "that", "pt": "aquele; aquela; aquilo"},
+    {"word": "these", "pt": "estes; estas"},
+    {"word": "those", "pt": "aqueles; aquelas"}
+  ]
+}

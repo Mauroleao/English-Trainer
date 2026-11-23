@@ -1,0 +1,455 @@
+{
+  "id": "a2-01",
+  "level": "A2",
+  "unit": "Presente e passado",
+  "title": "Present continuous completo: agora ou todo dia?",
+  "goal": "Falar do que acontece agora ou nesta fase, fazer perguntas e negativas, e saber quando usar o present simple.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "Para que serve o present continuous",
+      "text": "Usamos o **present continuous** para falar de algo que está **acontecendo agora**, neste momento, ou de algo **temporário**, que vale para esta fase da vida ou do trabalho.\n\nA forma é **am / is / are + verbo com -ing**. Em português, ele corresponde ao “estar + gerundio”: *estou escrevendo*, *ele está testando*. Você já viu o básico na lição A1-12. Agora vamos completar com negativas, perguntas e as diferenças em relação ao present simple.",
+      "examples": [
+        {
+          "en": "I am writing an email now.",
+          "pt": "Estou escrevendo um e-mail agora."
+        },
+        {
+          "en": "She is testing the new feature.",
+          "pt": "Ela está testando o novo recurso."
+        },
+        {
+          "en": "We are using a different tool this month.",
+          "pt": "Estamos usando uma ferramenta diferente neste mês."
+        }
+      ],
+      "tip": "Pergunte-se: isso está acontecendo agora, ou é só uma fase? Se sim, present continuous."
+    },
+    {
+      "title": "A negativa: am not, isn't, aren't",
+      "text": "Para a negativa, coloque **not** depois de **am / is / are** e mantenha o verbo com **-ing**. O verbo -ing nunca muda.\n\nAs contrações são muito comuns na fala: **isn't** (is not) e **aren't** (are not). Com **I**, usamos **I'm not**. Não existe *amn't* no inglês padrão.",
+      "table": {
+        "headers": [
+          "Sujeito",
+          "Negativa",
+          "Contração"
+        ],
+        "rows": [
+          [
+            "I",
+            "I am not working",
+            "I'm not working"
+          ],
+          [
+            "he / she / it",
+            "She is not working",
+            "She isn't working"
+          ],
+          [
+            "you / we / they",
+            "They are not working",
+            "They aren't working"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "I'm not working today.",
+          "pt": "Eu não estou trabalhando hoje."
+        },
+        {
+          "en": "The server isn't responding.",
+          "pt": "O servidor não está respondendo."
+        },
+        {
+          "en": "We aren't using the old system.",
+          "pt": "Nós não estamos usando o sistema antigo."
+        }
+      ],
+      "trap": "Em inglês a negativa com o present continuous NÃO usa don't. Dizer *I don't working* está errado. Use o verbo to be: *I'm not working*."
+    },
+    {
+      "title": "Perguntas e respostas curtas",
+      "text": "Para fazer uma pergunta, **inverta** o verbo to be e o sujeito: em vez de *You are working*, diga **Are you working?** O verbo principal continua com -ing.\n\nAs respostas curtas repetem o verbo to be: *Yes, I am.* / *No, I'm not.* / *Yes, she is.* / *No, they aren't.* Não repita o verbo principal.\n\nCom palavras de pergunta (what, where, who, why), elas vêm no começo: **What are you doing?**",
+      "examples": [
+        {
+          "en": "Are you working on the bug?",
+          "pt": "Você está trabalhando no bug?"
+        },
+        {
+          "en": "Yes, I am.",
+          "pt": "Sim, estou."
+        },
+        {
+          "en": "Is he joining the call?",
+          "pt": "Ele está entrando na chamada?"
+        },
+        {
+          "en": "What are you doing?",
+          "pt": "O que você está fazendo?"
+        }
+      ],
+      "tip": "Na resposta curta afirmativa não se usa contração: diga *Yes, I am*, e não *Yes, I'm*."
+    },
+    {
+      "title": "Present simple ou present continuous?",
+      "text": "O **present simple** fala de rotina, hábitos e fatos que são sempre verdade. O **present continuous** fala do que acontece agora ou de uma fase temporária.\n\nNa dúvida, procure palavras-chave. Com **every day, usually, always, never** pense em present simple. Com **now, right now, at the moment, today, this week** pense em present continuous.",
+      "table": {
+        "headers": [
+          "Present simple (rotina)",
+          "Present continuous (agora / fase)"
+        ],
+        "rows": [
+          [
+            "I work from home every day.",
+            "I'm working from home this week."
+          ],
+          [
+            "He usually drinks coffee.",
+            "He's drinking tea now."
+          ],
+          [
+            "We test the app on Fridays.",
+            "We're testing the app right now."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "I usually write code in the morning.",
+          "pt": "Eu costumo escrever código de manhã."
+        },
+        {
+          "en": "Today I am reviewing code.",
+          "pt": "Hoje eu estou revisando código."
+        }
+      ],
+      "trap": "Em português usamos o presente simples para ações em andamento: “Eu trabalho nisso agora”. Em inglês, para o que acontece agora, é obrigatório o continuous: *I'm working on it now*, e não *I work on it now*."
+    },
+    {
+      "title": "Verbos de estado: sem -ing",
+      "text": "Alguns verbos descrevem **estados**, e não ações em andamento: o que a gente sabe, sente, quer ou possui. Esses verbos quase nunca usam o -ing, mesmo quando falamos de agora. Os mais comuns são **know, like, love, want, need, understand, believe, prefer**.\n\nPor isso dizemos *I know the answer*, e não *I am knowing*. Os estados já são “contínuos” por natureza, então a forma -ing não acrescenta nada.\n\nO verbo **have** com sentido de posse também não usa -ing (*I have a laptop*). Mas ele pode usar em ações: *I'm having lunch*.",
+      "examples": [
+        {
+          "en": "I know the answer.",
+          "pt": "Eu sei a resposta."
+        },
+        {
+          "en": "She wants a new laptop.",
+          "pt": "Ela quer um laptop novo."
+        },
+        {
+          "en": "We need more time.",
+          "pt": "Nós precisamos de mais tempo."
+        },
+        {
+          "en": "Do you understand the error?",
+          "pt": "Você entende o erro?"
+        }
+      ],
+      "trap": "Em português é natural dizer “estou querendo” ou “estou precisando”. Em inglês, não: *I'm wanting* e *I'm needing* soam errados. Use *I want* e *I need*."
+    },
+    {
+      "title": "Now, at the moment, these days",
+      "text": "Algumas expressões de tempo combinam muito bem com o present continuous. **Now** e **right now** significam “agora”. **At the moment** significa “neste momento”. **Today**, **this week** e **this month** indicam períodos que ainda estão acontecendo.\n\n**These days** quer dizer “hoje em dia” ou “atualmente” e mostra uma fase, uma mudança em relação ao passado. Essas expressões costumam ficar no final da frase, mas também podem vir no começo.",
+      "examples": [
+        {
+          "en": "I'm working on a big project at the moment.",
+          "pt": "Estou trabalhando em um grande projeto neste momento."
+        },
+        {
+          "en": "Are you studying English these days?",
+          "pt": "Você está estudando inglês ultimamente?"
+        },
+        {
+          "en": "This week we are testing the new login.",
+          "pt": "Esta semana estamos testando o novo login."
+        }
+      ],
+      "tip": "Quando a expressão vem no começo, coloque uma vírgula se ela for longa: *At the moment, we are updating the database.*"
+    },
+    {
+      "title": "No dia a dia da equipe de TI",
+      "text": "O present continuous aparece muito em mensagens de chat, na daily e em chamadas. Ele serve para avisar o que você está fazendo agora, explicar por que algo está lento ou dizer o que o time está fazendo nesta semana.\n\nObserve como as frases combinam estados (*I need*) com ações (*I'm checking*). Os verbos de estado ficam no present simple, e as ações em andamento ficam no continuous.",
+      "examples": [
+        {
+          "en": "I'm checking the logs right now.",
+          "pt": "Estou verificando os logs agora mesmo."
+        },
+        {
+          "en": "The site is loading slowly today.",
+          "pt": "O site está carregando devagar hoje."
+        },
+        {
+          "en": "We're not deploying today because we need more tests.",
+          "pt": "Não vamos fazer o deploy hoje porque precisamos de mais testes."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "O present continuous (am/is/are + -ing) fala do que acontece agora ou de uma fase temporária.",
+    "Negativa: I'm not, isn't, aren't + -ing. Pergunta: inverta to be e sujeito (Are you working?).",
+    "Rotina e fatos usam present simple; agora e fases usam present continuous.",
+    "Verbos de estado (know, like, want, need, understand) não usam -ing.",
+    "Palavras-chave do continuous: now, right now, at the moment, today, this week, these days."
+  ],
+  "practice": [
+    {
+      "id": "a2-01-p1",
+      "type": "choice",
+      "prompt": "Right now, I ___ a bug.",
+      "options": [
+        "fix",
+        "am fixing",
+        "fixes"
+      ],
+      "answer": 1,
+      "explain": "Right now indica uma ação acontecendo agora, então usamos present continuous: am fixing.",
+      "why_not": {
+        "0": "Fix (present simple) é para rotina, não para agora.",
+        "2": "Fixes é a forma do present simple para he/she/it e não combina com I."
+      }
+    },
+    {
+      "id": "a2-01-p2",
+      "type": "choice",
+      "prompt": "She ___ with a client at the moment.",
+      "options": [
+        "talks",
+        "is talking",
+        "talking"
+      ],
+      "answer": 1,
+      "explain": "At the moment pede o present continuous, e she usa is: is talking.",
+      "why_not": {
+        "2": "Falta o verbo to be (is) antes do -ing."
+      }
+    },
+    {
+      "id": "a2-01-p3",
+      "type": "choice",
+      "prompt": "I ___ the answer.",
+      "options": [
+        "am knowing",
+        "know",
+        "knowing"
+      ],
+      "answer": 1,
+      "explain": "Know é um verbo de estado e não usa -ing: I know.",
+      "why_not": {
+        "0": "Verbos de estado como know não usam o present continuous."
+      }
+    },
+    {
+      "id": "a2-01-p4",
+      "type": "choice",
+      "prompt": "I usually work from home, but today I ___ in the office.",
+      "options": [
+        "work",
+        "am working",
+        "works"
+      ],
+      "answer": 1,
+      "explain": "Today indica algo temporário, diferente da rotina, então usamos present continuous: am working.",
+      "why_not": {
+        "0": "Work seria a rotina, e a frase fala de hoje, que é diferente da rotina.",
+        "2": "Works é a forma de he/she/it."
+      }
+    },
+    {
+      "id": "a2-01-p5",
+      "type": "fill",
+      "prompt": "We are ___ using the old server.",
+      "answers": [
+        "not"
+      ],
+      "explain": "A negativa do present continuous é am/is/are + not + -ing: we are not using."
+    },
+    {
+      "id": "a2-01-p6",
+      "type": "fill",
+      "prompt": "___ you using Linux these days?",
+      "answers": [
+        "are"
+      ],
+      "explain": "Na pergunta com present continuous, o verbo to be vem antes do sujeito: Are you using…?"
+    },
+    {
+      "id": "a2-01-p7",
+      "type": "translate",
+      "prompt": "Eu estou escrevendo um e-mail agora.",
+      "answers": [
+        "I am writing an email now.",
+        "I am writing an e-mail now.",
+        "I am writing an email right now.",
+        "Now I am writing an email."
+      ],
+      "explain": "Estar + gerúndio vira am + verbo -ing: I am writing. Antes de email use an, porque começa com som de vogal."
+    },
+    {
+      "id": "a2-01-p8",
+      "type": "order",
+      "words": [
+        "Is",
+        "he",
+        "joining",
+        "the",
+        "meeting"
+      ],
+      "prompt": "Ele está entrando na reunião?",
+      "explain": "Na pergunta, o verbo to be vem antes do sujeito: Is he joining the meeting?"
+    },
+    {
+      "id": "a2-01-p9",
+      "type": "fix",
+      "prompt": "She is wanting a new laptop.",
+      "answers": [
+        "She wants a new laptop."
+      ],
+      "explain": "Want é verbo de estado e não usa -ing. Para he/she/it no present simple, acrescentamos -s: she wants."
+    },
+    {
+      "id": "a2-01-p10",
+      "type": "fix",
+      "prompt": "They not are working now.",
+      "answers": [
+        "They are not working now."
+      ],
+      "explain": "A palavra not vem depois do verbo to be: are not working."
+    },
+    {
+      "id": "a2-01-p11",
+      "type": "listen",
+      "en": "What are you doing right now?",
+      "explain": "Pergunta com What + are + sujeito + verbo -ing, usada para perguntar o que alguém faz agora."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "a2-01-q1",
+      "type": "choice",
+      "prompt": "Please be quiet. I ___ on a call.",
+      "options": [
+        "talk",
+        "am talking",
+        "talks"
+      ],
+      "answer": 1,
+      "explain": "A ação está acontecendo agora, então usamos present continuous: am talking.",
+      "why_not": {
+        "0": "Talk (present simple) fala de rotina, não do que acontece agora."
+      }
+    },
+    {
+      "id": "a2-01-q2",
+      "type": "choice",
+      "prompt": "He ___ a new job.",
+      "options": [
+        "is wanting",
+        "wants",
+        "want"
+      ],
+      "answer": 1,
+      "explain": "Want é verbo de estado e não usa -ing. Com he, o present simple leva -s: wants.",
+      "why_not": {
+        "0": "Want não usa present continuous.",
+        "2": "Com he/she/it falta o -s: he wants."
+      }
+    },
+    {
+      "id": "a2-01-q3",
+      "type": "fill",
+      "prompt": "Maria ___ (write) the report at the moment.",
+      "answers": [
+        "is writing"
+      ],
+      "explain": "At the moment pede present continuous. Com Maria (she) usamos is + writing, e o e final cai: write vira writing."
+    },
+    {
+      "id": "a2-01-q4",
+      "type": "translate",
+      "prompt": "Nós não estamos usando o servidor agora.",
+      "answers": [
+        "We are not using the server now.",
+        "We are not using the server right now."
+      ],
+      "explain": "A negativa do present continuous é are not + verbo -ing. O e de use cai antes do -ing: using."
+    },
+    {
+      "id": "a2-01-q5",
+      "type": "order",
+      "words": [
+        "What",
+        "are",
+        "they",
+        "building",
+        "this",
+        "week"
+      ],
+      "prompt": "O que eles estão construindo esta semana?",
+      "explain": "A ordem é palavra de pergunta + are + sujeito + verbo -ing: What are they building…?"
+    },
+    {
+      "id": "a2-01-q6",
+      "type": "fix",
+      "prompt": "I am needing help with this bug.",
+      "answers": [
+        "I need help with this bug."
+      ],
+      "explain": "Need é verbo de estado e não usa -ing. Use o present simple: I need."
+    },
+    {
+      "id": "a2-01-q7",
+      "type": "listen",
+      "en": "He is not working from home this week.",
+      "explain": "Is not + working: negativa do present continuous. This week mostra que é uma fase temporária."
+    }
+  ],
+  "words": [
+    {
+      "word": "right now",
+      "pt": "agora mesmo"
+    },
+    {
+      "word": "at the moment",
+      "pt": "neste momento; no momento"
+    },
+    {
+      "word": "these days",
+      "pt": "hoje em dia; atualmente"
+    },
+    {
+      "word": "report",
+      "pt": "relatório"
+    },
+    {
+      "word": "laptop",
+      "pt": "notebook; laptop"
+    },
+    {
+      "word": "call",
+      "pt": "chamada; ligação"
+    },
+    {
+      "word": "client",
+      "pt": "cliente"
+    },
+    {
+      "word": "join",
+      "pt": "entrar em; participar de"
+    },
+    {
+      "word": "understand",
+      "pt": "entender; compreender"
+    },
+    {
+      "word": "need",
+      "pt": "precisar de"
+    },
+    {
+      "word": "build",
+      "pt": "construir; desenvolver"
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "id": "a1-01",
+  "level": "A1",
+  "unit": "Primeiros passos",
+  "title": "Verbo to be: I am, you are, he is…",
+  "goal": "Dizer quem você é, onde está e como as pessoas e as coisas são.",
+  "minutes": 20,
+  "steps": [
+    {
+      "title": "Para que serve o verbo to be",
+      "text": "O verbo **to be** é o mais usado do inglês. Ele significa **ser** e também **estar**. Por isso *I am a developer* quer dizer “Eu sou desenvolvedor”, e *I am tired* quer dizer “Eu estou cansado”.\n\nEm português, o verbo muda conforme quem fala: eu **sou**, você **é**, nós **somos**. Em inglês também muda, mas são só três formas no presente: **am**, **is** e **are**. Nesta lição você aprende quando usar cada uma.",
+      "examples": [
+        {"en": "I am a developer.", "pt": "Eu sou desenvolvedor."},
+        {"en": "She is at work.", "pt": "Ela está no trabalho."},
+        {"en": "We are happy.", "pt": "Nós estamos felizes."}
+      ],
+      "tip": "Uma palavra só (be) cobre dois verbos do português: ser e estar. É o contexto que mostra qual dos dois você quer dizer."
+    },
+    {
+      "title": "As formas: am, is, are",
+      "text": "Cada pronome combina com uma forma do verbo. Memorize a tabela, porque ela aparece em quase toda frase em inglês.\n\nO pronome **I** (eu) usa **am**. Os pronomes **he**, **she** e **it** usam **is**. Os pronomes **you**, **we** e **they** usam **are**.",
+      "table": {
+        "headers": ["Pronome", "Verbo", "Exemplo"],
+        "rows": [
+          ["I (eu)", "am", "I am ready."],
+          ["you (você)", "are", "You are late."],
+          ["he (ele)", "is", "He is a tester."],
+          ["she (ela)", "is", "She is my manager."],
+          ["it (isso/ele/ela, para coisas)", "is", "It is a bug."],
+          ["we (nós)", "are", "We are a team."],
+          ["they (eles/elas)", "are", "They are in the office."]
+        ]
+      },
+      "examples": [
+        {"en": "I am ready.", "pt": "Eu estou pronto."},
+        {"en": "He is a tester.", "pt": "Ele é testador."},
+        {"en": "They are in the office.", "pt": "Eles estão no escritório."}
+      ],
+      "trap": "Em português podemos omitir o sujeito: “Sou desenvolvedor”. Em inglês o sujeito é obrigatório. Dizer *Am a developer* está errado; o certo é *I am a developer*."
+    },
+    {
+      "title": "Contrações: I'm, you're, she's…",
+      "text": "Quando falamos ou escrevemos mensagens, juntamos o pronome com o verbo usando um apóstrofo (’). Isso é uma **contração**. Você vai ouvir e ler contrações o tempo todo, então precisa reconhecê-las.\n\nA regra é simples: o apóstrofo toma o lugar da letra que some. **I am** vira **I'm**, **you are** vira **you're** e **she is** vira **she's**.",
+      "table": {
+        "headers": ["Forma completa", "Contração"],
+        "rows": [
+          ["I am", "I'm"],
+          ["you are", "you're"],
+          ["he is / she is / it is", "he's / she's / it's"],
+          ["we are", "we're"],
+          ["they are", "they're"]
+        ]
+      },
+      "examples": [
+        {"en": "I'm a developer.", "pt": "Eu sou desenvolvedor."},
+        {"en": "You're late.", "pt": "Você está atrasado."},
+        {"en": "She's my manager.", "pt": "Ela é minha gerente."},
+        {"en": "They're in the meeting.", "pt": "Eles estão na reunião."}
+      ],
+      "tip": "Neste app, as duas formas valem na correção: I'm = I am, she's = she is."
+    },
+    {
+      "title": "He, she ou it?",
+      "text": "Use **he** para um homem e **she** para uma mulher. Para coisas, animais, ideias, clima, dias e horas, use **it**. Em inglês as coisas não são “ele” nem “ela”: são **it**.\n\nNo trabalho de TI, isso aparece muito: o servidor, o código, o bug e o sistema são todos **it**.",
+      "examples": [
+        {"en": "Maria is a tester. She is very good.", "pt": "Maria é testadora. Ela é muito boa."},
+        {"en": "The server is down. It is slow.", "pt": "O servidor está fora do ar. Ele está lento."},
+        {"en": "It is Monday.", "pt": "É segunda-feira."},
+        {"en": "It is a bug.", "pt": "É um bug."}
+      ],
+      "trap": "Em português dizemos “ele está lento” para o computador. Em inglês, para um objeto, nunca use he ou she: use **it**. Diga *It is slow*, não *He is slow*."
+    },
+    {
+      "title": "You, we e they",
+      "text": "**You** serve para “você” e também para “vocês”. A forma do verbo é sempre **are**, seja uma pessoa ou várias. **We** é “nós” e **they** é “eles” ou “elas”, e os dois também usam **are**.\n\nResumindo: depois de you, we e they, o verbo é sempre **are**.",
+      "examples": [
+        {"en": "You are my teacher.", "pt": "Você é meu professor."},
+        {"en": "You are my team.", "pt": "Vocês são meu time."},
+        {"en": "We are in the same project.", "pt": "Nós estamos no mesmo projeto."},
+        {"en": "They are very busy.", "pt": "Eles estão muito ocupados."}
+      ],
+      "trap": "Não existe *you is*. Mesmo falando com uma pessoa só, você escreve **you are**."
+    },
+    {
+      "title": "Profissão, idade e sentimentos",
+      "text": "Com o verbo **to be** dizemos **profissão**, **idade** e **como nos sentimos**. Cada um tem um cuidado especial.\n\nNa **profissão**, o inglês usa **a** ou **an** antes da palavra. Use **an** antes de som de vogal: *an engineer*. Na **idade**, o inglês usa **to be**, e não “ter”. Em **sentimentos e estados** (tired, happy, ready), o verbo também é **to be**.",
+      "examples": [
+        {"en": "I am an engineer.", "pt": "Eu sou engenheiro."},
+        {"en": "He is a manager.", "pt": "Ele é gerente."},
+        {"en": "I am 30 years old.", "pt": "Eu tenho 30 anos."},
+        {"en": "We are tired today.", "pt": "Nós estamos cansados hoje."}
+      ],
+      "trap": "Em português dizemos “Sou engenheiro”, sem artigo, e “Eu tenho 30 anos”, com o verbo ter. Em inglês é diferente: *I am an engineer* (com a/an) e *I am 30* (com be). Dizer *I have 30 years* está errado."
+    },
+    {
+      "title": "Origem e lugar: from, in, at",
+      "text": "Para dizer de onde você é, use **from**: *I am from Brazil*. Para dizer em que cidade ou país alguém está, use **in**: *She is in Lisbon*. Para lugares específicos, como o trabalho ou a reunião, use **at**: *We are at work*.\n\nNa prática, você vai juntar tudo o que aprendeu: pronome + am/is/are + informação.",
+      "examples": [
+        {"en": "I am from Brazil.", "pt": "Eu sou do Brasil."},
+        {"en": "She is in Lisbon.", "pt": "Ela está em Lisboa."},
+        {"en": "We are at work.", "pt": "Nós estamos no trabalho."},
+        {"en": "They are in a meeting.", "pt": "Eles estão em uma reunião."}
+      ]
+    }
+  ],
+  "summary": [
+    "To be significa ser e estar; no presente usamos am, is e are.",
+    "I usa am; he, she e it usam is; you, we e they usam are.",
+    "O sujeito é obrigatório em inglês: I am, e não só am.",
+    "As contrações (I'm, you're, she's) valem e são muito comuns.",
+    "Para coisas, clima, dia e hora use it; antes de profissão use a ou an; idade usa to be."
+  ],
+  "practice": [
+    {"id": "a1-01-p1", "type": "choice", "prompt": "I ___ a developer.", "options": ["am", "is", "are"], "answer": 0,
+     "explain": "Com o pronome I, o verbo to be é sempre am.",
+     "why_not": {"1": "Is é usado com he, she e it.", "2": "Are é usado com you, we e they."}},
+    {"id": "a1-01-p2", "type": "choice", "prompt": "She ___ my manager.", "options": ["am", "is", "are"], "answer": 1,
+     "explain": "She é terceira pessoa do singular, e para he, she e it usamos is."},
+    {"id": "a1-01-p3", "type": "choice", "prompt": "They ___ in the office.", "options": ["am", "is", "are"], "answer": 2,
+     "explain": "They é plural, e com they, we e you usamos are."},
+    {"id": "a1-01-p4", "type": "fill", "prompt": "We ___ ready for the meeting.", "answers": ["are"],
+     "explain": "We (nós) usa are: we are ready."},
+    {"id": "a1-01-p5", "type": "fill", "prompt": "The server ___ down.", "answers": ["is"],
+     "explain": "The server é uma coisa, equivale a it, e it usa is."},
+    {"id": "a1-01-p6", "type": "translate", "prompt": "Eu sou desenvolvedor.", "answers": ["I am a developer.", "I am a software developer."],
+     "explain": "Lembre-se do sujeito I e do artigo a antes da profissão: I am a developer."},
+    {"id": "a1-01-p7", "type": "order", "words": ["She", "is", "my", "manager"], "prompt": "Ela é minha gerente.",
+     "explain": "A ordem é sujeito + verbo + complemento: She is my manager."},
+    {"id": "a1-01-p8", "type": "fix", "prompt": "He are a tester.", "answers": ["He is a tester."],
+     "explain": "He (ele) usa is, e não are: he is a tester."},
+    {"id": "a1-01-p9", "type": "choice", "prompt": "Como se diz “Eu tenho 30 anos”?", "options": ["I have 30 years.", "I am 30 years old.", "I has 30 years old."], "answer": 1,
+     "explain": "Em inglês a idade usa to be: I am 30 years old.",
+     "why_not": {"0": "Em inglês não usamos have para idade.", "2": "Além de usar o verbo errado, has não combina com I."}},
+    {"id": "a1-01-p10", "type": "listen", "en": "They are in the meeting.",
+     "explain": "They are: o verbo é are, e in the meeting indica o lugar."},
+    {"id": "a1-01-p11", "type": "translate", "prompt": "Nós estamos felizes.", "answers": ["We are happy."],
+     "explain": "We usa are, e happy é um sentimento: we are happy."}
+  ],
+  "quiz": [
+    {"id": "a1-01-q1", "type": "choice", "prompt": "You ___ late.", "options": ["is", "am", "are"], "answer": 2,
+     "explain": "You sempre usa are, mesmo para uma pessoa só."},
+    {"id": "a1-01-q2", "type": "fill", "prompt": "I ___ an engineer.", "answers": ["am"],
+     "explain": "Com I, o verbo é am."},
+    {"id": "a1-01-q3", "type": "translate", "prompt": "Ela é testadora.", "answers": ["She is a tester."],
+     "explain": "She is + a tester: o artigo a vem antes da profissão."},
+    {"id": "a1-01-q4", "type": "order", "words": ["We", "are", "at", "work"], "prompt": "Nós estamos no trabalho.",
+     "explain": "Para lugares específicos como o trabalho, usamos at: we are at work."},
+    {"id": "a1-01-q5", "type": "fix", "prompt": "Is a bug.", "answers": ["It is a bug."],
+     "explain": "O sujeito é obrigatório em inglês. Para uma coisa, use it: it is a bug."},
+    {"id": "a1-01-q6", "type": "choice", "prompt": "Qual frase está correta?", "options": ["I am 28 years old.", "I have 28 years.", "I am have 28."], "answer": 0,
+     "explain": "A idade usa to be: I am 28 years old."},
+    {"id": "a1-01-q7", "type": "listen", "en": "She is my new manager.",
+     "explain": "She is: terceira pessoa do singular usa is; my new manager é o complemento."}
+  ],
+  "words": [
+    {"word": "developer", "pt": "desenvolvedor; desenvolvedora"},
+    {"word": "manager", "pt": "gerente"},
+    {"word": "tester", "pt": "testador; testadora"},
+    {"word": "engineer", "pt": "engenheiro; engenheira"},
+    {"word": "office", "pt": "escritório"},
+    {"word": "ready", "pt": "pronto; pronta"},
+    {"word": "tired", "pt": "cansado; cansada"},
+    {"word": "happy", "pt": "feliz"},
+    {"word": "late", "pt": "atrasado; tarde"},
+    {"word": "busy", "pt": "ocupado; ocupada"}
+  ]
+}

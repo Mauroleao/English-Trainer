@@ -1,0 +1,198 @@
+{
+  "id": "b1-14",
+  "level": "B1",
+  "unit": "Orações, modais e verbos",
+  "title": "Gerúndio ou infinitivo? stop, remember, try, let, make",
+  "goal": "Escolher entre a forma -ing e to + verbo depois de verbos, preposições e adjetivos, e usar let, make e help corretamente.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "Dois verbos juntos: -ing ou to?",
+      "text": "Quando dois verbos aparecem juntos, o segundo vem na forma **-ing** (o **gerúndio**, uma forma do verbo que funciona como substantivo: *working*) ou no **infinitivo com to** (*to work*). Quem decide é o **primeiro verbo**.\n\nVocê já conhece alguns grupos. **Want, need, plan, hope** e **decide** pedem **to**. **Enjoy, finish, avoid, keep** e **mind** pedem **-ing**. Não há uma regra única para todos os verbos, então o melhor caminho é aprender por grupos, como fazemos nesta lição.",
+      "table": {
+        "headers": ["Pede to + verbo", "Pede verbo + -ing"],
+        "rows": [
+          ["want to learn", "enjoy learning"],
+          ["need to update", "finish updating"],
+          ["plan to start", "avoid using"],
+          ["decide to leave", "keep trying"]
+        ]
+      },
+      "examples": [
+        {"en": "I want to learn Spanish.", "pt": "Eu quero aprender espanhol."},
+        {"en": "She enjoys working remotely.", "pt": "Ela gosta de trabalhar remotamente."},
+        {"en": "We need to update the server.", "pt": "Nós precisamos atualizar o servidor."},
+        {"en": "He avoided using the old API.", "pt": "Ele evitou usar a API antiga."}
+      ]
+    },
+    {
+      "title": "Verbos que mudam de sentido: stop e remember",
+      "text": "Alguns verbos aceitam as duas formas, mas **o sentido muda**. Com **stop**, a forma **-ing** quer dizer “parar de fazer algo”, e **to + verbo** quer dizer “parar (o que fazia) para fazer outra coisa”.\n\nCom **remember**, **-ing** é lembrar de algo que **já aconteceu**, e **to + verbo** é lembrar de algo que **precisa fazer**. Veja a tabela com os quatro verbos desta família: stop, remember, forget e try.",
+      "table": {
+        "headers": ["Verbo", "+ -ing", "+ to + verbo"],
+        "rows": [
+          ["stop", "parar de fazer algo", "parar para fazer algo"],
+          ["remember", "lembrar de algo que aconteceu", "lembrar de fazer algo"],
+          ["forget", "esquecer algo que aconteceu", "esquecer de fazer algo"],
+          ["try", "experimentar, testar uma solução", "tentar, fazer esforço"]
+        ]
+      },
+      "examples": [
+        {"en": "She stopped working at six.", "pt": "Ela parou de trabalhar às seis."},
+        {"en": "On the way to the office, he stopped to buy a coffee.", "pt": "A caminho do escritório, ele parou para comprar um café."},
+        {"en": "I remember locking the door.", "pt": "Eu me lembro de ter trancado a porta."},
+        {"en": "Remember to lock the door.", "pt": "Lembre-se de trancar a porta."}
+      ],
+      "tip": "Pergunte-se: a ação já aconteceu (-ing) ou ainda vai acontecer (to)?"
+    },
+    {
+      "title": "Forget e try",
+      "text": "Com **forget**, o uso mais comum é **to + verbo**: *Don't forget to send the file* (não esqueça de enviar). A forma **-ing** é rara e quase sempre aparece com **never**: *I'll never forget meeting her*.\n\nCom **try**, **to + verbo** significa **tentar** algo difícil, com esforço, e talvez sem conseguir. **Try + -ing** significa **experimentar** algo, como um teste para ver se resolve o problema.",
+      "examples": [
+        {"en": "Don't forget to send the report to the client.", "pt": "Não se esqueça de enviar o relatório ao cliente."},
+        {"en": "I tried to open the file, but it was locked.", "pt": "Eu tentei abrir o arquivo, mas ele estava bloqueado."},
+        {"en": "I tried restarting the router, but it didn't help.", "pt": "Eu experimentei reiniciar o roteador, mas não ajudou."},
+        {"en": "I'll never forget meeting my first client.", "pt": "Nunca vou esquecer a vez em que conheci meu primeiro cliente."}
+      ],
+      "trap": "Em português, “tentar” cobre os dois sentidos. Em inglês, **try to** é fazer esforço para conseguir algo, e **try -ing** é testar uma ideia. *Try restarting the app* é uma sugestão de teste."
+    },
+    {
+      "title": "Preposição + -ing",
+      "text": "Depois de uma **preposição** (in, at, for, about, of, without, before, after, by), o verbo vem na forma **-ing**, e não no infinitivo com *to*. Isso vale também para os verbos que pedem uma preposição, como **look forward to**, **think about**, **apologize for** e **insist on**.\n\nNo caso de *look forward to*, o **to** é uma preposição, e não parte de um infinitivo. Por isso vem -ing depois: *I look forward to meeting you*.",
+      "table": {
+        "headers": ["Expressão", "Exemplo"],
+        "rows": [
+          ["think about", "We are thinking about moving to the cloud."],
+          ["thank you for", "Thank you for helping me."],
+          ["look forward to", "I look forward to meeting you."],
+          ["before / after / without", "Check the logs before deploying."]
+        ]
+      },
+      "examples": [
+        {"en": "Thank you for helping me with the bug.", "pt": "Obrigado por me ajudar com o bug."},
+        {"en": "I look forward to meeting you.", "pt": "Estou ansioso para conhecê-lo."},
+        {"en": "Check the logs before deploying.", "pt": "Confira os logs antes de fazer o deploy."},
+        {"en": "She left without saying goodbye.", "pt": "Ela saiu sem se despedir."}
+      ],
+      "trap": "Em português usamos o infinitivo depois de preposição: “obrigado por ajudar”, “antes de fazer”. Em inglês isso muda: *thanks for helping*, e não *thanks for to help*."
+    },
+    {
+      "title": "Adjetivo + preposição + -ing",
+      "text": "Muitos adjetivos pedem uma preposição fixa. Quando vem um verbo depois dela, ele fica na forma **-ing**. Os mais úteis no trabalho são **good at**, **interested in**, **afraid of**, **tired of**, **responsible for** e **excited about**.\n\nA preposição não muda de acordo com o português. Em português dizemos “bom em”, “cansado de”, “responsável por”. Em inglês é *good at*, *tired of* e *responsible for*, e vale a pena memorizar cada par como um bloco.",
+      "table": {
+        "headers": ["Adjetivo + preposição", "Exemplo"],
+        "rows": [
+          ["good / bad at", "She is good at finding bugs."],
+          ["interested in", "I am interested in learning Python."],
+          ["afraid of", "He is afraid of losing the data."],
+          ["tired of", "We are tired of waiting."],
+          ["responsible for", "Who is responsible for deploying?"]
+        ]
+      },
+      "examples": [
+        {"en": "She is good at finding bugs.", "pt": "Ela é boa em encontrar bugs."},
+        {"en": "I am interested in learning Python.", "pt": "Estou interessado em aprender Python."},
+        {"en": "We are tired of waiting for the build.", "pt": "Estamos cansados de esperar pelo build."},
+        {"en": "Who is responsible for deploying on Fridays?", "pt": "Quem é o responsável por fazer o deploy às sextas?"}
+      ]
+    },
+    {
+      "title": "Let, make e help + pessoa + verbo",
+      "text": "Depois de **let** (permitir) e **make** (obrigar, fazer) o verbo vem na **forma base, sem to**: *She let me use her laptop*. *The manager made us rewrite the report*. Depois de **help** vale as duas formas: *help me solve* ou *help me to solve*.\n\nCom **allow** (permitir) a estrutura é outra: **allow + pessoa + to + verbo**. Compare *She let me leave* com *She allowed me to leave*. Tem o mesmo sentido, mas let é mais comum na fala.",
+      "table": {
+        "headers": ["Verbo", "Estrutura", "Exemplo"],
+        "rows": [
+          ["let", "let + pessoa + verbo base", "She let me use her laptop."],
+          ["make", "make + pessoa + verbo base", "He made me restart the server."],
+          ["help", "help + pessoa + (to) verbo base", "They helped me (to) fix it."],
+          ["allow", "allow + pessoa + to + verbo", "She allowed me to leave."]
+        ]
+      },
+      "examples": [
+        {"en": "She let me use her laptop.", "pt": "Ela me deixou usar o notebook dela."},
+        {"en": "My manager made me rewrite the report.", "pt": "Meu gerente me fez reescrever o relatório."},
+        {"en": "Leo helped me solve the problem.", "pt": "O Leo me ajudou a resolver o problema."},
+        {"en": "They allowed us to work from home.", "pt": "Eles nos permitiram trabalhar de casa."}
+      ],
+      "trap": "Não coloque to depois de let e make. Diga *He made me restart the server*, e não *He made me to restart the server*."
+    },
+    {
+      "title": "Em contexto: um dia na equipe",
+      "text": "Veja os grupos juntos numa conversa de trabalho. Cada frase usa uma das estruturas da lição. Repare em quem decide a forma: o verbo, a preposição ou o adjetivo que vem antes.\n\nPara estudar, escolha uma frase de cada grupo e troque as palavras por situações do seu trabalho. Assim a estrutura fica na memória junto com o vocabulário que você realmente usa.",
+      "examples": [
+        {"en": "I stopped checking my email and started coding.", "pt": "Parei de verificar meu e-mail e comecei a programar."},
+        {"en": "Remember to back up the files before leaving.", "pt": "Lembre-se de fazer backup dos arquivos antes de sair."},
+        {"en": "The lead let us choose the tools.", "pt": "O líder nos deixou escolher as ferramentas."},
+        {"en": "I'm not used to working at night, but I'm good at learning.", "pt": "Não estou acostumado a trabalhar à noite, mas sou bom em aprender."}
+      ]
+    }
+  ],
+  "summary": [
+    "Want, need, plan e decide pedem to + verbo; enjoy, finish, avoid e keep pedem -ing.",
+    "Stop, remember, forget e try mudam de sentido: -ing fala do que já aconteceu ou de um teste, e to fala do que se vai fazer ou de esforço.",
+    "Depois de preposição (about, for, before, without) e de adjetivo + preposição (good at, afraid of), use sempre -ing.",
+    "Look forward to é seguido de -ing, porque o to é uma preposição.",
+    "Let e make + pessoa + verbo base, sem to; help aceita com ou sem to; allow pede to."
+  ],
+  "practice": [
+    {"id": "b1-14-p1", "type": "choice", "prompt": "I enjoy ___ code in the morning.", "options": ["write", "to write", "writing"], "answer": 2,
+     "explain": "Enjoy pede o verbo na forma -ing: enjoy writing.",
+     "why_not": {"0": "Depois de enjoy o verbo não fica na forma base.", "1": "Enjoy não é seguido de to + verbo."}},
+    {"id": "b1-14-p2", "type": "choice", "prompt": "On the way to the office, he stopped ___ a coffee. (parou para comprar)", "options": ["to buy", "buying", "buy"], "answer": 0,
+     "explain": "Stop to + verbo significa parar o que fazia para fazer outra coisa. Aqui ele parou para comprar um café.",
+     "why_not": {"1": "Stopped buying significa que ele parou de comprar, e não que parou para comprar.", "2": "A forma base sozinha não combina com stop."}},
+    {"id": "b1-14-p3", "type": "choice", "prompt": "Please remember ___ the door when you leave.", "options": ["locking", "to lock", "lock"], "answer": 1,
+     "explain": "Aqui a ação ainda vai acontecer, então usamos remember + to + verbo.",
+     "why_not": {"0": "Remember + -ing é lembrar de algo que já aconteceu.", "2": "Depois de remember não se usa a forma base."}},
+    {"id": "b1-14-p4", "type": "fill", "prompt": "I remember ___ (see) this error last week.", "answers": ["seeing"],
+     "explain": "A ação já aconteceu, então remember pede a forma -ing: remember seeing."},
+    {"id": "b1-14-p5", "type": "fill", "prompt": "Don't forget ___ (send) the report to the client.", "answers": ["to send"],
+     "explain": "A ação ainda vai acontecer. Com forget nesse sentido usamos to + verbo."},
+    {"id": "b1-14-p6", "type": "order", "words": ["I", "am", "interested", "in", "learning", "Python"], "prompt": "Estou interessado em aprender Python.",
+     "explain": "Depois da preposição in, o verbo fica na forma -ing: interested in learning."},
+    {"id": "b1-14-p7", "type": "translate", "prompt": "Obrigado por me ajudar.", "answers": ["Thank you for helping me.", "Thanks for helping me."],
+     "explain": "Depois da preposição for, o verbo vem na forma -ing: for helping."},
+    {"id": "b1-14-p8", "type": "fix", "prompt": "I am looking forward to meet you.", "answers": ["I am looking forward to meeting you."],
+     "explain": "Em look forward to, o to é uma preposição. Por isso o verbo seguinte vem com -ing: meeting."},
+    {"id": "b1-14-p9", "type": "choice", "prompt": "Como se diz “Ela me deixou usar o notebook dela”?", "options": ["She let me use her laptop.", "She let me to use her laptop.", "She let me using her laptop."], "answer": 0,
+     "explain": "Depois de let + pessoa o verbo fica na forma base, sem to: let me use.",
+     "why_not": {"1": "Let não leva to antes do verbo.", "2": "Let não é seguido de -ing nessa estrutura."}},
+    {"id": "b1-14-p10", "type": "choice", "prompt": "My manager made me ___ the report again.", "options": ["rewrite", "to rewrite", "rewriting"], "answer": 0,
+     "explain": "Make + pessoa + verbo base, sem to: made me rewrite.",
+     "why_not": {"1": "Na voz ativa, make não leva to antes do verbo.", "2": "Make não é seguido de -ing nessa estrutura."}},
+    {"id": "b1-14-p11", "type": "listen", "en": "I tried restarting the router, but it didn't help.",
+     "explain": "Tried restarting significa experimentar reiniciar, como um teste. Por isso vem -ing."},
+    {"id": "b1-14-p12", "type": "fix", "prompt": "He made me to restart the server.", "answers": ["He made me restart the server."],
+     "explain": "Depois de make + pessoa o verbo fica na forma base, sem to."}
+  ],
+  "quiz": [
+    {"id": "b1-14-q1", "type": "choice", "prompt": "She avoided ___ the old API.", "options": ["to use", "using", "use"], "answer": 1,
+     "explain": "Avoid é seguido de -ing: avoided using.",
+     "why_not": {"0": "Avoid não aceita to + verbo.", "2": "Depois de avoid o verbo não fica na forma base."}},
+    {"id": "b1-14-q2", "type": "fill", "prompt": "I'm good at ___ (find) bugs.", "answers": ["finding"],
+     "explain": "Depois de adjetivo + preposição (good at), o verbo vem na forma -ing."},
+    {"id": "b1-14-q3", "type": "translate", "prompt": "Ele parou de trabalhar às seis.", "answers": ["He stopped working at six.", "He stopped working at 6.", "He stopped working at six o'clock."],
+     "explain": "Parou de fazer algo é stop + -ing: stopped working."},
+    {"id": "b1-14-q4", "type": "order", "words": ["Try", "restarting", "the", "computer", "first"], "answers": ["First try restarting the computer."], "prompt": "Experimente reiniciar o computador primeiro.",
+     "explain": "Experimentar uma solução é try + -ing: try restarting."},
+    {"id": "b1-14-q5", "type": "fix", "prompt": "She is afraid of to lose the data.", "answers": ["She is afraid of losing the data."],
+     "explain": "Depois da preposição of, o verbo vem na forma -ing: afraid of losing."},
+    {"id": "b1-14-q6", "type": "choice", "prompt": "My team helped me ___ the problem.", "options": ["solve", "solving", "for solving"], "answer": 0,
+     "explain": "Depois de help + pessoa usamos o verbo base, com ou sem to: helped me solve (ou helped me to solve).",
+     "why_not": {"1": "Help + pessoa não é seguido de -ing.", "2": "Não se usa for + -ing depois de help + pessoa."}},
+    {"id": "b1-14-q7", "type": "listen", "en": "She made us test the whole system again.",
+     "explain": "Made us test: make + pessoa + verbo base, sem to."}
+  ],
+  "words": [
+    {"word": "enjoy", "pt": "gostar de; aproveitar"},
+    {"word": "avoid", "pt": "evitar"},
+    {"word": "remember", "pt": "lembrar; lembrar-se de"},
+    {"word": "forget", "pt": "esquecer; esquecer-se de"},
+    {"word": "try", "pt": "tentar; experimentar"},
+    {"word": "stop", "pt": "parar"},
+    {"word": "afraid", "pt": "com medo"},
+    {"word": "responsible", "pt": "responsável"},
+    {"word": "allow", "pt": "permitir"},
+    {"word": "solve", "pt": "resolver"}
+  ]
+}

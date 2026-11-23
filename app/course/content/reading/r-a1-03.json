@@ -1,0 +1,28 @@
+{
+  "id": "r-a1-03",
+  "level": "A1",
+  "title": "A day with Rafael",
+  "topic": "Rotina de um desenvolvedor",
+  "text": "My name is Rafael. I am a developer. I work from home. Every morning I drink coffee and read my email.\n\nAt 10:00 I have a daily meeting with my team. In the afternoon I write code and test it. I don't work at night.\n\nOn Friday I play football with my friends.",
+  "pt": "Meu nome é Rafael. Eu sou desenvolvedor. Eu trabalho de casa. Toda manhã eu tomo café e leio meu e-mail.\n\nÀs 10:00 eu tenho uma reunião diária com meu time. À tarde eu escrevo código e testo. Eu não trabalho à noite.\n\nNa sexta-feira eu jogo futebol com meus amigos.",
+  "vocab": [
+    {"word": "developer", "pt": "desenvolvedor; desenvolvedora"},
+    {"word": "home", "pt": "casa; lar"},
+    {"word": "morning", "pt": "manhã"},
+    {"word": "coffee", "pt": "café"},
+    {"word": "afternoon", "pt": "tarde"},
+    {"word": "code", "pt": "código"},
+    {"word": "night", "pt": "noite"},
+    {"word": "friends", "pt": "amigos"}
+  ],
+  "questions": [
+    {"id": "r-a1-03-q1", "type": "choice", "prompt": "Where does Rafael work?", "options": ["In an office", "From home", "In a cafe"], "answer": 1,
+     "explain": "O texto diz “I work from home”: Rafael trabalha de casa."},
+    {"id": "r-a1-03-q2", "type": "choice", "prompt": "When does he have the daily meeting?", "options": ["At 10:00", "In the afternoon", "At night"], "answer": 0,
+     "explain": "O segundo parágrafo diz “At 10:00 I have a daily meeting with my team”."},
+    {"id": "r-a1-03-q3", "type": "choice", "prompt": "What does he do in the afternoon?", "options": ["He plays football", "He drinks coffee", "He writes code and tests it"], "answer": 2,
+     "explain": "O texto diz “In the afternoon I write code and test it”: à tarde ele escreve código e testa."},
+    {"id": "r-a1-03-q4", "type": "choice", "prompt": "Does Rafael work at night?", "options": ["Yes, he does.", "No, he doesn't."], "answer": 1,
+     "explain": "O texto diz “I don't work at night”: ele não trabalha à noite."}
+  ]
+}

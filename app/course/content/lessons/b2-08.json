@@ -1,0 +1,176 @@
+{
+  "id": "b2-08",
+  "level": "B2",
+  "unit": "Modais e orações relativas",
+  "title": "Orações relativas avançadas: non-defining, which, whose, reduzidas",
+  "goal": "Acrescentar informação extra com orações relativas entre vírgulas, usar preposição + whom/which e encurtar relativas com -ing e -ed.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "Dois tipos de oração relativa",
+      "text": "Uma **oração relativa** é um trecho que começa com *who*, *which*, *that* ou *whose* e dá informação sobre um substantivo. Há dois tipos. A relativa **defining** (restritiva) diz **qual** pessoa ou coisa: *The developer who wrote this module is on leave* (entre vários desenvolvedores, o que escreveu o módulo).\n\nA relativa **non-defining** (explicativa) só **acrescenta uma informação extra** sobre algo que já está identificado: *Ravi, who wrote this module, is on leave*. Ela vem entre **vírgulas** na escrita e entre pausas na fala. Se você tirar a oração, a frase continua fazendo sentido e a pessoa continua identificada.",
+      "examples": [
+        {"en": "The developer who wrote this module is on leave.", "pt": "O desenvolvedor que escreveu este módulo está de licença."},
+        {"en": "Ravi, who wrote this module, is on leave.", "pt": "Ravi, que escreveu este módulo, está de licença."},
+        {"en": "The laptop that I ordered has arrived.", "pt": "O notebook que pedi chegou."}
+      ],
+      "tip": "Nomes próprios (Ravi, London, Python) já identificam a pessoa ou a coisa, por isso costumam pedir uma relativa non-defining, com vírgulas."
+    },
+    {
+      "title": "Non-defining: as regras",
+      "text": "A relativa non-defining segue regras próprias. Ela **sempre** usa vírgulas, e o pronome relativo **não pode ser omitido**. Para pessoas use **who** (ou **whom**, mais formal, quando é objeto); para coisas use **which**. O pronome **that** não é usado nesse tipo de oração.\n\nA relativa defining, ao contrário, não leva vírgulas, aceita **that** e permite omitir o pronome quando ele é objeto: *The report (that) I sent was long*.",
+      "table": {
+        "headers": ["", "Defining", "Non-defining"],
+        "rows": [
+          ["Função", "identifica qual", "acrescenta informação extra"],
+          ["Vírgulas", "não", "sim"],
+          ["Pronome that", "pode", "não pode"],
+          ["Omitir o pronome objeto", "pode", "não pode"],
+          ["Exemplo", "The tool we use is free.", "Git, which we use daily, is free."]
+        ]
+      },
+      "examples": [
+        {"en": "My manager, who lives in Porto, is visiting us.", "pt": "Meu gerente, que mora no Porto, vai nos visitar."},
+        {"en": "The company, which was founded in 2010, has 300 employees.", "pt": "A empresa, que foi fundada em 2010, tem 300 funcionários."},
+        {"en": "Our CTO, whom I met in Berlin, will give the keynote.", "pt": "Nosso CTO, que conheci em Berlim, fará a palestra de abertura."}
+      ],
+      "trap": "Em português usamos “que” para tudo. Em inglês, com vírgulas, não escreva *The release, that was planned for Monday…*. O correto é *The release, which was planned for Monday…*."
+    },
+    {
+      "title": "Which referindo-se à oração inteira",
+      "text": "O pronome **which** pode se referir a **toda a ideia anterior**, e não a uma só palavra. Em português isso corresponde a “o que” ou “fato que”: *O servidor caiu duas vezes, o que atrasou a release*. Em inglês, coloque uma vírgula e use **which**: *The server crashed twice, which delayed the release*.\n\nNesse uso, **which** é o único pronome possível. Não use *that* nem *what*.",
+      "examples": [
+        {"en": "The server crashed twice, which delayed the release.", "pt": "O servidor caiu duas vezes, o que atrasou a release."},
+        {"en": "She passed the audit, which surprised nobody.", "pt": "Ela passou na auditoria, o que não surpreendeu ninguém."},
+        {"en": "The build failed, which meant we missed the deadline.", "pt": "O build falhou, o que significou que perdemos o prazo."}
+      ],
+      "trap": "Por causa do “o que” do português, muitos alunos escrevem *He was late, what annoyed me*. Em inglês use **which**: *He was late, which annoyed me*."
+    },
+    {
+      "title": "Preposição + whom/which",
+      "text": "Quando o verbo da relativa pede uma preposição, há duas posições. No estilo **formal**, a preposição vem **antes** do pronome, e só servem **whom** (pessoas) e **which** (coisas): *the colleague with whom I work*. No estilo **informal**, a preposição fica no **fim da oração** e o pronome pode ser omitido: *the colleague I work with*.\n\nCom quantidades, use **some of whom**, **most of which**, **all of which**, **none of which**. Depois da preposição não se usam *who* nem *that*.",
+      "table": {
+        "headers": ["Formal", "Informal"],
+        "rows": [
+          ["the client for whom we built the app", "the client we built the app for"],
+          ["the tool on which we rely", "the tool we rely on"],
+          ["the team to which she belongs", "the team she belongs to"],
+          ["the manager with whom I spoke", "the manager I spoke to"]
+        ]
+      },
+      "examples": [
+        {"en": "The client for whom we built the app is very happy.", "pt": "O cliente para quem construímos o aplicativo está muito feliz."},
+        {"en": "We tested fifty devices, most of which were Android phones.", "pt": "Testamos cinquenta dispositivos, a maioria dos quais eram celulares Android."},
+        {"en": "Three candidates, two of whom had worked at startups, were invited.", "pt": "Três candidatos, dois dos quais já tinham trabalhado em startups, foram convidados."}
+      ],
+      "trap": "Depois de preposição, não existe *with who* nem *on that*. Se a preposição vier primeiro, use **whom** ou **which**: *the colleague with whom I work*."
+    },
+    {
+      "title": "Orações relativas reduzidas: -ing e -ed",
+      "text": "Quando o pronome relativo é o **sujeito** da relativa, você pode encurtar a oração. Elimine o pronome e o verbo *be*, e deixe o **-ing** (sentido ativo) ou o **particípio passado** (sentido passivo). Assim, *the engineers who are working on the API* vira *the engineers working on the API*, e *the code that was written last year* vira *the code written last year*.\n\nSe o pronome é **objeto** e a relativa já tem sujeito (*the report that I wrote*), não se reduz: no máximo se omite o pronome.",
+      "table": {
+        "headers": ["Oração completa", "Reduzida"],
+        "rows": [
+          ["The people who are waiting outside", "The people waiting outside"],
+          ["The code that was written last year", "The code written last year"],
+          ["The bug that causes the crash", "The bug causing the crash"],
+          ["The data which is stored in the cloud", "The data stored in the cloud"]
+        ]
+      },
+      "examples": [
+        {"en": "The engineers working on the new API are in room 4.", "pt": "Os engenheiros que trabalham na nova API estão na sala 4."},
+        {"en": "The data stored in the cloud is encrypted.", "pt": "Os dados armazenados na nuvem são criptografados."},
+        {"en": "The team, led by Mei, fixed the bug found in the payment module.", "pt": "A equipe, liderada por Mei, corrigiu o bug encontrado no módulo de pagamento."}
+      ],
+      "trap": "Use -ing quando o substantivo **faz** a ação e -ed quando ele **sofre** a ação. *The files storing on this drive* está errado; o certo é *The files stored on this drive*."
+    },
+    {
+      "title": "Whose: posse em orações relativas",
+      "text": "**Whose** indica posse e corresponde a “cujo, cuja, cujos, cujas”. Ele vem **imediatamente antes do substantivo** possuído e funciona para pessoas e também para coisas: *a developer whose laptop was stolen*, *a company whose servers are in Ireland*.\n\nEm inglês **whose** é invariável: não concorda com o substantivo, como acontece com “cujo/cuja”. Não confunda com **who's**, que é a contração de *who is* ou *who has*.",
+      "examples": [
+        {"en": "The developer whose laptop was stolen called the police.", "pt": "O desenvolvedor cujo notebook foi roubado chamou a polícia."},
+        {"en": "We use a provider whose servers are in Ireland.", "pt": "Usamos um provedor cujos servidores ficam na Irlanda."},
+        {"en": "Users whose passwords have expired must reset them.", "pt": "Usuários cujas senhas expiraram precisam redefini-las."}
+      ],
+      "trap": "No português coloquial dizemos “o dev que o notebook dele foi roubado”. Em inglês isso vira erro: *The developer who his laptop was stolen*. Troque *who his* por **whose**."
+    },
+    {
+      "title": "Em contexto: relatório de incidente",
+      "text": "Em relatórios, as relativas avançadas deixam o texto denso e profissional. Veja um trecho: *The outage, which lasted four hours, affected 2,000 users, most of whom were in Europe. The patch, applied on Friday, solved the problem, which had been open for weeks.*\n\nObserve a combinação: non-defining com **which** e com **whom**, uma relativa reduzida (*applied on Friday*) e uma relativa que explica o substantivo anterior. Ao revisar seus textos, verifique sempre as vírgulas e o pronome.",
+      "examples": [
+        {"en": "The outage, which lasted four hours, affected 2,000 users, most of whom were in Europe.", "pt": "A queda, que durou quatro horas, afetou 2.000 usuários, a maioria dos quais estava na Europa."},
+        {"en": "The patch, applied on Friday, solved the problem, which had been open for weeks.", "pt": "O patch, aplicado na sexta-feira, resolveu o problema, que estava aberto havia semanas."},
+        {"en": "The engineer whose code broke the build fixed it within an hour.", "pt": "O engenheiro cujo código quebrou o build o corrigiu em uma hora."}
+      ]
+    }
+  ],
+  "summary": [
+    "A relativa non-defining acrescenta informação extra, vem entre vírgulas e não aceita that nem a omissão do pronome.",
+    "Which pode se referir à oração inteira (o que): The server crashed, which delayed the release. Não use what.",
+    "No estilo formal, a preposição vem antes de whom/which (the colleague with whom I work); no informal, ela fica no fim (the colleague I work with).",
+    "Com quantidades, use some of whom, most of which, all of which.",
+    "Relativas reduzidas: -ing para sentido ativo (the engineers working on the API) e particípio passado para sentido passivo (the files stored on this drive).",
+    "Whose indica posse e vem antes do substantivo: the developer whose laptop was stolen."
+  ],
+  "practice": [
+    {"id": "b2-08-p1", "type": "choice", "prompt": "My manager, ___ lives in Porto, is visiting us.", "options": ["who", "that", "which"], "answer": 0,
+     "explain": "Falamos de uma pessoa, e a relativa está entre vírgulas (non-defining). Nesse caso usamos who.",
+     "why_not": {"1": "That não é usado em relativas non-defining, entre vírgulas.", "2": "Which é usado para coisas, e não para pessoas."}},
+    {"id": "b2-08-p2", "type": "choice", "prompt": "The server crashed twice, ___ delayed the release.", "options": ["that", "what", "which"], "answer": 2,
+     "explain": "O pronome se refere a toda a ideia anterior (o servidor ter caído duas vezes). Para isso usamos which, depois de vírgula.",
+     "why_not": {"0": "That não pode vir depois de vírgula nesse tipo de oração.", "1": "What não introduz relativas deste tipo; o equivalente de “o que” aqui é which."}},
+    {"id": "b2-08-p3", "type": "fill", "prompt": "The developer ___ laptop was stolen called the police.", "answers": ["whose"],
+     "explain": "Indicamos posse (o notebook do desenvolvedor), e o pronome que faz isso é whose, antes do substantivo."},
+    {"id": "b2-08-p4", "type": "fill", "prompt": "This is the colleague with ___ I wrote the proposal.", "answers": ["whom"],
+     "explain": "Depois de uma preposição, o pronome para pessoas é whom. Não se usa who nem that nesta posição."},
+    {"id": "b2-08-p5", "type": "choice", "prompt": "The engineers ___ on the new API are in room 4.", "options": ["working", "worked", "who working"], "answer": 0,
+     "explain": "A forma reduzida de who are working é working. Os engenheiros fazem a ação, então usamos o -ing.",
+     "why_not": {"1": "Worked não forma uma relativa reduzida nesta frase.", "2": "Who working é incompleto: com who é preciso o verbo be (who are working)."}},
+    {"id": "b2-08-p6", "type": "fill", "prompt": "The bug ___ in version 2.1 has now been fixed (find).", "answers": ["found"],
+     "explain": "O bug sofre a ação, então usamos o particípio passado, como em the bug that was found. O particípio de find é found."},
+    {"id": "b2-08-p7", "type": "translate", "prompt": "O cliente, que mora em Lisboa, aprovou a proposta.", "answers": ["The client, who lives in Lisbon, approved the proposal.", "The customer, who lives in Lisbon, approved the proposal."],
+     "explain": "A informação extra vem entre vírgulas, com who para pessoa: The client, who lives in Lisbon, approved the proposal."},
+    {"id": "b2-08-p8", "type": "order", "words": ["The", "test", "failed", "which", "surprised", "everyone"], "prompt": "O teste falhou, o que surpreendeu todos.",
+     "explain": "Which se refere à ideia anterior (o teste ter falhado) e vem depois da primeira oração: The test failed, which surprised everyone."},
+    {"id": "b2-08-p9", "type": "fix", "prompt": "The developer who his laptop was stolen called the police.", "answers": ["The developer whose laptop was stolen called the police."],
+     "explain": "Em inglês não se repete o possuidor com his. Para indicar posse na relativa, use whose antes do substantivo."},
+    {"id": "b2-08-p10", "type": "fix", "prompt": "The client for who we built the app is happy.", "answers": ["The client for whom we built the app is happy."],
+     "explain": "Depois de preposição, o pronome para pessoas é whom, e não who."},
+    {"id": "b2-08-p11", "type": "choice", "prompt": "Qual frase está correta?", "options": ["The team, that I joined in May, is great.", "The team, which I joined in May, is great.", "The team, what I joined in May, is great."], "answer": 1,
+     "explain": "Com vírgulas (non-defining) e uma coisa ou grupo, usamos which.",
+     "why_not": {"0": "That não é usado depois de vírgula em relativas non-defining.", "2": "What não introduz oração relativa."}},
+    {"id": "b2-08-p12", "type": "listen", "en": "The migration, which took three days, finally finished on Friday.",
+     "explain": "Which took three days é uma relativa non-defining: acrescenta informação extra sobre the migration."}
+  ],
+  "quiz": [
+    {"id": "b2-08-q1", "type": "choice", "prompt": "The release, ___ was planned for Monday, has been postponed.", "options": ["that", "which", "what"], "answer": 1,
+     "explain": "A relativa está entre vírgulas e se refere a uma coisa, então usamos which.",
+     "why_not": {"0": "That não é usado entre vírgulas.", "2": "What não serve como pronome relativo aqui."}},
+    {"id": "b2-08-q2", "type": "fill", "prompt": "The tool on ___ we rely is open source.", "answers": ["which"],
+     "explain": "Depois de preposição, o pronome para coisas é which. Não se usa that nesta posição."},
+    {"id": "b2-08-q3", "type": "translate", "prompt": "Minha irmã, que é engenheira, mora em Recife.", "answers": ["My sister, who is an engineer, lives in Recife."],
+     "explain": "A informação extra vem entre vírgulas, com who para pessoa. Lembre-se do artigo an antes de engineer."},
+    {"id": "b2-08-q4", "type": "order", "words": ["The", "bug", "causing", "the", "crash", "is", "now", "fixed"], "prompt": "O bug que causa a falha já foi corrigido.",
+     "explain": "The bug causing the crash é a forma reduzida de the bug that causes the crash. O -ing indica que o bug faz a ação.",
+     "answers": ["The bug that is causing the crash is now fixed.", "The bug which is causing the crash is now fixed.", "The bug that causes the crash is now fixed."]},
+    {"id": "b2-08-q5", "type": "fix", "prompt": "The server was down, what delayed the release.", "answers": ["The server was down, which delayed the release."],
+     "explain": "Para se referir à ideia da oração inteira, usamos which. What não funciona como pronome relativo."},
+    {"id": "b2-08-q6", "type": "choice", "prompt": "Qual frase usa corretamente a relativa reduzida?", "options": ["The files stored on this drive are encrypted.", "The files storing on this drive are encrypted.", "The files store on this drive are encrypted."], "answer": 0,
+     "explain": "Os arquivos sofrem a ação de armazenar, então usamos o particípio passado: stored.",
+     "why_not": {"1": "Storing daria sentido ativo, como se os arquivos armazenassem algo.", "2": "Store na forma base não pode introduzir uma relativa reduzida."}},
+    {"id": "b2-08-q7", "type": "listen", "en": "The engineer whose code broke the build fixed it within an hour.",
+     "explain": "Whose code broke the build indica posse (o código do engenheiro) e identifica qual engenheiro."}
+  ],
+  "words": [
+    {"word": "whose", "pt": "cujo; cuja; cujos; cujas"},
+    {"word": "whom", "pt": "quem (objeto, formal); a quem"},
+    {"word": "outage", "pt": "queda do sistema; indisponibilidade"},
+    {"word": "crash", "pt": "travar; cair (sistema); falha grave"},
+    {"word": "release", "pt": "lançamento; versão publicada"},
+    {"word": "delay", "pt": "atrasar; atraso"},
+    {"word": "audit", "pt": "auditoria"},
+    {"word": "encrypted", "pt": "criptografado; criptografada"},
+    {"word": "rely on", "pt": "depender de; confiar em"},
+    {"word": "keynote", "pt": "palestra de abertura"}
+  ]
+}

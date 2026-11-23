@@ -1,0 +1,190 @@
+{
+  "id": "a1-11",
+  "level": "A1",
+  "unit": "Habilidades, tempo e agora",
+  "title": "Have/have got e gostos: like, love, hate + -ing",
+  "goal": "Dizer o que você e as outras pessoas têm e o que gostam ou não gostam de fazer.",
+  "minutes": 22,
+  "steps": [
+    {
+      "title": "Have: dizer o que alguém tem",
+      "text": "O verbo **have** significa **ter**. Usamos para falar de coisas que as pessoas possuem (um laptop, um carro), da família (um irmão) e de características (um escritório grande). É um dos verbos mais úteis do dia a dia.\n\nO sujeito nunca some em inglês: diga *I have a laptop*, e não só *Have a laptop*. Lembre-se também de que, para falar de idade, o inglês usa **to be** e não **have**: *I am 30*.",
+      "examples": [
+        {"en": "I have a new laptop.", "pt": "Eu tenho um laptop novo."},
+        {"en": "We have a small team.", "pt": "Nós temos uma equipe pequena."},
+        {"en": "They have two monitors.", "pt": "Eles têm dois monitores."}
+      ],
+      "tip": "Have serve para quase tudo o que “ter” serve em português, exceto idade (I am 30) e sensações, como fome e sede (I am hungry, I am thirsty)."
+    },
+    {
+      "title": "Have e has",
+      "text": "O verbo muda só em um caso. Com **he, she e it** (terceira pessoa do singular), **have** vira **has**. Com todos os outros pronomes, continua **have**. Esse **has** é uma forma irregular: não é *haves*.\n\nVocê já viu a mesma ideia no present simple: a terceira pessoa do singular recebe uma forma especial. Com have, essa forma é has.",
+      "table": {
+        "headers": ["Pronome", "Verbo", "Exemplo"],
+        "rows": [
+          ["I", "have", "I have a brother."],
+          ["you", "have", "You have a headset."],
+          ["he / she / it", "has", "She has a sister."],
+          ["we", "have", "We have a meeting."],
+          ["they", "have", "They have a big office."]
+        ]
+      },
+      "examples": [
+        {"en": "My brother has a laptop.", "pt": "Meu irmão tem um laptop."},
+        {"en": "The server has 64 gigabytes of memory.", "pt": "O servidor tem 64 gigabytes de memória."},
+        {"en": "Ana has a big monitor.", "pt": "A Ana tem um monitor grande."}
+      ],
+      "trap": "Não escreva *He have a laptop*. Com he, she e it o certo é **has**: *He has a laptop*."
+    },
+    {
+      "title": "Negativa e perguntas com have",
+      "text": "Quando have indica posse, a negativa e a pergunta usam o auxiliar **do/does**, como no present simple. Negativa: **don't have** e **doesn't have**. Pergunta: **Do/Does + sujeito + have…?** Depois de does, o verbo volta para **have** (nunca has).\n\nNas respostas curtas, repetimos só o auxiliar: *Yes, I do. / No, I don't.* e *Yes, she does. / No, she doesn't.*",
+      "table": {
+        "headers": ["Tipo", "Exemplo"],
+        "rows": [
+          ["Afirmativa", "He has a car."],
+          ["Negativa", "He doesn't have a car."],
+          ["Pergunta", "Does he have a car?"],
+          ["Resposta curta", "Yes, he does. / No, he doesn't."]
+        ]
+      },
+      "examples": [
+        {"en": "I don't have a headset.", "pt": "Eu não tenho um fone de ouvido com microfone."},
+        {"en": "Do you have a charger?", "pt": "Você tem um carregador?"},
+        {"en": "Does Tom have a new phone?", "pt": "O Tom tem um celular novo?"},
+        {"en": "No, he doesn't.", "pt": "Não, ele não tem."}
+      ],
+      "trap": "Depois de does/doesn't, o verbo fica na forma base: *Does she have…?*, e não *Does she has…?*"
+    },
+    {
+      "title": "Have got: outra forma de dizer ter",
+      "text": "Para posse, existe também **have got**. Ele tem o mesmo sentido de have e é comum na fala informal, principalmente no inglês britânico. Com he, she e it, vira **has got**. A contração é **I've got** / **she's got**.\n\nA negativa é **haven't got / hasn't got** e a pergunta inverte: **Have you got…? / Has she got…?** A resposta curta usa have/has: *Yes, I have.* O significado é o mesmo; escolha uma forma e seja consistente. Em geral, **have** sozinho é a opção mais segura.",
+      "table": {
+        "headers": ["Com have", "Com have got"],
+        "rows": [
+          ["I have a laptop.", "I've got a laptop."],
+          ["She has a car.", "She has got a car."],
+          ["We don't have time.", "We haven't got time."],
+          ["Do you have a pen?", "Have you got a pen?"]
+        ]
+      },
+      "examples": [
+        {"en": "I've got a new keyboard.", "pt": "Eu tenho um teclado novo."},
+        {"en": "We haven't got a meeting room.", "pt": "Nós não temos uma sala de reunião."},
+        {"en": "Have you got a pen?", "pt": "Você tem uma caneta?"}
+      ],
+      "trap": "Não misture as duas formas. *Do you have got a pen?* está errado: ou *Do you have a pen?* ou *Have you got a pen?*"
+    },
+    {
+      "title": "Have em ações: have lunch, have a meeting",
+      "text": "O verbo **have** também aparece em expressões de ação, como **have lunch** (almoçar), **have a meeting** (ter uma reunião), **have a break** (fazer uma pausa) e **have a coffee** (tomar um café). Nesses casos, have não indica posse.\n\nNessas expressões, a negativa e a pergunta também usam **do/does**: *Do you have lunch at noon?* Para ações do dia a dia, evite *have got*: use **have**.",
+      "examples": [
+        {"en": "We have a meeting at ten.", "pt": "Nós temos uma reunião às dez."},
+        {"en": "I have lunch at noon.", "pt": "Eu almoço ao meio-dia."},
+        {"en": "She has a coffee in the morning.", "pt": "Ela toma um café de manhã."},
+        {"en": "Do you have a break at three?", "pt": "Você faz uma pausa às três?"}
+      ],
+      "tip": "Em português usamos verbos diferentes (almoçar, tomar, fazer, ter). Em inglês, o mesmo have aparece com muitos substantivos."
+    },
+    {
+      "title": "Gostos: like, love e hate + substantivo",
+      "text": "Para falar de gostos, use três verbos. **Like** é gostar, **love** é amar ou adorar, e **hate** é odiar ou detestar. Eles formam uma escala: *love* é mais forte que *like*, e *hate* é o oposto de love. Depois deles, pode vir um **substantivo**: *I like coffee.*\n\nNa terceira pessoa do singular, entra o **-s**: *She likes music.* Para dizer “gosto muito”, use *really like* ou *like it very much*; para o oposto, **don't like**.",
+      "table": {
+        "headers": ["Verbo", "Significado", "Exemplo"],
+        "rows": [
+          ["love", "adorar", "I love music."],
+          ["like", "gostar", "I like coffee."],
+          ["don't like", "não gostar", "I don't like meetings."],
+          ["hate", "odiar, detestar", "I hate long emails."]
+        ]
+      },
+      "examples": [
+        {"en": "I love my team.", "pt": "Eu adoro minha equipe."},
+        {"en": "She likes music.", "pt": "Ela gosta de música."},
+        {"en": "I really like this editor.", "pt": "Eu gosto muito deste editor."},
+        {"en": "I like coffee very much.", "pt": "Eu gosto muito de café."}
+      ],
+      "trap": "Em português dizemos “Eu gosto muito” sem objeto. Em inglês o objeto é obrigatório: *I like it very much*, e não *I like very much*. Também não diga *I like very much coffee*."
+    },
+    {
+      "title": "Like + verbo com -ing",
+      "text": "Para dizer que você gosta de **fazer** algo, coloque o verbo no **gerúndio** depois de like, love ou hate, isto é, o verbo com **-ing**: *I like coding*, *I hate waiting*. Não use o verbo base, e não coloque *to* antes do verbo com -ing.\n\nPara formar o -ing: normalmente é só acrescentar *-ing* (*work → working*). Se o verbo termina em **-e**, tire o e (*write → writing*). Se termina em consoante precedida de uma vogal em verbos curtos, dobre a consoante (*run → running*). Em perguntas e negativas, usamos do/does: *Do you like working from home?*",
+      "examples": [
+        {"en": "I like coding.", "pt": "Eu gosto de programar."},
+        {"en": "He loves reading technical blogs.", "pt": "Ele adora ler blogs técnicos."},
+        {"en": "We hate waiting for builds.", "pt": "Nós odiamos esperar pelos builds."},
+        {"en": "Do you like working in a team?", "pt": "Você gosta de trabalhar em equipe?"},
+        {"en": "She doesn't like writing reports.", "pt": "Ela não gosta de escrever relatórios."}
+      ],
+      "trap": "Não diga *I like to coding* nem *I like code* para dizer “gosto de programar”. Use **like + verbo com -ing**: *I like coding*."
+    }
+  ],
+  "summary": [
+    "Have = ter; com he, she e it vira has (irregular): She has a laptop.",
+    "Negativa e pergunta com have usam do/does: I don't have, Does she have…? O verbo volta para have.",
+    "Have got é outra forma informal para posse (I've got, Have you got…?); não a misture com do/does.",
+    "Para ações, usamos have: have lunch, have a meeting, have a break.",
+    "Like, love e hate aceitam substantivo ou verbo com -ing: I like music, I love coding, I hate waiting. Com he/she/it, acrescente -s."
+  ],
+  "practice": [
+    {"id": "a1-11-p1", "type": "choice", "prompt": "She ___ two monitors.", "options": ["has", "have", "haves"], "answer": 0,
+     "explain": "Com she (terceira pessoa do singular), have vira has.",
+     "why_not": {"1": "Have é a forma de I, you, we e they.", "2": "Não existe haves: a forma irregular é has."}},
+    {"id": "a1-11-p2", "type": "choice", "prompt": "I ___ a new laptop.", "options": ["has", "have", "am"], "answer": 1,
+     "explain": "Com I, o verbo é have: I have a new laptop.",
+     "why_not": {"0": "Has é só para he, she e it.", "2": "Posse usa have, e não to be."}},
+    {"id": "a1-11-p3", "type": "fill", "prompt": "Does Ana have a car? Yes, she ___.", "answers": ["does"],
+     "explain": "A resposta curta repete o auxiliar da pergunta: Does… ? Yes, she does."},
+    {"id": "a1-11-p4", "type": "fill", "prompt": "My brother ___ not have a laptop.", "answers": ["does"],
+     "explain": "A negativa de have, com he, usa does + not + have (doesn't have)."},
+    {"id": "a1-11-p5", "type": "translate", "prompt": "Eu tenho um irmão.", "answers": ["I have a brother.", "I have got a brother.", "I have one brother."],
+     "explain": "Posse se expressa com have, e o artigo a vem antes de brother."},
+    {"id": "a1-11-p6", "type": "order", "words": ["Does", "she", "have", "a", "laptop"], "prompt": "Ela tem um laptop?", "answers": ["Has she got a laptop"],
+     "explain": "Na pergunta com have, usamos Does + sujeito + have. O verbo fica na forma base."},
+    {"id": "a1-11-p7", "type": "fix", "prompt": "He have a new phone.", "answers": ["He has a new phone."],
+     "explain": "Com he, she e it, use has, não have."},
+    {"id": "a1-11-p8", "type": "fix", "prompt": "I like very much coffee.", "answers": ["I like coffee very much."],
+     "explain": "Very much vem depois do objeto: I like coffee very much. Entre like e o objeto não colocamos very much."},
+    {"id": "a1-11-p9", "type": "choice", "prompt": "Como dizer “Eu gosto de programar”?", "options": ["I like coding.", "I like to coding.", "I am like coding."], "answer": 0,
+     "explain": "Depois de like, o verbo vem com -ing: I like coding.",
+     "why_not": {"1": "Não se usa to antes do verbo com -ing.", "2": "Like já é o verbo; I am like significaria algo como “eu sou como”."}},
+    {"id": "a1-11-p10", "type": "translate", "prompt": "Ela ama café.", "answers": ["She loves coffee."],
+     "explain": "Love = amar/adorar. Com she, o verbo recebe -s: loves."},
+    {"id": "a1-11-p11", "type": "listen", "en": "Maria likes working with her team.",
+     "explain": "Likes (com -s, terceira pessoa) + working (verbo com -ing)."},
+    {"id": "a1-11-p12", "type": "fix", "prompt": "She don't like meetings.", "answers": ["She doesn't like meetings."],
+     "explain": "Com she, a negativa usa doesn't. Don't é para I, you, we e they."}
+  ],
+  "quiz": [
+    {"id": "a1-11-q1", "type": "choice", "prompt": "He ___ a big monitor.", "options": ["have", "has", "is have"], "answer": 1,
+     "explain": "Com he, have vira has.",
+     "why_not": {"0": "Have não combina com he.", "2": "Is have não existe; posse usa só have/has."}},
+    {"id": "a1-11-q2", "type": "fill", "prompt": "___ you have a headset? Yes, I do.", "answers": ["do"],
+     "explain": "A pergunta com have usa Do + sujeito + have. A resposta curta Yes, I do confirma o auxiliar."},
+    {"id": "a1-11-q3", "type": "translate", "prompt": "Nós temos uma reunião hoje.", "answers": ["We have a meeting today.", "Today we have a meeting.", "We have got a meeting today."],
+     "explain": "Have também forma expressões como have a meeting. O artigo a vem antes de meeting."},
+    {"id": "a1-11-q4", "type": "order", "words": ["I", "like", "reading", "technical", "blogs"], "prompt": "Eu gosto de ler blogs técnicos.",
+     "explain": "A ordem é sujeito + like + verbo com -ing + complemento."},
+    {"id": "a1-11-q5", "type": "fix", "prompt": "My manager have a big office.", "answers": ["My manager has a big office."],
+     "explain": "My manager equivale a he/she, então o verbo é has."},
+    {"id": "a1-11-q6", "type": "choice", "prompt": "Qual frase está correta?", "options": ["I hate waiting for the build.", "I hate wait for the build.", "I hate to waiting for the build."], "answer": 0,
+     "explain": "Depois de hate usamos o verbo com -ing: hate waiting.",
+     "why_not": {"1": "Depois de hate não usamos o verbo base nesta estrutura.", "2": "Não misturamos to com um verbo com -ing."}},
+    {"id": "a1-11-q7", "type": "listen", "en": "Do you like working in a team?",
+     "explain": "Do you like + verbo com -ing? é a pergunta para gostos."},
+    {"id": "a1-11-q8", "type": "translate", "prompt": "Eles não gostam de café.", "answers": ["They don't like coffee."],
+     "explain": "A negativa com they usa don't, seguido de like + substantivo."}
+  ],
+  "words": [
+    {"word": "laptop", "pt": "notebook; laptop"},
+    {"word": "monitor", "pt": "monitor; tela"},
+    {"word": "brother", "pt": "irmão"},
+    {"word": "headset", "pt": "fone de ouvido com microfone"},
+    {"word": "like", "pt": "gostar de"},
+    {"word": "love", "pt": "amar; adorar"},
+    {"word": "hate", "pt": "odiar; detestar"},
+    {"word": "coffee", "pt": "café"},
+    {"word": "team", "pt": "equipe; time"},
+    {"word": "music", "pt": "música"}
+  ]
+}

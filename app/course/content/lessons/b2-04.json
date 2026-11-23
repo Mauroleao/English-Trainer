@@ -1,0 +1,187 @@
+{
+  "id": "b2-04",
+  "level": "B2",
+  "unit": "Hipóteses e arrependimentos",
+  "title": "Wish, if only, would rather, it’s time",
+  "goal": "Expressar desejos irreais, arrependimentos, preferências e a sensação de que já está na hora de agir.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "Wish: desejar que a realidade fosse outra",
+      "text": "Usamos **wish** para falar de algo que **não é como gostaríamos**: um desejo irreal sobre o presente, um arrependimento sobre o passado ou uma irritação com o comportamento de alguém. Em português costumamos dizer “queria que…”, “quem dera…” ou “queria ter…”.\n\nO ponto-chave é que o verbo depois de **wish** **recua um passo no tempo**, como nas condicionais: a forma verbal mostra “distância da realidade”, e não o tempo real da situação. Nas próximas etapas você vê os três padrões: **past simple**, **past perfect** e **would**.",
+      "examples": [
+        {"en": "I wish I had more time.", "pt": "Queria ter mais tempo."},
+        {"en": "I wish I had tested it before the release.", "pt": "Queria ter testado isso antes da release."},
+        {"en": "I wish the build would finish faster.", "pt": "Queria que o build terminasse mais rápido."}
+      ],
+      "trap": "Não confunda **wish** com **hope**. *I hope you can join us* significa que você acha possível. *I wish you could join us* mostra que você sabe que não é possível."
+    },
+    {
+      "title": "Wish + past simple: situação presente",
+      "text": "Para falar de uma situação **presente** de que você não gosta, use **wish + past simple**. A forma é passada, mas o sentido é de agora: *I wish I knew the answer* quer dizer que, neste momento, eu **não sei** a resposta.\n\nCom o verbo **be**, a forma mais cuidadosa é **were** para todas as pessoas: *I wish I were taller*. Na fala do dia a dia, muita gente diz **was** com I, he, she e it. Para falar de capacidade ou possibilidade, use **could**: *I wish I could help you*.",
+      "table": {
+        "headers": ["Realidade", "Desejo"],
+        "rows": [
+          ["I don't have enough time.", "I wish I had more time."],
+          ["I can't attend the meeting.", "I wish I could attend the meeting."],
+          ["The app is slow.", "I wish the app were faster."]
+        ]
+      },
+      "examples": [
+        {"en": "I wish I knew how to fix this error.", "pt": "Queria saber como corrigir este erro."},
+        {"en": "I wish we had a bigger team.", "pt": "Queria que a gente tivesse uma equipe maior."},
+        {"en": "I wish I could join the call, but I am on a train.", "pt": "Queria poder entrar na chamada, mas estou em um trem."}
+      ],
+      "tip": "A realidade e o desejo são opostos: se a realidade é negativa (*I don't know*), o desejo é positivo (*I wish I knew*), e vice-versa."
+    },
+    {
+      "title": "Wish + past perfect: arrependimento do passado",
+      "text": "Para lamentar algo que **aconteceu** ou **não aconteceu** no passado, use **wish + past perfect** (*had* + particípio). A ideia é “queria ter feito” ou “queria não ter feito”. É um arrependimento (*regret*): o passado já não pode mudar.\n\nA negativa usa **hadn't + particípio**. Fiz o deploy na sexta e deu problema? *I wish I hadn't deployed on Friday*. Não fiz o backup? *I wish I had made a backup*. É o mesmo raciocínio do third conditional que você viu na lição anterior.",
+      "table": {
+        "headers": ["O que aconteceu", "Arrependimento"],
+        "rows": [
+          ["I deployed on Friday.", "I wish I hadn't deployed on Friday."],
+          ["We didn't test the patch.", "We wish we had tested the patch."]
+        ]
+      },
+      "examples": [
+        {"en": "I wish I had read the documentation first.", "pt": "Queria ter lido a documentação antes."},
+        {"en": "She wishes she hadn't ignored the alert.", "pt": "Ela gostaria de não ter ignorado o alerta."},
+        {"en": "We wish we had hired more testers last year.", "pt": "Gostaríamos de ter contratado mais testadores no ano passado."}
+      ],
+      "trap": "Em português dizemos “queria ter testado”, com infinitivo. Em inglês o padrão é **wish + sujeito + had + particípio**: *I wish I had tested it*, e não *I wish to have tested it*."
+    },
+    {
+      "title": "Wish + would: querer que algo mude",
+      "text": "Use **wish + would** quando você gostaria que **outra pessoa** (ou uma coisa) mudasse de comportamento, quase sempre por irritação ou impaciência. Serve para o presente e o futuro: *I wish he would answer my messages*. Costuma falar de algo que se repete ou que está demorando.\n\nHá duas restrições. O sujeito de **wish** e o de **would** devem ser **diferentes**. E o verbo deve ser uma **ação** que pode mudar (answer, stop, listen). Para um estado, use o past simple: *I wish he were more patient*.",
+      "examples": [
+        {"en": "I wish the client would stop changing the requirements.", "pt": "Queria que o cliente parasse de mudar os requisitos."},
+        {"en": "I wish this meeting would end.", "pt": "Queria que esta reunião acabasse."},
+        {"en": "I wish you wouldn't leave the code without comments.", "pt": "Queria que você não deixasse o código sem comentários."}
+      ],
+      "trap": "Não use **would** quando o sujeito é o mesmo: *I wish I would have more time* está errado. Diga *I wish I had more time*."
+    },
+    {
+      "title": "If only: a versão mais emotiva",
+      "text": "**If only** significa “se ao menos…” e funciona como **wish**, só que com mais emoção. Os tempos são os mesmos: **past simple** para o presente, **past perfect** para o passado e **would** para o comportamento de outra pessoa ou de uma coisa.\n\nPor ser enfático, **if only** aparece muito em desabafos, geralmente com ponto de exclamação. Repare que depois de **if only** o verbo também recua um passo, exatamente como depois de **wish**.",
+      "table": {
+        "headers": ["Wish", "If only", "Situação"],
+        "rows": [
+          ["I wish I knew the answer.", "If only I knew the answer!", "presente"],
+          ["I wish I had called him.", "If only I had called him!", "passado"],
+          ["I wish she would listen.", "If only she would listen!", "comportamento"]
+        ]
+      },
+      "examples": [
+        {"en": "If only we had more developers!", "pt": "Se ao menos tivéssemos mais desenvolvedores!"},
+        {"en": "If only I had backed up my files.", "pt": "Se ao menos eu tivesse feito backup dos meus arquivos."},
+        {"en": "If only the client would reply!", "pt": "Se ao menos o cliente respondesse!"}
+      ],
+      "tip": "Em e-mails profissionais, *I wish* soa mais contido. Deixe o *if only* para a conversa informal ou para dar ênfase."
+    },
+    {
+      "title": "Would rather: preferências",
+      "text": "**Would rather** expressa preferência. Com o **mesmo sujeito**, use **would rather + verbo base** (sem *to*): *I would rather work from home*. Para comparar, use **than**: *I would rather test than guess*. A negativa é **would rather not**.\n\nQuando a preferência é sobre o que **outra pessoa** faz, use **would rather + sujeito + past simple**. A forma é passada, mas o sentido é presente ou futuro: *I'd rather you sent the report today*. Para lamentar algo do passado, use o **past perfect**: *I'd rather you had told me earlier*.",
+      "table": {
+        "headers": ["Padrão", "Exemplo"],
+        "rows": [
+          ["would rather + verbo base", "I'd rather stay here."],
+          ["would rather + sujeito + past simple", "I'd rather you stayed here."],
+          ["would rather + sujeito + past perfect", "I'd rather you had stayed here."]
+        ]
+      },
+      "examples": [
+        {"en": "I would rather work from home on Fridays.", "pt": "Eu preferiria trabalhar em casa às sextas."},
+        {"en": "I'd rather you didn't share the password.", "pt": "Eu preferiria que você não compartilhasse a senha."},
+        {"en": "We would rather have the meeting tomorrow than today.", "pt": "Preferiríamos fazer a reunião amanhã e não hoje."}
+      ],
+      "trap": "Não use *to* depois de **would rather**: *I would rather to stay* está errado. E lembre que, quando o sujeito muda, o português usa o subjuntivo (“prefiro que você envie”), mas o inglês usa o past simple."
+    },
+    {
+      "title": "It's time, high time e about time",
+      "text": "Use **it's time** para dizer que **está na hora** de algo. Com **to + verbo**, a ideia é geral: *It's time to leave*. Com **for + pessoa + to + verbo**, indicamos quem faz: *It's time for us to update*. Com **sujeito + past simple**, a ação é para agora: *It's time we updated the server*.\n\nPara dar a ideia de que algo **já devia ter sido feito**, use **it's high time** ou **it's about time**. O verbo continua no passado, mas o sentido é presente.",
+      "examples": [
+        {"en": "It's time to review the pull requests.", "pt": "Está na hora de revisar os pull requests."},
+        {"en": "It's time we moved to a new framework.", "pt": "Está na hora de migrarmos para um novo framework."},
+        {"en": "It's high time they fixed that bug.", "pt": "Já passou da hora de eles corrigirem aquele bug."}
+      ],
+      "trap": "O past simple depois de **it's time** não indica passado. *It's time we left* quer dizer “está na hora de sairmos (agora)”."
+    },
+    {
+      "title": "As estruturas em contexto: retrospectiva do projeto",
+      "text": "Em uma **retrospectiva** (reunião em que a equipe avalia o que aconteceu no projeto), essas estruturas aparecem juntas. Para lamentar o passado, a equipe usa **wish + past perfect**. Para um problema atual, **wish + past simple**. Para pedir mudança de atitude, **wish + would**. Para propor ação, **it's time** e **would rather**.\n\nExemplo da fala de uma líder: *I wish we had asked for feedback earlier. I wish deployments were less stressful. It's time we automated them, and I'd rather we started this sprint.*",
+      "examples": [
+        {"en": "I wish we had asked the users for feedback earlier.", "pt": "Queria que tivéssemos pedido feedback aos usuários mais cedo."},
+        {"en": "I wish deployments were less stressful.", "pt": "Queria que os deploys fossem menos estressantes."},
+        {"en": "It's time we automated them, and I'd rather we started this sprint.", "pt": "Está na hora de automatizá-los, e eu preferiria que começássemos nesta sprint."}
+      ]
+    }
+  ],
+  "summary": [
+    "Depois de wish e if only o verbo recua um passo: past simple para o presente, past perfect para o passado.",
+    "Wish + would expressa irritação com o comportamento de outra pessoa; não se usa would com o mesmo sujeito de wish.",
+    "Com be, a forma cuidadosa é were para todas as pessoas (I wish I were taller); was é comum na fala.",
+    "Would rather + verbo base para preferência própria; would rather + sujeito + past simple para preferência sobre outra pessoa.",
+    "Depois de would rather não se usa to: I would rather work, e não I would rather to work.",
+    "It's time + sujeito + past simple, com high ou about, indica que algo já devia ter sido feito; o past simple tem sentido presente."
+  ],
+  "practice": [
+    {"id": "b2-04-p1", "type": "choice", "prompt": "I wish I ___ more time to finish the report.", "options": ["had", "have", "would have"], "answer": 0,
+     "explain": "Falamos de uma situação presente que não é como gostaríamos. Depois de wish, o verbo recua um passo: past simple (had).",
+     "why_not": {"1": "Depois de wish o presente simples não é usado para expressar o desejo.", "2": "Would só é usado quando o sujeito de wish e o de would são diferentes."}},
+    {"id": "b2-04-p2", "type": "choice", "prompt": "I wish I ___ the backup last night.", "options": ["made", "had made", "would make"], "answer": 1,
+     "explain": "Last night é passado e o falante lamenta algo que não fez. Para arrependimento do passado, usamos wish + past perfect: had made.",
+     "why_not": {"0": "O past simple depois de wish fala do presente, mas aqui o tempo é passado.", "2": "Would não combina com o mesmo sujeito e não expressa arrependimento do passado."}},
+    {"id": "b2-04-p3", "type": "choice", "prompt": "I wish the client ___ stop changing the requirements.", "options": ["would", "will", "stops"], "answer": 0,
+     "explain": "O sujeito de wish (I) é diferente do sujeito do verbo (the client), e há irritação com um comportamento. Esse é o uso de wish + would.",
+     "why_not": {"1": "Will não é usado depois de wish.", "2": "O presente simples não expressa o desejo depois de wish."}},
+    {"id": "b2-04-p4", "type": "fill", "prompt": "If only I ___ known about the deadline!", "answers": ["had"],
+     "explain": "If only funciona como wish. Para lamentar o passado, usamos o past perfect: had known."},
+    {"id": "b2-04-p5", "type": "fill", "prompt": "I wish the website ___ faster, but the servers are old.", "answers": ["were", "was"],
+     "explain": "Depois de wish, o verbo be recua para o passado. A forma mais cuidadosa é were para todas as pessoas, e was também aparece na fala."},
+    {"id": "b2-04-p6", "type": "fill", "prompt": "I'd rather you ___ told me about the problem yesterday.", "answers": ["had"],
+     "explain": "Para uma preferência sobre algo do passado, usamos would rather + sujeito + past perfect: had told."},
+    {"id": "b2-04-p7", "type": "fill", "prompt": "It's high ___ we fixed this bug.", "answers": ["time"],
+     "explain": "A expressão é it's high time + sujeito + past simple. Ela indica que algo já devia ter sido feito."},
+    {"id": "b2-04-p8", "type": "translate", "prompt": "Eu queria ter mais tempo para estudar.", "answers": ["I wish I had more time to study.", "I wish I had more time for studying."],
+     "explain": "Queria ter (desejo sobre o presente) é wish + past simple: I wish I had. Para estudar é to study."},
+    {"id": "b2-04-p9", "type": "order", "words": ["I", "wish", "I", "had", "backed", "up", "the", "files"], "prompt": "Eu queria ter feito backup dos arquivos.", "answers": ["I wish I had backed the files up."],
+     "explain": "O arrependimento do passado usa wish + past perfect: I wish I had backed up. O phrasal verb back up é separável, mas aqui o objeto vem depois."},
+    {"id": "b2-04-p10", "type": "fix", "prompt": "I wish I would have more free time.", "answers": ["I wish I had more free time."],
+     "explain": "Não se usa would quando o sujeito de wish e o do verbo são o mesmo. Para um desejo sobre o presente, use o past simple: I wish I had."},
+    {"id": "b2-04-p11", "type": "fix", "prompt": "I would rather to work from home today.", "answers": ["I would rather work from home today."],
+     "explain": "Depois de would rather vem o verbo base, sem to: I would rather work."},
+    {"id": "b2-04-p12", "type": "listen", "en": "I wish we had started the migration earlier.",
+     "explain": "Wish + past perfect (had started) expressa arrependimento sobre algo que não foi feito no passado."}
+  ],
+  "quiz": [
+    {"id": "b2-04-q1", "type": "choice", "prompt": "I wish I ___ Spanish; it would help in this job.", "options": ["spoke", "speak", "would speak"], "answer": 0,
+     "explain": "É um desejo sobre o presente (hoje não falo espanhol). Depois de wish, usamos o past simple: spoke.",
+     "why_not": {"1": "O presente simples não é usado depois de wish.", "2": "Would não pode ter o mesmo sujeito de wish."}},
+    {"id": "b2-04-q2", "type": "fill", "prompt": "If only we ___ listened to the warning!", "answers": ["had"],
+     "explain": "If only com arrependimento do passado exige o past perfect: had listened."},
+    {"id": "b2-04-q3", "type": "translate", "prompt": "Já está na hora de corrigirmos o bug.", "answers": ["It is time we fixed the bug.", "It is high time we fixed the bug.", "It is about time we fixed the bug.", "It is time to fix the bug.", "It is high time to fix the bug.", "It is about time to fix the bug.", "It is time for us to fix the bug.", "It is high time for us to fix the bug.", "It is about time for us to fix the bug."],
+     "explain": "Com sujeito, a estrutura é it's time + sujeito + past simple (we fixed). Também é correto it's time to fix."},
+    {"id": "b2-04-q4", "type": "order", "words": ["He", "would", "rather", "use", "Linux", "than", "Windows"], "prompt": "Ele prefere usar Linux a usar Windows.",
+     "explain": "Would rather + verbo base (use), e than introduz a opção rejeitada."},
+    {"id": "b2-04-q5", "type": "fix", "prompt": "I wish I would have a bigger monitor.", "answers": ["I wish I had a bigger monitor."],
+     "explain": "Não use would com o mesmo sujeito de wish. O desejo sobre o presente pede o past simple: I wish I had."},
+    {"id": "b2-04-q6", "type": "choice", "prompt": "Qual frase está correta?", "options": ["I wish he stops interrupting me.", "I wish he would stop interrupting me.", "I wish he stopped to interrupt me."], "answer": 1,
+     "explain": "Para pedir que outra pessoa mude de comportamento, usamos wish + would + verbo base.",
+     "why_not": {"0": "O presente simples não é usado depois de wish.", "2": "Stopped to interrupt muda o sentido (parou para interromper) e não expressa o desejo."}},
+    {"id": "b2-04-q7", "type": "listen", "en": "It's about time we upgraded the database server.",
+     "explain": "It's about time + sujeito + past simple (upgraded) indica que a ação já devia ter sido feita."}
+  ],
+  "words": [
+    {"word": "wish", "pt": "desejar; queria que; lamentar"},
+    {"word": "regret", "pt": "arrependimento; arrepender-se"},
+    {"word": "rather", "pt": "preferencialmente; mais do que (would rather = preferir)"},
+    {"word": "requirement", "pt": "requisito; exigência"},
+    {"word": "upgrade", "pt": "atualizar; atualização"},
+    {"word": "earlier", "pt": "mais cedo; antes"},
+    {"word": "automate", "pt": "automatizar"},
+    {"word": "stressful", "pt": "estressante"},
+    {"word": "feedback", "pt": "retorno; opinião sobre o trabalho"},
+    {"word": "migration", "pt": "migração"}
+  ]
+}

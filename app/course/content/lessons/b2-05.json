@@ -1,0 +1,175 @@
+{
+  "id": "b2-05",
+  "level": "B2",
+  "unit": "Passiva e discurso indireto",
+  "title": "Causativa e passiva com get",
+  "goal": "Dizer que você mandou alguém fazer um serviço, contar o que aconteceu de forma informal e usar a passiva com modais.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "Para que serve a causativa",
+      "text": "Em português dizemos “mandei consertar o notebook” ou “cortei o cabelo” quando **outra pessoa** faz o serviço para nós. Em inglês, esse significado tem uma estrutura própria: a **causativa**, que usa **have** ou **get** + objeto + **particípio passado**.\n\nO foco está no **resultado** e em quem se beneficia, e não em quem executa o trabalho. *I had my laptop repaired* quer dizer que o notebook foi consertado por alguém, a meu pedido. Quem consertou muitas vezes nem é mencionado.",
+      "examples": [
+        {"en": "I had my laptop repaired.", "pt": "Mandei consertar meu notebook."},
+        {"en": "She is having her website redesigned.", "pt": "Ela está mandando refazer o design do site dela."},
+        {"en": "We had the contract checked by a lawyer.", "pt": "Mandamos um advogado revisar o contrato."}
+      ],
+      "tip": "O particípio passado é a forma usada em *have done*: repaired, installed, written, built, cut. Nos verbos regulares ele termina em -ed."
+    },
+    {
+      "title": "A forma: have + objeto + particípio",
+      "text": "A estrutura é **have + objeto + particípio passado**. O objeto fica **entre** have e o particípio, e é isso que diferencia a causativa de um tempo composto como o present perfect. Compare: *I have fixed the bug* (eu mesmo corrigi) e *I have the bug fixed* (alguém corrigiu para mim).\n\nO verbo **have** muda de tempo normalmente (had, is having, will have), mas o verbo principal fica sempre no particípio.",
+      "table": {
+        "headers": ["Tempo", "Forma", "Exemplo"],
+        "rows": [
+          ["Present simple", "have/has + objeto + particípio", "We have our servers monitored."],
+          ["Past simple", "had + objeto + particípio", "I had the logo designed."],
+          ["Present continuous", "am/is/are having + objeto + particípio", "She is having a desk delivered."],
+          ["Future", "will have + objeto + particípio", "I will have the report translated."]
+        ]
+      },
+      "examples": [
+        {"en": "We have our servers monitored 24 hours a day.", "pt": "Mandamos monitorar nossos servidores 24 horas por dia."},
+        {"en": "I will have the report translated by Friday.", "pt": "Vou mandar traduzir o relatório até sexta."},
+        {"en": "He had his car washed before the trip.", "pt": "Ele mandou lavar o carro antes da viagem."}
+      ],
+      "trap": "Não diga *I had repaired my laptop* para o sentido de “mandei consertar”. Essa frase é o past perfect: eu mesmo consertei antes de outro momento. A causativa pede o objeto antes do particípio: *I had my laptop repaired*."
+    },
+    {
+      "title": "Get something done: a versão informal",
+      "text": "**Get + objeto + particípio** tem o mesmo sentido de **have**, mas é mais **informal** e comum na fala. Muitas vezes sugere que você precisou **providenciar** o serviço: *I need to get my visa renewed*. Use **have** em contextos neutros ou formais e **get** em conversas do dia a dia.\n\nAtenção a um segundo sentido: **get + objeto + particípio** também pode significar **conseguir terminar** algo você mesmo: *I finally got the report finished*.",
+      "examples": [
+        {"en": "I need to get my passport renewed.", "pt": "Preciso renovar meu passaporte (providenciar a renovação)."},
+        {"en": "Let's get the old servers replaced this year.", "pt": "Vamos mandar trocar os servidores antigos este ano."},
+        {"en": "I finally got the report finished.", "pt": "Finalmente consegui terminar o relatório."}
+      ],
+      "tip": "Em dúvida, use **have**: ele é aceito em qualquer situação. Reserve **get** para conversa e mensagens informais."
+    },
+    {
+      "title": "Perguntas, negativas e o agente com by",
+      "text": "Na causativa, **have** funciona como verbo comum nas perguntas e negativas e usa **do/does/did**: *Did you have the code reviewed?* e *We didn't have the backup tested*. Com **get**, o verbo auxiliar é o mesmo: *When did you get it fixed?*\n\nPara dizer **quem** fez o serviço, use **by**: *We had the system audited by an external company*. Só mencione o agente quando essa informação for importante.",
+      "examples": [
+        {"en": "Did you have the code reviewed?", "pt": "Você mandou revisar o código?"},
+        {"en": "We didn't have the backup tested.", "pt": "Não mandamos testar o backup."},
+        {"en": "We had the system audited by an external company.", "pt": "Mandamos uma empresa externa auditar o sistema."},
+        {"en": "Where do you get your laptop serviced?", "pt": "Onde você leva seu notebook para manutenção?"}
+      ],
+      "trap": "Em perguntas, não inverta *have* com o sujeito: *Had you the code reviewed?* soa errado. Use o auxiliar: *Did you have the code reviewed?*"
+    },
+    {
+      "title": "Have/get alguém fazer algo",
+      "text": "Quando você quer dizer **quem** executa a tarefa, há dois padrões. **Have + pessoa + verbo base** (sem *to*): *I had the technician check the server*. **Get + pessoa + to + verbo**: *I got the technician to check the server*. O primeiro soa como dar uma instrução; o segundo, como conseguir convencer a pessoa.\n\nNesses padrões o verbo depois da pessoa **não** está no particípio, porque a pessoa faz a ação. Quando o objeto é uma coisa, ela recebe a ação e o verbo vai ao particípio: *I had the server checked*.",
+      "examples": [
+        {"en": "The manager had the intern update the documentation.", "pt": "O gerente pediu ao estagiário que atualizasse a documentação."},
+        {"en": "I got my colleague to review my pull request.", "pt": "Consegui que meu colega revisasse meu pull request."},
+        {"en": "I had the pull request reviewed.", "pt": "Mandei revisar o pull request."}
+      ],
+      "trap": "Depois de **have + pessoa** não se usa *to*: *I had him to check it* está errado. Já depois de **get + pessoa** o *to* é obrigatório: *I got him to check it*."
+    },
+    {
+      "title": "A passiva com get: o que aconteceu",
+      "text": "A **passiva com get** troca **be** por **get**: *The server got hacked* em vez de *The server was hacked*. É informal e destaca **o que aconteceu**, muitas vezes algo **inesperado** ou ruim, e menos quem fez. É comum em *got fired*, *got deleted*, *got promoted*.\n\nNão a use em textos muito formais, como relatórios e contratos: ali, prefira **be**. Em geral, ela não costuma levar o agente com **by**; quando o agente importa, a passiva com **be** é mais natural.",
+      "table": {
+        "headers": ["Passiva com be", "Passiva com get"],
+        "rows": [
+          ["The file was deleted.", "The file got deleted."],
+          ["She was promoted last month.", "She got promoted last month."]
+        ]
+      },
+      "examples": [
+        {"en": "My account got blocked this morning.", "pt": "Minha conta foi bloqueada hoje de manhã."},
+        {"en": "Two developers got promoted last month.", "pt": "Dois desenvolvedores foram promovidos no mês passado."},
+        {"en": "Our emails got caught in the spam filter.", "pt": "Nossos e-mails foram parar no filtro de spam."}
+      ],
+      "trap": "Não confunda com a causativa. *The phone got stolen* é passiva (o celular é o sujeito). *She got her phone stolen* é causativa com sentido ruim: ela sofreu o roubo, e não pediu que roubassem."
+    },
+    {
+      "title": "Passiva com modais",
+      "text": "A passiva também aparece com **modais** (must, should, can, may, will): **modal + be + particípio**. Para o passado, use **modal + have been + particípio**. É frequente em instruções, políticas e relatórios, porque o foco está na tarefa e não em quem a faz.\n\nPresente ou futuro: *The passwords must be changed every 90 days.* Passado: *The bug should have been reported earlier.* (o ideal era reportar, mas isso não foi feito).",
+      "table": {
+        "headers": ["Padrão", "Exemplo"],
+        "rows": [
+          ["modal + be + particípio", "The patch must be installed today."],
+          ["modal + have been + particípio", "The error could have been avoided."]
+        ]
+      },
+      "examples": [
+        {"en": "The patch must be installed before Monday.", "pt": "O patch deve ser instalado antes de segunda."},
+        {"en": "Sensitive data should not be stored in plain text.", "pt": "Dados sensíveis não devem ser armazenados em texto simples."},
+        {"en": "This error could have been avoided with a test.", "pt": "Este erro poderia ter sido evitado com um teste."},
+        {"en": "The new policy will be announced tomorrow.", "pt": "A nova política será anunciada amanhã."}
+      ],
+      "trap": "Não esqueça o **be** nem troque o particípio pelo verbo base: *must reviewed* e *must be review* estão errados. O certo é *must be reviewed*."
+    }
+  ],
+  "summary": [
+    "A causativa usa have + objeto + particípio passado para dizer que outra pessoa fez o serviço: I had my laptop repaired.",
+    "Get + objeto + particípio tem o mesmo sentido, mas é mais informal; em perguntas e negativas, have usa do/does/did.",
+    "Have + pessoa + verbo base (sem to) e get + pessoa + to + verbo indicam quem executa a tarefa.",
+    "A passiva com get (The server got hacked) é informal e destaca um acontecimento, muitas vezes inesperado.",
+    "Passiva com modal: modal + be + particípio; no passado, modal + have been + particípio.",
+    "I had repaired my laptop (past perfect, eu mesmo) é diferente de I had my laptop repaired (causativa, outra pessoa)."
+  ],
+  "practice": [
+    {"id": "b2-05-p1", "type": "choice", "prompt": "I need to ___ my laptop repaired before the trip.", "options": ["have", "do", "make"], "answer": 0,
+     "explain": "Para dizer que alguém conserta algo para nós, usamos have (ou get) + objeto + particípio: have my laptop repaired.",
+     "why_not": {"1": "Do não forma a causativa.", "2": "Make não forma esta estrutura com particípio."}},
+    {"id": "b2-05-p2", "type": "choice", "prompt": "We had the logs ___ by an external auditor.", "options": ["checked", "to check", "checking"], "answer": 0,
+     "explain": "Com um objeto que recebe a ação (the logs), a causativa usa o particípio passado: had the logs checked. O by indica quem fez.",
+     "why_not": {"1": "To check não é usado depois do objeto nesta estrutura.", "2": "O -ing não forma a causativa com objeto que recebe a ação."}},
+    {"id": "b2-05-p3", "type": "choice", "prompt": "The website ___ hacked last night.", "options": ["had", "got", "did"], "answer": 1,
+     "explain": "A passiva informal usa get + particípio: the website got hacked. É um acontecimento ruim e inesperado.",
+     "why_not": {"0": "The website had hacked não forma uma passiva; faltaria been (had been hacked).", "2": "Did não forma a passiva."}},
+    {"id": "b2-05-p4", "type": "fill", "prompt": "I had my laptop ___ yesterday (fix).", "answers": ["fixed"],
+     "explain": "Na causativa o verbo principal fica no particípio passado: had my laptop fixed."},
+    {"id": "b2-05-p5", "type": "fill", "prompt": "The update must ___ installed before Friday.", "answers": ["be"],
+     "explain": "A passiva com modal é modal + be + particípio: must be installed."},
+    {"id": "b2-05-p6", "type": "fill", "prompt": "The bug should have ___ reported earlier.", "answers": ["been"],
+     "explain": "No passado, a passiva com modal usa modal + have been + particípio: should have been reported."},
+    {"id": "b2-05-p7", "type": "translate", "prompt": "Eu mandei consertar meu notebook.", "answers": ["I had my laptop repaired.", "I had my laptop fixed.", "I got my laptop repaired.", "I got my laptop fixed."],
+     "explain": "Alguém fez o serviço por mim, então usamos causativa: have (ou get) + objeto + particípio."},
+    {"id": "b2-05-p8", "type": "order", "words": ["We", "had", "the", "office", "painted"], "prompt": "Nós mandamos pintar o escritório.",
+     "answers": ["We got the office painted."],
+     "explain": "A ordem é sujeito + had + objeto + particípio. Get no lugar de have também é possível, mas é mais informal."},
+    {"id": "b2-05-p9", "type": "fix", "prompt": "I had my laptop repair yesterday.", "answers": ["I had my laptop repaired yesterday."],
+     "explain": "Na causativa, o objeto que recebe a ação pede o particípio passado: repaired, e não repair."},
+    {"id": "b2-05-p10", "type": "fix", "prompt": "The new feature must test before the release.", "answers": ["The new feature must be tested before the release."],
+     "explain": "A passiva com modal exige modal + be + particípio: must be tested."},
+    {"id": "b2-05-p11", "type": "choice", "prompt": "Qual frase usa corretamente a passiva com get?", "options": ["My account got blocked yesterday.", "My account got block yesterday.", "My account was got blocked yesterday."], "answer": 0,
+     "explain": "A passiva com get é get + particípio passado: got blocked.",
+     "why_not": {"1": "Falta o particípio: blocked.", "2": "Não se combina was com got; usa-se um ou outro."}},
+    {"id": "b2-05-p12", "type": "listen", "en": "We should have had the code reviewed before the release.",
+     "explain": "Should have had + objeto + particípio mistura modal no passado e causativa: devíamos ter mandado revisar o código."}
+  ],
+  "quiz": [
+    {"id": "b2-05-q1", "type": "choice", "prompt": "Tom had his hair ___ yesterday.", "options": ["cut", "cutted", "cutting"], "answer": 0,
+     "explain": "Cut é irregular e tem a mesma forma no particípio: had his hair cut.",
+     "why_not": {"1": "Cutted não existe em inglês.", "2": "O -ing não forma a causativa com objeto que recebe a ação."}},
+    {"id": "b2-05-q2", "type": "fill", "prompt": "The printer is broken, so I need to get it ___ (fix).", "answers": ["fixed"],
+     "explain": "Get + objeto + particípio: get it fixed, ou seja, providenciar o conserto."},
+    {"id": "b2-05-q3", "type": "translate", "prompt": "O sistema precisa ser atualizado hoje.", "answers": ["The system needs to be updated today.", "The system must be updated today.", "The system has to be updated today.", "The system should be updated today."],
+     "explain": "A passiva com modal é modal + be + particípio. Needs to be updated e has to be updated também expressam a necessidade."},
+    {"id": "b2-05-q4", "type": "order", "words": ["She", "got", "her", "phone", "stolen", "on", "the", "train"], "prompt": "Ela teve o celular roubado no trem.",
+     "answers": ["She had her phone stolen on the train."],
+     "explain": "Com um fato ruim, have/get + objeto + particípio descreve a experiência sofrida: ela não pediu o roubo."},
+    {"id": "b2-05-q5", "type": "fix", "prompt": "We have our servers monitor by a specialist company.", "answers": ["We have our servers monitored by a specialist company."],
+     "explain": "O objeto (servers) recebe a ação e o by indica o agente, então o verbo vai ao particípio: monitored."},
+    {"id": "b2-05-q6", "type": "choice", "prompt": "O bug ainda não foi corrigido. Qual frase está correta?", "options": ["The bug has not been fixed yet.", "The bug has not fixed yet.", "The bug is not been fixed yet."], "answer": 0,
+     "explain": "A passiva no present perfect é has/have been + particípio: has not been fixed.",
+     "why_not": {"1": "Falta been; sem ele, a frase não é passiva.", "2": "Is not been mistura dois tempos; o correto é has not been."}},
+    {"id": "b2-05-q7", "type": "listen", "en": "Our database was hacked, so we had all passwords changed.",
+     "explain": "Was hacked é passiva com be, e had all passwords changed é causativa: mandamos trocar todas as senhas."}
+  ],
+  "words": [
+    {"word": "repair", "pt": "consertar; reparar; conserto"},
+    {"word": "hack", "pt": "invadir; hackear"},
+    {"word": "install", "pt": "instalar"},
+    {"word": "review", "pt": "revisar; revisão"},
+    {"word": "renew", "pt": "renovar"},
+    {"word": "audit", "pt": "auditar; auditoria"},
+    {"word": "monitor", "pt": "monitorar; acompanhar"},
+    {"word": "stolen", "pt": "roubado; roubada"},
+    {"word": "block", "pt": "bloquear"},
+    {"word": "patch", "pt": "correção de software; patch"}
+  ]
+}

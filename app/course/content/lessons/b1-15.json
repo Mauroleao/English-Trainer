@@ -1,0 +1,201 @@
+{
+  "id": "b1-15",
+  "level": "B1",
+  "unit": "Fluência no texto",
+  "title": "So e such, either/neither e question tags",
+  "goal": "Reforçar ideias com so e such, concordar com so do I e neither do I, e confirmar informações com question tags.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "So: tão, muito",
+      "text": "A palavra **so** deixa um adjetivo ou um advérbio mais forte. Ela quer dizer “tão” ou “muito” e vem **antes** da palavra que reforça: *The server is so slow* (O servidor está tão lento). Usamos *so* quando reagimos a algo, em geral com emoção: surpresa, alegria ou irritação.\n\nCom **substantivos**, o *so* precisa de ajuda: **so many** (com contáveis no plural) e **so much** (com incontáveis). Dizemos *so many bugs* e *so much work*. Não use *so* diretamente antes de um substantivo: *so bugs* está errado.",
+      "examples": [
+        {"en": "The app is so slow today.", "pt": "O app está tão lento hoje."},
+        {"en": "She types so quickly.", "pt": "Ela digita tão rápido."},
+        {"en": "We have so many tickets this week.", "pt": "Temos tantos chamados esta semana."},
+        {"en": "There is so much traffic on the server.", "pt": "Há tanto tráfego no servidor."}
+      ],
+      "tip": "Pense assim: so + adjetivo ou advérbio; so many + plural; so much + incontável."
+    },
+    {
+      "title": "Such: tão, que grande",
+      "text": "**Such** também reforça, mas é usado quando existe um **substantivo**. A estrutura é **such + (a/an) + (adjetivo) + substantivo**. Com um substantivo singular contável, o artigo *a/an* vem **depois** de *such*: *such a good idea*, *such an easy task*. Com plural ou incontável, não há artigo: *such good developers*, *such useful advice*.\n\nA diferença para o *so* está no que vem depois: adjetivo sozinho pede *so*; substantivo (com ou sem adjetivo) pede *such*.",
+      "table": {
+        "headers": ["Estrutura", "Exemplo"],
+        "rows": [
+          ["so + adjetivo", "The test is so easy."],
+          ["so + advérbio", "He works so carefully."],
+          ["so many / so much + substantivo", "We have so many tickets."],
+          ["such a / an + (adjetivo) + substantivo", "It is such a good tool."],
+          ["such + (adjetivo) + plural ou incontável", "They are such good developers."]
+        ]
+      },
+      "examples": [
+        {"en": "It was such a long meeting.", "pt": "Foi uma reunião tão longa."},
+        {"en": "She is such an experienced tester.", "pt": "Ela é uma testadora tão experiente."},
+        {"en": "These are such useful tools.", "pt": "Estas são ferramentas tão úteis."},
+        {"en": "It is such good news.", "pt": "É uma notícia tão boa."}
+      ],
+      "trap": "No uso comum, escolha pelo que vem depois. *It is such slow* e *It is so a slow tool* soam errados. Diga *It is so slow* (adjetivo sozinho) ou *It is such a slow tool* (com substantivo)."
+    },
+    {
+      "title": "So… that e such… that: o resultado",
+      "text": "Depois de *so* ou *such* você pode acrescentar **that** para mostrar o **resultado**: *The server was so slow that we restarted it* (O servidor estava tão lento que o reiniciamos). O português faz o mesmo com “tão… que”. Na fala, o *that* costuma ser omitido: *so slow we restarted it*.\n\nSem o *that*, a frase serve só para reagir ou comentar: *It was such a long day!* e *The demo went so well!* Nos dois casos, a ideia é de intensidade: algo foi mais forte do que o normal.",
+      "examples": [
+        {"en": "The build was so slow that we cancelled it.", "pt": "O build estava tão lento que o cancelamos."},
+        {"en": "It was such a complex bug that nobody could find it.", "pt": "Era um bug tão complexo que ninguém conseguiu achá-lo."},
+        {"en": "She was so tired that she went home early.", "pt": "Ela estava tão cansada que foi para casa mais cedo."},
+        {"en": "We have so much data that the report takes an hour.", "pt": "Temos tantos dados que o relatório leva uma hora."}
+      ],
+      "tip": "A estrutura “tão… que” do português corresponde a so… that (adjetivo) e such… that (substantivo)."
+    },
+    {
+      "title": "So do I e neither do I: concordar",
+      "text": "Para dizer que você **também** faz ou é algo, use **so + auxiliar + sujeito**. Para dizer que **também não**, use **neither + auxiliar + sujeito**. O auxiliar repete o da frase original: *be* se havia *be*, *do/does* no present simple, *did* no past simple, e o mesmo modal (*can*, *will*) ou *have* quando eles existiam.\n\nObserve a ordem: o auxiliar vem **antes** do sujeito (*So do I*, e não *So I do*). Depois de *neither*, o verbo fica **afirmativo**, porque o *neither* já carrega a negação.",
+      "table": {
+        "headers": ["Frase original", "Resposta"],
+        "rows": [
+          ["I am a developer.", "So am I."],
+          ["I work remotely.", "So do I."],
+          ["She finished early.", "So did I."],
+          ["I can code in Python.", "So can I."],
+          ["I haven't seen the log.", "Neither have I."],
+          ["I don't use Windows.", "Neither do I."],
+          ["He wasn't at the meeting.", "Neither was I."]
+        ]
+      },
+      "examples": [
+        {"en": "I am tired. So am I.", "pt": "Estou cansado. Eu também."},
+        {"en": "I don't like long meetings. Neither do I.", "pt": "Não gosto de reuniões longas. Eu também não."},
+        {"en": "I can't log in. Neither can I.", "pt": "Não consigo fazer login. Eu também não."}
+      ],
+      "trap": "Não use auxiliar negativo depois de *neither*: *Neither don't I* está errado, o certo é **Neither do I**. E não inverta a ordem: *So I do* existe, mas tem outro sentido (confirmar o que alguém disse), e não o de “eu também”."
+    },
+    {
+      "title": "Too, either, me too e me neither",
+      "text": "Há outras formas de concordar. Em frases **afirmativas**, acrescentamos **too** no fim: *I use Linux, and my colleague does too*. Em frases **negativas**, usamos **either** no fim: *I don't use Linux, and my colleague doesn't either*. Em português, “também” e “também não” funcionam em pares parecidos; em inglês, a escolha depende de a frase ser afirmativa ou negativa.\n\nNa conversa informal, respostas curtas bastam: **Me too** (eu também) e **Me neither** (eu também não).",
+      "examples": [
+        {"en": "I like this tool, and she does too.", "pt": "Eu gosto desta ferramenta, e ela também."},
+        {"en": "I can't log in, and he can't either.", "pt": "Eu não consigo fazer login, e ele também não."},
+        {"en": "“I'm tired.” “Me too.”", "pt": "“Estou cansado.” “Eu também.”"},
+        {"en": "“I don't know.” “Me neither.”", "pt": "“Não sei.” “Eu também não.”"}
+      ],
+      "trap": "Não use *too* depois de uma frase negativa: *I don't like it too* está errado. Diga *I don't like it either*."
+    },
+    {
+      "title": "Question tags: o “né?” do inglês",
+      "text": "Uma **question tag** é uma perguntinha no fim da frase, como o “né?” ou o “não é?” do português: *It works, doesn't it?* Ela serve para **confirmar** algo que você acha que é verdade ou para manter a conversa.\n\nA regra é: frase **afirmativa**, tag **negativa**; frase **negativa**, tag **afirmativa**. A tag repete o **auxiliar** da frase (ou usa *do/does/did* se não houver auxiliar) e um **pronome** que substitui o sujeito: Maria vira *she*, the server vira *it*, the tests vira *they*.",
+      "table": {
+        "headers": ["Frase", "Tag", "Exemplo"],
+        "rows": [
+          ["be afirmativo", "isn't / aren't / wasn't", "The server is up, isn't it?"],
+          ["be negativo", "is / are / was", "You aren't ready, are you?"],
+          ["present simple", "don't / doesn't", "You work here, don't you?"],
+          ["past simple", "didn't", "She called, didn't she?"],
+          ["can, will, have", "can't, won't, haven't", "He can code, can't he?"],
+          ["frase negativa", "tag afirmativa", "We can't change it, can we?"]
+        ]
+      },
+      "examples": [
+        {"en": "You work in QA, don't you?", "pt": "Você trabalha em QA, não é?"},
+        {"en": "The build didn't fail, did it?", "pt": "O build não falhou, falhou?"},
+        {"en": "There is a bug, isn't there?", "pt": "Tem um bug, não tem?"},
+        {"en": "Maria is late, isn't she?", "pt": "A Maria está atrasada, não está?"}
+      ],
+      "trap": "Em português o “né?” e o “não é?” não mudam. Em inglês a tag **precisa concordar** com a frase: não existe uma forma única. *You work here, isn't it?* está errado; diga *You work here, don't you?*"
+    },
+    {
+      "title": "Tags: exceções e entonação",
+      "text": "Duas exceções importam. Depois de **I am**, a tag é **aren't I**: *I am on the list, aren't I?* (*am I not* existe, mas é muito formal). Depois de **Let's**, a tag é **shall we**: *Let's start, shall we?*\n\nA **entonação** muda o sentido da tag. Se a voz **sobe** no fim, é uma pergunta de verdade: você não sabe a resposta. Se a voz **desce**, você quase tem certeza e só pede confirmação, como o “né?” em português. Ouça o áudio dos exemplos para notar a diferença.",
+      "examples": [
+        {"en": "I am on the list, aren't I?", "pt": "Eu estou na lista, não estou?"},
+        {"en": "Let's review the code, shall we?", "pt": "Vamos revisar o código, certo?"},
+        {"en": "You've sent the invite, haven't you?", "pt": "Você enviou o convite, não enviou?"},
+        {"en": "The tests passed, didn't they?", "pt": "Os testes passaram, não passaram?"}
+      ],
+      "tip": "O pronome da tag substitui o sujeito: that e this viram it, e *there is* mantém there (*There is a bug, isn't there?*)."
+    },
+    {
+      "title": "Em contexto: too, enough e um dia de trabalho",
+      "text": "Veja tudo junto em um dia de trabalho, com uma revisão de **too** e **enough**. **Too** + adjetivo indica **excesso** e um problema: *The file is too big to upload* (grande demais para enviar). **Enough** vem **depois** do adjetivo (*fast enough*) e **antes** do substantivo (*enough memory*): indica o que é suficiente.\n\nCuidado para não confundir *so* e *too*: *so slow* só intensifica, enquanto *too slow* diz que a lentidão é um problema. Depois, tente criar suas frases com so, such e tags sobre o seu próprio trabalho.",
+      "examples": [
+        {"en": "The file is too big to upload.", "pt": "O arquivo é grande demais para enviar."},
+        {"en": "The laptop is fast enough for this project.", "pt": "O notebook é rápido o bastante para este projeto."},
+        {"en": "We don't have enough memory.", "pt": "Não temos memória suficiente."},
+        {"en": "It was such a smooth release, wasn't it?", "pt": "Foi um lançamento tão tranquilo, não foi?"}
+      ],
+      "tip": "Too e enough ajudam a falar de limites; so e such servem para reforçar. Cada palavra tem um papel diferente."
+    }
+  ],
+  "summary": [
+    "So reforça adjetivo e advérbio (so slow); com substantivos use so many (contáveis) e so much (incontáveis).",
+    "Such reforça substantivo: such a good idea, such good developers. Com that, mostram resultado: so slow that we restarted it.",
+    "Para concordar: so + auxiliar + sujeito (So do I) e neither + auxiliar + sujeito (Neither do I); o verbo depois de neither é afirmativo.",
+    "Em frases afirmativas use too; em frases negativas use either: I don't either. Na fala: Me too, Me neither.",
+    "Question tags: afirmativa pede tag negativa e negativa pede tag afirmativa, com o mesmo auxiliar e um pronome (It works, doesn't it?).",
+    "Exceções: I am vira aren't I e Let's vira shall we; a voz que sobe faz pergunta de verdade, a que desce pede confirmação."
+  ],
+  "practice": [
+    {"id": "b1-15-p1", "type": "choice", "prompt": "The server is ___ slow today!", "options": ["so", "such", "such a"], "answer": 0,
+     "explain": "Depois de so vem um adjetivo sozinho (slow). Não há substantivo na frase, então such não é usado.",
+     "why_not": {"1": "Such pede um substantivo depois: such a slow server.", "2": "Such a também precisa de um substantivo depois do adjetivo."}},
+    {"id": "b1-15-p2", "type": "choice", "prompt": "It was ___ long meeting that everyone was tired.", "options": ["so", "such", "such a"], "answer": 2,
+     "explain": "Meeting é um substantivo singular contável, então usamos such a + adjetivo + substantivo: such a long meeting.",
+     "why_not": {"0": "So não vem diante de a + adjetivo + substantivo no uso comum.", "1": "Com um substantivo singular contável, such precisa do artigo a depois dele."}},
+    {"id": "b1-15-p3", "type": "fill", "prompt": "We have ___ many bugs to fix!", "answers": ["so"],
+     "explain": "Many é um quantificador e pede so (so many), que corresponde ao português “tantos”."},
+    {"id": "b1-15-p4", "type": "fill", "prompt": "These are ___ useful tools.", "answers": ["such"],
+     "explain": "Aqui há um substantivo no plural (tools) com adjetivo (useful). Nesse caso usamos such, sem artigo."},
+    {"id": "b1-15-p5", "type": "choice", "prompt": "“I like working remotely.” — “___”", "options": ["So do I.", "So am I.", "Neither do I."], "answer": 0,
+     "explain": "A frase original está no present simple e é afirmativa, então a resposta usa so + do + sujeito: So do I.",
+     "why_not": {"1": "So am I repete o verbo be, mas a frase original usa like, que pede do.", "2": "Neither concorda com frases negativas, e a frase original é afirmativa."}},
+    {"id": "b1-15-p6", "type": "fill", "prompt": "“I can't open the file.” — “Neither ___ I.”", "answers": ["can"],
+     "explain": "Repetimos o auxiliar da frase original (can). Depois de neither o verbo fica afirmativo: Neither can I."},
+    {"id": "b1-15-p7", "type": "order", "words": ["He", "isn't", "ready,", "is", "he"], "prompt": "Ele não está pronto, está?",
+     "explain": "A frase é negativa (isn't), então a tag é afirmativa (is he), com o mesmo verbo be e o pronome he."},
+    {"id": "b1-15-p8", "type": "fix", "prompt": "Neither don't I.", "answers": ["Neither do I."],
+     "explain": "Neither já traz a ideia de negação. Por isso o auxiliar que vem depois deve ser afirmativo: Neither do I."},
+    {"id": "b1-15-p9", "type": "choice", "prompt": "You work in the QA team, ___?", "options": ["don't you", "aren't you", "do you"], "answer": 0,
+     "explain": "A frase é afirmativa no present simple, então a tag é negativa com do: don't you.",
+     "why_not": {"1": "Aren't you repete o verbo be, mas a frase usa work, que pede do.", "2": "Do you é a tag para frases negativas, e esta é afirmativa."}},
+    {"id": "b1-15-p10", "type": "fill", "prompt": "You didn't save the file, ___ you?", "answers": ["did"],
+     "explain": "A frase é negativa no past simple, então a tag é afirmativa com did: did you."},
+    {"id": "b1-15-p11", "type": "translate", "prompt": "O servidor está lento, não está?", "answers": ["The server is slow, isn't it?", "The server is slow, is it not?"],
+     "explain": "Frase afirmativa com be pede tag negativa. O servidor (the server) é substituído por it: isn't it."},
+    {"id": "b1-15-p12", "type": "listen", "en": "It was such a long day, wasn't it?",
+     "explain": "Such a long day usa such + a + adjetivo + substantivo. A frase é afirmativa no passado, então a tag é wasn't it."}
+  ],
+  "quiz": [
+    {"id": "b1-15-q1", "type": "choice", "prompt": "The update ran ___ quickly that nobody noticed.", "options": ["so", "such", "such a"], "answer": 0,
+     "explain": "Quickly é um advérbio, e advérbios são reforçados com so. A ideia de resultado vem com that.",
+     "why_not": {"1": "Such precisa de um substantivo, e aqui só há um advérbio.", "2": "Such a precisa de um substantivo singular depois do adjetivo."}},
+    {"id": "b1-15-q2", "type": "fill", "prompt": "It was ___ a hard problem that we asked for help.", "answers": ["such"],
+     "explain": "A estrutura é such + a + adjetivo + substantivo (such a hard problem), seguida de that para mostrar o resultado."},
+    {"id": "b1-15-q3", "type": "translate", "prompt": "O código é tão simples.", "answers": ["The code is so simple.", "It is so simple."],
+     "explain": "Simple é um adjetivo sozinho, então o reforço “tão” é so: so simple."},
+    {"id": "b1-15-q4", "type": "order", "words": ["So", "does", "my", "manager"], "prompt": "Resposta a “I work remotely”: meu gerente também.",
+     "explain": "A frase original é afirmativa no present simple. Com um sujeito na terceira pessoa (my manager), o auxiliar é does: So does my manager."},
+    {"id": "b1-15-q5", "type": "fix", "prompt": "I can't join the call and she can't too.", "answers": ["I can't join the call and she can't either.", "I can't join the call and neither can she."],
+     "explain": "Em frases negativas usamos either no fim, e não too. Também é possível dizer neither can she."},
+    {"id": "b1-15-q6", "type": "choice", "prompt": "Let's start the demo, ___?", "options": ["shall we", "will we", "don't we"], "answer": 0,
+     "explain": "A tag de Let's é shall we, como em Let's start, shall we?",
+     "why_not": {"1": "Will we não é a tag usada depois de Let's.", "2": "Don't we não é a tag usada depois de Let's."}},
+    {"id": "b1-15-q7", "type": "choice", "prompt": "She finished the code, ___?", "options": ["didn't she", "hasn't she", "isn't she"], "answer": 0,
+     "explain": "A frase está no past simple e é afirmativa, então a tag é didn't she.",
+     "why_not": {"1": "Hasn't she seria para o present perfect (has finished).", "2": "Isn't she seria para o verbo be, e a frase usa finished."}},
+    {"id": "b1-15-q8", "type": "listen", "en": "I am late again, aren't I?",
+     "explain": "Depois de I am, a tag é aren't I. A voz sobe no fim se a pergunta for de verdade."}
+  ],
+  "words": [
+    {"word": "so", "pt": "tão; muito; também (so do I)"},
+    {"word": "such", "pt": "tão; um(a) tão (antes de substantivo)"},
+    {"word": "either", "pt": "também não (no fim de frase negativa); um ou outro"},
+    {"word": "neither", "pt": "nem; também não (neither do I)"},
+    {"word": "tag", "pt": "etiqueta; pergunta curta no fim da frase"},
+    {"word": "remotely", "pt": "remotamente; à distância"},
+    {"word": "tool", "pt": "ferramenta"},
+    {"word": "useful", "pt": "útil"},
+    {"word": "ticket", "pt": "chamado; tíquete"},
+    {"word": "enough", "pt": "suficiente; o bastante"}
+  ]
+}

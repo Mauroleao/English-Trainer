@@ -1,0 +1,184 @@
+{
+  "id": "a1-08",
+  "level": "A1",
+  "unit": "Rotina de trabalho",
+  "title": "Present simple: negativa, perguntas e palavras interrogativas",
+  "goal": "Dizer o que você não faz na rotina e fazer perguntas sobre a rotina dos outros com Do/Does e What, Where, When, Who, Why e How.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "Dizer que você NÃO faz algo",
+      "text": "Nas lições anteriores você viu frases afirmativas: *I work*, *she works*. Agora vamos dizer o contrário. Para negar no present simple, o inglês usa um verbo ajudante chamado **do**. Ele vem antes do verbo principal, junto com **not**.\n\nA fórmula é: **sujeito + do not (don't) + verbo**. Em português basta colocar “não” antes do verbo: “Eu não trabalho”. Em inglês fica *I do not work* ou, na fala, *I don't work*.",
+      "examples": [
+        {"en": "I don't work on Sundays.", "pt": "Eu não trabalho aos domingos."},
+        {"en": "We don't use Windows.", "pt": "Nós não usamos Windows."},
+        {"en": "They don't deploy on Fridays.", "pt": "Eles não fazem deploy às sextas."}
+      ],
+      "tip": "Don't é a contração de do not. As duas formas valem na correção do app."
+    },
+    {
+      "title": "He, she, it: doesn't + verbo base",
+      "text": "Com **he**, **she** e **it**, o verbo ajudante muda para **does**: **does not**, ou **doesn't**. Repare numa coisa importante: o **-s** que você aprendeu na lição anterior (*she works*) vai para o ajudante **does**. O verbo principal volta para a forma simples, chamada **verbo base** (sem -s, sem -ing).\n\nPor isso, *she works* vira *she doesn't work*, e não *she doesn't works*.",
+      "table": {
+        "headers": ["Sujeito", "Negativa", "Exemplo"],
+        "rows": [
+          ["I / you / we / they", "don't + verbo base", "They don't test on Monday."],
+          ["he / she / it", "doesn't + verbo base", "She doesn't test on Monday."]
+        ]
+      },
+      "examples": [
+        {"en": "She doesn't drink coffee.", "pt": "Ela não toma café."},
+        {"en": "He doesn't work from home.", "pt": "Ele não trabalha de casa."},
+        {"en": "The server doesn't start.", "pt": "O servidor não inicia."}
+      ],
+      "trap": "Um erro muito comum é manter o -s no verbo principal: *She doesn't works*. O certo é *She doesn't work*. Só um verbo carrega o -s, e na negativa esse verbo é o does."
+    },
+    {
+      "title": "Perguntas de sim ou não: Do e Does",
+      "text": "Para perguntar, o inglês também usa o verbo ajudante, mas ele vai para o **começo da frase**: **Do / Does + sujeito + verbo base**. Em português, muitas vezes só mudamos a entonação: “Você trabalha aqui?”. Em inglês, o **Do** ou o **Does** é obrigatório.\n\nUse **Do** com I, you, we e they. Use **Does** com he, she e it. Depois do sujeito, o verbo fica na forma base, sempre sem -s.",
+      "table": {
+        "headers": ["Sujeito", "Pergunta"],
+        "rows": [
+          ["I / you / we / they", "Do you work here?"],
+          ["he / she / it", "Does she work here?"]
+        ]
+      },
+      "examples": [
+        {"en": "Do you speak English?", "pt": "Você fala inglês?"},
+        {"en": "Does your team use Git?", "pt": "Sua equipe usa Git?"},
+        {"en": "Do they work on Saturdays?", "pt": "Eles trabalham aos sábados?"},
+        {"en": "Does it work on your computer?", "pt": "Funciona no seu computador?"}
+      ],
+      "trap": "Não escreva *Does she works here?*. O -s já está no Does, então o verbo principal fica na base: *Does she work here?*."
+    },
+    {
+      "title": "Respostas curtas",
+      "text": "Em inglês é natural responder a uma pergunta de sim ou não com uma **resposta curta**. Ela repete o ajudante da pergunta: **Yes, + pronome + do/does** ou **No, + pronome + don't/doesn't**. Não repetimos o verbo principal.\n\nÉ mais educado e mais natural do que responder só *Yes* ou *No*. Note que a resposta usa o pronome: se a pergunta fala de *Ana*, a resposta usa *she*.",
+      "table": {
+        "headers": ["Pergunta", "Sim", "Não"],
+        "rows": [
+          ["Do you work here?", "Yes, I do.", "No, I don't."],
+          ["Does Ana work here?", "Yes, she does.", "No, she doesn't."],
+          ["Do they use Linux?", "Yes, they do.", "No, they don't."]
+        ]
+      },
+      "examples": [
+        {"en": "Do you write tests? Yes, I do.", "pt": "Você escreve testes? Sim, escrevo."},
+        {"en": "Does Tom drink tea? No, he doesn't.", "pt": "O Tom toma chá? Não, não toma."}
+      ],
+      "tip": "Responda com o mesmo ajudante da pergunta: Do... Yes, I do. Does... Yes, he does."
+    },
+    {
+      "title": "Palavras interrogativas: What, Where, When, Who, Why, How",
+      "text": "Quando você quer uma informação, e não só sim ou não, começa a pergunta com uma **palavra interrogativa** (em inglês, *wh-word*, porque quase todas começam com *wh*). Cada uma pergunta uma coisa diferente.\n\nObserve a tabela. A palavra interrogativa vem **antes** do Do/Does, e a estrutura continua a mesma: **palavra interrogativa + do/does + sujeito + verbo base**.",
+      "table": {
+        "headers": ["Palavra", "Pergunta sobre", "Exemplo"],
+        "rows": [
+          ["What", "o quê", "What do you use?"],
+          ["Where", "onde", "Where does she work?"],
+          ["When", "quando", "When do they start?"],
+          ["Who", "quem", "Who do you ask?"],
+          ["Why", "por quê", "Why do you test it?"],
+          ["How", "como", "How do you deploy?"]
+        ]
+      },
+      "examples": [
+        {"en": "What do you do?", "pt": "O que você faz (de trabalho)?"},
+        {"en": "Where does your manager work?", "pt": "Onde seu gerente trabalha?"},
+        {"en": "When does the meeting start?", "pt": "Quando a reunião começa?"},
+        {"en": "How do you deploy the app?", "pt": "Como você faz o deploy do app?"}
+      ],
+      "tip": "What time pergunta as horas: What time does the meeting start? (A que horas a reunião começa?)"
+    },
+    {
+      "title": "Português × inglês: erros comuns",
+      "text": "Quem fala português costuma cometer três erros nas perguntas. O primeiro é **esquecer o Do/Does**: *You work here?* é informal e só funciona com a entonação certa. Na escrita e no começo do aprendizado, use *Do you work here?*.\n\nO segundo é **manter o -s depois de does**. O terceiro é usar **to be** no lugar do ajudante: *Where are you work?* está errado. Com um verbo de ação como *work*, use o ajudante **do/does**; o verbo **be** fica para quando não há outro verbo (*Where are you?*).",
+      "examples": [
+        {"en": "Where do you work?", "pt": "Onde você trabalha?"},
+        {"en": "Why does she leave early?", "pt": "Por que ela sai cedo?"},
+        {"en": "Who writes the tests?", "pt": "Quem escreve os testes?"}
+      ],
+      "trap": "Existe uma exceção: quando **Who** ou **What** é o próprio sujeito, não usamos do/does. Dizemos *Who writes the tests?* (Quem escreve os testes?), com o verbo no -s. Compare com *Who do you ask?*, em que *you* é o sujeito."
+    },
+    {
+      "title": "Em contexto: conhecendo a equipe",
+      "text": "Veja como tudo se encaixa em uma conversa curta no primeiro dia de trabalho. Perceba que cada pergunta usa Do ou Does e que o verbo principal fica na forma base. As respostas negativas usam don't e doesn't.\n\nPratique lendo em voz alta e trocando as palavras: o lugar, o dia, a pessoa. Assim você cria frases suas, e não decora só as do exemplo.",
+      "examples": [
+        {"en": "Do you work from home on Fridays? No, I don't.", "pt": "Você trabalha de casa às sextas? Não."},
+        {"en": "Where does Lena work? She works in the Lisbon office.", "pt": "Onde a Lena trabalha? Ela trabalha no escritório de Lisboa."},
+        {"en": "When do you start? I start at nine.", "pt": "Quando você começa? Começo às nove."},
+        {"en": "Does he speak Spanish? No, he doesn't.", "pt": "Ele fala espanhol? Não, não fala."}
+      ]
+    }
+  ],
+  "summary": [
+    "A negativa do present simple usa don't (I, you, we, they) ou doesn't (he, she, it) antes do verbo base.",
+    "Depois de doesn't e de does, o verbo principal fica sem -s: she doesn't work, Does she work?",
+    "A pergunta de sim ou não começa com Do ou Does + sujeito + verbo base.",
+    "A resposta curta repete o ajudante: Yes, I do. / No, she doesn't.",
+    "Palavras interrogativas (What, Where, When, Who, Why, How) vêm antes do Do/Does.",
+    "Exceção: quando Who ou What é o sujeito, não há do/does: Who writes the tests?"
+  ],
+  "practice": [
+    {"id": "a1-08-p1", "type": "choice", "prompt": "I ___ drink coffee at work.", "options": ["don't", "doesn't", "not"], "answer": 0,
+     "explain": "Com I usamos o ajudante don't antes do verbo base: I don't drink coffee.",
+     "why_not": {"1": "Doesn't é usado com he, she e it.", "2": "Sozinho, not não forma a negativa do present simple: é preciso do ajudante do."}},
+    {"id": "a1-08-p2", "type": "choice", "prompt": "She ___ use Linux.", "options": ["don't", "doesn't", "isn't"], "answer": 1,
+     "explain": "She pede doesn't. Depois dele o verbo fica na forma base: she doesn't use.",
+     "why_not": {"0": "Don't é usado com I, you, we e they.", "2": "Isn't é do verbo to be e não combina com o verbo use."}},
+    {"id": "a1-08-p3", "type": "fill", "prompt": "My team does not ___ (trabalhar) on Sundays.", "answers": ["work"],
+     "explain": "Depois de does not, o verbo fica na forma base, sem -s: does not work."},
+    {"id": "a1-08-p4", "type": "fill", "prompt": "___ your manager speak English?", "answers": ["does"],
+     "explain": "Your manager equivale a he ou she, e com a terceira pessoa a pergunta começa com Does."},
+    {"id": "a1-08-p5", "type": "choice", "prompt": "___ they use GitHub?", "options": ["Do", "Does", "Are"], "answer": 0,
+     "explain": "They usa Do. A pergunta com um verbo de ação começa com Do ou Does.",
+     "why_not": {"1": "Does é usado com he, she e it.", "2": "Are é do verbo to be; aqui o verbo principal é use."}},
+    {"id": "a1-08-p6", "type": "fix", "prompt": "Does she works here?", "answers": ["Does she work here?"],
+     "explain": "O -s já está no Does. O verbo principal volta para a forma base: Does she work here?"},
+    {"id": "a1-08-p7", "type": "order", "words": ["Where", "do", "you", "work"], "prompt": "Onde você trabalha?",
+     "explain": "A ordem é palavra interrogativa + do + sujeito + verbo base: Where do you work?"},
+    {"id": "a1-08-p8", "type": "translate", "prompt": "Eu não bebo café.", "answers": ["I do not drink coffee.", "I don't drink coffee."],
+     "explain": "Use I do not (don't) + verbo base: I don't drink coffee."},
+    {"id": "a1-08-p9", "type": "choice", "prompt": "Does Ken test the code? Yes, ___.", "options": ["he does", "he do", "he tests"], "answer": 0,
+     "explain": "A resposta curta repete o ajudante da pergunta, e com he ele é does: Yes, he does.",
+     "why_not": {"1": "Com he o ajudante é does, e não do.", "2": "A resposta curta não repete o verbo principal."}},
+    {"id": "a1-08-p10", "type": "listen", "en": "Does she work on Saturdays?",
+     "explain": "Pergunta com Does + she + verbo base (work). On Saturdays indica o dia."},
+    {"id": "a1-08-p11", "type": "translate", "prompt": "Onde ela trabalha?", "answers": ["Where does she work?"],
+     "explain": "Com she, usamos does: Where does she work? O verbo work fica sem -s."},
+    {"id": "a1-08-p12", "type": "fix", "prompt": "She don't use Windows.", "answers": ["She doesn't use Windows.", "She does not use Windows."],
+     "explain": "Com she, o ajudante da negativa é doesn't: she doesn't use Windows."}
+  ],
+  "quiz": [
+    {"id": "a1-08-q1", "type": "choice", "prompt": "We ___ deploy on Fridays.", "options": ["don't", "doesn't", "no"], "answer": 0,
+     "explain": "We usa don't + verbo base: we don't deploy.",
+     "why_not": {"1": "Doesn't é só para he, she e it.", "2": "No não forma a negativa com um verbo de ação; use don't."}},
+    {"id": "a1-08-q2", "type": "fill", "prompt": "___ he know the password?", "answers": ["does"],
+     "explain": "He pede Does no começo da pergunta: Does he know the password?"},
+    {"id": "a1-08-q3", "type": "translate", "prompt": "Ela não trabalha em casa.", "answers": ["She does not work at home.", "She doesn't work at home.", "She does not work from home.", "She doesn't work from home."],
+     "explain": "Com she, usamos doesn't + verbo base: she doesn't work at home."},
+    {"id": "a1-08-q4", "type": "order", "words": ["What", "time", "does", "the", "meeting", "start"], "prompt": "A que horas a reunião começa?",
+     "explain": "What time + does + sujeito + verbo base. The meeting equivale a it, por isso does."},
+    {"id": "a1-08-q5", "type": "fix", "prompt": "Do he work here?", "answers": ["Does he work here?"],
+     "explain": "Com he, a pergunta começa com Does, e não com Do."},
+    {"id": "a1-08-q6", "type": "choice", "prompt": "Why ___ the build fail?", "options": ["do", "does", "is"], "answer": 1,
+     "explain": "The build equivale a it, então usamos does: Why does the build fail?",
+     "why_not": {"0": "Do é usado com I, you, we e they.", "2": "Is não combina com o verbo fail em forma base."}},
+    {"id": "a1-08-q7", "type": "listen", "en": "They do not use Windows at work.",
+     "explain": "They do not + verbo base (use). A negativa com they usa do not, ou don't."},
+    {"id": "a1-08-q8", "type": "translate", "prompt": "Você fala inglês?", "answers": ["Do you speak English?"],
+     "explain": "Pergunta de sim ou não com you: Do + you + verbo base."}
+  ],
+  "words": [
+    {"word": "drink", "pt": "beber; tomar"},
+    {"word": "coffee", "pt": "café"},
+    {"word": "password", "pt": "senha"},
+    {"word": "meeting", "pt": "reunião"},
+    {"word": "start", "pt": "começar; iniciar"},
+    {"word": "speak", "pt": "falar"},
+    {"word": "when", "pt": "quando"},
+    {"word": "where", "pt": "onde"},
+    {"word": "why", "pt": "por que"},
+    {"word": "how", "pt": "como"}
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "r-a2-01",
+  "level": "A2",
+  "title": "Last night's release",
+  "topic": "E-mail sobre uma publicação",
+  "text": "Hi team,\n\nLast night we released the new version of the app. The deploy started at 10 p.m. and finished at 10:20. Everything worked well, but we found one small bug this morning. Some users could not log in with their phones.\n\nCarla fixed the bug in two hours. She also wrote a test, so the problem will not come back. Thanks, Carla!\n\nToday we are going to check the logs again. If you see any new problem, please tell me. We want the app to be fast and stable.\n\nThanks,\nDiego",
+  "pt": "Oi, pessoal,\n\nOntem à noite nós publicamos a nova versão do aplicativo. O deploy começou às 22h e terminou às 22h20. Tudo funcionou bem, mas encontramos um pequeno bug nesta manhã. Alguns usuários não conseguiram fazer login pelo celular.\n\nA Carla corrigiu o bug em duas horas. Ela também escreveu um teste, então o problema não vai voltar. Obrigado, Carla!\n\nHoje vamos verificar os logs de novo. Se vocês virem algum problema novo, por favor, me avisem. Queremos que o aplicativo seja rápido e estável.\n\nObrigado,\nDiego",
+  "vocab": [
+    {"word": "released", "pt": "lançou; publicou (uma versão)"},
+    {"word": "deploy", "pt": "implantação; publicação em produção"},
+    {"word": "bug", "pt": "erro de software; bug"},
+    {"word": "users", "pt": "usuários"},
+    {"word": "log in", "pt": "fazer login; entrar no sistema"},
+    {"word": "fixed", "pt": "corrigiu; consertou"},
+    {"word": "logs", "pt": "registros do sistema; logs"},
+    {"word": "stable", "pt": "estável"}
+  ],
+  "questions": [
+    {"id": "r-a2-01-q1", "type": "choice", "prompt": "When did the deploy start?", "options": ["At 10 p.m.", "At 10:20 a.m.", "This morning"], "answer": 0,
+     "explain": "O texto diz “The deploy started at 10 p.m. and finished at 10:20”: começou às 22h."},
+    {"id": "r-a2-01-q2", "type": "choice", "prompt": "What was the problem?", "options": ["The deploy was very slow.", "Some users could not log in.", "The app was not stable at night."], "answer": 1,
+     "explain": "O primeiro parágrafo diz “Some users could not log in with their phones”: alguns usuários não conseguiram fazer login."},
+    {"id": "r-a2-01-q3", "type": "choice", "prompt": "Who fixed the bug?", "options": ["Diego", "A tester", "Carla"], "answer": 2,
+     "explain": "O segundo parágrafo começa com “Carla fixed the bug in two hours”."},
+    {"id": "r-a2-01-q4", "type": "choice", "prompt": "What is the team going to do today?", "options": ["Check the logs again", "Release a new version", "Write a new test"], "answer": 0,
+     "explain": "O terceiro parágrafo diz “Today we are going to check the logs again”: hoje vão verificar os logs de novo."}
+  ]
+}

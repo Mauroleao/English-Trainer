@@ -1,0 +1,26 @@
+{
+  "id": "r-a1-02",
+  "level": "A1",
+  "title": "The server is down",
+  "topic": "Problema no servidor",
+  "text": "Tom: Good morning, Lisa. Are you OK?\n\nLisa: No, I am tired. The server is down and I can't open the app.\n\nTom: Do you know the problem?\n\nLisa: Yes. The disk is full.\n\nTom: I can help you. I can delete the old files.\n\nLisa: Thank you, Tom!",
+  "pt": "Tom: Bom dia, Lisa. Você está bem?\n\nLisa: Não, estou cansada. O servidor está fora do ar e eu não consigo abrir o aplicativo.\n\nTom: Você sabe qual é o problema?\n\nLisa: Sim. O disco está cheio.\n\nTom: Eu posso ajudar você. Posso apagar os arquivos antigos.\n\nLisa: Obrigada, Tom!",
+  "vocab": [
+    {"word": "server", "pt": "servidor"},
+    {"word": "disk", "pt": "disco"},
+    {"word": "full", "pt": "cheio; cheia"},
+    {"word": "files", "pt": "arquivos"},
+    {"word": "delete", "pt": "apagar; excluir"},
+    {"word": "problem", "pt": "problema"},
+    {"word": "tired", "pt": "cansado; cansada"},
+    {"word": "app", "pt": "aplicativo"}
+  ],
+  "questions": [
+    {"id": "r-a1-02-q1", "type": "choice", "prompt": "What is down?", "options": ["The disk", "The server", "The app"], "answer": 1,
+     "explain": "Lisa diz “The server is down”: o servidor está fora do ar."},
+    {"id": "r-a1-02-q2", "type": "choice", "prompt": "What is full?", "options": ["The disk", "The server", "The office"], "answer": 0,
+     "explain": "Quando Tom pergunta sobre o problema, Lisa responde “The disk is full”: o disco está cheio."},
+    {"id": "r-a1-02-q3", "type": "choice", "prompt": "What can Tom do?", "options": ["Buy a new server", "Open the app", "Delete the old files"], "answer": 2,
+     "explain": "Tom diz “I can delete the old files”: ele pode apagar os arquivos antigos."}
+  ]
+}

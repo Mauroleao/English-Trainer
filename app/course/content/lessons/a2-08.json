@@ -1,0 +1,159 @@
+{
+  "id": "a2-08",
+  "level": "A2",
+  "unit": "Planos e obrigações",
+  "title": "Futuro: going to, will e present continuous",
+  "goal": "Falar de planos, decisões na hora e previsões sobre o futuro, no trabalho e no dia a dia.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "Três jeitos de falar do futuro",
+      "text": "Em português, dizemos “vou fazer”, “farei” ou “faço amanhã”. Em inglês não existe uma única forma de futuro. Você escolhe entre três estruturas, e a escolha depende da **intenção** de quem fala.\n\nUse **going to** para planos que você já tem na cabeça. Use **will** para decisões na hora, promessas e opiniões. Use o **present continuous** para compromissos já combinados, com hora e pessoas. Nas próximas etapas você vê cada uma.",
+      "examples": [
+        {"en": "I'm going to learn Python this year.", "pt": "Eu vou aprender Python este ano."},
+        {"en": "I'll help you with that bug.", "pt": "Eu ajudo você com esse bug."},
+        {"en": "We're meeting the client at three.", "pt": "Nós vamos nos encontrar com o cliente às três."}
+      ],
+      "tip": "Pense assim: going to = plano, will = decisão agora, present continuous = agenda marcada."
+    },
+    {
+      "title": "Going to: planos e intenções",
+      "text": "Use **going to** quando a decisão já foi tomada antes de você falar. A estrutura é **am / is / are + going to + verbo no infinitivo sem to**.\n\nO verbo depois de *going to* fica sempre na forma base, sem -s e sem mudança: *She is going to send the report*. No inglês falado, muita gente diz “gonna”, mas na escrita use **going to**.",
+      "table": {
+        "headers": ["Pronome", "be + going to", "Exemplo"],
+        "rows": [
+          ["I", "am going to", "I am going to test the app."],
+          ["he / she / it", "is going to", "She is going to call the client."],
+          ["you / we / they", "are going to", "We are going to deploy tonight."]
+        ]
+      },
+      "examples": [
+        {"en": "He is going to work from home tomorrow.", "pt": "Ele vai trabalhar de casa amanhã."},
+        {"en": "We are going to deploy tonight.", "pt": "Nós vamos fazer o deploy hoje à noite."}
+      ],
+      "trap": "Depois de going to, o verbo não leva to de novo nem -s. Diga *She is going to work*, e não *She is going to works* nem *She going to work* (sem o is)."
+    },
+    {
+      "title": "Will: decisões na hora, promessas e ofertas",
+      "text": "Use **will** quando você decide **no momento da fala**, quando oferece ajuda ou quando faz uma promessa. A forma é igual para todos os pronomes: **will + verbo base**. Não existe *wills* nem *will to*.\n\nNa fala, usamos a contração **’ll**: *I'll*, *you'll*, *she'll*, *we'll*. Em português, esse tipo de frase costuma ser “eu faço” ou “deixa comigo”.",
+      "examples": [
+        {"en": "The printer is empty. I'll get some paper.", "pt": "A impressora está sem papel. Eu pego papel."},
+        {"en": "I will send you the file in five minutes.", "pt": "Eu envio o arquivo para você em cinco minutos."},
+        {"en": "Don't worry. We'll fix it.", "pt": "Não se preocupe. Nós vamos consertar."}
+      ],
+      "tip": "Tem um plano antigo? Use going to. Acabou de decidir, ofereceu ajuda ou prometeu? Use will."
+    },
+    {
+      "title": "Previsões: will ou going to",
+      "text": "Para **previsões** (o que você acha que vai acontecer), as duas formas funcionam, mas com ideias diferentes.\n\nUse **going to** quando há uma **evidência agora**: você vê ou sabe algo que mostra o futuro. Use **will** para uma **opinião** ou palpite, geralmente com *I think*, *probably* ou *maybe*.",
+      "examples": [
+        {"en": "Look at those clouds. It's going to rain.", "pt": "Olhe aquelas nuvens. Vai chover."},
+        {"en": "I think the project will be ready on time.", "pt": "Acho que o projeto vai ficar pronto a tempo."},
+        {"en": "The server is full. It is going to crash.", "pt": "O servidor está cheio. Ele vai travar."}
+      ],
+      "trap": "Em português usamos “vai” para tudo. Em inglês, não é preciso traduzir “vai” sempre por will: se você vê o motivo agora, prefira going to."
+    },
+    {
+      "title": "Present continuous para compromissos marcados",
+      "text": "Quando o evento já está **combinado**, com hora, lugar ou pessoas, o inglês usa o **present continuous** (am/is/are + -ing) com uma expressão de futuro. O presente em inglês “enxerga” a agenda já preenchida.\n\nÉ comum em reuniões, viagens e entregas. Sem a expressão de tempo (*tomorrow*, *at 3 p.m.*, *next week*), a frase vira “agora”, então ela é quase obrigatória.",
+      "examples": [
+        {"en": "I'm meeting the client at 3 p.m.", "pt": "Eu me encontro com o cliente às 15h."},
+        {"en": "We're releasing the new version on Friday.", "pt": "Nós vamos lançar a nova versão na sexta."},
+        {"en": "She's flying to Berlin next week.", "pt": "Ela vai voar para Berlim na semana que vem."}
+      ],
+      "tip": "Para compromissos marcados, going to e present continuous costumam ser trocáveis: We are going to meet at 3 p.m. também está correto."
+    },
+    {
+      "title": "Negativa e pergunta",
+      "text": "Com **going to**, a negativa usa **not** depois do verbo be: *I'm not going to*, *he isn't going to*, *they aren't going to*. A pergunta inverte o be: **Are you going to…?**\n\nCom **will**, a negativa é **will not** ou **won't**. A pergunta coloca **will** antes do sujeito: **Will you…?** O verbo principal continua na forma base. As respostas curtas repetem o auxiliar: *Yes, I will. / No, I won't.*",
+      "table": {
+        "headers": ["", "going to", "will"],
+        "rows": [
+          ["Afirmativa", "She is going to call.", "She will call."],
+          ["Negativa", "She isn't going to call.", "She won't call."],
+          ["Pergunta", "Is she going to call?", "Will she call?"],
+          ["Resposta curta", "Yes, she is. / No, she isn't.", "Yes, she will. / No, she won't."]
+        ]
+      },
+      "examples": [
+        {"en": "Are you going to join the daily?", "pt": "Você vai participar da daily?"},
+        {"en": "I won't be late tomorrow.", "pt": "Eu não vou me atrasar amanhã."}
+      ],
+      "trap": "Não use do/does na pergunta de futuro. Diga *Will you come?* e *Are you going to come?*, nunca *Do you will come?*."
+    },
+    {
+      "title": "Expressões de tempo e o futuro no trabalho",
+      "text": "As frases de futuro quase sempre trazem uma expressão de tempo: **tomorrow**, **tonight**, **next week**, **next month**, **this afternoon**, **on Monday**, **in two days**. Note que *next week* e *tomorrow* não levam preposição.\n\nNo trabalho, você vai usar as três formas em e-mails, dailies e reuniões: um plano (*I'm going to…*), uma oferta (*I'll…*) e uma agenda (*We're having…*).",
+      "examples": [
+        {"en": "I'm going to update the documentation next week.", "pt": "Eu vou atualizar a documentação na semana que vem."},
+        {"en": "I'll check the logs and call you back.", "pt": "Eu verifico os logs e ligo de volta para você."},
+        {"en": "We're having a demo on Monday.", "pt": "Nós teremos uma demonstração na segunda."},
+        {"en": "The test will finish in ten minutes.", "pt": "O teste vai terminar em dez minutos."}
+      ],
+      "trap": "Em inglês não se diz *in next week*. Use **next week** sozinho, e **in** só com um período: *in two days*, *in an hour*."
+    }
+  ],
+  "summary": [
+    "Going to (am/is/are + going to + verbo base) expressa planos e previsões com evidência.",
+    "Will (will + verbo base, contração ’ll) expressa decisões na hora, promessas, ofertas e opiniões.",
+    "O present continuous com expressão de tempo fala de compromissos já marcados.",
+    "Negativa: isn't going to / won't. Pergunta: Are you going to…? / Will you…? Sem do/does.",
+    "Depois de will e de going to, o verbo fica sempre na forma base."
+  ],
+  "practice": [
+    {"id": "a2-08-p1", "type": "choice", "prompt": "She ___ visit a client tomorrow.", "options": ["is going to", "going to", "is go to"], "answer": 0,
+     "explain": "Going to precisa do verbo be antes: she is going to visit. Sem o is, a frase fica incompleta.",
+     "why_not": {"1": "Falta o verbo be (is) antes de going to.", "2": "A estrutura é going to, e não go to."}},
+    {"id": "a2-08-p2", "type": "choice", "prompt": "Your laptop is not working? OK, I ___ call IT for you.", "options": ["will", "am going to", "going to"], "answer": 0,
+     "explain": "Você decidiu agora e está oferecendo ajuda: isso pede will (I'll call).",
+     "why_not": {"1": "Am going to é para um plano que você já tinha. Aqui a decisão é na hora.", "2": "Faltou o verbo be antes de going to."}},
+    {"id": "a2-08-p3", "type": "choice", "prompt": "Look at those dark clouds! It ___ rain.", "options": ["is going to", "will to", "are going to"], "answer": 0,
+     "explain": "Você vê uma evidência agora (nuvens escuras), então usamos going to. Com it, o verbo be é is.",
+     "why_not": {"1": "Depois de will não usamos to.", "2": "Com it, o verbo be é is, e não are."}},
+    {"id": "a2-08-p4", "type": "fill", "prompt": "They ___ going to deploy the fix tonight.", "answers": ["are"],
+     "explain": "They é plural e usa are: they are going to deploy."},
+    {"id": "a2-08-p5", "type": "fill", "prompt": "I think the new tool ___ be very useful.", "answers": ["will"],
+     "explain": "I think + opinião sobre o futuro pede will: the new tool will be useful."},
+    {"id": "a2-08-p6", "type": "translate", "prompt": "Eu vou trabalhar de casa amanhã.", "answers": ["I am going to work from home tomorrow.", "I will work from home tomorrow.", "I am working from home tomorrow."],
+     "explain": "As três formas servem para falar de amanhã. A mais comum para um plano é going to: I am going to work from home tomorrow."},
+    {"id": "a2-08-p7", "type": "order", "words": ["We", "are", "going", "to", "test", "the", "app"], "prompt": "Nós vamos testar o aplicativo.",
+     "explain": "A ordem é sujeito + am/is/are + going to + verbo base + complemento."},
+    {"id": "a2-08-p8", "type": "fix", "prompt": "She going to send the report.", "answers": ["She is going to send the report."],
+     "explain": "Em going to, o verbo be é obrigatório: she is going to send. Em português “vai” é um verbo só, mas em inglês o is faz parte da estrutura."},
+    {"id": "a2-08-p9", "type": "fix", "prompt": "I will to call you later.", "answers": ["I will call you later."],
+     "explain": "Will é seguido direto do verbo base, sem to: I will call. O to só aparece em going to."},
+    {"id": "a2-08-p10", "type": "translate", "prompt": "Eu não vou ao escritório amanhã.", "answers": ["I am not going to the office tomorrow.", "I am not going to go to the office tomorrow.", "I will not go to the office tomorrow."],
+     "explain": "A negativa com going to usa am not going to. Também vale will not (won't) para uma decisão ou promessa."},
+    {"id": "a2-08-p11", "type": "listen", "en": "I'm going to learn English this year.",
+     "explain": "I'm going to + verbo base indica um plano para o futuro. Ouça o I'm e o going to."}
+  ],
+  "quiz": [
+    {"id": "a2-08-q1", "type": "choice", "prompt": "Is she ___ attend the meeting?", "options": ["going to", "go to", "will to"], "answer": 0,
+     "explain": "Na pergunta com going to, invertemos o be (Is she…) e mantemos going to + verbo base."},
+    {"id": "a2-08-q2", "type": "fill", "prompt": "Don't worry. We ___ fix it today. I promise.", "answers": ["will"],
+     "explain": "Promessa pede will: we will fix it. Usamos o mesmo will para todos os pronomes."},
+    {"id": "a2-08-q3", "type": "translate", "prompt": "Você vai fazer o deploy hoje à noite?", "answers": ["Are you going to deploy tonight?", "Will you deploy tonight?", "Are you deploying tonight?"],
+     "explain": "Na pergunta, o be vem antes do sujeito (Are you going to…?) ou usamos Will you…? Nunca do/does."},
+    {"id": "a2-08-q4", "type": "order", "words": ["It", "is", "going", "to", "be", "a", "long", "day"], "prompt": "Vai ser um dia longo.",
+     "explain": "It is going to be + descrição: depois de going to o verbo fica na forma base (be)."},
+    {"id": "a2-08-q5", "type": "fix", "prompt": "He is going to works from home.", "answers": ["He is going to work from home."],
+     "explain": "Depois de going to, o verbo fica na forma base, sem -s. O is já mostra a terceira pessoa."},
+    {"id": "a2-08-q6", "type": "choice", "prompt": "Qual frase mostra uma decisão tomada na hora?", "options": ["I'm going to buy a new laptop next month.", "Oh, the printer is empty. I'll get some paper.", "We are meeting the client at 3 p.m."], "answer": 1,
+     "explain": "A pessoa percebeu o problema agora e decidiu agir: isso pede will (I'll).",
+     "why_not": {"0": "É um plano já pensado: going to.", "2": "É um compromisso marcado: present continuous."}},
+    {"id": "a2-08-q7", "type": "listen", "en": "They won't finish the task today.",
+     "explain": "Won't é a contração de will not. Depois dela vem o verbo base: finish."}
+  ],
+  "words": [
+    {"word": "plan", "pt": "plano; planejar"},
+    {"word": "promise", "pt": "promessa; prometer"},
+    {"word": "tomorrow", "pt": "amanhã"},
+    {"word": "tonight", "pt": "hoje à noite"},
+    {"word": "next week", "pt": "semana que vem"},
+    {"word": "deploy", "pt": "fazer deploy; publicar em produção"},
+    {"word": "release", "pt": "lançamento; lançar"},
+    {"word": "schedule", "pt": "agenda; cronograma"},
+    {"word": "crash", "pt": "travar; falhar de repente"},
+    {"word": "probably", "pt": "provavelmente"}
+  ]
+}

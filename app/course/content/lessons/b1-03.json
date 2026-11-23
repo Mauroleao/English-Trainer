@@ -1,0 +1,174 @@
+{
+  "id": "b1-03",
+  "level": "B1",
+  "unit": "Passado em detalhe",
+  "title": "Past continuous e past simple",
+  "goal": "Contar uma história ou um incidente no passado, separando o cenário (past continuous) dos eventos (past simple) com when, while e as.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "Cenário e evento",
+      "text": "Quando contamos algo que aconteceu, usamos dois tempos verbais com funções diferentes. O **past continuous** descreve o **cenário**: o que estava em andamento. O **past simple** conta o **evento**: o que aconteceu, de repente, naquele cenário.\n\nEm português é parecido: “Eu **estava trabalhando** (cenário) quando o servidor **caiu** (evento)”. Em inglês: *I was working when the server crashed.*",
+      "examples": [
+        {"en": "I was working when the server crashed.", "pt": "Eu estava trabalhando quando o servidor caiu."},
+        {"en": "It was raining when we left the office.", "pt": "Estava chovendo quando saímos do escritório."},
+        {"en": "She was talking to a client when I arrived.", "pt": "Ela estava falando com um cliente quando eu cheguei."}
+      ],
+      "tip": "Imagine um filme: o past continuous é o fundo da cena e o past simple é a ação que acontece na frente."
+    },
+    {
+      "title": "A forma: was/were + -ing",
+      "text": "O past continuous usa o verbo **to be** no passado (**was** ou **were**) mais o **verbo com -ing**. **Was** vai com *I, he, she, it*; **were** vai com *you, we, they*.\n\nNa negativa, usamos **wasn't** ou **weren't**. Na pergunta, invertemos: **Was/Were + sujeito + -ing?** A resposta curta repete o was/were: *Yes, I was.* / *No, they weren't.*",
+      "table": {
+        "headers": ["Tipo", "I / he / she / it", "you / we / they"],
+        "rows": [
+          ["Afirmativa", "He was testing.", "They were testing."],
+          ["Negativa", "I wasn't testing.", "We weren't testing."],
+          ["Pergunta", "Was she testing?", "Were you testing?"],
+          ["Resposta curta", "Yes, she was.", "No, we weren't."]
+        ]
+      },
+      "examples": [
+        {"en": "I was reading the logs.", "pt": "Eu estava lendo os logs."},
+        {"en": "We weren't using the new server.", "pt": "Nós não estávamos usando o servidor novo."},
+        {"en": "Were you sleeping at midnight?", "pt": "Você estava dormindo à meia-noite?"}
+      ],
+      "trap": "Não misture o verbo comum com was. *I was work* e *I worked-ing* estão errados; use *I was working*."
+    },
+    {
+      "title": "Uma ação em andamento em um momento do passado",
+      "text": "O primeiro uso do past continuous é mostrar o que estava **acontecendo em um momento específico** do passado. Esse momento pode ser uma hora (*at 9 p.m.*), uma frase (*when you called*) ou uma situação.\n\nA pergunta *What were you doing at…?* é típica em relatos de incidentes: ela quer saber o que a pessoa estava fazendo naquele instante.",
+      "examples": [
+        {"en": "At nine last night, I was updating the database.", "pt": "Às nove da noite passada, eu estava atualizando o banco de dados."},
+        {"en": "What were you doing at 2 a.m.?", "pt": "O que você estava fazendo às duas da manhã?"},
+        {"en": "They were having a meeting at that time.", "pt": "Eles estavam em uma reunião naquela hora."}
+      ],
+      "trap": "Em português usamos o imperfeito (“eu fazia”) para isso. Em inglês, para uma ação em andamento em um momento exato, prefira o past continuous: *I was updating*, e não *I updated*."
+    },
+    {
+      "title": "Ação interrompida: when, while e as",
+      "text": "O uso mais famoso: uma ação **longa** (past continuous) é **interrompida** por uma ação **curta** (past simple). Usamos **when** antes da ação curta e **while** (ou **as**) antes da ação longa.\n\n**While** e **as** significam “enquanto” e vêm normalmente com a ação em andamento. **As** é um pouco mais formal ou escrito e, nas frases com *as*, o sentido é de duas coisas acontecendo ao mesmo tempo. A ordem das partes pode mudar; se a frase começar com *when/while*, ponha uma vírgula.",
+      "table": {
+        "headers": ["Palavra", "Vem antes de", "Exemplo"],
+        "rows": [
+          ["when", "ação curta (past simple)", "I was coding when the power went out."],
+          ["while", "ação longa (past continuous)", "The power went out while I was coding."],
+          ["as", "ação longa, mais formal", "The alarm rang as we were leaving."]
+        ]
+      },
+      "examples": [
+        {"en": "I was coding when the power went out.", "pt": "Eu estava programando quando a luz acabou."},
+        {"en": "While I was coding, the power went out.", "pt": "Enquanto eu programava, a luz acabou."},
+        {"en": "She called as we were leaving the office.", "pt": "Ela ligou quando estávamos saindo do escritório."},
+        {"en": "The app froze while he was saving the file.", "pt": "O app travou enquanto ele salvava o arquivo."}
+      ]
+    },
+    {
+      "title": "Duas ações ao mesmo tempo, ou uma depois da outra?",
+      "text": "Duas ações longas ao mesmo tempo usam **while** com dois past continuous: *While I was testing, she was writing.* Já duas ações curtas **em sequência** usam dois **past simple**: *When the alarm rang, I opened my laptop*. Primeiro o alarme tocou, depois eu abri.\n\nA diferença é grande. Em *When the alarm rang, I was opening my laptop*, a abertura já estava acontecendo quando o alarme tocou. Em *When the alarm rang, I opened my laptop*, a abertura veio depois.",
+      "table": {
+        "headers": ["Ideia", "Estrutura", "Exemplo"],
+        "rows": [
+          ["Ação interrompida", "was -ing + when + past simple", "I was opening it when the alarm rang."],
+          ["Sequência", "when + past simple, past simple", "When the alarm rang, I opened it."],
+          ["Ao mesmo tempo", "while + past cont., past cont.", "While I was testing, she was writing."]
+        ]
+      },
+      "examples": [
+        {"en": "When the alarm rang, I opened my laptop.", "pt": "Quando o alarme tocou, eu abri o notebook. (primeiro o alarme, depois abri)"},
+        {"en": "While I was testing, she was writing the report.", "pt": "Enquanto eu testava, ela escrevia o relatório."},
+        {"en": "When he saw the error, he stopped the deploy.", "pt": "Quando ele viu o erro, parou o deploy."}
+      ],
+      "tip": "Pergunte-se: a primeira ação já estava acontecendo (continuous) ou aconteceu depois da outra (simple)?"
+    },
+    {
+      "title": "Verbos de estado e erros comuns",
+      "text": "Assim como no presente, alguns verbos de **estado** quase não usam -ing: *know*, *want*, *need*, *like*, *understand*. Para eles, use o past simple: *I knew the answer*, e não *I was knowing*.\n\nOutros dois cuidados. Depois de **while**, o past continuous é o normal para a ação longa: *while I was working*. E não troque **when** por **while** diante de uma ação curta: diga *when the server crashed*, e não *while the server crashed*.",
+      "examples": [
+        {"en": "I knew the password, but I forgot to type it.", "pt": "Eu sabia a senha, mas esqueci de digitá-la."},
+        {"en": "We needed a new laptop last year.", "pt": "Precisávamos de um notebook novo no ano passado."},
+        {"en": "I was working when the server crashed.", "pt": "Eu estava trabalhando quando o servidor caiu."}
+      ],
+      "trap": "*I was wanting a coffee* soa estranho em inglês. Com want, need e know, use o past simple: *I wanted a coffee*."
+    },
+    {
+      "title": "No trabalho: relato de incidente",
+      "text": "Um relato de incidente (*incident report*) segue quase sempre o mesmo padrão: primeiro o **cenário** (past continuous), depois o **evento** (past simple), depois a **reação** (past simple em sequência). Dominar esse padrão ajuda em reuniões de pós-mortem e em e-mails para clientes.\n\nObserve: o cenário diz o que estava em andamento; cada verbo no past simple é um passo novo da história.",
+      "examples": [
+        {"en": "At 2 a.m., the system was processing orders.", "pt": "Às 2h da manhã, o sistema estava processando pedidos."},
+        {"en": "Suddenly, the database stopped responding.", "pt": "De repente, o banco de dados parou de responder."},
+        {"en": "We restarted the server and checked the logs.", "pt": "Reiniciamos o servidor e verificamos os logs."},
+        {"en": "While we were investigating, customers were sending complaints.", "pt": "Enquanto investigávamos, os clientes enviavam reclamações."}
+      ]
+    }
+  ],
+  "summary": [
+    "O past continuous (was/were + -ing) descreve o cenário: o que estava em andamento no passado.",
+    "O past simple conta os eventos que aconteceram, e uma ação curta pode interromper uma ação longa: I was coding when the power went out.",
+    "Use when antes da ação curta e while ou as antes da ação longa; duas ações longas ao mesmo tempo usam while com dois past continuous.",
+    "Duas ações curtas em sequência usam dois past simple: When the alarm rang, I opened my laptop.",
+    "Verbos de estado como know, want e need não costumam usar -ing; use o past simple."
+  ],
+  "practice": [
+    {"id": "b1-03-p1", "type": "choice", "prompt": "They ___ a meeting at 10 a.m. yesterday.", "options": ["were having", "was having", "has having"], "answer": 0,
+     "explain": "They usa were, e a ação estava em andamento naquele horário: were having.",
+     "why_not": {"1": "Was é usado com I, he, she e it.", "2": "Has não faz parte do past continuous."}},
+    {"id": "b1-03-p2", "type": "choice", "prompt": "Eu estava fazendo o deploy quando o servidor caiu. — I ___ the update when the server crashed.", "options": ["was deploying", "deployed", "have deployed"], "answer": 0,
+     "explain": "O deploy estava em andamento quando o servidor caiu, então usamos o past continuous.",
+     "why_not": {"1": "Deployed sozinho não mostra que a ação estava em andamento.", "2": "O present perfect não combina com when e um momento passado."}},
+    {"id": "b1-03-p3", "type": "choice", "prompt": "While she ___ the code, her laptop turned off.", "options": ["was reviewing", "has reviewed", "will review"], "answer": 0,
+     "explain": "Depois de while, a ação longa vem no past continuous: was reviewing. A segunda ação (turned off) está no past simple.",
+     "why_not": {"1": "O present perfect não se encaixa em uma história no passado.", "2": "Will review é futuro."}},
+    {"id": "b1-03-p4", "type": "fill", "prompt": "I ___ walking to the office when it started to rain.", "answers": ["was"],
+     "explain": "O sujeito é I, então o auxiliar do past continuous é was."},
+    {"id": "b1-03-p5", "type": "fill", "prompt": "We were having lunch ___ the alarm went off.", "answers": ["when"],
+     "explain": "When vem antes da ação curta que interrompe a ação em andamento."},
+    {"id": "b1-03-p6", "type": "fill", "prompt": "They ___ working when the power went out.", "answers": ["were"],
+     "explain": "They usa were no past continuous: they were working."},
+    {"id": "b1-03-p7", "type": "order", "words": ["I", "was", "reading", "an", "email", "when", "you", "called"], "prompt": "Eu estava lendo um e-mail quando você ligou.", "answers": ["When you called, I was reading an email."],
+     "explain": "A ação longa (was reading) vem no past continuous e a curta (called) no past simple, ligada por when."},
+    {"id": "b1-03-p8", "type": "translate", "prompt": "Eu estava dormindo quando o telefone tocou.", "answers": ["I was sleeping when the phone rang.", "When the phone rang, I was sleeping.", "I was sleeping when my phone rang.", "When my phone rang, I was sleeping.", "I was asleep when the phone rang.", "When the phone rang, I was asleep."],
+     "explain": "Dormir estava em andamento (was sleeping) e o toque do telefone foi o evento (rang). Ring é irregular: ring, rang."},
+    {"id": "b1-03-p9", "type": "fix", "prompt": "I was work on the bug when the power went out.", "answers": ["I was working on the bug when the power went out."],
+     "explain": "Depois de was, o verbo precisa terminar em -ing: was working."},
+    {"id": "b1-03-p10", "type": "choice", "prompt": "Primeiro o alarme tocou, depois eu abri o notebook. — When the alarm rang, I ___ my laptop.", "options": ["opened", "was opening", "have opened"], "answer": 0,
+     "explain": "As duas ações aconteceram em sequência, então as duas ficam no past simple: rang e opened.",
+     "why_not": {"1": "Was opening diria que a abertura já estava acontecendo quando o alarme tocou.", "2": "O present perfect não combina com when e um fato passado."}},
+    {"id": "b1-03-p11", "type": "choice", "prompt": "Qual frase conta uma ação que interrompeu outra?", "options": ["I was opening the file when the app froze.", "I have opened the file when the app froze.", "I open the file when the app froze."], "answer": 0,
+     "explain": "Was opening é a ação em andamento e froze é a ação curta que a interrompeu.",
+     "why_not": {"1": "Have opened é present perfect e não se mistura com when e past simple.", "2": "Open está no presente, mas a frase fala do passado."}},
+    {"id": "b1-03-p12", "type": "listen", "en": "I was deploying the fix when the server crashed.",
+     "explain": "Was deploying é o cenário e crashed é o evento que o interrompeu."}
+  ],
+  "quiz": [
+    {"id": "b1-03-q1", "type": "choice", "prompt": "She ___ a call when her battery died.", "options": ["was taking", "were taking", "has taking"], "answer": 0,
+     "explain": "She usa was no past continuous, e a bateria acabar é o evento que interrompeu a ligação.",
+     "why_not": {"1": "Were é usado com you, we e they.", "2": "Has taking não existe: o auxiliar do passado contínuo é was/were."}},
+    {"id": "b1-03-q2", "type": "fill", "prompt": "While we ___ testing, the client sent a new request.", "answers": ["were"],
+     "explain": "We usa were. Depois de while vem a ação em andamento, no past continuous."},
+    {"id": "b1-03-q3", "type": "translate", "prompt": "Nós estávamos almoçando quando o cliente ligou.",
+     "answers": ["We were having lunch when the client called.", "We were eating lunch when the client called.", "We were having lunch when the client phoned.", "We were eating lunch when the client phoned.", "When the client called, we were having lunch.", "When the client called, we were eating lunch.", "When the client phoned, we were having lunch.", "When the client phoned, we were eating lunch."],
+     "explain": "O almoço estava em andamento (were having lunch) e a ligação foi o evento (called)."},
+    {"id": "b1-03-q4", "type": "order", "words": ["What", "were", "you", "doing", "when", "it", "happened"], "prompt": "O que você estava fazendo quando aconteceu?", "answers": ["When it happened, what were you doing."],
+     "explain": "A pergunta é What + were + sujeito + -ing. O evento (happened) fica no past simple."},
+    {"id": "b1-03-q5", "type": "fix", "prompt": "She was fix the bug when I arrived.", "answers": ["She was fixing the bug when I arrived."],
+     "explain": "O past continuous exige o verbo com -ing depois de was: was fixing."},
+    {"id": "b1-03-q6", "type": "choice", "prompt": "Qual frase está correta?", "options": ["While I was working, the power went out.", "While I worked, the power was going out.", "While I was work, the power went out."], "answer": 0,
+     "explain": "A ação longa vem no past continuous (was working) e a curta no past simple (went out).",
+     "why_not": {"1": "Os tempos estão trocados: a ação curta não deve ficar no continuous.", "2": "Depois de was é preciso o verbo com -ing."}},
+    {"id": "b1-03-q7", "type": "listen", "en": "While we were testing, the server stopped responding.",
+     "explain": "Were testing é a ação longa e stopped responding é o evento que aconteceu durante ela."}
+  ],
+  "words": [
+    {"word": "while", "pt": "enquanto"},
+    {"word": "suddenly", "pt": "de repente"},
+    {"word": "incident", "pt": "incidente"},
+    {"word": "alarm", "pt": "alarme"},
+    {"word": "power", "pt": "energia; luz (eletricidade)"},
+    {"word": "crash", "pt": "travar; cair (sistema)"},
+    {"word": "freeze", "pt": "congelar; travar"},
+    {"word": "investigate", "pt": "investigar"},
+    {"word": "complaint", "pt": "reclamação"},
+    {"word": "restart", "pt": "reiniciar"}
+  ]
+}

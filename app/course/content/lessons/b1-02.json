@@ -1,0 +1,172 @@
+{
+  "id": "b1-02",
+  "level": "B1",
+  "unit": "Experiências e resultados",
+  "title": "Present perfect continuous",
+  "goal": "Falar de ações que começaram no passado e continuam (ou acabaram de parar), usando have/has been + -ing com for, since e how long.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "Uma ação que dura até agora",
+      "text": "O **present perfect continuous** (presente perfeito contínuo) mostra uma atividade que **começou no passado e continua até agora**, ou que parou há pouco tempo. O foco não está no resultado, e sim na **duração** e no **processo**: quanto tempo a pessoa vem fazendo aquilo.\n\nEm português usamos expressões como “venho trabalhando”, “estou esperando há duas horas” ou “tenho estudado”. Em inglês, tudo isso vira **have/has been + verbo com -ing**.",
+      "examples": [
+        {"en": "I have been working on this bug all morning.", "pt": "Eu estou trabalhando neste bug a manhã toda."},
+        {"en": "We have been waiting for the client since ten.", "pt": "Estamos esperando o cliente desde as dez."},
+        {"en": "She has been learning Go for three months.", "pt": "Ela vem aprendendo Go há três meses."}
+      ],
+      "tip": "Pense em uma linha do tempo: a atividade começou lá atrás e a linha chega até o presente."
+    },
+    {
+      "title": "A forma: have/has + been + -ing",
+      "text": "A estrutura tem três peças: **have** ou **has** (concorda com o sujeito), **been** (o particípio de *be*) e o **verbo com -ing**. Com *he, she* e *it* usamos **has**; com os outros pronomes, **have**.\n\nNa negativa, colocamos **not** depois de have/has (*haven't*, *hasn't*). Na pergunta, invertemos: **Have/Has + sujeito + been + -ing?** A resposta curta repete só o have/has: *Yes, I have.* / *No, she hasn't.*",
+      "table": {
+        "headers": ["Tipo", "I / you / we / they", "he / she / it"],
+        "rows": [
+          ["Afirmativa", "I have been testing.", "She has been testing."],
+          ["Negativa", "We haven't been testing.", "He hasn't been testing."],
+          ["Pergunta", "Have you been testing?", "Has it been running?"],
+          ["Resposta curta", "Yes, I have. / No, I haven't.", "Yes, she has. / No, he hasn't."]
+        ]
+      },
+      "examples": [
+        {"en": "They have been testing the new API.", "pt": "Eles estão testando a nova API."},
+        {"en": "He hasn't been answering my messages.", "pt": "Ele não tem respondido às minhas mensagens."},
+        {"en": "Have you been using the new editor?", "pt": "Você tem usado o novo editor?"}
+      ],
+      "trap": "Não esqueça o **been**. *I have working* está errado; o certo é *I have been working*."
+    },
+    {
+      "title": "For, since e How long",
+      "text": "Para dizer **há quanto tempo** algo acontece, combinamos o present perfect continuous com **for** (+ duração) e **since** (+ ponto de início). Para perguntar, usamos **How long…?**\n\nO inglês não aceita o presente simples nem o presente contínuo nessa ideia. Em português dizemos “Estou esperando há uma hora”, mas em inglês precisamos do present perfect: *I have been waiting for an hour*.",
+      "table": {
+        "headers": ["Palavra", "Depois dela vem", "Exemplo"],
+        "rows": [
+          ["for", "duração", "We have been testing for two hours."],
+          ["since", "ponto de início", "We have been testing since lunch."],
+          ["How long", "pergunta sobre duração", "How long have you been testing?"]
+        ]
+      },
+      "examples": [
+        {"en": "I have been using Linux for ten years.", "pt": "Eu uso Linux há dez anos."},
+        {"en": "The build has been running since 2 p.m.", "pt": "O build está rodando desde as 14h."},
+        {"en": "How long have you been working here?", "pt": "Há quanto tempo você trabalha aqui?"}
+      ],
+      "trap": "*I am waiting for an hour* e *I wait for an hour* não dizem “estou esperando há uma hora”. Diga *I have been waiting for an hour*."
+    },
+    {
+      "title": "Duração ou resultado?",
+      "text": "Muitas vezes dá para escolher entre o continuous e o present perfect simples. A diferença é o **foco**. O **continuous** destaca a atividade e o tempo gasto, e a atividade pode estar incompleta. O **simples** destaca o **resultado** ou a **quantidade** concluída.\n\nPor isso, com **How long?** usamos o continuous, e com **How many?** ou **How much?** usamos o simples.",
+      "table": {
+        "headers": ["Foco", "Tempo verbal", "Exemplo"],
+        "rows": [
+          ["Atividade, duração", "have been + -ing", "I have been writing the report all day."],
+          ["Resultado pronto", "have + particípio", "I have written the report."],
+          ["Quantidade", "have + particípio", "I have written three reports today."]
+        ]
+      },
+      "examples": [
+        {"en": "I have been writing the report all day.", "pt": "Estou escrevendo o relatório o dia todo. (talvez ainda não acabei)"},
+        {"en": "I have written the report. Please read it.", "pt": "Eu escrevi o relatório. Leia, por favor. (está pronto)"},
+        {"en": "How many tests have you run?", "pt": "Quantos testes você rodou?"}
+      ],
+      "tip": "Perguntou quanto tempo? Continuous. Perguntou quantos ou quanto? Simples."
+    },
+    {
+      "title": "Ação recente com sinais no presente",
+      "text": "Também usamos o present perfect continuous para explicar algo que **vemos ou sentimos agora** por causa de uma atividade que acabou de parar. A atividade pode já ter terminado, mas o efeito continua visível: cansaço, chão molhado, mãos sujas.\n\nNesses casos, normalmente não há *for* nem *since*. A pergunta típica é *Why…?* e a resposta explica a causa com *I've been…*.",
+      "examples": [
+        {"en": "Why are your eyes red? I have been debugging all night.", "pt": "Por que seus olhos estão vermelhos? Passei a noite depurando."},
+        {"en": "The floor is wet. It has been raining.", "pt": "O chão está molhado. Esteve chovendo."},
+        {"en": "You look tired. Have you been sleeping well?", "pt": "Você parece cansado. Tem dormido bem?"},
+        {"en": "She has been crying, I think.", "pt": "Acho que ela esteve chorando."}
+      ],
+      "trap": "Em português dizemos “Eu passei a noite depurando” com o pretérito. Em inglês, quando o efeito aparece agora, o present perfect continuous é o mais natural: *I have been debugging all night*."
+    },
+    {
+      "title": "Verbos de estado não usam o continuous",
+      "text": "Alguns verbos descrevem um **estado**, e não uma ação em andamento: *know*, *understand*, *believe*, *want*, *like*, *need* e *have* no sentido de “possuir”. Esses verbos quase não aparecem com -ing. Para eles, usamos o present perfect simples com for ou since.\n\nExceção útil: verbos como *live*, *work* e *study* aceitam as duas formas, quase com o mesmo significado (*I have lived here for years* ou *I have been living here for years*).",
+      "examples": [
+        {"en": "I have known Carla for five years.", "pt": "Eu conheço a Carla há cinco anos."},
+        {"en": "We have needed a new server since May.", "pt": "Precisamos de um servidor novo desde maio."},
+        {"en": "He has been here since nine.", "pt": "Ele está aqui desde as nove."},
+        {"en": "I have worked here for two years.", "pt": "Eu trabalho aqui há dois anos."}
+      ],
+      "trap": "*I have been knowing Carla for years* está errado. Com know, use o simples: *I have known Carla for years*."
+    },
+    {
+      "title": "No trabalho: daily e feedback",
+      "text": "Na **daily** e nas conversas de equipe, o present perfect continuous aparece quando você conta no que anda trabalhando e há quanto tempo. É natural também para falar de problemas que se repetem: *The app has been crashing a lot lately.*\n\nPalavras que combinam bem com ele: **all day**, **all morning**, **lately** (“ultimamente”), **recently** e **for ages** (“há um tempão”).",
+      "examples": [
+        {"en": "I have been working on the login page since Tuesday.", "pt": "Estou trabalhando na página de login desde terça."},
+        {"en": "The app has been crashing a lot lately.", "pt": "O app tem travado muito ultimamente."},
+        {"en": "Which tickets have you been working on this week?", "pt": "Em quais tickets você tem trabalhado esta semana?"},
+        {"en": "We have been talking to the client for ages.", "pt": "Estamos conversando com o cliente há um tempão."}
+      ]
+    }
+  ],
+  "summary": [
+    "O present perfect continuous é have/has + been + verbo com -ing e destaca a duração de uma atividade que vai até agora.",
+    "Para dizer há quanto tempo, use for (+ duração) ou since (+ início) e pergunte com How long have you been…?",
+    "O continuous foca na atividade; o present perfect simples foca no resultado ou na quantidade (How many…?).",
+    "Ele também explica sinais no presente: I have been debugging all night.",
+    "Verbos de estado como know, need e want não usam -ing: I have known her for years."
+  ],
+  "practice": [
+    {"id": "b1-02-p1", "type": "choice", "prompt": "I ___ the logs since 9 a.m.", "options": ["have been checking", "checked", "am checking"], "answer": 0,
+     "explain": "Since 9 a.m. indica que a atividade começou no passado e continua, então usamos have been + -ing.",
+     "why_not": {"1": "O past simple fala de algo terminado e não combina com since.", "2": "O present continuous não expressa há quanto tempo a atividade acontece."}},
+    {"id": "b1-02-p2", "type": "choice", "prompt": "How long ___ working on this project?", "options": ["have you been", "are you", "do you"], "answer": 0,
+     "explain": "A pergunta sobre duração até agora usa How long have you been + -ing.",
+     "why_not": {"1": "How long are you working não é natural em inglês para perguntar a duração.", "2": "Do you working está errado: do não combina com -ing."}},
+    {"id": "b1-02-p3", "type": "fill", "prompt": "We have been waiting ___ two hours.", "answers": ["for"],
+     "explain": "Two hours é uma duração, e durações pedem for."},
+    {"id": "b1-02-p4", "type": "fill", "prompt": "He has been learning Python ___ January.", "answers": ["since"],
+     "explain": "January é um ponto de início, e pontos de início pedem since."},
+    {"id": "b1-02-p5", "type": "fill", "prompt": "They have ___ testing the app all day.", "answers": ["been"],
+     "explain": "A forma é have + been + verbo com -ing. Faltou o been."},
+    {"id": "b1-02-p6", "type": "order", "words": ["She", "has", "been", "writing", "documentation", "all", "morning"], "prompt": "Ela tem escrito documentação a manhã toda.",
+     "explain": "A ordem é sujeito + has + been + verbo com -ing + complemento. All morning fecha a frase."},
+    {"id": "b1-02-p7", "type": "translate", "prompt": "Eu estou aprendendo inglês desde 2022.", "answers": ["I have been learning English since 2022.", "I have been studying English since 2022."],
+     "explain": "Desde 2022 pede present perfect continuous: have been learning, com since antes do ano."},
+    {"id": "b1-02-p8", "type": "fix", "prompt": "She is working here for two years.", "answers": ["She has been working here for two years.", "She has worked here for two years."],
+     "explain": "Para dizer há quanto tempo algo acontece, o inglês usa present perfect, e não o present continuous. O for já está correto."},
+    {"id": "b1-02-p9", "type": "choice", "prompt": "Qual frase diz que o relatório já está pronto?", "options": ["I have been writing the report.", "I have written the report.", "I was writing the report."], "answer": 1,
+     "explain": "O present perfect simples destaca o resultado: o relatório foi concluído.",
+     "why_not": {"0": "O continuous destaca a atividade e deixa aberta a possibilidade de ainda não ter terminado.", "2": "Was writing é past continuous: fala de uma atividade em um momento passado."}},
+    {"id": "b1-02-p10", "type": "choice", "prompt": "I ___ Ana for five years.", "options": ["have known", "have been knowing", "am knowing"], "answer": 0,
+     "explain": "Know é um verbo de estado e não costuma usar -ing. Usamos o present perfect simples: have known.",
+     "why_not": {"1": "Know não aparece no continuous.", "2": "Am knowing também é incorreto pelo mesmo motivo."}},
+    {"id": "b1-02-p11", "type": "listen", "en": "I have been debugging this issue since lunch.",
+     "explain": "Have been debugging + since lunch: a atividade começou no almoço e continua até agora."}
+  ],
+  "quiz": [
+    {"id": "b1-02-q1", "type": "choice", "prompt": "Why are you so tired? I ___ servers all night.", "options": ["have been fixing", "have been fixed", "has been fixing"], "answer": 0,
+     "explain": "A atividade durou a noite toda e o cansaço aparece agora: have been fixing.",
+     "why_not": {"1": "Fixed é particípio e mudaria o sentido para voz passiva.", "2": "Has não concorda com I."}},
+    {"id": "b1-02-q2", "type": "fill", "prompt": "How long have you ___ using this tool?", "answers": ["been"],
+     "explain": "A pergunta é How long have you been + -ing?"},
+    {"id": "b1-02-q3", "type": "translate", "prompt": "Eles estão testando o app desde segunda-feira.", "answers": ["They have been testing the app since Monday.", "They have been testing the application since Monday.", "They have tested the app since Monday.", "They have tested the application since Monday."],
+     "explain": "Desde segunda-feira indica duração até agora: have been testing + since Monday. O present perfect simples também é aceito."},
+    {"id": "b1-02-q4", "type": "order", "words": ["We", "haven't", "been", "sleeping", "well", "lately"], "prompt": "Nós não temos dormido bem ultimamente.", "answers": ["Lately we haven't been sleeping well."],
+     "explain": "Na negativa, not vem junto de have: haven't been sleeping. Lately pode ir no fim ou no começo."},
+    {"id": "b1-02-q5", "type": "fix", "prompt": "I have been knowing Carla for years.", "answers": ["I have known Carla for years."],
+     "explain": "Know é um verbo de estado e não usa -ing. O certo é o present perfect simples: have known."},
+    {"id": "b1-02-q6", "type": "choice", "prompt": "Qual frase dá a quantidade concluída?", "options": ["I have been writing tests all day.", "I have written five tests today.", "I have been writing tests."], "answer": 1,
+     "explain": "Quando contamos quantas coisas foram feitas, usamos o present perfect simples: have written five tests.",
+     "why_not": {"0": "Essa frase fala da atividade, e não de quantos testes ficaram prontos.", "2": "Também fala da atividade, sem dizer o número concluído."}},
+    {"id": "b1-02-q7", "type": "listen", "en": "She has been working on this feature for a month.",
+     "explain": "Has been working + for a month: duração de uma atividade que continua até agora."}
+  ],
+  "words": [
+    {"word": "debug", "pt": "depurar; corrigir erros no código"},
+    {"word": "lately", "pt": "ultimamente"},
+    {"word": "wait", "pt": "esperar; aguardar"},
+    {"word": "learn", "pt": "aprender"},
+    {"word": "documentation", "pt": "documentação"},
+    {"word": "log", "pt": "registro; log"},
+    {"word": "feature", "pt": "funcionalidade; recurso"},
+    {"word": "crash", "pt": "travar; falhar"},
+    {"word": "since", "pt": "desde"},
+    {"word": "all day", "pt": "o dia todo"}
+  ]
+}

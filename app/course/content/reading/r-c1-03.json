@@ -1,0 +1,32 @@
+{
+  "id": "r-c1-03",
+  "level": "C1",
+  "title": "From developer to manager: what nobody tells you",
+  "topic": "Artigo de blog sobre carreira",
+  "text": "When I was offered my first management role, I accepted without hesitation. I had been a developer for eight years, I was good at it, and promotion seemed the natural next step. It took me about six months to understand that I had not been promoted; I had changed professions.\n\nThe first surprise was how differently success is measured. As a developer, I could finish a feature on Friday and feel a clear sense of accomplishment. As a manager, my best weeks were often invisible: a conversation that stopped a conflict from escalating, a decision that spared the team from a pointless project. Nothing shipped, yet something had been achieved.\n\nThe second surprise was the temptation to remain the hero. Whenever a problem became urgent, my instinct was to open the editor and fix it myself. It felt efficient, but it was a trap. Every time I did this, I deprived someone of the chance to learn, and I quietly signalled that I did not trust them. Worse, my own work, which was supposed to be supporting the team, piled up.\n\nWhat helped was a blunt remark from a mentor: \"Your job is no longer to have the answers. It is to ask better questions.\" It sounded like a platitude at the time. In practice, it meant listening longer, resisting the urge to interrupt, and accepting that the team might solve a problem differently from the way I would.\n\nI should add that management is not a better path than staying technical; it is simply a different one. Several of the most admired engineers I know have turned down leadership roles, and they are right to do so if the work does not appeal to them. The mistake is to take the job because it feels like the only way up.\n\nIf you are considering the move, my suggestion is to try it before committing. Ask to lead a project, or to mentor a newcomer, and notice honestly whether you enjoy the parts that are not coding.",
+  "pt": "Quando me ofereceram meu primeiro cargo de gestão, aceitei sem hesitar. Eu era desenvolvedor havia oito anos, era bom no que fazia, e a promoção parecia o próximo passo natural. Levei cerca de seis meses para entender que eu não tinha sido promovido; tinha mudado de profissão.\n\nA primeira surpresa foi como o sucesso é medido de forma tão diferente. Como desenvolvedor, eu podia terminar uma funcionalidade na sexta-feira e sentir uma clara sensação de realização. Como gestor, minhas melhores semanas muitas vezes eram invisíveis: uma conversa que impediu um conflito de escalar, uma decisão que poupou a equipe de um projeto inútil. Nada foi entregue, e ainda assim algo foi conquistado.\n\nA segunda surpresa foi a tentação de continuar sendo o herói. Sempre que um problema ficava urgente, meu instinto era abrir o editor e resolvê-lo eu mesmo. Parecia eficiente, mas era uma armadilha. Cada vez que fazia isso, eu privava alguém da chance de aprender e, discretamente, sinalizava que não confiava na pessoa. Pior, meu próprio trabalho, que deveria apoiar a equipe, se acumulava.\n\nO que ajudou foi uma observação direta de um mentor: \"Seu trabalho não é mais ter as respostas. É fazer perguntas melhores.\" Na época, soou como um clichê. Na prática, significou ouvir por mais tempo, resistir ao impulso de interromper e aceitar que a equipe poderia resolver um problema de maneira diferente da minha.\n\nDevo acrescentar que gestão não é um caminho melhor do que continuar técnico; é simplesmente um caminho diferente. Vários dos engenheiros mais admirados que conheço recusaram cargos de liderança, e têm razão em fazê-lo se o trabalho não os atrai. O erro é aceitar o cargo porque parece ser o único caminho para cima.\n\nSe você está pensando em fazer essa mudança, minha sugestão é experimentar antes de se comprometer. Peça para liderar um projeto ou para orientar um recém-chegado, e observe com honestidade se você gosta das partes que não são programar.",
+  "vocab": [
+    {"word": "promotion", "pt": "promoção"},
+    {"word": "accomplishment", "pt": "realização"},
+    {"word": "escalating", "pt": "escalando, se agravando"},
+    {"word": "temptation", "pt": "tentação"},
+    {"word": "deprived", "pt": "privou"},
+    {"word": "blunt", "pt": "direto, sem rodeios"},
+    {"word": "platitude", "pt": "clichê, lugar-comum"},
+    {"word": "mentor", "pt": "mentor"},
+    {"word": "appeal", "pt": "atrair, agradar"},
+    {"word": "newcomer", "pt": "recém-chegado"}
+  ],
+  "questions": [
+    {"id": "r-c1-03-q1", "type": "choice", "prompt": "What does the writer mean by “I had changed professions”?", "options": ["He moved to another company", "Management requires different skills from development", "He stopped working with technology"], "answer": 1,
+     "explain": "Ele descreve como o sucesso é medido de modo diferente e como o trabalho deixou de ser escrever código."},
+    {"id": "r-c1-03-q2", "type": "choice", "prompt": "Why was fixing problems himself a “trap”?", "options": ["It deprived others of learning and showed a lack of trust", "It made the code worse", "It annoyed the customers"], "answer": 0,
+     "explain": "Ao fazê-lo, “I deprived someone of the chance to learn, and I quietly signalled that I did not trust them”."},
+    {"id": "r-c1-03-q3", "type": "choice", "prompt": "How did the writer first react to the mentor's advice?", "options": ["He followed it at once", "He found it obvious and empty", "He disagreed strongly"], "answer": 1,
+     "explain": "“It sounded like a platitude at the time”, ou seja, um clichê; só depois ele viu o significado prático."},
+    {"id": "r-c1-03-q4", "type": "choice", "prompt": "What is the writer's view on staying technical?", "options": ["It is a failure", "It is a valid path, just different", "It is only for older engineers"], "answer": 1,
+     "explain": "“Management is not a better path than staying technical; it is simply a different one.”"},
+    {"id": "r-c1-03-q5", "type": "choice", "prompt": "What does he suggest before accepting a management role?", "options": ["Ask for a higher salary", "Try leading or mentoring first", "Study for a degree"], "answer": 1,
+     "explain": "Ele sugere “try it before committing”: liderar um projeto ou orientar um recém-chegado."}
+  ]
+}

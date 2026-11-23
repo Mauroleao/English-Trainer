@@ -1,0 +1,257 @@
+{
+  "id": "c1-12",
+  "level": "C1",
+  "unit": "Léxico e registro",
+  "title": "Registro, tom e polidez estratégica",
+  "goal": "Ajustar o tom de pedidos, discordâncias e feedbacks difíceis ao contexto, equilibrando diplomacia e franqueza em inglês profissional.",
+  "minutes": 30,
+  "steps": [
+    {
+      "title": "Tom: a mesma mensagem, efeitos diferentes",
+      "text": "No inglês profissional, **o que** você pede importa menos do que **como** você pede. Três frases com o mesmo conteúdo podem criar reações bem diferentes: uma ordem seca, um pedido educado e um pedido muito cuidadoso. O **registro** (o grau de formalidade) e o **tom** (a atitude que a frase transmite) dependem da estrutura gramatical, e não só do vocabulário.\n\nNesta lição você vê como **suavizar** (soften) pedidos e opiniões, quando ser **direto** é melhor, como escolher entre registro neutro, formal e gíria técnica e como dar um feedback difícil sem ferir a relação de trabalho.",
+      "examples": [
+        {"en": "Send me the report.", "pt": "Mande-me o relatório. (ordem direta, pode soar seca)"},
+        {"en": "Could you send me the report?", "pt": "Você poderia me enviar o relatório?"},
+        {"en": "I was wondering if you could send me the report.", "pt": "Eu estava me perguntando se você poderia me enviar o relatório."}
+      ],
+      "tip": "Entre colegas próximos, *Could you send me the report?* é perfeito. Reserve as formas mais longas para quem você não conhece bem, para superiores ou para pedidos que dão trabalho."
+    },
+    {
+      "title": "Pedidos suavizados: as estruturas",
+      "text": "O inglês suaviza pedidos principalmente de três maneiras: com **modais no passado** (*could*, *would*), com **tempos mais distantes** (*I was wondering*) e com **perguntas indiretas** (*Would it be possible to…?*). Quanto mais distante a forma, mais educado o pedido.\n\nCada estrutura pede um verbo em forma específica: **Would you mind + -ing**, **Could you + verbo base**, **I was wondering if you could + verbo base** e **Would it be possible to + infinitivo**. Note que em *Would you mind* o verbo seguinte vai no **-ing**.",
+      "table": {
+        "headers": ["Estrutura", "Exemplo"],
+        "rows": [
+          ["Could you + verbo base", "Could you review my pull request?"],
+          ["Would you mind + -ing", "Would you mind reviewing my pull request?"],
+          ["I was wondering if you could + verbo base", "I was wondering if you could review my pull request."],
+          ["Would it be possible to + infinitivo", "Would it be possible to postpone the meeting?"],
+          ["Do you think you could + verbo base", "Do you think you could join the call at ten?"]
+        ]
+      },
+      "examples": [
+        {"en": "Would you mind sending me the logs?", "pt": "Você se importaria de me enviar os logs?"},
+        {"en": "I was wondering if you could join the call at ten.", "pt": "Eu estava me perguntando se você poderia entrar na chamada às dez."},
+        {"en": "Would it be possible to move the deadline to Monday?", "pt": "Seria possível mudar o prazo para segunda-feira?"}
+      ],
+      "trap": "Depois de *Would you mind*, não use *to*. Dizer *Would you mind to review my code?* está errado; o certo é *Would you mind reviewing my code?*."
+    },
+    {
+      "title": "Suavizar opiniões, discordâncias e más notícias",
+      "text": "Discordar de um colega ou de um cliente pede cuidado. Uma técnica comum é **reconhecer o ponto do outro** antes de apresentar o seu: *I see your point, but…*. Outra é marcar a opinião como sua, e não como verdade absoluta: *It seems to me that…*, *I might be wrong, but…*.\n\nPara más notícias, o inglês usa **I'm afraid**, que aqui **não** significa “tenho medo”: é uma forma educada de anunciar algo desagradável. Também há **I'm not sure that…** e **Perhaps we could…** para propor uma alternativa sem confrontar.",
+      "examples": [
+        {"en": "I see your point, but I am not sure that is the best approach.", "pt": "Entendo seu ponto, mas não tenho certeza de que essa seja a melhor abordagem."},
+        {"en": "It seems to me that the schedule is too tight.", "pt": "Me parece que o cronograma está apertado demais."},
+        {"en": "I'm afraid we can't release on Friday.", "pt": "Sinto muito, mas não podemos lançar na sexta."},
+        {"en": "Perhaps we could test it first.", "pt": "Talvez pudéssemos testar primeiro."}
+      ],
+      "trap": "*I'm afraid* num aviso de má notícia não é o sentimento de medo. Em português, o equivalente é “infelizmente” ou “sinto muito, mas…”."
+    },
+    {
+      "title": "Diplomacia ou franqueza: quando cada uma",
+      "text": "Ser diplomático não é ser vago. Em situações **urgentes** ou de **segurança**, a clareza vem primeiro: numa falha de produção, *Stop the deployment now* é a frase certa, e suavizá-la pode custar caro. Em conversas sobre prazos, qualidade ou desempenho, o cuidado com o tom protege a relação.\n\nUma técnica útil é **suavizar o adjetivo**, em vez de suavizar toda a mensagem. Palavras como **a bit**, **slightly**, **somewhat** e a negação de um adjetivo positivo (*not very clear* em vez de *confusing*) mantêm o conteúdo, mas reduzem a aspereza.",
+      "examples": [
+        {"en": "Stop the deployment now. The database is corrupted.", "pt": "Pare o deploy agora. O banco de dados está corrompido. (urgência: sem suavização)"},
+        {"en": "The documentation is a bit confusing.", "pt": "A documentação está um pouco confusa."},
+        {"en": "The instructions are not very clear.", "pt": "As instruções não estão muito claras."},
+        {"en": "The schedule seems slightly optimistic.", "pt": "O cronograma parece um pouco otimista."}
+      ],
+      "tip": "Suavizar não é esconder o problema. Depois de suavizar o tom, diga qual é a consequência ou a proposta: *The schedule seems slightly optimistic; I suggest adding two weeks.*"
+    },
+    {
+      "title": "Neutro, formal e gíria técnica",
+      "text": "O mesmo conteúdo existe em três registros. O **formal** aparece em e-mails para clientes, contratos e documentos oficiais. O **neutro** serve para a maior parte do trabalho. O **informal e a gíria técnica** são típicos de chats e de code review entre colegas.\n\nA gíria técnica depende do grupo: *LGTM* (*looks good to me*, “para mim está bom”), *ping me* (“me chame com uma mensagem rápida”) e *nit* (um detalhe pequeno de estilo, de *nitpick*) são comuns em equipes de software, mas podem confundir um cliente ou um leitor externo.",
+      "table": {
+        "headers": ["Registro", "Pedir confirmação", "Enviar um arquivo"],
+        "rows": [
+          ["formal", "I would be grateful if you could confirm receipt.", "Please find the report attached."],
+          ["neutro", "Could you confirm that you received it?", "I have attached the report."],
+          ["informal / gíria técnica", "Ping me when you get it.", "Here's the report."]
+        ]
+      },
+      "examples": [
+        {"en": "Please find the invoice attached.", "pt": "Segue anexa a fatura."},
+        {"en": "Could you confirm that the changes are in production?", "pt": "Você poderia confirmar que as mudanças estão em produção?"},
+        {"en": "LGTM, ship it.", "pt": "Para mim está bom, pode lançar. (só entre colegas)"}
+      ],
+      "trap": "Gíria de equipe não vai para o e-mail de um cliente. Escrever *LGTM, ship it* para um cliente novo soa descuidado, e ele pode nem entender."
+    },
+    {
+      "title": "Dar feedback difícil",
+      "text": "Um feedback difícil funciona melhor com uma estrutura simples: (1) descreva o **fato observado**, sem julgar a pessoa, (2) explique o **impacto** e (3) faça uma **proposta**. Falar de comportamentos concretos, e não de caráter, evita que o outro se defenda.\n\nEvite generalizações como *You always…* e *You never…*. Prefira *I noticed that…*, *It would help if…* e *Have you considered…?*. A estrutura *It would be easier to … if + passado* é muito usada: o verbo depois de *if* fica no passado (*if the pull requests were smaller*), e a parte principal usa *would*.",
+      "examples": [
+        {"en": "I noticed that the last two reports arrived after the deadline.", "pt": "Percebi que os dois últimos relatórios chegaram depois do prazo."},
+        {"en": "It would be easier to review if the pull requests were smaller.", "pt": "Seria mais fácil revisar se os pull requests fossem menores."},
+        {"en": "Have you considered adding tests before merging?", "pt": "Você já pensou em adicionar testes antes de fazer o merge?"},
+        {"en": "I really appreciate your effort, and I think the next step is better documentation.", "pt": "Eu realmente aprecio o seu esforço, e acho que o próximo passo é uma documentação melhor."}
+      ],
+      "trap": "Em português, *You never write tests* parece um comentário comum. Em inglês, *you never* e *you always* soam como acusação. Descreva o caso concreto: *The last two features had no tests*."
+    },
+    {
+      "title": "Linguagem hesitante: suavizar sem perder autoridade",
+      "text": "O excesso de suavização também tem custo. Frases como *Sorry, this is probably stupid, but maybe I just think that…* tiram a força da sua mensagem, e o leitor pode concluir que você não confia na própria ideia. Pequenos modificadores como **just**, **sort of** e **kind of** são úteis na conversa, mas, acumulados, parecem insegurança.\n\nA regra prática é **suavizar uma vez e depois ser claro**: um modal ou uma abertura polida, seguidos da proposta firme. Em e-mails de trabalho, a posição clara e a proposta concreta mostram profissionalismo.",
+      "examples": [
+        {"en": "I think the deadline is unrealistic, and I would like to propose a new date.", "pt": "Acho que o prazo é irrealista, e gostaria de propor uma nova data."},
+        {"en": "Sorry, this is probably stupid, but maybe we could possibly try another way.", "pt": "Desculpe, talvez seja besteira, mas quem sabe poderíamos tentar de outro jeito. (suavização em excesso)"},
+        {"en": "I would like to suggest another approach.", "pt": "Gostaria de sugerir outra abordagem. (educado e claro)"}
+      ],
+      "tip": "Um pedido de desculpas no início (*Sorry to bother you*) é aceitável. Vários pedidos de desculpas na mesma mensagem enfraquecem o que você está dizendo."
+    },
+    {
+      "title": "Em contexto: um e-mail sobre um atraso",
+      "text": "Veja como esses recursos aparecem num e-mail de um líder técnico para um cliente. O texto abre com **honestidade** sobre o problema, usa **I'm afraid** para a má notícia, explica a causa em linguagem neutra e faz uma proposta concreta com um **pedido suavizado**.\n\nRepare que nenhuma frase é longa demais ou sem rumo. A polidez está nas escolhas de estrutura (*I'm afraid*, *Would it be possible to*), e o conteúdo continua claro.",
+      "examples": [
+        {"en": "I'm afraid we will not be able to deliver the feature on Friday.", "pt": "Infelizmente, não conseguiremos entregar a funcionalidade na sexta."},
+        {"en": "The delay is due to a problem in the payment integration.", "pt": "O atraso se deve a um problema na integração de pagamentos."},
+        {"en": "We now expect to deliver it on the following Wednesday.", "pt": "Agora esperamos entregá-la na quarta-feira seguinte."},
+        {"en": "Would it be possible to schedule a short call tomorrow to discuss the options?", "pt": "Seria possível marcar uma chamada rápida amanhã para discutir as opções?"}
+      ],
+      "tip": "Em e-mails sobre atrasos, mantenha esta ordem: fato, causa, nova data, pedido. Quanto mais cedo você disser a má notícia, melhor."
+    }
+  ],
+  "summary": [
+    "Pedidos suavizados usam Could you + verbo base, Would you mind + -ing, I was wondering if you could + verbo base e Would it be possible to + infinitivo.",
+    "I'm afraid, I see your point, but… e It seems to me that… suavizam más notícias e discordâncias sem esconder o conteúdo.",
+    "Em emergências, a clareza vem primeiro; em conversas sobre desempenho, suavize o adjetivo (a bit, not very clear) e proponha uma solução.",
+    "O registro formal, neutro e a gíria técnica (LGTM, ping me, nit) devem ser escolhidos conforme o leitor; gíria de equipe não vai para clientes.",
+    "Feedback difícil: fato observado, impacto e proposta, sem generalizações como you always e you never."
+  ],
+  "practice": [
+    {
+      "id": "c1-12-p1", "type": "choice",
+      "prompt": "Qual pedido é o mais indireto e cuidadoso?",
+      "options": ["Send me the file.", "Could you send me the file, please?", "I was wondering if you could send me the file."], "answer": 2,
+      "explain": "*I was wondering if you could…* usa um tempo mais distante e uma pergunta indireta, o que torna o pedido o mais cuidadoso das três opções.",
+      "why_not": {"0": "É uma ordem direta, sem nenhuma suavização.", "1": "É educada, mas mais direta do que *I was wondering if…*."}
+    },
+    {
+      "id": "c1-12-p2", "type": "fill",
+      "prompt": "Would you mind ___ me the report today? (send)",
+      "answers": ["sending"],
+      "explain": "Depois de *Would you mind*, o verbo vai no -ing: *Would you mind sending…?*."
+    },
+    {
+      "id": "c1-12-p3", "type": "fix",
+      "prompt": "Would you mind to review my code?",
+      "answers": ["Would you mind reviewing my code?"],
+      "explain": "*Would you mind* é seguido de -ing, e não de *to* + verbo. A forma correta é *Would you mind reviewing my code?*."
+    },
+    {
+      "id": "c1-12-p4", "type": "choice",
+      "prompt": "I was wondering if you ___ help me with the deploy.",
+      "options": ["could", "to", "helping"], "answer": 0,
+      "explain": "Depois de *I was wondering if you*, usamos *could* + verbo base: *could help*.",
+      "why_not": {"1": "*To* não pode substituir o verbo modal.", "2": "A forma -ing não cabe depois de *you* nessa posição."}
+    },
+    {
+      "id": "c1-12-p5", "type": "choice",
+      "prompt": "I'm ___ we can't release on Friday.",
+      "options": ["afraid", "scared", "fear"], "answer": 0,
+      "explain": "*I'm afraid* é a fórmula educada para dar uma má notícia, equivalente a “infelizmente” ou “sinto muito, mas”.",
+      "why_not": {"1": "*Scared* é medo de verdade, não uma fórmula de polidez.", "2": "*Fear* é substantivo ou verbo; depois de *I'm* precisaríamos de um adjetivo."}
+    },
+    {
+      "id": "c1-12-p6", "type": "order",
+      "words": ["Would", "it", "be", "possible", "to", "postpone", "the", "meeting"],
+      "prompt": "Seria possível adiar a reunião?",
+      "explain": "A estrutura é *Would it be possible to* + verbo no infinitivo. É uma forma cuidadosa de fazer um pedido que pode causar transtorno."
+    },
+    {
+      "id": "c1-12-p7", "type": "translate",
+      "prompt": "Eu estava me perguntando se você poderia revisar meu código.",
+      "answers": ["I was wondering if you could review my code.", "I was wondering whether you could review my code.", "I was wondering if you could check my code.", "I was wondering if you could look at my code."],
+      "explain": "Depois de *I was wondering if you*, use *could* + verbo base. *If* e *whether* são aceitáveis."
+    },
+    {
+      "id": "c1-12-p8", "type": "choice",
+      "prompt": "Qual é a melhor forma de abrir um feedback difícil sobre testes?",
+      "options": ["You never write tests.", "I noticed the last two pull requests had no tests. Could we add them before merging?", "Your code is bad."], "answer": 1,
+      "explain": "A opção correta descreve um fato concreto e termina com uma proposta. Isso mantém o foco no trabalho, e não na pessoa.",
+      "why_not": {"0": "*You never* é uma generalização e soa como acusação.", "2": "É um julgamento vago, sem fato nem proposta."}
+    },
+    {
+      "id": "c1-12-p9", "type": "fix",
+      "prompt": "Do you could send me the file?",
+      "answers": ["Could you send me the file?", "Can you send me the file?"],
+      "explain": "Para pedir, o modal vem no início da pergunta, sem *do*: *Could you send…?* ou *Can you send…?*."
+    },
+    {
+      "id": "c1-12-p10", "type": "listen",
+      "en": "I was wondering if we could move the deadline.",
+      "explain": "*I was wondering if we could* é uma forma suave de propor uma mudança. Depois de *could* vem o verbo base *move*."
+    },
+    {
+      "id": "c1-12-p11", "type": "choice",
+      "prompt": "Num e-mail a um cliente que você não conhece bem, qual frase é a mais adequada?",
+      "options": ["Hey, ping me when it's ready, ok?", "Could you let us know when it is ready?", "Tell me when ready."], "answer": 1,
+      "explain": "É educada e clara, em registro neutro a formal, adequada para um cliente.",
+      "why_not": {"0": "*Hey* e *ping me* são informais e típicos entre colegas.", "2": "É uma ordem sem sujeito nem verbo completo, e soa abrupta."}
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c1-12-q1", "type": "choice",
+      "prompt": "Would you mind ___ the window?",
+      "options": ["close", "closing", "to close"], "answer": 1,
+      "explain": "Depois de *Would you mind*, o verbo vai no -ing: *Would you mind closing…?*.",
+      "why_not": {"0": "O verbo base não é usado depois de *mind*.", "2": "*To close* não é usado depois de *Would you mind*."}
+    },
+    {
+      "id": "c1-12-q2", "type": "fill",
+      "prompt": "I was wondering ___ you could send me the invoice.",
+      "answers": ["if", "whether"],
+      "explain": "*If* e *whether* introduzem a pergunta indireta, e nenhum deles muda o sentido nesse contexto."
+    },
+    {
+      "id": "c1-12-q3", "type": "translate",
+      "prompt": "Você poderia me mandar o relatório, por favor?",
+      "answers": ["Could you send me the report, please?", "Could you please send me the report?", "Can you send me the report, please?", "Can you please send me the report?", "Would you send me the report, please?", "Would you please send me the report?"],
+      "explain": "*Could you* é a forma educada padrão para pedidos. *Please* pode vir no fim ou antes do verbo."
+    },
+    {
+      "id": "c1-12-q4", "type": "order",
+      "words": ["I", "see", "your", "point", "but", "I", "am", "not", "sure", "that", "is", "the", "best", "approach"],
+      "prompt": "Entendo seu ponto, mas não tenho certeza de que essa seja a melhor abordagem.",
+      "answers": ["I am not sure that is the best approach but I see your point"],
+      "explain": "Primeiro reconhecemos o ponto do outro (*I see your point*) e depois discordamos com cuidado, com *I am not sure that…*."
+    },
+    {
+      "id": "c1-12-q5", "type": "fix",
+      "prompt": "Would it be possible send me the report?",
+      "answers": ["Would it be possible to send me the report?"],
+      "explain": "Depois de *Would it be possible*, usamos *to* + verbo no infinitivo: *to send*."
+    },
+    {
+      "id": "c1-12-q6", "type": "choice",
+      "prompt": "Em um e-mail formal para um cliente, qual expressão deve ser evitada?",
+      "options": ["Please find the report attached.", "I would be happy to clarify.", "LGTM, ship it."], "answer": 2,
+      "explain": "*LGTM, ship it* é gíria de equipe de software, adequada entre colegas, mas não num e-mail formal para um cliente.",
+      "why_not": {"0": "É uma fórmula padrão e formal para anexos.", "1": "É uma oferta educada e formal."}
+    },
+    {
+      "id": "c1-12-q7", "type": "choice",
+      "prompt": "Qual é a melhor abertura para um feedback difícil?",
+      "options": ["You are always late.", "I noticed that the last two reports were late, and I would like to understand what is happening.", "Everyone is annoyed with your reports."], "answer": 1,
+      "explain": "Ela descreve um fato observável e mostra interesse em resolver. Não generaliza nem acusa.",
+      "why_not": {"0": "*Always* é uma generalização e soa como acusação.", "2": "Atribui a opinião a todos, sem fato concreto."}
+    },
+    {
+      "id": "c1-12-q8", "type": "listen",
+      "en": "I'm afraid we cannot deliver the feature on Friday.",
+      "explain": "*I'm afraid* introduz uma má notícia de forma educada. Aqui, não significa medo."
+    }
+  ],
+  "words": [
+    {"word": "tone", "pt": "tom"},
+    {"word": "polite", "pt": "educado; cortês"},
+    {"word": "tactful", "pt": "diplomático; com tato"},
+    {"word": "blunt", "pt": "direto demais; sem rodeios"},
+    {"word": "slang", "pt": "gíria"},
+    {"word": "feedback", "pt": "retorno; avaliação sobre o trabalho"},
+    {"word": "request", "pt": "pedido; solicitação"},
+    {"word": "soften", "pt": "suavizar; amenizar"},
+    {"word": "wonder", "pt": "perguntar-se; querer saber"},
+    {"word": "afraid", "pt": "com medo; (em I'm afraid) infelizmente"},
+    {"word": "appreciate", "pt": "apreciar; agradecer"}
+  ]
+}

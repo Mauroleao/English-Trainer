@@ -1,0 +1,29 @@
+{
+  "id": "r-a2-03",
+  "level": "A2",
+  "title": "One month at home",
+  "topic": "Trabalho remoto: balanço",
+  "text": "I started working from home one month ago. At first it was difficult, but now I like it more than the office.\n\nThe good things: I save two hours every day because I don't travel. My apartment is quieter than the office, so I can concentrate better. Also, lunch is cheaper and healthier.\n\nThe bad things: I miss my colleagues. Video calls are not as fun as lunch together. Sometimes I work too much because my desk is always there.\n\nMy advice: take a short walk every day and stop work at six o'clock.",
+  "pt": "Comecei a trabalhar de casa há um mês. No início foi difícil, mas agora gosto mais do que do escritório.\n\nAs coisas boas: economizo duas horas por dia porque não me desloco. Meu apartamento é mais silencioso do que o escritório, então consigo me concentrar melhor. Além disso, o almoço é mais barato e mais saudável.\n\nAs coisas ruins: sinto falta dos meus colegas. Videochamadas não são tão divertidas quanto um almoço juntos. Às vezes trabalho demais porque minha mesa está sempre ali.\n\nMeu conselho: faça uma caminhada curta todo dia e pare de trabalhar às seis horas.",
+  "vocab": [
+    {"word": "difficult", "pt": "difícil"},
+    {"word": "apartment", "pt": "apartamento"},
+    {"word": "quieter", "pt": "mais silencioso; mais quieto"},
+    {"word": "concentrate", "pt": "concentrar-se"},
+    {"word": "cheaper", "pt": "mais barato"},
+    {"word": "healthier", "pt": "mais saudável"},
+    {"word": "colleagues", "pt": "colegas de trabalho"},
+    {"word": "miss", "pt": "sentir falta de"},
+    {"word": "advice", "pt": "conselho"}
+  ],
+  "questions": [
+    {"id": "r-a2-03-q1", "type": "choice", "prompt": "How long does the writer work from home?", "options": ["One year", "One month", "One week"], "answer": 1,
+     "explain": "A primeira frase diz “I started working from home one month ago”: há um mês."},
+    {"id": "r-a2-03-q2", "type": "choice", "prompt": "Why can the writer concentrate better at home?", "options": ["The apartment is quieter than the office.", "The lunch is cheaper.", "The video calls are fun."], "answer": 0,
+     "explain": "O texto diz “My apartment is quieter than the office, so I can concentrate better”."},
+    {"id": "r-a2-03-q3", "type": "choice", "prompt": "What is a bad thing about working from home?", "options": ["It is more expensive.", "The writer misses colleagues.", "The writer travels two hours."], "answer": 1,
+     "explain": "No terceiro parágrafo: “I miss my colleagues”. A pessoa sente falta dos colegas."},
+    {"id": "r-a2-03-q4", "type": "choice", "prompt": "What is the writer's advice?", "options": ["Work more hours every day.", "Eat lunch at the desk.", "Take a walk and stop work at six."], "answer": 2,
+     "explain": "O último parágrafo recomenda uma caminhada curta e parar de trabalhar às seis horas."}
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "id": "a2-04",
+  "level": "A2",
+  "unit": "Presente e passado",
+  "title": "Past simple: verbos irregulares",
+  "goal": "Usar no passado cerca de 30 verbos irregulares muito comuns no trabalho e no dia a dia, como went, made, wrote, built e found.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "O que são verbos irregulares",
+      "text": "Na lição anterior, você viu que os verbos **regulares** formam o passado com **-ed**. Os verbos **irregulares** não seguem essa regra: cada um tem uma forma própria de passado, que precisa ser memorizada. *Go* vira **went**, e não *goed*.\n\nA boa notícia: a forma do passado é **a mesma para todas as pessoas** (*I went*, *she went*, *they went*). E muitos dos verbos mais usados do inglês são irregulares, então vale a pena estudá-los em grupos, como nesta lição.",
+      "examples": [
+        {"en": "I went to the office yesterday.", "pt": "Eu fui ao escritório ontem."},
+        {"en": "She wrote a long report last week.", "pt": "Ela escreveu um relatório longo na semana passada."},
+        {"en": "We built the app in 2021.", "pt": "Nós construímos o aplicativo em 2021."}
+      ],
+      "tip": "Estude em grupos de verbos parecidos e use cada um em uma frase sua. Decorar listas soltas funciona pouco."
+    },
+    {
+      "title": "Grupo 1: a forma não muda",
+      "text": "Alguns verbos têm **o mesmo formato** no presente e no passado. Você só descobre que a frase está no passado pelo contexto, como *yesterday* ou *last week*.\n\nO verbo **read** merece atenção: a escrita é igual, mas a pronúncia muda. No presente soa /riːd/ (como *reed*); no passado soa /red/ (como a cor *red*).",
+      "table": {
+        "headers": ["Presente", "Passado", "Exemplo"],
+        "rows": [
+          ["put", "put", "I put the file in the folder."],
+          ["set", "set", "She set a new password."],
+          ["cut", "cut", "They cut the costs last year."],
+          ["let", "let", "He let me use his laptop."],
+          ["read", "read (/red/)", "We read the logs yesterday."]
+        ]
+      },
+      "examples": [
+        {"en": "I put the files in the folder yesterday.", "pt": "Eu coloquei os arquivos na pasta ontem."},
+        {"en": "She set a new password last night.", "pt": "Ela definiu uma senha nova ontem à noite."},
+        {"en": "We read the logs this morning.", "pt": "Nós lemos os logs hoje de manhã."}
+      ],
+      "tip": "Em *I read the logs every day* (presente), read soa /riːd/. Em *I read the logs yesterday* (passado), soa /red/."
+    },
+    {
+      "title": "Grupo 2: a vogal muda",
+      "text": "Neste grupo, o verbo muda **a vogal** (ou o miolo da palavra) no passado. É um dos maiores grupos e cheio de verbos úteis no trabalho de TI.\n\nUma forma de memorizar é juntar os verbos por som: *begin/began*, *give/gave*, *run/ran*, *sit/sat*, *write/wrote*, *drive/drove*, *speak/spoke*, *break/broke*, *take/took*, *come/came*, *see/saw*.",
+      "table": {
+        "headers": ["Presente", "Passado", "Presente", "Passado"],
+        "rows": [
+          ["write", "wrote", "speak", "spoke"],
+          ["begin", "began", "break", "broke"],
+          ["give", "gave", "take", "took"],
+          ["run", "ran", "come", "came"],
+          ["sit", "sat", "see", "saw"],
+          ["know", "knew", "find", "found"]
+        ]
+      },
+      "examples": [
+        {"en": "I ran the tests last night.", "pt": "Eu rodei os testes ontem à noite."},
+        {"en": "Lucas gave a presentation on Monday.", "pt": "O Lucas fez uma apresentação na segunda-feira."},
+        {"en": "We found the error in the log.", "pt": "Nós encontramos o erro no log."},
+        {"en": "She took the call at ten.", "pt": "Ela atendeu a ligação às dez."}
+      ],
+      "trap": "Não confunda o passado com o particípio. O passado de *write* é **wrote** (*I wrote a script*). *Written* é outra forma, usada em outros tempos. Por enquanto, em frases com yesterday ou ago, use **wrote**."
+    },
+    {
+      "title": "Grupo 3: terminados em -ought e -aught",
+      "text": "Este grupo é fácil de reconhecer: o passado termina em **-ought** ou **-aught** e se pronuncia com o som parecido com “ót” (/ɔːt/). Os verbos do grupo são poucos, mas muito frequentes.\n\nAtenção: o passado desses verbos não tem relação de escrita com o presente, então vale decorar o par inteiro.",
+      "table": {
+        "headers": ["Presente", "Passado", "Exemplo"],
+        "rows": [
+          ["buy", "bought", "I bought a new keyboard."],
+          ["bring", "brought", "She brought her laptop."],
+          ["think", "thought", "We thought it was a bug."],
+          ["catch", "caught", "He caught the error early."],
+          ["teach", "taught", "Marta taught me SQL."]
+        ]
+      },
+      "examples": [
+        {"en": "I bought a new keyboard last week.", "pt": "Eu comprei um teclado novo na semana passada."},
+        {"en": "He brought coffee to the meeting.", "pt": "Ele trouxe café para a reunião."},
+        {"en": "Marta taught me SQL two years ago.", "pt": "A Marta me ensinou SQL há dois anos."}
+      ],
+      "tip": "Decore a frase-mãe: *I thought I bought and brought it, but he caught me and taught me.* Todas as formas terminam em -ought ou -aught."
+    },
+    {
+      "title": "Grupo 4: terminados em -t ou -d, e outros",
+      "text": "Neste grupo, o passado costuma terminar em **-t** ou **-d**, e o verbo muda pouco: *send → sent*, *build → built*, *make → made*, *meet → met*, *leave → left*, *keep → kept*, *lose → lost*, *pay → paid*, *tell → told*.\n\nOs verbos **go, do, have e get** são importantes e têm passado próprio: **went**, **did**, **had** e **got**. O verbo *be* tem duas formas, *was* e *were*, que você já viu.",
+      "table": {
+        "headers": ["Presente", "Passado", "Exemplo"],
+        "rows": [
+          ["send", "sent", "I sent the file at noon."],
+          ["build", "built", "They built a new tool."],
+          ["make", "made", "She made a backup."],
+          ["meet", "met", "We met the client."],
+          ["leave", "left", "He left the office early."],
+          ["go / have / get", "went / had / got", "We went home. I had lunch."]
+        ]
+      },
+      "examples": [
+        {"en": "I sent the report two hours ago.", "pt": "Eu enviei o relatório há duas horas."},
+        {"en": "We met the client in Recife.", "pt": "Nós nos encontramos com o cliente em Recife."},
+        {"en": "They lost the data last year.", "pt": "Eles perderam os dados no ano passado."},
+        {"en": "She left the office at six.", "pt": "Ela saiu do escritório às seis."}
+      ],
+      "trap": "Em *I had lunch*, **had** é o passado de *have*. Em português também dizemos “eu almocei”, mas em inglês o verbo *have* aparece na frase, no passado: *I had lunch*. Não diga *I haved*."
+    },
+    {
+      "title": "Erros comuns de quem fala português",
+      "text": "O erro mais frequente é **aplicar -ed a um verbo irregular**, como *goed*, *buyed* e *writed*. Isso acontece porque o aluno já aprendeu a regra do -ed e a aplica a tudo. Essas formas não existem em inglês.\n\nO segundo erro é **deixar o verbo no presente** quando há uma expressão de passado: *I go to the office yesterday*. Lembre-se: yesterday, last week, ago e in 2020 pedem o passado.",
+      "examples": [
+        {"en": "I went to the office yesterday.", "pt": "Eu fui ao escritório ontem."},
+        {"en": "He bought a license last month.", "pt": "Ele comprou uma licença no mês passado."},
+        {"en": "They found the problem two days ago.", "pt": "Eles encontraram o problema há dois dias."}
+      ],
+      "trap": "Formas como *goed*, *buyed*, *writed*, *thinked*, *teached* e *sended* estão erradas. Use **went, bought, wrote, thought, taught e sent**. Se não souber, consulte a lista: o hábito de conferir ajuda a fixar."
+    },
+    {
+      "title": "Na prática: o relato de um incidente",
+      "text": "Num relatório curto de incidente, você mistura verbos regulares e irregulares na mesma sequência. Leia o relato e identifique cada verbo no passado: *found*, *sent*, *built*, *ran*, *took* e *fixed*.\n\nRepare que a frase não muda de forma para pessoas diferentes: *I found*, *she found*, *they found*. Isso facilita a vida, desde que você conheça a forma do passado.",
+      "examples": [
+        {"en": "At nine, Diego found an error in the logs.", "pt": "Às nove, o Diego encontrou um erro nos logs."},
+        {"en": "He sent an alert to the team.", "pt": "Ele enviou um alerta para a equipe."},
+        {"en": "We ran the tests and fixed the bug.", "pt": "Nós rodamos os testes e corrigimos o bug."},
+        {"en": "It took one hour to build the new version.", "pt": "Levou uma hora para construir a nova versão."}
+      ]
+    }
+  ],
+  "summary": [
+    "Verbos irregulares têm passado próprio, e não recebem -ed: go → went, buy → bought, write → wrote.",
+    "A forma do passado é a mesma para todas as pessoas: I went, she went, they went.",
+    "Alguns verbos não mudam (put, set, cut, let, read); read soa /red/ no passado.",
+    "Grupos ajudam a memorizar: -ought/-aught (bought, brought, thought, caught, taught), -t/-d (sent, built, made, met, left) e mudança de vogal (wrote, ran, gave, took, came, saw, found).",
+    "Formas como goed, buyed e writed estão erradas; yesterday, last week e ago pedem o passado."
+  ],
+  "practice": [
+    {"id": "a2-04-p1", "type": "choice", "prompt": "I ___ a new laptop last week.", "options": ["buyed", "bought", "buy"], "answer": 1,
+     "explain": "Buy é irregular: o passado é bought. Last week indica passado terminado.",
+     "why_not": {"0": "Buyed não existe; verbos irregulares não recebem -ed.", "2": "Buy é a forma do presente, e last week pede passado."}},
+    {"id": "a2-04-p2", "type": "choice", "prompt": "She ___ the report yesterday.", "options": ["writed", "wrote", "written"], "answer": 1,
+     "explain": "O passado simples de write é wrote. Yesterday pede o passado.",
+     "why_not": {"0": "Writed não existe.", "2": "Written é o particípio e não forma o passado simples sozinho."}},
+    {"id": "a2-04-p3", "type": "choice", "prompt": "We ___ to the office on Monday.", "options": ["goed", "went", "gone"], "answer": 1,
+     "explain": "O passado de go é went, uma forma completamente diferente do presente.",
+     "why_not": {"0": "Goed não existe.", "2": "Gone é o particípio e não é usado sozinho no passado simples."}},
+    {"id": "a2-04-p4", "type": "fill", "prompt": "He ___ (build) the app in 2020.", "answers": ["built"],
+     "explain": "O passado irregular de build é built. A expressão in 2020 indica passado."},
+    {"id": "a2-04-p5", "type": "fill", "prompt": "I ___ (send) the file two hours ago.", "answers": ["sent"],
+     "explain": "Send muda o d final para t no passado: sent. A expressão ago indica passado."},
+    {"id": "a2-04-p6", "type": "fill", "prompt": "They ___ (find) the bug yesterday.", "answers": ["found"],
+     "explain": "O passado de find é found, que muda a vogal: i vira ou."},
+    {"id": "a2-04-p7", "type": "translate", "prompt": "Eu escrevi uma mensagem para o cliente ontem.", "answers": ["I wrote a message to the client yesterday.", "Yesterday I wrote a message to the client.", "I wrote the client a message yesterday.", "Yesterday I wrote the client a message."],
+     "explain": "Escrevi vira wrote, o passado irregular de write. Ontem é yesterday, e a frase precisa do sujeito I."},
+    {"id": "a2-04-p8", "type": "order", "words": ["She", "took", "a", "day", "off", "last", "week"], "prompt": "Ela tirou um dia de folga na semana passada.", "answers": ["Last week she took a day off."],
+     "explain": "Took é o passado de take. A expressão last week pode ir no fim ou no começo da frase."},
+    {"id": "a2-04-p9", "type": "fix", "prompt": "I goed home late yesterday.", "answers": ["I went home late yesterday."],
+     "explain": "Go é irregular, então o passado é went, e não goed. Yesterday confirma que a frase está no passado."},
+    {"id": "a2-04-p10", "type": "fix", "prompt": "We buyed a new server last year.", "answers": ["We bought a new server last year."],
+     "explain": "Buy não recebe -ed. O passado irregular é bought."},
+    {"id": "a2-04-p11", "type": "listen", "en": "She told me about the problem yesterday.",
+     "explain": "Told é o passado de tell. Ouça também o som de yesterday no fim da frase."},
+    {"id": "a2-04-p12", "type": "choice", "prompt": "Como se pronuncia read em *I read the logs yesterday*?", "options": ["Como a palavra red (/red/)", "Como a palavra reed (/riːd/)", "Como a palavra raid"], "answer": 0,
+     "explain": "No passado, read se escreve igual ao presente, mas se pronuncia /red/, como a cor red.",
+     "why_not": {"1": "Este é o som do presente, como em *I read the logs every day*.", "2": "Read não tem o som de raid em nenhuma forma."}}
+  ],
+  "quiz": [
+    {"id": "a2-04-q1", "type": "choice", "prompt": "My manager ___ us a new project last month.", "options": ["gave", "gived", "given"], "answer": 0,
+     "explain": "O passado de give é gave. Last month pede o passado simples.",
+     "why_not": {"1": "Gived não existe.", "2": "Given é o particípio e não é usado sozinho no passado simples."}},
+    {"id": "a2-04-q2", "type": "fill", "prompt": "We ___ (meet) the client yesterday.", "answers": ["met"],
+     "explain": "O passado de meet é met, com um e a menos."},
+    {"id": "a2-04-q3", "type": "fill", "prompt": "I ___ (come) to work by bus yesterday.", "answers": ["came"],
+     "explain": "O passado irregular de come é came."},
+    {"id": "a2-04-q4", "type": "translate", "prompt": "Ela comprou um teclado novo ontem.", "answers": ["She bought a new keyboard yesterday.", "Yesterday she bought a new keyboard."],
+     "explain": "Comprou vira bought, o passado irregular de buy. Ontem é yesterday."},
+    {"id": "a2-04-q5", "type": "order", "words": ["They", "ran", "the", "tests", "last", "night"], "prompt": "Eles rodaram os testes ontem à noite.", "answers": ["Last night they ran the tests."],
+     "explain": "Ran é o passado de run. Last night pode ficar no fim ou no começo."},
+    {"id": "a2-04-q6", "type": "fix", "prompt": "He teached me Python in 2019.", "answers": ["He taught me Python in 2019."],
+     "explain": "O passado de teach é taught, sem -ed. Pertence ao grupo dos -aught."},
+    {"id": "a2-04-q7", "type": "choice", "prompt": "Qual frase está correta?", "options": ["She sended the file.", "She sent the file.", "She sent file the."], "answer": 1,
+     "explain": "O passado de send é sent, e a ordem normal é sujeito + verbo + complemento.",
+     "why_not": {"0": "Sended não existe; send é irregular.", "2": "A ordem das palavras está errada: o artigo vem antes do substantivo."}},
+    {"id": "a2-04-q8", "type": "listen", "en": "We built the new website last year.",
+     "explain": "Built é o passado irregular de build. Last year indica passado terminado."}
+  ],
+  "words": [
+    {"word": "build", "pt": "construir; desenvolver"},
+    {"word": "send", "pt": "enviar; mandar"},
+    {"word": "find", "pt": "encontrar; achar"},
+    {"word": "write", "pt": "escrever"},
+    {"word": "buy", "pt": "comprar"},
+    {"word": "bring", "pt": "trazer; levar"},
+    {"word": "meet", "pt": "encontrar; conhecer; reunir-se com"},
+    {"word": "take", "pt": "pegar; levar; tomar"},
+    {"word": "lose", "pt": "perder"},
+    {"word": "give", "pt": "dar; entregar"}
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "id": "c1-11",
+  "level": "C1",
+  "unit": "Léxico e registro",
+  "title": "Idioms, collocations e expressões fixas do mundo corporativo",
+  "goal": "Reconhecer e usar com naturalidade idioms de negócios e TI, binômios e collocations, sabendo quando uma expressão fixa ajuda e quando atrapalha.",
+  "minutes": 30,
+  "steps": [
+    {
+      "title": "Idioms: por que importam no trabalho",
+      "text": "Um **idiom** (expressão idiomática) é um grupo de palavras cujo sentido não se deduz palavra por palavra. *Back to square one* não fala de quadrados: quer dizer “voltar ao ponto de partida”. Em reuniões, e-mails e chats de equipe, falantes nativos usam essas expressões o tempo todo, e quem não as conhece perde parte da conversa.\n\nNesta lição você vê três grupos: **idioms** de negócios e de TI, **binômios** (pares fixos, como *pros and cons*) e **collocations** (palavras que combinam naturalmente, como *meet a deadline*). Nos três, a forma é fixa: trocar uma palavra costuma quebrar a expressão.",
+      "examples": [
+        {"en": "Let's make sure we are all on the same page.", "pt": "Vamos garantir que todos estejamos alinhados."},
+        {"en": "The client rejected the design, so we are back to square one.", "pt": "O cliente rejeitou o design, então voltamos à estaca zero."},
+        {"en": "We listed the pros and cons of each tool.", "pt": "Listamos as vantagens e desvantagens de cada ferramenta."}
+      ],
+      "tip": "Aprenda a expressão inteira, como um bloco, junto com uma frase de exemplo. Decorar só uma palavra solta não ajuda."
+    },
+    {
+      "title": "Alinhamento e comunicação",
+      "text": "Estas expressões organizam a conversa de uma equipe: quem está informado, quando falar de novo e onde discutir cada assunto. Elas são neutras a informais, e muito comuns em empresas de tecnologia.\n\nObserve as preposições, que são fixas: a pessoa fica **in the loop** (e não *on the loop*), e a equipe fica **on the same page**. Um **heads-up** é um substantivo: você *dá* ou *recebe* um aviso antecipado.",
+      "table": {
+        "headers": ["Expressão", "Sentido", "Exemplo"],
+        "rows": [
+          ["be on the same page", "ter o mesmo entendimento", "Let's make sure we are all on the same page."],
+          ["touch base", "fazer um contato rápido", "Let's touch base on Thursday."],
+          ["keep someone in the loop", "manter alguém informado", "Please keep me in the loop."],
+          ["a heads-up", "um aviso antecipado", "Thanks for the heads-up."],
+          ["circle back", "retomar o assunto depois", "I will circle back to this tomorrow."],
+          ["take it offline", "tratar fora da reunião", "Let's take this offline."]
+        ]
+      },
+      "examples": [
+        {"en": "Thanks for the heads-up about the outage.", "pt": "Obrigado pelo aviso sobre a queda do sistema."},
+        {"en": "Please keep me in the loop on the migration.", "pt": "Por favor, me mantenha informado sobre a migração."},
+        {"en": "This topic is too detailed, so let's take it offline.", "pt": "Esse assunto é detalhado demais, então vamos tratar disso fora da reunião."}
+      ],
+      "trap": "Em português dizemos “estar no loop”, e a tentação é usar *on the loop*. A forma certa é **in the loop**: *keep me in the loop*."
+    },
+    {
+      "title": "Prioridades e impacto",
+      "text": "Quando a equipe decide o que fazer primeiro, aparecem imagens de colheita, esforço e medição. **Low-hanging fruit** é o resultado fácil de conseguir (a fruta que está baixa no galho). **To move the needle** é provocar um efeito visível nos números, como o ponteiro de um medidor.\n\nUm **ballpark figure** é um valor aproximado, uma estimativa rápida. E **the bottom line** é a conclusão que realmente importa, como a última linha de um balanço.",
+      "examples": [
+        {"en": "Let's start with the low-hanging fruit: the typo fixes take five minutes.", "pt": "Vamos começar pelo que é fácil: as correções de erros de digitação levam cinco minutos."},
+        {"en": "A new logo will not move the needle for sales.", "pt": "Um logotipo novo não vai mudar os números de vendas de forma relevante."},
+        {"en": "Can you give me a ballpark figure for the cost?", "pt": "Você pode me dar um valor aproximado do custo?"},
+        {"en": "The bottom line is that we need more testers.", "pt": "O ponto principal é que precisamos de mais testadores."}
+      ],
+      "tip": "Low-hanging fruit é uma expressão incontável: diga *the low-hanging fruit*, sem plural, ao falar das tarefas fáceis em geral."
+    },
+    {
+      "title": "Análise e problemas",
+      "text": "Ao investigar uma falha, o inglês de TI usa expressões como **drill down** (aprofundar-se nos dados, como quem perfura camadas) e **bottleneck** (o gargalo que limita todo o sistema). Para avisar de um perigo, usamos **raise a red flag** (levantar uma bandeira vermelha).\n\nTambém há duas imagens muito comuns para problemas maiores do que parecem: **the tip of the iceberg** (só a parte visível) e **a can of worms** (um assunto que, se aberto, traz muitas complicações).",
+      "examples": [
+        {"en": "Let's drill down into the data to find the cause.", "pt": "Vamos nos aprofundar nos dados para achar a causa."},
+        {"en": "The database is the bottleneck, not the network.", "pt": "O gargalo é o banco de dados, não a rede."},
+        {"en": "This error is only the tip of the iceberg.", "pt": "Esse erro é só a ponta do iceberg."},
+        {"en": "Touching that legacy module could open a can of worms.", "pt": "Mexer naquele módulo legado pode abrir uma caixa de Pandora."}
+      ],
+      "trap": "Em português “caixa de Pandora” e “estaca zero” têm imagens diferentes. Em inglês use **a can of worms** e **square one**, sem tentar traduzir a imagem."
+    },
+    {
+      "title": "Binômios: pares de ordem fixa",
+      "text": "Um **binômio** (binomial) é um par de palavras ligadas por *and* ou *or* que aparecem sempre na mesma ordem. Os falantes de inglês os memorizam como um bloco. Trocar a ordem soa estranho: dizemos *trial and error*, e não *error and trial*.\n\nMuitos binômios têm equivalente no português, mas nem sempre na mesma ordem, então vale aprender cada um com sua frase.",
+      "table": {
+        "headers": ["Binômio", "Sentido", "Exemplo"],
+        "rows": [
+          ["pros and cons", "vantagens e desvantagens", "Let's list the pros and cons of each tool."],
+          ["trial and error", "tentativa e erro", "We found the fix by trial and error."],
+          ["back and forth", "idas e vindas", "After a lot of back and forth, we agreed on the scope."],
+          ["sooner or later", "mais cedo ou mais tarde", "Sooner or later, that server will fail."],
+          ["up and running", "em pleno funcionamento", "The new service is up and running."],
+          ["more or less", "mais ou menos", "The migration is more or less finished."]
+        ]
+      },
+      "examples": [
+        {"en": "We solved the problem by trial and error.", "pt": "Resolvemos o problema por tentativa e erro."},
+        {"en": "The staging environment is up and running again.", "pt": "O ambiente de testes voltou a funcionar."}
+      ],
+      "trap": "Não inverta a ordem por analogia com o português: *cons and pros* e *error and trial* não são as formas usadas. Aprenda o par inteiro."
+    },
+    {
+      "title": "Collocations: verbos e adjetivos que combinam",
+      "text": "Uma **collocation** é uma combinação que soa natural, ainda que outras combinações fossem possíveis em teoria. Em inglês dizemos *make a decision*, e não *do a decision*; e *meet a deadline*, e não *win a deadline*. O português “fazer uma decisão” não existe, e isso confunde.\n\nO segredo é aprender o **verbo junto com o substantivo**. Adjetivos também têm seus parceiros: *tight deadline* (prazo apertado), *heavy workload* (carga de trabalho pesada), *strong case* (bons argumentos).",
+      "table": {
+        "headers": ["Collocation", "Exemplo"],
+        "rows": [
+          ["make a decision", "We need to make a decision by Friday."],
+          ["meet a deadline", "The team worked all weekend to meet the deadline."],
+          ["raise a concern", "I want to raise a concern about the schedule."],
+          ["reach a consensus", "After a long debate, we reached a consensus."],
+          ["run a test", "Please run a test before the release."],
+          ["take responsibility for", "She took responsibility for the mistake."]
+        ]
+      },
+      "examples": [
+        {"en": "We need to make a decision before Monday.", "pt": "Precisamos tomar uma decisão antes de segunda."},
+        {"en": "The team has a heavy workload this month.", "pt": "A equipe tem muito trabalho este mês."},
+        {"en": "You have a strong case for rewriting the module.", "pt": "Você tem bons argumentos para reescrever o módulo."}
+      ],
+      "tip": "No inglês britânico também se diz *take a decision*. No inglês americano, o mais comum é *make a decision*, e essa forma serve nos dois."
+    },
+    {
+      "title": "Uso adequado: quando usar e quando evitar",
+      "text": "Idioms dão cor e naturalidade, mas têm riscos. Em **relatórios formais** e em **textos para leitores internacionais**, muitos leitores não conhecem a expressão, e uma frase direta é mais segura. Entre colegas que usam o inglês no dia a dia, as expressões funcionam bem.\n\nOutras regras úteis: não **misture** duas imagens na mesma frase, não **altere** as palavras centrais (*low-hanging fruit* não vira *low fruit*) e use **uma** expressão por vez. O verbo pode mudar de tempo: *We got the ball rolling last week*.",
+      "examples": [
+        {"en": "We need to get the ball rolling on the migration.", "pt": "Precisamos dar o pontapé inicial na migração."},
+        {"en": "We got the ball rolling last week.", "pt": "Demos o pontapé inicial na semana passada."},
+        {"en": "The team has kept me in the loop since January.", "pt": "A equipe me mantém informado desde janeiro."}
+      ],
+      "tip": "Na dúvida sobre se o seu leitor entende a expressão, escreva a ideia de forma direta: *We have to start again* em vez de *We are back to square one*."
+    },
+    {
+      "title": "Em contexto: uma reunião de projeto",
+      "text": "Veja como as expressões trabalham juntas numa reunião de planejamento. A líder abre alinhando a equipe, identifica o que dá resultado rápido, aprofunda um problema, avisa sobre um risco e organiza o próximo passo. Repare que cada frase usa **uma** expressão, e o resto é inglês simples.\n\nLeia em voz alta e depois tente reescrever as frases com palavras suas. Esse é o melhor teste para saber se você entendeu o sentido, e não só decorou a forma.",
+      "examples": [
+        {"en": "First, let's make sure we are on the same page about the goal.", "pt": "Primeiro, vamos garantir que estamos alinhados quanto ao objetivo."},
+        {"en": "Fixing the login page is low-hanging fruit.", "pt": "Corrigir a página de login é um ganho fácil."},
+        {"en": "Let's drill down into the error logs before we decide.", "pt": "Vamos nos aprofundar nos logs de erro antes de decidir."},
+        {"en": "That delay should raise a red flag for the client.", "pt": "Esse atraso deveria acender um sinal de alerta para o cliente."},
+        {"en": "I will circle back with a ballpark figure tomorrow.", "pt": "Amanhã eu retomo o assunto com um valor aproximado."}
+      ],
+      "tip": "Crie um caderno de expressões e anote cada uma com a frase de onde você a ouviu ou leu. O contexto fixa o sentido."
+    }
+  ],
+  "summary": [
+    "Idioms são blocos fixos cujo sentido não se deduz palavra por palavra; aprenda a expressão inteira, com a preposição certa (keep me in the loop).",
+    "Expressões úteis no trabalho: on the same page, touch base, low-hanging fruit, move the needle, drill down, back to square one, tip of the iceberg.",
+    "Binômios têm ordem fixa: pros and cons, trial and error, back and forth, sooner or later, up and running.",
+    "Collocations combinam verbo e substantivo: make a decision, meet a deadline, raise a concern, reach a consensus, run a test.",
+    "Use idioms com moderação: em textos formais ou para leitores internacionais, prefira a frase direta."
+  ],
+  "practice": [
+    {
+      "id": "c1-11-p1", "type": "choice",
+      "prompt": "Before we start, I want to make sure we are all on the same ___.",
+      "options": ["page", "line", "book"], "answer": 0,
+      "explain": "A expressão fixa é on the same page, que significa ter o mesmo entendimento sobre o assunto.",
+      "why_not": {"1": "Não existe *on the same line* com esse sentido.", "2": "Não existe *on the same book* com esse sentido."}
+    },
+    {
+      "id": "c1-11-p2", "type": "fill",
+      "prompt": "Let's fix the typo first; it is the low-hanging ___.",
+      "answers": ["fruit"],
+      "explain": "Low-hanging fruit é o resultado fácil de conseguir. A expressão é usada no singular, sem plural."
+    },
+    {
+      "id": "c1-11-p3", "type": "fill",
+      "prompt": "The new logo is nice, but it will not move the ___ for sales.",
+      "answers": ["needle"],
+      "explain": "Move the needle quer dizer provocar um efeito visível nos números, como o ponteiro de um medidor."
+    },
+    {
+      "id": "c1-11-p4", "type": "choice",
+      "prompt": "I want to ___ a concern about the schedule.",
+      "options": ["raise", "rise", "put"], "answer": 0,
+      "explain": "A collocation é raise a concern, ou seja, levantar uma preocupação. Raise é um verbo que precisa de objeto.",
+      "why_not": {"1": "Rise não leva objeto (o sol rises); com objeto, o verbo certo é raise.", "2": "Put a concern não é uma combinação natural em inglês."}
+    },
+    {
+      "id": "c1-11-p5", "type": "translate",
+      "prompt": "Estamos de volta à estaca zero.",
+      "answers": ["We are back to square one.", "We are back at square one."],
+      "explain": "Back to square one é o equivalente de voltar ao ponto de partida, a “estaca zero”. A preposição mais usada é to."
+    },
+    {
+      "id": "c1-11-p6", "type": "order",
+      "words": ["Let's", "touch", "base", "on", "Thursday"],
+      "prompt": "Vamos nos falar rapidamente na quinta-feira.",
+      "explain": "Touch base é fazer um contato rápido, e vem com a preposição on antes do dia: touch base on Thursday."
+    },
+    {
+      "id": "c1-11-p7", "type": "fix",
+      "prompt": "We need to do a decision before Monday.",
+      "answers": ["We need to make a decision before Monday.", "We need to take a decision before Monday."],
+      "explain": "A collocation correta é make a decision (no inglês britânico, também take a decision). Do a decision não é usado."
+    },
+    {
+      "id": "c1-11-p8", "type": "choice",
+      "prompt": "We found the fix by trial and ___.",
+      "options": ["mistake", "test", "error"], "answer": 2,
+      "explain": "O binômio fixo é trial and error, que corresponde a tentativa e erro.",
+      "why_not": {"0": "Trial and mistake não é a forma usada.", "1": "Trial and test não existe como expressão."}
+    },
+    {
+      "id": "c1-11-p9", "type": "fix",
+      "prompt": "Please keep me on the loop about the release.",
+      "answers": ["Please keep me in the loop about the release."],
+      "explain": "A preposição da expressão é in: keep someone in the loop, isto é, manter alguém informado."
+    },
+    {
+      "id": "c1-11-p10", "type": "listen",
+      "en": "Let's drill down into the numbers before the meeting.",
+      "explain": "Drill down into significa aprofundar-se em algo, como dados. Repare na preposição into depois de drill down."
+    },
+    {
+      "id": "c1-11-p11", "type": "choice",
+      "prompt": "O que significa *move the needle* numa reunião de produto?",
+      "options": ["Ter um efeito mensurável nos resultados", "Mudar de assunto durante a reunião", "Terminar o projeto antes do prazo"], "answer": 0,
+      "explain": "Move the needle vem da imagem de um ponteiro que se mexe: a ação provoca uma mudança visível nos números.",
+      "why_not": {"1": "Mudar de assunto seria change the subject.", "2": "Terminar antes do prazo seria finish ahead of schedule."}
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c1-11-q1", "type": "choice",
+      "prompt": "Can you give me a ___ figure? I only need a rough number.",
+      "options": ["stadium", "ballpark", "football"], "answer": 1,
+      "explain": "Ballpark figure é um valor aproximado, uma estimativa rápida.",
+      "why_not": {"0": "Stadium figure não existe com esse sentido.", "2": "Football figure não é uma expressão usada."}
+    },
+    {
+      "id": "c1-11-q2", "type": "fill",
+      "prompt": "Thanks for the heads-___; I will check the logs now.",
+      "answers": ["up"],
+      "explain": "A expressão é a heads-up, um aviso antecipado: thanks for the heads-up."
+    },
+    {
+      "id": "c1-11-q3", "type": "translate",
+      "prompt": "Isso é só a ponta do iceberg.",
+      "answers": ["This is just the tip of the iceberg.", "That is just the tip of the iceberg.", "This is only the tip of the iceberg.", "That is only the tip of the iceberg.", "It is just the tip of the iceberg.", "It is only the tip of the iceberg."],
+      "explain": "The tip of the iceberg é a parte visível de um problema maior. Just e only são sinônimos aqui."
+    },
+    {
+      "id": "c1-11-q4", "type": "fix",
+      "prompt": "We found the fix by error and trial.",
+      "answers": ["We found the fix by trial and error."],
+      "explain": "O binômio tem ordem fixa: trial and error. Inverter a ordem soa estranho em inglês."
+    },
+    {
+      "id": "c1-11-q5", "type": "order",
+      "words": ["Let's", "take", "this", "offline"],
+      "prompt": "Vamos tratar disso fora da reunião.",
+      "explain": "Take it offline é tratar um assunto fora da reunião, em outro momento, só com as pessoas envolvidas."
+    },
+    {
+      "id": "c1-11-q6", "type": "choice",
+      "prompt": "Which sentence is natural?",
+      "options": ["We worked all weekend to win the deadline.", "We worked all weekend to do the deadline.", "We worked all weekend to meet the deadline."], "answer": 2,
+      "explain": "A collocation é meet a deadline, que significa cumprir um prazo.",
+      "why_not": {"0": "Win é usado com jogos e prêmios, não com prazos.", "1": "Do a deadline não existe em inglês."}
+    },
+    {
+      "id": "c1-11-q7", "type": "choice",
+      "prompt": "Você escreve um relatório para leitores de vários países. Qual é a melhor estratégia com idioms?",
+      "options": ["Usar muitos idioms para soar nativo", "Usar um idiom só se for provável que todos o entendam; caso contrário, dizer a ideia de forma direta", "Traduzir idioms do português palavra por palavra"], "answer": 1,
+      "explain": "Idioms dependem de conhecimento cultural. Para leitores internacionais, a clareza vem primeiro: use apenas os que são amplamente conhecidos.",
+      "why_not": {"0": "Muitos idioms tornam o texto difícil para quem tem outra língua materna.", "2": "A tradução literal costuma criar expressões que não existem em inglês."}
+    },
+    {
+      "id": "c1-11-q8", "type": "listen",
+      "en": "The last bug sent us back to square one.",
+      "explain": "Back to square one aparece aqui com o verbo send: o bug fez a equipe voltar ao ponto de partida."
+    }
+  ],
+  "words": [
+    {"word": "idiom", "pt": "expressão idiomática; idioma de uma expressão"},
+    {"word": "deadline", "pt": "prazo final"},
+    {"word": "bottleneck", "pt": "gargalo"},
+    {"word": "heads-up", "pt": "aviso antecipado"},
+    {"word": "ballpark", "pt": "aproximado; estimativa por alto"},
+    {"word": "concern", "pt": "preocupação; ressalva"},
+    {"word": "consensus", "pt": "consenso"},
+    {"word": "workload", "pt": "carga de trabalho"},
+    {"word": "bottom line", "pt": "o ponto principal; a conclusão que importa"},
+    {"word": "touch base", "pt": "fazer um contato rápido; alinhar rapidamente"}
+  ]
+}

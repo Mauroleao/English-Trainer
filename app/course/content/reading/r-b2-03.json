@@ -1,0 +1,29 @@
+{
+  "id": "r-b2-03",
+  "level": "B2",
+  "title": "Working from home without burning out",
+  "topic": "Artigo de blog sobre trabalho remoto",
+  "text": "Three years ago, I was thrilled to hear that my company was going fully remote. No more traffic, no more noisy offices, and I could finally sleep a little longer. Within six months, however, I was exhausted. I was answering messages at 11 p.m., skipping lunch, and feeling guilty whenever I closed my laptop.\n\nWhat I hadn't realised is that remote work removes the natural boundaries of the working day. When the commute ends, so does the signal that tells your brain work is over. Unless you create new boundaries, work will gradually fill every available hour.\n\nHere is what helped me. First, I set a fixed finishing time and told my team about it. Surprisingly, nobody minded; they simply wanted to know when I was available. Second, I invented a \"fake commute\": a twenty-minute walk after work, which marks the end of the day. Third, I stopped keeping notifications on my phone, so that urgent matters can reach me, but casual messages can wait until morning.\n\nI also learned to talk about workload honestly. If I have too much on my plate, I say so early, instead of quietly working extra hours and hoping that someone will notice.\n\nNone of this is revolutionary, and some days I still fail. But I now treat rest as part of the job rather than a reward for finishing it. Ironically, I get more done that way, and I enjoy it far more.",
+  "pt": "Há três anos, fiquei empolgado ao saber que minha empresa passaria a ser totalmente remota. Sem mais trânsito, sem escritórios barulhentos, e eu finalmente poderia dormir um pouco mais. Em seis meses, porém, eu estava exausto. Respondia mensagens às 23h, pulava o almoço e me sentia culpado sempre que fechava o notebook.\n\nO que eu não tinha percebido é que o trabalho remoto remove as fronteiras naturais do dia de trabalho. Quando o deslocamento acaba, acaba também o sinal que avisa ao seu cérebro que o trabalho terminou. A menos que você crie novos limites, o trabalho vai aos poucos preencher todas as horas disponíveis.\n\nEis o que me ajudou. Primeiro, defini um horário fixo para terminar e avisei minha equipe. Surpreendentemente, ninguém se importou; só queriam saber quando eu estava disponível. Segundo, inventei um \"deslocamento falso\": uma caminhada de vinte minutos depois do trabalho, que marca o fim do dia. Terceiro, parei de manter as notificações ativas no celular, de modo que assuntos urgentes possam me alcançar, mas mensagens casuais possam esperar até a manhã.\n\nTambém aprendi a falar honestamente sobre carga de trabalho. Se tenho coisas demais nas mãos, digo isso cedo, em vez de trabalhar horas extras em silêncio e torcer para que alguém perceba.\n\nNada disso é revolucionário, e em alguns dias eu ainda falho. Mas agora trato o descanso como parte do trabalho, e não como uma recompensa por terminá-lo. Ironicamente, rendo mais assim, e gosto muito mais.",
+  "vocab": [
+    {"word": "thrilled", "pt": "empolgado"},
+    {"word": "exhausted", "pt": "exausto"},
+    {"word": "guilty", "pt": "culpado"},
+    {"word": "boundaries", "pt": "limites, fronteiras"},
+    {"word": "commute", "pt": "deslocamento (casa-trabalho)"},
+    {"word": "gradually", "pt": "gradualmente"},
+    {"word": "workload", "pt": "carga de trabalho"},
+    {"word": "reward", "pt": "recompensa"},
+    {"word": "notifications", "pt": "notificações"}
+  ],
+  "questions": [
+    {"id": "r-b2-03-q1", "type": "choice", "prompt": "Why did the writer become exhausted?", "options": ["His office was too noisy", "Work spread into all his hours", "His team asked him to work nights"], "answer": 1,
+     "explain": "Ele respondia mensagens às 23h e pulava o almoço; o trabalho “will gradually fill every available hour” sem limites."},
+    {"id": "r-b2-03-q2", "type": "choice", "prompt": "What is the purpose of the “fake commute”?", "options": ["To exercise for health", "To get to the office", "To mark the end of the working day"], "answer": 2,
+     "explain": "A caminhada “marks the end of the day”, substituindo o sinal que o deslocamento real dava ao cérebro."},
+    {"id": "r-b2-03-q3", "type": "choice", "prompt": "How did his team react to his finishing time?", "options": ["They did not mind", "They complained", "They changed theirs too"], "answer": 0,
+     "explain": "“Surprisingly, nobody minded; they simply wanted to know when I was available.”"},
+    {"id": "r-b2-03-q4", "type": "choice", "prompt": "What does “Ironically, I get more done that way” suggest?", "options": ["He works longer hours now", "Resting makes him more productive", "He has fewer tasks"], "answer": 1,
+     "explain": "Ele trata o descanso como parte do trabalho e, ironicamente, produz mais, ao contrário do que se esperaria."}
+  ]
+}

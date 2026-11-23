@@ -1,0 +1,171 @@
+{
+  "id": "a1-09",
+  "level": "A1",
+  "unit": "Habilidades, tempo e agora",
+  "title": "Can/can't e imperativo: poder, saber e dar instruções",
+  "goal": "Dizer o que você sabe ou pode fazer, pedir permissão e ajuda, e dar ou entender instruções simples.",
+  "minutes": 22,
+  "steps": [
+    {
+      "title": "Para que serve o can",
+      "text": "**Can** é um verbo auxiliar (um verbo que ajuda outro verbo) com três usos muito comuns. O primeiro é **habilidade**: o que você sabe fazer, como em *I can write code*. O segundo é **permissão**: o que é permitido ou possível, como em *You can use my laptop*. O terceiro é **pedido**: *Can you help me?*\n\nEm português usamos “saber” (habilidade) e “poder” (permissão e pedido). Em inglês, o mesmo **can** cobre os dois.",
+      "examples": [
+        {"en": "I can write Python code.", "pt": "Eu sei escrever código em Python."},
+        {"en": "You can use my laptop.", "pt": "Você pode usar meu laptop."},
+        {"en": "Can you help me?", "pt": "Você pode me ajudar?"}
+      ],
+      "tip": "Pense em can como “conseguir/saber/poder”. O contexto diz qual dos sentidos você quer."
+    },
+    {
+      "title": "A forma: can + verbo base",
+      "text": "Depois de **can** vem o **verbo base**, que é o verbo sem nenhuma terminação, como aparece no dicionário: *speak*, *open*, *write*. A forma de can é a mesma para todas as pessoas: não existe *cans*.\n\nPara negar, use **can't** (a contração de **cannot**). Também se escreve *can not*, mas isso é raro. Neste app, can't, cannot e can not valem como a mesma resposta.",
+      "table": {
+        "headers": ["Pessoa", "Afirmativa", "Negativa"],
+        "rows": [
+          ["I", "I can swim.", "I can't swim."],
+          ["you", "You can help.", "You can't help."],
+          ["he / she / it", "She can speak English.", "She can't speak English."],
+          ["we", "We can start now.", "We can't start now."],
+          ["they", "They can see the screen.", "They can't see the screen."]
+        ]
+      },
+      "examples": [
+        {"en": "She can speak English.", "pt": "Ela sabe falar inglês."},
+        {"en": "I can't hear you.", "pt": "Eu não consigo ouvir você."},
+        {"en": "We can start now.", "pt": "Nós podemos começar agora."}
+      ],
+      "trap": "Com he, she e it, o can NÃO recebe -s. Diga *She can speak*, e não *She cans speak*. E depois do can não existe *to*: *I can to speak* está errado."
+    },
+    {
+      "title": "Perguntas e respostas curtas",
+      "text": "Para perguntar, coloque **can** antes do sujeito: **Can + sujeito + verbo base?** O verbo principal continua na forma base, mesmo com he, she e it: *Can he write code?*, e não *Can he writes code?*\n\nNas respostas curtas, repetimos só o can: **Yes, I can.** ou **No, I can't.** Não repetimos o verbo principal e não usamos *do*.",
+      "table": {
+        "headers": ["Pergunta", "Resposta curta"],
+        "rows": [
+          ["Can you swim?", "Yes, I can. / No, I can't."],
+          ["Can she use Linux?", "Yes, she can. / No, she can't."],
+          ["Can they work from home?", "Yes, they can. / No, they can't."]
+        ]
+      },
+      "examples": [
+        {"en": "Can you use Git?", "pt": "Você sabe usar Git?"},
+        {"en": "Yes, I can.", "pt": "Sim, sei."},
+        {"en": "Can Ana write SQL?", "pt": "A Ana sabe escrever SQL?"},
+        {"en": "No, she can't.", "pt": "Não, ela não sabe."}
+      ],
+      "trap": "Não use *do* com can. *Do you can swim?* está errado; o certo é *Can you swim?*"
+    },
+    {
+      "title": "Permissão e pedidos: Can I…? Can you…?",
+      "text": "Para pedir **permissão**, use **Can I…?** (posso…?). Para pedir **ajuda ou um favor** a alguém, use **Can you…?** (você pode…?). São perguntas simples e naturais no dia a dia do trabalho.\n\nPara soar mais educado, junte **please** (por favor), no começo ou no fim da frase. Você vai ver outras formas de pedir mais tarde no curso; por enquanto, can já resolve.",
+      "examples": [
+        {"en": "Can I ask a question?", "pt": "Posso fazer uma pergunta?"},
+        {"en": "Can I use your laptop?", "pt": "Posso usar seu laptop?"},
+        {"en": "Can you open the door, please?", "pt": "Você pode abrir a porta, por favor?"},
+        {"en": "You can't park here.", "pt": "Você não pode estacionar aqui."}
+      ],
+      "tip": "Can I…? = eu faço a ação. Can you…? = a outra pessoa faz a ação."
+    },
+    {
+      "title": "Imperativo: dar instruções",
+      "text": "O **imperativo** é a forma que usamos para dar ordens, instruções ou conselhos diretos, como “Abra o arquivo”. Em inglês é muito simples: use o **verbo base**, sem sujeito. *Open the file.* *Click the button.*\n\nPara pedir com educação, acrescente **please**. *Please save the file.* ou *Save the file, please.* O imperativo vale para uma ou várias pessoas, porque não depende do sujeito.",
+      "examples": [
+        {"en": "Open the terminal.", "pt": "Abra o terminal."},
+        {"en": "Click the button.", "pt": "Clique no botão."},
+        {"en": "Please save the file.", "pt": "Por favor, salve o arquivo."},
+        {"en": "Type your password.", "pt": "Digite sua senha."}
+      ],
+      "trap": "Não coloque *you* nem *to* na instrução. Diga *Open the file*, e não *You open the file* nem *To open the file*."
+    },
+    {
+      "title": "Imperativo negativo: Don't + verbo",
+      "text": "Para dizer o que NÃO fazer, coloque **Don't** (ou **Do not**) antes do verbo base: **Don't + verbo base**. É a forma que aparece em avisos e em instruções: *Don't delete the database.*\n\nO verbo depois de don't fica sempre na forma base, sem -s e sem *to*. Você vai estudar don't com mais detalhe quando aprender a negativa do present simple.",
+      "examples": [
+        {"en": "Don't delete the database.", "pt": "Não apague o banco de dados."},
+        {"en": "Don't click that link.", "pt": "Não clique naquele link."},
+        {"en": "Please don't close the window.", "pt": "Por favor, não feche a janela."},
+        {"en": "Do not share your password.", "pt": "Não compartilhe sua senha."}
+      ],
+      "trap": "Em português, o imperativo negativo muda o verbo: “Não apague”. Em inglês o verbo NÃO muda: *Don't delete*. E não use *not* sozinho: *Not delete the file* está errado."
+    },
+    {
+      "title": "Na prática: instruções de TI",
+      "text": "Imagine que a Priya está ajudando um colega novo a acessar o sistema. Ela mistura as duas coisas que você aprendeu: pergunta o que ele consegue fazer com **can** e dá os passos com o **imperativo**.\n\nObserve como as instruções são curtas e diretas. Em manuais e telas de software, você vai ver exatamente esse padrão: verbo no começo, sem sujeito.",
+      "examples": [
+        {"en": "Can you log in to the system?", "pt": "Você consegue entrar no sistema?"},
+        {"en": "Open the browser and go to the website.", "pt": "Abra o navegador e vá ao site."},
+        {"en": "Enter your name and click Save.", "pt": "Digite seu nome e clique em Salvar."},
+        {"en": "Don't close the page.", "pt": "Não feche a página."}
+      ]
+    }
+  ],
+  "summary": [
+    "Can expressa habilidade (I can swim), permissão e pedido (Can I…? Can you…?).",
+    "Depois de can vem o verbo base, sem to e sem -s: She can speak English. A negativa é can't.",
+    "Pergunta: Can + sujeito + verbo base? Resposta curta: Yes, I can. / No, I can't. Não use do.",
+    "Imperativo afirmativo: verbo base, sem sujeito (Open the file). Com please fica mais educado.",
+    "Imperativo negativo: Don't + verbo base (Don't delete the file)."
+  ],
+  "practice": [
+    {"id": "a1-09-p1", "type": "choice", "prompt": "She ___ speak English.", "options": ["can", "cans", "can to"], "answer": 0,
+     "explain": "O verbo can tem a mesma forma para todas as pessoas, e depois dele vem o verbo base sem to.",
+     "why_not": {"1": "Can nunca recebe -s: não existe cans.", "2": "Depois de can não usamos to."}},
+    {"id": "a1-09-p2", "type": "choice", "prompt": "Can you swim?", "options": ["Yes, I can.", "Yes, I do.", "Yes, I am."], "answer": 0,
+     "explain": "A resposta curta repete o verbo auxiliar da pergunta. A pergunta usa can, então a resposta é Yes, I can.",
+     "why_not": {"1": "Do é o auxiliar de outras perguntas, não de can.", "2": "Am é do verbo to be, e a pergunta não usa to be."}},
+    {"id": "a1-09-p3", "type": "fill", "prompt": "Can Ana write SQL? Yes, she ___.", "answers": ["can"],
+     "explain": "Na resposta curta repetimos só o can: Yes, she can."},
+    {"id": "a1-09-p4", "type": "translate", "prompt": "Ela sabe falar inglês.", "answers": ["She can speak English."],
+     "explain": "Habilidade se expressa com can + verbo base. Com she, o can não recebe -s."},
+    {"id": "a1-09-p5", "type": "translate", "prompt": "Eu não consigo ouvir você.", "answers": ["I can't hear you.", "I cannot hear you.", "I can not hear you."],
+     "explain": "A negativa de can é can't (ou cannot), seguida do verbo base: I can't hear you."},
+    {"id": "a1-09-p6", "type": "order", "words": ["Can", "I", "use", "your", "laptop"], "prompt": "Posso usar seu laptop?",
+     "explain": "Na pergunta, can vem antes do sujeito: Can + I + verbo base."},
+    {"id": "a1-09-p7", "type": "fix", "prompt": "She can to speak French.", "answers": ["She can speak French."],
+     "explain": "Depois de can usamos o verbo base direto, sem to."},
+    {"id": "a1-09-p8", "type": "fix", "prompt": "Can he writes code?", "answers": ["Can he write code?"],
+     "explain": "Em perguntas com can, o verbo principal fica na forma base, mesmo com he: Can he write code?"},
+    {"id": "a1-09-p9", "type": "choice", "prompt": "Como dizer a um colega “Não apague o arquivo”?", "options": ["Don't delete the file.", "Not delete the file.", "Don't to delete the file."], "answer": 0,
+     "explain": "O imperativo negativo usa Don't + verbo base: Don't delete the file.",
+     "why_not": {"1": "Not sozinho não forma o imperativo negativo.", "2": "Depois de don't o verbo fica na forma base, sem to."}},
+    {"id": "a1-09-p10", "type": "translate", "prompt": "Abra o terminal, por favor.", "answers": ["Open the terminal, please.", "Please open the terminal."],
+     "explain": "O imperativo usa o verbo base, sem sujeito. Please pode ficar no começo ou no fim."},
+    {"id": "a1-09-p11", "type": "listen", "en": "Please don't delete the old files.",
+     "explain": "Please don't + verbo base é um pedido educado para não fazer algo."},
+    {"id": "a1-09-p12", "type": "choice", "prompt": "Can I open the window?", "options": ["É um pedido de permissão.", "É uma ordem.", "É uma pergunta sobre uma habilidade."], "answer": 0,
+     "explain": "Can I…? serve para pedir permissão: você quer saber se pode abrir a janela.",
+     "why_not": {"1": "Uma ordem usaria o imperativo: Open the window.", "2": "Habilidade seria algo como Can you open this file type? Aqui a pergunta é sobre poder, não sobre saber."}}
+  ],
+  "quiz": [
+    {"id": "a1-09-q1", "type": "choice", "prompt": "My manager ___ speak three languages.", "options": ["cans", "can", "is can"], "answer": 1,
+     "explain": "Can não muda com o sujeito e vem direto antes do verbo base: can speak.",
+     "why_not": {"0": "Can não recebe -s.", "2": "Can já é o verbo auxiliar; não use is junto com ele."}},
+    {"id": "a1-09-q2", "type": "fill", "prompt": "Can they work from home? Yes, they ___.", "answers": ["can"],
+     "explain": "A resposta curta repete só o can: Yes, they can."},
+    {"id": "a1-09-q3", "type": "translate", "prompt": "Ele sabe usar Git.", "answers": ["He can use Git.", "He knows how to use Git."],
+     "explain": "Habilidade: can + verbo base. Com he, o can não recebe -s."},
+    {"id": "a1-09-q4", "type": "order", "words": ["Don't", "close", "the", "window"], "prompt": "Não feche a janela.", "answers": ["Do not close the window"],
+     "explain": "O imperativo negativo é Don't + verbo base."},
+    {"id": "a1-09-q5", "type": "fix", "prompt": "I can't to open this file.", "answers": ["I can't open this file."],
+     "explain": "Depois de can't vem o verbo base, sem to."},
+    {"id": "a1-09-q6", "type": "choice", "prompt": "Qual é uma instrução correta?", "options": ["Save the file, please.", "You saving the file.", "Saves the file, please."], "answer": 0,
+     "explain": "A instrução usa o verbo base no começo da frase, sem sujeito. Please deixa o pedido educado.",
+     "why_not": {"1": "Isso não é uma instrução; falta o verbo na forma correta.", "2": "No imperativo o verbo fica na forma base, sem -s."}},
+    {"id": "a1-09-q7", "type": "listen", "en": "Can you open the project folder, please?",
+     "explain": "Can you…? é um pedido; please deixa a frase mais educada."},
+    {"id": "a1-09-q8", "type": "fix", "prompt": "Don't deletes the logs.", "answers": ["Don't delete the logs."],
+     "explain": "Depois de don't o verbo fica na forma base, sem -s."}
+  ],
+  "words": [
+    {"word": "speak", "pt": "falar"},
+    {"word": "help", "pt": "ajudar; ajuda"},
+    {"word": "open", "pt": "abrir; aberto"},
+    {"word": "close", "pt": "fechar"},
+    {"word": "click", "pt": "clicar; clique"},
+    {"word": "delete", "pt": "apagar; excluir"},
+    {"word": "save", "pt": "salvar; guardar"},
+    {"word": "please", "pt": "por favor"},
+    {"word": "file", "pt": "arquivo"},
+    {"word": "ask", "pt": "perguntar; pedir"}
+  ]
+}

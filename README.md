@@ -1,6 +1,7 @@
 # English Trainer
 
-Aplicativo (Python + FastAPI + SQLite) para aprender inglês digitando.
+Aplicativo (Python + FastAPI + SQLite) para aprender inglês do zero ao C1 sem sair dele: curso de gramática
+passo a passo, prática digitando, áudio, conversação, leitura, pronúncia e vocabulário de TI.
 
 ## Como rodar
 
@@ -36,7 +37,10 @@ Sem a chave tudo funciona, com as diferenças da tabela:
 
 ## O que o app faz
 
-**Novidades (áudio, conversação e TI):** ouvir e falar (voz do navegador), aba **Conversação**
+**Novidade — Curso de gramática A1 → C1** (seção 8 abaixo): 72 lições explicadas passo a passo,
+teste de nível, plano diário, painel de progresso, leitura e escuta por nível e pronúncia com nota.
+
+**Áudio, conversação e TI:** ouvir e falar (voz do navegador), aba **Conversação**
 (interpretar diálogos e conversar com a IA), revisão em 3 modos e vocabulário de desenvolvimento
 de software. Detalhes nas seções 4 a 7 abaixo.
 
@@ -87,6 +91,29 @@ planejamento de sprint, entrevista técnica, deploy, pedir ajuda, frases úteis 
 com significado e frase de exemplo, marcados com a etiqueta **TI**. Quem já usava o app recebe tudo
 automaticamente ao iniciar, sem perder dados.
 
+**8. Curso de gramática (A1 → C1).**
+- **Curso:** 72 lições (A1: 12, A2: 14, B1: 16, B2: 16, C1: 14). Cada uma tem de 6 a 8 passos de explicação
+  em português (com tabelas, exemplos com áudio 🔊/🐢, dicas e *armadilhas para quem fala português*),
+  10 a 12 exercícios de prática com explicação a cada resposta e um **mini-teste** (80% para concluir).
+  Exercícios: múltipla escolha, completar, traduzir, ordenar palavras, corrigir frase e ditado.
+  Ao concluir a lição, as palavras dela entram na revisão de vocabulário.
+- **Revisão de gramática** (Revisão → Gramática): o que você errou volta com repetição espaçada,
+  e os exercícios do mini-teste voltam depois de 2 dias.
+- **Teste de nível** (30 perguntas): define em que nível o curso começa. Dá para pular ou mudar em Ajustes.
+- **Hoje:** meta diária (15 min a 3 h), sequência de dias, tarefas do dia (revisões, lição recomendada,
+  leitura, pronúncia) e a previsão de quanto falta para o próximo nível e para o C1.
+- **Leitura e escuta** (Praticar): 20 textos de A1 a C1 (e-mails, incidentes, vagas, artigos), com áudio,
+  modo “só escutar”, vocabulário, perguntas e botão para mandar todas as palavras para a revisão.
+- **Pronúncia com nota** (Praticar): você ouve a frase, fala no microfone e recebe uma nota de 0 a 100
+  (compara o que o reconhecimento de voz entendeu com a frase). Sem microfone, dá para digitar.
+- **Progresso:** lições por nível, horas de estudo ativo, sequência, palavras aprendidas, gramática dominada,
+  minutos dos últimos 14 dias, pontos fracos e previsão.
+
+**Expectativa realista:** as lições levam cerca de 30 horas, mas chegar ao C1 exige em torno de 700 a 900
+horas de estudo e contato com o idioma (revisão, leitura, escuta, fala, conversação). O app mostra a
+previsão no seu ritmo: com 1 hora por dia são cerca de 2 anos; com 3 horas, uns 8 meses.
+O tempo conta só quando a aba está aberta e você está interagindo.
+
 ## Regras de digitação
 
 - Maiúsculas e pontuação são ignoradas; ligue o **Modo exato** em Ajustes para exigi-las.
@@ -101,6 +128,8 @@ pip install -r requirements-dev.txt
 pytest
 ```
 
+Teste de navegador (Playwright, opcional): `pip install playwright && playwright install chromium && python tests/e2e/e2e_course.py`.
+
 ## Estrutura
 
 ```
@@ -114,7 +143,9 @@ app/routes/conversation.py  role-play e conversa com a IA
 app/scenarios.py     cenários da conversa livre
 app/content_it.py    diálogos, termos e glossário de TI
 app/seed.py          diálogos e glossário iniciais
-app/static/index.html  interface
+app/static/index.html  interface (telas antigas); course.js e today.js: curso, hoje, leitura, pronúncia, progresso
+app/course/          conteúdo do curso (content/lessons, reading, placement.json), loader, progresso e validador
+app/routes/course.py, study.py  curso, revisão de gramática, teste de nível, plano, progresso, pronúncia
 ```
 
 ## Limitações conhecidas
@@ -126,3 +157,5 @@ app/static/index.html  interface
 - Áudio e microfone foram testados com a fala simulada; a qualidade da voz depende do seu sistema/navegador.
 - O microfone transcreve o que ouve, então números ("10" x "ten") e sotaque podem gerar diferenças:
   você pode editar o texto antes de verificar.
+- O conteúdo do curso foi escrito e conferido por revisão automática e por amostragem; se achar um erro numa lição,
+  corrija o JSON em `app/course/content/` e rode `python -m app.course.validate`.

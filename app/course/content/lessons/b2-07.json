@@ -1,0 +1,178 @@
+{
+  "id": "b2-07",
+  "level": "B2",
+  "unit": "Modais e orações relativas",
+  "title": "Modais no passado: should have, must have, might have…",
+  "goal": "Criticar ou lamentar o que foi feito, deduzir o que aconteceu e falar de oportunidades perdidas usando modal + have + particípio.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "A ideia central: modal + have + particípio",
+      "text": "Os modais (should, could, must, might…) servem para dar opinião, medir certeza ou falar de possibilidade. Para olhar o **passado**, usamos **modal + have + particípio passado**. O modal e o **have** não mudam: *She should have called*, *they must have left*.\n\nEm português a mesma ideia aparece em “deveria ter ligado”, “deve ter saído” e “poderia ter evitado”. Há três grandes usos: **crítica ou arrependimento**, **dedução sobre o que aconteceu** e **oportunidade que não foi aproveitada**.",
+      "examples": [
+        {"en": "You should have told me earlier.", "pt": "Você deveria ter me contado antes."},
+        {"en": "The server must have crashed during the night.", "pt": "O servidor deve ter caído durante a noite."},
+        {"en": "We could have avoided this bug.", "pt": "Nós poderíamos ter evitado este bug."}
+      ],
+      "trap": "Depois do modal, **have** não vira *has* nem *had*: *She should has called* está errado. O certo é *She should have called*, em qualquer pessoa gramatical."
+    },
+    {
+      "title": "Mapa das formas e dos significados",
+      "text": "Veja primeiro o mapa completo. Nas próximas etapas, cada grupo é explicado com calma. Repare que o particípio passado fica sempre no final, e que o modal escolhido é o que muda o significado.\n\nNa negativa, o **not** vem junto do modal (*shouldn't have*, *can't have*), e na pergunta o modal vai para o início: *Should we have called the client?*",
+      "table": {
+        "headers": ["Forma", "Significado", "Exemplo"],
+        "rows": [
+          ["should have + particípio", "era o certo, mas não foi feito", "You should have backed up the data."],
+          ["shouldn't have + particípio", "foi feito, e foi um erro", "I shouldn't have clicked that link."],
+          ["could have + particípio", "era possível, mas não aconteceu", "We could have used a cache."],
+          ["would have + particípio", "o que teria acontecido", "I would have helped you."],
+          ["must have + particípio", "tenho certeza de que aconteceu", "He must have forgotten."],
+          ["might/may have + particípio", "talvez tenha acontecido", "She might have missed the email."],
+          ["can't/couldn't have + particípio", "é impossível que tenha acontecido", "It can't have been the network."],
+          ["needn't have + particípio", "foi feito, mas era desnecessário", "You needn't have waited."]
+        ]
+      },
+      "examples": [
+        {"en": "You should have backed up the data.", "pt": "Você deveria ter feito backup dos dados."},
+        {"en": "It can't have been the network.", "pt": "Não pode ter sido a rede."}
+      ]
+    },
+    {
+      "title": "Should have e shouldn't have: crítica e arrependimento",
+      "text": "**Should have** + particípio diz que a ação era a coisa certa, mas **não foi feita**: *You should have asked for help* (você não pediu). **Shouldn't have** diz que a ação **foi feita** e foi um erro: *I shouldn't have clicked that link*. **Ought to have** tem o mesmo sentido de should have, mas é mais formal.\n\nTambém serve para falar do que **era esperado**: *The invoice should have arrived yesterday* (era para ter chegado, mas não chegou).",
+      "examples": [
+        {"en": "You should have asked for help.", "pt": "Você deveria ter pedido ajuda."},
+        {"en": "I shouldn't have clicked that link.", "pt": "Eu não deveria ter clicado naquele link."},
+        {"en": "The invoice should have arrived yesterday.", "pt": "A fatura deveria ter chegado ontem."},
+        {"en": "We ought to have tested it first.", "pt": "Deveríamos ter testado isso primeiro."}
+      ],
+      "tip": "Para criticar com educação, fale de nós: *We should have tested this earlier* soa mais suave que *You should have tested this*."
+    },
+    {
+      "title": "Could have e would have: oportunidades e hipóteses",
+      "text": "**Could have** + particípio mostra uma **oportunidade ou possibilidade que existia no passado, mas não foi aproveitada**: *We could have used a cache* (não usamos). **Would have** diz o que **teria acontecido**, em geral ligado a uma condição, como no third conditional: *I would have helped if you had asked*.\n\nCuidado: **couldn't have** é diferente. *She couldn't have known* quer dizer que era impossível ela saber.",
+      "examples": [
+        {"en": "We could have used a cache to save time.", "pt": "Nós poderíamos ter usado um cache para ganhar tempo."},
+        {"en": "You could have called me.", "pt": "Você poderia ter me ligado."},
+        {"en": "I would have helped you if you had asked.", "pt": "Eu teria ajudado você se você tivesse pedido."},
+        {"en": "She couldn't have known about the change.", "pt": "Ela não poderia ter sabido da mudança."}
+      ],
+      "trap": "Para uma **habilidade geral** no passado, use **could** sozinho: *I could swim when I was five*. **Could have** fala de um caso específico, em que algo era possível e não aconteceu."
+    },
+    {
+      "title": "Dedução: must have, might have, can't have",
+      "text": "Para deduzir o que aconteceu a partir de pistas, o inglês tem uma escala de certeza. **Must have** indica quase certeza de que aconteceu. **May, might ou could have** indicam que é possível. **Can't have** ou **couldn't have** indicam quase certeza de que **não** aconteceu.\n\nA negativa da dedução normalmente usa **can't have**, e não *mustn't have*.",
+      "table": {
+        "headers": ["Certeza", "Forma", "Exemplo"],
+        "rows": [
+          ["quase certo que sim", "must have", "The deploy must have failed."],
+          ["possível", "might / may / could have", "The email might have gone to spam."],
+          ["quase certo que não", "can't / couldn't have", "He can't have seen it; he was offline."]
+        ]
+      },
+      "examples": [
+        {"en": "The disk must have been full; the logs stopped at midnight.", "pt": "O disco deve ter ficado cheio; os logs pararam à meia-noite."},
+        {"en": "The email might have gone to the spam folder.", "pt": "O e-mail pode ter ido para a pasta de spam."},
+        {"en": "He can't have seen the alert; he was on holiday.", "pt": "Ele não pode ter visto o alerta; estava de férias."}
+      ],
+      "trap": "Em português “deve ter” é dedução (“ele deve ter esquecido”). Não confunda com obrigação no passado: para isso, use **had to**: *I had to restart the server* (eu precisei reiniciar)."
+    },
+    {
+      "title": "Needn't have × didn't need to",
+      "text": "**Needn't have** + particípio diz que alguém **fez** algo e depois se viu que **não era necessário**: *You needn't have brought your laptop* (você trouxe, mas não precisava). **Didn't need to** + verbo base diz apenas que **não era necessário**; a pessoa pode ter feito ou não.\n\nPor isso, *I didn't need to restart the server, so I didn't* é possível, mas *I needn't have restarted the server, so I didn't* seria contraditório.",
+      "examples": [
+        {"en": "You needn't have waited for me.", "pt": "Você não precisava ter esperado por mim (mas esperou)."},
+        {"en": "We needn't have rushed; the deadline was postponed.", "pt": "Não precisávamos ter corrido; o prazo foi adiado."},
+        {"en": "She didn't need to attend the meeting.", "pt": "Ela não precisava ir à reunião."}
+      ],
+      "tip": "**Needn't have** é mais comum no inglês britânico. No dia a dia, *you didn't need to* também é muito ouvido, e ambos são corretos."
+    },
+    {
+      "title": "Pronúncia e escrita: should've, could've, must've",
+      "text": "Na fala, **have** é reduzido: *should've* soa como “shúdâv”, *could've* como “kúdâv” e *must've* como “mástâv”. Por isso muitos aprendizes escrevem *should of* por engano, já que o som é parecido com *of*.\n\nNa escrita, use **should have** ou a contração **should've**. Nas negativas, as contrações são **shouldn't have**, **couldn't have** e **can't have**.",
+      "examples": [
+        {"en": "She should've called us.", "pt": "Ela deveria ter nos ligado."},
+        {"en": "He must've missed the train.", "pt": "Ele deve ter perdido o trem."},
+        {"en": "They couldn't have known.", "pt": "Eles não poderiam ter sabido."}
+      ],
+      "trap": "**Should of**, **could of** e **must of** são erros de escrita. O verbo é sempre **have**: *should have*, *could have*, *must have*."
+    },
+    {
+      "title": "Em contexto: análise de um incidente",
+      "text": "Na análise de um incidente, os modais no passado separam **deduções**, **hipóteses** e **lições**. Veja um resumo: *The disk must have been full, because the logs stopped at midnight. The alert might have been ignored. We should have set up monitoring, and we could have avoided the outage.*\n\nCom estados e adjetivos, use **have been**: *must have been full*. Com ações, use o particípio do verbo principal: *must have crashed*.",
+      "examples": [
+        {"en": "The disk must have been full, because the logs stopped at midnight.", "pt": "O disco deve ter ficado cheio, porque os logs pararam à meia-noite."},
+        {"en": "We should have set up monitoring.", "pt": "Deveríamos ter configurado o monitoramento."},
+        {"en": "We could have avoided the outage.", "pt": "Poderíamos ter evitado a queda do sistema."}
+      ]
+    }
+  ],
+  "summary": [
+    "Os modais no passado têm a forma modal + have + particípio passado; o have nunca muda e não se escreve of.",
+    "Should have indica o que era certo e não foi feito; shouldn't have indica um erro que foi cometido.",
+    "Could have indica uma oportunidade perdida; would have indica o que teria acontecido em outra situação.",
+    "Must have é quase certeza; might, may ou could have é possibilidade; can't ou couldn't have é quase certeza de que não aconteceu.",
+    "Needn't have significa que a ação foi feita sem necessidade; didn't need to não diz se foi feita.",
+    "Com estados e adjetivos, use have been: The disk must have been full."
+  ],
+  "practice": [
+    {"id": "b2-07-p1", "type": "choice", "prompt": "You ___ the backup before the update, but you didn't.", "options": ["should have made", "should make", "must have made"], "answer": 0,
+     "explain": "Falamos de uma ação certa que não foi feita no passado: should have + particípio.",
+     "why_not": {"1": "Should make fala do presente ou do futuro, e não de algo que não foi feito no passado.", "2": "Must have made seria uma dedução de que você fez o backup, o que contradiz a frase."}},
+    {"id": "b2-07-p2", "type": "choice", "prompt": "The logs stopped at midnight, so the disk ___ full.", "options": ["must have been", "can't have been", "needn't have been"], "answer": 0,
+     "explain": "Os logs parando são a pista que leva à quase certeza: must have been.",
+     "why_not": {"1": "Can't have been diria que é impossível que o disco estivesse cheio, o que contraria a pista.", "2": "Needn't have been fala de algo desnecessário, não de dedução."}},
+    {"id": "b2-07-p3", "type": "choice", "prompt": "He was on holiday and offline all week, so he ___ the email.", "options": ["can't have read", "must have read", "needn't have read"], "answer": 0,
+     "explain": "Estar offline a semana toda torna quase impossível que ele tenha lido: can't have read.",
+     "why_not": {"1": "Must have read diria que ele certamente leu, o que contradiz a pista.", "2": "Needn't have read diria que ele leu sem necessidade."}},
+    {"id": "b2-07-p4", "type": "fill", "prompt": "You should have ___ me about the problem (tell).", "answers": ["told"],
+     "explain": "Depois de should have vem o particípio passado. O particípio de tell é told."},
+    {"id": "b2-07-p5", "type": "fill", "prompt": "She might have ___ the meeting (forget).", "answers": ["forgotten"],
+     "explain": "Might have + particípio indica possibilidade. O particípio de forget é forgotten."},
+    {"id": "b2-07-p6", "type": "fill", "prompt": "We needn't have ___ so early; the deploy was postponed (leave).", "answers": ["left"],
+     "explain": "Needn't have + particípio: o particípio de leave é left. Eles saíram cedo sem necessidade."},
+    {"id": "b2-07-p7", "type": "translate", "prompt": "Você deveria ter me avisado.", "answers": ["You should have warned me.", "You should have told me.", "You should have let me know.", "You should have notified me.", "You ought to have warned me.", "You ought to have told me.", "You ought to have let me know."],
+     "explain": "Deveria ter + particípio é should have + particípio: should have warned me ou should have told me."},
+    {"id": "b2-07-p8", "type": "order", "words": ["The", "server", "must", "have", "crashed", "during", "the", "night"], "prompt": "O servidor deve ter caído durante a noite.",
+     "explain": "A ordem é sujeito + must have + particípio + complemento: must have crashed."},
+    {"id": "b2-07-p9", "type": "fix", "prompt": "She should has called the client.", "answers": ["She should have called the client."],
+     "explain": "Depois de um modal vem sempre have, nunca has: should have called."},
+    {"id": "b2-07-p10", "type": "fix", "prompt": "We should of tested it first.", "answers": ["We should have tested it first."],
+     "explain": "Should of é erro de escrita causado pelo som reduzido de should've. O correto é should have."},
+    {"id": "b2-07-p11", "type": "choice", "prompt": "Qual frase significa que você trouxe o notebook e não era necessário?", "options": ["You needn't have brought your laptop.", "You didn't need to bring your laptop.", "You mustn't bring your laptop."], "answer": 0,
+     "explain": "Needn't have + particípio indica que a ação foi feita e era desnecessária.",
+     "why_not": {"1": "Didn't need to diz que não era necessário, mas não informa se você trouxe ou não.", "2": "Mustn't bring é uma proibição."}},
+    {"id": "b2-07-p12", "type": "listen", "en": "The email might have gone to the spam folder.",
+     "explain": "Might have + particípio (gone) indica uma possibilidade sobre o passado."}
+  ],
+  "quiz": [
+    {"id": "b2-07-q1", "type": "choice", "prompt": "I'm sorry, I ___ the link. It was a phishing email.", "options": ["shouldn't have clicked", "should have clicked", "can't have clicked"], "answer": 0,
+     "explain": "Ele clicou e foi um erro, então usamos shouldn't have + particípio.",
+     "why_not": {"1": "Should have clicked diria que clicar era o certo.", "2": "Can't have clicked diria que é impossível que ele tenha clicado, mas foi ele quem clicou."}},
+    {"id": "b2-07-q2", "type": "fill", "prompt": "The build failed, so someone ___ have changed the config. I am almost sure.", "answers": ["must"],
+     "explain": "Quase certeza sobre o passado: must have + particípio."},
+    {"id": "b2-07-q3", "type": "translate", "prompt": "Ele não pode ter visto o alerta.", "answers": ["He can't have seen the alert.", "He couldn't have seen the alert.", "He cannot have seen the alert."],
+     "explain": "A dedução negativa sobre o passado usa can't have ou couldn't have + particípio (seen)."},
+    {"id": "b2-07-q4", "type": "order", "words": ["We", "could", "have", "avoided", "the", "outage", "with", "monitoring"], "prompt": "Nós poderíamos ter evitado a queda com monitoramento.",
+     "explain": "Could have + particípio expressa uma oportunidade que não foi aproveitada."},
+    {"id": "b2-07-q5", "type": "fix", "prompt": "They must has left early because the office is empty.", "answers": ["They must have left early because the office is empty."],
+     "explain": "Depois do modal must vem have, e não has."},
+    {"id": "b2-07-q6", "type": "choice", "prompt": "She wrote the report, but it wasn't necessary. She ___ it.", "options": ["needn't have written", "can't have written", "must have written"], "answer": 0,
+     "explain": "A ação foi feita, mas era desnecessária: needn't have + particípio.",
+     "why_not": {"1": "Can't have written diria que é impossível que ela tenha escrito, mas ela escreveu.", "2": "Must have written é uma dedução, e a frase não é uma dedução."}},
+    {"id": "b2-07-q7", "type": "listen", "en": "You could have asked me before changing the database.",
+     "explain": "Could have + particípio (asked) indica uma oportunidade que não foi aproveitada."}
+  ],
+  "words": [
+    {"word": "crash", "pt": "travar; cair (sistema); falha grave"},
+    {"word": "avoid", "pt": "evitar"},
+    {"word": "backup", "pt": "cópia de segurança; backup"},
+    {"word": "deploy", "pt": "publicar em produção; fazer deploy"},
+    {"word": "outage", "pt": "queda do sistema; indisponibilidade"},
+    {"word": "monitoring", "pt": "monitoramento"},
+    {"word": "postpone", "pt": "adiar"},
+    {"word": "forget", "pt": "esquecer"},
+    {"word": "deadline", "pt": "prazo final"},
+    {"word": "necessary", "pt": "necessário; necessária"}
+  ]
+}

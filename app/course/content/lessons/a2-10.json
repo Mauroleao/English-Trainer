@@ -1,0 +1,199 @@
+{
+  "id": "a2-10",
+  "level": "A2",
+  "unit": "Planos e obrigações",
+  "title": "Verbos + infinitivo ou -ing, e would like",
+  "goal": "Combinar dois verbos corretamente (want to go, enjoy working) e fazer ofertas e pedidos educados com would like.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "Dois verbos na mesma frase",
+      "text": "Muitas vezes usamos dois verbos juntos: “Eu quero **aprender**”, “Eu gosto de **programar**”. Em português, o segundo verbo fica no infinitivo (aprender, programar). Em inglês, o segundo verbo muda de forma conforme o primeiro verbo da frase.\n\nHá dois padrões principais: **to + verbo base** (o infinitivo, como em *to learn*) e **verbo + -ing** (o gerúndio, como em *learning*). Não existe uma regra simples para adivinhar: cada verbo pede um padrão. A boa notícia é que o grupo mais comum é pequeno, e você vai aprendê-lo agora.",
+      "examples": [
+        {"en": "I want to learn Python.", "pt": "Eu quero aprender Python."},
+        {"en": "She enjoys writing tests.", "pt": "Ela gosta de escrever testes."},
+        {"en": "We plan to release it on Monday.", "pt": "Nós planejamos lançar na segunda-feira."}
+      ],
+      "tip": "Aprenda o verbo junto com o seu padrão: want to, enjoy -ing. É assim que os falantes nativos guardam essas combinações."
+    },
+    {
+      "title": "Verbo + to + verbo base",
+      "text": "Com **want**, **need**, **plan**, **hope**, **decide** e **learn**, o segundo verbo vem com **to** e na forma base: *I want to go*. O **to** aqui faz parte do infinitivo; não tem nada a ver com a palavra “para”.\n\nSe o sujeito for he, she ou it, o **-s** fica no primeiro verbo: *She wants to go*, e não *She want to goes*. A negativa também age no primeiro verbo: *I don't want to wait*.",
+      "table": {
+        "headers": ["Verbo", "Significado", "Exemplo"],
+        "rows": [
+          ["want to", "querer", "I want to change my password."],
+          ["need to", "precisar", "We need to restart the server."],
+          ["plan to", "planejar", "They plan to move to a new office."],
+          ["hope to", "esperar, ter a esperança de", "I hope to see you soon."],
+          ["decide to", "decidir", "She decided to use a new tool."],
+          ["learn to", "aprender a", "He is learning to code."]
+        ]
+      },
+      "examples": [
+        {"en": "He wants to change jobs.", "pt": "Ele quer mudar de emprego."},
+        {"en": "They decided to use a new tool.", "pt": "Eles decidiram usar uma ferramenta nova."},
+        {"en": "I don't want to wait.", "pt": "Eu não quero esperar."}
+      ],
+      "trap": "Em português dizemos “Eu quero ir”, e muita gente copia a estrutura: *I want go*. Em inglês falta o **to**: o certo é *I want to go*."
+    },
+    {
+      "title": "Verbo + -ing",
+      "text": "Alguns verbos exigem que o segundo verbo termine em **-ing**. Os mais úteis agora são **enjoy** (gostar de), **finish** (terminar), **avoid** (evitar) e **keep** (continuar a, não parar de).\n\nPara formar o -ing, junte **-ing** ao verbo: *test* → *testing*. Se o verbo termina em **-e**, tire o e: *write* → *writing*. Se termina em consoante + vogal + consoante curtos, dobre a última: *run* → *running*, *plan* → *planning*.",
+      "table": {
+        "headers": ["Verbo", "Significado", "Exemplo"],
+        "rows": [
+          ["enjoy + -ing", "gostar de", "I enjoy working from home."],
+          ["finish + -ing", "terminar de", "We finished testing at six."],
+          ["avoid + -ing", "evitar", "She avoids using old libraries."],
+          ["keep + -ing", "continuar, não parar de", "I keep making the same mistake."]
+        ]
+      },
+      "examples": [
+        {"en": "I enjoy working from home.", "pt": "Eu gosto de trabalhar de casa."},
+        {"en": "We finished testing at six.", "pt": "Nós terminamos de testar às seis."},
+        {"en": "She avoids using old libraries.", "pt": "Ela evita usar bibliotecas antigas."}
+      ],
+      "trap": "Depois de **enjoy** não se usa to: *I enjoy to work* está errado. O certo é *I enjoy working*."
+    },
+    {
+      "title": "Like, love, hate e start: os dois padrões",
+      "text": "Alguns verbos aceitam **os dois padrões**, quase sem mudança de sentido: **like**, **love**, **hate**, **start** e **begin**. Você pode dizer *I like working* ou *I like to work*, e as duas frases estão corretas.\n\nNo dia a dia, os falantes usam muito a forma com **-ing** para falar de gostos em geral (*I love coding*). Para você, o mais importante é saber que as duas formas existem e que nenhuma delas está errada.",
+      "examples": [
+        {"en": "I like working with small teams.", "pt": "Eu gosto de trabalhar com times pequenos."},
+        {"en": "I like to work with small teams.", "pt": "Eu gosto de trabalhar com times pequenos."},
+        {"en": "He hates waiting for builds.", "pt": "Ele odeia esperar os builds."},
+        {"en": "The team started to use a new tool.", "pt": "O time começou a usar uma ferramenta nova."}
+      ],
+      "tip": "Na dúvida com like, love, hate ou start, as duas formas funcionam. Com enjoy e finish, use só -ing; com want, need, plan, hope e decide, use só to."
+    },
+    {
+      "title": "Would like: ofertas e pedidos educados",
+      "text": "**Would like** significa “gostaria” e é mais educado que **want**. Depois dele vem **to + verbo** ou um **substantivo**. A forma não muda com o sujeito: *She would like*, e não *She would likes*. Na fala, usamos a contração **I'd like**.\n\nPara oferecer ou convidar, use a pergunta **Would you like…?**. Para pedir, use **I would like…**. Respostas comuns: *Yes, please*, *Yes, I would* e *No, thank you*.",
+      "table": {
+        "headers": ["Situação", "Estrutura", "Exemplo"],
+        "rows": [
+          ["Oferta", "Would you like + substantivo?", "Would you like a coffee?"],
+          ["Convite", "Would you like + to + verbo?", "Would you like to join us?"],
+          ["Pedido", "I would like + substantivo / to + verbo", "I would like to book a room."]
+        ]
+      },
+      "examples": [
+        {"en": "Would you like some coffee?", "pt": "Você gostaria de um café?"},
+        {"en": "Would you like to join the call?", "pt": "Você gostaria de entrar na call?"},
+        {"en": "I would like to book a meeting room.", "pt": "Eu gostaria de reservar uma sala de reunião."},
+        {"en": "She would like a copy of the report.", "pt": "Ela gostaria de uma cópia do relatório."}
+      ],
+      "trap": "*Do you like a coffee?* não é uma oferta: *Do you like coffee?* pergunta se a pessoa **gosta** de café em geral. Para oferecer agora, use *Would you like a coffee?*. Depois de would like, use to, e não -ing: *Would you like to join*, e não *Would you like joining*."
+    },
+    {
+      "title": "Quando outra pessoa faz a ação e a negativa",
+      "text": "Para dizer que você quer que **outra pessoa** faça algo, use **want + pessoa + to + verbo**: *I want you to review my code*. Em português usamos “que” (“quero que você revise”), mas em inglês não se usa *that* aqui. Com would like funciona igual: *I would like you to join*.\n\nNa negativa, o **not** vem antes do **to**: *We decided not to deploy*. Com want, need e enjoy, a negativa usa don't / doesn't no primeiro verbo: *She doesn't enjoy working late*.",
+      "examples": [
+        {"en": "I want you to review my code.", "pt": "Eu quero que você revise meu código."},
+        {"en": "I would like you to join the meeting.", "pt": "Eu gostaria que você entrasse na reunião."},
+        {"en": "We decided not to deploy on Friday.", "pt": "Nós decidimos não fazer deploy na sexta."},
+        {"en": "She doesn't enjoy working late.", "pt": "Ela não gosta de trabalhar até tarde."}
+      ],
+      "trap": "Não traduza “Eu quero que você ajude” palavra por palavra. *I want that you help* está errado; o certo é *I want you to help*."
+    },
+    {
+      "title": "Os padrões em uma situação de trabalho",
+      "text": "Veja os padrões juntos em uma reunião de retrospectiva. Ana conta o que gosta de fazer, Tom fala do que precisa e planeja, e a gerente faz um convite educado com **would like**.\n\nPergunte-se sempre: qual é o primeiro verbo? Se for *enjoy, finish, avoid* ou *keep*, o segundo termina em **-ing**. Se for *want, need, plan, hope, decide* ou *learn*, vem **to**. Se for *would like*, vem **to** ou um substantivo.",
+      "examples": [
+        {"en": "I enjoy working on this project.", "pt": "Eu gosto de trabalhar neste projeto."},
+        {"en": "We need to fix the slow queries.", "pt": "Nós precisamos corrigir as consultas lentas."},
+        {"en": "We plan to start next week.", "pt": "Nós planejamos começar na semana que vem."},
+        {"en": "Would you like to lead the task?", "pt": "Você gostaria de liderar a tarefa?"}
+      ]
+    },
+    {
+      "title": "Mapa de revisão",
+      "text": "Use este mapa para revisar. Quando for escrever uma frase com dois verbos, olhe para o primeiro verbo e escolha o padrão da coluna do meio. Lembre que a forma do primeiro verbo acompanha o sujeito (wants, needs, enjoys), e que o segundo verbo nunca recebe -s.\n\nPara ofertas, convites e pedidos educados, a estrutura com would like é a mais segura e mais natural no trabalho.",
+      "table": {
+        "headers": ["Primeiro verbo", "Segundo verbo", "Exemplo"],
+        "rows": [
+          ["want, need, plan, hope, decide, learn", "to + verbo base", "He decided to stay."],
+          ["enjoy, finish, avoid, keep", "verbo + -ing", "She finished writing."],
+          ["like, love, hate, start", "to + verbo ou -ing", "I love to code. / I love coding."],
+          ["would like", "to + verbo ou substantivo", "I would like to start. / I would like a coffee."]
+        ]
+      },
+      "examples": [
+        {"en": "He decided to stay.", "pt": "Ele decidiu ficar."},
+        {"en": "She finished writing the report.", "pt": "Ela terminou de escrever o relatório."}
+      ]
+    }
+  ],
+  "summary": [
+    "Depois de want, need, plan, hope, decide e learn, o segundo verbo vem com to + verbo base (I want to go).",
+    "Depois de enjoy, finish, avoid e keep, o segundo verbo termina em -ing (I enjoy working).",
+    "Like, love, hate e start aceitam as duas formas: I like working e I like to work.",
+    "Would like é a forma educada para ofertas, convites e pedidos: Would you like a coffee? / I would like to book a room.",
+    "Para pedir que outra pessoa faça algo, use want + pessoa + to (I want you to help), e não that."
+  ],
+  "practice": [
+    {"id": "a2-10-p1", "type": "choice", "prompt": "I want ___ a new framework.", "options": ["to learn", "learning", "learn"], "answer": 0,
+     "explain": "Depois de want, o segundo verbo vem com to e na forma base: want to learn.",
+     "why_not": {"1": "Want não aceita -ing depois dele.", "2": "Falta o to: want precisa de to + verbo base."}},
+    {"id": "a2-10-p2", "type": "choice", "prompt": "She enjoys ___ with open-source projects.", "options": ["to work", "working", "work"], "answer": 1,
+     "explain": "Enjoy pede o verbo com -ing: enjoys working.",
+     "why_not": {"0": "Depois de enjoy não se usa to.", "2": "O verbo base sozinho não combina com enjoy; use -ing."}},
+    {"id": "a2-10-p3", "type": "choice", "prompt": "We need ___ the database today.", "options": ["to update", "updating", "update"], "answer": 0,
+     "explain": "Need, quando o sujeito faz a ação, pede to + verbo base: need to update.",
+     "why_not": {"1": "Com need e um sujeito que faz a ação, não usamos -ing.", "2": "Falta o to depois de need."}},
+    {"id": "a2-10-p4", "type": "fill", "prompt": "They decided ___ move the meeting to Friday.", "answers": ["to"],
+     "explain": "Decide é seguido de to + verbo base: decided to move."},
+    {"id": "a2-10-p5", "type": "fill", "prompt": "He finished ___ the report at five. (write)", "answers": ["writing"],
+     "explain": "Finish pede -ing. O verbo write perde o e e vira writing."},
+    {"id": "a2-10-p6", "type": "fill", "prompt": "I would like ___ book a room for Monday.", "answers": ["to"],
+     "explain": "Would like é seguido de to + verbo base: would like to book."},
+    {"id": "a2-10-p7", "type": "choice", "prompt": "Qual frase oferece um café de forma educada?", "options": ["Do you like a coffee?", "Would you like a coffee?", "You would like coffee?"], "answer": 1,
+     "explain": "Would you like…? é a forma natural de oferecer algo a alguém agora.",
+     "why_not": {"0": "Do you like…? pergunta se a pessoa gosta de algo em geral.", "2": "A pergunta precisa de inversão: Would you like…?, e não You would like…?"}},
+    {"id": "a2-10-p8", "type": "translate", "prompt": "Eu quero aprender inglês.", "answers": ["I want to learn English.", "I would like to learn English."],
+     "explain": "Want é seguido de to + verbo base: want to learn. Would like to learn também é correto e mais educado."},
+    {"id": "a2-10-p9", "type": "order", "words": ["She", "enjoys", "writing", "documentation"], "prompt": "Ela gosta de escrever documentação.",
+     "explain": "Enjoy é seguido de -ing: She enjoys writing documentation."},
+    {"id": "a2-10-p10", "type": "fix", "prompt": "I enjoy to work with my team.", "answers": ["I enjoy working with my team."],
+     "explain": "Depois de enjoy usamos -ing, e não to + verbo: enjoy working."},
+    {"id": "a2-10-p11", "type": "fix", "prompt": "She wants go home early.", "answers": ["She wants to go home early."],
+     "explain": "Depois de want falta o to: wants to go. O -s fica em wants."},
+    {"id": "a2-10-p12", "type": "listen", "en": "Would you like to join the planning meeting?",
+     "explain": "A pergunta é Would you like + to + verbo base (join). É um convite educado."}
+  ],
+  "quiz": [
+    {"id": "a2-10-q1", "type": "choice", "prompt": "My manager hopes ___ the project by June.", "options": ["to finish", "finishing", "finish"], "answer": 0,
+     "explain": "Hope pede to + verbo base: hopes to finish.",
+     "why_not": {"1": "Hope não é seguido de -ing.", "2": "Falta o to depois de hope."}},
+    {"id": "a2-10-q2", "type": "choice", "prompt": "We avoid ___ changes on Fridays.", "options": ["to make", "making", "make"], "answer": 1,
+     "explain": "Avoid pede o verbo com -ing: avoid making. O e de make desaparece.",
+     "why_not": {"0": "Depois de avoid não se usa to.", "2": "O verbo base sozinho não combina com avoid."}},
+    {"id": "a2-10-q3", "type": "fill", "prompt": "She plans ___ attend the conference in May.", "answers": ["to"],
+     "explain": "Plan é seguido de to + verbo base: plans to attend."},
+    {"id": "a2-10-q4", "type": "fill", "prompt": "I keep ___ the same mistake. (make)", "answers": ["making"],
+     "explain": "Keep pede -ing. O verbo make perde o e: making."},
+    {"id": "a2-10-q5", "type": "translate", "prompt": "Você gostaria de um pouco de água?", "answers": ["Would you like some water?", "Would you like a little water?"],
+     "explain": "Para oferecer algo, use Would you like + substantivo? Com água (incontável), usamos some water."},
+    {"id": "a2-10-q6", "type": "order", "words": ["I", "would", "like", "to", "book", "a", "meeting", "room"], "prompt": "Eu gostaria de reservar uma sala de reunião.",
+     "explain": "A estrutura é I would like + to + verbo base + complemento.",
+     "answers": ["I'd like to book a meeting room."]},
+    {"id": "a2-10-q7", "type": "fix", "prompt": "Would you like joining us for lunch?", "answers": ["Would you like to join us for lunch?"],
+     "explain": "Depois de would like usamos to + verbo base, e não -ing: would you like to join."},
+    {"id": "a2-10-q8", "type": "listen", "en": "She hopes to finish the migration this week.",
+     "explain": "Hope é seguido de to + verbo base: hopes to finish. O -s fica em hopes."}
+  ],
+  "words": [
+    {"word": "want", "pt": "querer"},
+    {"word": "plan", "pt": "planejar; plano"},
+    {"word": "hope", "pt": "esperar; ter a esperança de"},
+    {"word": "decide", "pt": "decidir"},
+    {"word": "enjoy", "pt": "gostar de; curtir"},
+    {"word": "finish", "pt": "terminar; acabar"},
+    {"word": "avoid", "pt": "evitar"},
+    {"word": "keep", "pt": "continuar; manter; guardar"},
+    {"word": "would like", "pt": "gostaria de"},
+    {"word": "book", "pt": "reservar; livro"},
+    {"word": "join", "pt": "entrar em; juntar-se a"}
+  ]
+}

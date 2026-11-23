@@ -1,0 +1,279 @@
+{
+  "id": "b2-11",
+  "level": "B2",
+  "unit": "Orações e conectores",
+  "title": "Orações participiais e adjetivos -ing/-ed",
+  "goal": "Escolher entre adjetivos -ing e -ed e encurtar frases com orações participiais (Having finished…, Written in Python…).",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "Adjetivos -ed e -ing: quem sente × o que causa",
+      "text": "Muitos verbos de emoção (*bore*, *interest*, *confuse*, *surprise*) geram dois adjetivos. O adjetivo em **-ed** descreve **quem sente** a emoção. O adjetivo em **-ing** descreve **o que causa** a emoção.\n\nPense assim: o relatório é *boring* (ele causa tédio) e eu fico *bored* (eu sinto tédio). Em português existem pares parecidos, como “cansado” e “cansativo”, “entediado” e “entediante”. Em inglês o par se forma sempre com essas duas terminações.",
+      "table": {
+        "headers": ["Sente (-ed)", "Causa (-ing)", "Exemplo"],
+        "rows": [
+          ["bored", "boring", "a boring meeting"],
+          ["interested", "interesting", "an interesting idea"],
+          ["confused", "confusing", "a confusing error message"],
+          ["surprised", "surprising", "a surprising result"],
+          ["exhausted", "exhausting", "an exhausting week"],
+          ["annoyed", "annoying", "an annoying bug"]
+        ]
+      },
+      "examples": [
+        {"en": "The error message was confusing, so I was confused.", "pt": "A mensagem de erro era confusa, então eu fiquei confuso."},
+        {"en": "We were surprised by the results.", "pt": "Ficamos surpresos com os resultados."},
+        {"en": "The results were surprising.", "pt": "Os resultados foram surpreendentes."},
+        {"en": "It was an exhausting week for the whole team.", "pt": "Foi uma semana exaustiva para a equipe inteira."}
+      ],
+      "trap": "Dizer *I am boring* não significa “estou entediado”: significa “eu sou uma pessoa chata”. Para dizer como você se sente, use *I am bored*."
+    },
+    {
+      "title": "Oração participial: o que é",
+      "text": "Uma **oração participial** (*participle clause*) é uma oração reduzida: ela tem um verbo em **-ing** ou **-ed**, mas **não tem sujeito próprio**. O sujeito é o mesmo da oração principal.\n\nEm vez de *While I was waiting for the build, I checked my e-mail*, escrevemos *Waiting for the build, I checked my e-mail*. A frase fica mais curta e mais fluida, um estilo típico de textos escritos e de relatórios. A oração participial costuma vir no começo da frase, seguida de vírgula.",
+      "examples": [
+        {"en": "Waiting for the build, I checked my e-mail.", "pt": "Enquanto esperava o build, conferi meu e-mail."},
+        {"en": "Working from home, she saves two hours a day.", "pt": "Trabalhando de casa, ela economiza duas horas por dia."},
+        {"en": "Opening the log file, Ravi saw the error.", "pt": "Ao abrir o arquivo de log, Ravi viu o erro."}
+      ],
+      "tip": "O sujeito é o mesmo nas duas partes: quem espera o build e quem confere o e-mail é a mesma pessoa."
+    },
+    {
+      "title": "-ing: ações simultâneas, sequenciais e causa",
+      "text": "O particípio presente (**-ing**) tem três usos principais. Primeiro, **duas ações ao mesmo tempo**: *Talking to the client, she took notes*. Segundo, **uma ação logo seguida de outra**, quando a primeira é curta: *Opening the file, I saw the error*. Terceiro, **causa ou motivo**: *Knowing the deadline was close, she worked late*.\n\nPara a forma negativa, coloque **not** antes do -ing: *Not knowing the password, he called the help desk*.",
+      "examples": [
+        {"en": "Talking to the client, she took notes.", "pt": "Falando com o cliente, ela fazia anotações."},
+        {"en": "Knowing the deadline was close, she worked late.", "pt": "Sabendo que o prazo estava perto, ela trabalhou até tarde."},
+        {"en": "Not knowing the password, he called the help desk.", "pt": "Como não sabia a senha, ele ligou para o suporte."},
+        {"en": "Being new to the team, Lena asked many questions.", "pt": "Por ser nova na equipe, Lena fez muitas perguntas."}
+      ]
+    },
+    {
+      "title": "Having + particípio: uma ação anterior",
+      "text": "Quando a ação da oração participial aconteceu **antes** da ação principal e já estava terminada, use o **particípio perfeito**: **having + particípio passado**. *Having finished the review, he merged the pull request* quer dizer que primeiro ele terminou a revisão e só depois fez o merge.\n\nPara o sentido passivo, use **having been + particípio**: *Having been warned about the risk, we tested the patch twice*. A forma negativa põe **not** no começo: *Not having read the report, she could not answer*.",
+      "examples": [
+        {"en": "Having finished the review, he merged the pull request.", "pt": "Depois de terminar a revisão, ele fez o merge do pull request."},
+        {"en": "Having been warned about the risk, we tested the patch twice.", "pt": "Tendo sido avisados do risco, testamos o patch duas vezes."},
+        {"en": "Not having read the report, she could not answer the question.", "pt": "Como não tinha lido o relatório, ela não pôde responder à pergunta."}
+      ],
+      "tip": "Se as duas ações são quase simultâneas, o -ing simples basta. Having + particípio deixa claro que a primeira já estava concluída."
+    },
+    {
+      "title": "Particípio passado: sentido passivo",
+      "text": "Uma oração com particípio passado (**-ed** ou a forma irregular, como *written*, *built*) tem **sentido passivo**: o sujeito da frase **recebe** a ação. *Written in Python, the script is easy to read* quer dizer “O script, que foi escrito em Python, é fácil de ler”.\n\nEsse tipo aparece muito em descrições técnicas: *Used correctly, this tool saves time*; *Compared with the old version, the new one is faster*. Nos dois casos, o sujeito da oração principal é a coisa que foi usada ou comparada.",
+      "examples": [
+        {"en": "Written in Python, the script is easy to read.", "pt": "Escrito em Python, o script é fácil de ler."},
+        {"en": "Used correctly, this tool saves hours of work.", "pt": "Usada corretamente, esta ferramenta economiza horas de trabalho."},
+        {"en": "Compared with the old version, the new one is much faster.", "pt": "Comparada com a versão antiga, a nova é bem mais rápida."},
+        {"en": "Tested on three devices, the app works well.", "pt": "Testado em três dispositivos, o aplicativo funciona bem."}
+      ],
+      "trap": "Não confunda os dois particípios. *Writing in Python, the script…* diria que o script escreve. Use **-ing** quando o sujeito **faz** a ação e **-ed** quando ele **sofre** a ação."
+    },
+    {
+      "title": "Com conjunções: while, before, after, although",
+      "text": "Você pode manter a conjunção para deixar a relação entre as ações mais clara. Depois de **while**, **when**, **before**, **after**, **since** e **once**, use o -ing quando o sujeito for o mesmo: *Before deploying, check the logs*. Com **although**, **when** e **if**, aparecem também o particípio passado ou um adjetivo: *Although tired, she finished the release*.\n\nIsso encurta *Before you deploy…* e *Although she was tired…*. Em textos formais, mantenha a conjunção quando houver risco de ambiguidade.",
+      "examples": [
+        {"en": "Before deploying, check the logs.", "pt": "Antes de fazer o deploy, confira os logs."},
+        {"en": "While waiting for the build, we reviewed two tickets.", "pt": "Enquanto esperávamos o build, revisamos dois tickets."},
+        {"en": "After reading the report, Omar called the client.", "pt": "Depois de ler o relatório, Omar ligou para o cliente."},
+        {"en": "Although tired, she finished the release on time.", "pt": "Embora cansada, ela terminou a release no prazo."},
+        {"en": "When using this API, remember the rate limit.", "pt": "Ao usar esta API, lembre-se do limite de requisições."}
+      ]
+    },
+    {
+      "title": "A regra de ouro: o sujeito tem de combinar",
+      "text": "O **sujeito implícito** da oração participial é o **sujeito da oração principal**. Se não for, a frase fica estranha. Esse erro tem nome: **dangling participle** (particípio “pendurado”).\n\n*Opening the file, the error appeared* soa errado, porque parece que o erro abriu o arquivo. Corrija dando à frase o sujeito certo: *Opening the file, I saw the error*. Em relatórios de incidente, essas orações deixam o texto enxuto, desde que o sujeito esteja claro.",
+      "examples": [
+        {"en": "Opening the file, I saw the error.", "pt": "Ao abrir o arquivo, vi o erro."},
+        {"en": "Having checked the logs, the team found the cause.", "pt": "Depois de conferir os logs, a equipe encontrou a causa."},
+        {"en": "Reading the report, I noticed three mistakes.", "pt": "Lendo o relatório, notei três erros."}
+      ],
+      "trap": "*Walking into the meeting, my laptop died* sugere que o notebook entrou na reunião. Escreva *Walking into the meeting, I noticed that my laptop had no battery*."
+    }
+  ],
+  "summary": [
+    "O adjetivo em -ed descreve quem sente (I am bored); o adjetivo em -ing descreve o que causa a emoção (the meeting is boring).",
+    "Uma oração participial não tem sujeito próprio: ela usa o sujeito da oração principal (Waiting for the build, I checked my e-mail).",
+    "O -ing serve para ações simultâneas, sequenciais ou para dar o motivo; a forma negativa usa not antes do -ing.",
+    "Having + particípio mostra uma ação anterior já terminada; having been + particípio dá o sentido passivo.",
+    "O particípio passado tem sentido passivo (Written in Python, the script…); com while, before, after e although a conjunção pode ficar.",
+    "Cuidado com o dangling participle: quem faz a ação do particípio deve ser o sujeito da oração principal."
+  ],
+  "practice": [
+    {
+      "id": "b2-11-p1",
+      "type": "choice",
+      "prompt": "The training session was so ___ that half the team fell asleep.",
+      "options": ["boring", "bored", "bore"],
+      "answer": 0,
+      "explain": "A sessão causa o tédio, então usamos o adjetivo em -ing: boring. O adjetivo em -ed descreveria quem sente o tédio.",
+      "why_not": {"1": "Bored descreve quem sente tédio (the team was bored), e não o que causa.", "2": "Bore é verbo ou substantivo, e não um adjetivo."}
+    },
+    {
+      "id": "b2-11-p2",
+      "type": "choice",
+      "prompt": "I was really ___ by the sudden outage.",
+      "options": ["surprising", "surprised", "surprise"],
+      "answer": 1,
+      "explain": "O sujeito I sente a emoção, então o adjetivo termina em -ed: surprised.",
+      "why_not": {"0": "Surprising descreve o que causa surpresa (the outage was surprising).", "2": "Surprise é substantivo ou verbo, e não um adjetivo."}
+    },
+    {
+      "id": "b2-11-p3",
+      "type": "fill",
+      "prompt": "The new interface is confusing, so many users feel ___.",
+      "answers": ["confused"],
+      "explain": "Os usuários sentem a confusão, então usamos -ed: confused. A interface é quem causa, por isso ela é confusing."
+    },
+    {
+      "id": "b2-11-p4",
+      "type": "choice",
+      "prompt": "___ the error, she restarted the service.",
+      "options": ["Seeing", "Seen", "Be seeing"],
+      "answer": 0,
+      "explain": "Ela mesma viu o erro e depois reiniciou o serviço. A ação é feita pelo sujeito, então usamos o -ing: Seeing the error, she restarted the service.",
+      "why_not": {"1": "Seen daria sentido passivo, como se o sujeito fosse visto.", "2": "Be seeing não forma uma oração participial."}
+    },
+    {
+      "id": "b2-11-p5",
+      "type": "fill",
+      "prompt": "___ finished the tests, Dana deployed the fix.",
+      "answers": ["having"],
+      "explain": "Os testes terminaram antes do deploy. Para uma ação anterior e concluída, usamos having + particípio: Having finished."
+    },
+    {
+      "id": "b2-11-p6",
+      "type": "order",
+      "words": ["Written", "in", "Python", "the", "script", "is", "easy", "to", "read"],
+      "prompt": "Escrito em Python, o script é fácil de ler.",
+      "explain": "O particípio passado Written tem sentido passivo e abre a frase, seguido do sujeito the script e do verbo principal."
+    },
+    {
+      "id": "b2-11-p7",
+      "type": "fix",
+      "prompt": "The training was very bored.",
+      "answers": ["The training was very boring."],
+      "explain": "O treinamento causa o tédio, então o adjetivo certo é boring. Bored seria usado para uma pessoa que sente tédio."
+    },
+    {
+      "id": "b2-11-p8",
+      "type": "fix",
+      "prompt": "She was exciting about the new project.",
+      "answers": ["She was excited about the new project."],
+      "explain": "Ela sente a emoção, então o adjetivo é excited. O adjetivo exciting descreve o que causa a empolgação, como em an exciting project."
+    },
+    {
+      "id": "b2-11-p9",
+      "type": "translate",
+      "prompt": "Tendo terminado o relatório, ele o enviou ao gerente.",
+      "answers": [
+        "Having finished the report, he sent it to the manager.",
+        "Having finished the report, he sent it to his manager.",
+        "Having completed the report, he sent it to the manager.",
+        "Having completed the report, he sent it to his manager.",
+        "Having finished the report, he sent the report to the manager."
+      ],
+      "explain": "Tendo terminado indica uma ação anterior e concluída: having + particípio (finished ou completed). Depois vem a oração principal com o mesmo sujeito, he."
+    },
+    {
+      "id": "b2-11-p10",
+      "type": "choice",
+      "prompt": "___ the password, he called the help desk.",
+      "options": ["Not knowing", "Knowing not", "Not known"],
+      "answer": 0,
+      "explain": "Na forma negativa, o not vem antes do -ing: Not knowing the password.",
+      "why_not": {"1": "Knowing not é uma ordem arcaica e não se usa hoje.", "2": "Not known é passivo, e ele é quem não sabia a senha."}
+    },
+    {
+      "id": "b2-11-p11",
+      "type": "fix",
+      "prompt": "Before to deploy, run all the tests.",
+      "answers": [
+        "Before deploying, run all the tests.",
+        "Before you deploy, run all the tests."
+      ],
+      "explain": "Depois da conjunção before, usamos o -ing (before deploying) ou uma oração completa (before you deploy). A forma before to deploy não existe."
+    },
+    {
+      "id": "b2-11-p12",
+      "type": "listen",
+      "en": "Having read the report, we decided to postpone the release.",
+      "explain": "Having read indica que a leitura terminou antes da decisão. O sujeito we vale para as duas orações."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "b2-11-q1",
+      "type": "choice",
+      "prompt": "I found the documentation really ___.",
+      "options": ["confusing", "confused", "confuse"],
+      "answer": 0,
+      "explain": "A documentação causa a confusão, então o adjetivo é confusing.",
+      "why_not": {"1": "Confused descreveria a pessoa que sente a confusão, e não a documentação.", "2": "Confuse é verbo, e não adjetivo."}
+    },
+    {
+      "id": "b2-11-q2",
+      "type": "fill",
+      "prompt": "The long meeting was so ___ that everyone looked tired.",
+      "answers": ["exhausting", "tiring"],
+      "explain": "A reunião causa o cansaço, então usamos um adjetivo em -ing: exhausting ou tiring."
+    },
+    {
+      "id": "b2-11-q3",
+      "type": "translate",
+      "prompt": "Sabendo que o prazo estava perto, ela trabalhou até tarde.",
+      "answers": [
+        "Knowing that the deadline was close, she worked late.",
+        "Knowing the deadline was close, she worked late.",
+        "Knowing that the deadline was near, she worked late.",
+        "Knowing the deadline was near, she worked late.",
+        "Knowing that the deadline was close, she worked until late.",
+        "Knowing the deadline was close, she worked until late.",
+        "Knowing that the deadline was near, she worked until late.",
+        "Knowing the deadline was near, she worked until late."
+      ],
+      "explain": "A oração participial com -ing dá o motivo: Knowing the deadline was close. O sujeito she vale para as duas partes da frase."
+    },
+    {
+      "id": "b2-11-q4",
+      "type": "order",
+      "words": ["Having", "fixed", "the", "bug", "she", "closed", "the", "ticket"],
+      "prompt": "Tendo corrigido o bug, ela fechou o ticket.",
+      "explain": "Having + particípio (fixed) mostra a ação anterior. Em seguida vem a oração principal com o mesmo sujeito."
+    },
+    {
+      "id": "b2-11-q5",
+      "type": "fix",
+      "prompt": "Not have the right access, I could not open the folder.",
+      "answers": ["Not having the right access, I could not open the folder."],
+      "explain": "Na oração participial negativa usamos not + -ing: Not having the right access. A forma have não pode ficar na forma base aqui."
+    },
+    {
+      "id": "b2-11-q6",
+      "type": "choice",
+      "prompt": "___ in 2019, the system is still reliable.",
+      "options": ["Building", "Built", "Having building"],
+      "answer": 1,
+      "explain": "O sistema foi construído, ou seja, sofre a ação. Por isso usamos o particípio passado com sentido passivo: Built in 2019.",
+      "why_not": {"0": "Building diria que o sistema constrói algo.", "2": "Having building não é uma forma possível: depois de having vem o particípio passado."}
+    },
+    {
+      "id": "b2-11-q7",
+      "type": "listen",
+      "en": "Working under pressure, the team fixed the issue in an hour.",
+      "explain": "Working under pressure é uma oração participial simultânea. O sujeito the team vale para as duas orações."
+    }
+  ],
+  "words": [
+    {"word": "bored", "pt": "entediado; entediada"},
+    {"word": "boring", "pt": "chato; entediante"},
+    {"word": "confusing", "pt": "confuso; que causa confusão"},
+    {"word": "surprised", "pt": "surpreso; surpresa"},
+    {"word": "exhausting", "pt": "exaustivo; cansativo"},
+    {"word": "deadline", "pt": "prazo"},
+    {"word": "password", "pt": "senha"},
+    {"word": "postpone", "pt": "adiar"},
+    {"word": "reliable", "pt": "confiável"},
+    {"word": "warned", "pt": "avisado; alertado"}
+  ]
+}

@@ -1,0 +1,479 @@
+{
+ "items": [
+  {
+   "id": "p-a1-1",
+   "level": "A1",
+   "type": "choice",
+   "prompt": "I ___ a developer.",
+   "options": [
+    "am",
+    "is",
+    "are"
+   ],
+   "answer": 0,
+   "explain": "Com o pronome *I* usamos sempre *am*: *I am a developer*.",
+   "why_not": {
+    "1": "*is* é para he/she/it.",
+    "2": "*are* é para you/we/they."
+   }
+  },
+  {
+   "id": "p-a1-2",
+   "level": "A1",
+   "type": "fill",
+   "prompt": "My brothers ___ engineers.",
+   "answers": [
+    "are"
+   ],
+   "explain": "*My brothers* equivale a *they* (plural), então o verbo to be é *are*."
+  },
+  {
+   "id": "p-a1-3",
+   "level": "A1",
+   "type": "choice",
+   "prompt": "There ___ two laptops on the desk.",
+   "options": [
+    "is",
+    "are",
+    "am"
+   ],
+   "answer": 1,
+   "explain": "Com substantivo no plural (*two laptops*) usamos *There are*.",
+   "why_not": {
+    "0": "*There is* é para singular.",
+    "2": "*am* só combina com *I*."
+   }
+  },
+  {
+   "id": "p-a1-4",
+   "level": "A1",
+   "type": "choice",
+   "prompt": "He ___ coffee every morning.",
+   "options": [
+    "drink",
+    "drinks",
+    "is drink"
+   ],
+   "answer": 1,
+   "explain": "No present simple, com he/she/it o verbo ganha -s: *he drinks*.",
+   "why_not": {
+    "0": "Falta o -s da terceira pessoa.",
+    "2": "Não se usa *is* antes do verbo principal no present simple."
+   }
+  },
+  {
+   "id": "p-a1-5",
+   "level": "A1",
+   "type": "choice",
+   "prompt": "___ she work on Fridays?",
+   "options": [
+    "Do",
+    "Does",
+    "Is"
+   ],
+   "answer": 1,
+   "explain": "Perguntas no present simple com she usam *Does* + verbo base: *Does she work...?*",
+   "why_not": {
+    "0": "*Do* é para I/you/we/they.",
+    "2": "*Is she work* mistura to be com verbo principal."
+   }
+  },
+  {
+   "id": "p-a1-6",
+   "level": "A1",
+   "type": "choice",
+   "prompt": "Be quiet, please! I ___ a call right now.",
+   "options": [
+    "am having",
+    "have",
+    "having"
+   ],
+   "answer": 0,
+   "explain": "*Right now* indica ação acontecendo agora: present continuous, *am + verbo-ing*.",
+   "why_not": {
+    "1": "O present simple *have* descreve rotina, não ação em andamento.",
+    "2": "Falta o verbo to be (*am*) antes do -ing."
+   }
+  },
+  {
+   "id": "p-a2-1",
+   "level": "A2",
+   "type": "choice",
+   "prompt": "Yesterday we ___ to the client's office.",
+   "options": [
+    "went",
+    "goed",
+    "go"
+   ],
+   "answer": 0,
+   "explain": "*Go* é irregular: o passado é *went*. *Yesterday* pede passado.",
+   "why_not": {
+    "1": "*goed* não existe.",
+    "2": "*go* é o presente; a frase está no passado."
+   }
+  },
+  {
+   "id": "p-a2-2",
+   "level": "A2",
+   "type": "fill",
+   "prompt": "Last week I ___ sick, so I stayed at home.",
+   "answers": [
+    "was"
+   ],
+   "explain": "*Last week* indica passado; o passado de *to be* com *I* é *was*."
+  },
+  {
+   "id": "p-a2-3",
+   "level": "A2",
+   "type": "choice",
+   "prompt": "Did you ___ the bug yesterday?",
+   "options": [
+    "fix",
+    "fixed",
+    "fixes"
+   ],
+   "answer": 0,
+   "explain": "Depois de *Did* o verbo fica no infinitivo sem *to*: *Did you fix...?*",
+   "why_not": {
+    "1": "O passado já está em *Did*; o verbo não vai ao passado de novo.",
+    "2": "Não se usa -s depois de *Did*."
+   }
+  },
+  {
+   "id": "p-a2-4",
+   "level": "A2",
+   "type": "choice",
+   "prompt": "We don't have ___ time before the release.",
+   "options": [
+    "much",
+    "many",
+    "a few"
+   ],
+   "answer": 0,
+   "explain": "*Time* é incontável, então usamos *much* na negativa.",
+   "why_not": {
+    "1": "*many* é para contáveis (many bugs).",
+    "2": "*a few* é para contáveis no plural."
+   }
+  },
+  {
+   "id": "p-a2-5",
+   "level": "A2",
+   "type": "choice",
+   "prompt": "This server is ___ than the old one.",
+   "options": [
+    "expensiver",
+    "more expensive",
+    "most expensive"
+   ],
+   "answer": 1,
+   "explain": "Adjetivos longos formam o comparativo com *more*: *more expensive than*.",
+   "why_not": {
+    "0": "*expensiver* não existe; adjetivos longos usam *more*.",
+    "2": "*most* é superlativo; com *than* usamos comparativo."
+   }
+  },
+  {
+   "id": "p-a2-6",
+   "level": "A2",
+   "type": "choice",
+   "prompt": "You ___ park here. It is forbidden.",
+   "options": [
+    "mustn't",
+    "don't have to",
+    "need to"
+   ],
+   "answer": 0,
+   "explain": "*Mustn't* expressa proibição. Aqui o estacionamento é proibido.",
+   "why_not": {
+    "1": "*don't have to* significa que não é necessário, não que é proibido.",
+    "2": "*need to* indica necessidade, o oposto do sentido."
+   }
+  },
+  {
+   "id": "p-b1-1",
+   "level": "B1",
+   "type": "choice",
+   "prompt": "I ___ at this company since 2022.",
+   "options": [
+    "work",
+    "worked",
+    "have worked"
+   ],
+   "answer": 2,
+   "explain": "*Since 2022* liga o passado ao presente: present perfect, *have worked*.",
+   "why_not": {
+    "0": "O present simple não combina com *since*.",
+    "1": "O past simple indicaria que você já não trabalha lá."
+   }
+  },
+  {
+   "id": "p-b1-2",
+   "level": "B1",
+   "type": "choice",
+   "prompt": "While I ___ the code, the power went out.",
+   "options": [
+    "was reviewing",
+    "reviewed",
+    "am reviewing"
+   ],
+   "answer": 0,
+   "explain": "A ação em andamento no passado (cenário) usa past continuous; a interrupção (*went out*) usa past simple.",
+   "why_not": {
+    "1": "*While* pede a ação longa em andamento, não o past simple.",
+    "2": "A frase está no passado."
+   }
+  },
+  {
+   "id": "p-b1-3",
+   "level": "B1",
+   "type": "choice",
+   "prompt": "If it rains tomorrow, we ___ the deploy.",
+   "options": [
+    "will postpone",
+    "would postpone",
+    "postponed"
+   ],
+   "answer": 0,
+   "explain": "First conditional: *if* + presente, *will* + verbo base, para situação futura provável.",
+   "why_not": {
+    "1": "*would* é do second conditional (situação improvável).",
+    "2": "O past simple não forma o resultado do first conditional."
+   }
+  },
+  {
+   "id": "p-b1-4",
+   "level": "B1",
+   "type": "fill",
+   "prompt": "The bug ___ fixed by Maria yesterday.",
+   "answers": [
+    "was"
+   ],
+   "explain": "Passiva no passado: *was/were* + particípio. *Bug* é singular e *yesterday* indica passado: *was fixed*."
+  },
+  {
+   "id": "p-b1-5",
+   "level": "B1",
+   "type": "choice",
+   "prompt": "She said she ___ the report the day before.",
+   "options": [
+    "has finished",
+    "had finished",
+    "finishes"
+   ],
+   "answer": 1,
+   "explain": "No discurso indireto, o passado do relato recua: *had finished*.",
+   "why_not": {
+    "0": "*has finished* não recua o tempo em relação a *said*.",
+    "2": "O present simple não indica ação terminada no passado."
+   }
+  },
+  {
+   "id": "p-b1-6",
+   "level": "B1",
+   "type": "choice",
+   "prompt": "If I had more time, I ___ a new language.",
+   "options": [
+    "will learn",
+    "would learn",
+    "learned"
+   ],
+   "answer": 1,
+   "explain": "Second conditional: *if* + past simple, *would* + verbo base (situação hipotética no presente).",
+   "why_not": {
+    "0": "*will* é do first conditional.",
+    "2": "O resultado do second conditional usa *would*."
+   }
+  },
+  {
+   "id": "p-b2-1",
+   "level": "B2",
+   "type": "choice",
+   "prompt": "When I got to the office, the meeting ___.",
+   "options": [
+    "already started",
+    "had already started",
+    "has already started"
+   ],
+   "answer": 1,
+   "explain": "Past perfect (*had started*) mostra a ação anterior a outra no passado (*got*).",
+   "why_not": {
+    "0": "O past simple não deixa clara a ordem dos eventos aqui.",
+    "2": "O present perfect não combina com *When I got* (passado)."
+   }
+  },
+  {
+   "id": "p-b2-2",
+   "level": "B2",
+   "type": "choice",
+   "prompt": "___ the heavy traffic, we arrived on time.",
+   "options": [
+    "Despite",
+    "Although",
+    "However"
+   ],
+   "answer": 0,
+   "explain": "*Despite* é seguida de substantivo (*the heavy traffic*).",
+   "why_not": {
+    "1": "*Although* é seguida de oração com sujeito e verbo.",
+    "2": "*However* liga frases separadas, não antecede um substantivo."
+   }
+  },
+  {
+   "id": "p-b2-3",
+   "level": "B2",
+   "type": "choice",
+   "prompt": "He admitted ___ the password with a colleague.",
+   "options": [
+    "to share",
+    "sharing",
+    "share"
+   ],
+   "answer": 1,
+   "explain": "*Admit* é seguido de -ing: *admitted sharing*.",
+   "why_not": {
+    "0": "*admit* não usa infinitivo com *to*.",
+    "2": "Falta a forma -ing depois de *admit*."
+   }
+  },
+  {
+   "id": "p-b2-4",
+   "level": "B2",
+   "type": "choice",
+   "prompt": "If we had tested it properly, the bug ___ production.",
+   "options": [
+    "wouldn't reach",
+    "wouldn't have reached",
+    "hadn't reached"
+   ],
+   "answer": 1,
+   "explain": "Third conditional: *if* + past perfect, *would have* + particípio, para hipótese sobre o passado.",
+   "why_not": {
+    "0": "*wouldn't reach* refere-se ao presente ou futuro.",
+    "2": "*hadn't reached* não é a forma do resultado do conditional."
+   }
+  },
+  {
+   "id": "p-b2-5",
+   "level": "B2",
+   "type": "choice",
+   "prompt": "You ___ told me about the problem earlier. Now it is too late.",
+   "options": [
+    "should have",
+    "should",
+    "must have"
+   ],
+   "answer": 0,
+   "explain": "*Should have* + particípio expressa crítica ou arrependimento sobre o passado.",
+   "why_not": {
+    "1": "*should* sozinho refere-se ao presente/futuro e não pode vir antes de *told*.",
+    "2": "*must have* expressa dedução, não crítica."
+   }
+  },
+  {
+   "id": "p-b2-6",
+   "level": "B2",
+   "type": "fill",
+   "prompt": "The report, ___ was written by Ana, is very clear.",
+   "answers": [
+    "which"
+   ],
+   "explain": "Oração relativa não restritiva (entre vírgulas) para coisas usa *which*; *that* não é usado depois de vírgula."
+  },
+  {
+   "id": "p-c1-1",
+   "level": "C1",
+   "type": "fill",
+   "prompt": "What I need ___ a quiet place to work.",
+   "answers": [
+    "is"
+   ],
+   "explain": "Oração clivada com *What*: *What I need is...* O sujeito é a oração, e o complemento (*a quiet place*) é singular."
+  },
+  {
+   "id": "p-c1-2",
+   "level": "C1",
+   "type": "choice",
+   "prompt": "___ completed the tests, the team released the build.",
+   "options": [
+    "Having",
+    "Have",
+    "Being"
+   ],
+   "answer": 0,
+   "explain": "*Having* + particípio indica que a ação veio antes da principal: *Having completed...*",
+   "why_not": {
+    "1": "*Have completed* não funciona como oração reduzida.",
+    "2": "*Being completed* seria passiva e mudaria o sentido."
+   }
+  },
+  {
+   "id": "p-c1-3",
+   "level": "C1",
+   "type": "choice",
+   "prompt": "Had it not been for your help, we ___ the deadline.",
+   "options": [
+    "would have missed",
+    "would miss",
+    "had missed"
+   ],
+   "answer": 0,
+   "explain": "*Had it not been for* equivale ao third conditional e pede *would have* + particípio.",
+   "why_not": {
+    "1": "*would miss* trata do presente ou futuro.",
+    "2": "*had missed* não é a forma do resultado."
+   }
+  },
+  {
+   "id": "p-c1-4",
+   "level": "C1",
+   "type": "choice",
+   "prompt": "It is essential that every developer ___ the guidelines.",
+   "options": [
+    "follows",
+    "follow",
+    "will follow"
+   ],
+   "answer": 1,
+   "explain": "Subjuntivo mandativo: depois de *essential that*, o verbo fica na forma base, sem -s.",
+   "why_not": {
+    "0": "O subjuntivo mandativo não leva -s na terceira pessoa.",
+    "2": "*will* não faz parte da estrutura do subjuntivo."
+   }
+  },
+  {
+   "id": "p-c1-5",
+   "level": "C1",
+   "type": "choice",
+   "prompt": "Only when the logs were checked ___ the cause of the crash.",
+   "options": [
+    "was found",
+    "did they find",
+    "they found"
+   ],
+   "answer": 1,
+   "explain": "Depois de *Only when...* a oração principal tem inversão: *did they find*.",
+   "why_not": {
+    "0": "Falta o sujeito depois de *was found* e a inversão fica errada.",
+    "2": "Sem inversão a estrutura enfática fica incorreta."
+   }
+  },
+  {
+   "id": "p-c1-6",
+   "level": "C1",
+   "type": "choice",
+   "prompt": "He is believed ___ the company last year.",
+   "options": [
+    "to have left",
+    "to leave",
+    "leaving"
+   ],
+   "answer": 0,
+   "explain": "Passiva impessoal sobre ação passada: *is believed to have left*.",
+   "why_not": {
+    "1": "*to leave* refere-se ao presente ou futuro, não a *last year*.",
+    "2": "*believed leaving* não é a construção correta."
+   }
+  }
+ ]
+}

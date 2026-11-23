@@ -1,0 +1,269 @@
+{
+  "id": "c1-07",
+  "level": "C1",
+  "unit": "Postura e coesão",
+  "title": "Hedging, postura e modalidade no texto",
+  "goal": "Calibrar a força das suas afirmações em relatórios e e-mails técnicos, usando hedging, reforços e advérbios de atitude com precisão.",
+  "minutes": 30,
+  "steps": [
+    {
+      "title": "O que é hedging e por que importa",
+      "text": "**Hedging** (do verbo *hedge*, “cercar com uma sebe”) é o uso de palavras que **dosam a certeza** de uma afirmação. Em vez de escrever *This is the cause*, você escreve *This may be the cause* quando ainda não tem prova suficiente. Em relatórios e e-mails técnicos isso mostra rigor: você separa o que **sabe** do que apenas **interpreta**.\n\nO movimento oposto é o **reforço** (*booster*): palavras como *clearly* e *undoubtedly* mostram que a evidência é forte. A combinação das duas escolhas revela a sua **postura** (*stance*): quanto você acredita no que escreve.",
+      "examples": [
+        {"en": "This is the cause of the outage.", "pt": "Esta é a causa da queda do sistema. (afirmação sem nenhuma cautela)"},
+        {"en": "This may be the cause of the outage.", "pt": "Esta pode ser a causa da queda do sistema."},
+        {"en": "This is clearly the cause of the outage.", "pt": "Esta é claramente a causa da queda do sistema."}
+      ],
+      "tip": "Pergunte-se: eu tenho evidência para afirmar isso sem ressalvas? Se não tiver, dose a certeza com hedging; se tiver, pode reforçar."
+    },
+    {
+      "title": "Verbos de hedging: seem, appear, tend, suggest",
+      "text": "Os verbos mais comuns de cautela são **seem** e **appear** (*parecer*), **tend to** (*tender a*), **suggest** e **indicate** (*sugerir*, *indicar*). Eles descrevem uma impressão ou uma tendência, e não um fato absoluto.\n\nObserve as estruturas: **seem/appear + to + verbo**, **it seems/appears that + oração**, **tend to + verbo** e **suggest/indicate + that + oração**. Se o sujeito for a evidência (*the results*, *the logs*), o verbo *suggest* vira uma forma muito natural de dizer o que os dados permitem concluir.",
+      "table": {
+        "headers": ["Estrutura", "Exemplo"],
+        "rows": [
+          ["seem / appear + to + verbo", "The error appears to affect only older devices."],
+          ["it seems / appears that + oração", "It seems that the problem started after the update."],
+          ["tend to + verbo", "Larger files tend to take longer to process."],
+          ["suggest / indicate + that + oração", "The logs suggest that the server ran out of memory."],
+          ["be likely to + verbo", "The new cache is likely to reduce the load."]
+        ]
+      },
+      "examples": [
+        {"en": "The new library seems to cause the memory leak.", "pt": "A nova biblioteca parece causar o vazamento de memória."},
+        {"en": "The results indicate that the patch works.", "pt": "Os resultados indicam que a correção funciona."},
+        {"en": "Users tend to ignore long error messages.", "pt": "Os usuários tendem a ignorar mensagens de erro longas."}
+      ],
+      "trap": "Depois de *seem* e *appear*, o verbo seguinte vai no infinitivo com **to**. Dizer *The error seems affecting older devices* está errado: o certo é *The error seems to affect older devices*."
+    },
+    {
+      "title": "Modais e advérbios de cautela",
+      "text": "Além dos verbos, usamos **modais** (*may*, *might*, *could*) e **advérbios** ou expressões para limitar o alcance da afirmação. *May*, *might* e *could* expressam possibilidade, e *might* e *could* costumam soar um pouco mais cautelosos.\n\n**Arguably** quer dizer “é possível defender que”: você apresenta uma opinião que tem bons argumentos, mas que não é consenso. Expressões como **to some extent** (em parte), **in some cases** e **largely** (em grande parte) evitam generalizações exageradas.",
+      "table": {
+        "headers": ["Recurso", "Efeito", "Exemplo"],
+        "rows": [
+          ["may / might / could", "possibilidade", "The delay may be caused by the network."],
+          ["probably", "alta probabilidade", "The fix will probably work."],
+          ["arguably", "defensável, não consensual", "This is arguably the safest approach."],
+          ["to some extent", "em parte", "The new design solves the problem to some extent."],
+          ["in some cases", "nem sempre", "In some cases, the script fails silently."],
+          ["largely / generally", "em grande parte; em geral", "The outage was largely due to human error."]
+        ]
+      },
+      "examples": [
+        {"en": "The bug might be related to the cache.", "pt": "O bug pode estar relacionado ao cache."},
+        {"en": "Arguably, the old interface was easier to use.", "pt": "Pode-se argumentar que a interface antiga era mais fácil de usar."},
+        {"en": "In general, the system works well under normal load.", "pt": "Em geral, o sistema funciona bem sob carga normal."}
+      ],
+      "trap": "*Maybe* é muito comum na fala, mas em textos formais prefira **perhaps** ou um modal: *Perhaps the cache is the problem* ou *The cache may be the problem*."
+    },
+    {
+      "title": "Reforços: quando afirmar com força",
+      "text": "O hedging não é uma virtude em si. Quando a evidência é sólida, dizer *might* demais deixa o texto fraco e confuso. Nesses casos use **reforços**: **clearly**, **undoubtedly**, **certainly**, **definitely** e expressões como **there is no doubt that**.\n\nReforços exigem evidência concreta. Se você escreve *clearly* e o leitor não vê o motivo, a frase soa arrogante. Use-os depois de apresentar os dados, ou junto com a razão: *The error rate dropped to zero, so the fix clearly works*.",
+      "examples": [
+        {"en": "The results clearly show that the fix works.", "pt": "Os resultados mostram claramente que a correção funciona."},
+        {"en": "This is undoubtedly the main cause of the delay.", "pt": "Esta é, sem dúvida, a principal causa do atraso."},
+        {"en": "There is no doubt that the new process is faster.", "pt": "Não há dúvida de que o novo processo é mais rápido."},
+        {"en": "The error rate dropped to zero, so the patch certainly works.", "pt": "A taxa de erros caiu a zero, então a correção certamente funciona."}
+      ],
+      "tip": "Palavras como *obviously* podem soar condescendentes (“você deveria saber isso”). Em textos para colegas, prefira *clearly* ou uma frase com a evidência."
+    },
+    {
+      "title": "Advérbios de atitude: o que você pensa do fato",
+      "text": "**Advérbios de atitude** comentam a frase inteira e mostram o que o autor sente ou pensa sobre ela: *surprisingly*, *unfortunately*, *fortunately*, *regrettably*, *admittedly*, *understandably*. Eles não descrevem o verbo; descrevem a sua reação ao fato.\n\nNormalmente aparecem no **início da frase**, seguidos de vírgula, ou antes do verbo principal. Em relatórios, ajudam a manter um tom humano e honesto, sem dramatizar.",
+      "table": {
+        "headers": ["Advérbio", "Sentido"],
+        "rows": [
+          ["surprisingly", "contra o esperado"],
+          ["unfortunately / regrettably", "lamentavelmente (regrettably é mais formal)"],
+          ["fortunately", "felizmente"],
+          ["admittedly", "é verdade que (reconhece uma fraqueza)"],
+          ["understandably", "de forma compreensível"],
+          ["interestingly", "curiosamente"]
+        ]
+      },
+      "examples": [
+        {"en": "Surprisingly, the older server was faster.", "pt": "Surpreendentemente, o servidor mais antigo era mais rápido."},
+        {"en": "Unfortunately, we missed the deadline.", "pt": "Infelizmente, perdemos o prazo."},
+        {"en": "Admittedly, the test coverage is still low.", "pt": "É verdade que a cobertura de testes ainda é baixa."},
+        {"en": "Fortunately, no data was lost.", "pt": "Felizmente, nenhum dado foi perdido."}
+      ],
+      "trap": "Atenção ao contraste: *Surprisingly, the test passed* comenta o fato (“foi uma surpresa”). Já *surprisingly fast* usa o advérbio para intensificar o adjetivo (“rápido de um jeito surpreendente”)."
+    },
+    {
+      "title": "Calibrar a força e evitar excessos",
+      "text": "Pense numa **escala de certeza**. Na parte baixa ficam *might* e *possibly*; no meio, *may*, *probably*, *seems to* e *is likely to*; na parte alta, *clearly*, *undoubtedly* e *there is no doubt that*. Escolha o ponto da escala que corresponde à sua evidência.\n\nDois erros comuns: **cautela demais** e **cautela duplicada**. Uma frase como *It might possibly perhaps be a memory leak* soa insegura e não informa nada. Um recurso de cautela por afirmação costuma bastar.",
+      "table": {
+        "headers": ["Certeza", "Recursos", "Exemplo"],
+        "rows": [
+          ["baixa", "might, could, possibly", "It could be a memory leak."],
+          ["média", "may, probably, seems to, is likely to", "It is likely to be a memory leak."],
+          ["alta", "clearly, undoubtedly, there is no doubt that", "It is clearly a memory leak."]
+        ]
+      },
+      "examples": [
+        {"en": "The data is incomplete, so the trend may not be reliable.", "pt": "Os dados estão incompletos, então a tendência pode não ser confiável."},
+        {"en": "The evidence points strongly to a configuration error.", "pt": "A evidência aponta fortemente para um erro de configuração."},
+        {"en": "It is probably a memory leak, but we need more tests.", "pt": "Provavelmente é um vazamento de memória, mas precisamos de mais testes."}
+      ],
+      "tip": "Misturar hedging com um fato firme é uma boa estratégia: *The error is in the login module; the cause is probably a timeout*. Você afirma o que sabe e modera o que supõe."
+    },
+    {
+      "title": "Em contexto: um relatório de incidente",
+      "text": "Veja como a postura muda de frase para frase num relatório. O autor **afirma com firmeza** o que está nos logs, **modera** a interpretação da causa e usa um advérbio de atitude para informar o resultado.\n\nRepare na ordem: primeiro os fatos verificados, depois a interpretação, depois a recomendação. Esse padrão deixa claro para o leitor onde termina a evidência e onde começa a opinião do autor.",
+      "examples": [
+        {"en": "The service was unavailable for 40 minutes.", "pt": "O serviço ficou indisponível por 40 minutos. (fato verificado)"},
+        {"en": "The logs suggest that the database ran out of connections.", "pt": "Os logs sugerem que o banco de dados ficou sem conexões. (interpretação)"},
+        {"en": "This is probably due to the sudden increase in traffic.", "pt": "Isso provavelmente se deve ao aumento repentino de tráfego."},
+        {"en": "Fortunately, no customer data was affected.", "pt": "Felizmente, nenhum dado de clientes foi afetado."},
+        {"en": "We recommend increasing the connection limit as a first step.", "pt": "Recomendamos aumentar o limite de conexões como primeiro passo."}
+      ],
+      "tip": "Antes de enviar um relatório, releia cada afirmação e pergunte: esta frase é um fato, uma interpretação ou uma recomendação? O verbo e o advérbio devem refletir a resposta."
+    }
+  ],
+  "summary": [
+    "Hedging dosa a certeza de uma afirmação; reforços (clearly, undoubtedly) mostram evidência forte. A escolha revela a sua postura.",
+    "Seem e appear pedem to + verbo (seems to affect); tend to descreve tendência; suggest e indicate pedem that + oração.",
+    "May, might, could, probably, arguably, to some extent e in some cases limitam o alcance de uma afirmação.",
+    "Advérbios de atitude (surprisingly, unfortunately, admittedly) comentam a frase toda e costumam vir no início, com vírgula.",
+    "Use um recurso de cautela por afirmação: acumular might, possibly e perhaps enfraquece o texto."
+  ],
+  "practice": [
+    {
+      "id": "c1-07-p1", "type": "choice",
+      "prompt": "The new cache ___ to reduce the load time, but we need more tests.",
+      "options": ["seems", "seem", "seeming"], "answer": 0,
+      "explain": "O sujeito *the new cache* é singular, então o verbo recebe -s: *seems to reduce*. Depois de *seem* vem o infinitivo com *to*.",
+      "why_not": {"1": "Seem sem -s só combina com sujeito plural (they seem).", "2": "Seeming é uma forma em -ing e não pode ser o verbo principal sozinha."}
+    },
+    {
+      "id": "c1-07-p2", "type": "fill",
+      "prompt": "Larger files ___ to take longer to process.",
+      "answers": ["tend"],
+      "explain": "*Tend to* indica uma tendência geral, sem afirmar que vale para todos os casos. O sujeito *larger files* é plural, então o verbo fica sem -s."
+    },
+    {
+      "id": "c1-07-p3", "type": "choice",
+      "prompt": "Which sentence is the most cautious?",
+      "options": ["The bug is caused by the new library.", "The bug may be caused by the new library.", "The bug is definitely caused by the new library."], "answer": 1,
+      "explain": "O modal *may* transforma a afirmação em possibilidade. É a única das três que deixa espaço para dúvida.",
+      "why_not": {"0": "Sem nenhum recurso de cautela, a frase afirma o fato como certo.", "2": "*Definitely* é um reforço: expressa certeza máxima."}
+    },
+    {
+      "id": "c1-07-p4", "type": "fill",
+      "prompt": "It ___ that the problem started after the update.",
+      "answers": ["seems", "appears"],
+      "explain": "A estrutura *it seems/appears that + oração* apresenta uma impressão, e não um fato comprovado. Com *it*, o verbo leva -s."
+    },
+    {
+      "id": "c1-07-p5", "type": "fix",
+      "prompt": "The error seems affecting only older devices.",
+      "answers": ["The error seems to affect only older devices.", "The error appears to affect only older devices."],
+      "explain": "Depois de *seem* e *appear*, usamos o infinitivo com *to*. A forma em -ing não é usada nessa estrutura."
+    },
+    {
+      "id": "c1-07-p6", "type": "order",
+      "words": ["Unfortunately", "we", "missed", "the", "deadline"],
+      "prompt": "Infelizmente, perdemos o prazo.",
+      "answers": ["We unfortunately missed the deadline.", "We missed the deadline unfortunately."],
+      "explain": "O advérbio de atitude abre a frase, seguido de vírgula. Também é possível colocá-lo antes do verbo principal (*we unfortunately missed*)."
+    },
+    {
+      "id": "c1-07-p7", "type": "translate",
+      "prompt": "Os resultados sugerem que a correção funciona.",
+      "answers": ["The results suggest that the fix works.", "The results suggest the fix works.", "The results suggest that the patch works.", "The results suggest the patch works.", "The results indicate that the fix works.", "The results indicate the fix works.", "The results indicate that the patch works.", "The results indicate the patch works."],
+      "explain": "*Suggest* e *indicate* são verbos de cautela e levam uma oração, com *that* opcional. O sujeito *the results* é plural, então o verbo fica sem -s, e *the fix* leva -s em *works*."
+    },
+    {
+      "id": "c1-07-p8", "type": "choice",
+      "prompt": "Ten independent tests gave the same result, so the cause is ___ the cache.",
+      "options": ["perhaps", "undoubtedly", "possibly"], "answer": 1,
+      "explain": "Com dez testes concordando, a evidência é forte. Por isso o reforço *undoubtedly* é o mais adequado.",
+      "why_not": {"0": "*Perhaps* expressa dúvida e não combina com uma evidência tão forte.", "2": "*Possibly* também indica só uma possibilidade."}
+    },
+    {
+      "id": "c1-07-p9", "type": "fill",
+      "prompt": "___, no data was lost during the outage. (felizmente)",
+      "answers": ["Fortunately", "Luckily", "Thankfully"],
+      "explain": "Os três advérbios de atitude expressam alívio do autor diante do fato. Eles abrem a frase e vêm seguidos de vírgula."
+    },
+    {
+      "id": "c1-07-p10", "type": "listen",
+      "en": "Surprisingly, the older server tends to be faster.",
+      "explain": "*Surprisingly* abre a frase como advérbio de atitude, e *tends to be* indica uma tendência, e não uma regra absoluta."
+    },
+    {
+      "id": "c1-07-p11", "type": "choice",
+      "prompt": "O que significa *arguably* em: *This is arguably the best option*?",
+      "options": ["Pode-se defender que é a melhor opção", "Todos concordam que é a melhor opção", "Ninguém discute que é a melhor opção"], "answer": 0,
+      "explain": "*Arguably* apresenta uma afirmação que tem bons argumentos a favor, mas que não é consensual.",
+      "why_not": {"1": "Isso seria *everyone agrees that*.", "2": "Isso seria *it is undeniable that*, o oposto da ideia de *arguably*."}
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c1-07-q1", "type": "choice",
+      "prompt": "The tests ___ that the patch works.",
+      "options": ["suggest", "suggests", "suggest to"], "answer": 0,
+      "explain": "*The tests* é plural, então o verbo fica sem -s: *suggest that*. Depois de *suggest* vem a oração com *that*.",
+      "why_not": {"1": "*Suggests* combina com sujeito singular.", "2": "*Suggest to* não introduz uma oração com sujeito e verbo."}
+    },
+    {
+      "id": "c1-07-q2", "type": "fill",
+      "prompt": "This error ___ to be related to the database. (parece)",
+      "answers": ["seems", "appears"],
+      "explain": "*Seems/appears to be* apresenta uma impressão com cautela. O sujeito *this error* é singular, então o verbo leva -s."
+    },
+    {
+      "id": "c1-07-q3", "type": "translate",
+      "prompt": "Surpreendentemente, o teste passou.",
+      "answers": ["Surprisingly, the test passed.", "The test surprisingly passed.", "Surprisingly, the test succeeded.", "Surprisingly, the test was successful."],
+      "explain": "*Surprisingly* é o advérbio de atitude, e vem no início com vírgula. Também pode ficar antes do verbo: *the test surprisingly passed*."
+    },
+    {
+      "id": "c1-07-q4", "type": "order",
+      "words": ["Larger", "teams", "tend", "to", "need", "more", "meetings"],
+      "prompt": "Equipes maiores tendem a precisar de mais reuniões.",
+      "explain": "A estrutura é *tend to + verbo*, e expressa uma tendência geral, não uma regra sem exceções."
+    },
+    {
+      "id": "c1-07-q5", "type": "fix",
+      "prompt": "The server appears be overloaded.",
+      "answers": ["The server appears to be overloaded.", "The server seems to be overloaded."],
+      "explain": "Depois de *appear* e *seem*, usamos o infinitivo com *to*: *appears to be*."
+    },
+    {
+      "id": "c1-07-q6", "type": "choice",
+      "prompt": "Which sentence makes the strongest claim?",
+      "options": ["The fix might help.", "The fix seems to help.", "The fix clearly helps."], "answer": 2,
+      "explain": "*Clearly* é um reforço e expressa alta certeza. *Might* e *seems to* são recursos de cautela.",
+      "why_not": {"0": "*Might* indica apenas uma possibilidade.", "1": "*Seems to* indica uma impressão, com cautela."}
+    },
+    {
+      "id": "c1-07-q7", "type": "choice",
+      "prompt": "Qual frase tem cautela em excesso (hedging duplicado)?",
+      "options": ["It might possibly perhaps be a memory leak.", "It may be a memory leak.", "It seems to be a memory leak."], "answer": 0,
+      "explain": "A primeira frase acumula três recursos de dúvida (*might*, *possibly*, *perhaps*) e soa insegura. Um recurso por afirmação costuma bastar.",
+      "why_not": {"1": "Só o modal *may* já dosa a certeza.", "2": "Só o verbo *seems* já dosa a certeza."}
+    },
+    {
+      "id": "c1-07-q8", "type": "listen",
+      "en": "Admittedly, the test coverage is still quite low.",
+      "explain": "*Admittedly* reconhece uma fraqueza antes de continuar o argumento. É um advérbio de atitude no início da frase."
+    }
+  ],
+  "words": [
+    {"word": "hedging", "pt": "uso de linguagem cautelosa; atenuação de uma afirmação"},
+    {"word": "seem", "pt": "parecer"},
+    {"word": "appear", "pt": "parecer; aparecer"},
+    {"word": "tend", "pt": "tender a"},
+    {"word": "suggest", "pt": "sugerir; indicar"},
+    {"word": "arguably", "pt": "pode-se argumentar que"},
+    {"word": "undoubtedly", "pt": "sem dúvida"},
+    {"word": "unfortunately", "pt": "infelizmente"},
+    {"word": "surprisingly", "pt": "surpreendentemente"},
+    {"word": "admittedly", "pt": "é verdade que; reconhecidamente"},
+    {"word": "likely", "pt": "provável"},
+    {"word": "to some extent", "pt": "em parte; até certo ponto"}
+  ]
+}

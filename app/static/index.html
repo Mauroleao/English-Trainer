@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>English Trainer</title>
+<link rel="stylesheet" href="/static/course.css">
 <style>
 :root{
   --bg:#f6f5f1; --card:#ffffff; --ink:#1d2433; --muted:#667085; --line:#e3e0d8;
@@ -96,15 +97,17 @@ code{background:var(--bg);border:1px solid var(--line);border-radius:6px;padding
   <div class="bar">
     <div class="brand">English Trainer</div>
     <nav id="nav">
-      <button data-tab="phrases">Frases</button>
-      <button data-tab="conversation">Conversação</button>
-      <button data-tab="texts">Textos</button>
-      <button data-tab="vocab">Vocabulário</button>
-      <button data-tab="review">Revisão</button>
-      <button data-tab="settings">Ajustes</button>
+      <button data-group="today" data-tab="today">Hoje</button>
+      <button data-group="course" data-tab="course">Curso</button>
+      <button data-group="practice" data-tab="phrases">Praticar</button>
+      <button data-group="vocab" data-tab="vocab">Vocabulário</button>
+      <button data-group="review" data-tab="review">Revisão</button>
+      <button data-group="progress" data-tab="progress">Progresso</button>
+      <button data-group="settings" data-tab="settings">Ajustes</button>
     </nav>
     <span id="ai" class="pill" title="">IA</span>
   </div>
+  <div id="subnav"></div>
 </header>
 <main id="view"></main>
 
@@ -269,15 +272,31 @@ const state = {
 
 // ---------------------------------------------------------------- navegação
 const tabs = { phrases: viewPhrases, conversation: viewConversation, texts: viewTexts, vocab: viewVocab, review: viewReview, settings: viewSettings };
+// navegação em dois níveis: grupo (barra de cima) e abas do grupo (barra de baixo)
+const GROUPS = {
+  today: { tabs: [] }, course: { tabs: [], also: ["lesson", "placement"] }, vocab: { tabs: [] }, progress: { tabs: [] }, settings: { tabs: [] },
+  practice: { tabs: [["phrases", "Frases"], ["conversation", "Conversação"], ["reading", "Leitura e escuta"], ["pronounce", "Pronúncia"], ["texts", "Meus textos"]] },
+  review: { tabs: [["review", "Palavras"], ["grammar", "Gramática"]] },
+};
+function groupOf(tab) {
+  for (const [g, d] of Object.entries(GROUPS)) {
+    if (g === tab || d.tabs.some(([t]) => t === tab) || (d.also || []).includes(tab)) return g;
+  }
+  return tab;
+}
 
 let currentTab = null;
 
 async function go(tab) {
   currentTab = tab;
   Voice.stop();
+  const grp = groupOf(tab);
   document.querySelectorAll("#nav button").forEach((b) => {
-    if (b.dataset.tab === tab) b.setAttribute("aria-current", "page"); else b.removeAttribute("aria-current");
+    if (b.dataset.group === grp) b.setAttribute("aria-current", "page"); else b.removeAttribute("aria-current");
   });
+  const sub = document.getElementById("subnav");
+  sub.replaceChildren(...(GROUPS[grp] ? GROUPS[grp].tabs : []).map(([t, label]) =>
+    h("button", { type: "button", "data-tab": t, "aria-current": t === tab ? "page" : null, onclick: () => go(t) }, label)));
   put(view, h("p", { class: "muted" }, "Carregando…"));
   try { await tabs[tab](); } catch (e) { put(view, errBox(e)); }
   location.hash = tab;
@@ -286,6 +305,7 @@ document.getElementById("nav").addEventListener("click", (ev) => {
   const b = ev.target.closest("button[data-tab]");
   if (b) go(b.dataset.tab);
 });
+window.addEventListener("hashchange", () => { const t = location.hash.slice(1); if (tabs[t] && t !== currentTab) go(t); });
 
 // ---------------------------------------------------------------- FRASES
 function dialogOptions(dialogs, selectedId) {
@@ -887,6 +907,7 @@ async function viewSettings() {
     h("label", { class: "chk" }, acc, h("span", {}, h("b", {}, "Ignorar acentos"), h("div", { class: "muted" }, "Aceita “voce” no lugar de “você”. Por padrão, o acento precisa estar correto."))),
     h("label", { class: "chk" }, strict, h("span", {}, h("b", {}, "Modo exato"), h("div", { class: "muted" }, "Maiúsculas, pontuação e espaços também precisam ser idênticos. Por padrão são ignorados."))),
     h("p", { class: "muted" }, "Sempre valem: contrações em inglês (I'm = I am) e traduções alternativas cadastradas.")),
+    await planSettingsCard(),
     audio,
     h("div", { class: "card" }, h("h3", {}, "Inteligência artificial"),
       h("p", { class: "muted" }, state.ai
@@ -895,7 +916,7 @@ async function viewSettings() {
 }
 
 // ---------------------------------------------------------------- início
-(async function init() {
+async function init() {
   try {
     const s = await api("/api/status");
     state.ai = s.ai_enabled;
@@ -905,8 +926,14 @@ async function viewSettings() {
     pill.title = s.ai_enabled ? "Modelo: " + s.model : "Defina ANTHROPIC_API_KEY para ativar";
   } catch (_) { /* a página segue funcionando */ }
   const start = location.hash.slice(1);
-  go(tabs[start] ? start : "phrases");
-})();
+  go(tabs[start] ? start : "today");
+}
+window.addEventListener("load", init);
+</script>
+<script src="/static/course.js"></script>
+<script src="/static/today.js"></script>
+<script>
+Object.assign(tabs, { today: viewToday, course: viewCourse, lesson: viewLesson, placement: viewPlacement, grammar: viewGrammar, progress: viewProgress, reading: viewReading, pronounce: viewPronounce });
 </script>
 </body>
 </html>

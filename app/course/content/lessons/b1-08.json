@@ -1,0 +1,179 @@
+{
+  "id": "b1-08",
+  "level": "B1",
+  "unit": "Voz passiva",
+  "title": "Passive: present e past simple",
+  "goal": "Descrever o que é feito ou foi feito sem destacar quem fez, usando am/is/are + particípio e was/were + particípio, como em release notes e logs.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "Quando o foco é a ação, e não quem fez",
+      "text": "Na **voz ativa**, o sujeito faz a ação: *Ana fixed the bug* (Ana corrigiu o bug). Na **voz passiva**, o sujeito **sofre** a ação, e o foco muda para o que foi feito: *The bug was fixed* (O bug foi corrigido).\n\nEm português também temos a passiva: “O bug **foi corrigido**”, “Os dados **são armazenados** na nuvem”. É uma estrutura muito comum em **release notes**, **logs**, manuais e relatórios, porque o importante ali é o resultado, e não quem o produziu.",
+      "examples": [
+        {"en": "The bug was fixed yesterday.", "pt": "O bug foi corrigido ontem."},
+        {"en": "The data is stored in the cloud.", "pt": "Os dados são armazenados na nuvem."},
+        {"en": "All user passwords are encrypted.", "pt": "Todas as senhas de usuários são criptografadas."}
+      ],
+      "tip": "Compare a ativa e a passiva: *The team released the update* (foco no time) e *The update was released* (foco na atualização)."
+    },
+    {
+      "title": "A forma: be + particípio passado",
+      "text": "A passiva é formada com o verbo **be** no tempo desejado + o **particípio passado** do verbo principal. No **present simple**, o verbo *be* é **am/is/are**. No **past simple**, é **was/were**.\n\nO **particípio passado** é a forma do verbo usada com *have* e na passiva. Nos verbos regulares ele termina em **-ed** (*fixed*, *deleted*) e é igual ao past simple. O *be* concorda com o **sujeito**: *The file is sent*, *The files are sent*.",
+      "table": {
+        "headers": ["Tempo", "Forma", "Exemplo"],
+        "rows": [
+          ["Present simple", "am/is/are + particípio", "The reports are sent every Monday."],
+          ["Past simple", "was/were + particípio", "The server was restarted last night."],
+          ["Negativa", "be + not + particípio", "The file was not deleted."],
+          ["Pergunta", "be + sujeito + particípio?", "When was the code written?"]
+        ]
+      },
+      "examples": [
+        {"en": "The reports are sent every Monday.", "pt": "Os relatórios são enviados toda segunda."},
+        {"en": "The servers were restarted last night.", "pt": "Os servidores foram reiniciados ontem à noite."},
+        {"en": "The file was not deleted.", "pt": "O arquivo não foi deletado."},
+        {"en": "When was the code written?", "pt": "Quando o código foi escrito?"}
+      ],
+      "trap": "O verbo **be** concorda com o sujeito da passiva, e não com o agente: *The emails were sent by the system*, e não *The emails was sent*."
+    },
+    {
+      "title": "Particípios irregulares mais úteis",
+      "text": "Nos verbos **irregulares**, o particípio passado não termina em -ed e você precisa memorizá-lo. Alguns são iguais ao past simple (*built*, *sent*, *found*, *made*), e outros são diferentes (*written*, *broken*, *given*, *taken*).\n\nSe você tiver dúvida, consulte a terceira coluna de uma tabela de verbos irregulares: ela traz o particípio. Os verbos regulares (*fix*, *delete*, *update*) não têm essa dificuldade.",
+      "table": {
+        "headers": ["Base", "Past simple", "Particípio passado"],
+        "rows": [
+          ["write", "wrote", "written"],
+          ["build", "built", "built"],
+          ["send", "sent", "sent"],
+          ["break", "broke", "broken"],
+          ["find", "found", "found"],
+          ["make", "made", "made"],
+          ["give", "gave", "given"],
+          ["take", "took", "taken"]
+        ]
+      },
+      "examples": [
+        {"en": "The app was built in six months.", "pt": "O app foi construído em seis meses."},
+        {"en": "The password was sent by e-mail.", "pt": "A senha foi enviada por e-mail."},
+        {"en": "The page was broken after the update.", "pt": "A página ficou quebrada depois da atualização."}
+      ],
+      "trap": "Na passiva, não use o past simple no lugar do particípio quando eles são diferentes: *The code was wrote* está errado. Diga *The code was written*."
+    },
+    {
+      "title": "Quando usar a passiva",
+      "text": "Use a passiva quando **quem fez a ação** é **desconhecido**, **óbvio** ou **sem importância**, ou quando você quer destacar o **resultado** ou o **processo**. Também é comum em textos técnicos e formais, para soar impessoal.\n\nExemplos típicos: *The server was hacked* (não sabemos quem), *Passports are checked at the airport* (óbvio: as autoridades) e *The data is encrypted* (o processo importa mais que o agente).",
+      "examples": [
+        {"en": "The server was hacked last week.", "pt": "O servidor foi invadido na semana passada."},
+        {"en": "Passports are checked at the airport.", "pt": "Passaportes são verificados no aeroporto."},
+        {"en": "The data is encrypted before it is sent.", "pt": "Os dados são criptografados antes de serem enviados."}
+      ],
+      "tip": "Se o agente é importante ou você quer clareza, use a voz ativa: *Ana fixed the bug* é mais direta que *The bug was fixed by Ana*."
+    },
+    {
+      "title": "By + agente: quando mencionar quem fez",
+      "text": "Quando o agente é importante, você pode acrescentá-lo no final com **by**: *The app was designed by a small team*. O **by + agente** aparece quando a informação é nova, relevante ou surpreendente, por exemplo ao dizer quem criou algo.\n\nSe o agente for óbvio ou desnecessário, **não** o inclua: *The e-mail was sent by someone* soa estranho, e basta dizer *The e-mail was sent*.",
+      "examples": [
+        {"en": "Python was created by Guido van Rossum.", "pt": "O Python foi criado por Guido van Rossum."},
+        {"en": "The tests were written by Carlos.", "pt": "Os testes foram escritos por Carlos."},
+        {"en": "The report is reviewed by two managers.", "pt": "O relatório é revisado por dois gerentes."}
+      ],
+      "trap": "Em inglês, evite o *by + agente* quando ele não traz nada de novo. *The code was written by a programmer* é redundante; prefira *The code was written in Python*."
+    },
+    {
+      "title": "Só verbos transitivos têm passiva",
+      "text": "Só podemos fazer a passiva com verbos **transitivos**, isto é, verbos que têm **objeto** (alguém ou algo que recebe a ação): *fix a bug*, *send a file*. Verbos **intransitivos** (*happen*, *arrive*, *go*, *come*, *die*) não têm objeto e **não** formam passiva.\n\nPara transformar uma frase ativa em passiva, o **objeto** vira **sujeito**: *Ana sent the file* → *The file was sent*. Em português isso causa erros comuns: *The meeting was happened* está errado, porque *happen* não tem objeto.",
+      "examples": [
+        {"en": "The meeting happened yesterday.", "pt": "A reunião aconteceu ontem."},
+        {"en": "The package arrived on Monday.", "pt": "O pacote chegou na segunda."},
+        {"en": "The package was sent on Friday.", "pt": "O pacote foi enviado na sexta."}
+      ],
+      "trap": "Não diga *The accident was happened*, *It was occurred* nem *The package was arrived*. Happen, occur e arrive não têm passiva; use *happened*, *occurred*, *arrived*."
+    },
+    {
+      "title": "Negativas, perguntas e agentes plurais",
+      "text": "Na **negativa**, coloque **not** depois do *be*: *The file is not saved*, *The bug was not fixed*. Na **pergunta**, o *be* vem antes do sujeito: *Is the file saved?*, *Were the bugs fixed?*. Perguntas com *what/when/where* seguem a mesma ordem: *Where is the data stored?*\n\nCuidado com a concordância: o *be* concorda com o **sujeito da passiva** (o que recebe a ação), e não com o agente. Se o sujeito é plural, use *are* ou *were*.",
+      "examples": [
+        {"en": "The bug was not fixed before the release.", "pt": "O bug não foi corrigido antes do lançamento."},
+        {"en": "Were the files deleted by mistake?", "pt": "Os arquivos foram apagados por engano?"},
+        {"en": "Where is the data stored?", "pt": "Onde os dados são armazenados?"}
+      ]
+    },
+    {
+      "title": "A regra em contexto: release notes e logs",
+      "text": "As **release notes** (notas de versão) usam muito o past simple passivo para descrever o que mudou: *A bug was fixed*, *A new feature was added*. Já os **logs** e a documentação usam o present passivo para descrever como o sistema funciona: *Files are saved every five minutes*.\n\nObserve como o agente quase nunca aparece, porque o importante é o que mudou ou o que o sistema faz.",
+      "examples": [
+        {"en": "A critical security bug was fixed in this version.", "pt": "Um bug de segurança crítico foi corrigido nesta versão."},
+        {"en": "Two new features were added to the dashboard.", "pt": "Dois novos recursos foram adicionados ao painel."},
+        {"en": "Files are saved automatically every five minutes.", "pt": "Os arquivos são salvos automaticamente a cada cinco minutos."},
+        {"en": "The old API was removed last month.", "pt": "A API antiga foi removida no mês passado."}
+      ]
+    }
+  ],
+  "summary": [
+    "A passiva é formada com be + particípio passado: is/are + particípio no presente e was/were + particípio no passado.",
+    "Use a passiva quando o agente é desconhecido, óbvio ou sem importância, ou quando o foco é o resultado.",
+    "O be concorda com o sujeito da passiva: The file was sent, The files were sent.",
+    "Verbos irregulares usam o particípio passado correto: written, built, sent, broken.",
+    "Só verbos transitivos têm passiva; happen, arrive e occur não: The meeting happened."
+  ],
+  "practice": [
+    {"id": "b1-08-p1", "type": "choice", "prompt": "The reports ___ every Monday.", "options": ["are sent", "is sent", "send"], "answer": 0,
+     "explain": "The reports é plural e a ação é rotineira (present simple), então usamos are + particípio: are sent.",
+     "why_not": {"1": "Is concorda com singular, e the reports é plural.", "2": "Send está na voz ativa, e os relatórios não enviam nada: eles são enviados."}},
+    {"id": "b1-08-p2", "type": "choice", "prompt": "The bug ___ yesterday by Ana.", "options": ["was fixed", "fixed", "is fixed"], "answer": 0,
+     "explain": "A ação foi no passado (yesterday), e o bug recebe a ação, então usamos was + particípio.",
+     "why_not": {"1": "Fixed sozinho seria a voz ativa, e o bug não corrige nada.", "2": "Is fixed é presente e não combina com yesterday."}},
+    {"id": "b1-08-p3", "type": "choice", "prompt": "The servers ___ last night.", "options": ["were restarted", "was restarted", "are restarted"], "answer": 0,
+     "explain": "The servers é plural e a ação ocorreu no passado, então usamos were + particípio.",
+     "why_not": {"1": "Was concorda com singular, e the servers é plural.", "2": "Are restarted é presente, e last night indica passado."}},
+    {"id": "b1-08-p4", "type": "fill", "prompt": "This app ___ used by millions of people every day.", "answers": ["is"],
+     "explain": "A ação é rotineira (every day), no presente, e this app é singular: is used."},
+    {"id": "b1-08-p5", "type": "fill", "prompt": "The files were ___ (delete) by mistake.", "answers": ["deleted"],
+     "explain": "Depois de were usamos o particípio passado: deleted."},
+    {"id": "b1-08-p6", "type": "translate", "prompt": "O relatório foi enviado ontem. (send, report)", "answers": ["The report was sent yesterday."],
+     "explain": "Passado + sujeito singular: was + particípio. O particípio de send é sent, igual ao past simple."},
+    {"id": "b1-08-p7", "type": "order", "words": ["The", "logs", "are", "stored", "in", "the", "cloud"], "prompt": "Os logs são armazenados na nuvem.",
+     "explain": "A ordem é sujeito + be + particípio + complemento: The logs are stored in the cloud."},
+    {"id": "b1-08-p8", "type": "fix", "prompt": "The meeting was happened yesterday.", "answers": ["The meeting happened yesterday."],
+     "explain": "Happen não tem objeto (é intransitivo) e, por isso, não tem passiva: the meeting happened."},
+    {"id": "b1-08-p9", "type": "fix", "prompt": "The emails was sent by the system.", "answers": ["The emails were sent by the system."],
+     "explain": "The emails é plural, então o be no passado é were: the emails were sent."},
+    {"id": "b1-08-p10", "type": "choice", "prompt": "Qual frase está correta?", "options": ["The tests were written by Carlos.", "The tests was written by Carlos.", "The tests wrote by Carlos."], "answer": 0,
+     "explain": "A passiva usa were (plural, passado) + particípio written, e by Carlos indica o agente.",
+     "why_not": {"1": "Was não concorda com the tests, que é plural.", "2": "Falta o be, e o particípio de write é written, e não wrote."}},
+    {"id": "b1-08-p11", "type": "translate", "prompt": "Quando este bug foi encontrado? (find, bug)", "answers": ["When was this bug found?", "When was the bug found?"],
+     "explain": "Em perguntas na passiva, o be vem antes do sujeito: was this bug found. O particípio de find é found."},
+    {"id": "b1-08-p12", "type": "listen", "en": "The new version was released on Monday morning.",
+     "explain": "Was released é a passiva no passado: o foco está na versão, e não em quem a lançou."}
+  ],
+  "quiz": [
+    {"id": "b1-08-q1", "type": "choice", "prompt": "Our website ___ every day by thousands of users.", "options": ["is visited", "visits", "was visit"], "answer": 0,
+     "explain": "O site recebe a ação, e a rotina pede o present simple: is visited.",
+     "why_not": {"1": "Visits seria a voz ativa, e o site não visita ninguém.", "2": "Was visit usa o verbo no infinitivo e o tempo passado, que não combina com every day."}},
+    {"id": "b1-08-q2", "type": "fill", "prompt": "The old system ___ replaced last year.", "answers": ["was"],
+     "explain": "A ação aconteceu no passado (last year) e o sujeito é singular: was replaced."},
+    {"id": "b1-08-q3", "type": "translate", "prompt": "Esses arquivos são deletados toda semana. (delete, files, every week)", "answers": ["These files are deleted every week.", "Those files are deleted every week."],
+     "explain": "Rotina no presente + sujeito plural: are + particípio (are deleted)."},
+    {"id": "b1-08-q4", "type": "order", "words": ["The", "password", "was", "changed", "by", "the", "admin"], "prompt": "A senha foi alterada pelo administrador.",
+     "explain": "A ordem é sujeito + was + particípio + by + agente."},
+    {"id": "b1-08-q5", "type": "fix", "prompt": "The bug fixed yesterday by Ana.", "answers": ["The bug was fixed yesterday by Ana.", "The bug was fixed by Ana yesterday."],
+     "explain": "A passiva precisa do verbo be: was fixed. Sem ele, a frase não tem verbo conjugado."},
+    {"id": "b1-08-q6", "type": "choice", "prompt": "Qual destas frases sobre um pacote está correta?", "options": ["The package arrived yesterday.", "The package was arrived yesterday.", "The package was arrive yesterday."], "answer": 0,
+     "explain": "Arrive é um verbo sem objeto (intransitivo), e não forma passiva. Usamos o past simple: arrived.",
+     "why_not": {"1": "Arrive não tem passiva, então was arrived não existe.", "2": "Além de não haver passiva, o verbo ficou no infinitivo."}},
+    {"id": "b1-08-q7", "type": "listen", "en": "The code is reviewed by two developers before every release.",
+     "explain": "Is reviewed é a passiva no presente, e by two developers indica quem faz a revisão."}
+  ],
+  "words": [
+    {"word": "release notes", "pt": "notas de versão"},
+    {"word": "log", "pt": "registro (de eventos); log"},
+    {"word": "store", "pt": "armazenar; guardar"},
+    {"word": "encrypt", "pt": "criptografar"},
+    {"word": "delete", "pt": "apagar; deletar"},
+    {"word": "replace", "pt": "substituir"},
+    {"word": "restart", "pt": "reiniciar"},
+    {"word": "add", "pt": "adicionar; acrescentar"},
+    {"word": "remove", "pt": "remover"},
+    {"word": "mistake", "pt": "erro; engano"}
+  ]
+}

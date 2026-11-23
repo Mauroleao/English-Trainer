@@ -1,0 +1,181 @@
+{
+  "id": "a1-10",
+  "level": "A1",
+  "unit": "Habilidades, tempo e agora",
+  "title": "Números, horas, datas e at/on/in",
+  "goal": "Dizer números, horas, dias e datas em inglês e marcar um horário usando at, on e in.",
+  "minutes": 22,
+  "steps": [
+    {
+      "title": "Números de 0 a 20",
+      "text": "Para marcar reuniões, falar de preços ou dizer um número de versão, você precisa dos números. Comece pelos básicos: de 0 a 20 cada número tem seu próprio nome e vale a pena decorar.\n\nO zero é **zero** (ou **oh** em números de telefone). Atenção a um par que confunde: **thirteen** (13) e **thirty** (30). Em 13 a sílaba forte é a última (thir-**TEEN**); em 30 é a primeira (**THIR**-ty).",
+      "table": {
+        "headers": ["Números", "Em inglês"],
+        "rows": [
+          ["0", "zero"],
+          ["1 a 5", "one, two, three, four, five"],
+          ["6 a 10", "six, seven, eight, nine, ten"],
+          ["11 a 15", "eleven, twelve, thirteen, fourteen, fifteen"],
+          ["16 a 20", "sixteen, seventeen, eighteen, nineteen, twenty"]
+        ]
+      },
+      "examples": [
+        {"en": "We have twelve developers.", "pt": "Nós temos doze desenvolvedores."},
+        {"en": "The meeting has fifteen people.", "pt": "A reunião tem quinze pessoas."},
+        {"en": "I am thirty years old.", "pt": "Eu tenho trinta anos."}
+      ],
+      "trap": "Cuidado com a grafia de **forty** (40): não tem o u de four. Escreve-se *four*, *fourteen*, mas *forty*."
+    },
+    {
+      "title": "Dezenas e números grandes",
+      "text": "As dezenas são **twenty, thirty, forty, fifty, sixty, seventy, eighty, ninety**. Para números como 21 ou 58, junte a dezena e a unidade com hífen: **twenty-one**, **fifty-eight**.\n\nPara 100 diga **a hundred** ou **one hundred**; para 1.000, **a thousand**. Em números maiores, o inglês não usa plural: *two hundred*, e não *two hundreds*. No inglês britânico é comum dizer **and** depois de hundred (*two hundred and fifty*); no americano ele costuma ser omitido.",
+      "examples": [
+        {"en": "The server has sixty-four gigabytes of memory.", "pt": "O servidor tem sessenta e quatro gigabytes de memória."},
+        {"en": "There are two hundred users online.", "pt": "Há duzentos usuários online."},
+        {"en": "The app has one thousand five hundred users.", "pt": "O aplicativo tem mil e quinhentos usuários."}
+      ],
+      "trap": "Em português escrevemos 1.000 (com ponto) e 2,5 (com vírgula). Em inglês é o contrário: **1,000** (vírgula) e **2.5** (ponto, que se lê *two point five*)."
+    },
+    {
+      "title": "Ordinais: first, second, third…",
+      "text": "Os **ordinais** indicam posição ou ordem: primeiro, segundo, terceiro. Eles são usados em datas, andares e listas. Os três primeiros são irregulares: **first**, **second**, **third**. Quase todos os outros terminam em **-th**: *fourth, sixth, seventh, tenth*.\n\nAlguns mudam um pouco a grafia: **fifth** (5º), **eighth** (8º), **ninth** (9º) e **twelfth** (12º). Em números compostos, só o último muda: *twenty-first*. Na escrita: 1st, 2nd, 3rd, 4th. Antes de ordinais usamos **the**.",
+      "examples": [
+        {"en": "Today is the first day of the project.", "pt": "Hoje é o primeiro dia do projeto."},
+        {"en": "Our office is on the third floor.", "pt": "Nosso escritório fica no terceiro andar."},
+        {"en": "This is the fifth bug today.", "pt": "Este é o quinto bug de hoje."},
+        {"en": "March is the third month of the year.", "pt": "Março é o terceiro mês do ano."}
+      ]
+    },
+    {
+      "title": "Dizendo as horas",
+      "text": "Para perguntar as horas, diga **What time is it?** Para responder, use **It's** + horário. Na hora cheia, use **o'clock**: *It's ten o'clock*. Nos minutos, há duas maneiras: dizer os números como estão (*It's ten thirty*) ou usar **past** (depois de) e **to** (para as).\n\nAté os 30 minutos use **past**; depois dos 30, use **to** e conte quanto falta para a próxima hora. 15 minutos é **a quarter** (um quarto) e 30 minutos é **half**.",
+      "table": {
+        "headers": ["Horário", "Em inglês"],
+        "rows": [
+          ["3:00", "It's three o'clock."],
+          ["3:10", "It's ten past three."],
+          ["3:15", "It's a quarter past three."],
+          ["3:30", "It's half past three. / It's three thirty."],
+          ["3:45", "It's a quarter to four."],
+          ["3:50", "It's ten to four."]
+        ]
+      },
+      "examples": [
+        {"en": "What time is it? It's half past ten.", "pt": "Que horas são? São dez e meia."},
+        {"en": "It's a quarter to six.", "pt": "São cinco e quarenta e cinco (faltam quinze para as seis)."},
+        {"en": "The call starts at nine o'clock.", "pt": "A ligação começa às nove horas."}
+      ],
+      "tip": "Para dizer que horas algo acontece, use **at**: *The meeting is at two*. Em horários exatos, a.m. é antes do meio-dia e p.m. é depois: *8 a.m.*, *8 p.m.*"
+    },
+    {
+      "title": "Dias, meses e datas",
+      "text": "Os dias da semana são **Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday**. Os meses são **January, February, March, April, May, June, July, August, September, October, November, December**. Em inglês, dias e meses sempre começam com **letra maiúscula**.\n\nPara dizer a data, usamos o ordinal: *March 5th* (nos EUA, lido *March fifth*) ou *5th March* (no Reino Unido, lido *the fifth of March*). Os anos são lidos em dois pares: 2024 é *twenty twenty-four*.",
+      "examples": [
+        {"en": "What day is it today? It's Friday.", "pt": "Que dia é hoje? É sexta-feira."},
+        {"en": "The release is on May 12th.", "pt": "O lançamento é em 12 de maio."},
+        {"en": "My birthday is in October.", "pt": "Meu aniversário é em outubro."},
+        {"en": "The project starts in twenty twenty-seven.", "pt": "O projeto começa em 2027."}
+      ],
+      "trap": "Em português, dias e meses são escritos com letra minúscula (segunda, maio). Em inglês, a maiúscula é obrigatória: *on Monday*, *in May*."
+    },
+    {
+      "title": "At, on e in com tempo",
+      "text": "Para dizer **quando** algo acontece, o inglês usa três preposições pequenas, e cada uma tem seu grupo. **At** vai com horas exatas e momentos pontuais. **On** vai com dias e datas. **In** vai com meses, anos, estações e partes do dia.\n\nAtenção a uma exceção: dizemos **in the morning, in the afternoon, in the evening**, mas **at night**. Antes de *today, tomorrow, yesterday, next, last, this* e *every* não usamos preposição: *next Monday*, *every day*.",
+      "table": {
+        "headers": ["Preposição", "Usamos com", "Exemplo"],
+        "rows": [
+          ["at", "horas, at night", "at 9:30, at night"],
+          ["on", "dias da semana e datas", "on Monday, on June 3rd"],
+          ["in", "meses, anos, estações", "in July, in 2025, in winter"],
+          ["in", "partes do dia", "in the morning, in the evening"]
+        ]
+      },
+      "examples": [
+        {"en": "The meeting is at nine thirty.", "pt": "A reunião é às nove e meia."},
+        {"en": "The deploy is on Friday.", "pt": "O deploy é na sexta-feira."},
+        {"en": "We have a holiday in December.", "pt": "Temos feriado em dezembro."},
+        {"en": "I am free in the afternoon.", "pt": "Estou livre à tarde."}
+      ],
+      "trap": "Em português usamos “em/no/na” para tudo. Em inglês, não diga *in Monday* nem *at December*: dias usam **on**, meses usam **in**, horas usam **at**."
+    },
+    {
+      "title": "Na prática: marcando uma reunião",
+      "text": "Veja como tudo se junta numa conversa de trabalho. A Sofia e o Daniel estão marcando uma reunião sobre o próximo release. Repare no padrão: **horário com at**, **dia com on**, **mês com in**.\n\nQuando alguém pergunta *What time?*, responda direto com **at** + hora. Quando perguntam *What day?* ou *When?*, responda com **on** + dia ou **in** + mês.",
+      "examples": [
+        {"en": "What time is the meeting? It's at two.", "pt": "A que horas é a reunião? É às duas."},
+        {"en": "Is it on Tuesday or Wednesday?", "pt": "É na terça ou na quarta?"},
+        {"en": "The release is in March, on the twentieth.", "pt": "O lançamento é em março, no dia vinte."},
+        {"en": "See you on Thursday at ten.", "pt": "Vejo você na quinta, às dez."}
+      ]
+    }
+  ],
+  "summary": [
+    "Números de 0 a 20 são únicos; depois, junte dezena e unidade com hífen (twenty-one). Não use plural em hundred e thousand.",
+    "Ordinais: first, second, third, depois quase sempre -th (fourth, tenth); atenção a fifth, eighth, ninth e twelfth.",
+    "Horas: It's ten o'clock; past até 30 minutos, to depois disso; a quarter = 15 e half = 30.",
+    "Dias da semana e meses começam com letra maiúscula em inglês.",
+    "At para horas, on para dias e datas, in para meses, anos, estações e partes do dia (mas at night)."
+  ],
+  "practice": [
+    {"id": "a1-10-p1", "type": "choice", "prompt": "The meeting is ___ 9:30.", "options": ["at", "on", "in"], "answer": 0,
+     "explain": "Para horas exatas usamos at: at 9:30.",
+     "why_not": {"1": "On é usado com dias e datas, não com horas.", "2": "In é usado com meses, anos e partes do dia."}},
+    {"id": "a1-10-p2", "type": "choice", "prompt": "My birthday is ___ June.", "options": ["at", "in", "on"], "answer": 1,
+     "explain": "Meses usam in: in June.",
+     "why_not": {"0": "At é para horas.", "2": "On é para dias e datas completas, como on June 3rd."}},
+    {"id": "a1-10-p3", "type": "fill", "prompt": "The deploy is ___ Friday.", "answers": ["on"],
+     "explain": "Dias da semana usam on: on Friday."},
+    {"id": "a1-10-p4", "type": "choice", "prompt": "Como se lê 3:15?", "options": ["It's a quarter past three.", "It's a quarter to three.", "It's half past three."], "answer": 0,
+     "explain": "15 minutos depois da hora é a quarter past: 3:15 é a quarter past three.",
+     "why_not": {"1": "A quarter to three seria 2:45 (faltam 15 para as três).", "2": "Half past three é 3:30."}},
+    {"id": "a1-10-p5", "type": "fill", "prompt": "It's 4:30. It's half ___ four.", "answers": ["past"],
+     "explain": "Até os 30 minutos usamos past: half past four."},
+    {"id": "a1-10-p6", "type": "order", "words": ["It's", "half", "past", "ten"], "prompt": "São dez e meia.", "answers": ["It's ten thirty"],
+     "explain": "Half past ten é 10:30. Também se pode dizer ten thirty."},
+    {"id": "a1-10-p7", "type": "translate", "prompt": "Meu aniversário é em maio.", "answers": ["My birthday is in May."],
+     "explain": "Meses usam in, e May começa com maiúscula: in May."},
+    {"id": "a1-10-p8", "type": "fix", "prompt": "The meeting is in Monday.", "answers": ["The meeting is on Monday."],
+     "explain": "Dias da semana usam on, não in: on Monday."},
+    {"id": "a1-10-p9", "type": "fix", "prompt": "We have a party at December.", "answers": ["We have a party in December."],
+     "explain": "Meses usam in, e at é só para horas: in December."},
+    {"id": "a1-10-p10", "type": "fill", "prompt": "Write 40 in words: ___.", "answers": ["forty"],
+     "explain": "O número 40 escreve-se forty, sem o u de four."},
+    {"id": "a1-10-p11", "type": "listen", "en": "The meeting is at nine on Monday.",
+     "explain": "At nine (horário) e on Monday (dia): o horário vem com at e o dia com on."},
+    {"id": "a1-10-p12", "type": "fill", "prompt": "March is the ___ month of the year.", "answers": ["third"],
+     "explain": "O ordinal de 3 é third, que é irregular. Março é o terceiro mês."}
+  ],
+  "quiz": [
+    {"id": "a1-10-q1", "type": "choice", "prompt": "My English class is ___ the evening.", "options": ["in", "at", "on"], "answer": 0,
+     "explain": "Partes do dia (morning, afternoon, evening) usam in: in the evening.",
+     "why_not": {"1": "At é para horas exatas e para at night.", "2": "On é para dias e datas."}},
+    {"id": "a1-10-q2", "type": "fill", "prompt": "The release is ___ April 12th.", "answers": ["on"],
+     "explain": "Datas completas usam on: on April 12th."},
+    {"id": "a1-10-q3", "type": "translate", "prompt": "A aula é na quarta-feira.", "answers": ["The class is on Wednesday.", "The lesson is on Wednesday."],
+     "explain": "Dias da semana usam on, e Wednesday começa com maiúscula."},
+    {"id": "a1-10-q4", "type": "order", "words": ["It's", "a", "quarter", "to", "six"], "prompt": "Faltam quinze para as seis.", "answers": ["It's quarter to six"],
+     "explain": "A quarter to six é 5:45. Depois dos 30 minutos usamos to."},
+    {"id": "a1-10-q5", "type": "fix", "prompt": "The call is in 3 p.m.", "answers": ["The call is at 3 p.m."],
+     "explain": "Horas exatas usam at, não in: at 3 p.m."},
+    {"id": "a1-10-q6", "type": "choice", "prompt": "Qual frase está correta?", "options": ["We work at night.", "We work in night.", "We work on night."], "answer": 0,
+     "explain": "Night é a exceção: dizemos at night, mas in the morning, in the afternoon e in the evening.",
+     "why_not": {"1": "Com night não usamos in.", "2": "On é para dias e datas."}},
+    {"id": "a1-10-q7", "type": "listen", "en": "The new office opens on the first of March.",
+     "explain": "On the first of March: data com on e o ordinal first."},
+    {"id": "a1-10-q8", "type": "fill", "prompt": "Twenty plus thirty is ___.", "answers": ["fifty"],
+     "explain": "20 + 30 = 50, que em inglês é fifty."}
+  ],
+  "words": [
+    {"word": "half", "pt": "metade; meia (hora)"},
+    {"word": "quarter", "pt": "quarto; quinze minutos"},
+    {"word": "past", "pt": "depois de (nas horas); passado"},
+    {"word": "hour", "pt": "hora (60 minutos)"},
+    {"word": "minute", "pt": "minuto"},
+    {"word": "morning", "pt": "manhã"},
+    {"word": "evening", "pt": "noite (começo da noite); fim da tarde"},
+    {"word": "night", "pt": "noite (madrugada); durante a noite"},
+    {"word": "month", "pt": "mês"},
+    {"word": "year", "pt": "ano"},
+    {"word": "release", "pt": "lançamento; liberar uma versão"}
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "id": "b1-10",
+  "level": "B1",
+  "unit": "Discurso indireto",
+  "title": "Reported speech: afirmações",
+  "goal": "Contar o que outra pessoa disse, ajustando tempos verbais, pronomes e expressões de tempo, e escolher entre say e tell.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "Para que serve o discurso indireto",
+      "text": "No dia a dia de trabalho, você conta o que os outros disseram: na daily, em um e-mail, em uma conversa no corredor. Quando você repete as palavras exatas, é o **discurso direto**: *Ana said, “I am busy.”* Quando você conta com as suas palavras, é o **discurso indireto** (*reported speech*): *Ana said that she was busy.*\n\nNo discurso indireto não usamos aspas, e quase sempre algo muda na frase: o tempo do verbo, o pronome e até palavras como *tomorrow*. A palavra **that** depois de *said* é opcional: *Ana said she was busy* também está certo.",
+      "examples": [
+        {"en": "Ana said, “I am busy.”", "pt": "A Ana disse: “Estou ocupada.”"},
+        {"en": "Ana said that she was busy.", "pt": "A Ana disse que estava ocupada."},
+        {"en": "The client said he needed more time.", "pt": "O cliente disse que precisava de mais tempo."}
+      ],
+      "tip": "Na conversa, quase todo mundo omite o that: He said he was late."
+    },
+    {
+      "title": "O recuo dos tempos (backshift)",
+      "text": "Quando o verbo de relato está no passado (*said*, *told*), o verbo da fala original costuma **recuar um passo no tempo**. Isso se chama **backshift**. A ideia é que, ao contar depois, a fala original já ficou no passado.\n\nO presente vira passado, o passado vira **past perfect** (*had* + particípio) e *will* vira **would**. Os modais também têm uma forma de passado: *can* vira **could**, *may* vira **might** e *must* costuma virar **had to** (ou permanece *must*).",
+      "table": {
+        "headers": ["Fala original", "Discurso indireto"],
+        "rows": [
+          ["I work here. (present simple)", "She said she worked there. (past simple)"],
+          ["I am testing it. (present continuous)", "He said he was testing it. (past continuous)"],
+          ["We deployed it. (past simple)", "They said they had deployed it. (past perfect)"],
+          ["I have finished. (present perfect)", "She said she had finished. (past perfect)"],
+          ["I will call you. (will)", "He said he would call me. (would)"],
+          ["I can help. (can)", "She said she could help. (could)"]
+        ]
+      },
+      "examples": [
+        {"en": "Tom said he worked from home on Fridays.", "pt": "O Tom disse que trabalhava de casa às sextas."},
+        {"en": "Lara said she had already sent the report.", "pt": "A Lara disse que já tinha enviado o relatório."},
+        {"en": "Our manager said we would meet the deadline.", "pt": "Nosso gerente disse que cumpriríamos o prazo."},
+        {"en": "Ben said he could join the call.", "pt": "O Ben disse que podia participar da chamada."}
+      ],
+      "trap": "Em português, “ele disse que trabalha aqui” e “ele disse que trabalhava aqui” são frases comuns. Em inglês, depois de *said* no passado, o mais natural é recuar: *He said he worked here*, e não costuma ser *He said he works here* (veja a exceção mais adiante)."
+    },
+    {
+      "title": "Pronomes mudam conforme quem fala",
+      "text": "Ao contar o que alguém disse, você olha a fala do **ponto de vista de quem conta**. Por isso os pronomes mudam: o **I** de quem falou vira **he** ou **she**, e **my** vira **his** ou **her**.\n\nÉ a mesma lógica do português: se a Marta diz “Meu código está pronto”, você conta “A Marta disse que o código dela estava pronto”. Pergunte sempre: quem está falando agora, e de quem a frase fala?",
+      "examples": [
+        {"en": "Marta said, “My code is ready.”", "pt": "A Marta disse: “Meu código está pronto.”"},
+        {"en": "Marta said that her code was ready.", "pt": "A Marta disse que o código dela estava pronto."},
+        {"en": "They said, “We need your help.”", "pt": "Eles disseram: “Precisamos da sua ajuda.”"},
+        {"en": "They said that they needed my help.", "pt": "Eles disseram que precisavam da minha ajuda."}
+      ],
+      "tip": "Se você mesmo falou, o pronome pode ficar igual: I said that I was busy."
+    },
+    {
+      "title": "Expressões de tempo e de lugar",
+      "text": "Palavras como **tomorrow**, **yesterday** e **here** dependem do momento e do lugar em que a frase foi dita. Se você conta a história em outro dia, elas também mudam. A tabela mostra as trocas mais comuns.\n\nSe você está contando no mesmo dia e no mesmo lugar, não precisa trocar nada. Mas, em geral, quando o relato acontece depois, use as formas da tabela.",
+      "table": {
+        "headers": ["Fala original", "Discurso indireto"],
+        "rows": [
+          ["today", "that day"],
+          ["tomorrow", "the next day / the following day"],
+          ["yesterday", "the day before / the previous day"],
+          ["now", "then / at that moment"],
+          ["here", "there"],
+          ["this (report)", "that (report)"],
+          ["last week", "the week before"],
+          ["next week", "the following week"]
+        ]
+      },
+      "examples": [
+        {"en": "She said she would send the files the next day.", "pt": "Ela disse que enviaria os arquivos no dia seguinte."},
+        {"en": "He said the server had crashed the day before.", "pt": "Ele disse que o servidor tinha caído no dia anterior."},
+        {"en": "They said the meeting was the following week.", "pt": "Eles disseram que a reunião era na semana seguinte."}
+      ]
+    },
+    {
+      "title": "Say e tell: a diferença",
+      "text": "Os dois verbos significam “dizer”, mas funcionam de forma diferente. No discurso indireto, depois de **tell** vem sempre a **pessoa** que ouviu: *She told me that...*. Depois de **say** não colocamos a pessoa diretamente: *She said that...*. Se quiser citar quem ouviu, use **say to**: *She said to me that...*, que é bem menos comum.\n\nAlém disso, **tell** não pode vir sem a pessoa. Não dizemos *She told that the server was down*.",
+      "table": {
+        "headers": ["Verbo", "Estrutura", "Exemplo"],
+        "rows": [
+          ["say", "say + (that) + frase", "He said that he was late."],
+          ["say to", "say to + pessoa + that + frase", "He said to me that he was late."],
+          ["tell", "tell + pessoa + (that) + frase", "He told me that he was late."]
+        ]
+      },
+      "examples": [
+        {"en": "The lead said that the build had failed.", "pt": "O líder disse que o build tinha falhado."},
+        {"en": "The lead told us that the build had failed.", "pt": "O líder nos disse que o build tinha falhado."},
+        {"en": "Eva told her team that she would be late.", "pt": "A Eva disse à equipe que se atrasaria."}
+      ],
+      "trap": "Em português dizemos “ele me disse” com o mesmo verbo. Em inglês, *He said me* está errado: use **told me** (*He told me*) ou **said to me**."
+    },
+    {
+      "title": "Quando NÃO recuar o tempo",
+      "text": "O backshift não é obrigatório em todos os casos. Você pode **manter o tempo original** quando o verbo de relato está no **presente** (*says*, *tells*), quando a informação **continua verdadeira** ou quando você conta algo que acabou de ser dito.\n\nEm caso de dúvida, o recuo continua sendo a opção segura: *He said the meeting was at three* está certo mesmo que a reunião ainda não tenha acontecido. Já o contrário (não recuar quando a informação já não vale) soa estranho.",
+      "examples": [
+        {"en": "Ana says she is busy today.", "pt": "A Ana diz que está ocupada hoje."},
+        {"en": "The manager said that our office is closed on Friday.", "pt": "O gerente disse que nosso escritório fecha na sexta."},
+        {"en": "She told me she is a senior developer.", "pt": "Ela me disse que é desenvolvedora sênior."}
+      ],
+      "tip": "Verbo de relato no presente (says, tells): não há recuo. Verbo no passado: recue, a menos que a informação ainda seja verdadeira."
+    },
+    {
+      "title": "Discurso indireto em contexto: relatando a daily",
+      "text": "Veja como isso aparece depois de uma reunião de equipe. Você conta para um colega que não estava lá o que cada pessoa disse. Observe o recuo dos tempos, a troca dos pronomes e as expressões de tempo.\n\nNão precisa repetir *that* em todas as frases. Outros verbos de relato, como *mentioned*, *explained*, *announced* e *confirmed*, funcionam do mesmo jeito que *said*.",
+      "examples": [
+        {"en": "Rita said she was fixing a bug in the login page.", "pt": "A Rita disse que estava corrigindo um bug na página de login."},
+        {"en": "Marco mentioned that he had updated the documentation.", "pt": "O Marco mencionou que tinha atualizado a documentação."},
+        {"en": "The manager announced that we would release the app the following week.", "pt": "O gerente anunciou que lançaríamos o app na semana seguinte."},
+        {"en": "Sofia confirmed that the client could attend the demo.", "pt": "A Sofia confirmou que o cliente podia assistir à demonstração."}
+      ]
+    }
+  ],
+  "summary": [
+    "No discurso indireto não há aspas: contamos com nossas palavras, e that é opcional.",
+    "Depois de said/told no passado, o tempo recua: present → past, past → past perfect, will → would, can → could.",
+    "Os pronomes mudam conforme quem conta: I → he/she, my → his/her.",
+    "Expressões de tempo mudam: tomorrow → the next day, yesterday → the day before, here → there.",
+    "Tell sempre leva a pessoa (told me); say não (said that).",
+    "Não recue quando o verbo de relato está no presente ou quando a informação continua verdadeira."
+  ],
+  "practice": [
+    {"id": "b1-10-p1", "type": "choice", "prompt": "Tom said: “I work from home.” → Tom said that he ___ from home.", "options": ["worked", "had worked", "would work"], "answer": 0,
+     "explain": "O present simple recua para o past simple: work vira worked.",
+     "why_not": {"1": "Had worked é o recuo do past simple ou do present perfect, e não do present simple.", "2": "Would work é o recuo de will work, que é futuro."}},
+    {"id": "b1-10-p2", "type": "choice", "prompt": "She ___ me that the server was down.", "options": ["told", "said", "spoke"], "answer": 0,
+     "explain": "Tell leva diretamente a pessoa que ouviu (me). Depois de told me vem a informação.",
+     "why_not": {"1": "Said não aceita a pessoa logo depois: o certo seria said that ou said to me.", "2": "Spoke não introduz uma informação com that."}},
+    {"id": "b1-10-p3", "type": "fill", "prompt": "Rita said: “We will deploy tomorrow.” → Rita said they ___ deploy the next day.", "answers": ["would"],
+     "explain": "Will recua para would no discurso indireto, e tomorrow vira the next day."},
+    {"id": "b1-10-p4", "type": "fill", "prompt": "Ben said: “I can join the call.” → Ben said that he ___ join the call.", "answers": ["could"],
+     "explain": "O modal can recua para could quando o verbo de relato está no passado."},
+    {"id": "b1-10-p5", "type": "order", "words": ["She", "told", "me", "that", "she", "was", "ready"], "answers": ["She told me she was ready."], "prompt": "Ela me disse que estava pronta.",
+     "explain": "Told leva a pessoa (me), e am recua para was. A palavra that é opcional."},
+    {"id": "b1-10-p6", "type": "translate", "prompt": "Ele disse que estava cansado.", "answers": ["He said that he was tired.", "He said he was tired."],
+     "explain": "Said + (that) + frase. O verbo am/is recua para was, e o pronome ele vira he."},
+    {"id": "b1-10-p7", "type": "fix", "prompt": "She said me that the build failed.", "answers": ["She told me that the build failed.", "She said to me that the build failed.", "She said that the build failed.", "She told me the build failed.", "She told me that the build had failed.", "She told me the build had failed.", "She said that the build had failed.", "She said the build failed.", "She said the build had failed.", "She said to me the build failed.", "She said to me that the build had failed."],
+     "explain": "Said não aceita a pessoa diretamente. Com me, use told me ou said to me; sem a pessoa, use só said that."},
+    {"id": "b1-10-p8", "type": "choice", "prompt": "Sam said on Monday: “I will call you tomorrow.” Contando isso uma semana depois: Sam said he would call me ___.", "options": ["the next day", "tomorrow", "the day before"], "answer": 0,
+     "explain": "Contando depois, tomorrow vira the next day (ou the following day).",
+     "why_not": {"1": "Tomorrow só faz sentido se você está contando no mesmo dia da fala.", "2": "The day before é o equivalente de yesterday, e não de tomorrow."}},
+    {"id": "b1-10-p9", "type": "fix", "prompt": "She said she would to join the call.", "answers": ["She said she would join the call."],
+     "explain": "Depois de would (e de qualquer modal) o verbo fica na forma base, sem to: would join."},
+    {"id": "b1-10-p10", "type": "listen", "en": "She said that the tests had passed.",
+     "explain": "Had passed é o past perfect: no discurso indireto, ele mostra que os testes passaram antes do momento em que ela falou."},
+    {"id": "b1-10-p11", "type": "choice", "prompt": "Ana says: “I am busy.” → Ana says that she ___ busy.", "options": ["is", "was", "had been"], "answer": 0,
+     "explain": "Quando o verbo de relato está no presente (says), não há recuo do tempo: continua is.",
+     "why_not": {"1": "O recuo para was só acontece quando o verbo de relato está no passado, como said.", "2": "Had been seria o recuo de um present perfect, o que não é o caso."}}
+  ],
+  "quiz": [
+    {"id": "b1-10-q1", "type": "choice", "prompt": "Leo said: “I have finished.” → Leo said he ___ finished.", "options": ["had", "has", "have"], "answer": 0,
+     "explain": "O present perfect (have finished) recua para o past perfect: had finished.",
+     "why_not": {"1": "Has finished é o present perfect, que não recua assim depois de said.", "2": "Have não concorda com he e também mantém o present perfect."}},
+    {"id": "b1-10-q2", "type": "fill", "prompt": "Eva said: “I am testing the app.” → Eva said that she ___ testing the app.", "answers": ["was"],
+     "explain": "O present continuous recua para o past continuous: am testing vira was testing."},
+    {"id": "b1-10-q3", "type": "translate", "prompt": "Ela me disse que o servidor estava lento.", "answers": ["She told me that the server was slow.", "She told me the server was slow.", "She said to me that the server was slow.", "She said to me the server was slow."],
+     "explain": "Com a pessoa (me), use told me ou said to me. O verbo is recua para was."},
+    {"id": "b1-10-q4", "type": "order", "words": ["He", "said", "that", "the", "deploy", "would", "start", "the", "next", "day"], "answers": ["He said the deploy would start the next day.", "He said that the deploy would start the following day.", "He said the deploy would start the following day."], "prompt": "Ele disse que o deploy começaria no dia seguinte.",
+     "explain": "Will start recua para would start, e tomorrow vira the next day."},
+    {"id": "b1-10-q5", "type": "fix", "prompt": "Sara told me that she will send the files the next day.", "answers": ["Sara told me that she would send the files the next day.", "Sara told me she would send the files the next day.", "Sara told me that she would send the files the following day.", "Sara told me she would send the files the following day."],
+     "explain": "Com told no passado e the next day, will recua para would: would send."},
+    {"id": "b1-10-q6", "type": "choice", "prompt": "He ___ that he was late.", "options": ["said", "told", "said me"], "answer": 0,
+     "explain": "Said + that + frase, sem pessoa. Told precisaria de uma pessoa (told me that).",
+     "why_not": {"1": "Told sem a pessoa não funciona: precisa de told me, told us etc.", "2": "Said me não existe; use said to me ou told me."}},
+    {"id": "b1-10-q7", "type": "listen", "en": "He told me that he would be late.",
+     "explain": "Told me + that + would: a pessoa vem logo depois de told, e will recuou para would."}
+  ],
+  "words": [
+    {"word": "say", "pt": "dizer"},
+    {"word": "tell", "pt": "contar; dizer a alguém"},
+    {"word": "mention", "pt": "mencionar; comentar"},
+    {"word": "announce", "pt": "anunciar"},
+    {"word": "confirm", "pt": "confirmar"},
+    {"word": "explain", "pt": "explicar"},
+    {"word": "deadline", "pt": "prazo"},
+    {"word": "documentation", "pt": "documentação"},
+    {"word": "attend", "pt": "participar; comparecer a"},
+    {"word": "following", "pt": "seguinte"}
+  ]
+}

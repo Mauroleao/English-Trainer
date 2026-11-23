@@ -16,7 +16,7 @@ from fastapi.staticfiles import StaticFiles
 from .ai import get_llm_from_env
 from .db import Settings, connect, init_db, load_settings, save_settings
 from .deps import get_db, get_llm
-from .routes import conversation, phrases, texts, vocabulary
+from .routes import conversation, course, phrases, study, texts, vocabulary
 from .schemas import SettingsIn
 from .seed import seed
 
@@ -34,7 +34,7 @@ def create_app(db_path: Optional[str] = None, llm=_AUTO) -> FastAPI:
     with closing(connect(path)) as db:
         seed(db)
 
-    app = FastAPI(title="English Trainer", version="1.0.0")
+    app = FastAPI(title="English Trainer", version="2.0.0")
     app.state.db_path = path
     app.state.llm = get_llm_from_env() if llm is _AUTO else llm
 
@@ -42,6 +42,8 @@ def create_app(db_path: Optional[str] = None, llm=_AUTO) -> FastAPI:
     app.include_router(conversation.router)
     app.include_router(texts.router)
     app.include_router(vocabulary.router)
+    app.include_router(course.router)
+    app.include_router(study.router)
 
     @app.get("/api/status", tags=["geral"])
     def status(llm=Depends(get_llm)):

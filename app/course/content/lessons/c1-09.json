@@ -1,0 +1,449 @@
+{
+  "id": "c1-09",
+  "level": "C1",
+  "unit": "Impessoal e ênfase",
+  "title": "Passivas avançadas e impessoais",
+  "goal": "Usar construções como It is believed that… e is said to have…, além de passivas com infinitivo perfeito e nuances de get e have.",
+  "minutes": 30,
+  "steps": [
+    {
+      "title": "Por que usar estruturas impessoais",
+      "text": "Em relatórios, post-mortems, notícias e documentação, muitas vezes **não importa quem** afirma algo, ou não queremos assumir a afirmação como nossa. As estruturas impessoais deslocam o foco do “quem” para o “o quê” e dão um tom formal e distanciado. Em português temos equivalentes como “acredita-se que”, “diz-se que”, “estima-se que”.\n\nEm inglês há dois moldes principais para verbos de opinião e relato (*say, believe, think, report, estimate, expect, know, consider*): **It is believed that…** e **Subject + is believed to…**. Nas próximas etapas você aprende a formar cada um.",
+      "examples": [
+        {
+          "en": "It is believed that the outage was caused by a misconfigured load balancer.",
+          "pt": "Acredita-se que a queda tenha sido causada por um balanceador de carga mal configurado."
+        },
+        {
+          "en": "The new framework is said to be much faster than its predecessor.",
+          "pt": "Diz-se que o novo framework é muito mais rápido que o anterior."
+        }
+      ],
+      "tip": "Esses moldes ficam bem em textos escritos. Na conversa do dia a dia, prefira *They say that…* ou *Apparently…*."
+    },
+    {
+      "title": "Molde 1: It + passiva + that",
+      "text": "A estrutura é **It + be + particípio + that + oração**. O *it* é um sujeito “vazio” (dummy subject) e a informação inteira fica na oração com *that*. O tempo da oração subordinada acompanha o sentido real, sem precisar de nenhuma forma especial.\n\nVerbos frequentes: *believed, thought, said, reported, estimated, expected, known, understood, alleged, claimed, anticipated*.",
+      "table": {
+        "headers": [
+          "Molde",
+          "Exemplo"
+        ],
+        "rows": [
+          [
+            "It is said that …",
+            "It is said that the vendor will raise its prices."
+          ],
+          [
+            "It was reported that …",
+            "It was reported that the breach affected 5,000 accounts."
+          ],
+          [
+            "It is widely expected that …",
+            "It is widely expected that the release will slip."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "It is estimated that the migration will take six months.",
+          "pt": "Estima-se que a migração levará seis meses."
+        },
+        {
+          "en": "It was alleged that the data had been copied without consent.",
+          "pt": "Alegou-se que os dados haviam sido copiados sem consentimento."
+        }
+      ]
+    },
+    {
+      "title": "Molde 2: sujeito + passiva + infinitivo",
+      "text": "No segundo molde, o sujeito real vai para o início e o verbo seguinte vira **infinitivo**: *The bug is thought to affect older devices*. A escolha do infinitivo mostra a relação de tempo com o verbo principal.\n\nO **infinitivo simples** (*to be, to affect*) indica um fato **simultâneo** ao verbo de opinião. O **infinitivo contínuo** (*to be running*) indica uma ação em andamento. O **infinitivo perfeito** (*to have + particípio*) indica algo **anterior**. Também é possível com *there*: *There are believed to be three causes*.",
+      "table": {
+        "headers": [
+          "Infinitivo",
+          "Sentido",
+          "Exemplo"
+        ],
+        "rows": [
+          [
+            "to be / to affect",
+            "simultâneo",
+            "The server is said to be unstable."
+          ],
+          [
+            "to be running",
+            "em andamento",
+            "The script is believed to be running in the background."
+          ],
+          [
+            "to have + particípio",
+            "anterior",
+            "The breach is believed to have occurred in March."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "The vulnerability is thought to have gone unnoticed for years.",
+          "pt": "Pensa-se que a vulnerabilidade tenha passado despercebida por anos."
+        },
+        {
+          "en": "Several accounts are believed to have been compromised.",
+          "pt": "Acredita-se que várias contas tenham sido comprometidas."
+        },
+        {
+          "en": "There are thought to be at least three root causes.",
+          "pt": "Acredita-se que haja pelo menos três causas-raiz."
+        }
+      ],
+      "trap": "Não misture os dois moldes: *The CEO is said that she will resign* está errado. Escolha *It is said that she will resign* ou *She is said to be resigning*."
+    },
+    {
+      "title": "Nem todo verbo aceita os dois moldes",
+      "text": "Os verbos de opinião e relato mais comuns (*say, believe, think, report, expect, know, consider, estimate*) aceitam os dois moldes. Outros, porém, aceitam apenas **It is … that**. É o caso de **suggest** e **propose**: diz-se *It was suggested that we migrate*, mas não existe *We were suggested to migrate*.\n\nHá também diferenças de ênfase: com *It is expected that…* o foco recai sobre a informação como um todo; com *The patch is expected to…* o foco recai sobre o sujeito escolhido. Em textos técnicos, o segundo molde é mais compacto.",
+      "examples": [
+        {
+          "en": "It was suggested that we postpone the release.",
+          "pt": "Sugeriu-se que adiássemos o lançamento."
+        },
+        {
+          "en": "The patch is expected to resolve the memory leak.",
+          "pt": "Espera-se que o patch resolva o vazamento de memória."
+        }
+      ],
+      "trap": "Em português dizemos “sugeriram-nos migrar”. Em inglês, com *suggest*, não se pode manter essa construção: use *It was suggested that we migrate* ou *They suggested migrating*."
+    },
+    {
+      "title": "Passiva com infinitivo perfeito e com -ing",
+      "text": "Para criticar ou avaliar o passado, combine um **modal** com **have been + particípio**: *The bug should have been caught earlier*; *The outage could have been avoided*; *The cause must have been a race condition*. O modal expressa a avaliação (obrigação, possibilidade, dedução) e **have been + particípio** mostra que a ação passada foi sofrida por alguém ou algo.\n\nA passiva também existe na forma de gerúndio: **being + particípio**. Ela aparece depois de preposições e de verbos que pedem -ing: *She hates being interrupted*; *the risk of being hacked*.",
+      "examples": [
+        {
+          "en": "The bug should have been caught earlier.",
+          "pt": "O bug deveria ter sido detectado antes."
+        },
+        {
+          "en": "The outage could have been avoided with a simple health check.",
+          "pt": "A queda poderia ter sido evitada com uma simples verificação de saúde do serviço."
+        },
+        {
+          "en": "She hates being interrupted during a code review.",
+          "pt": "Ela detesta ser interrompida durante um code review."
+        }
+      ],
+      "tip": "Estrutura: modal + have + been + particípio. Esquecer o *been* é um erro muito comum (*should have caught* é ativa e muda o sentido)."
+    },
+    {
+      "title": "Get passive e have: nuances",
+      "text": "A passiva com **be** é neutra e formal. A passiva com **get** é mais informal e destaca o **evento ou a mudança de estado**, muitas vezes algo inesperado ou indesejado: *Our test environment got wiped by mistake*; *He got promoted*. Ela é rara com *by + agente* e quase nunca aparece em textos formais.\n\nCom **have + objeto + particípio**, o sujeito pode ter pedido que algo fosse feito (*We had the servers audited*) ou ter sofrido um evento indesejado (*We had our database hacked*). Quem lê precisa do contexto para distinguir os dois sentidos.",
+      "examples": [
+        {
+          "en": "Our test environment got wiped by mistake.",
+          "pt": "Nosso ambiente de testes foi apagado por engano."
+        },
+        {
+          "en": "We had the servers audited last month.",
+          "pt": "Mandamos auditar os servidores no mês passado."
+        },
+        {
+          "en": "They had their accounts hacked last week.",
+          "pt": "Eles tiveram as contas invadidas na semana passada."
+        }
+      ],
+      "trap": "Em português usamos “foi” para tudo. Em inglês, evite *got* em textos formais: no relatório diga *The environment was wiped*, e reserve *got wiped* para conversa."
+    },
+    {
+      "title": "Escolhendo bem: quando a passiva ajuda",
+      "text": "Use a passiva quando o agente é desconhecido ou irrelevante (*The data was deleted*), quando você quer manter o foco no objeto (*The patch was tested thoroughly*), ou quando prefere um tom impessoal. Evite-a quando o agente é importante e quando muitas passivas seguidas deixam o texto pesado.\n\nOs moldes impessoais, em particular, funcionam melhor com moderação: um por parágrafo basta. Em excesso, eles soam como burocracia e escondem quem é responsável, o que pode ser um problema em post-mortems.",
+      "examples": [
+        {
+          "en": "The files were found to be corrupted.",
+          "pt": "Constatou-se que os arquivos estavam corrompidos."
+        },
+        {
+          "en": "The outage is thought to have been caused by an expired certificate.",
+          "pt": "Acredita-se que a queda tenha sido causada por um certificado expirado."
+        }
+      ],
+      "tip": "Em post-mortems, a prática recomendada é descrever causas e ações sem culpar pessoas, e a passiva ajuda nisso."
+    }
+  ],
+  "summary": [
+    "Verbos de opinião e relato formam dois moldes: It is believed that… e Subject + is believed to…",
+    "O infinitivo mostra o tempo: to be (simultâneo), to be -ing (em andamento), to have + particípio (anterior).",
+    "Suggest e propose aceitam apenas It is suggested that…; não existe We were suggested to…",
+    "Modal + have been + particípio avalia o passado: should have been tested, could have been avoided.",
+    "Get passive é informal e destaca o evento; have + objeto + particípio pode indicar serviço ou azar."
+  ],
+  "practice": [
+    {
+      "id": "c1-09-p1",
+      "type": "choice",
+      "prompt": "___ that the outage was caused by a misconfigured load balancer.",
+      "options": [
+        "It is believed",
+        "They are believed",
+        "Is believed"
+      ],
+      "answer": 0,
+      "explain": "Sem um sujeito real no início, o molde é It + be + particípio + that. O it é o sujeito vazio.",
+      "why_not": {
+        "1": "They é um sujeito real e exigiria um infinitivo (They are believed to…).",
+        "2": "Em inglês o sujeito é obrigatório; sem it a frase fica incompleta."
+      }
+    },
+    {
+      "id": "c1-09-p2",
+      "type": "choice",
+      "prompt": "The breach is believed ___ in March, long before it was detected.",
+      "options": [
+        "to have occurred",
+        "to occur",
+        "occurring"
+      ],
+      "answer": 0,
+      "explain": "A violação aconteceu antes do momento da crença, e o infinitivo perfeito (to have occurred) expressa esse tempo anterior.",
+      "why_not": {
+        "1": "To occur dá a ideia de simultaneidade e não de algo passado.",
+        "2": "O gerúndio não é possível depois de believed nesse molde."
+      }
+    },
+    {
+      "id": "c1-09-p3",
+      "type": "choice",
+      "prompt": "She hates ___ interrupted during a code review.",
+      "options": [
+        "being",
+        "to being",
+        "been"
+      ],
+      "answer": 0,
+      "explain": "Hate aceita -ing, e a passiva em -ing é being + particípio: being interrupted.",
+      "why_not": {
+        "1": "To being mistura infinitivo e gerúndio, o que não existe nesse contexto.",
+        "2": "Been não pode vir sozinho depois de hates."
+      }
+    },
+    {
+      "id": "c1-09-p4",
+      "type": "choice",
+      "prompt": "Which sentence is natural and informal, describing an unwelcome surprise?",
+      "options": [
+        "Our test environment got wiped by mistake.",
+        "Our test environment wiped by mistake.",
+        "Our test environment is got wiped by mistake."
+      ],
+      "answer": 0,
+      "explain": "A passiva com get destaca o evento inesperado e é informal: got wiped.",
+      "why_not": {
+        "1": "Falta o verbo auxiliar: sem got ou was, a frase não forma passiva.",
+        "2": "Is got é uma mistura de be e get que não existe."
+      }
+    },
+    {
+      "id": "c1-09-p5",
+      "type": "fill",
+      "prompt": "The new framework is said ___ much faster than its predecessor.",
+      "answers": [
+        "to be"
+      ],
+      "explain": "O fato é simultâneo ao dizer, então se usa o infinitivo simples: is said to be."
+    },
+    {
+      "id": "c1-09-p6",
+      "type": "fill",
+      "prompt": "The server is reported to ___ been down since midnight.",
+      "answers": [
+        "have"
+      ],
+      "explain": "Como a situação começou antes do relato, usa-se o infinitivo perfeito: to have been. Falta apenas o auxiliar have."
+    },
+    {
+      "id": "c1-09-p7",
+      "type": "fix",
+      "prompt": "He is said that he left the company last year.",
+      "answers": [
+        "He is said to have left the company last year.",
+        "It is said that he left the company last year."
+      ],
+      "explain": "Os dois moldes não se misturam: ou It is said that + oração, ou He is said to + infinitivo (perfeito, por ser passado)."
+    },
+    {
+      "id": "c1-09-p8",
+      "type": "order",
+      "words": [
+        "The",
+        "issue",
+        "is",
+        "believed",
+        "to",
+        "have",
+        "been",
+        "resolved"
+      ],
+      "prompt": "Acredita-se que o problema tenha sido resolvido.",
+      "explain": "Sujeito + is believed + to have been + particípio: o infinitivo perfeito passivo expressa algo já resolvido."
+    },
+    {
+      "id": "c1-09-p9",
+      "type": "translate",
+      "prompt": "Acredita-se que o erro tenha sido causado por uma atualização.",
+      "answers": [
+        "The error is believed to have been caused by an update.",
+        "It is believed that the error was caused by an update.",
+        "It is believed that the error has been caused by an update."
+      ],
+      "explain": "Os dois moldes impessoais servem. No molde com infinitivo, o fato anterior pede to have been caused."
+    },
+    {
+      "id": "c1-09-p10",
+      "type": "listen",
+      "en": "The outage is thought to have been caused by an expired certificate.",
+      "explain": "Is thought to have been caused junta o molde impessoal com a passiva perfeita: a causa é anterior ao momento do pensamento."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c1-09-q1",
+      "type": "choice",
+      "prompt": "___ that the release will slip by a week.",
+      "options": [
+        "It is anticipated",
+        "The release anticipated",
+        "Anticipated to"
+      ],
+      "answer": 0,
+      "explain": "Com that + oração, o molde é It is anticipated that. Os outros dois não formam frases completas.",
+      "why_not": {
+        "1": "The release anticipated seria uma oração ativa estranha, sem objeto.",
+        "2": "Anticipated to deixa a frase sem sujeito."
+      }
+    },
+    {
+      "id": "c1-09-q2",
+      "type": "choice",
+      "prompt": "The contract is said ___ penalties for late delivery.",
+      "options": [
+        "to include",
+        "including",
+        "that includes"
+      ],
+      "answer": 0,
+      "explain": "No molde sujeito + is said, o verbo seguinte vem no infinitivo: is said to include.",
+      "why_not": {
+        "1": "Depois de is said, não se usa -ing nesse sentido.",
+        "2": "That includes pertence ao outro molde e exigiria it no início."
+      }
+    },
+    {
+      "id": "c1-09-q3",
+      "type": "choice",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "It is suggested that the team review the logs.",
+        "The team is suggested to review the logs.",
+        "It suggests that the team is reviewed."
+      ],
+      "answer": 0,
+      "explain": "Suggest só aceita o molde It is suggested that…. Em that-clauses, o inglês formal usa o verbo base (review).",
+      "why_not": {
+        "1": "Suggest não aceita sujeito + to-infinitivo na passiva.",
+        "2": "A frase muda o sentido e é desnatural."
+      }
+    },
+    {
+      "id": "c1-09-q4",
+      "type": "fill",
+      "prompt": "The regression is thought to ___ introduced by the last merge.",
+      "answers": [
+        "have been"
+      ],
+      "explain": "A introdução do erro é anterior ao pensamento e passiva, por isso o infinitivo perfeito passivo: to have been introduced."
+    },
+    {
+      "id": "c1-09-q5",
+      "type": "fix",
+      "prompt": "The system is believed have been compromised.",
+      "answers": [
+        "The system is believed to have been compromised."
+      ],
+      "explain": "Falta o to antes do infinitivo perfeito. Depois de is believed, o molde exige to + have + particípio."
+    },
+    {
+      "id": "c1-09-q6",
+      "type": "translate",
+      "prompt": "Diz-se que o sistema legado é instável.",
+      "answers": [
+        "The legacy system is said to be unstable.",
+        "It is said that the legacy system is unstable."
+      ],
+      "explain": "Is said to be e It is said that são as duas formas impessoais de diz-se. Como o fato é simultâneo, usa-se to be."
+    },
+    {
+      "id": "c1-09-q7",
+      "type": "order",
+      "words": [
+        "The",
+        "bug",
+        "should",
+        "have",
+        "been",
+        "caught",
+        "earlier"
+      ],
+      "prompt": "O bug deveria ter sido detectado antes.",
+      "explain": "Modal + have been + particípio expressa uma crítica sobre o passado numa passiva: should have been caught."
+    },
+    {
+      "id": "c1-09-q8",
+      "type": "listen",
+      "en": "Several accounts are believed to have been compromised.",
+      "explain": "Are believed to have been compromised: sujeito plural, infinitivo perfeito passivo, pois o comprometimento é anterior à crença."
+    }
+  ],
+  "words": [
+    {
+      "word": "allege",
+      "pt": "alegar; sustentar sem prova"
+    },
+    {
+      "word": "anticipate",
+      "pt": "prever; antecipar"
+    },
+    {
+      "word": "estimate",
+      "pt": "estimar; estimativa"
+    },
+    {
+      "word": "compromise",
+      "pt": "comprometer (a segurança); comprometer-se"
+    },
+    {
+      "word": "breach",
+      "pt": "violação; brecha (de segurança)"
+    },
+    {
+      "word": "outage",
+      "pt": "queda de serviço; indisponibilidade"
+    },
+    {
+      "word": "leak",
+      "pt": "vazamento"
+    },
+    {
+      "word": "predecessor",
+      "pt": "antecessor; versão anterior"
+    },
+    {
+      "word": "regression",
+      "pt": "regressão (defeito que reaparece)"
+    },
+    {
+      "word": "unnoticed",
+      "pt": "despercebido"
+    },
+    {
+      "word": "wipe",
+      "pt": "apagar; limpar completamente"
+    }
+  ]
+}

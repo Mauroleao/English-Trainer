@@ -1,0 +1,162 @@
+{
+  "id": "c1-01",
+  "level": "C1",
+  "unit": "Estruturas de ênfase",
+  "title": "Inversão após advérbios negativos",
+  "goal": "Usar a inversão sujeito-auxiliar (Never have I…, Not only did…, No sooner had…) para dar ênfase e formalidade a relatórios, apresentações e discursos.",
+  "minutes": 30,
+  "steps": [
+    {
+      "title": "Para que serve a inversão",
+      "text": "Normalmente a ordem da frase em inglês é sujeito + verbo: *I have never seen this error*. Quando queremos **dar ênfase**, podemos levar um advérbio de sentido negativo ou restritivo para o **início da frase**. Nesse caso, o sujeito e o auxiliar **trocam de lugar**: *Never have I seen this error*.\n\nEssa estrutura é típica de **escrita formal**, discursos, apresentações e textos persuasivos. Na conversa do dia a dia soa teatral, mas você precisa entendê-la perfeitamente em artigos, contratos, documentação e entrevistas, e usá-la com moderação para impressionar.",
+      "examples": [
+        {"en": "I have never seen such a clean codebase.", "pt": "Eu nunca vi uma base de código tão limpa."},
+        {"en": "Never have I seen such a clean codebase.", "pt": "Nunca na vida vi uma base de código tão limpa."}
+      ],
+      "tip": "As duas frases têm o mesmo sentido lógico. A segunda só acrescenta ênfase e tom formal."
+    },
+    {
+      "title": "A estrutura: advérbio + auxiliar + sujeito + verbo",
+      "text": "A inversão copia o que fazemos em perguntas: o **auxiliar vem antes do sujeito**. A diferença é que aqui a frase continua sendo uma afirmação, sem ponto de interrogação.\n\nOs advérbios mais comuns são: **never, rarely, seldom, hardly, scarcely, barely, little, nowhere** e as expressões **under no circumstances, on no account, at no time, in no way**. Todos têm sentido negativo ou de quase negação, e por isso a negação já está dentro deles: não se usa outra negativa na mesma oração.",
+      "table": {
+        "headers": ["Forma normal", "Com inversão"],
+        "rows": [
+          ["I have never worked with such a team.", "Never have I worked with such a team."],
+          ["We rarely get this much feedback.", "Rarely do we get this much feedback."],
+          ["He had seldom felt so anxious.", "Seldom had he felt so anxious."],
+          ["You must not share the key in any circumstances.", "Under no circumstances must you share the key."]
+        ]
+      },
+      "examples": [
+        {"en": "Rarely do we get this much feedback from users.", "pt": "Raramente recebemos tanto feedback dos usuários."},
+        {"en": "At no time was customer data exposed.", "pt": "Em nenhum momento os dados de clientes foram expostos."}
+      ],
+      "trap": "Não deixe o sujeito antes do auxiliar. *Never I have missed a deadline* está errado; o certo é *Never have I missed a deadline*."
+    },
+    {
+      "title": "Quando não há auxiliar: do, does, did",
+      "text": "A inversão exige um **verbo auxiliar** ou modal. Se a frase normal tem só o verbo principal (present simple ou past simple), você precisa **inserir do, does ou did**, exatamente como numa pergunta. O verbo principal volta para a forma base.\n\nCom o verbo **to be** não há auxiliar para inserir: o próprio verbo vai para antes do sujeito (*Seldom is it so quiet*). Com modais também (*Under no circumstances should you…*). Lembre que **does** acompanha sujeito singular de terceira pessoa, e que o **-s** do verbo desaparece.",
+      "table": {
+        "headers": ["Frase normal", "Com inversão"],
+        "rows": [
+          ["She seldom misses a deadline.", "Seldom does she miss a deadline."],
+          ["We rarely release on Fridays.", "Rarely do we release on Fridays."],
+          ["I understood the risk only later.", "Only later did I understand the risk."],
+          ["The system is rarely this stable.", "Rarely is the system this stable."]
+        ]
+      },
+      "examples": [
+        {"en": "Seldom does a release go out without a hotfix.", "pt": "Raramente uma versão sai sem uma correção emergencial."},
+        {"en": "Little did we know that the migration would take three weeks.", "pt": "Mal sabíamos que a migração levaria três semanas."}
+      ],
+      "trap": "Depois de did, does ou do o verbo principal fica no infinitivo sem to: *Seldom does she **miss***, e não *Seldom does she misses* nem *Seldom she misses*."
+    },
+    {
+      "title": "Not only … but also",
+      "text": "**Not only … but also** soma duas informações e dá destaque à primeira. Quando *Not only* abre a frase, a inversão acontece **só na primeira oração**. A segunda oração, depois de *but*, mantém a ordem normal.\n\nO inglês pede essa assimetria: *Not only did the build fail, but it also deleted the logs*. Repare que o **did** está na primeira parte e a segunda (*it also deleted*) segue a ordem comum. Se o primeiro elemento tem **be**, ele vai antes do sujeito: *Not only is the API slow, but it is also insecure*.",
+      "examples": [
+        {"en": "Not only did the build fail, but it also deleted the logs.", "pt": "O build não só falhou, como também apagou os logs."},
+        {"en": "Not only is the API slow, but it is also insecure.", "pt": "A API não só é lenta, como também é insegura."}
+      ],
+      "trap": "Não inverta as duas orações. *Not only did the build fail, but also did it delete the logs* soa estranho. Inverta só a primeira."
+    },
+    {
+      "title": "No sooner … than e Hardly … when",
+      "text": "Para dizer que um fato aconteceu **imediatamente depois** de outro, o inglês formal usa **No sooner … than** ou **Hardly … when** (também *Scarcely … when* e *Barely … when*). O primeiro evento vem no **past perfect** com inversão (*had* antes do sujeito) e o segundo no **past simple**.\n\nA conjunção é fixa: **no sooner** combina com **than**, enquanto **hardly, scarcely e barely** combinam com **when**. É um dos pontos em que as provas de proficiência mais testam.",
+      "examples": [
+        {"en": "No sooner had we deployed the patch than the alerts started.", "pt": "Assim que implantamos a correção, os alertas começaram."},
+        {"en": "Hardly had the meeting started when the client left.", "pt": "Mal a reunião tinha começado, o cliente saiu."},
+        {"en": "Scarcely had she logged in when the session expired.", "pt": "Ela mal tinha feito login quando a sessão expirou."}
+      ],
+      "tip": "Sem inversão a ideia é a mesma: *We had no sooner deployed the patch than the alerts started*. A forma invertida é mais enfática."
+    },
+    {
+      "title": "Under no circumstances, Only when/after e Not until",
+      "text": "Expressões como **under no circumstances**, **on no account** e **at no point** exprimem proibição ou negação forte e pedem inversão: *Under no circumstances should you edit production directly*.\n\nTambém invertem a **oração principal** as expressões restritivas com **only** (*only when, only after, only then, only if*) e com **not until**. Atenção: a inversão ocorre na oração principal, e não na oração introduzida por *when*, *after* ou *until*.",
+      "examples": [
+        {"en": "Under no circumstances should you edit production directly.", "pt": "Sob nenhuma circunstância você deve editar a produção diretamente."},
+        {"en": "Only after the audit did we realize how big the gap was.", "pt": "Só depois da auditoria percebemos o tamanho da lacuna."},
+        {"en": "Not until the logs were reviewed did we find the root cause.", "pt": "Só depois que os logs foram revisados encontramos a causa raiz."}
+      ],
+      "trap": "Em *Not until the logs were reviewed did we find…*, a ordem normal (*the logs were reviewed*) fica na parte com *until*, e a inversão (*did we find*) fica na principal."
+    },
+    {
+      "title": "Português x inglês e registro",
+      "text": "Em português podemos dizer “Nunca eu vi isso” ou “Raramente ele atrasa”, mantendo a ordem sujeito-verbo. Por isso o brasileiro tende a esquecer a inversão. Em inglês, depois desses advérbios no início da frase, ela é **obrigatória**.\n\nUse a inversão em e-mails formais, relatórios, apresentações e entrevistas, quando quiser enfatizar um contraste. Evite em excesso: duas ou três ocorrências num texto longo bastam. Em conversa informal, a ordem normal (*I've never seen…*) é a escolha natural.",
+      "examples": [
+        {"en": "Never before has the team delivered so much in a single sprint.", "pt": "Nunca antes a equipe entregou tanto em uma única sprint."},
+        {"en": "On no account may the credentials be stored in the repository.", "pt": "Em hipótese alguma as credenciais podem ser guardadas no repositório."}
+      ],
+      "tip": "Se o advérbio não está no início da frase, não há inversão: *I have rarely seen this*. A inversão só ocorre quando ele vem na frente."
+    }
+  ],
+  "summary": [
+    "Advérbios negativos ou restritivos no início da frase pedem inversão: o auxiliar vem antes do sujeito.",
+    "Sem auxiliar, insira do, does ou did e use o verbo principal na forma base: Seldom does she miss a deadline.",
+    "Not only inverte só a primeira oração; No sooner combina com than; Hardly e Scarcely combinam com when.",
+    "Under no circumstances, Only after e Not until invertem a oração principal.",
+    "Registro formal e enfático: use com moderação e nunca com a negação duplicada."
+  ],
+  "practice": [
+    {"id": "c1-01-p1", "type": "choice", "prompt": "Never ___ such a clean codebase.", "options": ["I have seen", "have I seen", "I saw have"], "answer": 1,
+     "explain": "Com Never no início, o auxiliar vem antes do sujeito: Never have I seen.",
+     "why_not": {"0": "Falta a inversão: depois de Never no início, o auxiliar precede o sujeito.", "2": "A forma verbal é impossível em inglês; o auxiliar have precede I."}},
+    {"id": "c1-01-p2", "type": "choice", "prompt": "Rarely ___ a release go out without at least one hotfix.", "options": ["does", "do", "is"], "answer": 0,
+     "explain": "O sujeito a release é singular e o verbo principal (go) está na forma base, então o auxiliar inserido é does.",
+     "why_not": {"1": "Do não concorda com o sujeito singular a release.", "2": "Is não pode ser auxiliar aqui, pois o verbo go não está no gerúndio nem no particípio."}},
+    {"id": "c1-01-p3", "type": "choice", "prompt": "No sooner had we deployed the patch ___ the alerts started.", "options": ["when", "than", "that"], "answer": 1,
+     "explain": "No sooner exige than; é comparativo (sooner) e than fecha a comparação.",
+     "why_not": {"0": "When combina com hardly e scarcely, mas não com no sooner na forma padrão.", "2": "That não completa nenhuma dessas estruturas."}},
+    {"id": "c1-01-p4", "type": "choice", "prompt": "Hardly had the meeting started ___ the client left.", "options": ["when", "while", "that"], "answer": 0,
+     "explain": "Hardly vem acompanhado de when: Hardly had X happened when Y happened.",
+     "why_not": {"1": "While indica simultaneidade prolongada e não faz par com hardly.", "2": "That não é a conjunção usada com hardly."}},
+    {"id": "c1-01-p5", "type": "choice", "prompt": "Not until the logs were reviewed ___ the root cause.", "options": ["we found", "did we find", "we did find"], "answer": 1,
+     "explain": "Depois de Not until + oração, a oração principal é invertida: did we find.",
+     "why_not": {"0": "A oração principal precisa de inversão depois de Not until.", "2": "Aqui o did vem depois do sujeito, o que é a ordem de ênfase comum, não a inversão pedida."}},
+    {"id": "c1-01-p6", "type": "fill", "prompt": "Not only ___ the build fail, but it also deleted the logs.", "answers": ["did"],
+     "explain": "O verbo fail está na forma base, então a inversão usa did antes do sujeito the build."},
+    {"id": "c1-01-p7", "type": "fill", "prompt": "Seldom ___ she miss a deadline.", "answers": ["does"],
+     "explain": "She é terceira pessoa do singular, então o auxiliar inserido é does e o verbo fica na forma base (miss)."},
+    {"id": "c1-01-p8", "type": "translate", "prompt": "Nunca vi um bug tão estranho. (Comece com Never.)", "answers": ["Never have I seen such a strange bug.", "Never have I seen such a weird bug.", "Never have I seen a bug so strange.", "Never have I seen a bug this strange."],
+     "explain": "Never no início exige inversão com o present perfect: Never have I seen. Depois vem such a + adjetivo + substantivo."},
+    {"id": "c1-01-p9", "type": "order", "words": ["Under", "no", "circumstances", "should", "you", "edit", "production", "directly"], "prompt": "Sob nenhuma circunstância você deve editar a produção diretamente.",
+     "explain": "Under no circumstances é seguido do modal should antes do sujeito you, e depois vem o verbo na forma base."},
+    {"id": "c1-01-p10", "type": "fix", "prompt": "Never I have missed a deadline like this.", "answers": ["Never have I missed a deadline like this.", "I have never missed a deadline like this."],
+     "explain": "Com Never no início da frase, o auxiliar have vem antes do sujeito I: Never have I missed."},
+    {"id": "c1-01-p11", "type": "listen", "en": "Little did we know that the migration would take three weeks.",
+     "explain": "Little did we know é uma inversão com did; o verbo know fica na forma base e o sentido é “não imaginávamos”."}
+  ],
+  "quiz": [
+    {"id": "c1-01-q1", "type": "choice", "prompt": "Hardly ___ the server restarted when users began to complain.", "options": ["had", "has", "did"], "answer": 0,
+     "explain": "Hardly pede o past perfect invertido: Hardly had the server restarted when…",
+     "why_not": {"1": "Has seria present perfect, e a frase narra um fato passado.", "2": "Did exigiria o verbo restart na forma base, mas aqui está o particípio restarted."}},
+    {"id": "c1-01-q2", "type": "choice", "prompt": "Qual frase está correta?", "options": ["Not only the API is slow, but it is also insecure.", "Not only is the API slow, but it is also insecure.", "Not only is the API slow, but is it also insecure."], "answer": 1,
+     "explain": "A inversão ocorre só na primeira oração (Not only is the API slow). A segunda mantém a ordem normal.",
+     "why_not": {"0": "Faltou inverter o verbo to be depois de Not only.", "2": "A segunda oração não é invertida."}},
+    {"id": "c1-01-q3", "type": "fill", "prompt": "No sooner had she joined the call ___ the connection dropped.", "answers": ["than"],
+     "explain": "No sooner é sempre seguido de than."},
+    {"id": "c1-01-q4", "type": "translate", "prompt": "Em nenhuma circunstância você deve apagar o backup. (Comece com Under no circumstances.)", "answers": ["Under no circumstances should you delete the backup.", "Under no circumstances must you delete the backup.", "Under no circumstances can you delete the backup.", "Under no circumstances may you delete the backup."],
+     "explain": "Under no circumstances é seguido de modal + sujeito + verbo base: should you delete."},
+    {"id": "c1-01-q5", "type": "order", "words": ["Rarely", "do", "we", "see", "such", "detailed", "documentation"], "prompt": "Raramente vemos uma documentação tão detalhada.",
+     "explain": "Rarely no início exige do antes de we; o verbo see fica na forma base."},
+    {"id": "c1-01-q6", "type": "fix", "prompt": "Rarely they update the documentation on time.", "answers": ["Rarely do they update the documentation on time."],
+     "explain": "Rarely no início pede inversão. Como update é verbo principal sem auxiliar, insere-se do: Rarely do they update."},
+    {"id": "c1-01-q7", "type": "listen", "en": "Seldom has a migration gone so smoothly.",
+     "explain": "Seldom no início traz has antes de a migration; o verbo principal fica no particípio gone."},
+    {"id": "c1-01-q8", "type": "choice", "prompt": "Little ___ the team know that the vendor had already shut the service down.", "options": ["did", "had", "was"], "answer": 0,
+     "explain": "Little exige inversão com did, e know fica na forma base: Little did the team know.",
+     "why_not": {"1": "Had exigiria o particípio known e mudaria o sentido do tempo.", "2": "Was não forma o passado simples de know."}}
+  ],
+  "words": [
+    {"word": "seldom", "pt": "raramente"},
+    {"word": "hardly", "pt": "mal; quase não"},
+    {"word": "scarcely", "pt": "mal; quase não"},
+    {"word": "circumstance", "pt": "circunstância"},
+    {"word": "no sooner", "pt": "assim que; mal"},
+    {"word": "hotfix", "pt": "correção emergencial"},
+    {"word": "root cause", "pt": "causa raiz"},
+    {"word": "audit", "pt": "auditoria"},
+    {"word": "gap", "pt": "lacuna"},
+    {"word": "vendor", "pt": "fornecedor"}
+  ]
+}

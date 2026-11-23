@@ -1,0 +1,192 @@
+{
+  "id": "a2-12",
+  "level": "A2",
+  "unit": "Ligar ideias e preparar o B1",
+  "title": "Pronomes objeto, 's possessivo, whose e reflexivos",
+  "goal": "Dizer a quem algo pertence, perguntar de quem é e falar de ações que voltam para quem as faz.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "Quem faz e quem recebe a ação",
+      "text": "Quando você diz *I called Ana*, **I** faz a ação e **Ana** a recebe. Se não quiser repetir o nome, troque **Ana** por **her**: *I called her*. Os pronomes que **fazem** a ação são os pronomes **sujeito** (I, he, she, we, they). Os que **recebem** a ação são os pronomes **objeto** (me, him, her, us, them).\n\nEm português, essa diferença aparece em “ele” e “o”, “eu” e “me”. Em inglês, você precisa escolher a forma certa em cada posição.",
+      "examples": [
+        {"en": "Ana works with Sam. She works with him.", "pt": "A Ana trabalha com o Sam. Ela trabalha com ele."},
+        {"en": "The client called me yesterday.", "pt": "O cliente me ligou ontem."},
+        {"en": "Please send them the report.", "pt": "Por favor, envie o relatório para eles."}
+      ],
+      "tip": "Sujeito vem antes do verbo (She works). Objeto vem depois do verbo ou de uma preposição (with him)."
+    },
+    {
+      "title": "A tabela dos pronomes objeto",
+      "text": "Memorize os pares abaixo. Repare que **you** e **it** são iguais nas duas colunas, e que os demais mudam: **I → me**, **he → him**, **she → her**, **we → us**, **they → them**.\n\nOs pronomes objeto aparecem depois de **verbos** (*call me*) e depois de **preposições** (*with us*, *for them*, *to him*).",
+      "table": {
+        "headers": ["Sujeito", "Objeto", "Exemplo"],
+        "rows": [
+          ["I", "me", "Please call me."],
+          ["you", "you", "I trust you."],
+          ["he", "him", "We help him."],
+          ["she", "her", "They know her."],
+          ["it", "it", "Restart it."],
+          ["we", "us", "Join us."],
+          ["they", "them", "I work with them."]
+        ]
+      },
+      "examples": [
+        {"en": "Can you help me with this bug?", "pt": "Você pode me ajudar com este bug?"},
+        {"en": "The server is down. Please restart it.", "pt": "O servidor caiu. Por favor, reinicie-o."},
+        {"en": "Tom is new. Can you show him the office?", "pt": "O Tom é novo. Você pode mostrar o escritório a ele?"},
+        {"en": "Our manager talks to us every Monday.", "pt": "Nosso gerente fala com a gente toda segunda-feira."}
+      ],
+      "trap": "Depois de verbo ou preposição, não use o pronome sujeito: *with he* e *call I* estão errados. Diga *with him* e *call me*."
+    },
+    {
+      "title": "Onde fica o pronome objeto",
+      "text": "Em português, o pronome pode vir antes do verbo (“Ele me ligou”) ou depois (“ligue-me”). Em inglês, o pronome objeto vem **depois do verbo**: *He called me*. Com verbos que têm dois objetos, como **send**, **give** e **show**, há duas ordens possíveis: *send me the file* ou *send the file to me*.\n\nPara coisas, usamos **it** (singular) e **them** (plural): *Fix it* (corrija isso), *Test them* (teste-os).",
+      "examples": [
+        {"en": "He called me after the meeting.", "pt": "Ele me ligou depois da reunião."},
+        {"en": "Please send me the file.", "pt": "Por favor, me envie o arquivo."},
+        {"en": "Please send the file to me.", "pt": "Por favor, envie o arquivo para mim."},
+        {"en": "These tests are slow. Let's fix them.", "pt": "Estes testes são lentos. Vamos corrigi-los."}
+      ],
+      "trap": "Em inglês, o pronome objeto não vai antes do verbo: *He me called* está errado. Diga *He called me*."
+    },
+    {
+      "title": "'s possessivo: John's laptop",
+      "text": "Para dizer que algo pertence a uma pessoa, acrescentamos **'s** ao nome: *John's laptop* (o laptop do John). Para o plural terminado em **-s**, só entra o apóstrofo: *the developers' room* (a sala dos desenvolvedores). Em plurais irregulares, voltamos ao **'s**: *the children's room*.\n\nEm português dizemos “o laptop **do** John”, com a ordem invertida. Em inglês, o dono vem **primeiro**, e o objeto vem depois. Para **coisas**, costumamos usar outra estrutura: *the name of the file* ou *the file name*.",
+      "table": {
+        "headers": ["Dono", "Forma", "Exemplo"],
+        "rows": [
+          ["uma pessoa", "nome + 's", "Maria's laptop"],
+          ["plural com -s", "nome + '", "the developers' room"],
+          ["plural irregular", "nome + 's", "the men's team"],
+          ["uma coisa", "of / nome composto", "the name of the file"]
+        ]
+      },
+      "examples": [
+        {"en": "This is John's laptop.", "pt": "Este é o laptop do John."},
+        {"en": "Maria's team is in the next room.", "pt": "A equipe da Maria está na sala ao lado."},
+        {"en": "I like the developers' new office.", "pt": "Eu gosto do novo escritório dos desenvolvedores."}
+      ],
+      "trap": "Não diga *the laptop of John*: soa estranho para pessoas. Diga *John's laptop*. Cuidado também: **'s** pode ser **is** (*John's here* = John está aqui). A posição na frase mostra a diferença: depois do nome vem um substantivo? É posse."
+    },
+    {
+      "title": "Whose e os pronomes de posse",
+      "text": "Para perguntar “de quem é?”, use **Whose**: *Whose laptop is this?* Depois dele vem o substantivo. A resposta pode ser *It's John's* (o laptop do John) ou um **pronome de posse**: **mine, yours, his, hers, ours, theirs**. Eles substituem o dono e o objeto juntos: *It's mine* (é meu).\n\nNão confunda **whose** (de quem) com **who's** (a contração de *who is*, “quem é”).",
+      "table": {
+        "headers": ["Pronome possessivo", "Exemplo"],
+        "rows": [
+          ["mine", "That laptop is mine."],
+          ["yours", "Is this pen yours?"],
+          ["his / hers", "The badge is hers."],
+          ["ours / theirs", "The server is ours, not theirs."]
+        ]
+      },
+      "examples": [
+        {"en": "Whose backpack is this?", "pt": "De quem é esta mochila?"},
+        {"en": "It is mine. I left it here.", "pt": "É minha. Eu a deixei aqui."},
+        {"en": "Whose idea was this? It was theirs.", "pt": "De quem foi esta ideia? Foi deles."},
+        {"en": "Who is that? He is the new tester.", "pt": "Quem é aquele? Ele é o novo testador."}
+      ],
+      "trap": "Escreva *Whose laptop is this?*, e não *Who's laptop is this?*. Who's quer dizer *who is* (quem é), e a pergunta pede a posse."
+    },
+    {
+      "title": "Pronomes reflexivos: myself, yourself…",
+      "text": "Quando a pessoa que **faz** a ação é a mesma que a **recebe**, usamos um pronome **reflexivo**: **myself, yourself, himself, herself, itself, ourselves, yourselves, themselves**. Repare: o singular termina em **-self**, e o plural em **-selves**.\n\nEles também servem para dar ênfase, como “eu mesmo” em português: *I fixed it myself*. E **by + reflexivo** significa “sozinho”, sem ajuda: *She did it by herself*.",
+      "table": {
+        "headers": ["Sujeito", "Reflexivo"],
+        "rows": [
+          ["I", "myself"],
+          ["you", "yourself / yourselves"],
+          ["he / she / it", "himself / herself / itself"],
+          ["we", "ourselves"],
+          ["they", "themselves"]
+        ]
+      },
+      "examples": [
+        {"en": "I wrote the script myself.", "pt": "Eu mesmo escrevi o script."},
+        {"en": "She taught herself Python.", "pt": "Ela aprendeu Python sozinha."},
+        {"en": "They built the tool by themselves.", "pt": "Eles construíram a ferramenta sozinhos."},
+        {"en": "Please introduce yourselves to the team.", "pt": "Por favor, apresentem-se à equipe."}
+      ],
+      "trap": "A forma *theirselves* não existe em inglês padrão. O certo é **themselves**, e *hisself* também está errado: use **himself**."
+    },
+    {
+      "title": "Reflexivo × objeto: não é a mesma pessoa",
+      "text": "Compare: *He sent him an email* (ele enviou o e-mail a **outra** pessoa) e *He sent himself an email* (ele enviou o e-mail a **si mesmo**). Se a pessoa for a mesma, use o reflexivo; se for outra, use o pronome objeto.\n\nEm português, muitos verbos usam “se”: levantar-se, sentir-se, concentrar-se. Em inglês, vários **não** levam reflexivo: *I get up*, *He feels tired*, *I need to concentrate*. Use o reflexivo só quando a ação realmente volta para a pessoa.",
+      "examples": [
+        {"en": "She sent herself a reminder.", "pt": "Ela enviou um lembrete para si mesma."},
+        {"en": "She sent her a reminder.", "pt": "Ela enviou um lembrete para ela (outra pessoa)."},
+        {"en": "I feel tired and I need to rest.", "pt": "Eu me sinto cansado e preciso descansar."},
+        {"en": "He fixed the bug himself.", "pt": "Ele mesmo corrigiu o bug."}
+      ],
+      "trap": "Não traduza “me sinto cansado” como *I feel myself tired*. Em inglês, diga *I feel tired*. Os verbos de “se” do português nem sempre pedem reflexivo."
+    }
+  ],
+  "summary": [
+    "Os pronomes objeto são me, you, him, her, it, us e them, e vêm depois de verbos e preposições (call me, with them).",
+    "Para posse de pessoas use nome + 's (John's laptop) e, para plural com -s, só o apóstrofo (the developers' room).",
+    "Whose pergunta de quem é algo (Whose laptop is this?); as respostas podem ser It's John's ou mine, yours, his, hers, ours e theirs.",
+    "Os reflexivos (myself, himself, themselves…) aparecem quando quem faz a ação também a recebe, ou para dar ênfase.",
+    "By myself, by herself etc. significam sozinho, e o inglês não usa reflexivo em todos os verbos que têm “se” em português."
+  ],
+  "practice": [
+    {"id": "a2-12-p1", "type": "choice", "prompt": "Ana is in the meeting. Please call ___ later.", "options": ["she", "her", "hers"], "answer": 1,
+     "explain": "Depois de um verbo (call) usamos o pronome objeto. O objeto de she é her.",
+     "why_not": {"0": "She é pronome sujeito e vem antes do verbo.", "2": "Hers é um pronome de posse, e quer dizer “dela” (a coisa)."}},
+    {"id": "a2-12-p2", "type": "choice", "prompt": "We need the report. Can you send it to ___?", "options": ["we", "our", "us"], "answer": 2,
+     "explain": "Depois da preposição to usamos o pronome objeto. O objeto de we é us.",
+     "why_not": {"0": "We é pronome sujeito e não vem depois de preposição.", "1": "Our é um possessivo e vem antes de um substantivo, como em our report."}},
+    {"id": "a2-12-p3", "type": "choice", "prompt": "This is ___ laptop. He left it here.", "options": ["John", "John's", "Johns"], "answer": 1,
+     "explain": "Para dizer que o laptop pertence ao John, usamos John's antes do substantivo: John's laptop.",
+     "why_not": {"0": "Sem o 's, a frase não mostra a posse.", "2": "Johns, sem apóstrofo, seria apenas um plural e não indica o dono."}},
+    {"id": "a2-12-p4", "type": "fill", "prompt": "Tom is new. Please help ___ with the setup.", "answers": ["him"],
+     "explain": "Depois do verbo help usamos o pronome objeto. O objeto de he é him."},
+    {"id": "a2-12-p5", "type": "fill", "prompt": "The bug is serious. Please fix ___ today.", "answers": ["it"],
+     "explain": "Para falar de uma coisa, usamos it. Depois do verbo fix, o objeto it é a forma correta."},
+    {"id": "a2-12-p6", "type": "fill", "prompt": "I wrote the script by ___. Nobody helped me.", "answers": ["myself"],
+     "explain": "By + reflexivo quer dizer sozinho. Como o sujeito é I, o reflexivo é myself."},
+    {"id": "a2-12-p7", "type": "fill", "prompt": "___ laptop is this? It is mine.", "answers": ["whose", "Whose"],
+     "explain": "Para perguntar de quem é algo, usamos Whose + substantivo: Whose laptop is this?"},
+    {"id": "a2-12-p8", "type": "translate", "prompt": "Eu os vi na reunião.", "answers": ["I saw them in the meeting.", "I saw them at the meeting."],
+     "explain": "O pronome os, para pessoas no plural, é them, e vem depois do verbo: saw them."},
+    {"id": "a2-12-p9", "type": "order", "words": ["Whose", "laptop", "is", "on", "the", "desk"], "prompt": "De quem é o laptop sobre a mesa?",
+     "explain": "A pergunta começa com Whose + substantivo, seguido de is e do complemento de lugar."},
+    {"id": "a2-12-p10", "type": "fix", "prompt": "Please send the file to I.", "answers": ["Please send the file to me.", "Please send me the file."],
+     "explain": "Depois de uma preposição usamos o pronome objeto. Em vez de I, o certo é me."},
+    {"id": "a2-12-p11", "type": "fix", "prompt": "Tom and Ana are teaching theirselves Git.", "answers": ["Tom and Ana are teaching themselves Git."],
+     "explain": "A forma correta do reflexivo de they é themselves. Theirselves não existe em inglês padrão."},
+    {"id": "a2-12-p12", "type": "listen", "en": "I fixed the bug myself, but Tom reviewed it.",
+     "explain": "Myself dá ênfase: fui eu que corrigi, sem ajuda. Ouça também o pronome it no final, que se refere ao bug."}
+  ],
+  "quiz": [
+    {"id": "a2-12-q1", "type": "choice", "prompt": "Sara and I work together. The manager talks to ___ every day.", "options": ["we", "us", "our"], "answer": 1,
+     "explain": "Depois da preposição to usamos o pronome objeto. Sara and I vira us.",
+     "why_not": {"0": "We é pronome sujeito.", "2": "Our é possessivo e pediria um substantivo depois."}},
+    {"id": "a2-12-q2", "type": "fill", "prompt": "This is not my phone. It is Ben's phone, so it is ___.", "answers": ["his"],
+     "explain": "Para substituir Ben's phone, usamos o pronome de posse de he: his."},
+    {"id": "a2-12-q3", "type": "translate", "prompt": "Você pode me ajudar?", "answers": ["Can you help me?", "Could you help me?"],
+     "explain": "O objeto me vem depois do verbo help. Can you e could you são usados em pedidos."},
+    {"id": "a2-12-q4", "type": "order", "words": ["They", "built", "the", "tool", "by", "themselves"], "prompt": "Eles construíram a ferramenta sozinhos.",
+     "explain": "By + reflexivo significa sozinho. O reflexivo de they é themselves.",
+     "answers": ["They built the tool themselves."]},
+    {"id": "a2-12-q5", "type": "fix", "prompt": "Who's laptop is this?", "answers": ["Whose laptop is this?"],
+     "explain": "Para perguntar de quem é algo, usamos whose. Who's é a contração de who is e não indica posse."},
+    {"id": "a2-12-q6", "type": "choice", "prompt": "Qual frase significa que ela enviou o lembrete para ela mesma?", "options": ["She sent her a reminder.", "She sent herself a reminder.", "She sent hers a reminder."], "answer": 1,
+     "explain": "Quando quem envia e quem recebe é a mesma pessoa, usamos o reflexivo: herself.",
+     "why_not": {"0": "Normalmente, her indica outra pessoa, e não a própria Sara.", "2": "Hers é um pronome de posse e não funciona como objeto aqui."}},
+    {"id": "a2-12-q7", "type": "listen", "en": "We introduced ourselves to the new team.",
+     "explain": "Ourselves é o reflexivo de we. Ouça o final -selves, que é plural."}
+  ],
+  "words": [
+    {"word": "whose", "pt": "de quem"},
+    {"word": "mine", "pt": "meu; minha (pronome de posse)"},
+    {"word": "myself", "pt": "eu mesmo; me"},
+    {"word": "yourself", "pt": "você mesmo; se"},
+    {"word": "himself", "pt": "ele mesmo; se"},
+    {"word": "herself", "pt": "ela mesma; se"},
+    {"word": "themselves", "pt": "eles mesmos; se"},
+    {"word": "ourselves", "pt": "nós mesmos; nos"},
+    {"word": "by myself", "pt": "sozinho; sem ajuda"},
+    {"word": "introduce", "pt": "apresentar; introduzir"}
+  ]
+}

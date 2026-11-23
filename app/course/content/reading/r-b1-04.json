@@ -1,0 +1,28 @@
+{
+  "id": "r-b1-04",
+  "level": "B1",
+  "title": "Retrospective meeting notes",
+  "topic": "Ata de reunião",
+  "text": "Team retrospective - Notes\nDate: Friday, 14 March\nPresent: Lucas, Ana, Pedro, Marta, Julia\n\nWhat went well: The team delivered the payment feature one day early. Everyone agreed that the new code review process helped us find bugs sooner. Julia said that the daily meetings were short and useful.\n\nWhat didn't go well: Two tasks were blocked for three days because we were waiting for an answer from the design team. Pedro also mentioned that the test environment was often slow, and this made his work harder.\n\nDecisions: Marta will ask the design team for a weekly meeting, so questions get answers faster. Ana will look at the test environment and tell us what is wrong.\n\nIdeas for next sprint: Lucas suggested that we should choose one \"support person\" each week to answer questions from other teams. The others liked the idea, and we will try it for one month.\n\nNext retrospective: Friday, 28 March, at 15:00.",
+  "pt": "Retrospectiva da equipe - Anotações\nData: sexta-feira, 14 de março\nPresentes: Lucas, Ana, Pedro, Marta, Julia\n\nO que foi bem: A equipe entregou a funcionalidade de pagamento um dia antes do prazo. Todos concordaram que o novo processo de code review nos ajudou a encontrar bugs mais cedo. Julia disse que as reuniões diárias foram curtas e úteis.\n\nO que não foi bem: Duas tarefas ficaram bloqueadas por três dias porque estávamos esperando uma resposta do time de design. Pedro também mencionou que o ambiente de testes ficava lento com frequência, e isso dificultava o trabalho dele.\n\nDecisões: A Marta vai pedir ao time de design uma reunião semanal, para que as perguntas sejam respondidas mais rápido. A Ana vai investigar o ambiente de testes e nos dizer o que está errado.\n\nIdeias para a próxima sprint: O Lucas sugeriu que escolhamos uma \"pessoa de suporte\" a cada semana para responder às perguntas de outras equipes. Os outros gostaram da ideia, e vamos testá-la por um mês.\n\nPróxima retrospectiva: sexta-feira, 28 de março, às 15h.",
+  "vocab": [
+    {"word": "retrospective", "pt": "retrospectiva"},
+    {"word": "delivered", "pt": "entregou"},
+    {"word": "feature", "pt": "funcionalidade"},
+    {"word": "blocked", "pt": "bloqueadas"},
+    {"word": "environment", "pt": "ambiente"},
+    {"word": "decisions", "pt": "decisões"},
+    {"word": "suggested", "pt": "sugeriu"},
+    {"word": "weekly", "pt": "semanal"}
+  ],
+  "questions": [
+    {"id": "r-b1-04-q1", "type": "choice", "prompt": "What went well in the sprint?", "options": ["The design team answered quickly", "The payment feature was delivered early", "The test environment was fast"], "answer": 1,
+     "explain": "O texto diz “delivered the payment feature one day early”."},
+    {"id": "r-b1-04-q2", "type": "choice", "prompt": "Why were two tasks blocked?", "options": ["They were waiting for the design team", "Nobody knew how to do them", "Pedro was on holiday"], "answer": 0,
+     "explain": "As tarefas ficaram bloqueadas “because we were waiting for an answer from the design team”."},
+    {"id": "r-b1-04-q3", "type": "choice", "prompt": "Who will check the test environment?", "options": ["Marta", "Ana", "Julia"], "answer": 1,
+     "explain": "“Ana will look at the test environment”."},
+    {"id": "r-b1-04-q4", "type": "choice", "prompt": "What is Lucas's idea?", "options": ["A weekly support person for other teams", "A longer daily meeting", "A new design team"], "answer": 0,
+     "explain": "Lucas sugeriu escolher “one support person each week to answer questions from other teams”."}
+  ]
+}

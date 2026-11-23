@@ -1,0 +1,182 @@
+{
+  "id": "b2-06",
+  "level": "B2",
+  "unit": "Passiva e discurso indireto",
+  "title": "Reporting verbs e seus padrões",
+  "goal": "Relatar o que alguém admitiu, negou, prometeu, sugeriu ou avisou, usando o padrão gramatical certo para cada verbo.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "Por que usar reporting verbs",
+      "text": "Em vez de repetir *said*, o inglês tem verbos que contam **o que a pessoa fez ao falar**: admitir, negar, prometer, avisar, sugerir. Eles são os **reporting verbs** (verbos de relato) e deixam o texto mais preciso e profissional, principalmente em atas, e-mails e relatórios.\n\nCada verbo exige um **padrão** diferente depois dele: **-ing**, **to + verbo**, **objeto + to + verbo** ou **that + oração**. O trabalho desta lição é aprender qual padrão vai com qual verbo.",
+      "examples": [
+        {"en": "Leo admitted breaking the build.", "pt": "Leo admitiu ter quebrado o build."},
+        {"en": "The vendor promised to deliver on Monday.", "pt": "O fornecedor prometeu entregar na segunda."},
+        {"en": "The lead warned us not to deploy on Friday.", "pt": "O líder nos avisou para não fazer deploy na sexta."}
+      ],
+      "tip": "Ao aprender um verbo de relato novo, aprenda junto o padrão que vem depois dele, como se fosse parte da palavra."
+    },
+    {
+      "title": "Verbo + -ing: admit, deny, suggest, recommend",
+      "text": "Alguns verbos de relato vêm seguidos de **-ing**: **admit** (admitir), **deny** (negar), **suggest** (sugerir), **recommend** (recomendar) e **mention** (mencionar). Quando o sujeito é o mesmo, a ação do -ing é dele: *He denied deleting the file* quer dizer que ele negou ter apagado.\n\nNa negativa, ponha **not** antes do -ing: *She admitted not testing it*. Para uma ação anterior, pode-se usar **having + particípio**: *He denied having seen the alert*.",
+      "examples": [
+        {"en": "He admitted breaking the build.", "pt": "Ele admitiu ter quebrado o build."},
+        {"en": "She denied having seen the alert.", "pt": "Ela negou ter visto o alerta."},
+        {"en": "The architect suggested using a queue.", "pt": "O arquiteto sugeriu usar uma fila."},
+        {"en": "I recommend waiting until Monday.", "pt": "Eu recomendo esperar até segunda."}
+      ],
+      "tip": "Depois de **suggest** e **recommend** com -ing, não se diz quem fará a ação. Para dizer quem, use **that** (etapa 5)."
+    },
+    {
+      "title": "Verbo + to + verbo: promise, offer, refuse, agree",
+      "text": "Outro grupo usa **to + verbo base**: **promise** (prometer), **offer** (oferecer-se), **refuse** (recusar-se), **agree** (concordar) e **threaten** (ameaçar). O sujeito do relato é também quem faz a ação: *She promised to call* quer dizer que ela mesma ligaria.\n\nPara a negativa, use **not to**: *He promised not to repeat the mistake*.",
+      "examples": [
+        {"en": "The vendor promised to deliver on Monday.", "pt": "O fornecedor prometeu entregar na segunda."},
+        {"en": "Ana offered to review my code.", "pt": "Ana se ofereceu para revisar meu código."},
+        {"en": "The client refused to sign the contract.", "pt": "O cliente se recusou a assinar o contrato."},
+        {"en": "We agreed to meet at nine.", "pt": "Concordamos em nos encontrar às nove."}
+      ],
+      "trap": "Em português dizemos “ele recusou assinar”, sem preposição, ou “ele prometeu entregar”. Em inglês o padrão é **to + verbo**, e o -ing está errado: *He refused signing* não existe; diga *He refused to sign*."
+    },
+    {
+      "title": "Verbo + objeto + to + verbo: advise, warn, remind, tell",
+      "text": "Quando alguém **recebe** o conselho, o aviso, a ordem ou o lembrete, o padrão é **verbo + objeto + to + verbo base**: **advise** (aconselhar), **warn** (avisar), **remind** (lembrar), **tell** (mandar, dizer a alguém para) e **encourage** (incentivar). O objeto (him, us, the team) é **obrigatório**.\n\nA negativa vai depois do objeto: **not to**. *She warned us not to touch the production database*.",
+      "examples": [
+        {"en": "The lead warned us not to touch the production database.", "pt": "O líder nos avisou para não mexer no banco de produção."},
+        {"en": "My manager reminded me to send the report.", "pt": "Meu gerente me lembrou de enviar o relatório."},
+        {"en": "They advised the client to update the software.", "pt": "Eles aconselharam o cliente a atualizar o software."},
+        {"en": "She encouraged us to ask questions.", "pt": "Ela nos incentivou a fazer perguntas."}
+      ],
+      "trap": "Não esqueça o objeto: *She reminded to send the report* está errado. Diga *She reminded me to send the report*. Em português o objeto também existe (“me lembrou”), mas em inglês ele não pode faltar."
+    },
+    {
+      "title": "Verbo + that + oração",
+      "text": "Muitos verbos aceitam **that + oração completa** (com sujeito e verbo): **admit**, **deny**, **explain**, **claim**, **mention**, **promise**, **warn**, **suggest** e **recommend**. O **that** pode ser omitido na fala. Esse padrão permite que **os sujeitos sejam diferentes**.\n\nComo no discurso indireto, o verbo costuma **recuar** no tempo: *She admitted that she had made a mistake*. Com **suggest** e **recommend**, é comum usar **should**: *He suggested that we should test it again*.",
+      "examples": [
+        {"en": "She admitted that she had made a mistake.", "pt": "Ela admitiu que tinha cometido um erro."},
+        {"en": "The vendor claimed that the service was stable.", "pt": "O fornecedor afirmou que o serviço estava estável."},
+        {"en": "He explained that the server had crashed.", "pt": "Ele explicou que o servidor tinha caído."},
+        {"en": "She suggested that we should test it again.", "pt": "Ela sugeriu que testássemos de novo."}
+      ],
+      "trap": "O verbo **explain** não aceita a pessoa logo depois dele: *He explained me the problem* está errado. Diga *He explained the problem to me* ou *He explained to me that…*."
+    },
+    {
+      "title": "Verbo + preposição + -ing: accuse, blame, apologize, insist",
+      "text": "Alguns verbos de relato pedem uma **preposição** fixa antes do **-ing**. Depois de preposição, o verbo sempre vai ao **-ing**. Quando há pessoa, ela vem entre o verbo e a preposição: **accuse someone of**, **blame someone for**, **congratulate someone on**.\n\nSem pessoa: **apologize for** e **insist on**. Cada verbo tem sua preposição, então ela precisa ser decorada junto com o verbo.",
+      "table": {
+        "headers": ["Verbo", "Preposição", "Exemplo"],
+        "rows": [
+          ["accuse someone", "of", "They accused him of leaking the data."],
+          ["blame someone", "for", "She blamed the intern for the outage."],
+          ["apologize", "for", "Tom apologized for being late."],
+          ["insist", "on", "The client insisted on speaking to the director."]
+        ]
+      },
+      "examples": [
+        {"en": "They accused him of leaking the data.", "pt": "Eles o acusaram de vazar os dados."},
+        {"en": "Tom apologized for being late.", "pt": "Tom pediu desculpas por se atrasar."},
+        {"en": "The client insisted on speaking to the director.", "pt": "O cliente insistiu em falar com o diretor."}
+      ],
+      "trap": "Depois da preposição o verbo vai ao -ing: *apologized for be late* e *apologized for to be late* estão errados. Diga *apologized for being late*."
+    },
+    {
+      "title": "Comparando os padrões",
+      "text": "Alguns verbos aparecem em mais de um padrão: **admit**, **deny**, **suggest**, **recommend**, **promise** e **warn**. Compare *He promised to call* e *He promised that he would call*. O padrão com **that** é mais flexível, pois permite sujeitos diferentes.\n\nLembre também a diferença entre **say** e **tell**: **tell** leva a pessoa logo depois (*told me*), e **say** não (*said to me*).",
+      "table": {
+        "headers": ["Padrão", "Verbos", "Exemplo"],
+        "rows": [
+          ["verbo + -ing", "admit, deny, suggest, recommend", "She suggested waiting."],
+          ["verbo + to + verbo", "promise, offer, refuse, agree", "He refused to wait."],
+          ["verbo + objeto + to + verbo", "advise, warn, remind, tell", "He told us to wait."],
+          ["verbo + that + oração", "admit, explain, claim, promise, warn", "He explained that it would take an hour."]
+        ]
+      },
+      "examples": [
+        {"en": "He promised to call.", "pt": "Ele prometeu ligar."},
+        {"en": "He promised that he would call.", "pt": "Ele prometeu que ligaria."},
+        {"en": "She told me that the release was ready.", "pt": "Ela me disse que a release estava pronta."}
+      ],
+      "trap": "**Suggest** não aceita *to + verbo* nem pessoa direta: *She suggested me to wait* está errado. Diga *She suggested waiting* ou *She suggested that I wait*."
+    },
+    {
+      "title": "Em contexto: relatório de incidente",
+      "text": "Em um **post-mortem** (relatório sobre o que deu errado em um incidente), os verbos de relato registram com precisão quem disse o quê. Usar o verbo certo ajuda a manter um tom neutro e profissional.\n\nExemplo: *The developer admitted not running the tests. The manager warned the team to freeze deployments. The vendor promised that a patch would be ready by Tuesday.* Cada verbo aponta um padrão: -ing, objeto + to + verbo e that + oração.",
+      "examples": [
+        {"en": "The developer admitted not running the tests.", "pt": "O desenvolvedor admitiu não ter rodado os testes."},
+        {"en": "The manager warned the team to freeze deployments.", "pt": "O gerente avisou a equipe para congelar os deploys."},
+        {"en": "The vendor promised that a patch would be ready by Tuesday.", "pt": "O fornecedor prometeu que um patch estaria pronto até terça."}
+      ]
+    }
+  ],
+  "summary": [
+    "Verbos de relato mostram o que a pessoa fez ao falar; cada um exige um padrão próprio depois dele.",
+    "Admit, deny, suggest e recommend aceitam -ing: He denied deleting the file.",
+    "Promise, offer, refuse e agree usam to + verbo: She refused to sign. A negativa é not to.",
+    "Advise, warn, remind e tell pedem objeto + to + verbo: She reminded me to send it. O objeto é obrigatório.",
+    "Muitos verbos aceitam that + oração, com recuo de tempo: She admitted that she had made a mistake.",
+    "Accuse of, blame for, apologize for e insist on pedem preposição + -ing; suggest e explain não aceitam pessoa direta."
+  ],
+  "practice": [
+    {"id": "b2-06-p1", "type": "choice", "prompt": "He admitted ___ the wrong command.", "options": ["to run", "running", "run"], "answer": 1,
+     "explain": "Depois de admit, o padrão é -ing: admitted running. Quando o sujeito é o mesmo, ele admite a própria ação.",
+     "why_not": {"0": "Admit não é seguido de to + verbo nesse sentido.", "2": "O verbo base não é usado depois de admit."}},
+    {"id": "b2-06-p2", "type": "choice", "prompt": "The vendor promised ___ the bug by Friday.", "options": ["fixing", "to fix", "fix"], "answer": 1,
+     "explain": "Promise é seguido de to + verbo base: promised to fix.",
+     "why_not": {"0": "Promise não aceita -ing depois dele.", "2": "Falta o to depois de promise."}},
+    {"id": "b2-06-p3", "type": "choice", "prompt": "The lead warned us ___ the production database.", "options": ["not to touch", "not touching", "that not touch"], "answer": 0,
+     "explain": "Warn + objeto + not to + verbo base: warned us not to touch.",
+     "why_not": {"1": "Depois de warn + objeto usamos to + verbo, e não -ing.", "2": "Warn that exige uma oração completa, com sujeito e verbo conjugado."}},
+    {"id": "b2-06-p4", "type": "fill", "prompt": "She denied ___ the file (delete).", "answers": ["deleting", "having deleted"],
+     "explain": "Deny é seguido de -ing: denied deleting. Para uma ação anterior também é possível having deleted."},
+    {"id": "b2-06-p5", "type": "fill", "prompt": "My manager refused ___ the budget (increase).", "answers": ["to increase"],
+     "explain": "Refuse é seguido de to + verbo base: refused to increase."},
+    {"id": "b2-06-p6", "type": "fill", "prompt": "They accused him ___ leaking the data.", "answers": ["of"],
+     "explain": "A preposição fixa é accuse someone of + -ing."},
+    {"id": "b2-06-p7", "type": "translate", "prompt": "Ela sugeriu testar o código de novo.", "answers": ["She suggested testing the code again.", "She suggested testing the code once more.", "She suggested that we test the code again.", "She suggested that we should test the code again."],
+     "explain": "Suggest aceita -ing (suggested testing) ou that + oração (suggested that we should test). Não aceita to + verbo."},
+    {"id": "b2-06-p8", "type": "order", "words": ["He", "reminded", "us", "to", "back", "up", "the", "files"], "prompt": "Ele nos lembrou de fazer backup dos arquivos.",
+     "answers": ["He reminded us to back the files up."],
+     "explain": "Remind + objeto + to + verbo base: reminded us to back up. O objeto (us) é obrigatório."},
+    {"id": "b2-06-p9", "type": "fix", "prompt": "She suggested me to restart the server.", "answers": ["She suggested that I restart the server.", "She suggested that I should restart the server.", "She suggested I restart the server.", "She suggested restarting the server."],
+     "explain": "Suggest não aceita objeto direto nem to + verbo. Use that + oração (suggested that I restart) ou -ing (suggested restarting)."},
+    {"id": "b2-06-p10", "type": "fix", "prompt": "He explained me the problem.", "answers": ["He explained the problem to me."],
+     "explain": "Explain não aceita a pessoa diretamente depois dele. A pessoa vem com to, depois do assunto: explained the problem to me."},
+    {"id": "b2-06-p11", "type": "choice", "prompt": "Qual frase está correta?", "options": ["The client insisted on seeing a demo.", "The client insisted to see a demo.", "The client insisted seeing a demo."], "answer": 0,
+     "explain": "Insist pede a preposição on e o verbo no -ing: insisted on seeing.",
+     "why_not": {"1": "Insist não é seguido de to + verbo nesse sentido.", "2": "Falta a preposição on antes do -ing."}},
+    {"id": "b2-06-p12", "type": "listen", "en": "The manager warned the team not to deploy on Friday.",
+     "explain": "Warn + objeto + not to + verbo base: warned the team not to deploy."}
+  ],
+  "quiz": [
+    {"id": "b2-06-q1", "type": "choice", "prompt": "Maria offered ___ me with the migration.", "options": ["helping", "to help", "help"], "answer": 1,
+     "explain": "Offer é seguido de to + verbo base: offered to help.",
+     "why_not": {"0": "Offer não aceita -ing depois dele.", "2": "Falta o to antes do verbo."}},
+    {"id": "b2-06-q2", "type": "fill", "prompt": "He admitted that he ___ forgotten to run the tests.", "answers": ["had"],
+     "explain": "Em um relato no passado, o fato anterior recua para o past perfect: he had forgotten."},
+    {"id": "b2-06-q3", "type": "translate", "prompt": "Ele negou ter apagado o arquivo.", "answers": ["He denied deleting the file.", "He denied having deleted the file.", "He denied that he deleted the file.", "He denied that he had deleted the file."],
+     "explain": "Deny aceita -ing (denied deleting), having + particípio ou that + oração."},
+    {"id": "b2-06-q4", "type": "order", "words": ["She", "advised", "him", "to", "change", "his", "password"], "prompt": "Ela o aconselhou a trocar a senha.",
+     "explain": "Advise + objeto + to + verbo base: advised him to change."},
+    {"id": "b2-06-q5", "type": "fix", "prompt": "He promised fixing the bug today.", "answers": ["He promised to fix the bug today."],
+     "explain": "Promise é seguido de to + verbo base, e não de -ing."},
+    {"id": "b2-06-q6", "type": "choice", "prompt": "Ele me aconselhou a não instalar o programa. Qual frase está correta?", "options": ["He advised me not to install the program.", "He advised me to not installing the program.", "He advised that I not to install the program."], "answer": 0,
+     "explain": "Advise + objeto + not to + verbo base: advised me not to install.",
+     "why_not": {"1": "Depois de to vem o verbo base, e não o -ing.", "2": "Misturar that com not to não forma uma estrutura correta."}},
+    {"id": "b2-06-q7", "type": "listen", "en": "She apologized for missing the deadline.",
+     "explain": "Apologize for + -ing: apologized for missing."},
+    {"id": "b2-06-q8", "type": "fill", "prompt": "They blamed the intern ___ the outage.", "answers": ["for"],
+     "explain": "A preposição fixa é blame someone for."}
+  ],
+  "words": [
+    {"word": "admit", "pt": "admitir; confessar"},
+    {"word": "deny", "pt": "negar"},
+    {"word": "suggest", "pt": "sugerir"},
+    {"word": "promise", "pt": "prometer; promessa"},
+    {"word": "refuse", "pt": "recusar-se; recusar"},
+    {"word": "warn", "pt": "avisar; alertar"},
+    {"word": "remind", "pt": "lembrar alguém de"},
+    {"word": "accuse", "pt": "acusar"},
+    {"word": "blame", "pt": "culpar; culpa"},
+    {"word": "apologize", "pt": "pedir desculpas"}
+  ]
+}

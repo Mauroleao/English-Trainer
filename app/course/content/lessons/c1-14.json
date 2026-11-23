@@ -1,0 +1,240 @@
+{
+  "id": "c1-14",
+  "level": "C1",
+  "unit": "Precisão e padrões",
+  "title": "Determinantes sutis e clínica de erros do C1",
+  "goal": "Escolher com precisão entre each, every, either, neither, both, all e half, usar o artigo genérico ou zero e eliminar os erros mais típicos de falantes de português.",
+  "minutes": 30,
+  "steps": [
+    {
+      "title": "Each e every",
+      "text": "**Each** e **every** vão com substantivo **singular** e verbo **singular**, mas olham para o grupo de modos diferentes. **Each** trata os membros **um a um**, como indivíduos. **Every** trata o grupo como um todo, com a ideia de “todos, sem exceção”, e é a escolha para frequência (*every two weeks*).\n\nSó **each** pode ser seguido de **of** + plural: *each of the servers*. Com *every*, use **every one of**.",
+      "table": {
+        "headers": ["Palavra", "Foco", "Exemplo"],
+        "rows": [
+          ["each", "cada um, individualmente", "Each developer has a different task."],
+          ["every", "todos, sem exceção; frequência", "Every developer must sign the policy."],
+          ["each of + plural", "cada um dentre os...", "Each of the three servers has its own backup."],
+          ["every + período", "frequência", "We deploy every two weeks."]
+        ]
+      },
+      "examples": [
+        {"en": "I reviewed each pull request carefully.", "pt": "Revisei cada pull request com cuidado."},
+        {"en": "Every employee must complete the training.", "pt": "Todo funcionário deve concluir o treinamento."},
+        {"en": "We meet every three weeks.", "pt": "Nos reunimos a cada três semanas."}
+      ],
+      "trap": "Não use *every of* nem substantivo no plural depois de *each/every*. *Every of the engineers* e *each engineers* estão errados: diga *each of the engineers* (ou *every one of the engineers*) e *each engineer*."
+    },
+    {
+      "title": "Both, either, neither × all, any, none",
+      "text": "Quando falamos de **dois** itens, usamos **both** (os dois), **either** (um ou outro, qualquer um dos dois) e **neither** (nenhum dos dois). Para **três ou mais**, usamos **all**, **any** e **none**.\n\nCom substantivo singular, *either* e *neither* levam verbo singular: *Either option works*, *Neither option works*. **Neither** já é negativo, então não deve aparecer com outra negação.",
+      "table": {
+        "headers": ["Dois itens", "Três ou mais"],
+        "rows": [
+          ["both (os dois)", "all (todos)"],
+          ["either (um ou outro)", "any (qualquer um)"],
+          ["neither (nenhum dos dois)", "none / no (nenhum)"]
+        ]
+      },
+      "examples": [
+        {"en": "Either approach works for me.", "pt": "Qualquer uma das duas abordagens serve para mim."},
+        {"en": "Neither approach solves the problem.", "pt": "Nenhuma das duas abordagens resolve o problema."},
+        {"en": "Any of the three options is fine.", "pt": "Qualquer uma das três opções serve."},
+        {"en": "None of the tests failed.", "pt": "Nenhum dos testes falhou."}
+      ],
+      "trap": "Em português, aceitamos a dupla negação: “Não vi nenhum dos dois”. Em inglês, *I didn't see neither of them* está errado. Diga *I saw neither of them* ou *I did not see either of them*."
+    },
+    {
+      "title": "All, half e both: posição e concordância",
+      "text": "**All** e **both** podem vir antes de **the/my/these** + substantivo (*all the logs*, *both the servers*) e também com **of** + pronome (*all of us*, *both of them*). Na frase, eles aparecem **antes do verbo principal** e depois do verbo be: *We both agree*, *They all left*, *They are both ready*.\n\n**Half** é usado em *half of the code*, *half the code*, *half an hour*. Depois de *half of*, o verbo concorda com o **substantivo**: *Half of the code is new*, *half of the tests are failing*.",
+      "examples": [
+        {"en": "All the logs are stored in the cloud.", "pt": "Todos os logs ficam armazenados na nuvem."},
+        {"en": "We both agree that the plan is risky.", "pt": "Nós dois concordamos que o plano é arriscado."},
+        {"en": "Half of the code is new.", "pt": "Metade do código é nova."},
+        {"en": "All of us received the update.", "pt": "Todos nós recebemos a atualização."}
+      ],
+      "trap": "*All day* é “o dia todo”; *every day* é “todo dia”. Se você disser *We worked every day*, quer dizer que trabalhou todos os dias. E “todo mundo” é *everybody* ou *everyone*, não *all the world*."
+    },
+    {
+      "title": "Artigo genérico e artigo zero",
+      "text": "Para falar de algo **em geral**, o inglês usa o **plural ou o incontável sem artigo**: *Developers need coffee*, *Feedback helps teams improve*. O português costuma usar o artigo (“os desenvolvedores”, “o feedback”), e daí vem o erro de acrescentar *the* em inglês.\n\nUsamos **the** quando falamos de algo **específico**, já conhecido ou identificável: *The feedback from the client was positive*. Muitas expressões fixas também ficam sem artigo: *at work*, *at home*, *by e-mail*, *by car*.",
+      "table": {
+        "headers": ["Ideia", "Estrutura", "Exemplo"],
+        "rows": [
+          ["generalização (plural)", "sem artigo", "Bugs are inevitable."],
+          ["generalização (incontável)", "sem artigo", "Feedback helps teams improve."],
+          ["algo específico", "the", "The feedback from the client was positive."],
+          ["expressões fixas", "sem artigo", "I work at home and reply by e-mail."]
+        ]
+      },
+      "examples": [
+        {"en": "Security matters for every company.", "pt": "A segurança importa para toda empresa."},
+        {"en": "Python is a popular language.", "pt": "Python é uma linguagem popular."},
+        {"en": "The Python script failed last night.", "pt": "O script em Python falhou ontem à noite."}
+      ],
+      "trap": "Não traduza o artigo do português. *The life is short* e *The Python is popular* estão errados no sentido geral; diga *Life is short* e *Python is popular*. O mesmo vale para *I go to the work by the bus*: o correto é *I go to work by bus*."
+    },
+    {
+      "title": "Falsos cognatos que enganam: actually, pretend, eventually",
+      "text": "Alguns falsos cognatos aparecem até em falantes avançados. **Actually** parece “atualmente”, mas significa “na verdade, de fato”; “atualmente” é **currently**. **Pretend** parece “pretender”, mas significa **fingir**; “pretender” é *intend to* ou *plan to*. **Eventually** parece “eventualmente”, mas significa **finalmente, no fim**; “eventualmente” (de vez em quando) é *occasionally*.\n\nNo trabalho, o erro com *actually* é comum em e-mails: quem escreve *Actually I work in Lisbon* quer dizer “atualmente”, mas o leitor entende “na verdade eu trabalho em Lisboa”, como se corrigisse algo.",
+      "table": {
+        "headers": ["Palavra", "Parece", "Significa"],
+        "rows": [
+          ["actually", "atualmente", "na verdade, de fato"],
+          ["currently", "—", "atualmente, no momento"],
+          ["pretend", "pretender", "fingir"],
+          ["eventually", "eventualmente", "finalmente, no fim"],
+          ["occasionally", "—", "de vez em quando, eventualmente"]
+        ]
+      },
+      "examples": [
+        {"en": "Actually, I don't like long meetings.", "pt": "Na verdade, não gosto de reuniões longas."},
+        {"en": "Currently, I work with Java.", "pt": "Atualmente, trabalho com Java."},
+        {"en": "He pretended not to see the error.", "pt": "Ele fingiu não ver o erro."},
+        {"en": "Eventually, we fixed the bug.", "pt": "No fim, corrigimos o bug."}
+      ],
+      "tip": "Para o português “pretendo viajar”, diga I intend to travel ou I plan to travel; I pretend to travel significa “finjo que viajo”."
+    },
+    {
+      "title": "Mais falsos cognatos: assist, attend, push, pull",
+      "text": "**Assist** parece “assistir”, mas significa **ajudar**. “Assistir” um filme é *watch*; “assistir” a uma reunião ou palestra é **attend**. **Attend** também não é “atender”: “atender o telefone” é *answer the phone*, e “atender um cliente” é *serve* ou *help a customer*.\n\n**Push** parece “puxar”, mas significa **empurrar**; “puxar” é **pull**. Nas portas, *push* e *pull* aparecem escritos, e a confusão é comum. Outro par: **realize** é “perceber, dar-se conta”, e não “realizar” (que é *carry out* ou *achieve*).",
+      "table": {
+        "headers": ["Palavra", "Parece", "Significa"],
+        "rows": [
+          ["assist", "assistir", "ajudar"],
+          ["attend", "atender", "comparecer a; assistir a (reunião, aula)"],
+          ["push", "puxar", "empurrar"],
+          ["pull", "—", "puxar"],
+          ["realize", "realizar", "perceber, dar-se conta"],
+          ["parents", "parentes", "pais (parentes = relatives)"]
+        ]
+      },
+      "examples": [
+        {"en": "She assisted the new employees on their first day.", "pt": "Ela ajudou os novos funcionários no primeiro dia."},
+        {"en": "I attended a webinar about cloud security.", "pt": "Assisti a um webinar sobre segurança na nuvem."},
+        {"en": "Push the door to open it.", "pt": "Empurre a porta para abri-la."},
+        {"en": "I realized that the file was missing.", "pt": "Percebi que o arquivo estava faltando."}
+      ],
+      "trap": "Não diga *I assisted a movie*. Diga *I watched a movie*. E “atender o telefone” é *answer the phone*, e não *attend the phone*."
+    },
+    {
+      "title": "Preposições que enganam",
+      "text": "Muitas preposições em inglês **não** correspondem às do português. O jeito mais seguro é decorar cada verbo, adjetivo ou substantivo **com a sua preposição**, como um bloco. Alguns verbos **não** usam preposição, ao contrário do português (*discuss the plan*, *enter the room*), e outros pedem uma preposição diferente (*explain the error to me*).\n\nA tabela reúne os erros mais comuns de brasileiros. Repare em *arrive*: usamos **at** para um lugar específico (*arrive at the office*) e **in** para cidade ou país (*arrive in Lisbon*).",
+      "table": {
+        "headers": ["Erro comum", "Forma correta"],
+        "rows": [
+          ["depend of", "depend on"],
+          ["interested on", "interested in"],
+          ["good in (math)", "good at (math)"],
+          ["married with", "married to"],
+          ["arrive to the office", "arrive at the office"],
+          ["discuss about the plan", "discuss the plan"],
+          ["explain me the error", "explain the error to me"],
+          ["responsible of", "responsible for"]
+        ]
+      },
+      "examples": [
+        {"en": "It depends on the budget.", "pt": "Depende do orçamento."},
+        {"en": "I am interested in this role.", "pt": "Tenho interesse neste cargo."},
+        {"en": "We arrived at the office at nine.", "pt": "Chegamos ao escritório às nove."},
+        {"en": "They discussed the new design.", "pt": "Eles discutiram o novo design."}
+      ],
+      "trap": "Dizer *We discussed about the plan* e *She explained me the error* soa natural para quem pensa em português, mas está errado. O correto é *discussed the plan* e *explained the error to me*."
+    },
+    {
+      "title": "Clínica de erros: um checklist de revisão",
+      "text": "Antes de enviar um texto importante, releia procurando **um tipo de erro por vez**. Assim você enxerga os padrões que o seu cérebro, acostumado ao português, deixa passar. Os erros abaixo são os mais frequentes em textos de brasileiros de nível avançado.\n\nCrie o hábito de pensar: este substantivo é contável? Este verbo precisa de objeto? Há *the* em uma generalização? A preposição é a certa?",
+      "table": {
+        "headers": ["Erro", "Correção"],
+        "rows": [
+          ["informations / advices", "information / advice (incontáveis)"],
+          ["people is", "people are"],
+          ["I am agree", "I agree"],
+          ["since two years", "for two years"],
+          ["make a question", "ask a question"],
+          ["open the light", "turn on the light"]
+        ]
+      },
+      "examples": [
+        {"en": "We need more information about the bug.", "pt": "Precisamos de mais informações sobre o bug."},
+        {"en": "The people in my team are very friendly.", "pt": "As pessoas da minha equipe são muito simpáticas."},
+        {"en": "I agree with your proposal.", "pt": "Concordo com a sua proposta."},
+        {"en": "She has worked here for two years.", "pt": "Ela trabalha aqui há dois anos."}
+      ],
+      "tip": "Faça uma lista pessoal dos seus cinco erros mais frequentes e releia-a antes de enviar qualquer e-mail importante."
+    }
+  ],
+  "summary": [
+    "Each olha para os membros um a um (each of + plural); every olha para o grupo todo e serve para frequência (every two weeks). Os dois levam singular.",
+    "Para dois itens: both, either, neither. Para três ou mais: all, any, none. Neither já é negativo: não repita a negação.",
+    "All day é o dia todo; every day é todo dia. Depois de half of, o verbo concorda com o substantivo.",
+    "Para generalizar, use plural ou incontável sem artigo (Developers need coffee); use the para algo específico.",
+    "Falsos cognatos: actually = na verdade, pretend = fingir, eventually = finalmente, assist = ajudar, attend = comparecer, push = empurrar.",
+    "Decore as preposições em bloco (depend on, interested in, good at, arrive at) e lembre que discuss e explain to não seguem o português."
+  ],
+  "practice": [
+    {"id": "c1-14-p1", "type": "choice", "prompt": "We review the code ___ three weeks.", "options": ["every", "each", "all"], "answer": 0,
+     "explain": "Para frequência com um período de tempo, usamos every: every three weeks, a cada três semanas.",
+     "why_not": {"1": "Each foca em cada item individual e não é usado para frequência de tempo.", "2": "All não forma expressões de frequência como esta."}},
+    {"id": "c1-14-p2", "type": "choice", "prompt": "We have two options. ___ of them is perfect, so we need a third.", "options": ["Either", "Neither", "Both"], "answer": 1,
+     "explain": "Neither significa nenhum dos dois, e combina com a ideia de que é preciso uma terceira opção.",
+     "why_not": {"0": "Either significa um ou outro, o que contradiz a necessidade de uma terceira opção.", "2": "Both pediria o verbo no plural (are), e a frase usa is."}},
+    {"id": "c1-14-p3", "type": "fill", "prompt": "Half ___ the bugs were fixed yesterday.", "answers": ["of"],
+     "explain": "A estrutura é half of + the + substantivo. O verbo concorda com bugs, por isso were."},
+    {"id": "c1-14-p4", "type": "order", "words": ["Half", "the", "team", "works", "from", "home"], "answers": ["Half of the team works from home."], "prompt": "Metade da equipe trabalha de casa.",
+     "explain": "Half the team e half of the team são possíveis. O verbo concorda com team, que é singular: works."},
+    {"id": "c1-14-p5", "type": "choice", "prompt": "In general, ___ are essential for a good code review.", "options": ["clear comments", "the clear comments", "a clear comments"], "answer": 0,
+     "explain": "Em uma generalização com plural, não usamos artigo: clear comments.",
+     "why_not": {"1": "The clear comments se refere a comentários específicos e já conhecidos.", "2": "A não combina com um substantivo no plural."}},
+    {"id": "c1-14-p6", "type": "fix", "prompt": "The Python is a popular language.", "answers": ["Python is a popular language."],
+     "explain": "Python é o nome de uma linguagem e, em sentido geral, não leva the. Em português dizemos “o Python”, e isso induz ao erro."},
+    {"id": "c1-14-p7", "type": "choice", "prompt": "Qual frase significa “Atualmente trabalho com Java”?", "options": ["Actually, I work with Java.", "Currently, I work with Java.", "Eventually, I work with Java."], "answer": 1,
+     "explain": "Currently significa atualmente, no momento. É o equivalente correto do português “atualmente”.",
+     "why_not": {"0": "Actually significa na verdade, e não atualmente.", "2": "Eventually significa finalmente, e não atualmente."}},
+    {"id": "c1-14-p8", "type": "fill", "prompt": "He ___ not to see the error. (fingir, no passado)", "answers": ["pretended"],
+     "explain": "Pretend significa fingir. O passado regular é pretended."},
+    {"id": "c1-14-p9", "type": "fix", "prompt": "Yesterday I assisted a webinar.", "answers": ["Yesterday I attended a webinar.", "Yesterday I watched a webinar."],
+     "explain": "Assist significa ajudar. Para assistir a um evento usamos attend (comparecer) ou watch (ver)."},
+    {"id": "c1-14-p10", "type": "choice", "prompt": "The sign on the door says ___. You need to move the door away from you.", "options": ["Push", "Pull"], "answer": 0,
+     "explain": "Push significa empurrar, ou seja, mover algo para longe de você.",
+     "why_not": {"1": "Pull significa puxar, mover algo na sua direção."}},
+    {"id": "c1-14-p11", "type": "fix", "prompt": "I am interested on this role.", "answers": ["I am interested in this role."],
+     "explain": "A preposição fixa de interested é in. Memorize-as em bloco: interested in, good at, depend on."},
+    {"id": "c1-14-p12", "type": "listen", "en": "Every member of the team has access to the repository.",
+     "explain": "Every + substantivo singular (member) leva verbo singular (has)."}
+  ],
+  "quiz": [
+    {"id": "c1-14-q1", "type": "choice", "prompt": "Qual frase está correta?", "options": ["Every of the engineers has a badge.", "Each of the engineers has a badge.", "Each engineers has a badge."], "answer": 1,
+     "explain": "Each of + plural + verbo singular é a estrutura correta: each of the engineers has.",
+     "why_not": {"0": "Every não é seguido de of + plural; seria every one of the engineers.", "2": "Each pede substantivo singular: each engineer."}},
+    {"id": "c1-14-q2", "type": "fill", "prompt": "The server was down ___ day yesterday, so nobody could work.", "answers": ["all"],
+     "explain": "All day significa o dia todo. Every day significaria todos os dias, o que não combina com yesterday."},
+    {"id": "c1-14-q3", "type": "translate", "prompt": "Na verdade, eu não gosto de reuniões longas.", "answers": ["Actually, I don't like long meetings.", "I actually don't like long meetings.", "In fact, I don't like long meetings.", "To be honest, I don't like long meetings."],
+     "explain": "Na verdade corresponde a actually (ou in fact). Lembre que actually não significa atualmente."},
+    {"id": "c1-14-q4", "type": "fix", "prompt": "We need more informations about the bug.", "answers": ["We need more information about the bug."],
+     "explain": "Information é incontável e não tem plural. Em português “informações” é plural, e isso causa o erro."},
+    {"id": "c1-14-q5", "type": "fix", "prompt": "The people in my team is very friendly.", "answers": ["The people in my team are very friendly."],
+     "explain": "People é plural em inglês e leva o verbo no plural: are."},
+    {"id": "c1-14-q6", "type": "choice", "prompt": "Qual frase generaliza corretamente?", "options": ["The security is important for every company.", "Security is important for every company.", "A security is important for every company."], "answer": 1,
+     "explain": "Em uma generalização com substantivo incontável, não usamos artigo: Security is important.",
+     "why_not": {"0": "The security se refere a uma segurança específica, e não ao conceito geral.", "2": "A não combina com um substantivo incontável."}},
+    {"id": "c1-14-q7", "type": "order", "words": ["They", "both", "passed", "the", "exam"], "prompt": "Os dois passaram na prova.", "answers": ["Both of them passed the exam."],
+     "explain": "Both vem antes do verbo principal quando se refere ao sujeito: they both passed."},
+    {"id": "c1-14-q8", "type": "listen", "en": "Both options work, but neither is perfect.",
+     "explain": "Both pede verbo no plural (work). Neither is perfect já é negativo e usa verbo singular."}
+  ],
+  "words": [
+    {"word": "each", "pt": "cada; cada um"},
+    {"word": "every", "pt": "todo; cada; todos"},
+    {"word": "either", "pt": "um ou outro; qualquer um dos dois"},
+    {"word": "neither", "pt": "nenhum dos dois; nem"},
+    {"word": "both", "pt": "ambos; os dois"},
+    {"word": "half", "pt": "metade"},
+    {"word": "actually", "pt": "na verdade; de fato"},
+    {"word": "currently", "pt": "atualmente; no momento"},
+    {"word": "pretend", "pt": "fingir"},
+    {"word": "eventually", "pt": "finalmente; no fim"},
+    {"word": "assist", "pt": "ajudar; auxiliar"},
+    {"word": "attend", "pt": "comparecer a; assistir a (reunião, aula)"}
+  ]
+}

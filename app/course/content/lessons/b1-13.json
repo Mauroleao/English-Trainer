@@ -1,0 +1,164 @@
+{
+  "id": "b1-13",
+  "level": "B1",
+  "unit": "Orações, modais e verbos",
+  "title": "Modais de dedução: must be, can't be, might be",
+  "goal": "Fazer deduções e palpites sobre o presente, mostrando o grau de certeza com must, can't, might, may e could.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "Deduzir: um palpite com base em pistas",
+      "text": "Muitas vezes você não sabe a resposta, mas tem **pistas** que permitem fazer um **palpite** (*guess*): “O servidor está lento… deve ser a rede”. Em inglês, esses palpites usam **verbos modais**, como **must**, **can't** e **might**, e mostram **o quanto você tem certeza**.\n\nNesta lição você aprende a deduzir coisas sobre o **presente**: o que **deve ser**, o que **não pode ser** e o que **talvez seja**. Em todos os casos, o modal é seguido do verbo na forma base: *must be*, *can't be*, *might be*.",
+      "examples": [
+        {"en": "She must be in a meeting.", "pt": "Ela deve estar em uma reunião."},
+        {"en": "That can't be right.", "pt": "Isso não pode estar certo."},
+        {"en": "It might be a network problem.", "pt": "Pode ser um problema de rede."}
+      ],
+      "tip": "Modal + verbo base, sem to e sem -s: *She must be*, e não *She musts be* ou *She must to be*."
+    },
+    {
+      "title": "A escala de certeza",
+      "text": "Pense em uma escala. Quando você tem **quase certeza de que é verdade**, use **must**. Quando acha que **é possível, mas não tem certeza**, use **might**, **may** ou **could**. Quando tem **quase certeza de que NÃO é verdade** (é impossível), use **can't**.\n\nPara dizer que talvez **não** seja verdade, use **might not** ou **may not**. Esses modais são diferentes de *obrigação* (*I must send the report*): aqui eles servem apenas para fazer um palpite.",
+      "table": {
+        "headers": ["Grau de certeza", "Modal", "Exemplo"],
+        "rows": [
+          ["quase certeza: é verdade", "must be", "He must be at lunch."],
+          ["possível (talvez)", "might / may / could be", "He might be at lunch."],
+          ["possível (talvez não)", "might not / may not be", "He might not be at lunch."],
+          ["quase certeza: não é verdade", "can't be", "He can't be at lunch."]
+        ]
+      },
+      "examples": [
+        {"en": "He must be at lunch.", "pt": "Ele deve estar almoçando."},
+        {"en": "He might be at lunch.", "pt": "Talvez ele esteja almoçando."},
+        {"en": "He can't be at lunch.", "pt": "Ele não pode estar almoçando."}
+      ]
+    },
+    {
+      "title": "Must be e can't be",
+      "text": "Use **must be** quando as pistas levam a uma conclusão lógica: *He has worked all night, so he must be tired*. Use **can't be** quando as pistas mostram que algo é **impossível**: *She is in Rio this week, so she can't be at the office*.\n\nObserve que **can't be** é o oposto de **must be**. Também se usa para reagir a algo surpreendente (*That can't be right!*). Para se apresentar a alguém que você supõe conhecer, é comum dizer *You must be Lara*.",
+      "examples": [
+        {"en": "Tom has worked all night. He must be tired.", "pt": "O Tom trabalhou a noite toda. Ele deve estar cansado."},
+        {"en": "She is in Rio this week. She can't be at the office.", "pt": "Ela está no Rio esta semana. Ela não pode estar no escritório."},
+        {"en": "That can't be the right password. It is too short.", "pt": "Essa não pode ser a senha certa. Ela é curta demais."},
+        {"en": "You must be Lara. Nice to meet you.", "pt": "Você deve ser a Lara. Prazer em conhecê-la."}
+      ],
+      "trap": "Para dizer que algo é impossível, o natural em inglês é **can't be**. O verbo *mustn't* costuma indicar proibição (*You mustn't share the password*), e não dedução."
+    },
+    {
+      "title": "Might, may e could: possibilidade",
+      "text": "Use **might**, **may** ou **could** quando algo é **possível**, mas você não tem certeza. Os três são muito parecidos, e na prática a diferença de certeza entre eles é pequena.\n\nPara a forma negativa, use **might not** ou **may not**: *She might not know about the change*. Não use *could not* para dizer “talvez não”, porque *couldn't* nesse contexto soa como impossível, igual a *can't*.",
+      "examples": [
+        {"en": "The server might be down.", "pt": "O servidor pode estar fora do ar."},
+        {"en": "It could be a problem with the database.", "pt": "Pode ser um problema com o banco de dados."},
+        {"en": "The meeting may start late.", "pt": "A reunião pode começar atrasada."},
+        {"en": "She might not know about the change.", "pt": "Talvez ela não saiba da mudança."}
+      ],
+      "tip": "*Maybe it is a bug* (maybe, uma palavra, no início) e *It may be a bug* (may be, verbo) têm o mesmo sentido."
+    },
+    {
+      "title": "Deduções sobre o que está acontecendo agora",
+      "text": "Para deduzir o que alguém **está fazendo agora**, use o modal + **be** + verbo com **-ing**: *He must be working*. A estrutura é **modal + be + -ing**.\n\nCompare: *He must work a lot* fala de um hábito (ele deve trabalhar muito). *He must be working* fala de agora (ele deve estar trabalhando). Com verbos de estado, como **be** e **have** (no sentido de possuir), não usamos -ing: *She must have the key*.",
+      "table": {
+        "headers": ["Estrutura", "Sentido", "Exemplo"],
+        "rows": [
+          ["modal + verbo base", "hábito ou fato", "He must work a lot."],
+          ["modal + be + -ing", "agora, em andamento", "He must be working now."],
+          ["modal + be + adjetivo/lugar", "estado atual", "He must be at home."]
+        ]
+      },
+      "examples": [
+        {"en": "Lara isn't answering. She must be testing the new build.", "pt": "A Lara não está respondendo. Ela deve estar testando a nova versão."},
+        {"en": "He is always online. He must work a lot.", "pt": "Ele está sempre online. Ele deve trabalhar muito."},
+        {"en": "The page is slow. The server might be updating.", "pt": "A página está lenta. O servidor pode estar atualizando."},
+        {"en": "She can't be sleeping. It is noon.", "pt": "Ela não pode estar dormindo. É meio-dia."}
+      ]
+    },
+    {
+      "title": "Português e inglês: erros comuns",
+      "text": "Em português dizemos “deve ser”, “pode ser” e “não pode ser”, e a tradução quase literal dá certo: **must be**, **might/could be** e **can't be**. Os erros aparecem na forma da frase.\n\nO erro mais comum é **esquecer o verbo be**: o modal precisa de um verbo depois dele. Outro é colocar **to** depois do modal. Para palpites sobre uma situação concreta, prefira **could**, **might** ou **may**; evite *can be*, que fala mais de possibilidade geral.",
+      "examples": [
+        {"en": "He must be in the office.", "pt": "Ele deve estar no escritório."},
+        {"en": "It might be the router.", "pt": "Pode ser o roteador."},
+        {"en": "They can't be in a meeting. I can see them here.", "pt": "Eles não podem estar em uma reunião. Eu os vejo aqui."}
+      ],
+      "trap": "Não diga *She must at home* nem *She must to be at home*. O correto é *She must be at home*: modal + **be** (sem to) + informação."
+    },
+    {
+      "title": "Em contexto: investigando um erro",
+      "text": "Veja como as deduções aparecem quando uma equipe procura a causa de um problema. Cada pessoa usa um grau de certeza diferente, de acordo com as pistas que tem.\n\nObserve o modal escolhido: **must** para o que as pistas quase provam, **might** para as hipóteses e **can't** para as que as pistas descartam.",
+      "examples": [
+        {"en": "The login is slow. It might be the database.", "pt": "O login está lento. Pode ser o banco de dados."},
+        {"en": "The database can't be the problem. Other pages are fast.", "pt": "O banco de dados não pode ser o problema. As outras páginas estão rápidas."},
+        {"en": "Then it must be the network.", "pt": "Então deve ser a rede."},
+        {"en": "Someone must be downloading a huge file.", "pt": "Alguém deve estar baixando um arquivo enorme."}
+      ]
+    }
+  ],
+  "summary": [
+    "Use must be quando as pistas levam a uma conclusão quase certa: He must be tired.",
+    "Use can't be quando as pistas mostram que algo é impossível: She can't be at the office.",
+    "Might, may e could expressam possibilidade; para talvez não, use might not ou may not.",
+    "Para deduzir o que acontece agora, use modal + be + -ing: He must be working.",
+    "Depois do modal vem o verbo base, sem to e sem -s: must be, e não must to be."
+  ],
+  "practice": [
+    {"id": "b1-13-p1", "type": "choice", "prompt": "Kai has the keys to the server room and fixes our network. He ___ work in IT. (tenho quase certeza)", "options": ["must", "can't", "might"], "answer": 0,
+     "explain": "As pistas levam a uma conclusão quase certa, e para isso usamos must.",
+     "why_not": {"1": "Can't diria que é impossível, o contrário do que as pistas mostram.", "2": "Might expressa só uma possibilidade, e aqui a certeza é alta."}},
+    {"id": "b1-13-p2", "type": "choice", "prompt": "Maria is on a plane to London right now. She ___ be in the meeting room. (é impossível)", "options": ["must", "can't", "might"], "answer": 1,
+     "explain": "Se ela está em um avião, é impossível que esteja na sala. Para impossibilidade usamos can't.",
+     "why_not": {"0": "Must diria que é quase certo que ela está na sala.", "2": "Might diria que é possível, e as pistas mostram que não é."}},
+    {"id": "b1-13-p3", "type": "choice", "prompt": "I'm not sure why the build failed. It ___ be a missing file. (é possível, mas não tenho certeza)", "options": ["must", "can't", "might"], "answer": 2,
+     "explain": "Como você não tem certeza, usamos might, que expressa uma possibilidade.",
+     "why_not": {"0": "Must indicaria quase certeza.", "1": "Can't indicaria que é impossível."}},
+    {"id": "b1-13-p4", "type": "fill", "prompt": "That ___ be Sam's laptop. His name is on it. (quase certeza)", "answers": ["must"],
+     "explain": "O nome dele está no notebook, então a conclusão lógica é quase certa: must be."},
+    {"id": "b1-13-p5", "type": "fill", "prompt": "She ___ be the new manager. She started last week as an intern. (é impossível)", "answers": ["cannot", "could not"],
+     "explain": "Uma estagiária que começou na semana passada não pode ser a nova gerente. Para impossibilidade usamos can't (cannot)."},
+    {"id": "b1-13-p6", "type": "order", "words": ["He", "must", "be", "working", "from", "home"], "answers": ["He must be working at home."], "prompt": "Ele deve estar trabalhando de casa.",
+     "explain": "Para uma ação em andamento usamos modal + be + -ing: must be working."},
+    {"id": "b1-13-p7", "type": "translate", "prompt": "Deve ser um problema de rede.", "answers": ["It must be a network problem.", "That must be a network problem.", "It must be a problem with the network.", "That must be a problem with the network."],
+     "explain": "Deve ser = must be. Depois do modal vem be, e problem leva o artigo a."},
+    {"id": "b1-13-p8", "type": "fix", "prompt": "She must at home now.", "answers": ["She must be at home now."],
+     "explain": "Depois do modal precisa vir um verbo. Aqui falta o be: must be at home."},
+    {"id": "b1-13-p9", "type": "choice", "prompt": "Como se diz “Ele talvez esteja ocupado”?", "options": ["He might be busy.", "He might busy.", "He must be busy."], "answer": 0,
+     "explain": "Talvez expressa possibilidade: might be busy. O verbo be é necessário depois do modal.",
+     "why_not": {"1": "Falta o verbo be depois de might.", "2": "Must be busy significa “deve estar ocupado”, com muito mais certeza."}},
+    {"id": "b1-13-p10", "type": "listen", "en": "The test might be failing because of the network.",
+     "explain": "Might be failing: possibilidade sobre algo que acontece agora (modal + be + -ing)."},
+    {"id": "b1-13-p11", "type": "choice", "prompt": "Don't call Ana. She ___ a presentation at the moment. (quase certeza)", "options": ["must be giving", "must giving", "must to give"], "answer": 0,
+     "explain": "At the moment indica algo em andamento: modal + be + -ing. Por isso must be giving.",
+     "why_not": {"1": "Falta o be entre o modal e o verbo com -ing.", "2": "Depois de must não se usa to."}}
+  ],
+  "quiz": [
+    {"id": "b1-13-q1", "type": "choice", "prompt": "Pedro hasn't eaten all day, so he ___ hungry. (tenho quase certeza)", "options": ["must be", "can't be", "might not be"], "answer": 0,
+     "explain": "Alguém que não come há um dia está quase certamente com fome: must be.",
+     "why_not": {"1": "Can't be diria que é impossível.", "2": "Might not be diria que talvez ele não esteja com fome."}},
+    {"id": "b1-13-q2", "type": "fill", "prompt": "The deploy ___ be finished by now, but I'm not sure. (talvez)", "answers": ["might", "may", "could"],
+     "explain": "Como você não tem certeza, usamos um modal de possibilidade: might, may ou could."},
+    {"id": "b1-13-q3", "type": "translate", "prompt": "Não pode ser a senha certa.", "answers": ["It can't be the right password.", "That can't be the right password.", "This can't be the right password.", "It can't be the correct password.", "That can't be the correct password.", "This can't be the correct password."],
+     "explain": "Não pode ser = can't be. Em seguida vem o artigo the e a expressão the right password."},
+    {"id": "b1-13-q4", "type": "order", "words": ["She", "might", "be", "joining", "the", "call", "late"], "answers": ["She may be joining the call late.", "She could be joining the call late."], "prompt": "Ela talvez esteja entrando na chamada atrasada.",
+     "explain": "Possibilidade sobre algo em andamento: modal + be + -ing, ou seja, might be joining."},
+    {"id": "b1-13-q5", "type": "fix", "prompt": "They might to be in a meeting.", "answers": ["They might be in a meeting."],
+     "explain": "Depois de um modal não se usa to. A forma correta é might be."},
+    {"id": "b1-13-q6", "type": "choice", "prompt": "Qual frase expressa mais certeza?", "options": ["It might be a bug.", "It must be a bug.", "It could be a bug."], "answer": 1,
+     "explain": "Must be indica quase certeza. Might e could indicam apenas possibilidade.",
+     "why_not": {"0": "Might expressa só uma possibilidade.", "2": "Could também expressa só uma possibilidade."}},
+    {"id": "b1-13-q7", "type": "listen", "en": "She can't be at home because her car is here.",
+     "explain": "Can't be: conclusão de que é impossível, com a pista her car is here."}
+  ],
+  "words": [
+    {"word": "guess", "pt": "palpite; adivinhar"},
+    {"word": "certain", "pt": "certo; com certeza"},
+    {"word": "possible", "pt": "possível"},
+    {"word": "impossible", "pt": "impossível"},
+    {"word": "tired", "pt": "cansado; cansada"},
+    {"word": "network", "pt": "rede"},
+    {"word": "password", "pt": "senha"},
+    {"word": "database", "pt": "banco de dados"},
+    {"word": "router", "pt": "roteador"},
+    {"word": "mistake", "pt": "erro; engano"}
+  ]
+}

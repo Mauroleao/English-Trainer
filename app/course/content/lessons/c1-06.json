@@ -1,0 +1,259 @@
+{
+  "id": "c1-06",
+  "level": "C1",
+  "unit": "Frases densas e reduzidas",
+  "title": "Nominalização e grupos nominais densos",
+  "goal": "Transformar verbos e adjetivos em substantivos e montar grupos nominais densos, com pré e pós-modificação, para escrever com precisão em textos técnicos e acadêmicos.",
+  "minutes": 30,
+  "steps": [
+    {
+      "title": "Ideia central: de verbo a substantivo",
+      "text": "**Nominalização** é transformar um verbo ou um adjetivo em substantivo: *decide* vira *decision*, *fail* vira *failure*, *available* vira *availability*. O texto técnico e acadêmico em inglês usa muito esse recurso, porque ele permite condensar uma explicação inteira em um **grupo nominal** (um substantivo central com as palavras que o acompanham).\n\nCompare a versão falada, *We decided to delay the release because the server failed*, com a versão escrita, *The decision to delay the release followed the failure of the server*. A segunda é mais densa, mais impessoal e típica de relatórios.",
+      "examples": [
+        {"en": "We decided to delay the release because the server failed.", "pt": "Decidimos adiar o lançamento porque o servidor falhou."},
+        {"en": "The decision to delay the release followed the server failure.", "pt": "A decisão de adiar o lançamento veio depois da falha do servidor."},
+        {"en": "Early detection of errors reduces the cost of maintenance.", "pt": "A detecção precoce de erros reduz o custo de manutenção."}
+      ],
+      "tip": "Pense em duas versões do mesmo texto: a oral, com verbos (We decided...), e a escrita, com substantivos (The decision...). A lição ensina a passar de uma para a outra."
+    },
+    {
+      "title": "Como formar substantivos: sufixos mais comuns",
+      "text": "Muitos substantivos nascem da adição de um **sufixo** (terminação) ao verbo ou ao adjetivo. Os mais úteis no trabalho são **-tion/-sion**, **-ment**, **-ance/-ence**, **-al**, **-ure** e **-ity/-ness**. Às vezes a raiz muda um pouco (*decide → decision*, *analyze → analysis*).\n\nAlguns verbos viram substantivos sem mudar a grafia: *increase*, *change*, *request*, *delay*. Outros têm formas irregulares que precisam ser memorizadas: *choose → choice*, *prove → proof*, *grow → growth*. Na dúvida, consulte o dicionário e anote a família da palavra.",
+      "table": {
+        "headers": ["Verbo / adjetivo", "Substantivo", "Exemplo"],
+        "rows": [
+          ["decide", "decision", "The decision was made on Monday."],
+          ["implement", "implementation", "The implementation took two weeks."],
+          ["improve", "improvement", "We saw a big improvement in speed."],
+          ["perform", "performance", "Performance dropped after the update."],
+          ["approve", "approval", "We need the manager's approval."],
+          ["fail", "failure", "The failure of the backup caused data loss."],
+          ["available", "availability", "The availability of the service is 99.9%."],
+          ["increase / delay", "increase / delay (mesma forma)", "There was a delay in delivery."]
+        ]
+      },
+      "examples": [
+        {"en": "The approval of the budget depends on the completion of the audit.", "pt": "A aprovação do orçamento depende da conclusão da auditoria."},
+        {"en": "The new cache led to a big improvement in response time.", "pt": "O novo cache levou a uma grande melhoria no tempo de resposta."},
+        {"en": "The company announced the deployment of a new payment system.", "pt": "A empresa anunciou a implantação de um novo sistema de pagamento."}
+      ],
+      "trap": "Cuidado com o falso cognato **realization**. Em inglês, *realization* é perceber ou se dar conta de algo; não é “realização de uma tarefa”. Para “a realização dos testes”, use *the execution of the tests* ou *carrying out the tests*."
+    },
+    {
+      "title": "Estilo nominal: verbos de ligação no lugar dos verbos de ação",
+      "text": "Quando o conteúdo vai para os substantivos, a frase precisa de um verbo que faça a ligação. Os mais comuns são **lead to**, **result in**, **cause**, **follow**, **allow**, **reduce**, **increase**, **depend on** e **undergo**. Eles ligam um grupo nominal a outro, como em uma equação.\n\n*Because users complained, we changed the design* vira *User complaints led to a change in the design*. A frase ficou mais curta e mais impessoal. Observe que quem faz a ação some: o texto fala de fatos, não de pessoas, e isso combina com relatórios.",
+      "examples": [
+        {"en": "User complaints led to a change in the design.", "pt": "As reclamações dos usuários levaram a uma mudança no design."},
+        {"en": "A sharp increase in traffic led to the overload of the servers.", "pt": "Um aumento brusco de tráfego levou à sobrecarga dos servidores."},
+        {"en": "The team's rapid response to the outage limited the damage.", "pt": "A resposta rápida da equipe à queda limitou o dano."},
+        {"en": "The reduction in errors followed the adoption of automated tests.", "pt": "A redução nos erros veio depois da adoção de testes automatizados."}
+      ],
+      "tip": "Para transformar uma frase, escolha o fato principal de cada oração, nomeie-o com um substantivo e una os dois com lead to, result in ou follow."
+    },
+    {
+      "title": "Pós-modificação: preposições e complementos depois do substantivo",
+      "text": "Depois do substantivo, o inglês coloca a informação extra por meio de **preposições** (*of*, *in*, *for*, *on*, *to*), **orações com infinitivo** ou **orações relativas reduzidas**. Cada substantivo costuma pedir uma preposição fixa: *a decision to delay*, *demand for cloud skills*, *an increase in traffic*, *the cause of the outage*, *the impact of X on Y*.\n\nUse **of** para a relação mais geral (*the failure of the system*), **in** para a área em que algo muda (*a reduction in errors*) e **for** para a necessidade ou procura (*a need for, demand for*). Aprenda a preposição junto com o substantivo.",
+      "table": {
+        "headers": ["Substantivo", "Preposição", "Exemplo"],
+        "rows": [
+          ["increase / reduction", "in (o que muda)", "a reduction in errors"],
+          ["demand / need", "for", "a growing demand for engineers"],
+          ["cause / failure", "of", "the cause of the outage"],
+          ["impact / effect", "on", "the effect of the update on performance"],
+          ["decision / plan", "to + verbo", "the decision to delay the release"]
+        ]
+      },
+      "examples": [
+        {"en": "There is a growing demand for cloud engineers.", "pt": "Há uma demanda crescente por engenheiros de nuvem."},
+        {"en": "The failure of the backup system caused a delay in the recovery of the database.", "pt": "A falha do sistema de backup causou um atraso na recuperação do banco de dados."},
+        {"en": "The decision to delay the release surprised everyone.", "pt": "A decisão de adiar o lançamento surpreendeu todos."}
+      ],
+      "trap": "Em português dizemos “aumento de tráfego” e “redução de erros”. Em inglês, para o que mudou, a preposição natural é **in**: *an increase in traffic*, *a reduction in errors*. Use **of** para quantidades: *an increase of 20%*."
+    },
+    {
+      "title": "Pré-modificação: substantivo + substantivo e adjetivos",
+      "text": "Antes do substantivo central, o inglês aceita outros substantivos e adjetivos: *a database migration plan*, *a cloud-based storage solution*. O **último** substantivo é o núcleo (*plan*, *solution*), e os anteriores o classificam. Em português, faríamos “um plano de migração de banco de dados”, com preposições, e a ordem se inverte.\n\nA ordem geral é: determinante, opinião ou tamanho, substantivos que classificam e núcleo, como em *a new security audit report*. Hifens ajudam quando duas palavras formam uma unidade: *a high-risk change*, *a three-month project*. Evite mais de três ou quatro modificadores seguidos.",
+      "table": {
+        "headers": ["Em português", "Em inglês (grupo nominal)"],
+        "rows": [
+          ["um plano de migração de banco de dados", "a database migration plan"],
+          ["um relatório de auditoria de segurança", "a security audit report"],
+          ["uma solução de armazenamento na nuvem", "a cloud-based storage solution"],
+          ["uma mudança de alto risco", "a high-risk change"]
+        ]
+      },
+      "examples": [
+        {"en": "The team presented a database migration plan.", "pt": "A equipe apresentou um plano de migração de banco de dados."},
+        {"en": "We need a new security audit report before the launch.", "pt": "Precisamos de um novo relatório de auditoria de segurança antes do lançamento."},
+        {"en": "It was a three-month project.", "pt": "Foi um projeto de três meses."}
+      ],
+      "trap": "No hífen de medida, o substantivo fica no singular: *a three-month project*, e não *a three-months project*. O plural só aparece quando não há hífen: *The project lasts three months*."
+    },
+    {
+      "title": "Equilíbrio: quando preferir verbos",
+      "text": "A nominalização em excesso torna o texto pesado e vago. *The implementation of the modification of the configuration was carried out* esconde quem fez o quê. Uma versão com verbos, *We changed the configuration*, é mais clara, e deve ser a escolha no e-mail, na conversa e na documentação para iniciantes.\n\nUse a nominalização quando precisar de **concisão**, de **impessoalidade** ou de um **tema** claro no início da frase (*The reduction in errors was significant*). Use verbos quando quiser mostrar **quem faz o quê**. Em textos técnicos, um bom parágrafo alterna os dois estilos.",
+      "examples": [
+        {"en": "We changed the configuration and the errors stopped.", "pt": "Mudamos a configuração e os erros pararam."},
+        {"en": "The change in configuration ended the errors.", "pt": "A mudança na configuração acabou com os erros."},
+        {"en": "The reduction in errors was significant.", "pt": "A redução nos erros foi significativa."}
+      ],
+      "tip": "Regra prática: se a frase tiver três ou mais substantivos abstratos seguidos por of, reescreva uma parte com verbo."
+    },
+    {
+      "title": "Em contexto: um parágrafo de relatório",
+      "text": "Veja um trecho de relatório de incidente escrito em estilo nominal. Cada fato foi condensado em um grupo nominal, e verbos como *led to*, *followed* e *depends on* fazem a ligação.\n\nEm seguida, tente reescrever cada frase com verbos (*When traffic increased sharply, the servers overloaded*). Esse exercício mostra que você domina a transformação nos dois sentidos, e isso é útil tanto para escrever quanto para ler textos densos.",
+      "examples": [
+        {"en": "A sharp increase in traffic led to the overload of the servers.", "pt": "Um aumento brusco de tráfego levou à sobrecarga dos servidores."},
+        {"en": "The failure of the backup delayed the recovery of the data.", "pt": "A falha do backup atrasou a recuperação dos dados."},
+        {"en": "The investigation of the incident took a week.", "pt": "A investigação do incidente levou uma semana."},
+        {"en": "Improved monitoring will allow earlier detection of similar problems.", "pt": "Um monitoramento melhor permitirá uma detecção mais precoce de problemas semelhantes."}
+      ],
+      "tip": "Ao ler um texto denso, procure o verbo principal primeiro. Depois, descompacte cada grupo nominal em uma oração com verbo."
+    }
+  ],
+  "summary": [
+    "Nominalizar é transformar verbos e adjetivos em substantivos: decide → decision, fail → failure, available → availability; algumas palavras não mudam (increase, delay) e outras são irregulares (choose → choice).",
+    "No estilo nominal, verbos como lead to, result in, follow, cause e allow ligam os grupos nominais: User complaints led to a change in the design.",
+    "Cada substantivo pede sua preposição: an increase in traffic, demand for engineers, the cause of the outage, the decision to delay.",
+    "A pré-modificação usa substantivos antes do núcleo (a database migration plan) e hifens com o singular (a three-month project).",
+    "Realization não significa realização de uma tarefa, mas perceber algo; use execution ou carrying out.",
+    "Use a nominalização para concisão e impessoalidade; use verbos quando precisar mostrar quem faz o quê."
+  ],
+  "practice": [
+    {
+      "id": "c1-06-p1", "type": "choice",
+      "prompt": "We decided to delay the release. The ___ to delay the release was difficult.",
+      "options": ["decision", "decide", "decisive"], "answer": 0,
+      "explain": "Depois de the, precisamos de um substantivo. O substantivo de decide é decision, e ele aceita o complemento to delay.",
+      "why_not": {"1": "Decide é verbo e não pode vir depois de the.", "2": "Decisive é adjetivo e significa decisivo, com outro sentido."}
+    },
+    {
+      "id": "c1-06-p2", "type": "fill",
+      "prompt": "The new cache led to a big ___ (improve) in response time.",
+      "answers": ["improvement"],
+      "explain": "Depois de a big, usamos o substantivo. O substantivo de improve é improvement, formado com o sufixo -ment."
+    },
+    {
+      "id": "c1-06-p3", "type": "fill",
+      "prompt": "The ___ (fail) of the backup system caused data loss.",
+      "answers": ["failure"],
+      "explain": "O substantivo de fail é failure, formado com o sufixo -ure. Ele vem depois de the e é seguido de of."
+    },
+    {
+      "id": "c1-06-p4", "type": "choice",
+      "prompt": "There is a growing demand ___ cloud engineers.",
+      "options": ["for", "of", "to"], "answer": 0,
+      "explain": "O substantivo demand pede a preposição for quando falamos do que as pessoas procuram: demand for cloud engineers.",
+      "why_not": {"1": "Demand of se usa em outro sentido, como the demands of the job.", "2": "To não combina com demand nesse sentido."}
+    },
+    {
+      "id": "c1-06-p5", "type": "translate",
+      "prompt": "A aprovação do orçamento depende da conclusão da auditoria.",
+      "answers": ["The approval of the budget depends on the completion of the audit.", "The budget approval depends on the completion of the audit.", "The approval of the budget depends on the audit completion.", "The budget approval depends on the audit completion."],
+      "explain": "Aprovação é approval e conclusão é completion. O verbo depends on faz a ligação entre os dois grupos nominais."
+    },
+    {
+      "id": "c1-06-p6", "type": "order",
+      "words": ["The", "failure", "of", "the", "server", "caused", "a", "delay"],
+      "prompt": "A falha do servidor causou um atraso.",
+      "explain": "O estilo nominal usa um grupo nominal como sujeito, the failure of the server, seguido de um verbo de ligação (caused) e de outro grupo nominal."
+    },
+    {
+      "id": "c1-06-p7", "type": "fix",
+      "prompt": "The decide to delay the release surprised everyone.",
+      "answers": ["The decision to delay the release surprised everyone."],
+      "explain": "Depois de the, o inglês pede um substantivo. Decide é verbo; o substantivo correto é decision."
+    },
+    {
+      "id": "c1-06-p8", "type": "choice",
+      "prompt": "Which sentence is written in a more nominal style?",
+      "options": ["Because users complained, we changed the design.", "User complaints led to a change in the design.", "Users complained, so we changed the design."], "answer": 1,
+      "explain": "A frase B transforma complained em complaints e changed em change, e usa led to para ligar os dois grupos nominais.",
+      "why_not": {"0": "Essa frase usa verbos conjugados (complained, changed) e um sujeito humano, que é o estilo verbal.", "2": "Também está em estilo verbal, com duas orações unidas por so."}
+    },
+    {
+      "id": "c1-06-p9", "type": "fix",
+      "prompt": "The investigates of the incident took a week.",
+      "answers": ["The investigation of the incident took a week."],
+      "explain": "Investigate é verbo. Depois de the, precisamos do substantivo investigation, formado com o sufixo -tion."
+    },
+    {
+      "id": "c1-06-p10", "type": "listen",
+      "en": "A sharp increase in traffic led to the failure of the server.",
+      "explain": "Observe os grupos nominais a sharp increase in traffic e the failure of the server, ligados pelo verbo led to. A preposição in indica o que aumentou."
+    },
+    {
+      "id": "c1-06-p11", "type": "choice",
+      "prompt": "Which phrase is a correct noun group for “um projeto de três meses”?",
+      "options": ["a three-months project", "a three-month project", "a project of three-month"], "answer": 1,
+      "explain": "Quando a medida funciona como adjetivo, antes do substantivo, usa-se hífen e o singular: a three-month project.",
+      "why_not": {"0": "Months fica no plural só quando não há hífen, como em The project lasts three months.", "2": "Essa ordem copia o português e não é natural em inglês."}
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c1-06-q1", "type": "choice",
+      "prompt": "The ___ of the new tool reduced errors.",
+      "options": ["adoption", "adopt", "adoptive"], "answer": 0,
+      "explain": "Depois de the, usamos substantivo. O substantivo de adopt é adoption.",
+      "why_not": {"1": "Adopt é verbo, e depois de the precisamos de um substantivo.", "2": "Adoptive é adjetivo e aparece em outros contextos, como adoptive parents."}
+    },
+    {
+      "id": "c1-06-q2", "type": "fill",
+      "prompt": "Early ___ (detect) of bugs reduces the cost of fixes.",
+      "answers": ["detection"],
+      "explain": "O substantivo de detect é detection, formado com -tion. A frase usa a nominalização como sujeito, e reduces é o verbo."
+    },
+    {
+      "id": "c1-06-q3", "type": "translate",
+      "prompt": "O aumento da demanda causou um atraso na entrega.",
+      "answers": ["The increase in demand caused a delay in delivery.", "The increase in demand caused a delay in the delivery.", "The increase in demand led to a delay in delivery.", "The increase in demand led to a delay in the delivery.", "The rise in demand caused a delay in delivery.", "The rise in demand caused a delay in the delivery.", "The rise in demand led to a delay in delivery.", "The rise in demand led to a delay in the delivery."],
+      "explain": "Aumento é increase (ou rise) e a área que muda leva a preposição in: increase in demand. O atraso é a delay in delivery."
+    },
+    {
+      "id": "c1-06-q4", "type": "order",
+      "words": ["The", "completion", "of", "the", "audit", "took", "three", "weeks"],
+      "prompt": "A conclusão da auditoria levou três semanas.",
+      "explain": "O grupo nominal the completion of the audit é o sujeito. O verbo took vem depois, com a duração three weeks."
+    },
+    {
+      "id": "c1-06-q5", "type": "fix",
+      "prompt": "The analyze of the logs showed the cause.",
+      "answers": ["The analysis of the logs showed the cause."],
+      "explain": "O substantivo de analyze é analysis, uma forma irregular. Depois de the, não se usa o verbo."
+    },
+    {
+      "id": "c1-06-q6", "type": "choice",
+      "prompt": "Which sentence nominalizes “Users complained, so we changed the design”?",
+      "options": ["User complaints led to a change in the design.", "Users complaining changed design.", "The complained users the design change."], "answer": 0,
+      "explain": "A frase A usa complaints e change como núcleos de grupos nominais e led to para ligá-los. As outras são agramaticais.",
+      "why_not": {"1": "Falta o artigo e a estrutura é incompleta; complaining não forma um grupo nominal assim.", "2": "A frase não tem uma estrutura gramatical em inglês."}
+    },
+    {
+      "id": "c1-06-q7", "type": "choice",
+      "prompt": "Você escreve um e-mail rápido para um colega de equipe. Qual estilo é mais indicado?",
+      "options": ["Estilo nominal denso, com muitos substantivos abstratos", "Frases com verbos e sujeitos claros, como We fixed the bug", "Frases longas com vários of seguidos"], "answer": 1,
+      "explain": "Em e-mails e conversas, frases com verbos deixam claro quem fez o quê. O estilo nominal é mais adequado para relatórios e textos formais.",
+      "why_not": {"0": "O estilo nominal denso pesa a leitura de uma mensagem informal.", "2": "Muitos of seguidos deixam a frase pesada e vaga."}
+    },
+    {
+      "id": "c1-06-q8", "type": "listen",
+      "en": "The reduction in errors followed the adoption of automated tests.",
+      "explain": "Dois grupos nominais, the reduction in errors e the adoption of automated tests, ligados pelo verbo followed. In indica o que diminuiu."
+    }
+  ],
+  "words": [
+    {"word": "decision", "pt": "decisão"},
+    {"word": "improvement", "pt": "melhoria; melhora"},
+    {"word": "failure", "pt": "falha"},
+    {"word": "approval", "pt": "aprovação"},
+    {"word": "detection", "pt": "detecção"},
+    {"word": "demand", "pt": "demanda; procura"},
+    {"word": "adoption", "pt": "adoção"},
+    {"word": "delay", "pt": "atraso; adiar"},
+    {"word": "completion", "pt": "conclusão"},
+    {"word": "investigation", "pt": "investigação"},
+    {"word": "increase", "pt": "aumento; aumentar"},
+    {"word": "overload", "pt": "sobrecarga; sobrecarregar"}
+  ]
+}

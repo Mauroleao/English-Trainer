@@ -1,0 +1,146 @@
+{
+  "id": "b2-02",
+  "level": "B2",
+  "unit": "Tempos narrativos",
+  "title": "Futuro avançado: continuous, perfect, about to, due to",
+  "goal": "Falar do futuro com mais precisão: o que estará acontecendo, o que já terá terminado, o que está prestes a acontecer e o que está previsto.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "Future continuous: o que estará acontecendo",
+      "text": "O **future continuous** (**will be + verbo-ing**) fala de uma ação que **estará em andamento** em um momento do futuro. Você “coloca uma câmera” naquele horário e vê a ação acontecendo.\n\nPense em *This time tomorrow, I will be flying to Berlin*: a viagem estará em curso naquele momento. Ele é muito usado para avisar disponibilidade: *I'll be working until six* (estarei trabalhando até as seis). A forma é a mesma para todos os pronomes, e a negativa é **won't be + -ing**.",
+      "examples": [
+        {"en": "This time tomorrow, I will be flying to Berlin.", "pt": "Amanhã a esta hora, eu estarei voando para Berlim."},
+        {"en": "Don't call me at three. I'll be driving.", "pt": "Não me ligue às três. Estarei dirigindo."},
+        {"en": "We won't be using the old server next month.", "pt": "Não estaremos usando o servidor antigo no mês que vem."}
+      ],
+      "tip": "Pergunta e resposta: *Will you be using the server tonight?* — *Yes, I will. / No, I won't.*"
+    },
+    {
+      "title": "Future continuous: planos e perguntas educadas",
+      "text": "Além de mostrar uma ação em andamento, o future continuous trata de algo que **já está programado** ou que vai acontecer “naturalmente”. Por isso ele soa **neutro e educado**, sem a ideia de decisão na hora que *will* sozinho carrega.\n\nCompare: *Will you use the projector?* parece um pedido ou uma pergunta sobre decisão, enquanto *Will you be using the projector?* pergunta de forma cuidadosa se o equipamento estará ocupado. É um recurso muito útil em e-mails e reuniões para perguntar sobre planos dos outros sem pressionar.",
+      "examples": [
+        {"en": "Will you be using the meeting room this afternoon?", "pt": "Você estará usando a sala de reunião esta tarde?"},
+        {"en": "I'll be seeing the client on Friday, so I can mention it.", "pt": "Vou encontrar o cliente na sexta, então posso mencionar isso."}
+      ],
+      "tip": "Em dúvida entre educação e decisão: future continuous pergunta sobre os planos do outro; will simples costuma pedir ou oferecer algo."
+    },
+    {
+      "title": "Future perfect: o que já terá terminado",
+      "text": "O **future perfect** (**will have + particípio**) fala de algo que **já estará concluído** até um momento no futuro. Você escolhe uma data e olha para trás a partir dela. Em português, é o “terei terminado” ou “já terá terminado”.\n\nO futuro perfect quase sempre vem com **by** (até): *By Friday, we will have finished the migration*. Para tempo decorrido, use **for**: *By June, I will have worked here for five years*. A negativa é **won't have + particípio** e a pergunta é **Will + sujeito + have + particípio?**.",
+      "table": {
+        "headers": ["Forma", "Exemplo"],
+        "rows": [
+          ["Afirmativa", "We will have finished by Friday."],
+          ["Negativa", "They won't have received the invoice by then."],
+          ["Pergunta", "Will you have finished the report by noon?"],
+          ["Com for", "By June, I will have worked here for five years."]
+        ]
+      },
+      "examples": [
+        {"en": "By Friday, we will have finished the migration.", "pt": "Até sexta-feira, teremos terminado a migração."},
+        {"en": "By the end of the year, the team will have shipped twenty features.", "pt": "Até o fim do ano, a equipe terá entregado vinte funcionalidades."}
+      ],
+      "trap": "Depois de *by the time*, *when* e *before*, o inglês usa o **presente**, e não will: *By the time you arrive, we will have finished* (e nunca *By the time you will arrive*)."
+    },
+    {
+      "title": "Will, future continuous ou future perfect?",
+      "text": "A escolha depende do **que você quer mostrar** sobre aquele momento do futuro. Se a ação estará **em andamento**, use o continuous. Se já estará **concluída**, use o perfect. Se você só anuncia ou decide algo, use *will* simples (ou *going to*, que você já conhece).\n\nUm teste prático é perguntar: “Naquela hora, a coisa estará acontecendo ou já estará pronta?”. Pense também no tempo: **at 5 p.m.** e **this time next week** pedem continuous; **by 5 p.m.** e **by next week** pedem perfect.",
+      "table": {
+        "headers": ["Tempo", "Ideia", "Exemplo"],
+        "rows": [
+          ["will + verbo", "decisão ou previsão", "I'll send the file."],
+          ["will be + -ing", "em andamento naquele momento", "At five, I'll be sending the files."],
+          ["will have + particípio", "concluído até aquele momento", "By five, I'll have sent the files."]
+        ]
+      },
+      "examples": [
+        {"en": "At 8 p.m. tonight, I will be working on the migration.", "pt": "Às 8 da noite de hoje, estarei trabalhando na migração."},
+        {"en": "By 8 p.m. tonight, I will have finished the migration.", "pt": "Até as 8 da noite de hoje, terei terminado a migração."}
+      ]
+    },
+    {
+      "title": "Be about to: está prestes a acontecer",
+      "text": "**Be about to + verbo base** descreve algo **iminente**, que vai acontecer nos próximos instantes. Em português: “estar prestes a”, “estar para”. Conjugue o *be* normalmente: *am/is/are about to*.\n\nNo passado, *was about to* mostra algo que estava quase acontecendo quando foi interrompido: *I was about to call you when you walked in*. Não use *about to* com marcadores de tempo distante, como *tomorrow* ou *next week*, porque a ideia é de proximidade imediata.",
+      "examples": [
+        {"en": "Sorry, I can't talk now. We are about to start the demo.", "pt": "Desculpe, não posso falar agora. Estamos prestes a começar a demonstração."},
+        {"en": "I was about to call you when you walked in.", "pt": "Eu estava prestes a ligar para você quando você entrou."},
+        {"en": "Look out! The screen is about to freeze.", "pt": "Cuidado! A tela está prestes a congelar."}
+      ],
+      "tip": "Na linguagem informal, *I'm not about to + verbo* quer dizer “não pretendo de jeito nenhum”: *I'm not about to work on Sunday for free*."
+    },
+    {
+      "title": "Be due to: está previsto para",
+      "text": "**Be due to + verbo base** indica algo **previsto, programado ou esperado**: *The new version is due to go out on Friday*. Com um substantivo de data, use só **due**: *The report is due on Monday* (o relatório vence na segunda). O tom é de agenda e prazo, e por isso aparece muito em planejamento de projetos e reuniões.\n\nCompare com *about to*: **due to** fala de algo previsto, que pode estar longe; **about to** fala de algo que vai acontecer agora. E ainda existe uma terceira construção, **due to + substantivo**, que significa “por causa de”.",
+      "examples": [
+        {"en": "The new version is due to go out on Friday.", "pt": "A nova versão está prevista para sair na sexta-feira."},
+        {"en": "The final report is due on Monday.", "pt": "O relatório final tem que ser entregue na segunda-feira."},
+        {"en": "The delay was due to a database error.", "pt": "O atraso foi causado por um erro no banco de dados."}
+      ],
+      "trap": "*Due to* + substantivo (*The delay was due to a bug*) quer dizer “por causa de”. Não confunda com *is due to + verbo* (previsto). Diga *due to a database error*, e nunca *due a database error*."
+    }
+  ],
+  "summary": [
+    "Future continuous (will be + -ing): ação em andamento em um momento futuro, ou pergunta educada sobre planos.",
+    "Future perfect (will have + particípio): ação concluída até um momento futuro; costuma vir com by.",
+    "Depois de by the time, when e before use o presente, e nunca will.",
+    "Be about to + verbo base: iminente. Be due to + verbo base: previsto na agenda; due to + substantivo: por causa de.",
+    "At five pede continuous; by five pede perfect."
+  ],
+  "practice": [
+    {"id": "b2-02-p1", "type": "choice", "prompt": "This time tomorrow, I ___ to Berlin.", "options": ["will be flying", "will have flown", "flew"], "answer": 0,
+     "explain": "This time tomorrow descreve um momento em que a viagem estará em andamento: will be flying.",
+     "why_not": {"1": "Will have flown indicaria que o voo já terá terminado.", "2": "Flew é passado e não combina com tomorrow."}},
+    {"id": "b2-02-p2", "type": "choice", "prompt": "By Friday, the team ___ the migration.", "options": ["will be finishing", "will have finished", "is finishing"], "answer": 1,
+     "explain": "By Friday pede a ideia de algo já concluído até a sexta: will have finished.",
+     "why_not": {"0": "Will be finishing mostra uma ação em andamento, e não concluída até a sexta.", "2": "Is finishing é presente contínuo e não expressa o resultado até um prazo."}},
+    {"id": "b2-02-p3", "type": "choice", "prompt": "Sorry, I can't talk now. We ___ start the demo.", "options": ["are about to", "are about", "about to"], "answer": 0,
+     "explain": "A estrutura é be + about to + verbo base: we are about to start.",
+     "why_not": {"1": "Falta o to depois de about.", "2": "Falta o verbo be antes de about to."}},
+    {"id": "b2-02-p4", "type": "choice", "prompt": "The delay was ___ a database error.", "options": ["due to", "due for", "about to"], "answer": 0,
+     "explain": "Due to + substantivo significa “por causa de”: the delay was due to a database error.",
+     "why_not": {"1": "Due for não expressa causa.", "2": "About to precisa de verbo depois e não indica causa."}},
+    {"id": "b2-02-p5", "type": "fill", "prompt": "Don't call me at 3 p.m. I ___ be driving to the airport.", "answers": ["will"],
+     "explain": "O future continuous é will be + -ing, e às 3 da tarde a ação estará em andamento: I will be driving."},
+    {"id": "b2-02-p6", "type": "fill", "prompt": "By next month, I ___ worked here for three years.", "answers": ["will have"],
+     "explain": "By next month marca um ponto no futuro com ideia de tempo concluído: will have worked (future perfect)."},
+    {"id": "b2-02-p7", "type": "translate", "prompt": "A reunião está prestes a começar.", "answers": ["The meeting is about to start.", "The meeting is about to begin."],
+     "explain": "Prestes a é be about to + verbo base: is about to start."},
+    {"id": "b2-02-p8", "type": "order", "words": ["By", "June", "we", "will", "have", "launched", "the", "new", "app"], "prompt": "Até junho, teremos lançado o novo aplicativo.",
+     "explain": "Future perfect: will have + particípio (launched), com by June marcando o prazo."},
+    {"id": "b2-02-p9", "type": "fix", "prompt": "At 8 p.m. tonight, I will working on the migration.", "answers": ["At 8 p.m. tonight, I will be working on the migration."],
+     "explain": "O future continuous precisa do be: will be working."},
+    {"id": "b2-02-p10", "type": "fix", "prompt": "By the time you will arrive, we will have finished.", "answers": ["By the time you arrive, we will have finished."],
+     "explain": "Depois de by the time usamos o presente simples, e nunca will: by the time you arrive."},
+    {"id": "b2-02-p11", "type": "listen", "en": "This time next week, we will be testing the new version.",
+     "explain": "This time next week indica um momento futuro em que a ação estará em andamento: will be testing."}
+  ],
+  "quiz": [
+    {"id": "b2-02-q1", "type": "choice", "prompt": "Next Monday at 9 a.m., I ___ in a workshop.", "options": ["will be attending", "will have attended", "attended"], "answer": 0,
+     "explain": "At 9 a.m. é um momento específico em que a ação estará em curso: will be attending.",
+     "why_not": {"1": "Will have attended significaria que o workshop já terá terminado.", "2": "Attended é passado e não combina com next Monday."}},
+    {"id": "b2-02-q2", "type": "choice", "prompt": "By the end of the year, our team ___ twenty new features.", "options": ["will have shipped", "will have ship", "had shipped"], "answer": 0,
+     "explain": "By the end of the year pede o future perfect: will have + particípio (shipped).",
+     "why_not": {"1": "Depois de will have vem o particípio, e ship é o verbo base.", "2": "Had shipped é passado e não combina com o futuro."}},
+    {"id": "b2-02-q3", "type": "fill", "prompt": "Please wait. The update is about ___ finish.", "answers": ["to"],
+     "explain": "A estrutura é be about to + verbo base: is about to finish."},
+    {"id": "b2-02-q4", "type": "translate", "prompt": "Ele está prestes a sair.", "answers": ["He is about to leave.", "He is about to go.", "He is about to go out."],
+     "explain": "Estar prestes a = be about to + verbo base: he is about to leave."},
+    {"id": "b2-02-q5", "type": "order", "words": ["Will", "you", "be", "using", "the", "server", "tonight"], "prompt": "Você estará usando o servidor esta noite?",
+     "explain": "A pergunta do future continuous começa com Will + sujeito + be + -ing."},
+    {"id": "b2-02-q6", "type": "fix", "prompt": "The delay was due a network problem.", "answers": ["The delay was due to a network problem."],
+     "explain": "Para indicar causa usamos due to + substantivo; falta o to."},
+    {"id": "b2-02-q7", "type": "listen", "en": "By the time you wake up, I will have finished the backup.",
+     "explain": "By the time + presente (wake up) e will have + particípio (finished) para o que já estará concluído."}
+  ],
+  "words": [
+    {"word": "migration", "pt": "migração"},
+    {"word": "launch", "pt": "lançar; lançamento"},
+    {"word": "ship", "pt": "entregar; lançar (um produto ou funcionalidade)"},
+    {"word": "milestone", "pt": "marco; etapa importante"},
+    {"word": "due", "pt": "previsto; com vencimento; devido"},
+    {"word": "imminent", "pt": "iminente"},
+    {"word": "workshop", "pt": "oficina; workshop"},
+    {"word": "freeze", "pt": "congelar; travar"}
+  ]
+}

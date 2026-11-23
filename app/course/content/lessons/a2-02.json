@@ -1,0 +1,187 @@
+{
+  "id": "a2-02",
+  "level": "A2",
+  "unit": "Presente e passado",
+  "title": "Past simple: was e were",
+  "goal": "Dizer onde as pessoas e as coisas estavam e como eram no passado, com afirmativas, negativas e perguntas.",
+  "minutes": 20,
+  "steps": [
+    {
+      "title": "Para que serve o passado de to be",
+      "text": "Quando falamos de algo que **já terminou**, como onde você estava ontem ou como foi uma reunião, usamos o **passado** do verbo to be. No presente você conhece **am**, **is** e **are**. No passado só existem duas formas: **was** e **were**.\n\nEm português, esse passado vira “fui”, “era”, “estive” ou “estava”, conforme o contexto. Em inglês é sempre **was** ou **were**. Por exemplo, *The meeting was long* pode ser “A reunião foi longa” ou “A reunião era longa”.",
+      "examples": [
+        {"en": "I was at home yesterday.", "pt": "Eu estava em casa ontem."},
+        {"en": "The meeting was long.", "pt": "A reunião foi longa."},
+        {"en": "They were very busy last week.", "pt": "Eles estavam muito ocupados na semana passada."}
+      ],
+      "tip": "Was e were cobrem vários tempos do português (fui, era, estive, estava). O contexto mostra qual deles você quer dizer."
+    },
+    {
+      "title": "As formas: was e were",
+      "text": "Cada pronome combina com uma forma. **I**, **he**, **she** e **it** usam **was**. **You**, **we** e **they** usam **were**.\n\nO padrão é parecido com o presente: *I am* vira *I was*, *he is* vira *he was*, *you are* vira *you were*. Uma diferença importante: com **I** o passado é **was**, e não *were*. Substantivos seguem o mesmo raciocínio: *the server* equivale a it (was) e *the tests* equivalem a they (were).",
+      "table": {
+        "headers": ["Pronome", "Presente", "Passado", "Exemplo"],
+        "rows": [
+          ["I", "am", "was", "I was ready."],
+          ["he / she / it", "is", "was", "She was late."],
+          ["you", "are", "were", "You were right."],
+          ["we", "are", "were", "We were in Lisbon."],
+          ["they", "are", "were", "They were tired."]
+        ]
+      },
+      "examples": [
+        {"en": "The server was down.", "pt": "O servidor estava fora do ar."},
+        {"en": "The tests were slow.", "pt": "Os testes estavam lentos."},
+        {"en": "You were right about the bug.", "pt": "Você tinha razão sobre o bug."}
+      ],
+      "trap": "Com **I** use **was**: *I was late*. A forma *I were* está errada no inglês do dia a dia."
+    },
+    {
+      "title": "A negativa: wasn't e weren't",
+      "text": "Para a negativa, coloque **not** depois de was ou were: **was not** e **were not**. Na fala e em mensagens, usamos as contrações **wasn't** e **weren't**.\n\nNão precisa de nenhum verbo auxiliar: o próprio was/were recebe o not. A frase fica sujeito + was/were + not + complemento.",
+      "table": {
+        "headers": ["Forma completa", "Contração"],
+        "rows": [
+          ["I / he / she / it was not", "wasn't"],
+          ["you / we / they were not", "weren't"]
+        ]
+      },
+      "examples": [
+        {"en": "I wasn't in the office on Monday.", "pt": "Eu não estava no escritório na segunda-feira."},
+        {"en": "The test was not successful.", "pt": "O teste não foi bem-sucedido."},
+        {"en": "We weren't ready for the demo.", "pt": "Nós não estávamos prontos para a demonstração."}
+      ],
+      "tip": "Neste app, as duas formas valem na correção: wasn't = was not e weren't = were not."
+    },
+    {
+      "title": "Perguntas e respostas curtas",
+      "text": "Para perguntar, **inverta** o sujeito e o verbo, como no presente: *You were late* vira **Were you late?** e *He was at work* vira **Was he at work?**\n\nNas respostas curtas, repita was ou were: *Yes, I was.* / *No, I wasn't.* / *Yes, they were.* / *No, we weren't.* Com palavras de pergunta, elas vêm primeiro: **Where were you yesterday?** **Why was the server down?**",
+      "examples": [
+        {"en": "Were you at the meeting?", "pt": "Você estava na reunião?"},
+        {"en": "Yes, I was.", "pt": "Sim, estava."},
+        {"en": "Was the code ready?", "pt": "O código estava pronto?"},
+        {"en": "Where were you last night?", "pt": "Onde você estava ontem à noite?"}
+      ],
+      "trap": "Não misture o passado com o presente na mesma pergunta. *Was you at home?* está errado, porque com you o verbo é sempre were: *Were you at home?*"
+    },
+    {
+      "title": "Yesterday, last week, ago",
+      "text": "O passado combina com expressões que marcam um tempo **já terminado**. As mais comuns são **yesterday** (ontem), **last night / last week / last month / last year** e **ago**, que quer dizer “atrás” ou “há”. Também usamos **in** + ano (*in 2020*) e **on** + dia (*on Monday*).\n\nO **ago** vem depois do período: *two days ago*, e não *ago two days*. Com **last**, não se usa preposição: *last week*, e não *in last week*.",
+      "table": {
+        "headers": ["Expressão", "Exemplo"],
+        "rows": [
+          ["yesterday / yesterday morning", "I was ill yesterday."],
+          ["last night / week / month / year", "We were in Berlin last month."],
+          ["two days ago / an hour ago", "She was here an hour ago."],
+          ["in 2020 / on Monday", "He was my manager in 2020."]
+        ]
+      },
+      "examples": [
+        {"en": "The client was here two days ago.", "pt": "O cliente esteve aqui há dois dias."},
+        {"en": "Last week was very busy.", "pt": "A semana passada foi muito corrida."},
+        {"en": "I was not at work on Monday.", "pt": "Eu não estava no trabalho na segunda-feira."}
+      ],
+      "trap": "Em português dizemos “na semana passada”, com preposição. Em inglês é só *last week*. Dizer *in last week* está errado."
+    },
+    {
+      "title": "There was e there were",
+      "text": "Para dizer que algo **existia** ou **havia** em algum lugar, usamos **there was** (singular) e **there were** (plural). É o passado de *there is* e *there are*.\n\nA forma depende do que vem depois: *there was a bug* (um bug), mas *there were two bugs* (dois bugs). A negativa é **there wasn't** / **there weren't**, e a pergunta é **Was there…?** / **Were there…?**",
+      "examples": [
+        {"en": "There was a problem with the login.", "pt": "Havia um problema com o login."},
+        {"en": "There were two errors in the log.", "pt": "Havia dois erros no log."},
+        {"en": "There wasn't enough time.", "pt": "Não havia tempo suficiente."},
+        {"en": "Were there any questions?", "pt": "Havia alguma pergunta?"}
+      ],
+      "tip": "Em português usamos “havia” para singular e plural. Em inglês, a forma muda: was com um, were com vários."
+    },
+    {
+      "title": "Was born e armadilhas do português",
+      "text": "Para dizer onde ou quando alguém nasceu, o inglês usa **was born**: *I was born in 1995*. Em português, “nasci” é um verbo só; em inglês é o passado de to be + **born**. O mesmo vale para *She was born in Recife*.\n\nOutro cuidado: nunca use *I were* nem *he were*. Use **were** apenas com you, we e they, ou com plurais como *the files were*.",
+      "examples": [
+        {"en": "I was born in 1995.", "pt": "Eu nasci em 1995."},
+        {"en": "She was born in Recife.", "pt": "Ela nasceu em Recife."},
+        {"en": "The files were in the wrong folder.", "pt": "Os arquivos estavam na pasta errada."}
+      ],
+      "trap": "Dizer *I born in 1995* está errado: falta o verbo to be. O certo é **I was born** in 1995."
+    },
+    {
+      "title": "Na prática: o relato de um incidente",
+      "text": "No trabalho, was e were aparecem em relatos curtos do que aconteceu: quem estava onde, como estava o sistema, quanto tempo durou o problema. Leia estas frases como se fossem parte de um e-mail depois de uma falha.\n\nObserve a combinação com o tempo: *last night*, *yesterday*, *at nine*. Elas deixam claro que o problema já acabou.",
+      "examples": [
+        {"en": "The server was down for two hours.", "pt": "O servidor ficou fora do ar por duas horas."},
+        {"en": "I was on call last night.", "pt": "Eu estava de plantão ontem à noite."},
+        {"en": "The logs were not clear.", "pt": "Os logs não estavam claros."},
+        {"en": "Was the backup ready?", "pt": "O backup estava pronto?"}
+      ]
+    }
+  ],
+  "summary": [
+    "O passado de to be tem duas formas: was (I, he, she, it) e were (you, we, they).",
+    "A negativa usa not depois de was/were: wasn't e weren't.",
+    "A pergunta inverte sujeito e verbo: Were you late? Was it ready?",
+    "Yesterday, last week e two days ago marcam tempo terminado; ago vem depois do período.",
+    "There was com um item e there were com vários; nascer é was born."
+  ],
+  "practice": [
+    {"id": "a2-02-p1", "type": "choice", "prompt": "I ___ late for the meeting yesterday.", "options": ["was", "were", "am"], "answer": 0,
+     "explain": "Com I, o passado de to be é was. A palavra yesterday indica passado.",
+     "why_not": {"1": "Were é usado com you, we e they.", "2": "Am é presente, e a frase fala de ontem."}},
+    {"id": "a2-02-p2", "type": "choice", "prompt": "They ___ at the office last week.", "options": ["was", "were", "is"], "answer": 1,
+     "explain": "They é plural e usa were no passado.",
+     "why_not": {"0": "Was é usado com I, he, she e it.", "2": "Is é presente."}},
+    {"id": "a2-02-p3", "type": "choice", "prompt": "The server ___ down last night.", "options": ["were", "was", "are"], "answer": 1,
+     "explain": "The server equivale a it, então usamos was: the server was down.",
+     "why_not": {"0": "Were seria para plural, e server está no singular.", "2": "Are é presente."}},
+    {"id": "a2-02-p4", "type": "fill", "prompt": "We ___ in Lisbon two years ago.", "answers": ["were"],
+     "explain": "We usa were no passado, e two years ago mostra que a ação já acabou."},
+    {"id": "a2-02-p5", "type": "fill", "prompt": "She ___ not at work on Monday.", "answers": ["was"],
+     "explain": "She usa was; na negativa, o not vem depois: she was not (wasn't)."},
+    {"id": "a2-02-p6", "type": "fill", "prompt": "___ you at the office yesterday?", "answers": ["were"],
+     "explain": "Na pergunta, o verbo vem antes do sujeito, e com you o passado é were."},
+    {"id": "a2-02-p7", "type": "translate", "prompt": "Eu estava cansado ontem.", "answers": ["I was tired yesterday.", "Yesterday I was tired."],
+     "explain": "Eu estava vira I was, e cansado é tired. Yesterday indica passado."},
+    {"id": "a2-02-p8", "type": "order", "words": ["Was", "the", "test", "difficult"], "prompt": "O teste foi difícil?",
+     "explain": "Na pergunta, was vem antes do sujeito: Was the test difficult?"},
+    {"id": "a2-02-p9", "type": "fix", "prompt": "I were at home last night.", "answers": ["I was at home last night."],
+     "explain": "Com I, o passado de to be é was, e não were."},
+    {"id": "a2-02-p10", "type": "fix", "prompt": "The tests wasn't ready.", "answers": ["The tests weren't ready."],
+     "explain": "The tests é plural (they), então a forma correta é weren't."},
+    {"id": "a2-02-p11", "type": "listen", "en": "There were three bugs in the code.",
+     "explain": "There were é usado com plural: three bugs. Escute o som de were e de bugs."},
+    {"id": "a2-02-p12", "type": "choice", "prompt": "Como se diz “Eu nasci em 1995”?", "options": ["I was born in 1995.", "I born in 1995.", "I am born in 1995."], "answer": 0,
+     "explain": "Em inglês, nascer usa o passado de to be + born: I was born.",
+     "why_not": {"1": "Falta o verbo to be antes de born.", "2": "Nascer é um fato do passado, então o verbo to be fica no passado: was."}}
+  ],
+  "quiz": [
+    {"id": "a2-02-q1", "type": "choice", "prompt": "My manager ___ in Berlin last week.", "options": ["were", "was", "is"], "answer": 1,
+     "explain": "My manager equivale a he/she, então usamos was. Last week indica passado.",
+     "why_not": {"0": "Were seria para plural ou you.", "2": "Is é presente."}},
+    {"id": "a2-02-q2", "type": "fill", "prompt": "The files ___ in the wrong folder yesterday.", "answers": ["were"],
+     "explain": "The files é plural (they), então o passado de to be é were."},
+    {"id": "a2-02-q3", "type": "translate", "prompt": "Nós não estávamos prontos ontem.", "answers": ["We were not ready yesterday.", "Yesterday we were not ready."],
+     "explain": "We usa were; na negativa, o not vem depois: we were not (weren't) ready."},
+    {"id": "a2-02-q4", "type": "order", "words": ["Where", "were", "you", "last", "night"], "prompt": "Onde você estava ontem à noite?",
+     "explain": "A ordem é palavra de pergunta + were + sujeito + expressão de tempo."},
+    {"id": "a2-02-q5", "type": "fix", "prompt": "Was they in the meeting yesterday?", "answers": ["Were they in the meeting yesterday?"],
+     "explain": "They é plural e usa were, e não was."},
+    {"id": "a2-02-q6", "type": "choice", "prompt": "I ___ in that company in 2020, but now I work here.", "options": ["am", "was", "were"], "answer": 1,
+     "explain": "In 2020 é um tempo passado e terminado, e com I usamos was.",
+     "why_not": {"0": "Am é presente.", "2": "Were não combina com I."}},
+    {"id": "a2-02-q7", "type": "listen", "en": "There was a problem with the database.",
+     "explain": "There was é usado com um item no singular: a problem."},
+    {"id": "a2-02-q8", "type": "fill", "prompt": "There ___ two errors in the log yesterday.", "answers": ["were"],
+     "explain": "Two errors é plural, então usamos there were."}
+  ],
+  "words": [
+    {"word": "yesterday", "pt": "ontem"},
+    {"word": "last night", "pt": "ontem à noite; na noite passada"},
+    {"word": "ago", "pt": "atrás; há (tempo)"},
+    {"word": "born", "pt": "nascido; nascida"},
+    {"word": "late", "pt": "atrasado; tarde"},
+    {"word": "ready", "pt": "pronto; pronta"},
+    {"word": "tired", "pt": "cansado; cansada"},
+    {"word": "error", "pt": "erro"},
+    {"word": "meeting", "pt": "reunião"},
+    {"word": "on call", "pt": "de plantão"}
+  ]
+}

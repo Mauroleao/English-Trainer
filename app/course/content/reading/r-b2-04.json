@@ -1,0 +1,31 @@
+{
+  "id": "r-b2-04",
+  "level": "B2",
+  "title": "The technical interview",
+  "topic": "Diálogo narrado",
+  "text": "Camila arrived ten minutes early for her interview and sat in the lobby, going through her notes one last time. She had applied for a backend developer position at a logistics company, and she was more nervous than she wanted to admit.\n\nThe interviewer, a tall man named Henrik, greeted her warmly and led her to a small meeting room. \"Don't worry,\" he said, \"this isn't an exam. I'd like to see how you think.\"\n\nHe asked her to design a system that tracks packages in real time. Camila hesitated for a moment, then began drawing boxes on the whiteboard. \"First I'd clarify the requirements,\" she said. \"How many packages per day? Do customers need instant updates, or is a delay of a minute acceptable?\" Henrik smiled; it was exactly the question he was hoping to hear.\n\nHalfway through, she realised that her first idea would not scale, because a single database would become a bottleneck. Instead of pretending nothing was wrong, she said so openly and proposed a queue to handle the load. \"I should have thought of that earlier,\" she admitted.\n\n\"That's fine,\" Henrik replied. \"Honestly, noticing your own mistakes is more valuable than never making any.\"\n\nWhen the hour was over, Camila felt exhausted but strangely satisfied. She didn't know whether she had got the job. What she did know was that, for the first time, she had enjoyed an interview.",
+  "pt": "Camila chegou dez minutos mais cedo para a entrevista e sentou-se no saguão, revisando suas anotações pela última vez. Ela havia se candidatado a uma vaga de desenvolvedora backend numa empresa de logística, e estava mais nervosa do que queria admitir.\n\nO entrevistador, um homem alto chamado Henrik, a cumprimentou calorosamente e a levou a uma pequena sala de reuniões. \"Não se preocupe\", disse ele, \"isto não é uma prova. Quero ver como você pensa.\"\n\nEle pediu que ela projetasse um sistema que rastreia encomendas em tempo real. Camila hesitou por um momento e então começou a desenhar caixas no quadro branco. \"Primeiro eu esclareceria os requisitos\", disse. \"Quantas encomendas por dia? Os clientes precisam de atualizações instantâneas ou um atraso de um minuto é aceitável?\" Henrik sorriu; era exatamente a pergunta que ele esperava ouvir.\n\nNo meio do caminho, ela percebeu que sua primeira ideia não escalaria, porque um único banco de dados se tornaria um gargalo. Em vez de fingir que nada estava errado, ela disse isso abertamente e propôs uma fila para lidar com a carga. \"Eu deveria ter pensado nisso antes\", admitiu.\n\n\"Tudo bem\", respondeu Henrik. \"Sinceramente, perceber os próprios erros é mais valioso do que nunca cometê-los.\"\n\nQuando a hora terminou, Camila estava exausta, mas estranhamente satisfeita. Não sabia se tinha conseguido a vaga. O que ela sabia era que, pela primeira vez, havia gostado de uma entrevista.",
+  "vocab": [
+    {"word": "lobby", "pt": "saguão"},
+    {"word": "applied", "pt": "se candidatou"},
+    {"word": "greeted", "pt": "cumprimentou"},
+    {"word": "hesitated", "pt": "hesitou"},
+    {"word": "requirements", "pt": "requisitos"},
+    {"word": "scale", "pt": "escalar"},
+    {"word": "bottleneck", "pt": "gargalo"},
+    {"word": "queue", "pt": "fila"},
+    {"word": "valuable", "pt": "valioso"}
+  ],
+  "questions": [
+    {"id": "r-b2-04-q1", "type": "choice", "prompt": "What did Henrik ask Camila to do?", "options": ["Write code on a laptop", "Design a package tracking system", "Explain her CV"], "answer": 1,
+     "explain": "Ele pediu que ela “design a system that tracks packages in real time”."},
+    {"id": "r-b2-04-q2", "type": "choice", "prompt": "Why did Henrik smile at her first questions?", "options": ["They were exactly what he hoped to hear", "He did not understand them", "They were very easy"], "answer": 0,
+     "explain": "O texto diz “it was exactly the question he was hoping to hear”: ela esclareceu os requisitos antes de projetar."},
+    {"id": "r-b2-04-q3", "type": "choice", "prompt": "What problem did Camila find in her first idea?", "options": ["It was too expensive", "A single database would be a bottleneck", "It used the wrong language"], "answer": 1,
+     "explain": "Ela percebeu que “a single database would become a bottleneck”."},
+    {"id": "r-b2-04-q4", "type": "choice", "prompt": "What does Henrik value most, according to the text?", "options": ["Never making mistakes", "Finishing quickly", "Noticing your own mistakes"], "answer": 2,
+     "explain": "Henrik diz que “noticing your own mistakes is more valuable than never making any”."},
+    {"id": "r-b2-04-q5", "type": "choice", "prompt": "How did Camila feel at the end?", "options": ["Sure she had the job", "Tired but satisfied", "Angry with Henrik"], "answer": 1,
+     "explain": "Ela se sentia “exhausted but strangely satisfied”, sem saber se conseguira a vaga."}
+  ]
+}

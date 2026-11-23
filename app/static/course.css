@@ -1,0 +1,89 @@
+/* ---- navegação em dois níveis ---- */
+#subnav{max-width:920px;margin:0 auto;padding:0 16px 8px;display:flex;gap:4px;flex-wrap:wrap}
+#subnav:empty{display:none}
+#subnav button{font:inherit;font-size:14px;border:1px solid var(--line);background:var(--card);color:var(--muted);border-radius:999px;padding:4px 12px;cursor:pointer}
+#subnav button[aria-current="page"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+nav button .dot{display:inline-block;min-width:18px;padding:0 5px;margin-left:4px;border-radius:999px;background:var(--bad);color:#fff;font-size:11px;line-height:18px;text-align:center}
+
+/* ---- barras e números ---- */
+.pbar{height:10px;background:var(--bg);border:1px solid var(--line);border-radius:999px;overflow:hidden}
+.pbar>i{display:block;height:100%;background:var(--accent);border-radius:999px;transition:width .3s}
+.pbar.ok>i{background:var(--ok)}
+.pbar.thin{height:6px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin:12px 0}
+.kpi{background:var(--bg);border-radius:12px;padding:12px}
+.kpi b{display:block;font-size:24px;line-height:1.2}
+.kpi span{font-size:13px;color:var(--muted)}
+.lvl{display:inline-block;font-size:12px;font-weight:700;border-radius:6px;padding:1px 8px;background:var(--accent);color:var(--accent-ink)}
+.bars{display:flex;align-items:flex-end;gap:4px;height:110px;margin-top:8px}
+.bars div{flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;height:100%;font-size:10px;color:var(--muted)}
+.bars i{display:block;width:100%;background:var(--accent);border-radius:4px 4px 0 0;min-height:2px}
+.bars i.zero{background:var(--line)}
+
+/* ---- mapa do curso ---- */
+.levels{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0}
+.levels button{font:inherit;text-align:left;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:12px;padding:8px 14px;cursor:pointer;min-width:96px}
+.levels button[aria-current]{border-color:var(--accent);outline:2px solid var(--accent)}
+.levels small{display:block;color:var(--muted)}
+.unit{margin:14px 0 4px;font-weight:700;font-size:14px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}
+.lesson-row{display:flex;gap:10px;align-items:center;width:100%;text-align:left;font:inherit;color:inherit;background:none;border:0;border-top:1px solid var(--line);padding:11px 4px;cursor:pointer}
+.lesson-row:hover{background:var(--bg)}
+.lesson-row .st{width:26px;height:26px;border-radius:50%;border:2px solid var(--line);display:grid;place-items:center;flex:none;font-size:13px}
+.lesson-row.done .st{background:var(--ok);border-color:var(--ok);color:#fff}
+.lesson-row.started .st{border-color:var(--accent);color:var(--accent)}
+.lesson-row.rec{background:var(--warn-bg)}
+.lesson-row .t{flex:1}
+.lesson-row .m{font-size:13px;color:var(--muted);white-space:nowrap}
+
+/* ---- aula ---- */
+.lesson-head{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:6px}
+.step-title{font-size:22px;margin:4px 0 10px}
+.prose p{margin:0 0 12px}
+.prose b{font-weight:700}
+.examples{border-left:4px solid var(--accent);padding:4px 0 4px 14px;margin:14px 0}
+.examples .exr{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap;padding:5px 0}
+.examples .en{font-weight:600;font-size:17px}
+.examples .pt{color:var(--muted);font-size:14px;flex-basis:100%}
+.hide-pt .examples .pt{display:none}
+.tbl{overflow-x:auto;margin:12px 0}
+.tbl table{min-width:320px}
+.tbl th{background:var(--bg)}
+.callout{border-radius:10px;padding:11px 14px;margin:12px 0;font-size:15px}
+.callout.tip{background:var(--ok-bg);color:var(--ok)}
+.callout.trap{background:var(--warn-bg);color:var(--warn)}
+.callout b.lead{display:block;font-size:12px;text-transform:uppercase;letter-spacing:.05em;margin-bottom:2px}
+.nav-row{display:flex;gap:8px;justify-content:space-between;margin-top:16px;flex-wrap:wrap}
+.summary li{margin:6px 0}
+
+/* ---- exercícios ---- */
+.ex-prompt{font-size:21px;font-weight:600;margin:8px 0 14px;line-height:1.4}
+.opts{display:grid;gap:8px}
+.opt{font:inherit;text-align:left;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:10px;padding:11px 14px;cursor:pointer}
+.opt:hover:not(:disabled){border-color:var(--accent)}
+.opt.right{background:var(--ok-bg);border-color:var(--ok);color:var(--ok)}
+.opt.wrong{background:var(--bad-bg);border-color:var(--bad);color:var(--bad)}
+.chips{display:flex;gap:8px;flex-wrap:wrap;min-height:44px;padding:8px;border:1px dashed var(--line);border-radius:10px;margin:8px 0}
+.chip{font:inherit;font-size:17px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:8px;padding:5px 12px;cursor:pointer}
+.chip.sel{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.explain{margin-top:10px}
+.pill-lv{font-size:11px;font-weight:700;border-radius:999px;padding:1px 8px;border:1px solid var(--line);color:var(--muted)}
+.qreview{border-top:1px solid var(--line);padding:10px 0}
+.qreview .yes{color:var(--ok);font-weight:700}.qreview .no{color:var(--bad);font-weight:700}
+.score{font-size:48px;font-weight:800;text-align:center}
+.score.ok{color:var(--ok)}.score.bad{color:var(--bad)}
+
+/* ---- hoje / leitura / pronúncia ---- */
+.task{display:flex;gap:12px;align-items:center;border-top:1px solid var(--line);padding:12px 0}
+.task:first-of-type{border-top:0}
+.task .ico{font-size:24px;width:36px;text-align:center}
+.task .body{flex:1;min-width:0}
+.task .body small{color:var(--muted);display:block}
+.reading-text p{font-size:18px;line-height:1.7;margin:0 0 14px}
+.reading-text.hidden{filter:blur(8px);user-select:none}
+.vocab-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:8px}
+.vocab-grid button{font:inherit;text-align:left;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:10px;padding:8px 10px;cursor:pointer}
+.vocab-grid small{display:block;color:var(--muted)}
+.mic-big{font-size:34px;border-radius:50%;width:84px;height:84px;border:2px solid var(--accent);background:var(--card);cursor:pointer}
+.mic-big.rec{background:var(--bad-bg);border-color:var(--bad);animation:pulse 1s infinite}
+.list-row{display:flex;gap:10px;align-items:center;border-top:1px solid var(--line);padding:10px 4px;cursor:pointer;width:100%;background:none;border-left:0;border-right:0;border-bottom:0;font:inherit;color:inherit;text-align:left}
+.list-row:hover{background:var(--bg)}

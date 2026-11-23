@@ -1,0 +1,281 @@
+{
+  "id": "b2-13",
+  "level": "B2",
+  "unit": "Vocabulário em uso",
+  "title": "Phrasal verbs II e preposições dependentes",
+  "goal": "Usar phrasal verbs separáveis, inseparáveis e de três partes, e escolher a preposição certa depois de verbos, adjetivos e substantivos.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "Phrasal verbs: verbo + partícula",
+      "text": "Um **phrasal verb** é um verbo seguido de uma **partícula** (*up*, *off*, *out*, *into*...) que muda ou completa o sentido: *look* é “olhar”, mas *look into* é “investigar”. Muitos têm **objeto** (*set up a server*); outros não têm (*The server broke down*).\n\nO importante é saber **onde o objeto pode ficar**. Alguns phrasal verbs são **separáveis**, outros **inseparáveis**, e há os de **três partes**. As próximas etapas mostram cada grupo.",
+      "table": {
+        "headers": ["Tipo", "Exemplo", "O objeto pode ir no meio?"],
+        "rows": [
+          ["Sem objeto", "The server broke down.", "Não há objeto"],
+          ["Separável", "set up the server / set the server up", "Sim"],
+          ["Inseparável", "look into the problem", "Não"],
+          ["Três partes", "come up with an idea", "Não"]
+        ]
+      },
+      "examples": [
+        {"en": "The server broke down during the demo.", "pt": "O servidor quebrou durante a demonstração."},
+        {"en": "Please log in with your new password.", "pt": "Faça login com sua nova senha."},
+        {"en": "We set up a test server last week.", "pt": "Configuramos um servidor de teste semana passada."}
+      ]
+    },
+    {
+      "title": "Separáveis: o objeto pode ficar no meio",
+      "text": "Nos phrasal verbs **separáveis**, o objeto pode vir depois da partícula ou **entre** o verbo e a partícula: *turn off the laptop* ou *turn the laptop off*. Se o objeto é um **pronome** (*it*, *them*, *me*), ele **tem** de ficar no meio: *turn it off*.\n\nSeparáveis comuns: *set up*, *back up*, *turn on/off*, *fill in/out*, *point out*, *carry out*, *sort out*, *figure out*, *put off*, *call off*. Se o objeto é longo, prefira colocá-lo depois da partícula.",
+      "examples": [
+        {"en": "Please turn off the projector.", "pt": "Por favor, desligue o projetor."},
+        {"en": "Please turn the projector off.", "pt": "Por favor, desligue o projetor."},
+        {"en": "I backed up the files, so please turn it off.", "pt": "Fiz o backup dos arquivos, então desligue-o, por favor."},
+        {"en": "We carried out the tests yesterday.", "pt": "Realizamos os testes ontem."}
+      ],
+      "trap": "Com pronome, a partícula não pode ficar antes dele: *turn off it* está errado. O certo é *turn it off*."
+    },
+    {
+      "title": "Inseparáveis: o objeto vem depois de tudo",
+      "text": "Nos phrasal verbs **inseparáveis**, verbo e partícula andam sempre juntos, e o objeto vem **depois**: *look into the issue*, *deal with the client*, *run into a problem*. Isso vale também para pronomes: *look into it*, *deal with them*.\n\nInseparáveis comuns: *look into* (investigar), *come across* (encontrar por acaso), *run into* (esbarrar em), *deal with* (lidar com), *look after* (cuidar de), *go through* (examinar), *get over* (superar).",
+      "examples": [
+        {"en": "We need to look into the problem.", "pt": "Precisamos investigar o problema."},
+        {"en": "I came across an old bug in the logs.", "pt": "Encontrei por acaso um bug antigo nos logs."},
+        {"en": "She deals with difficult clients every day.", "pt": "Ela lida com clientes difíceis todos os dias."},
+        {"en": "Let's go through the report together.", "pt": "Vamos examinar o relatório juntos."}
+      ],
+      "trap": "Não separe esses verbos: *look the problem into* e *deal the client with* estão errados. Diga *look into the problem* e *deal with the client*."
+    },
+    {
+      "title": "Phrasal verbs de três partes",
+      "text": "Alguns phrasal verbs têm **três partes**: verbo + partícula + preposição. Eles são **inseparáveis** e o objeto vem sempre no final: *come up with a solution*, *run out of space*, *get along with a colleague*.\n\nOutros muito úteis: *catch up with* (alcançar, pôr em dia), *put up with* (tolerar), *keep up with* (acompanhar), *get on with* (seguir com), *look forward to* (aguardar com expectativa). Depois de *look forward to*, o *to* é preposição, então o verbo seguinte leva **-ing**.",
+      "examples": [
+        {"en": "The team came up with a clever solution.", "pt": "A equipe teve uma solução inteligente."},
+        {"en": "We ran out of disk space during the backup.", "pt": "Ficamos sem espaço em disco durante o backup."},
+        {"en": "I get along with everyone on my team.", "pt": "Eu me dou bem com todos na minha equipe."},
+        {"en": "I am looking forward to meeting you at the conference.", "pt": "Estou ansioso para conhecer você na conferência."}
+      ],
+      "trap": "Não escreva *I look forward to meet you*. O to aqui é preposição, então use *-ing*: *I look forward to meeting you*."
+    },
+    {
+      "title": "Verbo + preposição",
+      "text": "Muitos verbos exigem uma **preposição fixa** antes do objeto. Ela nem sempre coincide com o português: “depender **de**” é *depend **on***, “esperar” é *wait **for***, “participar **de**” é *participate **in***. Aprenda o verbo junto com a preposição.\n\nSe depois da preposição vier outro verbo, ele fica com **-ing**: *She apologized for being late*. Observe também que alguns verbos que levam preposição em português **não levam** em inglês: *discuss* (discutir) vem direto antes do objeto.",
+      "table": {
+        "headers": ["Verbo + preposição", "Exemplo"],
+        "rows": [
+          ["depend on / rely on", "We depend on this library."],
+          ["apologize for", "He apologized for the delay."],
+          ["complain about", "Users complain about the speed."],
+          ["belong to", "This file belongs to Ana."],
+          ["succeed in", "We succeeded in fixing it."],
+          ["agree with", "I agree with you."]
+        ]
+      },
+      "examples": [
+        {"en": "Our team depends on this library for logging.", "pt": "Nossa equipe depende desta biblioteca para logs."},
+        {"en": "She apologized to the client for being late.", "pt": "Ela pediu desculpas ao cliente por se atrasar."},
+        {"en": "They discussed the new design.", "pt": "Eles discutiram o novo design."}
+      ],
+      "trap": "Não diga *discuss about* nem *explain me*. O correto é *discuss the design* (ou *talk about the design*) e *explain it to me*."
+    },
+    {
+      "title": "Adjetivo + preposição",
+      "text": "Vários **adjetivos** também pedem uma preposição fixa. Se um verbo vier depois dela, use **-ing**: *good at debugging*, *interested in learning*. Em português a preposição às vezes é diferente, então vale decorar o par completo.\n\nPares muito usados no trabalho: *responsible for*, *interested in*, *aware of*, *capable of*, *familiar with*, *famous for*, *afraid of*, *similar to*, *different from*, *good at*, *satisfied with*, *worried about*.",
+      "table": {
+        "headers": ["Adjetivo + preposição", "Exemplo"],
+        "rows": [
+          ["responsible for", "She is responsible for the pipeline."],
+          ["aware of", "Are you aware of the risk?"],
+          ["familiar with", "I am familiar with Docker."],
+          ["interested in", "He is interested in data security."],
+          ["similar to", "This tool is similar to the old one."],
+          ["good at", "Lena is good at debugging."]
+        ]
+      },
+      "examples": [
+        {"en": "She is responsible for the deployment pipeline.", "pt": "Ela é responsável pelo pipeline de deploy."},
+        {"en": "Nobody was aware of the new policy.", "pt": "Ninguém sabia da nova política."},
+        {"en": "I am not familiar with this framework.", "pt": "Não estou familiarizado com este framework."}
+      ]
+    },
+    {
+      "title": "Substantivo + preposição",
+      "text": "Os **substantivos** também têm preposições fixas, e elas costumam acompanhar o verbo ou adjetivo da mesma família: *to rely on* → *reliance on*; *to need* → *a need for*. Aprender o substantivo junto com a preposição evita erros em e-mails e relatórios.\n\nExemplos úteis: *a reason for*, *a solution to*, *a problem with*, *an increase in*, *a demand for*, *access to*, *an impact on*, *a difference between X and Y*.",
+      "examples": [
+        {"en": "What is the reason for the delay?", "pt": "Qual é o motivo do atraso?"},
+        {"en": "We found a solution to the performance problem.", "pt": "Encontramos uma solução para o problema de desempenho."},
+        {"en": "There is a high demand for cloud engineers.", "pt": "Há uma grande procura por engenheiros de nuvem."},
+        {"en": "Only admins have access to this folder.", "pt": "Só administradores têm acesso a esta pasta."},
+        {"en": "The update had a big impact on performance.", "pt": "A atualização teve um grande impacto no desempenho."}
+      ],
+      "trap": "Em português dizemos “motivo **de**”, mas em inglês é *reason **for***: *the reason for the delay*, e não *reason of*."
+    }
+  ],
+  "summary": [
+    "Phrasal verbs separáveis aceitam o objeto no meio (turn the laptop off); com pronome, ele é obrigatoriamente no meio (turn it off).",
+    "Phrasal verbs inseparáveis mantêm verbo e partícula juntos, e o objeto vem depois (look into the problem, look into it).",
+    "Os de três partes (come up with, run out of, get along with) também são inseparáveis; em look forward to, o to é preposição e pede -ing.",
+    "Verbos, adjetivos e substantivos têm preposições fixas (depend on, responsible for, reason for); aprenda cada um com sua preposição.",
+    "Depois de uma preposição, o verbo vem com -ing (apologize for being late, good at debugging)."
+  ],
+  "practice": [
+    {
+      "id": "b2-13-p1",
+      "type": "choice",
+      "prompt": "We need to set ___ a new test server.",
+      "options": ["up", "on", "at"],
+      "answer": 0,
+      "explain": "Set up significa configurar ou montar. É um phrasal verb separável: set up a server ou set a server up.",
+      "why_not": {"1": "Set on não tem esse sentido.", "2": "At é preposição de lugar, e set at não significa configurar."}
+    },
+    {
+      "id": "b2-13-p2",
+      "type": "choice",
+      "prompt": "Which sentence is correct?",
+      "options": ["Please turn off it.", "Please turn it off.", "Please turn off it off."],
+      "answer": 1,
+      "explain": "Turn off é separável, e com pronome o objeto fica obrigatoriamente no meio: turn it off.",
+      "why_not": {"0": "Com o pronome it, a partícula não pode vir antes dele.", "2": "A partícula off aparece duas vezes e a frase fica sem sentido."}
+    },
+    {
+      "id": "b2-13-p3",
+      "type": "fill",
+      "prompt": "We ran ___ of disk space during the backup.",
+      "answers": ["out"],
+      "explain": "Run out of significa ficar sem algo. É um phrasal verb de três partes: run out of + objeto."
+    },
+    {
+      "id": "b2-13-p4",
+      "type": "fill",
+      "prompt": "She is responsible ___ the deployment pipeline.",
+      "answers": ["for"],
+      "explain": "O adjetivo responsible pede a preposição for: responsible for something."
+    },
+    {
+      "id": "b2-13-p5",
+      "type": "choice",
+      "prompt": "The team came up ___ a clever solution.",
+      "options": ["with", "for", "of"],
+      "answer": 0,
+      "explain": "Come up with é o phrasal verb de três partes que significa ter uma ideia ou propor uma solução.",
+      "why_not": {"1": "Come up for não tem esse sentido.", "2": "Come up of não existe nesse contexto."}
+    },
+    {
+      "id": "b2-13-p6",
+      "type": "fix",
+      "prompt": "We need to look the problem into.",
+      "answers": ["We need to look into the problem."],
+      "explain": "Look into é inseparável: o objeto vem depois de verbo e partícula juntos (look into the problem)."
+    },
+    {
+      "id": "b2-13-p7",
+      "type": "fix",
+      "prompt": "He apologized about the delay.",
+      "answers": ["He apologized for the delay."],
+      "explain": "O verbo apologize pede for antes do motivo: apologize for the delay."
+    },
+    {
+      "id": "b2-13-p8",
+      "type": "order",
+      "words": ["Can", "you", "back", "up", "the", "database"],
+      "prompt": "Você pode fazer backup do banco de dados?",
+      "answers": ["Can you back the database up?"],
+      "explain": "Back up é separável, então o objeto pode vir depois da partícula (back up the database) ou no meio (back the database up)."
+    },
+    {
+      "id": "b2-13-p9",
+      "type": "translate",
+      "prompt": "Nós dependemos deste serviço.",
+      "answers": ["We depend on this service.", "We rely on this service."],
+      "explain": "Depender de é depend on, e rely on tem sentido muito próximo. Em inglês não se usa depend of."
+    },
+    {
+      "id": "b2-13-p10",
+      "type": "choice",
+      "prompt": "I am looking forward to ___ you at the conference.",
+      "options": ["meet", "meeting", "met"],
+      "answer": 1,
+      "explain": "Em look forward to, o to é preposição, e depois de preposição o verbo fica com -ing: meeting.",
+      "why_not": {"0": "Meet é a forma base, usada depois do to de infinitivo, e não depois de preposição.", "2": "Met é passado e não combina com look forward to."}
+    },
+    {
+      "id": "b2-13-p11",
+      "type": "fill",
+      "prompt": "There is a high demand ___ cloud engineers.",
+      "answers": ["for"],
+      "explain": "O substantivo demand pede for: a demand for something."
+    },
+    {
+      "id": "b2-13-p12",
+      "type": "listen",
+      "en": "I came across an old bug while I was checking the logs.",
+      "explain": "Come across é inseparável e significa encontrar por acaso. O objeto (an old bug) vem depois."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "b2-13-q1",
+      "type": "choice",
+      "prompt": "We could not find the reason, so we asked Ravi to ___ the issue.",
+      "options": ["look into", "look after", "look forward"],
+      "answer": 0,
+      "explain": "Look into significa investigar, que é o que se faz para encontrar a causa de um problema.",
+      "why_not": {"1": "Look after significa cuidar de alguém ou de algo.", "2": "Look forward só funciona com to e significa aguardar com expectativa."}
+    },
+    {
+      "id": "b2-13-q2",
+      "type": "fill",
+      "prompt": "Please fill ___ this form before the interview.",
+      "answers": ["in", "out"],
+      "explain": "Fill in e fill out são equivalentes e significam preencher. O phrasal verb é separável: fill in the form ou fill the form in."
+    },
+    {
+      "id": "b2-13-q3",
+      "type": "translate",
+      "prompt": "Ele está interessado em segurança de dados.",
+      "answers": ["He is interested in data security."],
+      "explain": "O adjetivo interested pede in: interested in something."
+    },
+    {
+      "id": "b2-13-q4",
+      "type": "order",
+      "words": ["We", "ran", "into", "a", "problem", "with", "the", "database"],
+      "prompt": "Nós esbarramos em um problema com o banco de dados.",
+      "explain": "Run into é inseparável e o objeto vem depois (a problem). O substantivo problem pede with."
+    },
+    {
+      "id": "b2-13-q5",
+      "type": "fix",
+      "prompt": "They discussed about the new design.",
+      "answers": ["They discussed the new design.", "They talked about the new design."],
+      "explain": "O verbo discuss não leva preposição: discuss the new design. Se quiser usar about, troque por talked about."
+    },
+    {
+      "id": "b2-13-q6",
+      "type": "choice",
+      "prompt": "Our team depends ___ this library for logging.",
+      "options": ["on", "of", "from"],
+      "answer": 0,
+      "explain": "A preposição fixa de depend é on: depend on something.",
+      "why_not": {"1": "Depend of é um erro causado pelo português “depender de”.", "2": "Depend from não existe em inglês nesse sentido."}
+    },
+    {
+      "id": "b2-13-q7",
+      "type": "listen",
+      "en": "Please turn it off before you leave the office.",
+      "explain": "Turn off é separável, e o pronome it vai entre o verbo e a partícula: turn it off."
+    }
+  ],
+  "words": [
+    {"word": "set up", "pt": "configurar; montar; instalar"},
+    {"word": "back up", "pt": "fazer backup de"},
+    {"word": "look into", "pt": "investigar; examinar"},
+    {"word": "come across", "pt": "encontrar por acaso"},
+    {"word": "come up with", "pt": "ter uma ideia; propor"},
+    {"word": "run out of", "pt": "ficar sem; esgotar"},
+    {"word": "depend on", "pt": "depender de"},
+    {"word": "apologize for", "pt": "pedir desculpas por"},
+    {"word": "responsible for", "pt": "responsável por"},
+    {"word": "aware of", "pt": "ciente de; consciente de"}
+  ]
+}

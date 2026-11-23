@@ -1,0 +1,290 @@
+{
+  "id": "b2-12",
+  "level": "B2",
+  "unit": "Orações e conectores",
+  "title": "Contraste, causa e finalidade",
+  "goal": "Ligar ideias com precisão em e-mails e relatórios, escolhendo entre despite, although, because of, so that, in order to e conectores semelhantes.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "Três relações, uma pergunta-chave",
+      "text": "Em relatórios e e-mails, você liga ideias de três formas: **contraste** (uma ideia vai contra a outra), **causa** (o motivo de algo) e **finalidade** (o objetivo de uma ação).\n\nO português usa “apesar de”, “por causa de” e “para” em muitos contextos. O inglês escolhe a palavra conforme o que vem depois: um **substantivo ou -ing** ou uma **oração completa** (sujeito + verbo). Antes de escrever, pergunte: o que vem depois do conector?",
+      "table": {
+        "headers": ["Relação", "+ substantivo ou -ing", "+ oração completa"],
+        "rows": [
+          ["Contraste", "despite, in spite of", "although, even though, while, whereas"],
+          ["Causa", "because of, due to, owing to", "because, since, as"],
+          ["Finalidade", "to, in order to, so as to (+ verbo base)", "so that"]
+        ]
+      },
+      "examples": [
+        {"en": "Despite the delay, we released on Friday.", "pt": "Apesar do atraso, lançamos na sexta."},
+        {"en": "Although the delay was short, the client complained.", "pt": "Embora o atraso tenha sido curto, o cliente reclamou."},
+        {"en": "The release was late because of a bug.", "pt": "O lançamento atrasou por causa de um bug."}
+      ]
+    },
+    {
+      "title": "Despite e in spite of",
+      "text": "**Despite** e **in spite of** significam “apesar de” e têm o mesmo sentido. Depois deles vem um **substantivo** ou um verbo com **-ing**: *despite the delay*, *in spite of working late*. Repare que *despite* não leva **of**, e *in spite of* leva.\n\nPara usar uma oração completa, acrescente **the fact that**: *Despite the fact that the test failed, we deployed*. Quando o sujeito é o mesmo nas duas partes, o -ing costuma soar mais natural: *Despite being tired, she finished*.",
+      "examples": [
+        {"en": "Despite the heavy traffic, Sam arrived on time.", "pt": "Apesar do trânsito pesado, Sam chegou no horário."},
+        {"en": "In spite of working late, she missed the deadline.", "pt": "Apesar de trabalhar até tarde, ela perdeu o prazo."},
+        {"en": "Despite the fact that the test failed, we deployed.", "pt": "Apesar de o teste ter falhado, fizemos o deploy."},
+        {"en": "Despite being tired, Ana finished the release.", "pt": "Apesar de estar cansada, Ana terminou a release."}
+      ],
+      "trap": "Não escreva *despite of* nem *despite he was tired*. O certo é *despite being tired* ou *although he was tired*."
+    },
+    {
+      "title": "Although, even though, while e whereas",
+      "text": "**Although**, **though**, **even though**, **while** e **whereas** são seguidos de uma **oração completa**. *Although* é “embora”; *even though* é a versão mais forte (“mesmo tendo…”), usada para um fato real. **While** e **whereas** contrastam duas coisas, como “enquanto” no sentido de “por outro lado”.\n\nA oração com *although* pode abrir a frase (com vírgula) ou vir no fim (sem vírgula): *Although it was late, she stayed* e *She stayed although it was late*.",
+      "examples": [
+        {"en": "Even though he was ill, he joined the call.", "pt": "Mesmo doente, ele entrou na chamada."},
+        {"en": "Our old API is slow, whereas the new one is fast.", "pt": "Nossa API antiga é lenta, ao passo que a nova é rápida."},
+        {"en": "While I agree with the idea, I think it is too expensive.", "pt": "Embora eu concorde com a ideia, acho que é cara demais."},
+        {"en": "She stayed although it was late.", "pt": "Ela ficou, embora fosse tarde."}
+      ],
+      "trap": "Em português é comum dizer “embora…, mas…”. Em inglês, não use os dois: *Although it was late, but she stayed* está errado. Use só *although* ou só *but*."
+    },
+    {
+      "title": "However, nevertheless e nonetheless",
+      "text": "**However**, **nevertheless** e **nonetheless** são **advérbios conectivos**: ligam duas frases, mas não funcionam como conjunção. Por isso aparecem com pontuação própria: um ponto (ou ponto e vírgula) antes e uma vírgula depois.\n\n**However** é neutro (“no entanto”). **Nevertheless** e **nonetheless** são mais formais (“mesmo assim”). Os três podem ir também no meio da frase, entre vírgulas: *The code, however, is slow*.",
+      "examples": [
+        {"en": "The code works. However, it is slow.", "pt": "O código funciona. No entanto, é lento."},
+        {"en": "The tests passed; nevertheless, we waited a day.", "pt": "Os testes passaram; mesmo assim, esperamos um dia."},
+        {"en": "The budget is small. Nonetheless, the team is confident.", "pt": "O orçamento é pequeno. Mesmo assim, a equipe está confiante."}
+      ],
+      "trap": "Não una duas orações só com vírgula: *The test failed, however we deployed* é erro. Escreva *The test failed; however, we deployed* ou separe com ponto."
+    },
+    {
+      "title": "Causa: because, because of, due to, owing to",
+      "text": "Para o motivo, vale a mesma regra: **because** vem antes de uma **oração**; **because of**, **due to** e **owing to** vêm antes de um **substantivo** (ou -ing). *We were late because the server crashed* equivale a *We were late because of the crash*.\n\n**Due to** e **owing to** são mais formais. **Since** e **as** também introduzem causa, quando o motivo já é conhecido, e costumam abrir a frase: *Since the build failed, we stopped*.",
+      "examples": [
+        {"en": "We were late because the server crashed.", "pt": "Atrasamos porque o servidor caiu."},
+        {"en": "We were late because of the crash.", "pt": "Atrasamos por causa da queda."},
+        {"en": "The meeting was delayed owing to a power cut.", "pt": "A reunião foi adiada devido a uma queda de energia."},
+        {"en": "Since the build failed, we stopped the release.", "pt": "Como o build falhou, paramos o lançamento."}
+      ],
+      "trap": "*Because the crash, we were late* está errado: faltou o of. Escreva *because of the crash* ou *because the server crashed*."
+    },
+    {
+      "title": "Finalidade: to, in order to, so as to, so that",
+      "text": "Para dizer **para quê** algo foi feito, use **to + verbo**. **In order to** e **so as to** são equivalentes mais formais. Na negativa, use **in order not to** ou **so as not to**.\n\nQuando o sujeito muda ou há um modal, use **so that + oração**, normalmente com *can*, *could*, *will* ou *would*: *We keep a backup so that we can restore the data*. No passado, o modal costuma ser *could* ou *would*.",
+      "examples": [
+        {"en": "She wrote tests to prevent regressions.", "pt": "Ela escreveu testes para evitar regressões."},
+        {"en": "We stayed late in order to finish the release.", "pt": "Ficamos até tarde para terminar a release."},
+        {"en": "He logged out so as not to leave the session open.", "pt": "Ele saiu da conta para não deixar a sessão aberta."},
+        {"en": "I sent the file early so that the client could review it.", "pt": "Enviei o arquivo cedo para que o cliente pudesse revisá-lo."}
+      ],
+      "trap": "Não use *for + verbo* para finalidade: *I use this tool for fix bugs* está errado. Diga *I use this tool to fix bugs*."
+    },
+    {
+      "title": "Tudo junto num relatório de incidente",
+      "text": "Veja os conectores trabalhando num relatório curto. Cada um combina com o que vem depois: **due to** + substantivo, **although** + oração, **in order to** + verbo, **so that** + oração.\n\nQuando tiver dúvida, volte à pergunta da primeira etapa: depois do conector vai um substantivo ou uma oração com sujeito e verbo? Essa resposta já elimina metade das opções.",
+      "examples": [
+        {"en": "Due to a faulty update, the login service was down for an hour.", "pt": "Devido a uma atualização com defeito, o serviço de login ficou fora do ar por uma hora."},
+        {"en": "Although the team reacted quickly, some users lost their session.", "pt": "Embora a equipe tenha reagido rápido, alguns usuários perderam a sessão."},
+        {"en": "We rolled back the update in order to restore access.", "pt": "Revertemos a atualização para restaurar o acesso."},
+        {"en": "Nevertheless, we will review the process so that this does not happen again.", "pt": "Mesmo assim, vamos revisar o processo para que isso não aconteça de novo."}
+      ],
+      "tip": "Em relatórios, prefira due to, owing to e in order to; em conversas, because of e to soam mais naturais."
+    }
+  ],
+  "summary": [
+    "Despite e in spite of vêm antes de substantivo ou -ing (despite the delay, despite being tired); despite não leva of.",
+    "Although, even though, while e whereas vêm antes de uma oração completa; nunca combine although com but na mesma frase.",
+    "However, nevertheless e nonetheless são advérbios conectivos: precisam de ponto ou ponto e vírgula antes e de vírgula depois.",
+    "Because vem antes de oração; because of, due to e owing to vêm antes de substantivo.",
+    "Finalidade: to, in order to e so as to + verbo; so that + oração (com can, could, will ou would)."
+  ],
+  "practice": [
+    {
+      "id": "b2-12-p1",
+      "type": "choice",
+      "prompt": "___ the heavy traffic, Sam arrived on time.",
+      "options": ["Despite", "Although", "However"],
+      "answer": 0,
+      "explain": "Depois da lacuna vem um substantivo (the heavy traffic), então usamos despite.",
+      "why_not": {"1": "Although exige uma oração completa, com sujeito e verbo.", "2": "However é um advérbio conectivo e liga duas frases, não vem antes de um substantivo."}
+    },
+    {
+      "id": "b2-12-p2",
+      "type": "choice",
+      "prompt": "___ the tests passed, the client rejected the release.",
+      "options": ["Although", "Despite", "In spite of"],
+      "answer": 0,
+      "explain": "Depois da lacuna vem uma oração completa (the tests passed), e o conector que a introduz é although.",
+      "why_not": {"1": "Despite precisa de substantivo ou -ing (ou da expressão the fact that).", "2": "In spite of segue a mesma regra de despite: substantivo ou -ing."}
+    },
+    {
+      "id": "b2-12-p3",
+      "type": "fill",
+      "prompt": "The meeting was delayed ___ a network error.",
+      "answers": ["because of", "due to", "owing to", "as a result of", "on account of"],
+      "explain": "Depois da lacuna vem um substantivo (a network error), então precisamos de because of, due to ou owing to. Because sozinho exigiria uma oração."
+    },
+    {
+      "id": "b2-12-p4",
+      "type": "fill",
+      "prompt": "We use two servers ___ that the site stays online if one fails.",
+      "answers": ["so"],
+      "explain": "So that introduz a finalidade com uma oração completa: so that the site stays online."
+    },
+    {
+      "id": "b2-12-p5",
+      "type": "order",
+      "words": ["Although", "it", "was", "late", "she", "kept", "working"],
+      "prompt": "Embora fosse tarde, ela continuou trabalhando.",
+      "answers": ["She kept working although it was late."],
+      "explain": "Although introduz uma oração completa (it was late). Quando ela abre a frase, vem uma vírgula antes da oração principal."
+    },
+    {
+      "id": "b2-12-p6",
+      "type": "fix",
+      "prompt": "Despite he was tired, he finished the release.",
+      "answers": [
+        "Despite being tired, he finished the release.",
+        "Although he was tired, he finished the release.",
+        "Despite the fact that he was tired, he finished the release.",
+        "In spite of being tired, he finished the release.",
+        "In spite of the fact that he was tired, he finished the release."
+      ],
+      "explain": "Despite não aceita sujeito + verbo diretamente. Use -ing (despite being tired), the fact that ou troque por although."
+    },
+    {
+      "id": "b2-12-p7",
+      "type": "fix",
+      "prompt": "She stayed late in order finish the report.",
+      "answers": [
+        "She stayed late in order to finish the report.",
+        "She stayed late so as to finish the report.",
+        "She stayed late to finish the report."
+      ],
+      "explain": "A expressão é in order to + verbo. Faltou o to antes de finish."
+    },
+    {
+      "id": "b2-12-p8",
+      "type": "translate",
+      "prompt": "Apesar do atraso, entregamos o projeto.",
+      "answers": [
+        "Despite the delay, we delivered the project.",
+        "In spite of the delay, we delivered the project.",
+        "Despite the delay, we still delivered the project.",
+        "In spite of the delay, we still delivered the project."
+      ],
+      "explain": "O atraso é um substantivo, então usamos despite ou in spite of (nunca despite of) + the delay."
+    },
+    {
+      "id": "b2-12-p9",
+      "type": "choice",
+      "prompt": "Our old system was slow, ___ the new one is very fast.",
+      "options": ["whereas", "despite", "because of"],
+      "answer": 0,
+      "explain": "Whereas contrasta duas coisas (o sistema antigo e o novo) e é seguido de oração completa.",
+      "why_not": {"1": "Despite vem antes de substantivo ou -ing e não liga duas orações.", "2": "Because of indica causa, e aqui há contraste."}
+    },
+    {
+      "id": "b2-12-p10",
+      "type": "choice",
+      "prompt": "The tests passed. ___, we decided to wait before deploying.",
+      "options": ["Nevertheless", "Although", "Despite"],
+      "answer": 0,
+      "explain": "Nevertheless liga duas frases separadas e é seguido de vírgula: mesmo assim, decidimos esperar.",
+      "why_not": {"1": "Although é conjunção e iria dentro da mesma frase, sem ponto antes.", "2": "Despite exige substantivo ou -ing, e não uma oração."}
+    },
+    {
+      "id": "b2-12-p11",
+      "type": "choice",
+      "prompt": "I wrote everything down ___ I would not forget.",
+      "options": ["so that", "so as to", "in spite of"],
+      "answer": 0,
+      "explain": "Há uma oração completa depois da lacuna (I would not forget), e so that + oração expressa a finalidade.",
+      "why_not": {"1": "So as to é seguido de verbo no infinitivo, e não de sujeito + verbo.", "2": "In spite of indica contraste e não finalidade."}
+    },
+    {
+      "id": "b2-12-p12",
+      "type": "listen",
+      "en": "Owing to a database error, the report was delayed.",
+      "explain": "Owing to vem antes de um substantivo (a database error) e indica a causa do atraso."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "b2-12-q1",
+      "type": "choice",
+      "prompt": "___ the fact that the budget was small, the team finished on time.",
+      "options": ["Despite", "Although", "However"],
+      "answer": 0,
+      "explain": "Despite the fact that + oração é uma construção correta. É a forma de usar despite com sujeito e verbo.",
+      "why_not": {"1": "Although não combina com the fact that.", "2": "However liga frases separadas e não vem antes de the fact that."}
+    },
+    {
+      "id": "b2-12-q2",
+      "type": "fill",
+      "prompt": "Maya enjoys frontend work, ___ her colleague prefers databases.",
+      "answers": ["whereas", "while", "but"],
+      "explain": "Whereas e while contrastam duas pessoas ou coisas e vêm antes de oração completa."
+    },
+    {
+      "id": "b2-12-q3",
+      "type": "translate",
+      "prompt": "Ele usa uma senha forte para proteger os dados.",
+      "answers": [
+        "He uses a strong password to protect the data.",
+        "He uses a strong password in order to protect the data.",
+        "He uses a strong password so as to protect the data.",
+        "He uses a strong password to protect his data.",
+        "He uses a strong password in order to protect his data.",
+        "He uses a strong password so as to protect his data.",
+        "He uses a strong password so that he can protect the data.",
+        "He uses a strong password so that he can protect his data."
+      ],
+      "explain": "Para a finalidade, usamos to + verbo, ou as formas mais formais in order to e so as to."
+    },
+    {
+      "id": "b2-12-q4",
+      "type": "order",
+      "words": ["Due", "to", "the", "outage", "the", "meeting", "was", "postponed"],
+      "prompt": "Devido à queda, a reunião foi adiada.",
+      "answers": ["The meeting was postponed due to the outage.", "The meeting was postponed owing to the outage.", "The meeting was postponed because of the outage.", "Owing to the outage, the meeting was postponed.", "Because of the outage, the meeting was postponed."],
+      "explain": "Due to vem antes de um substantivo (the outage). Aberta no começo da frase, a expressão é seguida de vírgula."
+    },
+    {
+      "id": "b2-12-q5",
+      "type": "fix",
+      "prompt": "Because the heavy rain, the event was moved online.",
+      "answers": [
+        "Because of the heavy rain, the event was moved online.",
+        "Due to the heavy rain, the event was moved online.",
+        "Owing to the heavy rain, the event was moved online."
+      ],
+      "explain": "The heavy rain é um substantivo, então precisamos de because of, due to ou owing to. Because sozinho exigiria uma oração."
+    },
+    {
+      "id": "b2-12-q6",
+      "type": "choice",
+      "prompt": "He double-checked the configuration ___ avoid mistakes.",
+      "options": ["so as to", "so that", "because of"],
+      "answer": 0,
+      "explain": "Depois da lacuna vem um verbo no infinitivo sem sujeito (avoid), e so as to + verbo expressa a finalidade.",
+      "why_not": {"1": "So that exige uma oração com sujeito e verbo.", "2": "Because of indica causa e vem antes de substantivo."}
+    },
+    {
+      "id": "b2-12-q7",
+      "type": "listen",
+      "en": "Even though the deadline was tight, the team stayed calm.",
+      "explain": "Even though introduz uma oração completa (the deadline was tight) e mostra o contraste com a calma da equipe."
+    }
+  ],
+  "words": [
+    {"word": "despite", "pt": "apesar de"},
+    {"word": "although", "pt": "embora; apesar de que"},
+    {"word": "whereas", "pt": "ao passo que; enquanto (contraste)"},
+    {"word": "nevertheless", "pt": "mesmo assim; no entanto"},
+    {"word": "owing to", "pt": "devido a"},
+    {"word": "due to", "pt": "devido a; por causa de"},
+    {"word": "so that", "pt": "para que"},
+    {"word": "outage", "pt": "queda; indisponibilidade"},
+    {"word": "budget", "pt": "orçamento"},
+    {"word": "tight", "pt": "apertado; curto (prazo)"}
+  ]
+}

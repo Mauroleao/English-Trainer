@@ -1,0 +1,262 @@
+{
+  "id": "c1-13",
+  "level": "C1",
+  "unit": "Precisão e padrões",
+  "title": "Padrões verbais complexos",
+  "goal": "Escolher a estrutura certa depois de verbos como persuade, remind, let, prevent, accuse e look forward to, evitando os erros típicos de quem pensa em português.",
+  "minutes": 30,
+  "steps": [
+    {
+      "title": "O verbo decide o que vem depois",
+      "text": "Em inglês avançado, quase nunca basta saber o **significado** de um verbo: é preciso saber o **padrão** que ele exige. Depois de *want* vem objeto + **to** + verbo; depois de *let* vem objeto + verbo **sem** *to*; depois de *prevent* vem objeto + **from** + -ing. O português usa estruturas diferentes (“quero **que** você faça”, “deixo você fazer”), e copiar esse molde palavra por palavra leva a erros.\n\nNesta lição você estuda os padrões mais úteis no trabalho: verbo + **objeto** + infinitivo, verbo + objeto + **-ing**, verbo + objeto + **that**, e verbos que levam **preposição** + -ing.",
+      "examples": [
+        {"en": "My manager wants me to join the call.", "pt": "Meu gerente quer que eu entre na chamada."},
+        {"en": "She persuaded the client to extend the contract.", "pt": "Ela convenceu o cliente a prorrogar o contrato."},
+        {"en": "They let us work from home on Fridays.", "pt": "Eles nos deixam trabalhar de casa às sextas."}
+      ],
+      "tip": "Ao aprender um verbo novo, anote o padrão junto: *persuade someone to do something*, e não só “persuadir”."
+    },
+    {
+      "title": "Verbo + objeto + to + infinitivo",
+      "text": "Este é o padrão mais frequente. A estrutura é **verbo + pessoa + to + verbo base**. O **objeto** (a pessoa) vem **antes** do infinitivo e funciona como quem vai fazer a ação: em *I asked her to review the code*, é *her* quem revisa.\n\nPara a forma negativa, coloque **not** antes de *to*: *She warned us not to deploy on Friday*. No português usamos “que” + subjuntivo (“quero que você revise”); em inglês, **não** se diz *I want that you review*.",
+      "table": {
+        "headers": ["Verbo", "Exemplo"],
+        "rows": [
+          ["ask / tell", "I asked him to restart the server."],
+          ["want / expect", "We expect you to finish by noon."],
+          ["allow / enable", "This tool enables developers to test faster."],
+          ["require / force", "The policy requires employees to change passwords."],
+          ["encourage / invite", "They encourage us to share ideas."],
+          ["remind / warn / advise", "She reminded me to send the report."],
+          ["persuade / convince", "I convinced the team to adopt the new tool."]
+        ]
+      },
+      "examples": [
+        {"en": "I need you to approve this request.", "pt": "Preciso que você aprove este pedido."},
+        {"en": "The firewall requires users to log in again.", "pt": "O firewall exige que os usuários façam login de novo."},
+        {"en": "She warned us not to deploy on Friday.", "pt": "Ela nos avisou para não fazer deploy na sexta."}
+      ],
+      "trap": "Em português dizemos “Eu quero que você revise o código”. Em inglês, não use *that* depois de *want*: *I want you to review the code* está certo, e *I want that you review* está errado."
+    },
+    {
+      "title": "Let, make e help: verbo base sem to",
+      "text": "Depois de **let** e **make**, o verbo seguinte fica na forma **base, sem to**. *Let* significa “deixar, permitir”; *make* aqui significa “fazer alguém (ou algo) fazer algo”, com ideia de causa ou obrigação. O verbo **help** aceita as duas formas: *helps us find* e *helps us to find*.\n\nNa **passiva**, o padrão muda. *Make* volta a pedir **to**: *He was made to rewrite the report*. E *let* quase não tem passiva; para permissão usamos *be allowed to*: *We were allowed to leave early*.",
+      "examples": [
+        {"en": "The manager let us leave early.", "pt": "O gerente nos deixou sair mais cedo."},
+        {"en": "The bug made the application crash.", "pt": "O bug fez a aplicação travar."},
+        {"en": "This tool helps us find errors faster.", "pt": "Essa ferramenta nos ajuda a encontrar erros mais rápido."},
+        {"en": "He was made to rewrite the report.", "pt": "Obrigaram-no a reescrever o relatório."}
+      ],
+      "trap": "Não use **to** depois de *let* e *make* na voz ativa. Dizer *Let me to go* e *The bug made the app to crash* está errado."
+    },
+    {
+      "title": "Verbo + objeto + that: persuade, convince, remind, tell",
+      "text": "Alguns verbos que levam objeto aceitam também uma **oração com that**: *tell*, *remind*, *warn*, *convince*, *persuade* e *assure*. A estrutura é **verbo + pessoa + that + sujeito + verbo**, e o *that* costuma ser omitido na fala.\n\n**Convince** e **persuade** têm dois sentidos: com *to* indicam uma **ação** (convencer alguém a fazer algo), com *that* indicam uma **crença** (convencer alguém de que algo é verdade). **Remind** também aceita os dois: *remind me to call* (lembrar de fazer) e *remind me that the deadline is Friday* (lembrar de um fato).",
+      "examples": [
+        {"en": "I convinced the team to adopt the new tool.", "pt": "Convenci a equipe a adotar a nova ferramenta."},
+        {"en": "I convinced the team that the new tool was safe.", "pt": "Convenci a equipe de que a nova ferramenta era segura."},
+        {"en": "She reminded us that the deadline was Friday.", "pt": "Ela nos lembrou de que o prazo era sexta."},
+        {"en": "He warned us that the server might fail.", "pt": "Ele nos avisou de que o servidor poderia falhar."}
+      ],
+      "trap": "Com *say*, o destinatário vem com **to**: *She said to me that…*. Com *tell*, não: *She told me that…*. Dizer *She said me that* está errado."
+    },
+    {
+      "title": "Verbo + objeto + preposição + -ing",
+      "text": "Alguns verbos ligam o objeto a uma ação por meio de uma **preposição fixa**. Depois de qualquer preposição, o verbo vai no **-ing**, e não no infinitivo. Os mais úteis no trabalho são **prevent/stop someone from + -ing**, **accuse someone of + -ing**, **blame someone for + -ing** e **thank someone for + -ing**.\n\n*Prevent* é seguido de *from* no uso padrão: *The firewall prevents users from accessing the site*. Já **blame** tem duas formas: *blame someone for something* e *blame something on someone*.",
+      "table": {
+        "headers": ["Padrão", "Exemplo"],
+        "rows": [
+          ["prevent / stop + objeto + from + -ing", "The error stopped the script from running."],
+          ["accuse + objeto + of + -ing", "They accused him of copying the code."],
+          ["blame + objeto + for + -ing", "The client blamed us for missing the deadline."],
+          ["blame + coisa + on + pessoa", "He blamed the delay on the supplier."],
+          ["thank + objeto + for + -ing", "I thanked her for fixing the bug."],
+          ["congratulate + objeto + on + -ing", "We congratulated them on finishing early."]
+        ]
+      },
+      "examples": [
+        {"en": "A password prevents unauthorized users from entering the system.", "pt": "Uma senha impede que usuários não autorizados entrem no sistema."},
+        {"en": "The client blamed us for missing the deadline.", "pt": "O cliente nos culpou por perder o prazo."},
+        {"en": "She thanked the team for finishing early.", "pt": "Ela agradeceu à equipe por terminar cedo."}
+      ],
+      "trap": "Não use infinitivo depois de preposição. Dizer *prevent him to leave* ou *accuse him to steal* está errado: *prevent him from leaving* e *accuse him of stealing*."
+    },
+    {
+      "title": "Look forward to e outros verbos com to + -ing",
+      "text": "Em **look forward to**, a palavra *to* é uma **preposição**, e não parte do infinitivo. Por isso, o verbo seguinte vai no **-ing**: *I look forward to working with you*. Um teste simples: se você pode colocar um substantivo depois (*I look forward to the meeting*), o *to* é preposição e o verbo precisa ir no -ing.\n\nO mesmo vale para outras expressões: **insist on**, **succeed in**, **object to**, **be committed to**, **apologize for**. A preposição é fixa; depois dela, o verbo está sempre no -ing.",
+      "examples": [
+        {"en": "I look forward to working with you.", "pt": "Estou ansioso para trabalhar com você."},
+        {"en": "We succeeded in reducing the load time.", "pt": "Conseguimos reduzir o tempo de carregamento."},
+        {"en": "She insisted on testing everything again.", "pt": "Ela insistiu em testar tudo de novo."},
+        {"en": "He apologized for sending the wrong file.", "pt": "Ele pediu desculpas por enviar o arquivo errado."}
+      ],
+      "trap": "O erro mais comum em e-mails é *I look forward to hear from you*. O correto é **I look forward to hearing from you**, porque *to* aqui é preposição."
+    },
+    {
+      "title": "Verbos de percepção: see, hear, notice",
+      "text": "Com **see**, **hear**, **watch** e **notice**, o verbo depois do objeto pode estar na forma **base** ou em **-ing**, e a diferença é de sentido. A forma **base** descreve a ação **completa**: *I saw him leave* (vi quando ele saiu). A forma **-ing** descreve a ação **em andamento**: *I saw him leaving* (vi quando ele estava saindo).\n\nNo trabalho, o -ing é muito usado para descrever o que estava acontecendo no momento em que você notou algo.",
+      "examples": [
+        {"en": "I noticed him changing the settings.", "pt": "Notei que ele estava mudando as configurações."},
+        {"en": "I heard the alarm go off.", "pt": "Ouvi o alarme disparar."},
+        {"en": "We watched the system recover.", "pt": "Vimos o sistema se recuperar."}
+      ],
+      "tip": "Em caso de dúvida, o padrão com **-ing** é seguro quando você quer dizer que a ação ainda estava acontecendo: *I saw someone typing*."
+    },
+    {
+      "title": "Em contexto: uma reunião pós-incidente",
+      "text": "Veja os padrões agrupados numa situação real. Um líder técnico explica um incidente, lembra a equipe de algumas regras e agradece pelo esforço. Cada frase usa um padrão diferente, e o objeto (a pessoa) aparece sempre depois do verbo principal.\n\nTente reescrever as frases trocando os nomes e o contexto. Se o verbo for o mesmo, a estrutura também será.",
+      "examples": [
+        {"en": "The error prevented customers from logging in.", "pt": "O erro impediu os clientes de fazerem login."},
+        {"en": "The client blamed us for the delay.", "pt": "O cliente nos culpou pelo atraso."},
+        {"en": "I would like to remind everyone to document their changes.", "pt": "Gostaria de lembrar a todos de documentar suas alterações."},
+        {"en": "We have asked the vendor to fix the problem by Monday.", "pt": "Pedimos ao fornecedor que corrija o problema até segunda."},
+        {"en": "I want to thank the team for working all weekend.", "pt": "Quero agradecer à equipe por trabalhar o fim de semana inteiro."}
+      ],
+      "tip": "Antes de enviar um e-mail longo, confira os verbos de padrão complexo: depois de uma preposição, só o -ing; depois de *want* e *ask* com objeto, *to* + base."
+    }
+  ],
+  "summary": [
+    "Depois de want, ask, tell, expect, allow, require, remind, warn, persuade e convince, use objeto + to + verbo base. Não use that depois de want.",
+    "Let e make na voz ativa levam objeto + verbo base, sem to; help aceita com ou sem to. Na passiva, be made to e be allowed to levam to.",
+    "Tell, remind, warn, convince e persuade aceitam objeto + that + oração. Com say, o destinatário vem com to.",
+    "Prevent/stop from + -ing, accuse of + -ing, blame for + -ing e thank for + -ing: depois de preposição, sempre -ing.",
+    "Em look forward to, insist on e succeed in, o to é uma preposição, e depois de on, in e to o verbo vai para o -ing: I look forward to hearing from you."
+  ],
+  "practice": [
+    {
+      "id": "c1-13-p1", "type": "choice",
+      "prompt": "My manager wants me ___ the call.",
+      "options": ["join", "to join", "joining"], "answer": 1,
+      "explain": "Depois de *want* + objeto, usamos *to* + verbo base: *wants me to join*.",
+      "why_not": {"0": "O verbo base sem *to* é usado depois de *let* e *make*, não de *want*.", "2": "A forma -ing não é usada depois de *want* + objeto."}
+    },
+    {
+      "id": "c1-13-p2", "type": "fill",
+      "prompt": "She persuaded the client ___ extend the contract.",
+      "answers": ["to"],
+      "explain": "*Persuade* + objeto + *to* + verbo base indica convencer alguém a fazer algo."
+    },
+    {
+      "id": "c1-13-p3", "type": "choice",
+      "prompt": "The manager let us ___ early on Friday.",
+      "options": ["to leave", "leave", "leaving"], "answer": 1,
+      "explain": "Depois de *let* + objeto, o verbo fica na forma base, sem *to*: *let us leave*.",
+      "why_not": {"0": "Depois de *let* não se usa *to*.", "2": "A forma -ing não é usada depois de *let*."}
+    },
+    {
+      "id": "c1-13-p4", "type": "fix",
+      "prompt": "My manager let me to go home early.",
+      "answers": ["My manager let me go home early.", "My manager allowed me to go home early."],
+      "explain": "*Let* não leva *to* na voz ativa. Se quiser usar *to*, troque o verbo por *allow*: *allowed me to go*."
+    },
+    {
+      "id": "c1-13-p5", "type": "fill",
+      "prompt": "The firewall prevents users ___ accessing the site.",
+      "answers": ["from"],
+      "explain": "O padrão é *prevent + objeto + from + -ing*. Depois de preposição, o verbo vai no -ing."
+    },
+    {
+      "id": "c1-13-p6", "type": "translate",
+      "prompt": "Estou ansioso para trabalhar com você.",
+      "answers": ["I look forward to working with you.", "I am looking forward to working with you."],
+      "explain": "*Look forward to* é seguido de -ing, porque *to* é uma preposição: *working*."
+    },
+    {
+      "id": "c1-13-p7", "type": "order",
+      "words": ["The", "client", "blamed", "us", "for", "missing", "the", "deadline"],
+      "prompt": "O cliente nos culpou por perder o prazo.",
+      "explain": "O padrão é *blame + objeto + for + -ing*: *blamed us for missing*."
+    },
+    {
+      "id": "c1-13-p8", "type": "fix",
+      "prompt": "I look forward to hear from you.",
+      "answers": ["I look forward to hearing from you.", "I am looking forward to hearing from you."],
+      "explain": "Em *look forward to*, o *to* é preposição. Por isso, o verbo seguinte vai no -ing: *hearing*."
+    },
+    {
+      "id": "c1-13-p9", "type": "choice",
+      "prompt": "Qual frase com remind está correta?",
+      "options": ["She reminded me sending the report.", "She reminded me to send the report.", "She reminded me that to send the report."], "answer": 1,
+      "explain": "*Remind* + objeto + *to* + verbo base significa lembrar alguém de fazer algo.",
+      "why_not": {"0": "A forma -ing não é usada depois de *remind* + objeto com esse sentido.", "2": "*That* introduz uma oração com sujeito e verbo, e não um infinitivo."}
+    },
+    {
+      "id": "c1-13-p10", "type": "listen",
+      "en": "They accused him of copying the code without permission.",
+      "explain": "O padrão é *accuse + objeto + of + -ing*. Depois da preposição *of*, o verbo vai no -ing: *copying*."
+    },
+    {
+      "id": "c1-13-p11", "type": "choice",
+      "prompt": "He convinced me ___ the old system was unsafe.",
+      "options": ["that", "to", "for"], "answer": 0,
+      "explain": "Aqui *convince* significa fazer alguém acreditar em um fato, e por isso é seguido de uma oração com *that*.",
+      "why_not": {"1": "*Convince me to* precisa de um verbo no infinitivo, e não de uma oração com sujeito.", "2": "*For* não introduz uma oração depois de *convince*."}
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c1-13-q1", "type": "choice",
+      "prompt": "The new rule requires employees ___ their passwords every 90 days.",
+      "options": ["change", "to change", "changing"], "answer": 1,
+      "explain": "*Require* + objeto + *to* + verbo base: *requires employees to change*.",
+      "why_not": {"0": "O verbo base sem *to* não é usado depois de *require*.", "2": "A forma -ing não é usada depois de *require* + objeto."}
+    },
+    {
+      "id": "c1-13-q2", "type": "fill",
+      "prompt": "The update made the server ___ twice. (restart)",
+      "answers": ["restart"],
+      "explain": "Depois de *make* + objeto na voz ativa, o verbo fica na forma base, sem *to*: *made the server restart*."
+    },
+    {
+      "id": "c1-13-q3", "type": "translate",
+      "prompt": "Ela me lembrou de enviar o relatório.",
+      "answers": ["She reminded me to send the report."],
+      "explain": "*Remind* + objeto + *to* + verbo base indica lembrar alguém de fazer algo."
+    },
+    {
+      "id": "c1-13-q4", "type": "order",
+      "words": ["The", "error", "stopped", "the", "script", "from", "running"],
+      "prompt": "O erro impediu o script de rodar.",
+      "explain": "O padrão é *stop + objeto + from + -ing*: *stopped the script from running*."
+    },
+    {
+      "id": "c1-13-q5", "type": "fix",
+      "prompt": "They accused him to steal the data.",
+      "answers": ["They accused him of stealing the data.", "They accused him of having stolen the data."],
+      "explain": "O padrão correto é *accuse + objeto + of + -ing*. Depois de preposição, usamos o -ing."
+    },
+    {
+      "id": "c1-13-q6", "type": "choice",
+      "prompt": "He insisted ___ testing everything again.",
+      "options": ["to", "on", "in"], "answer": 1,
+      "explain": "A preposição fixa de *insist* é *on*: *insist on testing*. Depois dela, o verbo vai no -ing.",
+      "why_not": {"0": "*To* seria seguido de infinitivo, mas *insist* exige *on* + -ing.", "2": "*Succeed in* usa *in*, mas *insist* usa *on*."}
+    },
+    {
+      "id": "c1-13-q7", "type": "choice",
+      "prompt": "Qual frase com tell está correta?",
+      "options": ["She told me that the deadline had changed.", "She said me that the deadline had changed.", "She told that me the deadline had changed."], "answer": 0,
+      "explain": "*Tell* leva o destinatário diretamente: *told me that…*. A oração com *that* vem depois do objeto.",
+      "why_not": {"1": "*Say* não aceita o destinatário sem *to*: seria *said to me*.", "2": "O objeto *me* vem antes de *that*, e não depois."}
+    },
+    {
+      "id": "c1-13-q8", "type": "listen",
+      "en": "The manager persuaded us to postpone the release.",
+      "explain": "*Persuade* + objeto + *to* + verbo base indica convencer alguém a fazer algo: *persuaded us to postpone*."
+    }
+  ],
+  "words": [
+    {"word": "persuade", "pt": "persuadir; convencer a fazer algo"},
+    {"word": "convince", "pt": "convencer"},
+    {"word": "remind", "pt": "lembrar alguém de"},
+    {"word": "allow", "pt": "permitir"},
+    {"word": "prevent", "pt": "impedir; evitar"},
+    {"word": "accuse", "pt": "acusar"},
+    {"word": "blame", "pt": "culpar; culpa"},
+    {"word": "insist on", "pt": "insistir em"},
+    {"word": "encourage", "pt": "incentivar; encorajar"},
+    {"word": "require", "pt": "exigir; requerer"},
+    {"word": "warn", "pt": "avisar; alertar"},
+    {"word": "enable", "pt": "permitir; possibilitar"}
+  ]
+}

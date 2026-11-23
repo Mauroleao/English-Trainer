@@ -1,0 +1,168 @@
+{
+  "id": "b1-12",
+  "level": "B1",
+  "unit": "Orações, modais e verbos",
+  "title": "Orações relativas: who, which, that, where, whose",
+  "goal": "Identificar pessoas, coisas e lugares com orações relativas (a pessoa que…, o bug que…, o lugar onde…) e saber quando o pronome pode ser omitido.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "Para que serve a oração relativa",
+      "text": "Uma **oração relativa** é um pedaço de frase que descreve ou identifica um substantivo (uma pessoa, uma coisa ou um lugar). Em português ela começa com “que”, “quem” ou “onde”: “o desenvolvedor **que** escreveu o código”.\n\nNesta lição estudamos a relativa **defining** (que define). Ela diz **qual** pessoa ou coisa estamos mencionando e, por isso, é essencial para o sentido da frase. Sem ela, o ouvinte não saberia de quem ou de que estamos falando.",
+      "examples": [
+        {"en": "The developer who wrote this code is on holiday.", "pt": "O desenvolvedor que escreveu este código está de férias."},
+        {"en": "I like the tool that we use for testing.", "pt": "Eu gosto da ferramenta que usamos para testar."},
+        {"en": "This is the office where I work.", "pt": "Este é o escritório onde eu trabalho."}
+      ],
+      "tip": "Pense assim: substantivo + pronome relativo + informação que identifica o substantivo."
+    },
+    {
+      "title": "Os pronomes: who, which, that, where, whose",
+      "text": "Em inglês, o pronome relativo muda conforme o que ele descreve. Para **pessoas** usamos **who**. Para **coisas**, **which**. Para **lugares**, **where**. Para **posse** (de quem é algo), **whose**. Nas relativas defining, **that** pode substituir **who** e **which**.\n\nO pronome vem logo depois do substantivo que ele descreve, e a oração relativa continua até completar a ideia.",
+      "table": {
+        "headers": ["Descreve", "Pronome", "Exemplo"],
+        "rows": [
+          ["pessoa", "who / that", "The tester who found the bug is Ana."],
+          ["coisa", "which / that", "The server which crashed is old."],
+          ["lugar", "where", "The room where we meet is small."],
+          ["posse", "whose", "The client whose app failed called us."]
+        ]
+      },
+      "examples": [
+        {"en": "The tester who found the bug is Ana.", "pt": "A testadora que encontrou o bug é a Ana."},
+        {"en": "The server which crashed is very old.", "pt": "O servidor que caiu é muito antigo."},
+        {"en": "The room where we meet is small.", "pt": "A sala onde nos reunimos é pequena."},
+        {"en": "The client whose app failed called us.", "pt": "O cliente cujo app falhou ligou para nós."}
+      ]
+    },
+    {
+      "title": "Who, which ou that?",
+      "text": "Para **pessoas**, **who** é a escolha mais natural, mas **that** também é aceito. Para **coisas**, **that** e **which** são corretos; **that** é muito comum na conversa e **which** soa um pouco mais formal.\n\nGuarde esta regra: não troque os papéis. Uma pessoa pede **who** (ou that), e uma coisa pede **which** (ou that). Usar *which* para uma pessoa soa errado, como se a pessoa fosse um objeto.",
+      "examples": [
+        {"en": "The colleague who helped me is called Ana.", "pt": "A colega que me ajudou se chama Ana."},
+        {"en": "The laptop that I use is old.", "pt": "O notebook que eu uso é velho."},
+        {"en": "The report which you sent is clear.", "pt": "O relatório que você enviou está claro."},
+        {"en": "People that work remotely need a good connection.", "pt": "As pessoas que trabalham remotamente precisam de uma boa conexão."}
+      ],
+      "trap": "Em português usamos “que” para tudo: “o homem que”, “o servidor que”. Em inglês, não diga *the man which works here*. Para pessoa, use *the man who works here* (ou *that*)."
+    },
+    {
+      "title": "Where e whose",
+      "text": "**Where** substitui “onde” ou “em que” e se refere a **lugares**: *the office where I work*. **Whose** indica **posse** e equivale a “cujo/cuja”. Em português “cujo” é formal e raro na fala, mas em inglês **whose** é comum e natural.\n\nO **whose** é sempre seguido de um **substantivo** (*whose laptop*, *whose code*). Não confunda com **who's**, que é a contração de *who is* (*Who's that?*).",
+      "examples": [
+        {"en": "Is there a café where we can talk?", "pt": "Existe um café onde possamos conversar?"},
+        {"en": "I know a developer whose code is always clean.", "pt": "Eu conheço um desenvolvedor cujo código é sempre limpo."},
+        {"en": "The company whose servers failed has called us.", "pt": "A empresa cujos servidores falharam ligou para nós."},
+        {"en": "That is the room where we hold the daily meeting.", "pt": "Aquela é a sala onde fazemos a reunião diária."}
+      ],
+      "trap": "Depois de whose já está claro de quem é a coisa. Não repita his, her ou their: diga *the woman whose laptop is broken*, e não *the woman whose her laptop is broken*."
+    },
+    {
+      "title": "Omitindo o pronome relativo",
+      "text": "Em uma relativa, o pronome pode ser **sujeito** (faz a ação) ou **objeto** (recebe a ação). Se depois do pronome vem **um novo sujeito** (I, we, she, the team…), o pronome é objeto e **pode ser omitido**: *the bug (that) we found*.\n\nSe depois do pronome vem **direto o verbo**, o pronome é o sujeito e **não pode ser omitido**: *the bug that caused the crash*. Um teste rápido: depois do pronome vem um verbo? Então mantenha o pronome. Vem outro sujeito? Você pode tirar.",
+      "table": {
+        "headers": ["O pronome é…", "Com pronome", "Sem pronome"],
+        "rows": [
+          ["objeto", "The tool that we use is free.", "The tool we use is free."],
+          ["objeto", "The person who I called was busy.", "The person I called was busy."],
+          ["sujeito", "The tool that saves files is free.", "Não é possível omitir."],
+          ["sujeito", "The woman who built the API left.", "Não é possível omitir."]
+        ]
+      },
+      "examples": [
+        {"en": "The error you found is serious.", "pt": "O erro que você encontrou é sério."},
+        {"en": "The person I called was busy.", "pt": "A pessoa para quem liguei estava ocupada."},
+        {"en": "The bug that caused the outage is fixed.", "pt": "O bug que causou a queda está corrigido."},
+        {"en": "She is the developer who built the API.", "pt": "Ela é a desenvolvedora que construiu a API."}
+      ],
+      "tip": "Where e whose nunca são omitidos. A omissão vale só para who, which e that como objeto."
+    },
+    {
+      "title": "Sem vírgulas e sem repetir",
+      "text": "Na relativa defining **não há vírgulas**: a informação é necessária para identificar o substantivo. (As relativas com vírgulas dão apenas informação extra; elas aparecem em níveis mais avançados.)\n\nOutro cuidado: **não repita** o sujeito ou o objeto dentro da relativa. O pronome relativo já faz esse papel. Em português dizemos “o arquivo que eu enviei”, sem repetir “ele”; em inglês é igual, mas alguns alunos acrescentam *it* por hábito.",
+      "examples": [
+        {"en": "The file I sent yesterday has the answer.", "pt": "O arquivo que enviei ontem tem a resposta."},
+        {"en": "Employees who work remotely need a good connection.", "pt": "Funcionários que trabalham remotamente precisam de uma boa conexão."},
+        {"en": "The laptop that she uses belongs to the company.", "pt": "O notebook que ela usa pertence à empresa."}
+      ],
+      "trap": "Não escreva *The file that I sent it is correct*. O pronome *that* já representa o arquivo. Diga *The file that I sent is correct* ou *The file I sent is correct*."
+    },
+    {
+      "title": "Em contexto: uma conversa de equipe",
+      "text": "Veja como as relativas aparecem no dia a dia: para identificar uma pessoa numa reunião, um arquivo numa conversa de equipe, um erro num chamado. Elas evitam frases curtas repetidas e deixam a mensagem mais clara.\n\nObserve, em cada frase, qual pronome foi usado e se ele poderia ser omitido. Pratique lendo em voz alta e trocando o substantivo por outro do seu trabalho.",
+      "examples": [
+        {"en": "The person who reviewed my code gave good feedback.", "pt": "A pessoa que revisou meu código deu um bom feedback."},
+        {"en": "Where is the document that Lara shared?", "pt": "Onde está o documento que a Lara compartilhou?"},
+        {"en": "Show me the page where the error appears.", "pt": "Mostre-me a página onde o erro aparece."},
+        {"en": "The team that built this tool is very small.", "pt": "A equipe que construiu esta ferramenta é muito pequena."}
+      ]
+    }
+  ],
+  "summary": [
+    "Use who para pessoas, which para coisas, where para lugares e whose para posse; nas relativas defining, that pode substituir who e which.",
+    "Whose vem sempre seguido de um substantivo: the client whose app failed.",
+    "Se depois do pronome vem um novo sujeito, o pronome é objeto e pode ser omitido: the bug we found.",
+    "Se depois do pronome vem o verbo, o pronome é o sujeito e não pode ser omitido: the bug that caused the crash.",
+    "Relativas defining não levam vírgulas.",
+    "Não repita o objeto dentro da relativa: the file that I sent, e não the file that I sent it."
+  ],
+  "practice": [
+    {"id": "b1-12-p1", "type": "choice", "prompt": "The woman ___ sits next to me is a tester.", "options": ["who", "which", "where"], "answer": 0,
+     "explain": "Para descrever uma pessoa usamos who (ou that). Depois dele vem direto o verbo sits.",
+     "why_not": {"1": "Which é usado para coisas, e não para pessoas.", "2": "Where é usado para lugares."}},
+    {"id": "b1-12-p2", "type": "choice", "prompt": "This is the tool ___ we use for monitoring.", "options": ["who", "which", "whose"], "answer": 1,
+     "explain": "Tool é uma coisa, e para coisas usamos which (ou that).",
+     "why_not": {"0": "Who é usado só para pessoas.", "2": "Whose indica posse e precisa de um substantivo logo depois."}},
+    {"id": "b1-12-p3", "type": "fill", "prompt": "This is the room ___ we hold the daily meeting.", "answers": ["where"],
+     "explain": "Room é um lugar, e para lugares usamos where."},
+    {"id": "b1-12-p4", "type": "fill", "prompt": "The client ___ website crashed is very angry.", "answers": ["whose"],
+     "explain": "O website é do cliente, então precisamos de whose (cujo). Ele vem antes do substantivo website."},
+    {"id": "b1-12-p5", "type": "fill", "prompt": "The developer ___ fixed the bug is my friend.", "answers": ["who", "that"],
+     "explain": "Developer é uma pessoa, então usamos who ou that. O pronome é o sujeito de fixed e não pode ser omitido."},
+    {"id": "b1-12-p6", "type": "order", "words": ["The", "bug", "we", "found", "was", "serious"], "answers": ["The bug that we found was serious.", "The bug which we found was serious."], "prompt": "O bug que encontramos era sério.",
+     "explain": "Depois de bug vem um novo sujeito (we), então o pronome é objeto e foi omitido: the bug we found."},
+    {"id": "b1-12-p7", "type": "translate", "prompt": "A mulher que trabalha comigo é gerente.", "answers": ["The woman who works with me is a manager.", "The woman that works with me is a manager."],
+     "explain": "Para pessoa usamos who ou that. Em works, o verbo concorda com the woman (ela), por isso leva -s."},
+    {"id": "b1-12-p8", "type": "fix", "prompt": "The file that I sent it is correct.", "answers": ["The file that I sent is correct.", "The file I sent is correct."],
+     "explain": "O pronome that já representa o arquivo, então o it é repetido sem necessidade. Remova o it."},
+    {"id": "b1-12-p9", "type": "choice", "prompt": "Qual frase está correta?", "options": ["The tool we use is free.", "The tool saves files is free.", "The tool who we use is free."], "answer": 0,
+     "explain": "Aqui we é um novo sujeito, então o pronome é objeto e pode ser omitido: the tool we use.",
+     "why_not": {"1": "Depois de tool vem direto o verbo saves, então o pronome (that/which) é obrigatório.", "2": "Who é só para pessoas; tool é uma coisa."}},
+    {"id": "b1-12-p10", "type": "translate", "prompt": "Este é o escritório onde eu trabalho.", "answers": ["This is the office where I work.", "That is the office where I work.", "This is the office I work in.", "That is the office I work in."],
+     "explain": "Para lugares usamos where: the office where I work. Também é possível dizer the office I work in, com a preposição no fim."},
+    {"id": "b1-12-p11", "type": "listen", "en": "The person who called you is waiting outside.",
+     "explain": "Who called you descreve the person. O pronome é o sujeito de called, então é obrigatório."},
+    {"id": "b1-12-p12", "type": "fix", "prompt": "The man which works here is my uncle.", "answers": ["The man who works here is my uncle.", "The man that works here is my uncle."],
+     "explain": "Which não é usado para pessoas. Troque por who (ou that)."}
+  ],
+  "quiz": [
+    {"id": "b1-12-q1", "type": "choice", "prompt": "I like the developer ___ laptop is covered in stickers.", "options": ["who", "whose", "which"], "answer": 1,
+     "explain": "O notebook pertence ao desenvolvedor, então usamos whose, seguido do substantivo laptop.",
+     "why_not": {"0": "Who seria sujeito de um verbo, e aqui falta indicar posse.", "2": "Which é para coisas e não indica posse."}},
+    {"id": "b1-12-q2", "type": "fill", "prompt": "The report ___ you wrote is very clear.", "answers": ["that", "which"],
+     "explain": "Report é uma coisa, então usamos that ou which. Como depois vem um novo sujeito (you), o pronome poderia até ser omitido, mas aqui a lacuna pede que ele apareça."},
+    {"id": "b1-12-q3", "type": "translate", "prompt": "O servidor que usamos é antigo.", "answers": ["The server we use is old.", "The server that we use is old.", "The server which we use is old."],
+     "explain": "Server é uma coisa e we é um novo sujeito, então o pronome (that/which) é opcional."},
+    {"id": "b1-12-q4", "type": "order", "words": ["The", "woman", "who", "works", "here", "is", "my", "cousin"], "answers": ["The woman that works here is my cousin."], "prompt": "A mulher que trabalha aqui é minha prima.",
+     "explain": "Depois do pronome vem direto o verbo works, então o pronome who (ou that) é obrigatório."},
+    {"id": "b1-12-q5", "type": "fix", "prompt": "The woman whose her laptop is broken needs help.", "answers": ["The woman whose laptop is broken needs help."],
+     "explain": "Whose já indica a posse. Não repita her: whose + substantivo."},
+    {"id": "b1-12-q6", "type": "choice", "prompt": "Escolha a frase correta sobre um lugar.", "options": ["This is the cafe where we have lunch.", "This is the cafe who we have lunch.", "This is the cafe whose we have lunch."], "answer": 0,
+     "explain": "Cafe é um lugar, e para lugares usamos where.",
+     "why_not": {"1": "Who é para pessoas.", "2": "Whose indica posse e precisa de um substantivo depois dele."}},
+    {"id": "b1-12-q7", "type": "listen", "en": "The team that built this tool is very small.",
+     "explain": "That built this tool descreve the team. O pronome é o sujeito de built e não pode ser omitido."}
+  ],
+  "words": [
+    {"word": "whose", "pt": "cujo; de quem"},
+    {"word": "tool", "pt": "ferramenta"},
+    {"word": "client", "pt": "cliente"},
+    {"word": "laptop", "pt": "notebook"},
+    {"word": "crash", "pt": "travar; falhar; queda"},
+    {"word": "broken", "pt": "quebrado; com defeito"},
+    {"word": "serious", "pt": "sério; grave"},
+    {"word": "report", "pt": "relatório"},
+    {"word": "office", "pt": "escritório"},
+    {"word": "colleague", "pt": "colega de trabalho"}
+  ]
+}

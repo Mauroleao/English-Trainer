@@ -1,0 +1,178 @@
+{
+  "id": "a1-06",
+  "level": "A1",
+  "unit": "Rotina de trabalho",
+  "title": "Present simple: I, you, we, they",
+  "goal": "Falar da sua rotina de trabalho e do que você e seu time fazem todos os dias.",
+  "minutes": 22,
+  "steps": [
+    {
+      "title": "Para que serve o present simple",
+      "text": "O **present simple** (presente simples) serve para falar de **rotina**, de **hábitos** e de coisas que são sempre verdade. É o tempo que você usa quando alguém pergunta: “O que você faz no trabalho?”.\n\nEm português, dizemos “Eu trabalho em casa” ou “Nós testamos o código todo dia”. Em inglês a ideia é a mesma, e com **I, you, we e they** a conta é muito simples, como você vai ver.",
+      "examples": [
+        {"en": "I work from home.", "pt": "Eu trabalho em casa."},
+        {"en": "We test the code every day.", "pt": "Nós testamos o código todos os dias."},
+        {"en": "They live in Recife.", "pt": "Eles moram em Recife."}
+      ],
+      "tip": "Present simple não é “agora”. É o que acontece sempre ou com frequência: a sua rotina."
+    },
+    {
+      "title": "A forma: sujeito + verbo base",
+      "text": "Na afirmativa, use o **sujeito** e depois o **verbo base**, isto é, o verbo sem nenhuma terminação, como aparece no dicionário: *work*, *write*, *test*.\n\nCom **I, you, we e they**, o verbo não muda. Você não precisa de *am*, *is* nem *are* na frente dele. Nas próximas lições você vai ver que com he, she e it o verbo ganha um **-s**, mas isso fica para depois.",
+      "table": {
+        "headers": ["Sujeito", "Verbo base", "Exemplo"],
+        "rows": [
+          ["I", "work", "I work in IT."],
+          ["you", "work", "You work with Ana."],
+          ["we", "work", "We work as a team."],
+          ["they", "work", "They work on Mondays."]
+        ]
+      },
+      "examples": [
+        {"en": "I write code.", "pt": "Eu escrevo código."},
+        {"en": "You check the logs.", "pt": "Você verifica os logs."},
+        {"en": "We start the day with a meeting.", "pt": "Nós começamos o dia com uma reunião."},
+        {"en": "They test the app.", "pt": "Eles testam o aplicativo."}
+      ],
+      "tip": "O sujeito continua obrigatório: *I work*, e não só *work*."
+    },
+    {
+      "title": "Armadilha: não misture to be com outro verbo",
+      "text": "Muitos alunos juntam o verbo **to be** com o verbo da ação, porque na lição anterior viram *am*, *is* e *are* em toda frase. Mas no present simple, o verbo da ação **substitui** o to be.\n\nSe a frase já tem *work*, *write* ou *test*, não precisa de *am*. Compare: *I am a developer* (profissão, usa to be) e *I work in IT* (ação, usa só o verbo).",
+      "examples": [
+        {"en": "I am a developer.", "pt": "Eu sou desenvolvedor."},
+        {"en": "I work in IT.", "pt": "Eu trabalho com TI."},
+        {"en": "We are in the office. We work here.", "pt": "Estamos no escritório. Nós trabalhamos aqui."}
+      ],
+      "trap": "Não diga *I am work every day* nem *We are test the app*. Quando há um verbo de ação, não use am/is/are: *I work every day*, *We test the app*."
+    },
+    {
+      "title": "Verbos de trabalho",
+      "text": "Vamos montar um vocabulário básico para falar do trabalho. Todos esses verbos são regulares no present simple com **I, you, we e they**: você só usa a forma do dicionário, sem mudar nada.\n\nVeja os mais usados no dia a dia de TI: **start** (começar), **finish** (terminar), **write** (escrever), **read** (ler), **test** (testar), **check** (verificar), **deploy** (publicar uma versão no ambiente), **send** (enviar) e **answer** (responder).",
+      "table": {
+        "headers": ["Verbo", "Significado", "Exemplo"],
+        "rows": [
+          ["start", "começar", "We start at the same time."],
+          ["finish", "terminar", "I finish my tasks."],
+          ["write", "escrever", "I write tests."],
+          ["check", "verificar", "I check my email."],
+          ["deploy", "publicar (versão)", "They deploy the app."],
+          ["send", "enviar", "We send a report."]
+        ]
+      },
+      "examples": [
+        {"en": "I check my email first.", "pt": "Eu verifico meu e-mail primeiro."},
+        {"en": "We send a report to the client.", "pt": "Nós enviamos um relatório ao cliente."},
+        {"en": "They deploy the app on Fridays.", "pt": "Eles publicam o aplicativo às sextas."}
+      ]
+    },
+    {
+      "title": "Expressões de tempo",
+      "text": "Para dizer **quando** você faz algo, use expressões de tempo. **Every day** (todo dia), **every week** (toda semana) e **every Monday** (toda segunda) não levam preposição. Para partes do dia, use **in the morning**, **in the afternoon** e **in the evening**, mas **at night** para a noite.\n\nPara dias da semana no plural, use **on**: *on Mondays* (às segundas). Essas expressões ficam normalmente no **fim** da frase.",
+      "table": {
+        "headers": ["Expressão", "Significado"],
+        "rows": [
+          ["every day / every week", "todo dia / toda semana"],
+          ["in the morning / afternoon / evening", "de manhã / à tarde / à noite (início da noite)"],
+          ["at night", "à noite / de madrugada"],
+          ["on Mondays", "às segundas-feiras"]
+        ]
+      },
+      "examples": [
+        {"en": "I write code in the morning.", "pt": "Eu escrevo código de manhã."},
+        {"en": "We have a meeting on Mondays.", "pt": "Nós temos reunião às segundas."},
+        {"en": "I read the logs every day.", "pt": "Eu leio os logs todos os dias."},
+        {"en": "They work at night.", "pt": "Eles trabalham à noite."}
+      ],
+      "tip": "Com *every* não use preposição: *every day*, e não *in every day*."
+    },
+    {
+      "title": "A ordem da frase: sem enfiar o tempo no meio",
+      "text": "A ordem em inglês é bem firme: **sujeito + verbo + objeto + lugar + tempo**. O objeto (o que você escreve, testa, verifica) fica logo depois do verbo, e a expressão de tempo vai para o fim.\n\nEm português é comum dizer “Eu verifico todo dia os logs”. Em inglês, não separe o verbo do objeto: diga *I check the logs every day*. Também é possível começar pelo tempo: *Every day I check the logs*.",
+      "examples": [
+        {"en": "I check the logs every day.", "pt": "Eu verifico os logs todos os dias."},
+        {"en": "Every day I check the logs.", "pt": "Todos os dias eu verifico os logs."},
+        {"en": "We test the app in the afternoon.", "pt": "Nós testamos o aplicativo à tarde."}
+      ],
+      "trap": "Não coloque o tempo entre o verbo e o objeto. *I check every day the logs* soa errado; o certo é *I check the logs every day*."
+    },
+    {
+      "title": "A regra em contexto: a rotina do time",
+      "text": "Leia como a Priya descreve a rotina do time dela. Repare que cada frase tem sujeito, verbo base, objeto e, no fim, uma expressão de tempo. Não há *am*, *is* nem *are* junto dos verbos de ação.\n\nDepois de ler, tente escrever três frases sobre a sua própria rotina: uma sobre a manhã, uma sobre a tarde e outra sobre a semana.",
+      "examples": [
+        {"en": "We start the day with a short meeting.", "pt": "Nós começamos o dia com uma reunião curta."},
+        {"en": "I answer emails in the morning.", "pt": "Eu respondo e-mails de manhã."},
+        {"en": "They test the new version in the afternoon.", "pt": "Eles testam a nova versão à tarde."},
+        {"en": "We deploy on Thursdays.", "pt": "Nós fazemos o deploy às quintas."}
+      ],
+      "tip": "Na próxima lição você aprende como o verbo muda com he, she e it."
+    }
+  ],
+  "summary": [
+    "O present simple fala de rotina, hábitos e fatos; com I, you, we e they o verbo fica na forma base.",
+    "A estrutura é sujeito + verbo base + objeto + tempo: I write code every day.",
+    "Quando há um verbo de ação, não use am, is ou are junto: I work, e não I am work.",
+    "Use every day sem preposição, in the morning/afternoon/evening, at night e on Mondays.",
+    "A expressão de tempo vai normalmente no fim, e não entre o verbo e o objeto."
+  ],
+  "practice": [
+    {"id": "a1-06-p1", "type": "choice", "prompt": "I ___ emails every morning.", "options": ["check", "am check", "checks"], "answer": 0,
+     "explain": "Com I, o present simple usa o verbo base: I check emails.",
+     "why_not": {"1": "Não se usa am junto de um verbo de ação.", "2": "O -s no verbo é para he, she e it, que você vê na próxima lição."}},
+    {"id": "a1-06-p2", "type": "choice", "prompt": "They ___ code on Mondays.", "options": ["are write", "write", "writes"], "answer": 1,
+     "explain": "Com they usamos o verbo base: they write code.",
+     "why_not": {"0": "Are não entra antes de um verbo de ação.", "2": "O -s não é usado com they."}},
+    {"id": "a1-06-p3", "type": "fill", "prompt": "You ___ (test) the app every day.", "answers": ["test"],
+     "explain": "Com you o verbo fica na forma base: you test."},
+    {"id": "a1-06-p4", "type": "fill", "prompt": "We ___ (deploy) on Fridays.", "answers": ["deploy"],
+     "explain": "Com we também usamos o verbo base: we deploy. On Fridays diz o dia da semana."},
+    {"id": "a1-06-p5", "type": "translate", "prompt": "Eu trabalho em casa.", "answers": ["I work at home.", "I work from home."],
+     "explain": "O sujeito I é obrigatório e o verbo fica na forma base. At home e from home são duas formas corretas."},
+    {"id": "a1-06-p6", "type": "order", "words": ["We", "start", "work", "in", "the", "morning"], "prompt": "Nós começamos o trabalho de manhã.",
+     "answers": ["In the morning we start work."],
+     "explain": "A ordem é sujeito + verbo + objeto + tempo. In the morning pode vir no fim ou no começo."},
+    {"id": "a1-06-p7", "type": "fix", "prompt": "I am work every day.", "answers": ["I work every day."],
+     "explain": "Com um verbo de ação, não use am. O correto é I work every day."},
+    {"id": "a1-06-p8", "type": "choice", "prompt": "Qual frase está correta?", "options": ["I check every day the logs.", "I check the logs every day.", "I every day check the logs."], "answer": 1,
+     "explain": "O objeto fica logo depois do verbo e a expressão de tempo vai para o fim: I check the logs every day.",
+     "why_not": {"0": "O tempo não pode ficar entre o verbo e o objeto.", "2": "Every day não fica entre o sujeito e o verbo."}},
+    {"id": "a1-06-p9", "type": "listen", "en": "I read the logs every morning.",
+     "explain": "I read: com I o verbo fica na forma base. Every morning vem no fim da frase."},
+    {"id": "a1-06-p10", "type": "translate", "prompt": "Eles testam o código todos os dias.", "answers": ["They test the code every day.", "They test code every day.", "Every day they test the code.", "Every day they test code."],
+     "explain": "They + verbo base + objeto + every day. Não use are antes de test."},
+    {"id": "a1-06-p11", "type": "choice", "prompt": "We deploy ___ Mondays.", "options": ["on", "in", "at"], "answer": 0,
+     "explain": "Para dias da semana usamos on: on Mondays.",
+     "why_not": {"1": "In é usado com partes do dia, como in the morning.", "2": "At é usado com at night, mas não com dias da semana."}}
+  ],
+  "quiz": [
+    {"id": "a1-06-q1", "type": "choice", "prompt": "You ___ the tests in the afternoon.", "options": ["are run", "run", "runs"], "answer": 1,
+     "explain": "Com you usamos o verbo base: you run the tests.",
+     "why_not": {"0": "Are não entra antes de um verbo de ação.", "2": "O -s não é usado com you."}},
+    {"id": "a1-06-q2", "type": "fill", "prompt": "They ___ (send) reports on Fridays.", "answers": ["send"],
+     "explain": "Com they usamos o verbo base: they send reports."},
+    {"id": "a1-06-q3", "type": "translate", "prompt": "Eu corrijo bugs todos os dias.", "answers": ["I fix bugs every day.", "Every day I fix bugs."],
+     "explain": "I + verbo base fix + objeto bugs + every day no fim da frase."},
+    {"id": "a1-06-q4", "type": "order", "words": ["You", "read", "the", "report", "every", "Monday"], "prompt": "Você lê o relatório toda segunda-feira.",
+     "answers": ["Every Monday you read the report."],
+     "explain": "A ordem é sujeito + verbo + objeto + tempo. Every Monday também pode abrir a frase."},
+    {"id": "a1-06-q5", "type": "fix", "prompt": "I check every morning my email.", "answers": ["I check my email every morning.", "Every morning I check my email."],
+     "explain": "O objeto (my email) deve vir logo depois do verbo, e every morning vai para o fim ou para o começo."},
+    {"id": "a1-06-q6", "type": "listen", "en": "They deploy the new version on Fridays.",
+     "explain": "They deploy: com they o verbo fica na forma base. On Fridays indica o dia."},
+    {"id": "a1-06-q7", "type": "choice", "prompt": "Escolha a frase correta sobre a sua rotina.", "options": ["I am work in the morning.", "I work in the morning.", "I works in the morning."], "answer": 1,
+     "explain": "Com I usamos só o verbo base, sem am e sem -s: I work in the morning.",
+     "why_not": {"0": "Não se usa am junto de um verbo de ação.", "2": "O -s é para he, she e it, não para I."}}
+  ],
+  "words": [
+    {"word": "start", "pt": "começar; iniciar"},
+    {"word": "finish", "pt": "terminar; acabar"},
+    {"word": "write", "pt": "escrever"},
+    {"word": "read", "pt": "ler"},
+    {"word": "test", "pt": "testar; teste"},
+    {"word": "check", "pt": "verificar; conferir"},
+    {"word": "deploy", "pt": "publicar uma versão; fazer deploy"},
+    {"word": "send", "pt": "enviar; mandar"},
+    {"word": "every day", "pt": "todos os dias; todo dia"},
+    {"word": "morning", "pt": "manhã"}
+  ]
+}

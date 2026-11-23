@@ -1,0 +1,26 @@
+{
+  "id": "r-a1-01",
+  "level": "A1",
+  "title": "Welcome to the team",
+  "topic": "E-mail de boas-vindas",
+  "text": "Hi Ana,\n\nWelcome to the team! I am Paulo, your manager. We work in an office in São Paulo. The team is small: five developers and one tester.\n\nYour desk is next to the window. You can use the laptop on the desk. Our daily meeting is at 9:30 every day.\n\nSee you on Monday!\n\nPaulo",
+  "pt": "Oi, Ana,\n\nBem-vinda ao time! Eu sou o Paulo, seu gerente. Nós trabalhamos em um escritório em São Paulo. O time é pequeno: cinco desenvolvedores e um testador.\n\nSua mesa fica ao lado da janela. Você pode usar o laptop que está na mesa. Nossa reunião diária é às 9:30 todos os dias.\n\nNos vemos na segunda-feira!\n\nPaulo",
+  "vocab": [
+    {"word": "welcome", "pt": "bem-vindo; bem-vinda"},
+    {"word": "team", "pt": "time; equipe"},
+    {"word": "manager", "pt": "gerente"},
+    {"word": "office", "pt": "escritório"},
+    {"word": "tester", "pt": "testador; testadora"},
+    {"word": "desk", "pt": "mesa de trabalho"},
+    {"word": "window", "pt": "janela"},
+    {"word": "laptop", "pt": "notebook; laptop"}
+  ],
+  "questions": [
+    {"id": "r-a1-01-q1", "type": "choice", "prompt": "Who is Paulo?", "options": ["A tester", "The manager", "A developer"], "answer": 1,
+     "explain": "No texto, Paulo diz “I am Paulo, your manager”, ou seja, ele é o gerente de Ana."},
+    {"id": "r-a1-01-q2", "type": "choice", "prompt": "Where is Ana's desk?", "options": ["Next to the window", "In the meeting room", "Next to the door"], "answer": 0,
+     "explain": "O segundo parágrafo diz “Your desk is next to the window”, isto é, a mesa fica ao lado da janela."},
+    {"id": "r-a1-01-q3", "type": "choice", "prompt": "When is the daily meeting?", "options": ["On Monday at 9:30", "At 10:00 every day", "At 9:30 every day"], "answer": 2,
+     "explain": "O texto diz “Our daily meeting is at 9:30 every day”: às 9:30, todos os dias."}
+  ]
+}

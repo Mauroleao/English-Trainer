@@ -1,0 +1,176 @@
+{
+  "id": "a2-09",
+  "level": "A2",
+  "unit": "Planos e obrigações",
+  "title": "Obrigação e conselho: must, have to, should, need to",
+  "goal": "Falar de regras, obrigações, proibições e dar conselhos no trabalho e no dia a dia.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "Obrigação, proibição e conselho",
+      "text": "No trabalho, o tempo todo falamos do que é **obrigatório** (usar crachá), do que é **proibido** (compartilhar a senha) e do que é **recomendado** (fazer backup). Em português usamos “ter que”, “precisar”, “dever” e “não pode”.\n\nEm inglês, cada ideia tem suas palavras: **must** e **have to** para obrigação, **mustn't** para proibição, **should** para conselho e **need to** para necessidade. Todas são seguidas do verbo na forma base.",
+      "examples": [
+        {"en": "You must wear a badge in the office.", "pt": "Você precisa usar crachá no escritório."},
+        {"en": "You mustn't share your password.", "pt": "Você não pode compartilhar sua senha."},
+        {"en": "You should back up your files.", "pt": "Você deveria fazer backup dos seus arquivos."}
+      ],
+      "tip": "Pense em uma escala: must / have to (obrigação forte), need to (necessidade), should (conselho)."
+    },
+    {
+      "title": "Must: regra forte",
+      "text": "**Must** expressa uma obrigação forte, geralmente uma regra ou uma convicção de quem fala. A forma é a mesma para todos os pronomes: **must + verbo base**. Não existe *musts*, nem *must to*.\n\nA negativa é **must not**, na fala **mustn't**, e indica **proibição**. Na pergunta, *must* é pouco usado no dia a dia; as pessoas preferem *Do I have to…?*. Você vai ver *must* muito em avisos e regras escritas.",
+      "table": {
+        "headers": ["Forma", "Exemplo", "Ideia"],
+        "rows": [
+          ["must + verbo base", "Employees must log in with a password.", "obrigação"],
+          ["must not (mustn't)", "You mustn't open unknown files.", "proibição"]
+        ]
+      },
+      "examples": [
+        {"en": "Visitors must sign in at the front desk.", "pt": "Visitantes devem se registrar na recepção."},
+        {"en": "We must protect the customer data.", "pt": "Nós devemos proteger os dados do cliente."},
+        {"en": "You mustn't use your phone in the lab.", "pt": "Você não pode usar o celular no laboratório."}
+      ],
+      "trap": "Depois de must não se usa to nem -s: diga *She must finish today*, e não *She must to finish* nem *She musts finish*."
+    },
+    {
+      "title": "Have to: obrigação por fora",
+      "text": "**Have to** também indica obrigação, mas costuma vir de uma regra externa, de um chefe, de um horário ou de uma situação. Com **he, she e it**, a forma é **has to**. Para o passado, usamos **had to**, porque *must* não tem forma de passado.\n\nA pergunta e a negativa usam **do / does**: *Do you have to…?* e *I don't have to…*. Depois de *have to*, o verbo vem na forma base.",
+      "table": {
+        "headers": ["", "Exemplo"],
+        "rows": [
+          ["Afirmativa", "I have to / she has to leave at five."],
+          ["Negativa", "I don't have to / she doesn't have to work on Friday."],
+          ["Pergunta", "Do you have to / Does she have to attend?"],
+          ["Passado", "We had to restart the server."]
+        ]
+      },
+      "examples": [
+        {"en": "I have to join a call at nine.", "pt": "Eu tenho que entrar em uma call às nove."},
+        {"en": "She has to leave early today.", "pt": "Ela tem que sair cedo hoje."},
+        {"en": "Do we have to wear a suit?", "pt": "Nós temos que usar terno?"}
+      ],
+      "tip": "No dia a dia, must e have to muitas vezes podem ser trocados. A diferença importante vem na negativa, na próxima etapa."
+    },
+    {
+      "title": "Mustn't × don't have to",
+      "text": "Aqui está a maior armadilha. **Mustn't** quer dizer **proibido**. **Don't have to** (ou **doesn't have to**) quer dizer **não é necessário**: você pode fazer, mas não é obrigado.\n\nEm português, “não precisa” e “não pode” são bem diferentes, e em inglês também. Compare: *You mustn't enter* = “Você não pode entrar”. *You don't have to enter* = “Você não precisa entrar”.",
+      "table": {
+        "headers": ["Frase", "Significado"],
+        "rows": [
+          ["You mustn't park here.", "É proibido estacionar aqui."],
+          ["You don't have to park here.", "Não é necessário estacionar aqui; você pode escolher."],
+          ["He doesn't have to come.", "Ele não precisa vir."]
+        ]
+      },
+      "examples": [
+        {"en": "You mustn't delete the database.", "pt": "Você não pode apagar o banco de dados."},
+        {"en": "You don't have to wear a tie.", "pt": "Você não precisa usar gravata."},
+        {"en": "She doesn't have to work on Saturday.", "pt": "Ela não precisa trabalhar no sábado."}
+      ],
+      "trap": "Don't have to não é “não pode”. Dizer *You don't have to share your password* parece permitir o compartilhamento, quando o certo é *You mustn't share your password*."
+    },
+    {
+      "title": "Should: conselho",
+      "text": "Use **should** para dar um **conselho** ou uma sugestão: o que você acha que é uma boa ideia. É menos forte que *must*. Como outros verbos modais, tem a mesma forma para todos os pronomes e vem com o verbo base: **should + verbo base**.\n\nA negativa é **should not** ou **shouldn't**, e a pergunta inverte a ordem: **Should I…?** Muitas vezes usamos *I think you should…* para suavizar o conselho.",
+      "examples": [
+        {"en": "You should take a break.", "pt": "Você deveria fazer uma pausa."},
+        {"en": "I think you should ask your manager.", "pt": "Acho que você deveria perguntar ao seu gerente."},
+        {"en": "We shouldn't deploy on Friday afternoon.", "pt": "Nós não deveríamos fazer deploy na sexta à tarde."},
+        {"en": "Should I update my laptop now?", "pt": "Eu devo atualizar meu laptop agora?"}
+      ],
+      "trap": "Não use do/does com should. Diga *Should she call?*, e não *Does she should call?*. E não coloque to: *You should to rest* está errado."
+    },
+    {
+      "title": "Need to: necessidade",
+      "text": "**Need to** indica que algo é necessário para alcançar um objetivo. É uma forma muito comum e natural no trabalho. Com *he, she, it*, vira **needs to**, e a negativa e a pergunta usam **do / does**.\n\nA negativa **don't need to** funciona como *don't have to*: significa “não é necessário”. Não é uma proibição.",
+      "examples": [
+        {"en": "I need to restart my computer.", "pt": "Eu preciso reiniciar meu computador."},
+        {"en": "She needs to send the invoice today.", "pt": "Ela precisa enviar a fatura hoje."},
+        {"en": "Do we need to book a room?", "pt": "Nós precisamos reservar uma sala?"},
+        {"en": "You don't need to call me back.", "pt": "Você não precisa me ligar de volta."}
+      ],
+      "tip": "Need to também aceita sentido de vontade pessoal: I need to rest. Já have to costuma mostrar uma regra de fora."
+    },
+    {
+      "title": "Regras do trabalho: tudo junto",
+      "text": "Imagine o primeiro dia em uma empresa. O gerente explica: você **must** usar autenticação em dois fatores, **has to** entregar o relatório na sexta, **doesn't have to** vir ao escritório todos os dias e **should** perguntar quando tiver dúvidas.\n\nPerceba como a mesma pessoa usa as quatro ideias em poucas frases: obrigação, obrigação externa, ausência de obrigação e conselho.",
+      "examples": [
+        {"en": "You must use two-factor authentication.", "pt": "Você deve usar autenticação em dois fatores."},
+        {"en": "You have to submit the report by Friday.", "pt": "Você tem que entregar o relatório até sexta."},
+        {"en": "You don't have to come every day.", "pt": "Você não precisa vir todos os dias."},
+        {"en": "You should ask questions when you are not sure.", "pt": "Você deveria fazer perguntas quando não tiver certeza."}
+      ],
+      "trap": "Em português usamos “deve” para conselho e para obrigação. Em inglês, escolha: *should* é conselho, *must* é regra. Se você disser *You must rest*, está dando uma ordem."
+    }
+  ],
+  "summary": [
+    "Must e have to expressam obrigação; depois deles e de should e need to usa-se o verbo base (must e should sem to).",
+    "Mustn't indica proibição; don't have to e don't need to indicam que não é necessário.",
+    "Have to e need to mudam para has to e needs to com he, she e it, e usam do/does na negativa e na pergunta.",
+    "Should dá conselho e shouldn't aconselha contra algo; must é mais forte, como uma regra.",
+    "Para o passado de must e have to, use had to."
+  ],
+  "practice": [
+    {"id": "a2-09-p1", "type": "choice", "prompt": "You ___ share your password with anyone. It is against the rules.", "options": ["mustn't", "don't have to", "have to"], "answer": 0,
+     "explain": "É uma proibição, e proibição se diz com mustn't (must not).",
+     "why_not": {"1": "Don't have to quer dizer que não é necessário, e não que é proibido.", "2": "Have to é obrigação: a frase diria que você é obrigado a compartilhar."}},
+    {"id": "a2-09-p2", "type": "choice", "prompt": "Tomorrow is a holiday, so we ___ come to the office.", "options": ["mustn't", "don't have to", "doesn't have to"], "answer": 1,
+     "explain": "Não é necessário vir, mas também não é proibido. Com we, a forma é don't have to.",
+     "why_not": {"0": "Mustn't proibiria a ida ao escritório, e o contexto é apenas de ausência de obrigação.", "2": "Doesn't have to é a forma de he, she e it, e não de we."}},
+    {"id": "a2-09-p3", "type": "choice", "prompt": "Ana ___ get up at six because her train leaves at seven.", "options": ["have to", "has to", "must to"], "answer": 1,
+     "explain": "Ana é he/she/it, então usamos has to. É uma obrigação criada por um horário externo.",
+     "why_not": {"0": "Have to é para I, you, we e they.", "2": "Must nunca leva to depois dele."}},
+    {"id": "a2-09-p4", "type": "fill", "prompt": "I think you ___ talk to your manager about the problem.", "answers": ["should", "ought to"],
+     "explain": "Com I think you… damos um conselho, e para conselho usamos should."},
+    {"id": "a2-09-p5", "type": "fill", "prompt": "Tom ___ to finish the report today. His manager asked for it.", "answers": ["has", "needs"],
+     "explain": "Com Tom (he), a forma é has to ou needs to, e depois vem o verbo base: has to finish."},
+    {"id": "a2-09-p6", "type": "translate", "prompt": "Eu não preciso trabalhar amanhã.", "answers": ["I do not have to work tomorrow.", "I do not need to work tomorrow."],
+     "explain": "Não precisar se diz don't have to ou don't need to. Mustn't mudaria o sentido para proibição."},
+    {"id": "a2-09-p7", "type": "order", "words": ["You", "must", "not", "share", "your", "password"], "prompt": "Você não pode compartilhar sua senha.",
+     "explain": "A ordem é sujeito + must not + verbo base + complemento. Na fala, must not vira mustn't.",
+     "answers": ["You mustn't share your password."]},
+    {"id": "a2-09-p8", "type": "fix", "prompt": "She doesn't has to work on Saturday.", "answers": ["She doesn't have to work on Saturday."],
+     "explain": "Depois de doesn't, o verbo volta à forma base: have, e não has. O -s já aparece no doesn't."},
+    {"id": "a2-09-p9", "type": "fix", "prompt": "You should to update your laptop.", "answers": ["You should update your laptop."],
+     "explain": "Depois de should o verbo vem direto, sem to: should update."},
+    {"id": "a2-09-p10", "type": "choice", "prompt": "Como se diz “Você não precisa ligar para ele”?", "options": ["You mustn't call him.", "You don't have to call him.", "You don't should call him."], "answer": 1,
+     "explain": "Não precisar é don't have to. Você pode ligar, mas não é obrigado.",
+     "why_not": {"0": "Mustn't significa que ligar é proibido.", "2": "Should não usa don't. A negativa é shouldn't."}},
+    {"id": "a2-09-p11", "type": "listen", "en": "You should back up your files every week.",
+     "explain": "Should + verbo base (back up) dá um conselho. Ouça o som fraco de should e o every week no final."},
+    {"id": "a2-09-p12", "type": "translate", "prompt": "Nós temos que testar o código.", "answers": ["We have to test the code.", "We must test the code.", "We need to test the code."],
+     "explain": "Obrigação pode ser have to, must ou need to. A forma mais comum no trabalho é we have to test the code."}
+  ],
+  "quiz": [
+    {"id": "a2-09-q1", "type": "choice", "prompt": "You ___ park here. It is forbidden.", "options": ["mustn't", "don't have to", "have to"], "answer": 0,
+     "explain": "Forbidden significa proibido, e proibição pede mustn't.",
+     "why_not": {"1": "Don't have to é só ausência de obrigação.", "2": "Have to é obrigação, o oposto do sentido da frase."}},
+    {"id": "a2-09-q2", "type": "fill", "prompt": "Sam ___ to work late tonight because the release is tomorrow.", "answers": ["has", "needs"],
+     "explain": "Com Sam (he), usamos has to ou needs to: uma obrigação criada pelo prazo do release."},
+    {"id": "a2-09-q3", "type": "translate", "prompt": "Você deveria dormir mais.", "answers": ["You should sleep more.", "You should get more sleep.", "You ought to sleep more."],
+     "explain": "Um conselho se diz com should + verbo base: you should sleep more."},
+    {"id": "a2-09-q4", "type": "order", "words": ["We", "do", "not", "have", "to", "wear", "a", "suit"], "prompt": "Nós não precisamos usar terno.",
+     "explain": "A negativa de have to usa do not (don't) antes de have to, e o verbo wear fica na forma base.",
+     "answers": ["We don't have to wear a suit.", "We do not need to wear a suit."]},
+    {"id": "a2-09-q5", "type": "fix", "prompt": "You mustn't come to the meeting. It is optional.", "answers": ["You don't have to come to the meeting. It is optional.", "You do not need to come to the meeting. It is optional."],
+     "explain": "Optional quer dizer que não é obrigatório, e não que é proibido. Por isso a frase correta usa don't have to."},
+    {"id": "a2-09-q6", "type": "choice", "prompt": "Qual frase dá um conselho?", "options": ["You must wear a badge.", "You should take a break.", "You have to log in."], "answer": 1,
+     "explain": "Should é a palavra do conselho: é uma boa ideia, mas não uma obrigação.",
+     "why_not": {"0": "Must expressa uma regra forte.", "2": "Have to expressa uma obrigação."}},
+    {"id": "a2-09-q7", "type": "listen", "en": "Do I have to attend the planning meeting?",
+     "explain": "A pergunta de have to usa Do I…? e o verbo base (attend). Ouça o have to ligado."}
+  ],
+  "words": [
+    {"word": "rule", "pt": "regra"},
+    {"word": "badge", "pt": "crachá"},
+    {"word": "password", "pt": "senha"},
+    {"word": "forbidden", "pt": "proibido"},
+    {"word": "optional", "pt": "opcional"},
+    {"word": "advice", "pt": "conselho"},
+    {"word": "take a break", "pt": "fazer uma pausa"},
+    {"word": "back up", "pt": "fazer backup; copiar para segurança"},
+    {"word": "submit", "pt": "enviar; entregar"},
+    {"word": "invoice", "pt": "fatura; nota de cobrança"}
+  ]
+}

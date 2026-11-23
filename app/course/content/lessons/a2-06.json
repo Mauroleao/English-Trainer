@@ -1,0 +1,204 @@
+{
+  "id": "a2-06",
+  "level": "A2",
+  "unit": "Quantidades e comparações",
+  "title": "Contáveis e incontáveis: some, any, much, many",
+  "goal": "Falar de quantidades, escolhendo entre some, any, much, many, a lot of, a few e a little conforme o substantivo seja contável ou incontável.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "Contáveis e incontáveis",
+      "text": "Em inglês, os substantivos se dividem em dois grupos. Os **contáveis** podem ser contados um a um: *a bug*, *two bugs*, *ten laptops*. Eles têm **singular e plural**. Os **incontáveis** são vistos como uma massa que não se conta em unidades: *water*, *time*, *information*, *software*. Eles **não têm plural** e não usam *a/an*.\n\nEssa divisão importa porque os quantificadores (some, many, much...) dependem dela. Para escolher a palavra certa, pergunte primeiro: dá para contar “um, dois, três”?",
+      "table": {
+        "headers": ["Contável", "Incontável"],
+        "rows": [
+          ["a bug / two bugs", "information"],
+          ["a laptop / three laptops", "software"],
+          ["a question / many questions", "time"],
+          ["an e-mail / five e-mails", "water"]
+        ]
+      },
+      "examples": [
+        {"en": "We found three bugs.", "pt": "Nós encontramos três bugs."},
+        {"en": "We have a lot of time.", "pt": "Nós temos muito tempo."},
+        {"en": "She asked two questions.", "pt": "Ela fez duas perguntas."}
+      ],
+      "tip": "Um teste rápido: se você consegue dizer *a/an* ou um número antes da palavra (*a laptop*, *two laptops*), ela é contável."
+    },
+    {
+      "title": "Incontáveis comuns no trabalho de TI",
+      "text": "Algumas palavras do mundo da tecnologia e do trabalho são incontáveis em inglês, mesmo que em português pareçam contáveis. As mais importantes são **information**, **advice**, **software**, **code**, **feedback**, **equipment** e **data**.\n\nElas ficam **no singular**, sem plural e sem *a/an*, e o verbo é singular: *The software is ready*. Para falar de uma unidade, usamos expressões como **a piece of** ou **a line of**: *a piece of advice*, *a line of code*.",
+      "table": {
+        "headers": ["Incontável", "Errado", "Certo"],
+        "rows": [
+          ["information", "an information / informations", "some information / a piece of information"],
+          ["advice", "an advice / advices", "some advice / a piece of advice"],
+          ["software", "a software / softwares", "some software / a piece of software"],
+          ["code", "a code (para o conjunto do código)", "a lot of code / a line of code"],
+          ["feedback", "a feedback / feedbacks", "some feedback"]
+        ]
+      },
+      "examples": [
+        {"en": "The software is new.", "pt": "O software é novo."},
+        {"en": "I need some advice about this error.", "pt": "Eu preciso de um conselho sobre este erro."},
+        {"en": "The client gave us useful feedback.", "pt": "O cliente nos deu um retorno útil."},
+        {"en": "The data is in the cloud.", "pt": "Os dados estão na nuvem."}
+      ],
+      "trap": "Em português dizemos “informações”, “conselhos” e “dados”, no plural. Em inglês, **information** e **advice** não têm plural: *informations* e *advices* estão errados. No uso técnico, **data** é tratado como incontável: *The data is ready*."
+    },
+    {
+      "title": "Some e any",
+      "text": "**Some** (algum, alguns, um pouco de) e **any** funcionam com contáveis no plural e com incontáveis. Use **some** em frases **afirmativas**: *I have some questions*. Use **any** em frases **negativas** e em **perguntas**: *I don't have any questions*; *Do you have any questions?*\n\nEm **ofertas e pedidos** usamos **some**, mesmo em perguntas: *Would you like some coffee?*, *Can I have some water?* Com sentido de “qualquer”, o **any** também aparece em frases afirmativas: *Any developer can do this.*",
+      "table": {
+        "headers": ["Tipo de frase", "Palavra", "Exemplo"],
+        "rows": [
+          ["Afirmativa", "some", "There are some bugs."],
+          ["Negativa", "any", "There aren't any bugs."],
+          ["Pergunta", "any", "Are there any bugs?"],
+          ["Oferta ou pedido", "some", "Would you like some help?"]
+        ]
+      },
+      "examples": [
+        {"en": "I have some questions about the design.", "pt": "Eu tenho algumas perguntas sobre o design."},
+        {"en": "We don't have any budget this year.", "pt": "Nós não temos nenhum orçamento este ano."},
+        {"en": "Do you have any feedback?", "pt": "Você tem algum retorno?"},
+        {"en": "Would you like some coffee?", "pt": "Você gostaria de um café?"}
+      ],
+      "trap": "Em frases negativas, não use *some*: *I don't have some questions* está errado. Diga **I don't have any questions**."
+    },
+    {
+      "title": "Much e many",
+      "text": "**Many** (muitos) é usado com **contáveis no plural**: *many bugs*, *many people*. **Much** (muito) é usado com **incontáveis**: *much time*, *much information*. Eles aparecem principalmente em **perguntas** e **negativas**.\n\nPara perguntar quantidade, use **How many** com contáveis e **How much** com incontáveis. Também são comuns **too many** e **too much** (demais): *too many bugs*, *too much code*.",
+      "table": {
+        "headers": ["Com", "Palavra", "Exemplo"],
+        "rows": [
+          ["contável (plural)", "many", "How many tests did you run?"],
+          ["incontável", "much", "How much data do you have?"],
+          ["contável (plural)", "too many", "We have too many meetings."],
+          ["incontável", "too much", "There is too much noise."]
+        ]
+      },
+      "examples": [
+        {"en": "How many bugs did you find?", "pt": "Quantos bugs você encontrou?"},
+        {"en": "How much memory does this app use?", "pt": "Quanta memória este aplicativo usa?"},
+        {"en": "There aren't many users today.", "pt": "Não há muitos usuários hoje."},
+        {"en": "We don't have much time.", "pt": "Nós não temos muito tempo."}
+      ],
+      "trap": "Não diga *much bugs* nem *many time*. Bug é contável, então **many bugs**; time é incontável, então **much time**."
+    },
+    {
+      "title": "A lot of e lots of",
+      "text": "**A lot of** e **lots of** significam “muito(s)” e funcionam com **os dois tipos** de substantivo: *a lot of bugs* (contável) e *a lot of time* (incontável). São a escolha mais natural em **frases afirmativas**.\n\nNa fala, em frases afirmativas, os nativos preferem *a lot of* a *much*. *We have much work* soa pouco natural, enquanto **We have a lot of work** é comum. Já com **many** em frases afirmativas, o uso é possível, mas mais formal: *many people agree*.",
+      "table": {
+        "headers": ["Frase", "Exemplo"],
+        "rows": [
+          ["Afirmativa (contável)", "We have a lot of meetings."],
+          ["Afirmativa (incontável)", "We have a lot of work."],
+          ["Negativa", "We don't have a lot of time. / We don't have much time."],
+          ["Pergunta", "Do you have a lot of code to review?"]
+        ]
+      },
+      "examples": [
+        {"en": "We have a lot of bugs this week.", "pt": "Temos muitos bugs esta semana."},
+        {"en": "She wrote lots of code yesterday.", "pt": "Ela escreveu muito código ontem."},
+        {"en": "There is a lot of traffic today.", "pt": "Há muito trânsito hoje."}
+      ],
+      "tip": "Em frases afirmativas, **a lot of** (ou **lots of**) serve para contáveis e incontáveis: você não precisa decidir entre much e many."
+    },
+    {
+      "title": "A few e a little",
+      "text": "Para falar de **pouca quantidade**, também há duas palavras. **A few** (alguns, poucos) vai com **contáveis no plural**: *a few bugs*. **A little** (um pouco de) vai com **incontáveis**: *a little time*. Elas têm sentido **positivo**: existe uma quantidade pequena, mas suficiente.\n\nSem o **a**, **few** e **little** dão sentido **negativo**: quase não há nada. *I have few ideas* (quase nenhuma) é diferente de *I have a few ideas* (algumas).",
+      "table": {
+        "headers": ["Com", "Sentido positivo", "Sentido negativo"],
+        "rows": [
+          ["contável", "a few (alguns)", "few (quase nenhum)"],
+          ["incontável", "a little (um pouco)", "little (quase nada)"]
+        ]
+      },
+      "examples": [
+        {"en": "I have a few questions.", "pt": "Eu tenho algumas perguntas."},
+        {"en": "Can I have a little help with this?", "pt": "Posso ter um pouco de ajuda com isto?"},
+        {"en": "We have only a few minutes left.", "pt": "Só nos restam alguns minutos."}
+      ],
+      "trap": "Não misture: *a few time* está errado, porque time é incontável. Diga **a little time**. E *a little bugs* também está errado: diga **a few bugs**."
+    },
+    {
+      "title": "Na prática: pedindo ajuda numa review",
+      "text": "Numa code review, você usa quase todos os quantificadores desta lição. Preste atenção em como a escolha depende do substantivo: *comments* é contável, *feedback* é incontável, *code* é incontável e *tests* é contável.\n\nLeia o diálogo e, para cada frase, identifique se o substantivo é contável ou incontável e por que o quantificador combina com ele.",
+      "examples": [
+        {"en": "Did you get any feedback on the pull request?", "pt": "Você recebeu algum retorno sobre o pull request?"},
+        {"en": "Yes, I got some feedback and a few comments.", "pt": "Sim, recebi algum retorno e alguns comentários."},
+        {"en": "How many tests did you add?", "pt": "Quantos testes você adicionou?"},
+        {"en": "I added a lot of code, but only a little documentation.", "pt": "Eu adicionei muito código, mas só um pouco de documentação."}
+      ]
+    }
+  ],
+  "summary": [
+    "Contáveis têm plural e aceitam a/an; incontáveis (information, advice, software, code, feedback, data) não têm plural nem a/an.",
+    "Some vai em afirmativas e ofertas; any em negativas e perguntas (I don't have any questions).",
+    "Many vai com contáveis no plural e much com incontáveis; use How many / How much para perguntar quantidade.",
+    "A lot of e lots of servem para contáveis e incontáveis, e são a opção mais natural em frases afirmativas.",
+    "A few (contáveis) e a little (incontáveis) têm sentido positivo; few e little, sem a, dão a ideia de quase nada."
+  ],
+  "practice": [
+    {"id": "a2-06-p1", "type": "choice", "prompt": "Qual palavra é incontável?", "options": ["laptop", "information", "bug"], "answer": 1,
+     "explain": "Information é incontável: não tem plural nem a/an. Laptop e bug são contáveis.",
+     "why_not": {"0": "Laptop é contável: a laptop, two laptops.", "2": "Bug é contável: a bug, three bugs."}},
+    {"id": "a2-06-p2", "type": "choice", "prompt": "Can you give me some ___ about this error?", "options": ["advice", "advices", "an advice"], "answer": 0,
+     "explain": "Advice é incontável, então fica no singular e sem a/an: some advice.",
+     "why_not": {"1": "Advice não tem plural em inglês.", "2": "Advice não usa a/an; para uma unidade, diga a piece of advice."}},
+    {"id": "a2-06-p3", "type": "choice", "prompt": "I don't have ___ questions.", "options": ["some", "any", "a few"], "answer": 1,
+     "explain": "Em frases negativas usamos any: I don't have any questions.",
+     "why_not": {"0": "Some é usado em frases afirmativas.", "2": "A few tem sentido afirmativo e não combina com a negativa don't have."}},
+    {"id": "a2-06-p4", "type": "fill", "prompt": "How ___ bugs did you find?", "answers": ["many"],
+     "explain": "Bugs é contável no plural, então perguntamos How many."},
+    {"id": "a2-06-p5", "type": "fill", "prompt": "How ___ code did you write today?", "answers": ["much"],
+     "explain": "Code é incontável, então perguntamos How much."},
+    {"id": "a2-06-p6", "type": "fill", "prompt": "I have only ___ minutes left.", "answers": ["a few"],
+     "explain": "Minutes é contável no plural, e só uma pequena quantidade pede a few."},
+    {"id": "a2-06-p7", "type": "fill", "prompt": "There is only ___ time left.", "answers": ["a little"],
+     "explain": "Time é incontável, e uma pequena quantidade pede a little."},
+    {"id": "a2-06-p8", "type": "translate", "prompt": "Nós temos muitos bugs.", "answers": ["We have a lot of bugs.", "We have lots of bugs.", "We have many bugs."],
+     "explain": "Em frases afirmativas, a lot of e lots of são a escolha mais natural. Bugs é contável, então many também é possível."},
+    {"id": "a2-06-p9", "type": "order", "words": ["How", "much", "data", "do", "you", "need"], "prompt": "De quantos dados você precisa?",
+     "explain": "Data é incontável, então usamos How much. A ordem é How much + substantivo + do + sujeito + verbo."},
+    {"id": "a2-06-p10", "type": "fix", "prompt": "I need some advices.", "answers": ["I need some advice."],
+     "explain": "Advice é incontável e não tem plural. O certo é some advice."},
+    {"id": "a2-06-p11", "type": "fix", "prompt": "We have too much bugs.", "answers": ["We have too many bugs."],
+     "explain": "Bugs é contável no plural, então usamos too many, e não too much."},
+    {"id": "a2-06-p12", "type": "listen", "en": "I don't have much time today.",
+     "explain": "Time é incontável, então a frase negativa usa much. Ouça o som de much no meio da frase."}
+  ],
+  "quiz": [
+    {"id": "a2-06-q1", "type": "choice", "prompt": "We received a lot of ___ from the users.", "options": ["feedback", "feedbacks", "a feedback"], "answer": 0,
+     "explain": "Feedback é incontável: não tem plural e não usa a/an.",
+     "why_not": {"1": "Feedback não tem plural.", "2": "Feedback não usa a/an."}},
+    {"id": "a2-06-q2", "type": "fill", "prompt": "How ___ people joined the call?", "answers": ["many"],
+     "explain": "People é contável no plural, então perguntamos How many."},
+    {"id": "a2-06-q3", "type": "fill", "prompt": "How ___ memory does the server have?", "answers": ["much"],
+     "explain": "Memory é incontável neste sentido, então perguntamos How much."},
+    {"id": "a2-06-q4", "type": "translate", "prompt": "Eu preciso de algumas informações.", "answers": ["I need some information."],
+     "explain": "Information é incontável e fica no singular: some information, e não informations."},
+    {"id": "a2-06-q5", "type": "order", "words": ["There", "isn't", "much", "software", "on", "this", "laptop"], "prompt": "Não há muito software neste laptop.", "answers": ["There is not much software on this laptop.", "There's not much software on this laptop."],
+     "explain": "Software é incontável, então usamos much na negativa. A estrutura é there isn't + quantificador + substantivo."},
+    {"id": "a2-06-q6", "type": "fix", "prompt": "She gave me a good advice.", "answers": ["She gave me good advice.", "She gave me some good advice.", "She gave me a piece of good advice.", "She gave me a good piece of advice.", "She gave me a piece of advice."],
+     "explain": "Advice é incontável e não usa a/an. Diga good advice, some good advice ou a piece of good advice."},
+    {"id": "a2-06-q7", "type": "choice", "prompt": "Qual frase está correta?", "options": ["I have a few questions.", "I have a little questions.", "I have few question."], "answer": 0,
+     "explain": "Questions é contável no plural, e uma pequena quantidade positiva pede a few.",
+     "why_not": {"1": "A little é usado com incontáveis, e não com questions.", "2": "Few precisa do plural questions, e o sentido seria quase nenhuma."}},
+    {"id": "a2-06-q8", "type": "listen", "en": "There are a lot of new messages in the inbox.",
+     "explain": "Messages é contável no plural, e a lot of combina com contáveis e incontáveis. Ouça a ligação de a lot of."}
+  ],
+  "words": [
+    {"word": "information", "pt": "informação; informações"},
+    {"word": "advice", "pt": "conselho; orientação"},
+    {"word": "software", "pt": "software; programa"},
+    {"word": "data", "pt": "dados"},
+    {"word": "feedback", "pt": "retorno; opinião; avaliação"},
+    {"word": "equipment", "pt": "equipamento"},
+    {"word": "memory", "pt": "memória"},
+    {"word": "time", "pt": "tempo; vez"},
+    {"word": "question", "pt": "pergunta; dúvida"},
+    {"word": "bug", "pt": "erro de software; defeito"}
+  ]
+}

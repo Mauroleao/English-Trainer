@@ -1,0 +1,158 @@
+{
+  "id": "b1-01",
+  "level": "B1",
+  "unit": "Experiências e resultados",
+  "title": "Present perfect vs past simple",
+  "goal": "Escolher entre present perfect e past simple e falar de experiências, resultados e durações com for, since, just, already, yet e ever.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "Present perfect: o passado que importa agora",
+      "text": "Você já viu o present perfect no A2. Agora vamos entender **por que** ele existe. A forma é **have/has + particípio** (*have worked*, *has finished*), e a ideia central é uma **ponte entre o passado e o presente**: a ação aconteceu antes, mas o resultado ou a situação ainda interessa agora.\n\nUsamos o present perfect em três situações: quando o **resultado** vale hoje (*I have lost my password*, e por isso não consigo entrar), quando falamos de **experiência de vida** sem dizer quando (*I have used Docker*), e quando a situação **continua** até agora (*She has worked here for three years*).",
+      "examples": [
+        {"en": "I have lost my password.", "pt": "Eu perdi minha senha. (e ainda não consigo entrar)"},
+        {"en": "We have fixed the bug.", "pt": "Nós corrigimos o bug. (agora ele está resolvido)"},
+        {"en": "She has worked here for three years.", "pt": "Ela trabalha aqui há três anos."}
+      ],
+      "tip": "Pense assim: se o passado ainda “toca” o presente, use present perfect."
+    },
+    {
+      "title": "Past simple: o passado terminado",
+      "text": "O **past simple** fala de algo que começou e **terminou** num momento definido do passado. Quem fala tem aquele momento em mente, mesmo que não o diga. Por isso ele combina com expressões de tempo terminado: *yesterday*, *last week*, *in 2022*, *two days ago*, *at 5 p.m.* e com a pergunta *When…?*.\n\nA ponte com o presente é cortada: o evento ficou no passado. Se eu digo *I fixed the bug yesterday*, estou contando um fato datado; não estou falando do estado atual.",
+      "examples": [
+        {"en": "I fixed the bug yesterday.", "pt": "Eu corrigi o bug ontem."},
+        {"en": "We released the update last week.", "pt": "Nós lançamos a atualização semana passada."},
+        {"en": "When did you join the company?", "pt": "Quando você entrou na empresa?"}
+      ]
+    },
+    {
+      "title": "A regra de ouro: o tempo está definido?",
+      "text": "Para escolher o tempo verbal, faça uma pergunta: **o momento do passado está dito ou claro?** Se sim, use **past simple**. Se o momento não importa, é desconhecido ou ainda não acabou (*today*, *this week*), use **present perfect**.\n\nO motivo é lógico: o present perfect olha para o presente, e uma data fixa no passado joga a ação para longe do presente. Por isso **nunca** se usa present perfect com *yesterday*, *last year*, *ago* ou *When…?*.",
+      "table": {
+        "headers": ["Situação", "Tempo verbal", "Exemplo"],
+        "rows": [
+          ["Momento definido (yesterday, ago, in 2020)", "Past simple", "I sent the file two hours ago."],
+          ["Momento não dito, resultado agora", "Present perfect", "I have sent the file. Check your inbox."],
+          ["Período que ainda não acabou (today, this week)", "Present perfect", "We have had three bugs this week."],
+          ["Pergunta com When", "Past simple", "When did you send it?"]
+        ]
+      },
+      "examples": [
+        {"en": "I have sent the file. Check your inbox.", "pt": "Eu enviei o arquivo. Veja sua caixa de entrada."}
+      ],
+      "trap": "Em português dizemos “Eu vi ele ontem” e “Eu já vi esse filme” com o mesmo verbo. Em inglês os dois tempos são diferentes. *I have seen him yesterday* está errado; o certo é *I saw him yesterday*."
+    },
+    {
+      "title": "For e since: há quanto tempo?",
+      "text": "Para dizer **há quanto tempo** uma situação continua, usamos o present perfect com **for** ou **since**. **For** é seguido de uma **duração** (*for two years*, *for a week*). **Since** é seguido do **ponto de início** (*since 2021*, *since Monday*, *since I joined the team*).\n\nA pergunta é *How long have you…?*. Note que o inglês usa o present perfect porque a situação começou no passado e **continua agora**.",
+      "table": {
+        "headers": ["Palavra", "Depois dela vem", "Exemplo"],
+        "rows": [
+          ["for", "duração", "I have lived here for five years."],
+          ["since", "ponto de início", "I have lived here since 2020."]
+        ]
+      },
+      "examples": [
+        {"en": "I have worked here for two years.", "pt": "Eu trabalho aqui há dois anos."},
+        {"en": "He has been in the team since March.", "pt": "Ele está na equipe desde março."},
+        {"en": "How long have you known her?", "pt": "Há quanto tempo você a conhece?"}
+      ],
+      "trap": "Em português dizemos “Eu moro aqui há três anos”, com verbo no presente. Em inglês isso é um erro comum: *I live here for three years*. O certo é *I have lived here for three years*."
+    },
+    {
+      "title": "Just, already, yet e so far",
+      "text": "Estas palavras aparecem muito com o present perfect e dão a ideia de “resultado até agora”. **Just** é “acabou de” e **already** é “já”; os dois ficam **entre have/has e o particípio**. **Yet** quer dizer “ainda” em frases negativas e “já” em perguntas, e vai **no fim da frase**. **So far** é “até agora” e pode ir no fim ou no começo.\n\nOu seja: *already* diz que algo foi feito; *not … yet* diz que ainda falta; *yet* em pergunta quer saber se já foi feito.",
+      "examples": [
+        {"en": "I have just sent the email.", "pt": "Eu acabei de enviar o e-mail."},
+        {"en": "They have already finished the tests.", "pt": "Eles já terminaram os testes."},
+        {"en": "We haven't released the new version yet.", "pt": "Nós ainda não lançamos a nova versão."},
+        {"en": "Have you read the report yet?", "pt": "Você já leu o relatório?"},
+        {"en": "So far, we have fixed ten bugs.", "pt": "Até agora, nós corrigimos dez bugs."}
+      ],
+      "tip": "No inglês americano informal, também se ouve o past simple com just, already e yet (*Did you finish yet?*). Neste curso, usamos o present perfect, que é a forma padrão."
+    },
+    {
+      "title": "Ever, never e been",
+      "text": "Para falar de **experiências na vida**, sem dizer quando, usamos **ever** (“alguma vez”) em perguntas e **never** (“nunca”) em respostas. **Ever** e **never** ficam entre have/has e o particípio. A pergunta típica é *Have you ever…?*.\n\nOutro detalhe: **been** é o particípio de *be* e também serve para “ter ido e voltado”. *I have been to Berlin* significa “Eu já estive em Berlim” (e agora estou de volta). Se alguém **has gone** para Berlim, essa pessoa ainda está lá.\n\nQuando você dá detalhes de **quando** foi a experiência, passa para o past simple: *Have you ever used Git? Yes, I used it in my last job.*",
+      "examples": [
+        {"en": "Have you ever worked on a remote team?", "pt": "Você já trabalhou em uma equipe remota?"},
+        {"en": "I have never used Kubernetes.", "pt": "Eu nunca usei Kubernetes."},
+        {"en": "She has been to our office in Lisbon.", "pt": "Ela já esteve no nosso escritório em Lisboa."}
+      ]
+    },
+    {
+      "title": "No trabalho: daily, release e entrevista",
+      "text": "No dia a dia de TI, você mistura os dois tempos o tempo todo. Na **daily**, falamos do que já foi feito (present perfect, resultado importa) e contamos o que aconteceu ontem (past simple, momento definido). Numa **entrevista**, a pergunta de experiência vem em present perfect e os detalhes em past simple.\n\nPadrão útil: abra com o present perfect (*I have worked on this API for two months*) e entre nos detalhes com o past simple (*Last week I added the login endpoint*).",
+      "examples": [
+        {"en": "I have finished the login page. I started it on Monday.", "pt": "Eu terminei a página de login. Comecei na segunda-feira."},
+        {"en": "Have you deployed the fix yet? — Yes, I deployed it an hour ago.", "pt": "Você já fez o deploy da correção? — Sim, fiz há uma hora."},
+        {"en": "I have used Python since 2019, and I built my first API last year.", "pt": "Eu uso Python desde 2019 e construí minha primeira API no ano passado."}
+      ]
+    }
+  ],
+  "summary": [
+    "Present perfect (have/has + particípio) liga o passado ao presente: resultado agora, experiência ou situação que continua.",
+    "Past simple fala de um momento definido e terminado: yesterday, last week, two days ago, When…?",
+    "Com for (duração) e since (início) usamos present perfect: I have worked here for two years / since 2022.",
+    "Just e already ficam entre have e o particípio; yet fica no fim da frase; so far, no fim ou no começo.",
+    "Ever e never falam de experiências na vida; quando você dá a data, volta ao past simple."
+  ],
+  "practice": [
+    {"id": "b1-01-p1", "type": "choice", "prompt": "I ___ in this company since 2021.", "options": ["work", "have worked", "worked"], "answer": 1,
+     "explain": "Since indica uma situação que começou no passado e continua agora, então usamos present perfect: have worked.",
+     "why_not": {"0": "O present simple não expressa a duração desde 2021; em inglês isso exige present perfect.", "2": "O past simple indicaria que você não trabalha mais lá."}},
+    {"id": "b1-01-p2", "type": "choice", "prompt": "She ___ the report yesterday.", "options": ["has finished", "finished", "finishes"], "answer": 1,
+     "explain": "Yesterday é um momento definido no passado, e com ele usamos past simple.",
+     "why_not": {"0": "Present perfect não combina com yesterday.", "2": "Finishes está no presente e a frase fala de ontem."}},
+    {"id": "b1-01-p3", "type": "choice", "prompt": "Have you ___ used Docker?", "options": ["ever", "ago", "for"], "answer": 0,
+     "explain": "Em perguntas sobre experiência de vida, usamos ever entre have you e o particípio: Have you ever used…?",
+     "why_not": {"1": "Ago é usado com past simple (two days ago).", "2": "For é seguido de uma duração, como for two years."}},
+    {"id": "b1-01-p4", "type": "fill", "prompt": "I have known my team lead ___ five years.", "answers": ["for"],
+     "explain": "Five years é uma duração, e durações pedem for. Since pediria um ponto de início, como since 2020."},
+    {"id": "b1-01-p5", "type": "fill", "prompt": "They have worked here ___ March.", "answers": ["since"],
+     "explain": "March é um ponto de início no tempo, e pontos de início pedem since."},
+    {"id": "b1-01-p6", "type": "fill", "prompt": "We haven't fixed the bug ___.", "answers": ["yet"],
+     "explain": "Em frases negativas, yet significa “ainda” e fica no fim da frase."},
+    {"id": "b1-01-p7", "type": "translate", "prompt": "Eu já terminei o relatório.", "answers": ["I have already finished the report.", "I have finished the report already."],
+     "explain": "Já com resultado agora é already + present perfect. Already fica entre have e o particípio, e também pode ir no fim da frase."},
+    {"id": "b1-01-p8", "type": "order", "words": ["She", "has", "just", "sent", "the", "email"], "prompt": "Ela acabou de enviar o e-mail.",
+     "explain": "Just fica entre has e o particípio: has just sent."},
+    {"id": "b1-01-p9", "type": "fix", "prompt": "I have seen him yesterday.", "answers": ["I saw him yesterday."],
+     "explain": "Yesterday é um momento definido no passado, então o certo é past simple: I saw him yesterday."},
+    {"id": "b1-01-p10", "type": "choice", "prompt": "Como se diz “Eu moro aqui há três anos”?", "options": ["I live here for three years.", "I have lived here for three years.", "I lived here for three years."], "answer": 1,
+     "explain": "A situação começou no passado e continua agora, e duração com for pede present perfect.",
+     "why_not": {"0": "Em inglês, o present simple não é usado para dizer há quanto tempo algo continua.", "2": "O past simple diria que você já não mora mais aqui."}},
+    {"id": "b1-01-p11", "type": "listen", "en": "I have lived in Recife for ten years.",
+     "explain": "Have lived + for ten years: situação que começou no passado e continua agora."}
+  ],
+  "quiz": [
+    {"id": "b1-01-q1", "type": "choice", "prompt": "When ___ you start working here?", "options": ["did", "have", "has"], "answer": 0,
+     "explain": "Perguntas com When pedem um momento definido, e por isso usam past simple: When did you start…?",
+     "why_not": {"1": "When não combina com present perfect.", "2": "Has não concorda com you e também exige present perfect."}},
+    {"id": "b1-01-q2", "type": "fill", "prompt": "He has lived in Berlin ___ 2019.", "answers": ["since"],
+     "explain": "2019 é um ponto de início, então usamos since."},
+    {"id": "b1-01-q3", "type": "translate", "prompt": "Nós ainda não lançamos a nova versão.", "answers": ["We haven't released the new version yet.", "We still haven't released the new version.", "We haven't launched the new version yet."],
+     "explain": "Ainda não é not … yet com present perfect. Também é possível usar still antes de haven't."},
+    {"id": "b1-01-q4", "type": "order", "words": ["I", "have", "never", "worked", "with", "Kubernetes"], "prompt": "Eu nunca trabalhei com Kubernetes.",
+     "explain": "Never fica entre have e o particípio: have never worked."},
+    {"id": "b1-01-q5", "type": "fix", "prompt": "She works here since 2020.", "answers": ["She has worked here since 2020.", "She has been working here since 2020."],
+     "explain": "Since 2020 mostra uma situação que começou no passado e continua, e isso pede present perfect, não present simple."},
+    {"id": "b1-01-q6", "type": "choice", "prompt": "Qual frase está correta?", "options": ["I have sent the file last night.", "I sent the file last night.", "I send the file last night."], "answer": 1,
+     "explain": "Last night é um momento definido, e por isso usamos past simple.",
+     "why_not": {"0": "Present perfect não aceita last night.", "2": "O present simple não serve para um fato passado."}},
+    {"id": "b1-01-q7", "type": "listen", "en": "Have you ever worked on a remote team?",
+     "explain": "Have you ever + particípio é a pergunta padrão sobre experiência de vida."}
+  ],
+  "words": [
+    {"word": "already", "pt": "já"},
+    {"word": "yet", "pt": "ainda (em negativas); já (em perguntas)"},
+    {"word": "since", "pt": "desde"},
+    {"word": "ever", "pt": "alguma vez"},
+    {"word": "never", "pt": "nunca"},
+    {"word": "so far", "pt": "até agora"},
+    {"word": "release", "pt": "lançar; lançamento"},
+    {"word": "remote", "pt": "remoto"},
+    {"word": "ago", "pt": "atrás (tempo)"},
+    {"word": "recently", "pt": "recentemente"}
+  ]
+}

@@ -1,0 +1,411 @@
+{
+  "id": "b2-09",
+  "level": "B2",
+  "unit": "Determinantes e comparações",
+  "title": "Artigos e determinantes avançados",
+  "goal": "Usar com precisão o artigo zero, o the em generalizações, some/any/no e each/every.",
+  "minutes": 25,
+  "steps": [
+    {
+      "title": "Artigo zero: generalizações sem the",
+      "text": "Para falar de uma classe inteira de coisas, o inglês usa **plural ou incontável sem artigo**. É o **artigo zero**. *Developers need coffee* fala de desenvolvedores em geral. *Information is power* fala de informação em geral.\n\nAqui o português é traiçoeiro, porque usa o artigo definido nas generalizações: “**Os** desenvolvedores precisam de café”, “**A** vida é difícil”, “**O** tempo é dinheiro”. Em inglês, se você colocar **the**, a frase passa a falar de um grupo específico que já conhecemos.",
+      "examples": [
+        {
+          "en": "Developers need good documentation.",
+          "pt": "Os desenvolvedores precisam de boa documentação."
+        },
+        {
+          "en": "Time is money.",
+          "pt": "Tempo é dinheiro."
+        },
+        {
+          "en": "Security matters more than speed here.",
+          "pt": "A segurança importa mais do que a velocidade aqui."
+        }
+      ],
+      "trap": "Não traduza o artigo do português. *The life is hard* e *The security is important* soam errados quando a ideia é geral. Diga *Life is hard* e *Security is important*."
+    },
+    {
+      "title": "The com generalizações e the + adjetivo",
+      "text": "Há três casos em que o **the** aparece mesmo em ideias gerais.\n\nPrimeiro, **the + singular** para uma invenção ou espécie como um todo: *The smartphone changed how we work*. Segundo, **the + adjetivo** para um grupo de pessoas: *the unemployed*, *the rich*, *the elderly*. Esse grupo é plural e leva verbo no plural: *The elderly need support*. Terceiro, nacionalidades que terminam em -ch, -sh, -ese ou -s: *the French*, *the Brazilians* (para as demais, o plural normal basta).\n\nCom **the + adjetivo** não existe um substantivo escondido: você não pode acrescentar -s. Diga *the unemployed*, e nunca *the unemployeds*.",
+      "examples": [
+        {
+          "en": "The smartphone has changed how we work.",
+          "pt": "O smartphone mudou a forma como trabalhamos."
+        },
+        {
+          "en": "The company offers free courses to the unemployed.",
+          "pt": "A empresa oferece cursos gratuitos aos desempregados."
+        },
+        {
+          "en": "The elderly often find these apps confusing.",
+          "pt": "Os idosos muitas vezes acham esses aplicativos confusos."
+        }
+      ],
+      "tip": "Compare: *Smartphones are everywhere* (plural, geral) e *The smartphone changed everything* (singular genérico, mais formal e histórico). Os dois estão corretos."
+    },
+    {
+      "title": "Expressões fixas sem artigo",
+      "text": "Alguns lugares e situações aparecem **sem artigo** quando pensamos na **função**, e não no prédio. Dizemos *go to work*, *be at work*, *go to school*, *be in hospital* (inglês britânico; no americano, *in the hospital*) e *go to bed*.\n\nO mesmo vale para meios de transporte e comunicação com **by**: *by car*, *by train*, *by email*. E para refeições, idiomas e dias: *have lunch*, *speak Portuguese*, *on Monday*. Se você fala de um prédio específico, o artigo volta: *I am going to the school to meet the teacher* (para encontrar uma pessoa, e não para estudar).\n\nTambém usamos **a/an** para taxas e frequências: *twice a week*, *fifty dollars an hour*, *three times a day*.",
+      "examples": [
+        {
+          "en": "She goes to work by train.",
+          "pt": "Ela vai trabalhar de trem."
+        },
+        {
+          "en": "We send the report by email every Friday.",
+          "pt": "Enviamos o relatório por e-mail toda sexta-feira."
+        },
+        {
+          "en": "He earns fifty dollars an hour.",
+          "pt": "Ele ganha cinquenta dólares por hora."
+        },
+        {
+          "en": "I go to the office three times a week.",
+          "pt": "Eu vou ao escritório três vezes por semana."
+        }
+      ],
+      "trap": "Em português dizemos “estou no trabalho”, “vou para a cama”, “de trem”. Em inglês, não coloque the nem a nessas expressões: *at work*, *to bed*, *by train*. Dizer *I am at the work* está errado."
+    },
+    {
+      "title": "Some, any e no: as nuances",
+      "text": "A regra básica (some na afirmativa, any na negativa e na pergunta) tem exceções importantes no B2.\n\nUse **some** em perguntas que são **ofertas ou pedidos**, porque você espera um sim: *Would you like some coffee?* *Can I have some help?* Use **any** na afirmativa com o sentido de **“qualquer”**: *Any developer can fix this*. Aqui any é pronunciado com ênfase.\n\nUse **no** (= not any) para dar força à negação, mais comum na escrita: *There is no documentation* é mais direto que *There isn't any documentation*. Com no, o verbo fica afirmativo; não existe *There isn't no documentation*. Quando **no** vira pronome, a forma é **none**: *How many bugs are open? None.*",
+      "examples": [
+        {
+          "en": "Would you like some coffee before the meeting?",
+          "pt": "Você aceita um café antes da reunião?"
+        },
+        {
+          "en": "Any developer can learn Python if they practice.",
+          "pt": "Qualquer desenvolvedor consegue aprender Python se praticar."
+        },
+        {
+          "en": "There is no documentation for this API.",
+          "pt": "Não há documentação para esta API."
+        }
+      ],
+      "trap": "Em português, a dupla negação é normal (“não tem nenhuma documentação”). Em inglês, só uma negação por oração: *There isn't any documentation* ou *There is no documentation*, nunca *There isn't no documentation*."
+    },
+    {
+      "title": "Each e every",
+      "text": "**Every** e **each** são singulares (verbo no singular) e significam “cada” ou “todo”, mas olham o grupo de formas diferentes.\n\n**Every** vê o grupo **inteiro**, sem exceção, e costuma ser usado para três ou mais: *Every developer has a laptop*. **Each** vê os **membros um a um**, individualmente, e serve até para dois: *Each of the two options has advantages*. Depois de **each of** vem **the/these/my + plural**: *Each of the servers has its own backup*. Não use *every of*.\n\nPara frequência, só **every** funciona: *every Monday*, *every two hours*. Com **each**, você não diz *each two hours*.",
+      "examples": [
+        {
+          "en": "Every developer in the team has a laptop.",
+          "pt": "Todo desenvolvedor da equipe tem um notebook."
+        },
+        {
+          "en": "Each of the servers has its own backup.",
+          "pt": "Cada um dos servidores tem o seu próprio backup."
+        },
+        {
+          "en": "The tests run every two hours.",
+          "pt": "Os testes rodam a cada duas horas."
+        }
+      ],
+      "tip": "Pense assim: every = todos juntos como grupo; each = um por um. Em caso de dúvida, com três ou mais itens, every costuma funcionar."
+    },
+    {
+      "title": "Os determinantes no texto profissional",
+      "text": "Em relatórios, e-mails e documentação, estas escolhas deixam o texto mais preciso. Para uma regra geral, use plural sem artigo: *Users expect fast pages*. Para um item já mencionado, use **the**: *We found a bug. The bug affects login*. Na primeira menção, use **a/an**; na segunda, **the**.\n\nPara dar um alcance total, use **every** ou **each**. Para dizer que algo não existe, use **no**. Para uma possibilidade livre, use **any**. Revise sempre o seu texto: se você escreveu *the* antes de um plural genérico ou um incontável genérico, pergunte-se se realmente fala de algo específico.",
+      "examples": [
+        {
+          "en": "Users expect fast pages and clear error messages.",
+          "pt": "Os usuários esperam páginas rápidas e mensagens de erro claras."
+        },
+        {
+          "en": "We found a bug in the login form. The bug affects every user.",
+          "pt": "Encontramos um bug no formulário de login. O bug afeta todos os usuários."
+        },
+        {
+          "en": "There are no open tickets for this release.",
+          "pt": "Não há tickets abertos para esta versão."
+        }
+      ]
+    }
+  ],
+  "summary": [
+    "Generalizações usam plural ou incontável sem artigo: Developers need coffee. Life is hard.",
+    "The aparece em invenções (the smartphone) e com adjetivo para grupos (the unemployed, sempre plural).",
+    "Expressões fixas ficam sem artigo: at work, by train, go to bed. Taxas usam a/an: twice a week.",
+    "Some em ofertas e pedidos; any = qualquer na afirmativa; no = not any, sem dupla negação.",
+    "Every vê o grupo todo e serve para frequência; each vê um por um e aceita each of the + plural."
+  ],
+  "practice": [
+    {
+      "id": "b2-09-p1",
+      "type": "choice",
+      "prompt": "Em geral: ___ developers need good documentation.",
+      "options": [
+        "The",
+        "A",
+        "(sem artigo)"
+      ],
+      "answer": 2,
+      "explain": "Para uma generalização com plural, o inglês usa artigo zero. O the passaria a falar de desenvolvedores específicos.",
+      "why_not": {
+        "0": "The apontaria para um grupo específico que já conhecemos.",
+        "1": "A não combina com um substantivo no plural."
+      }
+    },
+    {
+      "id": "b2-09-p2",
+      "type": "choice",
+      "prompt": "She goes to ___ by train every morning, and she gets there at nine.",
+      "options": [
+        "the work",
+        "a work",
+        "work"
+      ],
+      "answer": 2,
+      "explain": "Go to work é uma expressão fixa sem artigo: pensamos na atividade, e não em um lugar específico.",
+      "why_not": {
+        "0": "The work soaria como uma obra ou um trabalho específico.",
+        "1": "A work significa uma obra, como uma obra de arte."
+      }
+    },
+    {
+      "id": "b2-09-p3",
+      "type": "choice",
+      "prompt": "Qual é a forma correta para “as pessoas desempregadas” em geral?",
+      "options": [
+        "the unemployed",
+        "the unemployeds",
+        "unemployed the"
+      ],
+      "answer": 0,
+      "explain": "The + adjetivo funciona como um grupo plural. O adjetivo não recebe -s e fica depois do the.",
+      "why_not": {
+        "1": "Adjetivos não recebem -s, mesmo nesse uso.",
+        "2": "O the vem sempre antes do adjetivo."
+      }
+    },
+    {
+      "id": "b2-09-p4",
+      "type": "fill",
+      "prompt": "___ smartphone has changed how we work.",
+      "answers": [
+        "The"
+      ],
+      "explain": "The + singular genérico fala da invenção como um todo, no sentido de os smartphones em geral."
+    },
+    {
+      "id": "b2-09-p5",
+      "type": "choice",
+      "prompt": "___ of the two options has advantages.",
+      "options": [
+        "Every",
+        "Each",
+        "Any"
+      ],
+      "answer": 1,
+      "explain": "Each olha cada membro individualmente e funciona com dois itens, com a estrutura each of the + plural.",
+      "why_not": {
+        "0": "Every não se usa com of nem com apenas dois itens nesse contexto.",
+        "2": "Any quer dizer qualquer um, o que muda o sentido."
+      }
+    },
+    {
+      "id": "b2-09-p6",
+      "type": "fill",
+      "prompt": "The tests run ___ two hours.",
+      "answers": [
+        "every"
+      ],
+      "explain": "Para frequência (a cada duas horas), usamos every + número + período. Each não funciona aqui."
+    },
+    {
+      "id": "b2-09-p7",
+      "type": "choice",
+      "prompt": "Would you like ___ coffee before the meeting?",
+      "options": [
+        "some",
+        "any",
+        "no"
+      ],
+      "answer": 0,
+      "explain": "Em ofertas e pedidos, usamos some, porque esperamos uma resposta positiva.",
+      "why_not": {
+        "1": "Any é para perguntas neutras ou negativas, e não para ofertas.",
+        "2": "No tornaria a frase estranha e negativa."
+      }
+    },
+    {
+      "id": "b2-09-p8",
+      "type": "choice",
+      "prompt": "Qual frase significa “Qualquer desenvolvedor consegue resolver isso”?",
+      "options": [
+        "Any developer can fix this.",
+        "Some developer can fix this.",
+        "No developer can fix this."
+      ],
+      "answer": 0,
+      "explain": "Any em frase afirmativa significa qualquer, sem restrição.",
+      "why_not": {
+        "1": "Some developer significa um desenvolvedor que não sabemos qual.",
+        "2": "No developer significa que ninguém consegue."
+      }
+    },
+    {
+      "id": "b2-09-p9",
+      "type": "fix",
+      "prompt": "The life is difficult without coffee.",
+      "answers": [
+        "Life is difficult without coffee."
+      ],
+      "explain": "Em generalizações com incontáveis, o inglês não usa the. O português usa o artigo (a vida), mas o inglês, não."
+    },
+    {
+      "id": "b2-09-p10",
+      "type": "translate",
+      "prompt": "Os desenvolvedores gostam de café.",
+      "answers": [
+        "Developers like coffee.",
+        "Developers love coffee."
+      ],
+      "explain": "É uma generalização: plural sem artigo (developers) e incontável sem artigo (coffee)."
+    },
+    {
+      "id": "b2-09-p11",
+      "type": "order",
+      "words": [
+        "She",
+        "earns",
+        "fifty",
+        "dollars",
+        "an",
+        "hour"
+      ],
+      "prompt": "Ela ganha cinquenta dólares por hora.",
+      "explain": "Para taxas, o inglês usa a/an no lugar de por: fifty dollars an hour."
+    },
+    {
+      "id": "b2-09-p12",
+      "type": "listen",
+      "en": "Each of the engineers has a company laptop.",
+      "explain": "Each of the + plural leva verbo no singular: each of the engineers has."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "b2-09-q1",
+      "type": "choice",
+      "prompt": "The government should help ___ poor.",
+      "options": [
+        "the",
+        "a",
+        "some"
+      ],
+      "answer": 0,
+      "explain": "The + adjetivo (the poor) forma um grupo de pessoas e leva o artigo the.",
+      "why_not": {
+        "1": "A exigiria um substantivo no singular.",
+        "2": "Some poor não forma um grupo geral."
+      }
+    },
+    {
+      "id": "b2-09-q2",
+      "type": "choice",
+      "prompt": "I haven't got ___ time today, so let's talk tomorrow.",
+      "options": [
+        "some",
+        "any",
+        "a"
+      ],
+      "answer": 1,
+      "explain": "Em frases negativas com incontável, usamos any: I haven't got any time.",
+      "why_not": {
+        "0": "Some não é usado na negativa nesse sentido.",
+        "2": "A não se usa com um incontável como time nesse sentido."
+      }
+    },
+    {
+      "id": "b2-09-q3",
+      "type": "fill",
+      "prompt": "There is ___ documentation for this API, so we are guessing.",
+      "answers": [
+        "no"
+      ],
+      "explain": "No (= not any) deixa a negação mais direta e o verbo fica afirmativo: there is no documentation."
+    },
+    {
+      "id": "b2-09-q4",
+      "type": "translate",
+      "prompt": "Ela vai ao escritório três vezes por semana.",
+      "answers": [
+        "She goes to the office three times a week.",
+        "She goes to the office three times per week."
+      ],
+      "explain": "Frequência usa a/an (three times a week), e o escritório específico leva the."
+    },
+    {
+      "id": "b2-09-q5",
+      "type": "fix",
+      "prompt": "He is at the work now.",
+      "answers": [
+        "He is at work now."
+      ],
+      "explain": "At work é uma expressão fixa sem artigo, porque indica a situação de estar trabalhando."
+    },
+    {
+      "id": "b2-09-q6",
+      "type": "order",
+      "words": [
+        "Every",
+        "developer",
+        "in",
+        "the",
+        "team",
+        "has",
+        "a",
+        "laptop"
+      ],
+      "prompt": "Todo desenvolvedor da equipe tem um notebook.",
+      "explain": "Every é singular e vem com verbo no singular: every developer has."
+    },
+    {
+      "id": "b2-09-q7",
+      "type": "listen",
+      "en": "We send the report by email every Friday.",
+      "explain": "By email não leva artigo, e every + dia indica frequência."
+    }
+  ],
+  "words": [
+    {
+      "word": "unemployed",
+      "pt": "desempregado; desempregada"
+    },
+    {
+      "word": "elderly",
+      "pt": "idoso; idosos"
+    },
+    {
+      "word": "documentation",
+      "pt": "documentação"
+    },
+    {
+      "word": "backup",
+      "pt": "cópia de segurança; backup"
+    },
+    {
+      "word": "each",
+      "pt": "cada (um)"
+    },
+    {
+      "word": "every",
+      "pt": "todo; toda; cada"
+    },
+    {
+      "word": "none",
+      "pt": "nenhum; nenhuma"
+    },
+    {
+      "word": "earn",
+      "pt": "ganhar (dinheiro); receber"
+    },
+    {
+      "word": "invention",
+      "pt": "invenção"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "id": "a1-02",
+  "level": "A1",
+  "unit": "Primeiros passos",
+  "title": "To be: negativa e perguntas",
+  "goal": "Dizer que algo não é verdade, fazer perguntas com to be e responder de forma curta.",
+  "minutes": 20,
+  "steps": [
+    {
+      "title": "A negativa: coloque not depois do verbo",
+      "text": "Para dizer que algo **não** é verdade, escreva **not** logo depois de **am**, **is** ou **are**. É a negativa mais fácil do inglês: o verbo fica no mesmo lugar e o **not** vem atrás dele.\n\nA frase fica assim: **sujeito + am/is/are + not + resto da frase**. Em português fazemos o contrário, pois o “não” vem antes do verbo: “Eu **não** sou”. Em inglês, o **not** vem depois.",
+      "table": {
+        "headers": ["Sujeito", "Verbo + not", "Exemplo"],
+        "rows": [
+          ["I", "am not", "I am not late."],
+          ["he / she / it", "is not", "She is not at work."],
+          ["you / we / they", "are not", "They are not ready."]
+        ]
+      },
+      "examples": [
+        {"en": "I am not late.", "pt": "Eu não estou atrasado."},
+        {"en": "She is not at work.", "pt": "Ela não está no trabalho."},
+        {"en": "They are not ready.", "pt": "Eles não estão prontos."}
+      ],
+      "trap": "Em português o “não” vem ANTES do verbo (“não sou”). Em inglês o **not** vem DEPOIS: *He is not a tester*. Dizer *He not is a tester* está errado."
+    },
+    {
+      "title": "Contrações negativas: isn't, aren't, I'm not",
+      "text": "Na fala e em mensagens, juntamos o verbo com o **not**: **is not** vira **isn't** e **are not** vira **aren't**. O apóstrofo (’) toma o lugar da letra **o** que some.\n\nExiste também outra forma: juntar o pronome com o verbo e deixar o **not** separado. Por isso **she isn't** e **she's not** querem dizer a mesma coisa, e **they aren't** e **they're not** também.\n\nCom **I** só existe um jeito: **I'm not**. A forma *amn't* não existe.",
+      "table": {
+        "headers": ["Forma completa", "Contração 1", "Contração 2"],
+        "rows": [
+          ["I am not", "I'm not", "(não existe outra)"],
+          ["he is not", "he isn't", "he's not"],
+          ["it is not", "it isn't", "it's not"],
+          ["you are not", "you aren't", "you're not"],
+          ["we are not", "we aren't", "we're not"],
+          ["they are not", "they aren't", "they're not"]
+        ]
+      },
+      "examples": [
+        {"en": "I'm not a manager.", "pt": "Eu não sou gerente."},
+        {"en": "The server isn't slow.", "pt": "O servidor não está lento."},
+        {"en": "We aren't in the office.", "pt": "Nós não estamos no escritório."}
+      ],
+      "tip": "Neste app, as formas completas e as contrações valem na correção: isn't = is not."
+    },
+    {
+      "title": "Perguntas Yes/No: troque a ordem",
+      "text": "Para perguntar com **to be**, coloque o verbo **antes** do sujeito. Compare: *You are ready* (afirmação) e *Are you ready?* (pergunta). Chamamos isso de **inversão**.\n\nEm português basta mudar a entonação: “Você está pronto?”. Em inglês a ordem das palavras muda, e é isso que mostra que é uma pergunta.\n\nCom **I** a pergunta é **Am I…?**. Com he, she e it é **Is…?**. Com you, we e they é **Are…?**.",
+      "table": {
+        "headers": ["Afirmação", "Pergunta"],
+        "rows": [
+          ["I am late.", "Am I late?"],
+          ["He is a tester.", "Is he a tester?"],
+          ["The build is ready.", "Is the build ready?"],
+          ["You are ready.", "Are you ready?"],
+          ["They are in the meeting.", "Are they in the meeting?"]
+        ]
+      },
+      "examples": [
+        {"en": "Is she your manager?", "pt": "Ela é sua gerente?"},
+        {"en": "Are you ready?", "pt": "Você está pronto?"},
+        {"en": "Is the server down?", "pt": "O servidor está fora do ar?"}
+      ],
+      "trap": "Em português dizemos “Você está pronto?” só mudando a voz. Em inglês, não deixe o sujeito na frente: diga *Are you ready?*, e não *You are ready?* quando for pergunta."
+    },
+    {
+      "title": "Respostas curtas",
+      "text": "No inglês falado, quase nunca respondemos só “Yes” ou “No”. Damos uma **resposta curta**: **Yes** ou **No**, o sujeito e o verbo **to be**.\n\nNa resposta **afirmativa** (Yes), use a forma completa e **não contraia**: *Yes, I am*. Dizer *Yes, I'm* está errado. Na resposta **negativa** (No), use a contração: *No, he isn't*.",
+      "table": {
+        "headers": ["Pergunta", "Yes", "No"],
+        "rows": [
+          ["Am I late?", "Yes, you are.", "No, you aren't."],
+          ["Are you a tester?", "Yes, I am.", "No, I'm not."],
+          ["Is he a manager?", "Yes, he is.", "No, he isn't."],
+          ["Are they ready?", "Yes, they are.", "No, they aren't."]
+        ]
+      },
+      "examples": [
+        {"en": "Are you busy? Yes, I am.", "pt": "Você está ocupado? Sim, estou."},
+        {"en": "Is he a manager? No, he isn't.", "pt": "Ele é gerente? Não, não é."},
+        {"en": "Is it ready? No, it isn't.", "pt": "Está pronto? Não, não está."}
+      ],
+      "tip": "Repare que a resposta troca o pronome: a pergunta “Are YOU…?” é respondida com “Yes, I am”."
+    },
+    {
+      "title": "Perguntas com What, Where e Who",
+      "text": "Quando você quer uma informação, e não só “sim” ou “não”, use uma palavra de pergunta (*question word*) no começo. Depois dela vem o verbo **to be** e depois o sujeito.\n\nA ordem é: **palavra de pergunta + am/is/are + sujeito**. As três mais usadas são **What** (o que, qual), **Where** (onde) e **Who** (quem). Para dizer “Como vai?”, use **How**.",
+      "table": {
+        "headers": ["Palavra", "Significa", "Exemplo"],
+        "rows": [
+          ["What", "o que / qual", "What is your name?"],
+          ["Where", "onde", "Where is the meeting?"],
+          ["Who", "quem", "Who is your manager?"],
+          ["How", "como", "How are you?"]
+        ]
+      },
+      "examples": [
+        {"en": "What is your job?", "pt": "Qual é o seu trabalho?"},
+        {"en": "Where are the files?", "pt": "Onde estão os arquivos?"},
+        {"en": "Who is in the meeting?", "pt": "Quem está na reunião?"}
+      ],
+      "tip": "Com What, Where e Who dá para contrair: What's, Where's e Who's. Exemplo: *Where's the server?*"
+    },
+    {
+      "title": "Usando no trabalho",
+      "text": "Agora junte tudo. No dia a dia de uma equipe de TI, você usa a negativa e as perguntas com **to be** o tempo todo: para saber se o build está pronto, onde estão os logs ou quem está na daily.\n\nLembre-se do passo a passo: na negativa, **not** depois do verbo; na pergunta, o verbo antes do sujeito; na resposta curta, **Yes, I am** sem contração e **No, I'm not** ou **No, he isn't** com contração.",
+      "examples": [
+        {"en": "Is the build ready? No, it isn't.", "pt": "O build está pronto? Não, não está."},
+        {"en": "Where are the logs?", "pt": "Onde estão os logs?"},
+        {"en": "Who is on the team?", "pt": "Quem está no time?"},
+        {"en": "I'm not in the office today.", "pt": "Eu não estou no escritório hoje."}
+      ]
+    }
+  ],
+  "summary": [
+    "Na negativa, coloque not depois de am/is/are: I am not, she is not, they are not.",
+    "Contrações: isn't, aren't e I'm not (amn't não existe).",
+    "Na pergunta, o verbo vem antes do sujeito: Are you ready? Is he a tester?",
+    "Resposta curta: Yes, I am (sem contração) e No, he isn't (com contração).",
+    "Com What, Where e Who, a ordem é: palavra de pergunta + is/are + sujeito."
+  ],
+  "practice": [
+    {"id": "a1-02-p1", "type": "choice", "prompt": "I ___ late today.", "options": ["am not", "isn't", "aren't"], "answer": 0,
+     "explain": "Com I, o verbo é am, e a negativa é am not (ou I'm not).",
+     "why_not": {"1": "Isn't é usado com he, she e it.", "2": "Aren't é usado com you, we e they."}},
+    {"id": "a1-02-p2", "type": "choice", "prompt": "She ___ at home.", "options": ["aren't", "isn't", "am not"], "answer": 1,
+     "explain": "She usa is, então a negativa é isn't (is not)."},
+    {"id": "a1-02-p3", "type": "choice", "prompt": "___ you ready?", "options": ["Is", "Am", "Are"], "answer": 2,
+     "explain": "Na pergunta com you, o verbo are vem antes do sujeito: Are you ready?"},
+    {"id": "a1-02-p4", "type": "choice", "prompt": "Is he a manager? Yes, ___.", "options": ["he is", "he does", "he are"], "answer": 0,
+     "explain": "A pergunta usa is, então a resposta curta repete is: Yes, he is.",
+     "why_not": {"1": "Does não é usado com o verbo to be.", "2": "He combina com is, e não com are."}},
+    {"id": "a1-02-p5", "type": "fill", "prompt": "We are ___ in the office.", "answers": ["not"],
+     "explain": "A negativa se faz com not depois do verbo: we are not in the office."},
+    {"id": "a1-02-p6", "type": "fill", "prompt": "___ is your name? My name is Ana.", "answers": ["what"],
+     "explain": "Para perguntar o nome (o que/qual), usamos What: What is your name?"},
+    {"id": "a1-02-p7", "type": "order", "words": ["Is", "she", "a", "developer"], "prompt": "Ela é desenvolvedora?",
+     "explain": "Na pergunta, o verbo vem antes do sujeito: Is she a developer?"},
+    {"id": "a1-02-p8", "type": "order", "words": ["They", "are", "not", "in", "the", "office"], "prompt": "Eles não estão no escritório.",
+     "explain": "A ordem é sujeito + verbo + not + resto: they are not in the office."},
+    {"id": "a1-02-p9", "type": "fix", "prompt": "He not is a tester.", "answers": ["He is not a tester."],
+     "explain": "O not vem depois do verbo to be, e não antes: he is not a tester."},
+    {"id": "a1-02-p10", "type": "translate", "prompt": "Você está atrasado?", "answers": ["Are you late?"],
+     "explain": "Na pergunta, o verbo are vem antes de you: Are you late?"},
+    {"id": "a1-02-p11", "type": "translate", "prompt": "Onde está o servidor?", "answers": ["Where is the server?"],
+     "explain": "Where + is + sujeito: Where is the server? O servidor é singular, então usamos is."}
+  ],
+  "quiz": [
+    {"id": "a1-02-q1", "type": "choice", "prompt": "My laptop ___ new.", "options": ["isn't", "aren't", "am not"], "answer": 0,
+     "explain": "My laptop é uma coisa (it), e it usa is. A negativa é isn't."},
+    {"id": "a1-02-q2", "type": "fill", "prompt": "___ are they from? They are from Brazil.", "answers": ["where"],
+     "explain": "A resposta fala de um país (origem), então a pergunta usa Where: Where are they from?"},
+    {"id": "a1-02-q3", "type": "translate", "prompt": "Eles não são gerentes.", "answers": ["They are not managers."],
+     "explain": "They usa are, e o not vem depois. Em inglês, profissão no plural não leva a nem an."},
+    {"id": "a1-02-q4", "type": "order", "words": ["Are", "you", "in", "the", "meeting"], "prompt": "Você está na reunião?",
+     "explain": "Na pergunta, o verbo are vem antes do sujeito you."},
+    {"id": "a1-02-q5", "type": "fix", "prompt": "Are he a tester?", "answers": ["Is he a tester?"],
+     "explain": "Com he, o verbo é is, e não are: Is he a tester?"},
+    {"id": "a1-02-q6", "type": "choice", "prompt": "Are you a tester? No, ___.", "options": ["I'm not", "I amn't", "I not"], "answer": 0,
+     "explain": "Com I, a resposta negativa curta é I'm not. A forma amn't não existe.",
+     "why_not": {"1": "Amn't não existe em inglês padrão.", "2": "Falta o verbo am: o certo é I'm not ou I am not."}},
+    {"id": "a1-02-q7", "type": "listen", "en": "I am not a manager.",
+     "explain": "Na negativa com I, escrevemos am not: I am not a manager."}
+  ],
+  "words": [
+    {"word": "not", "pt": "não"},
+    {"word": "what", "pt": "o que; qual"},
+    {"word": "where", "pt": "onde"},
+    {"word": "who", "pt": "quem"},
+    {"word": "how", "pt": "como"},
+    {"word": "name", "pt": "nome"},
+    {"word": "server", "pt": "servidor"},
+    {"word": "meeting", "pt": "reunião"},
+    {"word": "from", "pt": "de (origem)"}
+  ]
+}
