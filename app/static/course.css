@@ -99,15 +99,17 @@ nav button .dot{display:inline-block;min-width:18px;padding:0 5px;margin-left:4p
 .ai-badge-active{background:var(--ok-bg);color:var(--ok);padding:2px 8px;border-radius:999px;font-size:12px;font-weight:700}
 
 /* ---- temas claro/escuro ---- */
-:root, [data-theme="light"] {
+html[data-theme="light"], body[data-theme="light"] {
   --bg:#f6f5f1; --card:#ffffff; --ink:#1d2433; --muted:#667085; --line:#e3e0d8;
   --accent:#1f5fd6; --accent-ink:#ffffff; --ok:#17794a; --ok-bg:#e3f4ea;
   --warn:#9a6200; --warn-bg:#fff1d6; --bad:#b42318; --bad-bg:#fde7e5;
+  color-scheme: light;
 }
-[data-theme="dark"] {
-  --bg:#12151d; --card:#1a1e28; --ink:#e8eaf0; --muted:#9aa4b2; --line:#2c3240;
-  --accent:#5b8eff; --accent-ink:#0b1428; --ok:#4fd292; --ok-bg:#152e20;
-  --warn:#f3bd64; --warn-bg:#33260c; --bad:#ff857b; --bad-bg:#381816;
+html[data-theme="dark"], body[data-theme="dark"] {
+  --bg:#14171f; --card:#1c202b; --ink:#e8eaf0; --muted:#98a2b3; --line:#2d3342;
+  --accent:#6d9bff; --accent-ink:#0c1530; --ok:#5fd39a; --ok-bg:#16301f;
+  --warn:#f5c16c; --warn-bg:#35280f; --bad:#ff8e84; --bad-bg:#3a1a18;
+  color-scheme: dark;
 }
 
 /* ---- conquistas e gamificação ---- */

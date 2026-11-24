@@ -6,17 +6,33 @@
 <title>English Trainer</title>
 <link rel="stylesheet" href="/static/course.css">
 <style>
-:root{
+/* ---- Tema Claro (Padrão ou explícito) ---- */
+:root,
+html[data-theme="light"],
+body[data-theme="light"] {
   --bg:#f6f5f1; --card:#ffffff; --ink:#1d2433; --muted:#667085; --line:#e3e0d8;
   --accent:#1f5fd6; --accent-ink:#ffffff; --ok:#17794a; --ok-bg:#e3f4ea;
   --warn:#9a6200; --warn-bg:#fff1d6; --bad:#b42318; --bad-bg:#fde7e5;
+  color-scheme: light;
 }
+
+/* ---- Modo Escuro Automático via SO (apenas se data-theme NÃO for "light") ---- */
 @media (prefers-color-scheme: dark){
-  :root{
+  :root:not([data-theme="light"]) {
     --bg:#14171f; --card:#1c202b; --ink:#e8eaf0; --muted:#98a2b3; --line:#2d3342;
     --accent:#6d9bff; --accent-ink:#0c1530; --ok:#5fd39a; --ok-bg:#16301f;
     --warn:#f5c16c; --warn-bg:#35280f; --bad:#ff8e84; --bad-bg:#3a1a18;
+    color-scheme: dark;
   }
+}
+
+/* ---- Forçar Modo Escuro explícito ---- */
+html[data-theme="dark"],
+body[data-theme="dark"] {
+  --bg:#14171f; --card:#1c202b; --ink:#e8eaf0; --muted:#98a2b3; --line:#2d3342;
+  --accent:#6d9bff; --accent-ink:#0c1530; --ok:#5fd39a; --ok-bg:#16301f;
+  --warn:#f5c16c; --warn-bg:#35280f; --bad:#ff8e84; --bad-bg:#3a1a18;
+  color-scheme: dark;
 }
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
@@ -121,18 +137,33 @@ const Theme = (() => {
     cur = theme;
     localStorage.setItem("theme", theme);
     const doc = document.documentElement;
+    const body = document.body;
     if (theme === "dark") {
       doc.setAttribute("data-theme", "dark");
+      if (body) body.setAttribute("data-theme", "dark");
     } else if (theme === "light") {
       doc.setAttribute("data-theme", "light");
+      if (body) body.setAttribute("data-theme", "light");
     } else {
       doc.removeAttribute("data-theme");
+      if (body) body.removeAttribute("data-theme");
     }
     const btn = document.getElementById("theme-btn");
     if (btn) btn.textContent = theme === "dark" ? "🌙 Escuro" : theme === "light" ? "☀️ Claro" : "🌓 Auto";
   }
   function toggle() {
-    const next = cur === "dark" ? "light" : cur === "light" ? "auto" : "dark";
+    const isDarkOS = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+    let next;
+    if (cur === "auto") {
+      // Se o SO estiver no tema escuro, alternar vai direto para o claro; se o SO for claro, vai para o escuro
+      next = isDarkOS ? "light" : "dark";
+    } else if (cur === "light") {
+      next = "dark";
+    } else if (cur === "dark") {
+      next = "auto";
+    } else {
+      next = "light";
+    }
     apply(next);
   }
   apply(cur);
