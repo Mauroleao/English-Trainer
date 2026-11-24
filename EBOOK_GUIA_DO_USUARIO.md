@@ -17,6 +17,7 @@
    - [Escrita de Textos com Correção Inteligente](#escrita-de-textos-com-correção-inteligente)
    - [Vocabulário e Repetição Espaçada (SRS)](#vocabulário-e-repetição-espaçada-srs)
 6. [Recursos de Alta Aceleração de Fluência](#6-recursos-de-alta-aceleração-de-fluência)
+   - [Live Conversation: Tutor Bilíngue Ao Vivo (Tempo Real)](#live-conversation-tutor-bilíngue-ao-vivo-tempo-real)
    - [Conversação por Voz Contínua (Hands-Free)](#conversação-por-voz-contínua-hands-free)
    - [Cenários de Trabalho para TI](#cenários-de-trabalho-para-ti)
    - [Relatório do Coach de Carreira e Método STAR](#relatório-do-coach-de-carreira-e-método-star)
@@ -142,6 +143,26 @@ A aba **Curso** contém 72 lições completas cobrindo todo o Quadro Comum Europ
 ---
 
 ## 6. Recursos de Alta Aceleração de Fluência
+
+### Live Conversation: Tutor Bilíngue Ao Vivo (Tempo Real)
+Aba **Praticar $\rightarrow$ Live Voice Tutor 🎙️** (ou clique no card da aba **Hoje**).
+
+Esta é a ferramenta mais avançada do aplicativo: uma chamada de voz duplex em tempo real com um tutor nativo e paciente, operando via **WebSocket** de baixa latência (integrado à **Gemini Multimodal Live API** com autenticação protegida por **Token Efêmero** gerado no backend, sem nunca expor suas chaves de API no navegador).
+
+#### Principais Recursos do Live Voice Tutor:
+1. **Controles Centrais de Chamada:** Um botão elegante de iniciar/encerrar chamada telefônica (`📞 Iniciar` e `🛑 Encerrar`).
+2. **Visualizador de Ondas Sonoras (Soundwave):** Canvas responsivo de 60 FPS que reflete a intensidade da sua voz no microfone em tempo real e pulsa na frequência da voz do tutor quando ele estiver falando.
+3. **Barge-in Natural (Interrupção Espontânea):** Em uma conversa humana real, não esperamos o outro terminar 100% de falar para intervir. O app detecta quando você começa a falar e **interrompe o áudio do tutor instantaneamente**, exatamente como em uma reunião de trabalho real no Zoom ou Google Meet.
+4. **Cards Discretos de Recasting:** Quando você cometer um erro de gramática ou usar uma expressão pouco natural, o tutor não interrompe a conversa com broncas chatas. Ele continua o diálogo normalmente e a interface exibe um card visual discreto:
+   - **Você disse:** (seu texto original riscado)
+   - **Forma natural:** (a expressão recomendada em inglês)
+   - Botão **🔊 Ouvir** para escutar a pronúncia nativa da forma correta.
+5. **Seletor de Cenários Profissionais:**
+   - 💼 **Daily Stand-up:** Reunião matinal de alinhamento com seu Tech Lead.
+   - 🎯 **Entrevista de Emprego:** Perguntas sobre sua carreira técnica, projetos e desafios.
+   - ☕ **Conversa Casual:** Bate-papo informal de *coffee break* sobre hobbies, viagens e cotidiano.
+6. **Suporte Total a Código Misto (Code-Switching):** Se você esquecer uma palavra e falar em português (ou perguntar *"como se diz deploy em português?"*), o tutor entende perfeitamente e responde naturalmente em inglês ajudando você a continuar o raciocínio.
+7. **Modo Duplex Offline / Local:** Se você estiver usando Ollama, LM Studio ou não possuir chave da Gemini Live, o sistema chaveia automaticamente para o modo duplex local garantindo que o recurso nunca fique fora do ar.
 
 ### Conversação por Voz Contínua (Hands-Free)
 Na aba **Conversação** $\rightarrow$ **Conversar com a IA**, marque a caixinha:

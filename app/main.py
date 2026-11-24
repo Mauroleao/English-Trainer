@@ -16,7 +16,7 @@ from fastapi.staticfiles import StaticFiles
 from .ai import get_llm_from_env, get_llm_from_env_or_db
 from .db import Settings, connect, init_db, load_settings, save_settings
 from .deps import get_db, get_llm
-from .routes import ai_config, audio, conversation, course, phrases, study, texts, vocabulary
+from .routes import ai_config, audio, conversation, course, live, phrases, study, texts, vocabulary
 from .schemas import SettingsIn
 from .seed import seed
 
@@ -47,6 +47,7 @@ def create_app(db_path: Optional[str] = None, llm=_AUTO) -> FastAPI:
     app.include_router(study.router)
     app.include_router(ai_config.router)
     app.include_router(audio.router)
+    app.include_router(live.router)
 
     @app.get("/api/status", tags=["geral"])
     def status(llm=Depends(get_llm)):

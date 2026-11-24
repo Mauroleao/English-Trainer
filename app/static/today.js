@@ -51,6 +51,16 @@ async function viewToday() {
       p.tasks.map((t) => h("div", { class: "task" }, h("div", { class: "ico" }, TASK_ICON[t.kind]),
         h("div", { class: "body" }, h("b", {}, t.title), h("small", {}, `${t.detail} · ~${t.minutes} min`)),
         h("button", { class: "btn" + (t.kind === "lesson" ? " primary" : ""), onclick: () => open(t) }, t.kind === "lesson" && t.started ? "Continuar" : "Começar")))),
+    h("div", { class: "card", style: "border:1px solid var(--accent);background:var(--card);" },
+      h("div", { class: "row", style: "align-items:center;" },
+        h("div", { style: "font-size:28px;margin-right:12px;" }, "🎙️"),
+        h("div", { class: "grow" },
+          h("b", { style: "font-size:16px;" }, "Live Voice Tutor (Conversação Ao Vivo)"),
+          h("small", { class: "muted", style: "display:block;" }, "Treine sua fala em tempo real via WebSocket com feedback imediato e correção gentil.")
+        ),
+        h("button", { class: "btn primary", onclick: () => go("live") }, "Falar agora")
+      )
+    ),
     h("div", { class: "card" }, h("h3", {}, "Quanto tempo falta até o C1?"),
       h("p", { class: "muted" }, `No ritmo atual (${e.pace_minutes} min/dia): cerca de ${e.hours_to_c1} h de estudo restantes, ou ${fmtDays(e.days_to_c1)}.`),
       scenariosTable(e), h("p", { class: "muted" }, e.note)));

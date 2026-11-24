@@ -340,7 +340,7 @@ const tabs = { phrases: viewPhrases, conversation: viewConversation, texts: view
 // navegação em dois níveis: grupo (barra de cima) e abas do grupo (barra de baixo)
 const GROUPS = {
   today: { tabs: [] }, course: { tabs: [], also: ["lesson", "placement"] }, vocab: { tabs: [] }, progress: { tabs: [] }, settings: { tabs: [] },
-  practice: { tabs: [["phrases", "Frases"], ["conversation", "Conversação"], ["eargym", "Ear Gym (Escuta)"], ["reading", "Leitura e escuta"], ["pronounce", "Pronúncia"], ["texts", "Meus textos"]] },
+  practice: { tabs: [["phrases", "Frases"], ["live", "Live Voice Tutor 🎙️"], ["conversation", "Conversação"], ["eargym", "Ear Gym (Escuta)"], ["reading", "Leitura e escuta"], ["pronounce", "Pronúncia"], ["texts", "Meus textos"]] },
   review: { tabs: [["review", "Palavras"], ["grammar", "Gramática"]] },
 };
 function groupOf(tab) {
@@ -355,6 +355,9 @@ let currentTab = null;
 async function go(tab) {
   currentTab = tab;
   Voice.stop();
+  if (window.LiveVoiceTutor && tab !== "live") {
+    try { LiveVoiceTutor.endCall(); } catch (_) {}
+  }
   const grp = groupOf(tab);
   document.querySelectorAll("#nav button").forEach((b) => {
     if (b.dataset.group === grp) b.setAttribute("aria-current", "page"); else b.removeAttribute("aria-current");
@@ -520,10 +523,15 @@ async function viewConversation() {
   const defs = [
     ["role", "Interpretar um diálogo"],
     ["ai", "Conversar com a IA"],
-    ["custom", "✨ Criar Diálogo sob Demanda"]
+    ["custom", "✨ Criar Diálogo sob Demanda"],
+    ["live_redirect", "🎙️ Tutor Ao Vivo (Realtime)"]
   ];
   const buttons = defs.map(([id, label]) => h("button", { class: "tab", "data-sub": id, onclick: () => choose(id) }, label));
   function choose(id) {
+    if (id === "live_redirect") {
+      go("live");
+      return;
+    }
     state.convTab = id;
     buttons.forEach((b) => b.toggleAttribute("aria-current", b.dataset.sub === id));
     (id === "role" ? roleplayView : id === "ai" ? chatView : customDialogView)(body).catch((e) => put(body, errBox(e)));
@@ -1276,8 +1284,9 @@ window.addEventListener("load", init);
 </script>
 <script src="/static/course.js"></script>
 <script src="/static/today.js"></script>
+<script src="/static/live.js"></script>
 <script>
-Object.assign(tabs, { today: viewToday, course: viewCourse, lesson: viewLesson, placement: viewPlacement, grammar: viewGrammar, progress: viewProgress, reading: viewReading, pronounce: viewPronounce, eargym: viewEarGym });
+Object.assign(tabs, { today: viewToday, course: viewCourse, lesson: viewLesson, placement: viewPlacement, grammar: viewGrammar, progress: viewProgress, reading: viewReading, pronounce: viewPronounce, eargym: viewEarGym, live: viewLiveConversation });
 </script>
 </body>
 </html>
