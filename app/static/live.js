@@ -102,13 +102,14 @@ const LiveVoiceTutor = (() => {
   function updateStatus(state, customText) {
     if (!statusEl) return;
     statusEl.className = "live-status-pill " + state;
+    const target = LangSwitcher.target();
     const texts = {
-      ready: "📞 Pronto para conectar",
-      connecting: "⏳ Conectando ao tutor ao vivo...",
-      connected: "🟢 Conectado · Fale à vontade!",
-      listening: "👂 Ouvindo você... (fale em inglês ou tire dúvidas)",
-      speaking: "🗣️ Tutor falando... (interrompa a qualquer momento)",
-      disconnected: "⚪ Chamada encerrada",
+      ready: target.native === "Deutsch" ? "📞 Bereit zum Verbinden" : "📞 Pronto para conectar",
+      connecting: target.native === "Deutsch" ? "⏳ Verbinde mit dem Live-Tutor..." : "⏳ Conectando ao tutor ao vivo...",
+      connected: target.native === "Deutsch" ? "🟢 Verbunden · Sprich frei!" : "🟢 Conectado · Fale à vontade!",
+      listening: `👂 Ouvindo você... (fale em ${target.name} ou tire dúvidas)`,
+      speaking: target.native === "Deutsch" ? "🗣️ Tutor spricht... (jederzeit unterbrechen)" : "🗣️ Tutor falando... (interrompa a qualquer momento)",
+      disconnected: target.native === "Deutsch" ? "⚪ Anruf beendet" : "⚪ Chamada encerrada",
     };
     statusEl.textContent = customText || texts[state] || texts.ready;
   }
@@ -196,7 +197,9 @@ const LiveVoiceTutor = (() => {
 
     const isMe = sender === "user";
     const bubble = h("div", { class: `live-msg-bubble ${isMe ? "user" : "tutor"}` },
-      h("div", { class: "live-msg-author" }, isMe ? "Você" : "Tutor Ao Vivo"),
+      h("div", { class: "live-msg-author" }, isMe
+        ? (LangSwitcher.get() === "de" ? "Du" : "Você")
+        : (LangSwitcher.get() === "de" ? "Live-Tutor" : "Tutor Ao Vivo")),
       text
     );
     if (sender === "tutor") {
@@ -244,7 +247,7 @@ const LiveVoiceTutor = (() => {
     try {
       const r = new SR();
       speechRec = r;
-      r.lang = "en-US";
+      r.lang = LangSwitcher.target().locale;
       r.continuous = true;
       r.interimResults = false;
 
@@ -474,11 +477,18 @@ const LiveVoiceTutor = (() => {
 
   // Render da view
   function renderView() {
-    const scenarios = [
-      { id: "daily", icon: "💼", label: "Daily Stand-up", desc: "Reunião tech com seu Tech Lead" },
-      { id: "interview", icon: "🎯", label: "Entrevista de Emprego", desc: "Perguntas de entrevista internacional" },
-      { id: "casual", icon: "☕", label: "Conversa Casual", desc: "Coffee break descontraído com colega" },
-    ];
+    const isGerman = LangSwitcher.get() === "de";
+    const scenarios = isGerman
+      ? [
+          { id: "daily", icon: "💼", label: "Tägliches Stand-up", desc: "Tech-Besprechung mit deinem Tech Lead" },
+          { id: "interview", icon: "🎯", label: "Vorstellungsgespräch", desc: "Fragen für ein internationales Vorstellungsgespräch" },
+          { id: "casual", icon: "☕", label: "Lockeres Gespräch", desc: "Kaffeepause mit Kollegen" },
+        ]
+      : [
+          { id: "daily", icon: "💼", label: "Daily Stand-up", desc: "Reunião tech com seu Tech Lead" },
+          { id: "interview", icon: "🎯", label: "Entrevista de Emprego", desc: "Perguntas de entrevista internacional" },
+          { id: "casual", icon: "☕", label: "Conversa Casual", desc: "Coffee break descontraído com colega" },
+        ];
 
     const scenarioBtns = scenarios.map((s) => {
       const btn = h("button", {
@@ -498,7 +508,7 @@ const LiveVoiceTutor = (() => {
       return btn;
     });
 
-    statusEl = h("div", { class: "live-status-pill ready" }, "📞 Pronto para conectar");
+    statusEl = h("div", { class: "live-status-pill ready" }, isGerman ? "📞 Bereit zum Verbinden" : "📞 Pronto para conectar");
 
     canvasEl = h("canvas", { class: "live-wave-canvas", width: 440, height: 90 });
 
@@ -520,13 +530,15 @@ const LiveVoiceTutor = (() => {
     // Mensagem de boas-vindas
     appendMessage(
       "tutor",
-      "Welcome to Live Conversation! Escolha um cenário acima e clique no botão verde para iniciar a chamada de voz em tempo real com seu tutor nativo. Sinta-se 100% à vontade para errar, misturar português ou perguntar 'como se diz X?'. Let's talk!"
+      isGerman
+        ? "Willkommen bei der Live-Konversation! Wähle oben ein Szenario und starte den Sprachchat mit deinem Tutor. Du darfst Fehler machen, Portugiesisch einstreuen oder fragen: „Wie sagt man X auf Deutsch?“"
+        : "Welcome to Live Conversation! Escolha um cenário acima e clique no botão verde para iniciar a chamada de voz em tempo real com seu tutor nativo. Sinta-se 100% à vontade para errar, misturar português ou perguntar 'como se diz X?'. Let's talk!"
     );
 
     // Entrada rápida de texto (caso o usuário prefira digitar)
     const textInput = h("input", {
       type: "text",
-      placeholder: "Digite aqui caso prefira não falar agora e aperte Enter...",
+      placeholder: isGerman ? "Hier tippen, wenn du gerade nicht sprechen möchtest, und Enter drücken..." : "Digite aqui caso prefira não falar agora e aperte Enter...",
       style: "flex:1;padding:10px 14px;font-size:14px;border-radius:12px;border:1px solid var(--line);background:var(--bg);color:var(--ink);",
     });
 
@@ -551,22 +563,24 @@ const LiveVoiceTutor = (() => {
       class: "btn primary",
       style: "padding:10px 16px;border-radius:12px;",
       onclick: sendMsg,
-    }, "Enviar");
+    }, isGerman ? "Senden" : "Enviar");
 
     const root = h("div", { class: "live-container" },
-      h("h2", { style: "margin-bottom:4px;" }, "🎙️ Live Conversation (Tutor Ao Vivo)"),
+      h("h2", { style: "margin-bottom:4px;" }, isGerman ? "🎙️ Live-Konversation (Tutor Ao Vivo)" : "🎙️ Live Conversation (Tutor Ao Vivo)"),
       h("p", { class: "muted", style: "margin-bottom:12px;" },
-        "Pratique conversação em tempo real via WebSocket com feedback imediato, recasting gentil e interrupção natural."
+        isGerman
+          ? "Übe in Echtzeit über WebSocket mit direktem Feedback, sanften Korrekturen und natürlicher Gesprächsführung."
+          : "Pratique conversação em tempo real via WebSocket com feedback imediato, recasting gentil e interrupção natural."
       ),
       h("div", { class: "live-scenario-selector" }, scenarioBtns),
       h("div", { class: "live-hero-card" },
         statusEl,
         h("div", { class: "live-wave-wrapper" }, canvasEl),
         callBtnEl,
-        h("div", { class: "live-bargein-tip" }, "💡 Dica: Você pode interromper o tutor a qualquer momento falando naturalmente (barge-in).")
+        h("div", { class: "live-bargein-tip" }, isGerman ? "💡 Tipp: Du kannst den Tutor jederzeit natürlich unterbrechen." : "💡 Dica: Você pode interromper o tutor a qualquer momento falando naturalmente (barge-in).")
       ),
       h("div", { class: "row", style: "gap:8px;margin-bottom:14px;" }, textInput, sendBtn),
-      h("h3", { style: "font-size:16px;margin:18px 0 6px;" }, "Transcrição e Dicas de Expressão"),
+      h("h3", { style: "font-size:16px;margin:18px 0 6px;" }, isGerman ? "Transkript und Ausdruckstipps" : "Transcrição e Dicas de Expressão"),
       transcriptFeedEl
     );
 

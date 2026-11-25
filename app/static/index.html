@@ -188,6 +188,13 @@ const LangSwitcher = (() => {
     const el = document.getElementById("app-brand");
     if (!el) return;
     el.textContent = cur === "de" ? "Deutsch Trainer" : "English Trainer";
+    document.title = cur === "de" ? "Deutsch Trainer" : "English Trainer";
+  }
+
+  function target() {
+    return cur === "de"
+      ? { name: "alemão", native: "Deutsch", locale: "de-DE" }
+      : { name: "inglês", native: "English", locale: "en-US" };
   }
 
   async function apply(code) {
@@ -225,7 +232,7 @@ const LangSwitcher = (() => {
     _updateBrand();
   }
 
-  return { apply, render, syncFromServer: async () => {
+  return { apply, render, target, syncFromServer: async () => {
     try {
       const data = await api("/api/languages");
       if (data.active) apply(data.active);
@@ -315,10 +322,15 @@ const Voice = (() => {
   try { Object.assign(prefs, JSON.parse(localStorage.getItem("voicePrefs") || "{}")); } catch (_) { /* sem armazenamento */ }
   const save = () => { try { localStorage.setItem("voicePrefs", JSON.stringify(prefs)); } catch (_) { /* ignora */ } };
 
-  const englishVoices = () => (synth ? synth.getVoices().filter((v) => /^en/i.test(v.lang)) : []);
+  const targetVoices = () => {
+    const prefix = LangSwitcher.get() === "de" ? /^de/i : /^en/i;
+    return synth ? synth.getVoices().filter((v) => prefix.test(v.lang)) : [];
+  };
+  const englishVoices = targetVoices;
   function pick() {
-    const list = englishVoices();
-    return list.find((v) => v.name === prefs.voice) || list.find((v) => /^en[-_]US/i.test(v.lang)) || list[0] || null;
+    const list = targetVoices();
+    const localePrefix = LangSwitcher.get() === "de" ? /^de[-_]DE/i : /^en[-_]US/i;
+    return list.find((v) => v.name === prefs.voice) || list.find((v) => localePrefix.test(v.lang)) || list[0] || null;
   }
 
   let activeAudio = null;
@@ -327,7 +339,7 @@ const Voice = (() => {
     if (!synth || !text) { if (onEnd) onEnd(); return false; }
     if (!queue) synth.cancel();
     const u = new SpeechSynthesisUtterance(text);
-    u.lang = "en-US";
+    u.lang = LangSwitcher.target().locale;
     u.rate = rate || prefs.rate;
     const v = pick();
     if (v) { u.voice = v; u.lang = v.lang; }
@@ -336,7 +348,7 @@ const Voice = (() => {
     return true;
   }
 
-  // fala em inglês: tenta áudio neural (MP3 limpo) com fallback para o sintetizador do navegador
+  // fala no idioma ativo: tenta áudio neural (MP3 limpo) com fallback para o sintetizador do navegador
   function speak(text, { rate, queue, onEnd } = {}) {
     if (!text) return false;
     stop();
@@ -382,7 +394,8 @@ const Voice = (() => {
     network: "O reconhecimento de voz precisa de internet.",
   };
   let rec = null;
-  function listen(lang = "en-US") {
+  function listen(lang = null) {
+    lang = lang || LangSwitcher.target().locale;
     return new Promise((resolve, reject) => {
       if (!SR) { reject(new Error("Este navegador não reconhece fala. Use o Chrome ou o Edge.")); return; }
       if (rec) { try { rec.abort(); } catch (_) { /* já parou */ } }
@@ -413,7 +426,8 @@ function speakBtn(text, { slow = false } = {}) {
 }
 
 // botão de falar no microfone; devolve null se o navegador não reconhece fala
-function micBtn(onText, lang = "en-US") {
+function micBtn(onText, lang = null) {
+  lang = lang || LangSwitcher.target().locale;
   if (!Voice.SR) return null;
   const b = h("button", { class: "icon-btn", type: "button", title: "Falar no microfone", "aria-label": "Falar no microfone" }, "🎤");
   b.addEventListener("click", async () => {
@@ -479,6 +493,7 @@ function dialogOptions(dialogs, selectedId) {
 
 async function viewPhrases() {
   const dialogs = await api(`/api/dialogs?lang=${LangSwitcher.get()}`);
+  const target = LangSwitcher.target();
   if (state.dialogId !== null && !dialogs.some((d) => d.id === state.dialogId)) state.dialogId = null;
 
   const st = { phrase: null, stage: 1, pt: "", finished: false, note: "" };
@@ -490,7 +505,7 @@ async function viewPhrases() {
   select.addEventListener("change", () => { state.dialogId = select.value ? Number(select.value) : null; viewPhrases(); });
 
   const modeSel = h("select", { "aria-label": "Modo de prática" },
-    [["translate", "Traduzir: inglês → português → inglês"], ["dictation", "Ditado: ouvir e digitar em inglês"]]
+    [["translate", `Traduzir: ${target.name} → português → ${target.name}`], ["dictation", `Ditado: ouvir e digitar em ${target.name}`]]
       .map(([v, l]) => h("option", { value: v, selected: state.phraseMode === v }, l)));
   modeSel.addEventListener("change", () => { state.phraseMode = modeSel.value; viewPhrases(); });
 
@@ -502,11 +517,11 @@ async function viewPhrases() {
     state.dialogId = null; viewPhrases();
   } }, "Apagar diálogo");
   head.append(h("h2", {}, "Frases e diálogos"),
-    h("p", { class: "muted" }, "Veja a frase em inglês e digite em português. Ao acertar, ela inverte e você digita em inglês. No modo Ditado você só ouve."),
+    h("p", { class: "muted" }, `Veja a frase em ${target.name} e digite em português. Ao acertar, ela inverte e você digita em ${target.name}. No modo Ditado você só ouve.`),
     h("div", { class: "row" }, h("div", { class: "grow" }, select), h("div", { class: "grow" }, modeSel), addBtn, delBtn), addBox);
 
   function showAdd() {
-    const en = h("input", { type: "text", placeholder: "Frase em inglês" });
+    const en = h("input", { type: "text", placeholder: `Frase em ${target.name}` });
     const pt = h("input", { type: "text", placeholder: "Tradução em português" });
     const title = h("input", { type: "text", placeholder: "Título do diálogo" });
     const lines = h("textarea", { placeholder: "Uma frase por linha, no formato:\nHow are you? | Como você está?\nI'm fine. | Estou bem." });
@@ -524,7 +539,7 @@ async function viewPhrases() {
         const parsed = lines.value.split("\n").map((l) => l.trim()).filter(Boolean).map((l) => {
           const [a, ...b] = l.split("|"); return { en: (a || "").trim(), pt: b.join("|").trim() };
         });
-        if (parsed.some((p) => !p.en || !p.pt)) { put(msg, errBox(new Error("Cada linha precisa ter: inglês | português"))); return; }
+        if (parsed.some((p) => !p.en || !p.pt)) { put(msg, errBox(new Error(`Cada linha precisa ter: ${target.name} | português`))); return; }
         try { const r = await api("/api/dialogs", { method: "POST", body: { title: title.value, lines: parsed } }); state.dialogId = r.id; viewPhrases(); }
         catch (e) { put(msg, errBox(e)); }
       } }, "Criar diálogo")), msg));
@@ -541,12 +556,13 @@ async function viewPhrases() {
 
   function render() {
     const p = st.phrase;
+    const target = LangSwitcher.target();
     const dict = state.phraseMode === "dictation";
     const direction = dict ? "pt_to_en" : st.stage === 1 ? "en_to_pt" : "pt_to_en";
     const input = h("input", { type: "text", autocomplete: "off", autocapitalize: "off", spellcheck: "false",
-      placeholder: direction === "en_to_pt" ? "Digite em português…" : "Type it in English…", "aria-label": "Sua resposta" });
+      placeholder: direction === "en_to_pt" ? "Digite em português…" : `Digite em ${target.name}…`, "aria-label": "Sua resposta" });
     const feedback = h("div", {});
-    const mic = micBtn((t) => { input.value = t; input.focus(); }, direction === "en_to_pt" ? "pt-BR" : "en-US");
+    const mic = micBtn((t) => { input.value = t; input.focus(); }, direction === "en_to_pt" ? "pt-BR" : target.locale);
 
     if (st.finished) {
       put(card,
@@ -565,7 +581,7 @@ async function viewPhrases() {
       try {
         const r = await api(`/api/phrases/${p.id}/check`, { method: "POST", body: { direction, answer: input.value } });
         if (r.correct && r.stage_complete) { st.finished = true; st.pt = r.pt; p.prompt = r.en; render(); return; }
-        if (r.correct) { st.stage = 2; st.pt = r.canonical; st.note = "Certo! Agora o inverso: escreva a mesma frase em inglês."; render(); return; }
+        if (r.correct) { st.stage = 2; st.pt = r.canonical; st.note = `Certo! Agora o inverso: escreva a mesma frase em ${target.name}.`; render(); return; }
         put(feedback,
           marksEl(r.marks, r.missing),
           r.format_issue ? h("div", { class: "box warn" }, "As palavras estão certas, mas confira maiúsculas, pontuação e espaços.") : null);
@@ -586,7 +602,7 @@ async function viewPhrases() {
     let promptEl;
     if (dict) {
       promptEl = h("div", {},
-        h("p", { class: "prompt", id: "prompt" }, "🎧 Ouça e digite em inglês o que você ouviu"),
+        h("p", { class: "prompt", id: "prompt" }, `🎧 Ouça e digite em ${target.name} o que você ouviu`),
         h("div", { class: "row", style: "margin-bottom:12px" }, speakBtn(p.prompt), speakBtn(p.prompt, { slow: true }),
           Voice.synth ? null : h("span", { class: "muted" }, "Sem voz neste navegador: veja Ajustes → Áudio.")));
     } else {
@@ -595,7 +611,7 @@ async function viewPhrases() {
         showEn ? [" ", speakBtn(p.prompt), speakBtn(p.prompt, { slow: true })] : null);
     }
     put(card,
-      h("div", { class: "stage" }, `${p.dialog_title}${p.speaker ? " · " + p.speaker : ""} — ${dict ? "ditado" : `passo ${st.stage} de 2: ${st.stage === 1 ? "inglês → português" : "português → inglês"}`}`),
+      h("div", { class: "stage" }, `${p.dialog_title}${p.speaker ? " · " + p.speaker : ""} — ${dict ? "ditado" : `passo ${st.stage} de 2: ${st.stage === 1 ? `${target.name} → português` : `português → ${target.name}`}`}`),
       st.note ? h("div", { class: "box ok" }, st.note) : null,
       promptEl,
       h("div", { class: "row" }, h("div", { class: "grow" }, input), mic,
@@ -603,7 +619,7 @@ async function viewPhrases() {
         h("button", { class: "btn", onclick: reveal }, "Mostrar resposta")),
       feedback);
     input.focus();
-    // fala a frase em inglês ao aparecer (ditado e passo 1); desligue em Ajustes → Áudio
+    // fala a frase no idioma ativo ao aparecer (ditado e passo 1); desligue em Ajustes → Áudio
     if (Voice.prefs.auto && (dict || st.stage === 1)) Voice.speak(p.prompt);
   }
 
@@ -686,6 +702,7 @@ async function customDialogView(body) {
 // ---- interpretar um diálogo: os outros personagens falam, você responde em inglês
 async function roleplayView(body) {
   const dialogs = (await api(`/api/dialogs?lang=${LangSwitcher.get()}`)).filter((d) => d.speakers >= 2);
+  const target = LangSwitcher.target();
   const sel = h("select", { "aria-label": "Diálogo" }, dialogOptions(dialogs, state.roleDialogId));
   const roles = h("div", { class: "row" });
   const start = h("button", { class: "btn primary" }, "Começar");
@@ -703,7 +720,7 @@ async function roleplayView(body) {
   });
 
   put(body, h("div", { class: "card" },
-    h("p", { class: "muted" }, "Escolha um diálogo e seu personagem. As falas dos outros são faladas em inglês; nas suas, você vê a dica em português e responde em inglês (digitando ou falando)."),
+    h("p", { class: "muted" }, `Escolha um diálogo e seu personagem. As falas dos outros são faladas em ${target.name}; nas suas, você vê a dica em português e responde em ${target.name} (digitando ou falando).`),
     h("div", { class: "row" }, h("div", { class: "grow" }, sel)), roles,
     h("div", { class: "row end", style: "margin-top:8px" }, start)));
   await loadRoles();
@@ -734,9 +751,9 @@ async function roleplayView(body) {
 
     function ask(line) {
       const input = h("input", { type: "text", autocomplete: "off", autocapitalize: "off", spellcheck: "false",
-        placeholder: "Responda em inglês…", "aria-label": "Sua resposta em inglês" });
+        placeholder: `Responda em ${target.name}…`, "aria-label": `Sua resposta em ${target.name}` });
       const feedback = h("div", {});
-      const mic = micBtn((t) => { input.value = t; input.focus(); }, "en-US");
+      const mic = micBtn((t) => { input.value = t; input.focus(); }, target.locale);
       async function submit() {
         if (!input.value.trim()) return;
         try {
@@ -761,7 +778,7 @@ async function roleplayView(body) {
       input.addEventListener("keydown", (ev) => { if (ev.key === "Enter") submit(); });
       put(panel,
         h("div", { class: "stage" }, `Sua vez (${role})`),
-        h("div", { class: "box info", id: "hint" }, "Diga em inglês: ", h("b", {}, "“" + line.pt + "”")),
+        h("div", { class: "box info", id: "hint" }, `Diga em ${target.name}: `, h("b", {}, "“" + line.pt + "”")),
         h("div", { class: "row", style: "margin-top:10px" }, h("div", { class: "grow" }, input), mic,
           h("button", { class: "btn primary", id: "check", onclick: submit }, "Verificar"),
           h("button", { class: "btn", onclick: reveal }, "Mostrar resposta")),
@@ -788,6 +805,7 @@ async function roleplayView(body) {
 
 // ---- conversa livre com a IA
 async function chatView(body) {
+  const target = LangSwitcher.target();
   const info = await api("/api/conversation/scenarios");
   if (!info.ai_enabled) {
     put(body, h("div", { class: "card" }, h("h3", {}, "Conversa livre com a IA"),
@@ -804,7 +822,7 @@ async function chatView(body) {
   scenario.addEventListener("change", showAbout);
   showAbout();
   put(body, h("div", { class: "card" },
-    h("p", { class: "muted" }, "A IA interpreta um colega de trabalho, responde em inglês e corrige cada mensagem sua. Pode misturar português onde não souber."),
+    h("p", { class: "muted" }, `A IA interpreta um colega de trabalho, responde em ${target.name} e corrige cada mensagem sua. Pode misturar português onde não souber.`),
     h("div", { class: "row" }, h("div", { class: "grow" }, scenario), h("div", { class: "grow" }, level)), about,
     h("div", { class: "row end" }, h("button", { class: "btn primary", id: "startchat", onclick: () => runChat(info.scenarios.find((s) => s.id === scenario.value), level.value) }, "Começar a conversa"))));
 
@@ -814,9 +832,9 @@ async function chatView(body) {
     let promptTime = Date.now();
     const log = h("div", { class: "chat" });
     const counter = h("div", { class: "muted" });
-    const input = h("input", { type: "text", autocomplete: "off", spellcheck: "false", placeholder: "Write your answer in English…", "aria-label": "Sua mensagem" });
+    const input = h("input", { type: "text", autocomplete: "off", spellcheck: "false", placeholder: `Responda em ${target.name}…`, "aria-label": "Sua mensagem" });
     const sendBtn = h("button", { class: "btn primary", id: "send" }, "Enviar");
-    const mic = micBtn((t) => { input.value = t; input.focus(); }, "en-US");
+    const mic = micBtn((t) => { input.value = t; input.focus(); }, target.locale);
     const continuousChk = h("input", { type: "checkbox" });
     const continuousLabel = h("label", { class: "chk", style: "font-size:13px" }, continuousChk, h("span", {}, h("b", {}, "🎙️ Modo Conversa Contínua (Hands-Free)"), h("small", { class: "muted", style: "display:block" }, "Abre o microfone automaticamente após a resposta da IA.")));
 
@@ -846,12 +864,12 @@ async function chatView(body) {
       promptTime = Date.now();
       try {
         input.placeholder = "🎤 Ouvindo sua resposta… Fale agora!";
-        const spoken = await Voice.listen("en-US");
+        const spoken = await Voice.listen(target.locale);
         input.value = spoken;
-        input.placeholder = "Write your answer in English…";
+        input.placeholder = `Responda em ${target.name}…`;
         send();
       } catch (e) {
-        input.placeholder = "Write your answer in English…";
+        input.placeholder = `Responda em ${target.name}…`;
       }
     }
 
@@ -938,7 +956,7 @@ async function chatView(body) {
             h("div", { class: "star-step" }, h("b", {}, "Ação: "), star.action),
             h("div", { class: "star-step" }, h("b", {}, "Resultado: "), star.result),
             h("div", { class: "box ok", style: "margin-top:8px" },
-              h("div", { class: "muted" }, "Como falar em inglês:"),
+              h("div", { class: "muted" }, `Como falar em ${LangSwitcher.target().name}:`),
               h("b", {}, star.example_speech), " ", speakBtn(star.example_speech))) : null,
           h("div", { class: "row end", style: "margin-top:10px" },
             h("button", { class: "btn", onclick: () => coachContainer.replaceChildren() }, "Fechar relatório"))));
@@ -963,6 +981,7 @@ async function chatView(body) {
 // ---------------------------------------------------------------- TEXTOS
 async function viewTexts() {
   const texts = await api("/api/texts");
+  const target = LangSwitcher.target();
   const left = h("div", { class: "card list" });
   const right = h("div", {});
 
@@ -981,7 +1000,7 @@ async function viewTexts() {
   function showNew() {
     const title = h("input", { type: "text", placeholder: "Título (opcional)" });
     const pt = h("textarea", { placeholder: "Cole ou escreva aqui o texto em português…" });
-    const ref = h("textarea", { style: "min-height:90px", placeholder: state.ai ? "Opcional: sua versão correta em inglês. Se deixar vazio, a IA traduz." : "Obrigatório sem IA: a versão correta em inglês, para eu poder corrigir." });
+    const ref = h("textarea", { style: "min-height:90px", placeholder: state.ai ? `Opcional: sua versão correta em ${target.name}. Se deixar vazio, a IA traduz.` : `Obrigatório sem IA: a versão correta em ${target.name}, para eu poder corrigir.` });
     const msg = h("div", {});
     const btn = h("button", { class: "btn primary", onclick: async () => {
       btn.disabled = true; put(msg, h("div", { class: "box info" }, "Criando…"));
@@ -991,14 +1010,14 @@ async function viewTexts() {
       } catch (e) { put(msg, errBox(e)); btn.disabled = false; }
     } }, "Começar");
     put(right, h("div", { class: "card" }, h("h2", {}, "Novo texto"),
-      h("p", { class: "muted" }, "Coloque o texto em português. Depois você tenta escrevê-lo em inglês."),
+      h("p", { class: "muted" }, `Coloque o texto em português. Depois você tenta escrevê-lo em ${target.name}.`),
       title, h("div", { style: "height:8px" }), pt, h("div", { style: "height:8px" }),
-      h("label", { class: "muted" }, "Versão correta em inglês"), ref, h("div", { class: "row end", style: "margin-top:10px" }, btn), msg));
+      h("label", { class: "muted" }, `Versão correta em ${target.name}`), ref, h("div", { class: "row end", style: "margin-top:10px" }, btn), msg));
   }
 
   async function showText(id) {
     const t = await api(`/api/texts/${id}`);
-    const attempt = h("textarea", { placeholder: "Escreva em inglês. O que você não souber, deixe em português.", spellcheck: "false" });
+    const attempt = h("textarea", { placeholder: `Escreva em ${target.name}. O que você não souber, deixe em português.`, spellcheck: "false" });
     attempt.value = t.status === "solved" ? "" : (t.last_attempt || "");
     const out = h("div", {});
     const btn = h("button", { class: "btn primary", onclick: submit }, "Corrigir");
@@ -1036,7 +1055,7 @@ async function viewTexts() {
       solved ? h("div", {}, h("h3", { style: "margin-top:14px" }, "Sua versão aprovada"), h("div", { class: "box ok", style: "white-space:pre-wrap" }, t.solved_text),
         h("div", { class: "row" }, speakBtn(t.solved_text), speakBtn(t.solved_text, { slow: true })),
         h("p", { class: "muted" }, "Quer praticar de novo? Escreva outra vez abaixo.")) : null,
-      h("h3", { style: "margin-top:14px" }, "Sua tradução em inglês"), attempt,
+      h("h3", { style: "margin-top:14px" }, `Sua tradução em ${target.name}`), attempt,
       h("div", { class: "row end", style: "margin-top:8px" }, h("span", { class: "muted" }, "Ctrl+Enter para corrigir"), btn), out));
   }
 
@@ -1050,7 +1069,8 @@ async function viewTexts() {
 // ---------------------------------------------------------------- VOCABULÁRIO
 async function viewVocab() {
   const stats = await api(`/api/vocab/stats?lang=${LangSwitcher.get()}`);
-  const box = h("textarea", { placeholder: "Cole aqui qualquer texto em inglês. Todas as palavras serão separadas para revisão." });
+  const target = LangSwitcher.target();
+  const box = h("textarea", { placeholder: `Cole aqui qualquer texto em ${target.name}. Todas as palavras serão separadas para revisão.` });
   const msg = h("div", {});
   const body = h("tbody", {});
   const q = h("input", { type: "text", placeholder: "Buscar palavra…" });
@@ -1104,7 +1124,7 @@ async function viewVocab() {
         ["Aprendidas", stats.learned], ["Sem significado", stats.no_meaning], ["Vocabulário de TI", `${stats.ti_learned}/${stats.ti_total}`]]
         .map(([l, v]) => h("div", { class: "stat" }, h("b", {}, v), h("span", { class: "muted" }, l)))),
     h("div", { class: "card" }, h("h2", {}, "Separar palavras de um texto"),
-      h("p", { class: "muted" }, "Textos resolvidos, diálogos e conversas já mandam as palavras para cá sozinhos. Use este campo para qualquer outro texto em inglês."),
+      h("p", { class: "muted" }, `Textos resolvidos, diálogos e conversas já mandam as palavras para cá sozinhos. Use este campo para qualquer outro texto em ${target.name}.`),
       box, h("div", { class: "row end", style: "margin-top:8px" }, importBtn), msg),
     h("div", { class: "card" }, h("div", { class: "row" }, h("div", { class: "grow" }, q), h("div", {}, filter),
       h("label", { class: "chk" }, tiChk, "Só TI"), fillBtn), count,
@@ -1114,6 +1134,7 @@ async function viewVocab() {
 
 // ---------------------------------------------------------------- REVISÃO
 async function viewReview() {
+  const target = LangSwitcher.target();
   const modes = [["meaning", "Ver a palavra → digitar o significado"], ["reverse", "Ver o significado → escrever a palavra"], ["listen", "Ouvir → digitar a palavra"]];
   const modeSel = h("select", { "aria-label": "Modo da revisão" }, modes.map(([v, l]) => h("option", { value: v, selected: v === state.reviewMode }, l)));
   const tiChk = h("input", { type: "checkbox", checked: state.reviewTI });
@@ -1139,9 +1160,9 @@ async function viewReview() {
     }
     const w = r.word;
     const input = h("input", { type: "text", autocomplete: "off", autocapitalize: "off", spellcheck: "false", "aria-label": "Sua resposta",
-      placeholder: mode === "meaning" ? "Significado em português…" : "Digite a palavra em inglês…" });
+      placeholder: mode === "meaning" ? "Significado em português…" : `Digite a palavra em ${target.name}…` });
     const out = h("div", {});
-    const mic = micBtn((t) => { input.value = t; input.focus(); }, mode === "meaning" ? "pt-BR" : "en-US");
+    const mic = micBtn((t) => { input.value = t; input.focus(); }, mode === "meaning" ? "pt-BR" : target.locale);
 
     async function submit() {
       if (!input.value.trim()) return;
@@ -1163,9 +1184,9 @@ async function viewReview() {
       front = [h("div", { class: "big", id: "front" }, w.word), h("div", { class: "row", style: "justify-content:center" }, speakBtn(w.word), speakBtn(w.word, { slow: true })),
         w.example ? h("p", { class: "center muted" }, "“" + w.example + "” ", speakBtn(w.example)) : null];
     } else if (mode === "reverse") {
-      front = [h("div", { class: "center muted" }, "Como se diz em inglês?"), h("div", { class: "big", id: "front" }, w.meaning_pt)];
+      front = [h("div", { class: "center muted" }, `Como se diz em ${target.name}?`), h("div", { class: "big", id: "front" }, w.meaning_pt)];
     } else {
-      front = [h("div", { class: "center muted" }, "Ouça e digite a palavra em inglês"),
+      front = [h("div", { class: "center muted" }, `Ouça e digite a palavra em ${target.name}`),
         h("div", { class: "row", style: "justify-content:center;margin:12px 0" }, speakBtn(w.word), speakBtn(w.word, { slow: true }), h("span", { id: "front" }))];
     }
     put(card, h("div", { class: "stage" }, `Revisão — ${r.remaining} restante(s)${w.tag === "ti" ? " · TI" : ""}`), front,
@@ -1178,6 +1199,7 @@ async function viewReview() {
 
 async function aiSettingsCard() {
   const card = h("div", { class: "card", id: "ai-settings" });
+  const target = LangSwitcher.target();
   let cfg = null;
   try {
     cfg = await api("/api/ai/config");
@@ -1305,7 +1327,7 @@ async function aiSettingsCard() {
       h("div", { class: "grow" }),
       h("span", { class: cfg.ai_enabled ? "ai-badge-active" : "muted", style: "font-size:13px" },
         cfg.ai_enabled ? `Ativa (${(cfg.provider || "").toUpperCase()})` : "Desligada")),
-    h("p", { class: "muted" }, "Acelere sua fluência praticando conversação livre em inglês para cenários reais de TI (Daily, Code Review, Incidentes e Entrevistas Técnicas) e recebendo correções em tempo real."),
+    h("p", { class: "muted" }, `Acelere sua fluência praticando conversação livre em ${target.name} para cenários reais de TI (Daily, Code Review, Incidentes e Entrevistas Técnicas) e recebendo correções em tempo real.`),
     h("div", { class: "row", style: "margin-top:10px" }, h("span", { style: "width:110px" }, "Provedor"), h("div", { class: "grow" }, provSel)),
     keyRow, endpointRow, modelRow, helperText,
     h("div", { class: "row", style: "margin-top:14px;gap:8px" }, saveBtn, testBtn),
@@ -1317,6 +1339,7 @@ async function aiSettingsCard() {
 // ---------------------------------------------------------------- AJUSTES
 async function viewSettings() {
   const s = await api("/api/settings");
+  const target = LangSwitcher.target();
   const acc = h("input", { type: "checkbox", checked: s.ignore_accents });
   const strict = h("input", { type: "checkbox", checked: s.strict_exact });
   const save = () => api("/api/settings", { method: "PUT", body: { ignore_accents: acc.checked, strict_exact: strict.checked } }).catch((e) => alert(e.message));
@@ -1334,15 +1357,15 @@ async function viewSettings() {
     const auto = h("input", { type: "checkbox", checked: Voice.prefs.auto });
     auto.addEventListener("change", () => { Voice.prefs.auto = auto.checked; Voice.save(); });
     put(audio, h("h3", {}, "Áudio"),
-      h("p", { class: "muted" }, "Voz: ", Voice.synth ? (voices.length ? `${voices.length} voz(es) em inglês encontrada(s).` : "nenhuma voz em inglês encontrada.") : "este navegador não tem síntese de voz.",
+      h("p", { class: "muted" }, "Voz: ", Voice.synth ? (voices.length ? `${voices.length} voz(es) em ${target.name} encontrada(s).` : `nenhuma voz em ${target.name} encontrada.`) : "este navegador não tem síntese de voz.",
         " Microfone: ", Voice.SR ? "disponível (Chrome/Edge; usa a internet)." : "indisponível neste navegador (use Chrome ou Edge)."),
       Voice.synth && !voices.length ? h("div", { class: "box warn" },
-        "Sem voz em inglês, o app fica mudo. No Linux, o navegador precisa de uma voz do sistema: instale com ",
+        `Sem voz em ${target.name}, o app fica mudo. No Linux, o navegador precisa de uma voz do sistema: instale com `,
         h("code", {}, "sudo apt install speech-dispatcher espeak-ng"), " e reinicie o navegador. No Windows e no macOS as vozes já vêm instaladas.") : null,
       h("div", { class: "row" }, h("div", { class: "grow" }, voiceSel)),
       h("div", { class: "row", style: "margin-top:8px" }, h("span", {}, "Velocidade"), h("div", { class: "grow" }, rate), rateLabel),
-      h("label", { class: "chk" }, auto, h("span", {}, h("b", {}, "Falar automaticamente"), h("div", { class: "muted" }, "Fala a frase em inglês ao aparecer (frases, ditado, conversação e revisão)."))),
-      h("div", { class: "row" }, h("button", { class: "btn", id: "testvoice", onclick: () => { if (!Voice.speak("Hello! This is a test of the English voice.")) toast("Sem voz disponível neste navegador."); } }, "🔊 Testar voz")));
+      h("label", { class: "chk" }, auto, h("span", {}, h("b", {}, "Falar automaticamente"), h("div", { class: "muted" }, `Fala a frase em ${target.name} ao aparecer (frases, ditado, conversação e revisão).`))),
+      h("div", { class: "row" }, h("button", { class: "btn", id: "testvoice", onclick: () => { if (!Voice.speak(target.native === "Deutsch" ? "Hallo! Dies ist ein Test der deutschen Stimme." : "Hello! This is a test of the English voice.")) toast("Sem voz disponível neste navegador."); } }, "🔊 Testar voz")));
   }
   renderAudio();
   if (Voice.synth) Voice.synth.onvoiceschanged = () => { if (currentTab === "settings") renderAudio(); };
@@ -1350,7 +1373,7 @@ async function viewSettings() {
   put(view, h("div", { class: "card" }, h("h2", {}, "Ajustes"),
     h("label", { class: "chk" }, acc, h("span", {}, h("b", {}, "Ignorar acentos"), h("div", { class: "muted" }, "Aceita “voce” no lugar de “você”. Por padrão, o acento precisa estar correto."))),
     h("label", { class: "chk" }, strict, h("span", {}, h("b", {}, "Modo exato"), h("div", { class: "muted" }, "Maiúsculas, pontuação e espaços também precisam ser idênticos. Por padrão são ignorados."))),
-    h("p", { class: "muted" }, "Sempre valem: contrações em inglês (I'm = I am) e traduções alternativas cadastradas.")),
+    h("p", { class: "muted" }, `Sempre valem: contrações em ${target.name}${target.native === "English" ? " (I'm = I am)" : ""} e traduções alternativas cadastradas.`)),
     await planSettingsCard(),
     await aiSettingsCard(),
     audio);
@@ -1379,9 +1402,9 @@ async function init() {
 }
 window.addEventListener("load", init);
 </script>
-<script src="/static/course.js"></script>
-<script src="/static/today.js"></script>
-<script src="/static/live.js"></script>
+<script src="/static/course.js?v=2.3"></script>
+<script src="/static/today.js?v=2.3"></script>
+<script src="/static/live.js?v=2.3"></script>
 <script>
 Object.assign(tabs, { today: viewToday, course: viewCourse, lesson: viewLesson, placement: viewPlacement, grammar: viewGrammar, progress: viewProgress, reading: viewReading, pronounce: viewPronounce, eargym: viewEarGym, live: viewLiveConversation });
 </script>

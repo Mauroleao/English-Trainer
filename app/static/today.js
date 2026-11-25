@@ -279,7 +279,7 @@ async function viewPronounce() {
       stopShadow();
       if (mic.classList.contains("rec")) { Voice.stopListening(); return; }
       mic.classList.add("rec"); put(out, h("p", { class: "muted center" }, "Estou ouvindo… fale a frase."));
-      try { await evaluate(await Voice.listen("en-US")); } catch (e) { put(out, h("div", { class: "box warn" }, e.message)); } finally { mic.classList.remove("rec"); }
+      try { await evaluate(await Voice.listen(LangSwitcher.target().locale)); } catch (e) { put(out, h("div", { class: "box warn" }, e.message)); } finally { mic.classList.remove("rec"); }
     });
     const typed = h("input", { type: "text", placeholder: "Sem microfone? Digite o que você falaria…", "aria-label": "Texto falado" });
     typed.addEventListener("keydown", (e) => { if (e.key === "Enter" && typed.value.trim()) evaluate(typed.value); });
@@ -299,6 +299,7 @@ async function viewPronounce() {
 // ---------------------------------------------------------------- EAR GYM (TREINO AUDITIVO DE PALAVRA OCULTA)
 async function viewEarGym() {
   const card = h("div", { class: "card" });
+  const target = LangSwitcher.target();
   put(view, card);
   const lvSel = h("select", { "aria-label": "Nível", style: "width:auto" }, ["A1", "A2", "B1", "B2", "C1"].map((l) => h("option", { value: l, selected: l === (state.earLevel || "A1") }, l)));
   let current = null;
@@ -328,7 +329,7 @@ async function viewEarGym() {
       const words = t.trim().split(/\s+/);
       input.value = words[words.length - 1];
       submit();
-    }, "en-US");
+    }, target.locale);
 
     async function submit() {
       const ans = input.value.trim();
@@ -354,9 +355,9 @@ async function viewEarGym() {
 
     put(card,
       h("div", { class: "row" },
-        h("h2", { style: "margin:0" }, "🎧 Ear Gym — Treino de Escuta"),
+        h("h2", { style: "margin:0" }, target.native === "Deutsch" ? "🎧 Ear Gym — Hörtraining" : "🎧 Ear Gym — Treino de Escuta"),
         h("div", { class: "grow" }), lvSel),
-      h("p", { class: "muted" }, "Treine o seu ouvido para a fala rápida em inglês. Ouça com atenção e preencha a palavra que falta na frase."),
+      h("p", { class: "muted" }, `Treine o seu ouvido para a fala rápida em ${target.name}. Ouça com atenção e preencha a palavra que falta na frase.`),
       maskedEl,
       h("div", { class: "row", style: "justify-content:center;gap:8px;margin:12px 0" },
         speakBtn(current.en_full),

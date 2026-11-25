@@ -6,6 +6,7 @@ from typing import Optional
 from fastapi import APIRouter, BackgroundTasks, Depends, HTTPException
 
 from ..ai import extract_json
+from ..db import get_active_language
 from ..deps import get_db, get_db_path, get_llm
 from ..scenarios import BY_ID, SCENARIOS
 from ..schemas import ChatTurnIn, CoachReportIn, GenerateDialogIn
@@ -80,7 +81,8 @@ def conversation_turn(
         raise HTTPException(422, "Escreva uma mensagem.")
     history = [m.model_dump() for m in body.history]
     try:
-        result = llm.chat(scenario["role"], body.level, history, message)
+        language = get_active_language(db)
+        result = llm.chat(scenario["role"], body.level, history, message, lang=language)
     except Exception as exc:  # noqa: BLE001
         raise HTTPException(502, f"A IA não respondeu agora ({exc}). Tente de novo.") from exc
 
@@ -172,7 +174,16 @@ def generate_dialog(body: GenerateDialogIn, db=Depends(get_db), llm=Depends(get_
             422,
             "A criação de diálogos precisa de uma IA configurada em Ajustes.",
         )
-    system = DIALOG_GEN_SYSTEM.replace("{level}", body.level)
+    language = get_active_language(db)
+    if language == "de":
+        system = (
+            "You generate realistic, friendly German dialogues for Brazilian learners. "
+            f"Generate a 6 to 8 line dialogue about the requested topic at CEFR level {body.level}. "
+            'Reply with ONE JSON object and nothing else: '
+            '{"title":"título curto em português","description":"descrição curta em português","lines":[{"speaker":"Name","en":"fala em alemão","pt":"tradução em português"}]}'
+        )
+    else:
+        system = DIALOG_GEN_SYSTEM.replace("{level}", body.level)
     prompt = f"Topic to generate: {body.topic}"
     try:
         raw = llm._ask(system, prompt, max_tokens=1500)
@@ -185,14 +196,14 @@ def generate_dialog(body: GenerateDialogIn, db=Depends(get_db), llm=Depends(get_
 
         with db:
             cur = db.execute(
-                "INSERT INTO dialogs(title, level, description, builtin, created_at) VALUES(?,?,?,0,datetime('now'))",
-                (f"✨ {title}", body.level, desc),
+                "INSERT INTO dialogs(title, level, description, builtin, created_at, language) VALUES(?,?,?,0,datetime('now'),?)",
+                (f"✨ {title}", body.level, desc, language),
             )
             dialog_id = cur.lastrowid
             for i, line in enumerate(lines):
                 db.execute(
-                    "INSERT INTO phrases(dialog_id, position, speaker, en, pt) VALUES(?,?,?,?,?)",
-                    (dialog_id, i, line.get("speaker", "Colega"), line["en"].strip(), line["pt"].strip()),
+                    "INSERT INTO phrases(dialog_id, position, speaker, en, pt, language) VALUES(?,?,?,?,?,?)",
+                    (dialog_id, i, line.get("speaker", "Colega"), line["en"].strip(), line["pt"].strip(), language),
                 )
         return {"dialog_id": dialog_id, "title": f"✨ {title}", "line_count": len(lines)}
     except Exception as exc:  # noqa: BLE001

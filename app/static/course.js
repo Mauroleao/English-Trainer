@@ -26,6 +26,7 @@ const LEVEL_NAMES = { A1: "Iniciante", A2: "Básico", B1: "Intermediário", B2: 
 // opts.onDone(answer, result) é chamado ao avançar. Devolve o elemento.
 function exerciseView(ex, opts) {
   const root = h("div", { class: "exercise", "data-ex": ex.id });
+  const target = LangSwitcher.target();
   const out = h("div", {});
   let answer = null, locked = false;
 
@@ -84,7 +85,7 @@ function exerciseView(ex, opts) {
     lock = () => { chips.forEach((c) => { c.disabled = true; }); send.disabled = true; };
   } else {
     const input = h("input", { type: "text", autocomplete: "off", autocapitalize: "off", spellcheck: "false", "aria-label": "Sua resposta",
-      placeholder: t === "listen" ? "Digite o que você ouviu…" : t === "fix" ? "Escreva a frase corrigida…" : t === "fill" ? "Palavra que falta…" : "Escreva em inglês…" });
+      placeholder: t === "listen" ? "Digite o que você ouviu…" : t === "fix" ? "Escreva a frase corrigida…" : t === "fill" ? "Palavra que falta…" : `Escreva em ${target.name}…` });
     const send = h("button", { class: "btn primary", type: "button", onclick: () => { if (input.value.trim()) submit(input.value); } }, "Verificar");
     input.addEventListener("keydown", (e) => { if (e.key === "Enter" && input.value.trim()) submit(input.value); });
     const mic = t === "translate" || t === "listen" || t === "fix" ? micBtn((txt) => { input.value = txt; input.focus(); }) : null;
@@ -94,7 +95,7 @@ function exerciseView(ex, opts) {
     setTimeout(() => { if (root.isConnected) input.focus(); }, 30);
     if (t === "listen" && Voice.prefs.auto) setTimeout(() => Voice.speak(ex.speak), 150);
   }
-  const hint = { fill: "Complete a frase", translate: "Traduza para o inglês", fix: "Corrija a frase", order: "Monte a frase em inglês", listen: "Ditado", choice: "Escolha a opção certa" }[t];
+  const hint = { fill: "Complete a frase", translate: `Traduza para o ${target.name}`, fix: "Corrija a frase", order: `Monte a frase em ${target.name}`, listen: "Ditado", choice: "Escolha a opção certa" }[t];
   put(root, h("div", { class: "stage" }, hint), prompt, body, out);
   return root;
 }
@@ -123,6 +124,7 @@ function runSequence(container, exercises, opts) {
 // ---------------------------------------------------------------- mapa do curso
 async function viewCourse() {
   const c = await api("/api/course");
+  const target = LangSwitcher.target();
   const lvlSel = state.courseLevel && c.levels.some((l) => l.level === state.courseLevel) ? state.courseLevel : c.current_level;
   const wrap = h("div", { class: "card" });
   const list = h("div", {});
@@ -143,8 +145,10 @@ async function viewCourse() {
           h("span", { class: "m" }, les.status === "done" ? `nota ${les.score}%` : les.minutes + " min")))]));
   }
   put(view, wrap);
-  put(wrap, h("h2", {}, "Curso de gramática: do zero ao C1"),
-    h("p", { class: "muted" }, "Cada lição explica passo a passo, tem prática com correção e um mini-teste (80% para concluir). Você pode estudar em qualquer ordem, mas a recomendada vem destacada."),
+  put(wrap, h("h2", {}, target.native === "Deutsch" ? "Grammatikkurs: von Null bis C1" : "Curso de gramática: do zero ao C1"),
+    h("p", { class: "muted" }, target.native === "Deutsch"
+      ? "Jede Lektion erklärt den Stoff Schritt für Schritt, bietet Übungen mit Korrektur und einen Mini-Test (80 % zum Abschluss)."
+      : "Cada lição explica passo a passo, tem prática com correção e um mini-teste (80% para concluir). Você pode estudar em qualquer ordem, mas a recomendada vem destacada."),
     h("div", { class: "row" },
       h("button", { class: "btn primary", onclick: () => c.recommended && openLesson(c.recommended) }, "▶ Continuar de onde parei"),
       h("button", { class: "btn", onclick: () => go("placement") }, "Fazer teste de nível")),
