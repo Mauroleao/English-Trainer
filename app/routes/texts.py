@@ -6,7 +6,7 @@ from typing import Optional
 
 from fastapi import APIRouter, BackgroundTasks, Depends, HTTPException
 
-from ..db import Settings, now_iso
+from ..db import Settings, get_active_language, now_iso
 from ..deps import get_db, get_db_path, get_llm, get_settings
 from ..evaluation import evaluate_attempt
 from ..schemas import AttemptIn, TextIn, TextPatch
@@ -40,11 +40,16 @@ def _summary(row) -> dict:
 
 @router.get("")
 def list_texts(db=Depends(get_db)):
-    return [_summary(r) for r in db.execute("SELECT * FROM texts ORDER BY id DESC")]
+    active = get_active_language(db)
+    return [_summary(r) for r in db.execute(
+        "SELECT * FROM texts WHERE language = ? ORDER BY id DESC",
+        (active,),
+    )]
 
 
 @router.post("", status_code=201)
 def create_text(body: TextIn, db=Depends(get_db), llm=Depends(get_llm)):
+    active = get_active_language(db)
     en_text = (body.en_reference or "").strip()
     if not en_text:
         if llm is None:
@@ -59,8 +64,8 @@ def create_text(body: TextIn, db=Depends(get_db), llm=Depends(get_llm)):
             raise HTTPException(502, f"Não consegui traduzir o texto agora ({exc}). Tente de novo ou informe a referência.") from exc
     with db:
         text_id = db.execute(
-            "INSERT INTO texts(title, pt_text, en_text, status, created_at) VALUES(?,?,?,'pending',?)",
-            (body.title, body.pt_text, en_text, now_iso()),
+            "INSERT INTO texts(title, pt_text, en_text, status, created_at, language) VALUES(?,?,?,'pending',?,?)",
+            (body.title, body.pt_text, en_text, now_iso(), active),
         ).lastrowid
     return _summary(_text_or_404(db, text_id))
 

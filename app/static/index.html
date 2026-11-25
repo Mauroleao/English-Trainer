@@ -191,17 +191,19 @@ const LangSwitcher = (() => {
   }
 
   async function apply(code) {
+    if (!LANGS.some((l) => l.code === code)) code = "en";
     cur = code;
     localStorage.setItem("study_lang", code);
+    document.documentElement.lang = code === "de" ? "de-DE" : "pt-BR";
     _updateBrand();
-    // persiste no backend (sem travar se offline)
-    try { await api("/api/languages/active", { method: "POST", body: { language: code } }); } catch (_) { /* ignora */ }
     // atualiza estado visual dos botões
     document.querySelectorAll(".lang-btn").forEach((b) => {
       b.setAttribute("aria-current", b.dataset.lang === code ? "page" : "false");
     });
     // re-renderiza aba atual
     if (typeof go === "function" && typeof currentTab !== "undefined") go(currentTab || "today");
+    // persiste no backend sem bloquear a troca da interface
+    api("/api/languages/active", { method: "POST", body: { language: code } }).catch(() => {});
   }
 
   function render() {
@@ -223,7 +225,12 @@ const LangSwitcher = (() => {
     _updateBrand();
   }
 
-  return { apply, render, get: () => cur };
+  return { apply, render, syncFromServer: async () => {
+    try {
+      const data = await api("/api/languages");
+      if (data.active) apply(data.active);
+    } catch (_) { /* mantém o idioma salvo localmente */ }
+  }, get: () => cur };
 })();
 
 // ---------------------------------------------------------------- utilidades
@@ -1365,8 +1372,8 @@ async function init() {
     const s = await api("/api/status");
     updateAIPill(s.ai_enabled, s.provider, s.model);
   } catch (_) { /* a página segue funcionando */ }
-  // sincroniza idioma salvo localmente com o backend
-  try { await api("/api/languages/active", { method: "POST", body: { language: LangSwitcher.get() } }); } catch (_) { /* ignora */ }
+  // o banco é a fonte definitiva: evita sobrescrever a escolha alemã pelo localStorage antigo
+  await LangSwitcher.syncFromServer();
   const start = location.hash.slice(1);
   go(tabs[start] ? start : "today");
 }

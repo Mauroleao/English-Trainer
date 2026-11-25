@@ -9,6 +9,7 @@ from ..db import SUPPORTED_LANGUAGES, Settings, get_active_language, now_iso
 from ..deps import get_db, get_db_path, get_llm, get_settings
 from ..schemas import ImportIn, ReviewAnswerIn, WordPatch
 from ..seed import GLOSSARY
+from ..seed_german import GLOSSARY_DE
 from ..vocab import add_words_from_text, check_meaning, check_word, fill_missing_meanings, grade_word
 
 router = APIRouter(prefix="/api", tags=["vocabulario"])
@@ -35,8 +36,10 @@ def _word_dict(r) -> dict:
 @router.post("/vocab/import", status_code=201)
 def import_text(body: ImportIn, background: BackgroundTasks, db=Depends(get_db),
                 db_path: str = Depends(get_db_path), llm=Depends(get_llm)):
-    """Cola um texto em inglês: todas as palavras são separadas e ficam disponíveis para revisão."""
-    res = add_words_from_text(db, body.text, "import", None, glossary=GLOSSARY)
+    """Cola um texto no idioma ativo: todas as palavras são separadas e ficam disponíveis para revisão."""
+    active = get_active_language(db)
+    glossary = GLOSSARY_DE if active == "de" else GLOSSARY
+    res = add_words_from_text(db, body.text, "import", None, glossary=glossary, language=active)
     if res["total"] == 0:
         raise HTTPException(422, "Não encontrei palavras nesse texto.")
     if llm is not None:

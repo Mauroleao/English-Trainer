@@ -111,6 +111,15 @@ class TestLanguageSwitch:
         assert "en" in codes, "Inglês não está na lista de idiomas"
         assert "de" in codes, "Alemão não está na lista de idiomas"
 
+    def test_german_import_is_stored_as_german(self, client):
+        _lang(client, "de")
+        r = client.post("/api/vocab/import", json={"text": "Hallo Welt! Ich lerne Deutsch."})
+        assert r.status_code == 201
+
+        de = client.get("/api/vocab?lang=de&limit=500").json()["items"]
+        words = {item["word"] for item in de}
+        assert {"hallo", "welt", "ich", "lerne", "deutsch"} <= words
+
 
 # ------------------------------------------------------------------ TTS multi-idioma
 class TestTTSMultiLang:
