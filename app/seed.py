@@ -6,6 +6,7 @@ import sqlite3
 
 from .content_it import EXTRA_GLOSSARY, IT_DIALOGS, IT_TERMS
 from .db import now_iso
+from .seed_german import install_german_content
 from .vocab import add_words_from_text
 
 # (falante, inglês, português, [outras traduções aceitas em português])
@@ -109,18 +110,18 @@ for _term, _meaning, _ in IT_TERMS:
         GLOSSARY.setdefault(_term.casefold(), _meaning)
 
 
-def _install_dialogs(db: sqlite3.Connection, dialogs: list[dict]) -> None:
+def _install_dialogs(db: sqlite3.Connection, dialogs: list[dict], language: str = "en") -> None:
     for d in dialogs:
         dialog_id = db.execute(
-            "INSERT INTO dialogs(title, level, description, builtin, created_at) VALUES(?,?,?,1,?)",
-            (d["title"], d["level"], d["description"], now_iso()),
+            "INSERT INTO dialogs(title, level, description, builtin, created_at, language) VALUES(?,?,?,1,?,?)",
+            (d["title"], d["level"], d["description"], now_iso(), language),
         ).lastrowid
         for pos, (speaker, en, pt, pt_alt) in enumerate(d["lines"]):
             db.execute(
-                "INSERT INTO phrases(dialog_id, position, speaker, en, pt, en_alt, pt_alt) VALUES(?,?,?,?,?,?,?)",
-                (dialog_id, pos, speaker, en, pt, "[]", json.dumps(pt_alt, ensure_ascii=False)),
+                "INSERT INTO phrases(dialog_id, position, speaker, en, pt, en_alt, pt_alt, language) VALUES(?,?,?,?,?,?,?,?)",
+                (dialog_id, pos, speaker, en, pt, "[]", json.dumps(pt_alt, ensure_ascii=False), language),
             )
-        add_words_from_text(db, "\n".join(line[1] for line in d["lines"]), "dialog", dialog_id, glossary=GLOSSARY)
+        add_words_from_text(db, "\n".join(line[1] for line in d["lines"]), "dialog", dialog_id, glossary=GLOSSARY, language=language)
 
 
 def install_it_terms(db: sqlite3.Connection) -> int:
@@ -128,13 +129,16 @@ def install_it_terms(db: sqlite3.Connection) -> int:
     for term, meaning, example in IT_TERMS:
         word = term.casefold()
         cur = db.execute(
-            "INSERT OR IGNORE INTO words(word, meaning_pt, is_common, in_review, tag, created_at) VALUES(?,?,0,1,'ti',?)",
+            "INSERT OR IGNORE INTO words(word, meaning_pt, is_common, in_review, tag, created_at, language) VALUES(?,?,0,1,'ti',?,'en')",
             (word, meaning, now_iso()),
         )
-        if not cur.rowcount:  # a palavra já existia (veio de um diálogo ou texto): só marca como TI
-            db.execute("UPDATE words SET tag = 'ti' WHERE word = ?", (word,))
-            db.execute("UPDATE words SET meaning_pt = ? WHERE word = ? AND (meaning_pt IS NULL OR meaning_pt = '')", (meaning, word))
-        word_id = db.execute("SELECT id FROM words WHERE word = ?", (word,)).fetchone()["id"]
+        word_row = db.execute("SELECT id FROM words WHERE word = ? AND language = 'en'", (word,)).fetchone()
+        if not word_row:
+            word_row = db.execute("SELECT id FROM words WHERE word = ?", (word,)).fetchone()
+        word_id = word_row["id"]
+        if not cur.rowcount:  # a palavra já existia: só marca como TI
+            db.execute("UPDATE words SET tag = 'ti' WHERE id = ?", (word_id,))
+            db.execute("UPDATE words SET meaning_pt = ? WHERE id = ? AND (meaning_pt IS NULL OR meaning_pt = '')", (meaning, word_id))
         db.execute(
             "INSERT OR IGNORE INTO word_contexts(word_id, source_type, source_id, sentence) VALUES(?, 'pack', NULL, ?)",
             (word_id, example),
@@ -152,5 +156,6 @@ def _once(db: sqlite3.Connection, key: str, install) -> None:
 
 
 def seed(db: sqlite3.Connection) -> None:
-    _once(db, "seeded", lambda c: _install_dialogs(c, DIALOGS))
-    _once(db, "seed_it_v1", lambda c: (_install_dialogs(c, IT_DIALOGS), install_it_terms(c)))
+    _once(db, "seeded", lambda c: _install_dialogs(c, DIALOGS, language="en"))
+    _once(db, "seed_it_v1", lambda c: (_install_dialogs(c, IT_DIALOGS, language="en"), install_it_terms(c)))
+    _once(db, "seed_german_v1", install_german_content)

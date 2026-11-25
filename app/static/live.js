@@ -286,7 +286,7 @@ const LiveVoiceTutor = (() => {
       // 1. Gera Ephemeral Token no backend para proteger a chave de API
       const session = await api("/api/live/session", {
         method: "POST",
-        body: { scenario: currentScenario },
+        body: { scenario: currentScenario, language: (typeof LangSwitcher !== "undefined" ? LangSwitcher.get() : "en") },
       });
 
       if (!session || !session.token) {

@@ -62,6 +62,28 @@ SCENARIO_PROMPTS = {
     ),
 }
 
+# Cenários em alemão para o tutor de conversação
+SCENARIO_PROMPTS_DE = {
+    "daily": (
+        "Kontext: Tägliches Stand-up / Tech-Meeting.\n"
+        "Du bist der Tech Lead, der das tägliche Stand-up mit dem Softwareentwicklungsteam leitet.\n"
+        "Frage den Entwickler (Lernenden), woran er gestern gearbeitet hat, worauf er sich heute konzentriert "
+        "und ob er Blocker oder Pull Requests hat, die überprüft werden müssen. Verwende natürliche Agile/Tech-Terminologie."
+    ),
+    "interview": (
+        "Kontext: Vorstellungsgespräch (Entrevista de Emprego).\n"
+        "Du bist ein freundlicher Personalleiter, der ein technisches Vorstellungsgespräch für eine Softwareentwicklerposition führt.\n"
+        "Frage nach dem Hintergrund des Bewerbers, seiner Erfahrung mit modernen Tech-Stacks, Projekten, auf die er stolz ist, "
+        "und wie er mit technischen Herausforderungen umgeht. Sei ermutigend und realistisch."
+    ),
+    "casual": (
+        "Kontext: Entspannte Kaffeepause.\n"
+        "Du bist ein internationaler Teamkollege, der zusammen Kaffee trinkt.\n"
+        "Rede locker darüber, wie der Tag läuft, über Hobbys, Wochenendbpläne, Musik, Reisen oder Filme. "
+        "Bleibe warmherzig, freundlich und entspannt."
+    ),
+}
+
 TUTOR_SYSTEM_INSTRUCTION = """You are a friendly, patient, and encouraging English conversation tutor for a Brazilian Portuguese speaker.
 1. Natural Flow: Keep the conversation engaging and natural in English, adapting to the user's proficiency level.
 2. Seamless Portuguese Fallback (Code-Switching): If the user speaks in Portuguese, mixes Portuguese words into English, or asks 'como se diz X?', understand them completely without breaking immersion. Acknowledge their thought, naturally provide the best English phrasing for what they wanted to say, and continue the conversation in English.
@@ -75,9 +97,24 @@ Whenever you gently recast or correct the learner, in addition to your spoken En
 Example: [RECAST: I have 28 years || I am 28 years old]
 Always continue speaking your full conversational response naturally in English."""
 
+# Instrução de sistema do tutor em alemão
+TUTOR_SYSTEM_INSTRUCTION_DE = """Du bist ein freundlicher, geduldiger und aufmunternder Deutschlehrer für einen brasilianischen Portugiesischsprecher.
+1. Natürlicher Gesprächsfluss: Halte das Gespräch auf Deutsch engagiert und natürlich, angepasst an das Sprachniveau des Lernenden.
+2. Nahtloser Portugiesisch-Rückgriff (Code-Switching): Wenn der Lernende auf Portugiesisch spricht, portugiesische Wörter auf Deutsch einmischt oder fragt 'wie sagt man X auf Deutsch?', verstehe ihn vollständig ohne den Fluss zu unterbrechen. Bestätige seinen Gedanken, liefere natürlich die beste deutsche Formulierung und führe das Gespräch auf Deutsch weiter.
+3. Sanfte Korrektur: Wenn der Lernende einen Grammatik- oder Aussprachefehler macht, der unnatürlich klingt, modelliere sanft die korrekte Formulierung (z.B. 'Guter Punkt! Kurzer Tipp: Wir sagen auf Deutsch besser [korrekte Formulierung]'), erkläre kurz warum in einem Satz, und stelle sofort eine Anschlussfrage, damit der Lernende weiterredet. Niemals mit mehreren Korrekturen auf einmal überwältigen.
+
+{scenario_section}
+
+Format-Regel für Korrekturen:
+Wenn du sanft korrigierst, füge zusätzlich zu deiner Antwort auf Deutsch ein markiertes Tag in den Textstream ein:
+[RECAST: <was_der_Lernende_sagte> || <natürliche_Formulierung>]
+Beispiel: [RECAST: Ich habe 28 Jahre || Ich bin 28 Jahre alt]
+Führe immer deine vollständige Gesprächsantwort auf Deutsch natürlich weiter."""
+
 
 class SessionRequest(BaseModel):
     scenario: Optional[str] = "daily"
+    language: Optional[str] = "en"
 
 
 def _get_gemini_api_key(db=None) -> str:
@@ -98,8 +135,14 @@ def create_live_session(req: SessionRequest, db=Depends(get_db)):
     """Gera um Ephemeral Token de sessão de curta duração para WebSocket seguro sem expor chaves de API."""
     _clean_expired_sessions()
 
+    lang = (req.language or "en").strip().lower()
+    if lang not in ("en", "de"):
+        lang = "en"
+
     scenario_key = (req.scenario or "daily").strip().lower()
-    if scenario_key not in SCENARIO_PROMPTS:
+    # escolhe banco de cenários conforme idioma
+    scenario_bank = SCENARIO_PROMPTS_DE if lang == "de" else SCENARIO_PROMPTS
+    if scenario_key not in scenario_bank:
         scenario_key = "daily"
 
     token = secrets.token_urlsafe(32)
@@ -110,6 +153,7 @@ def create_live_session(req: SessionRequest, db=Depends(get_db)):
     _SESSIONS[token] = {
         "created_at": time.time(),
         "scenario": scenario_key,
+        "language": lang,
         "mode": mode,
         "gemini_key": gemini_key,
     }
@@ -119,6 +163,7 @@ def create_live_session(req: SessionRequest, db=Depends(get_db)):
         "token": token,
         "ws_path": f"/ws/live-conversation?token={token}",
         "scenario": scenario_key,
+        "language": lang,
         "mode": mode,
         "has_gemini_live": bool(gemini_key),
     }
@@ -153,8 +198,18 @@ async def websocket_live_conversation(websocket: WebSocket, token: str = Query(.
     await websocket.accept()
 
     scenario_key = session.get("scenario", "daily")
-    scenario_desc = SCENARIO_PROMPTS.get(scenario_key, SCENARIO_PROMPTS["daily"])
-    system_instruction = TUTOR_SYSTEM_INSTRUCTION.format(scenario_section=scenario_desc)
+    lang = session.get("language", "en")
+
+    # seleciona banco de cenários e instrução de sistema conforme idioma
+    if lang == "de":
+        scenario_bank = SCENARIO_PROMPTS_DE
+        base_instruction = TUTOR_SYSTEM_INSTRUCTION_DE
+    else:
+        scenario_bank = SCENARIO_PROMPTS
+        base_instruction = TUTOR_SYSTEM_INSTRUCTION
+
+    scenario_desc = scenario_bank.get(scenario_key, scenario_bank["daily"])
+    system_instruction = base_instruction.format(scenario_section=scenario_desc)
 
     gemini_key = session.get("gemini_key", "")
     mode = session.get("mode", "gemini_live")

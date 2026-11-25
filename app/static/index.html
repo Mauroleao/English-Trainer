@@ -78,6 +78,10 @@ ul.fix{list-style:none;margin:8px 0 0;padding:0} ul.fix li{padding:10px 0;border
 .stat{background:var(--bg);border-radius:10px;padding:10px 12px} .stat b{font-size:22px;display:block}
 table{width:100%;border-collapse:collapse;font-size:15px}
 th{text-align:left;color:var(--muted);font-weight:600;font-size:13px}
+/* ---- Seletor de idioma ---- */
+.lang-btn{background:none;border:1px solid var(--line);border-radius:999px;padding:3px 9px;font:inherit;font-size:12px;color:var(--muted);cursor:pointer;transition:background .15s,color .15s}
+.lang-btn:hover{background:var(--bg);color:var(--ink)}
+.lang-btn[aria-current="page"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);font-weight:700}
 td,th{padding:8px 6px;border-top:1px solid var(--line);vertical-align:top}
 td input[type=text]{padding:6px 8px;font-size:14px}
 .ex{color:var(--muted);font-size:13px}
@@ -111,7 +115,7 @@ code{background:var(--bg);border:1px solid var(--line);border-radius:6px;padding
 <body>
 <header>
   <div class="bar">
-    <div class="brand">English Trainer</div>
+    <div class="brand" id="app-brand">English Trainer</div>
     <nav id="nav">
       <button data-group="today" data-tab="today">Hoje</button>
       <button data-group="course" data-tab="course">Curso</button>
@@ -121,6 +125,7 @@ code{background:var(--bg);border:1px solid var(--line);border-radius:6px;padding
       <button data-group="progress" data-tab="progress">Progresso</button>
       <button data-group="settings" data-tab="settings">Ajustes</button>
     </nav>
+    <div id="lang-selector" style="display:flex;gap:4px;align-items:center"></div>
     <button id="theme-btn" type="button" class="btn" style="padding:3px 10px;font-size:13px;border-radius:999px" title="Alternar tema claro/escuro" onclick="Theme.toggle()">🌓 Auto</button>
     <span id="ai" class="pill" title="">IA</span>
   </div>
@@ -168,6 +173,57 @@ const Theme = (() => {
   }
   apply(cur);
   return { apply, toggle, get: () => cur };
+})();
+
+// ---------------------------------------------------------------- SELETOR DE IDIOMA DE ESTUDO
+const LangSwitcher = (() => {
+  const LANGS = [
+    { code: "en", flag: "🇺🇸", name: "English" },
+    { code: "de", flag: "🇩🇪", name: "Deutsch" },
+  ];
+  let cur = localStorage.getItem("study_lang") || "en";
+
+  // atualiza título do app conforme idioma ativo
+  function _updateBrand() {
+    const el = document.getElementById("app-brand");
+    if (!el) return;
+    el.textContent = cur === "de" ? "Deutsch Trainer" : "English Trainer";
+  }
+
+  async function apply(code) {
+    cur = code;
+    localStorage.setItem("study_lang", code);
+    _updateBrand();
+    // persiste no backend (sem travar se offline)
+    try { await api("/api/languages/active", { method: "POST", body: { language: code } }); } catch (_) { /* ignora */ }
+    // atualiza estado visual dos botões
+    document.querySelectorAll(".lang-btn").forEach((b) => {
+      b.setAttribute("aria-current", b.dataset.lang === code ? "page" : "false");
+    });
+    // re-renderiza aba atual
+    if (typeof go === "function" && typeof currentTab !== "undefined") go(currentTab || "today");
+  }
+
+  function render() {
+    const el = document.getElementById("lang-selector");
+    if (!el) return;
+    el.replaceChildren(
+      ...LANGS.map((l) => {
+        const b = document.createElement("button");
+        b.type = "button";
+        b.className = "lang-btn";
+        b.dataset.lang = l.code;
+        b.title = l.name;
+        b.setAttribute("aria-current", l.code === cur ? "page" : "false");
+        b.textContent = l.flag + " " + l.code.toUpperCase();
+        b.addEventListener("click", () => apply(l.code));
+        return b;
+      })
+    );
+    _updateBrand();
+  }
+
+  return { apply, render, get: () => cur };
 })();
 
 // ---------------------------------------------------------------- utilidades
@@ -279,7 +335,7 @@ const Voice = (() => {
     stop();
     if (prefs.neuralAudio && text.length <= 500) {
       try {
-        const audioUrl = `/api/audio/tts?text=${encodeURIComponent(text)}&speed=${rate || prefs.rate}`;
+        const audioUrl = `/api/audio/tts?text=${encodeURIComponent(text)}&speed=${rate || prefs.rate}&lang=${LangSwitcher ? LangSwitcher.get() : "en"}`;
         const aud = new Audio(audioUrl);
         aud.playbackRate = rate || prefs.rate;
         activeAudio = aud;
@@ -415,7 +471,7 @@ function dialogOptions(dialogs, selectedId) {
 }
 
 async function viewPhrases() {
-  const dialogs = await api("/api/dialogs");
+  const dialogs = await api(`/api/dialogs?lang=${LangSwitcher.get()}`);
   if (state.dialogId !== null && !dialogs.some((d) => d.id === state.dialogId)) state.dialogId = null;
 
   const st = { phrase: null, stage: 1, pt: "", finished: false, note: "" };
@@ -622,7 +678,7 @@ async function customDialogView(body) {
 
 // ---- interpretar um diálogo: os outros personagens falam, você responde em inglês
 async function roleplayView(body) {
-  const dialogs = (await api("/api/dialogs")).filter((d) => d.speakers >= 2);
+  const dialogs = (await api(`/api/dialogs?lang=${LangSwitcher.get()}`)).filter((d) => d.speakers >= 2);
   const sel = h("select", { "aria-label": "Diálogo" }, dialogOptions(dialogs, state.roleDialogId));
   const roles = h("div", { class: "row" });
   const start = h("button", { class: "btn primary" }, "Começar");
@@ -986,7 +1042,7 @@ async function viewTexts() {
 
 // ---------------------------------------------------------------- VOCABULÁRIO
 async function viewVocab() {
-  const stats = await api("/api/vocab/stats");
+  const stats = await api(`/api/vocab/stats?lang=${LangSwitcher.get()}`);
   const box = h("textarea", { placeholder: "Cole aqui qualquer texto em inglês. Todas as palavras serão separadas para revisão." });
   const msg = h("div", {});
   const body = h("tbody", {});
@@ -1010,7 +1066,7 @@ async function viewVocab() {
   } }, "Separar palavras");
 
   async function load() {
-    const p = new URLSearchParams({ filter: filter.value, q: q.value, limit: "300" });
+    const p = new URLSearchParams({ filter: filter.value, q: q.value, limit: "300", lang: LangSwitcher.get() });
     if (tiChk.checked) p.set("tag", "ti");
     const r = await api("/api/vocab?" + p);
     count.textContent = `${r.total} palavra(s)` + (r.total > r.items.length ? ` — mostrando ${r.items.length}` : "");
@@ -1064,7 +1120,7 @@ async function viewReview() {
   async function next() {
     const mode = state.reviewMode;
     const mine = ++seq;
-    const r = await api(`/api/review/next?mode=${mode}${state.reviewTI ? "&tag=ti" : ""}`);
+    const r = await api(`/api/review/next?mode=${mode}${state.reviewTI ? "&tag=ti" : ""}&lang=${LangSwitcher.get()}`);
     if (mine !== seq) return;
     if (r.done) {
       put(card, h("h2", {}, "Revisão"), h("div", { class: "box ok" }, "Nada para revisar agora neste modo. Bom trabalho!"),
@@ -1304,10 +1360,13 @@ function updateAIPill(enabled, provider, model) {
 
 // ---------------------------------------------------------------- início
 async function init() {
+  LangSwitcher.render();
   try {
     const s = await api("/api/status");
     updateAIPill(s.ai_enabled, s.provider, s.model);
   } catch (_) { /* a página segue funcionando */ }
+  // sincroniza idioma salvo localmente com o backend
+  try { await api("/api/languages/active", { method: "POST", body: { language: LangSwitcher.get() } }); } catch (_) { /* ignora */ }
   const start = location.hash.slice(1);
   go(tabs[start] ? start : "today");
 }

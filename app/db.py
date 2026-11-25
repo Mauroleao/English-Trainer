@@ -8,6 +8,11 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Optional
 
+SUPPORTED_LANGUAGES = {
+    "en": {"code": "en", "name": "Inglês", "name_en": "English", "native": "English", "flag": "🇺🇸", "tts": "en-US"},
+    "de": {"code": "de", "name": "Alemão", "name_en": "German", "native": "Deutsch", "flag": "🇩🇪", "tts": "de-DE"},
+}
+
 SCHEMA = """
 PRAGMA journal_mode = WAL;
 
@@ -17,7 +22,8 @@ CREATE TABLE IF NOT EXISTS dialogs (
     level       TEXT,
     description TEXT,
     builtin     INTEGER NOT NULL DEFAULT 0,
-    created_at  TEXT NOT NULL
+    created_at  TEXT NOT NULL,
+    language    TEXT NOT NULL DEFAULT 'en'
 );
 
 CREATE TABLE IF NOT EXISTS phrases (
@@ -28,7 +34,8 @@ CREATE TABLE IF NOT EXISTS phrases (
     en        TEXT NOT NULL,
     pt        TEXT NOT NULL,
     en_alt    TEXT NOT NULL DEFAULT '[]',
-    pt_alt    TEXT NOT NULL DEFAULT '[]'
+    pt_alt    TEXT NOT NULL DEFAULT '[]',
+    language  TEXT NOT NULL DEFAULT 'en'
 );
 
 CREATE TABLE IF NOT EXISTS phrase_progress (
@@ -39,15 +46,16 @@ CREATE TABLE IF NOT EXISTS phrase_progress (
 );
 
 CREATE TABLE IF NOT EXISTS texts (
-    id         INTEGER PRIMARY KEY,
-    title      TEXT,
-    pt_text    TEXT NOT NULL,
-    en_text    TEXT NOT NULL,
-    status     TEXT NOT NULL DEFAULT 'pending',
-    attempts   INTEGER NOT NULL DEFAULT 0,
-    created_at TEXT NOT NULL,
-    solved_at  TEXT,
-    solved_text TEXT
+    id          INTEGER PRIMARY KEY,
+    title       TEXT,
+    pt_text     TEXT NOT NULL,
+    en_text     TEXT NOT NULL,
+    status      TEXT NOT NULL DEFAULT 'pending',
+    attempts    INTEGER NOT NULL DEFAULT 0,
+    created_at  TEXT NOT NULL,
+    solved_at   TEXT,
+    solved_text TEXT,
+    language    TEXT NOT NULL DEFAULT 'en'
 );
 
 CREATE TABLE IF NOT EXISTS text_attempts (
@@ -61,7 +69,7 @@ CREATE TABLE IF NOT EXISTS text_attempts (
 
 CREATE TABLE IF NOT EXISTS words (
     id          INTEGER PRIMARY KEY,
-    word        TEXT NOT NULL UNIQUE,
+    word        TEXT NOT NULL,
     meaning_pt  TEXT,
     is_common   INTEGER NOT NULL DEFAULT 0,
     in_review   INTEGER NOT NULL DEFAULT 1,
@@ -69,7 +77,9 @@ CREATE TABLE IF NOT EXISTS words (
     next_review TEXT,
     correct     INTEGER NOT NULL DEFAULT 0,
     wrong       INTEGER NOT NULL DEFAULT 0,
-    created_at  TEXT NOT NULL
+    created_at  TEXT NOT NULL,
+    tag         TEXT,
+    language    TEXT NOT NULL DEFAULT 'en'
 );
 
 CREATE TABLE IF NOT EXISTS word_contexts (
@@ -132,7 +142,8 @@ CREATE TABLE IF NOT EXISTS pronunciation_log (
     target     TEXT NOT NULL,
     spoken     TEXT NOT NULL,
     score      INTEGER NOT NULL,
-    created_at TEXT NOT NULL
+    created_at TEXT NOT NULL,
+    language   TEXT NOT NULL DEFAULT 'en'
 );
 """
 
@@ -149,10 +160,45 @@ def init_db(path: str) -> None:
     with closing(connect(path)) as conn:
         conn.executescript(SCHEMA)
         # migrações leves: bancos criados por versões anteriores ganham as colunas novas sem perder dados
-        cols = {r["name"] for r in conn.execute("PRAGMA table_info(words)")}
-        if "tag" not in cols:
-            conn.execute("ALTER TABLE words ADD COLUMN tag TEXT")  # 'ti' = vocabulário de desenvolvimento
+        cols_words = {r["name"] for r in conn.execute("PRAGMA table_info(words)")}
+        if "tag" not in cols_words:
+            conn.execute("ALTER TABLE words ADD COLUMN tag TEXT")
+        if "language" not in cols_words:
+            conn.execute("ALTER TABLE words ADD COLUMN language TEXT NOT NULL DEFAULT 'en'")
+
+        cols_dialogs = {r["name"] for r in conn.execute("PRAGMA table_info(dialogs)")}
+        if "language" not in cols_dialogs:
+            conn.execute("ALTER TABLE dialogs ADD COLUMN language TEXT NOT NULL DEFAULT 'en'")
+
+        cols_phrases = {r["name"] for r in conn.execute("PRAGMA table_info(phrases)")}
+        if "language" not in cols_phrases:
+            conn.execute("ALTER TABLE phrases ADD COLUMN language TEXT NOT NULL DEFAULT 'en'")
+
+        cols_texts = {r["name"] for r in conn.execute("PRAGMA table_info(texts)")}
+        if "language" not in cols_texts:
+            conn.execute("ALTER TABLE texts ADD COLUMN language TEXT NOT NULL DEFAULT 'en'")
+
+        cols_pron = {r["name"] for r in conn.execute("PRAGMA table_info(pronunciation_log)")}
+        if "language" not in cols_pron:
+            conn.execute("ALTER TABLE pronunciation_log ADD COLUMN language TEXT NOT NULL DEFAULT 'en'")
+
+        conn.execute("CREATE INDEX IF NOT EXISTS idx_words_lang ON words(language)")
+        conn.execute("CREATE INDEX IF NOT EXISTS idx_dialogs_lang ON dialogs(language)")
+        conn.execute("CREATE INDEX IF NOT EXISTS idx_phrases_lang ON phrases(language)")
         conn.commit()
+
+
+def get_active_language(db: sqlite3.Connection) -> str:
+    lang = get_setting(db, "active_language", "en")
+    return lang if lang in SUPPORTED_LANGUAGES else "en"
+
+
+def set_active_language(db: sqlite3.Connection, lang: str) -> str:
+    cleaned = (lang or "").strip().lower()
+    if cleaned not in SUPPORTED_LANGUAGES:
+        cleaned = "en"
+    set_setting(db, "active_language", cleaned)
+    return cleaned
 
 
 def now_iso() -> str:

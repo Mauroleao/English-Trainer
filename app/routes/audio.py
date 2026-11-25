@@ -15,20 +15,24 @@ router = APIRouter(prefix="/api/audio", tags=["audio"])
 CACHE_DIR = Path(__file__).resolve().parent.parent.parent / "data" / "audio_cache"
 
 
-def _get_cache_path(text: str, speed: float) -> Path:
-    key = hashlib.md5(f"{text.strip().lower()}_{speed:.2f}".encode("utf-8")).hexdigest()
+def _get_cache_path(text: str, speed: float, lang: str = "en") -> Path:
+    key = hashlib.md5(f"{text.strip().lower()}_{speed:.2f}_{lang}".encode("utf-8")).hexdigest()
     return CACHE_DIR / f"{key}.mp3"
 
 
 @router.get("/tts")
-def get_tts(text: str = Query(..., min_length=1, max_length=600), speed: float = Query(1.0, ge=0.5, le=1.5)):
-    """Gera ou recupera do cache o áudio MP3 em inglês natural para a frase solicitada."""
+def get_tts(
+    text: str = Query(..., min_length=1, max_length=600),
+    speed: float = Query(1.0, ge=0.5, le=1.5),
+    lang: str = Query("en", pattern="^(en|de|es|fr|it)$"),
+):
+    """Gera ou recupera do cache o áudio MP3 no idioma natural para a frase solicitada."""
     cleaned = text.strip()
     if not cleaned:
         raise HTTPException(400, "Texto vazio.")
 
     CACHE_DIR.mkdir(parents=True, exist_ok=True)
-    cache_file = _get_cache_path(cleaned, speed)
+    cache_file = _get_cache_path(cleaned, speed, lang)
 
     # 1. Se já está no cache local, retorna imediatamente sem chamada de rede
     if cache_file.is_file():
@@ -40,7 +44,7 @@ def get_tts(text: str = Query(..., min_length=1, max_length=600), speed: float =
             pass
 
     # 2. Busca do serviço TTS
-    url = f"https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q={urllib.parse.quote(cleaned)}"
+    url = f"https://translate.google.com/translate_tts?ie=UTF-8&tl={lang}&client=tw-ob&q={urllib.parse.quote(cleaned)}"
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)"})
     try:
         with urllib.request.urlopen(req, timeout=8.0) as resp:

@@ -25,6 +25,7 @@ def add_words_from_text(
     source_id: Optional[int] = None,
     *,
     glossary: Optional[dict[str, str]] = None,
+    language: str = "en",
 ) -> dict:
     """Separa todas as palavras do texto e grava as que ainda não existem.
 
@@ -35,19 +36,23 @@ def add_words_from_text(
     with db:
         for word, sentence in extract_words(text):
             cur = db.execute(
-                "INSERT OR IGNORE INTO words(word, meaning_pt, is_common, in_review, created_at) VALUES(?,?,?,?,?)",
-                (word, glossary.get(word), int(is_common(word)), int(not is_common(word)), now_iso()),
+                "INSERT OR IGNORE INTO words(word, meaning_pt, is_common, in_review, created_at, language) VALUES(?,?,?,?,?,?)",
+                (word, glossary.get(word), int(is_common(word)), int(not is_common(word)), now_iso(), language),
             )
+            word_row = db.execute("SELECT id FROM words WHERE word = ? AND language = ?", (word, language)).fetchone()
+            if not word_row:
+                word_row = db.execute("SELECT id FROM words WHERE word = ?", (word,)).fetchone()
+            word_id = word_row["id"]
+
             if cur.rowcount:
                 added += 1
             else:
                 existing += 1
                 if word in glossary:
                     db.execute(
-                        "UPDATE words SET meaning_pt = ? WHERE word = ? AND (meaning_pt IS NULL OR meaning_pt = '')",
-                        (glossary[word], word),
+                        "UPDATE words SET meaning_pt = ? WHERE id = ? AND (meaning_pt IS NULL OR meaning_pt = '')",
+                        (glossary[word], word_id),
                     )
-            word_id = db.execute("SELECT id FROM words WHERE word = ?", (word,)).fetchone()["id"]
             n = db.execute("SELECT COUNT(*) FROM word_contexts WHERE word_id = ?", (word_id,)).fetchone()[0]
             if n < MAX_CONTEXTS_PER_WORD:
                 db.execute(

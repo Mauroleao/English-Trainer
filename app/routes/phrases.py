@@ -6,7 +6,7 @@ from typing import Optional
 
 from fastapi import APIRouter, BackgroundTasks, Depends, HTTPException
 
-from ..db import Settings, now_iso
+from ..db import SUPPORTED_LANGUAGES, Settings, get_active_language, now_iso
 from ..deps import get_db, get_db_path, get_llm, get_settings
 from ..schemas import CheckIn, DialogIn, PhraseIn, RevealIn
 from ..seed import GLOSSARY
@@ -48,12 +48,16 @@ def _bump(db, phrase_id: int, *, completed: int = 0, mistakes: int = 0) -> None:
 
 # --------------------------------------------------------------------------- diálogos
 @router.get("/dialogs")
-def list_dialogs(db=Depends(get_db)):
+def list_dialogs(lang: Optional[str] = None, db=Depends(get_db)):
+    target_lang = lang if lang in SUPPORTED_LANGUAGES else get_active_language(db)
     rows = db.execute(
-        "SELECT d.id, d.title, d.level, d.description, d.builtin, COUNT(p.id) AS phrase_count, COUNT(DISTINCT p.speaker) AS speakers, "
+        "SELECT d.id, d.title, d.level, d.description, d.builtin, d.language, COUNT(p.id) AS phrase_count, COUNT(DISTINCT p.speaker) AS speakers, "
         "COALESCE(SUM(CASE WHEN pp.completed > 0 THEN 1 ELSE 0 END), 0) AS done "
         "FROM dialogs d LEFT JOIN phrases p ON p.dialog_id = d.id "
-        "LEFT JOIN phrase_progress pp ON pp.phrase_id = p.id GROUP BY d.id ORDER BY d.id"
+        "LEFT JOIN phrase_progress pp ON pp.phrase_id = p.id "
+        "WHERE d.language = ? "
+        "GROUP BY d.id ORDER BY d.id",
+        (target_lang,),
     ).fetchall()
     return [dict(r) for r in rows]
 

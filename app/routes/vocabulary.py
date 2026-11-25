@@ -5,7 +5,7 @@ from typing import Optional
 
 from fastapi import APIRouter, BackgroundTasks, Depends, HTTPException, Query
 
-from ..db import Settings, now_iso
+from ..db import SUPPORTED_LANGUAGES, Settings, get_active_language, now_iso
 from ..deps import get_db, get_db_path, get_llm, get_settings
 from ..schemas import ImportIn, ReviewAnswerIn, WordPatch
 from ..seed import GLOSSARY
@@ -50,11 +50,13 @@ def list_words(
     q: str = "",
     filter: str = Query("all", pattern="^(all|review|common|due|no_meaning|hard|learned|learning)$"),
     tag: Optional[str] = Query(None, pattern="^ti$"),
+    lang: Optional[str] = None,
     limit: int = Query(500, ge=1, le=2000),
     offset: int = Query(0, ge=0),
     db=Depends(get_db),
 ):
-    where, args = [], []
+    target_lang = lang if lang in SUPPORTED_LANGUAGES else get_active_language(db)
+    where, args = ["w.language = ?"], [target_lang]
     if q.strip():
         where.append("w.word LIKE ?")
         args.append(f"{q.strip().lower()}%")
@@ -85,7 +87,8 @@ def list_words(
 
 
 @router.get("/vocab/stats")
-def vocab_stats(db=Depends(get_db)):
+def vocab_stats(lang: Optional[str] = None, db=Depends(get_db)):
+    target_lang = lang if lang in SUPPORTED_LANGUAGES else get_active_language(db)
     now = now_iso()
     row = db.execute(
         "SELECT COUNT(*) AS total, "
@@ -97,8 +100,8 @@ def vocab_stats(db=Depends(get_db)):
         "COALESCE(SUM(CASE WHEN in_review = 1 AND box < 4 AND (correct > 0 OR wrong > 0) THEN 1 ELSE 0 END), 0) AS learning, "
         "COALESCE(SUM(CASE WHEN tag = 'ti' THEN 1 ELSE 0 END), 0) AS ti_total, "
         "COALESCE(SUM(CASE WHEN tag = 'ti' AND box >= 4 THEN 1 ELSE 0 END), 0) AS ti_learned "
-        "FROM words",
-        (now,),
+        "FROM words WHERE language = ?",
+        (now, target_lang),
     ).fetchone()
     return dict(row)
 
@@ -126,8 +129,8 @@ def fill_meanings(db_path: str = Depends(get_db_path), llm=Depends(get_llm)):
 # --------------------------------------------------------------------------- revisão
 # modos: meaning = vê a palavra, digita o significado | reverse = vê o significado, digita a palavra
 #        listen  = ouve a palavra (o navegador fala) e digita o que ouviu
-def _reviewable(mode: str, tag: Optional[str]) -> str:
-    cond = "w.in_review = 1 AND (w.next_review IS NULL OR w.next_review <= ?)"
+def _reviewable(mode: str, tag: Optional[str], lang: str = "en") -> str:
+    cond = "w.in_review = 1 AND (w.next_review IS NULL OR w.next_review <= ?) AND w.language = ?"
     if mode != "listen":  # ouvir e digitar não precisa de significado salvo
         cond += " AND w.meaning_pt IS NOT NULL AND w.meaning_pt != ''"
     if tag:
@@ -140,20 +143,22 @@ _TAG = Query(None, pattern="^ti$")
 
 
 @router.get("/review/next")
-def review_next(mode: str = _MODE, tag: Optional[str] = _TAG, db=Depends(get_db)):
+def review_next(mode: str = _MODE, tag: Optional[str] = _TAG, lang: Optional[str] = None, db=Depends(get_db)):
+    target_lang = lang if lang in SUPPORTED_LANGUAGES else get_active_language(db)
     now = now_iso()
-    cond = _reviewable(mode, tag)
-    remaining = db.execute(f"SELECT COUNT(*) FROM words w WHERE {cond}", (now,)).fetchone()[0]
+    cond = _reviewable(mode, tag, target_lang)
+    remaining = db.execute(f"SELECT COUNT(*) FROM words w WHERE {cond}", (now, target_lang)).fetchone()[0]
     row = db.execute(
         f"SELECT w.*, {_EXAMPLE} AS example FROM words w WHERE {cond} "
         "ORDER BY (w.next_review IS NULL), w.next_review, w.wrong DESC, w.id LIMIT 1",
-        (now,),
+        (now, target_lang),
     ).fetchone()
     if row is None:
-        later = _reviewable(mode, tag).replace("(w.next_review IS NULL OR w.next_review <= ?)", "w.next_review > ?")
-        nxt = db.execute(f"SELECT MIN(w.next_review) FROM words w WHERE {later}", (now,)).fetchone()[0]
+        later = _reviewable(mode, tag, target_lang).replace("(w.next_review IS NULL OR w.next_review <= ?)", "w.next_review > ?")
+        nxt = db.execute(f"SELECT MIN(w.next_review) FROM words w WHERE {later}", (now, target_lang)).fetchone()[0]
         pending = db.execute(
-            "SELECT COUNT(*) FROM words WHERE in_review = 1 AND (meaning_pt IS NULL OR meaning_pt = '')"
+            "SELECT COUNT(*) FROM words WHERE in_review = 1 AND language = ? AND (meaning_pt IS NULL OR meaning_pt = '')",
+            (target_lang,),
         ).fetchone()[0]
         return {"done": True, "next_due": nxt, "remaining": 0, "pending_meanings": pending}
     word = {"id": row["id"], "word": row["word"], "example": row["example"], "box": row["box"], "tag": row["tag"]}
