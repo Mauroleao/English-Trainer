@@ -958,6 +958,8 @@ async function viewVocab() {
   const stats = await api("/api/vocab/stats");
   const box = h("textarea", { placeholder: "Cole aqui qualquer texto em inglês. Todas as palavras serão separadas para revisão." });
   const msg = h("div", {});
+  const importLimit = 30000;
+  const textCount = h("div", { class: "muted" }, `0 / ${importLimit.toLocaleString("pt-BR")} caracteres`);
   const body = h("tbody", {});
   const q = h("input", { type: "text", placeholder: "Buscar palavra…" });
   const filters = [["all", "Todas"], ["review", "Na revisão"], ["due", "Para revisar agora"], ["learning", "Em aprendizado"],
@@ -969,14 +971,30 @@ async function viewVocab() {
   const count = h("div", { class: "muted" });
 
   const importBtn = h("button", { class: "btn primary", onclick: async () => {
+    const text = box.value.trim();
+    if (!text) {
+      put(msg, h("div", { class: "box warn" }, "Cole um texto antes de separar as palavras."));
+      return;
+    }
+    if (box.value.length > importLimit) {
+      put(msg, h("div", { class: "box warn" }, `O texto excede o limite de ${importLimit.toLocaleString("pt-BR")} caracteres.`));
+      return;
+    }
+
     importBtn.disabled = true;
+    importBtn.textContent = "Separando…";
     try {
-      const r = await api("/api/vocab/import", { method: "POST", body: { text: box.value } });
+      const r = await api("/api/vocab/import", { method: "POST", body: { text } });
       put(msg, h("div", { class: "box ok" }, `${r.total} palavras separadas (${r.added} novas).` + (r.without_meaning ? ` ${r.without_meaning} ainda sem significado.` : "")));
       box.value = ""; setTimeout(() => { if (currentTab === "vocab") viewVocab(); }, 1200);
     } catch (e) { put(msg, errBox(e)); }
     importBtn.disabled = false;
+    importBtn.textContent = "Separar palavras";
   } }, "Separar palavras");
+  box.addEventListener("input", () => {
+    textCount.textContent = `${box.value.length.toLocaleString("pt-BR")} / ${importLimit.toLocaleString("pt-BR")} caracteres`;
+    if (msg.childNodes.length) put(msg);
+  });
 
   async function load() {
     const p = new URLSearchParams({ filter: filter.value, q: q.value, limit: "300" });
@@ -1010,8 +1028,8 @@ async function viewVocab() {
         ["Aprendidas", stats.learned], ["Sem significado", stats.no_meaning], ["Vocabulário de TI", `${stats.ti_learned}/${stats.ti_total}`]]
         .map(([l, v]) => h("div", { class: "stat" }, h("b", {}, v), h("span", { class: "muted" }, l)))),
     h("div", { class: "card" }, h("h2", {}, "Separar palavras de um texto"),
-      h("p", { class: "muted" }, "Textos resolvidos, diálogos e conversas já mandam as palavras para cá sozinhos. Use este campo para qualquer outro texto em inglês."),
-      box, h("div", { class: "row end", style: "margin-top:8px" }, importBtn), msg),
+      h("p", { class: "muted" }, `Textos resolvidos, diálogos e conversas já mandam as palavras para cá sozinhos. Use este campo para qualquer outro texto em inglês (até ${importLimit.toLocaleString("pt-BR")} caracteres).`),
+      box, h("div", { class: "row", style: "justify-content:space-between;margin-top:8px" }, textCount, importBtn), msg),
     h("div", { class: "card" }, h("div", { class: "row" }, h("div", { class: "grow" }, q), h("div", {}, filter),
       h("label", { class: "chk" }, tiChk, "Só TI"), fillBtn), count,
       h("table", {}, h("thead", {}, h("tr", {}, h("th", {}, "Palavra"), h("th", {}, "Significado"), h("th", { class: "hide" }, "Placar"), h("th", {}, "Revisar"))), body)));
